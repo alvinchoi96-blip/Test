@@ -1,0 +1,3 @@
+../Core/Src/warnerr.c:10:6:Warn_Error_Process	4	static
+../Core/Src/warnerr.c:139:6:DCHG_Warn_Error_Process	4	static
+../Core/Src/warnerr.c:312:6:CHG_Warn_Error_Process	4	static

@@ -1,0 +1,2 @@
+../Core/Src/portio_BMS2.4.c:12:6:Read_IGN	16	static
+../Core/Src/portio_BMS2.4.c:56:6:Write_Port_Output	8	static

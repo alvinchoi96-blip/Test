@@ -1,0 +1,10 @@
+../Core/Src/monitor.c:10:6:Monitoring	88	static
+../Core/Src/monitor.c:148:6:print_adc	112	static
+../Core/Src/monitor.c:160:6:print_etc	96	static
+../Core/Src/monitor.c:176:6:print_error	96	static
+../Core/Src/monitor.c:192:6:print_cells	424	static
+../Core/Src/monitor.c:249:6:print_aux	328	static
+../Core/Src/monitor.c:319:6:print_stat	128	static
+../Core/Src/monitor.c:333:6:print_pec	96	static
+../Core/Src/monitor.c:345:6:print_open	96	static
+../Core/Src/monitor.c:372:6:print_config	152	static

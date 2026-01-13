@@ -1,0 +1,11 @@
+../Core/Src/SettingMode.c:19:6:WriteToFlash	16	static
+../Core/Src/SettingMode.c:120:6:ReadFromFlash	16	static
+../Core/Src/SettingMode.c:139:6:SettingMode	8	static
+../Core/Src/SettingMode.c:651:6:SetDefault	4	static
+../Core/Src/SettingMode.c:684:6:ValueAssign	8	static
+../Core/Src/SettingMode.c:814:9:BCDtoDEC	24	static
+../Core/Src/SettingMode.c:820:9:DECtoBCD	24	static
+../Core/Src/SettingMode.c:826:6:TimeUpdate	8	static
+../Core/Src/SettingMode.c:831:6:Errorlog	8	static
+../Core/Src/SettingMode.c:850:6:ErrValueAssign	16	static
+../Core/Src/SettingMode.c:877:6:ErrorDisplay	8	static

@@ -1,0 +1,2 @@
+../Core/Src/callback.c:12:6:HAL_CAN_RxFifo0MsgPendingCallback	24	static
+../Core/Src/callback.c:80:6:HAL_UART_RxCpltCallback	16	static

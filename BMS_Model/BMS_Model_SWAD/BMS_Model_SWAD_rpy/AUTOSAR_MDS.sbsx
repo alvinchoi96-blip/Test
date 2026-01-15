@@ -1,0 +1,963 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>949</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<IProfile type="e">
+			<_id type="a">GUID 278caec6-a767-499f-8a67-fda13dc0d0c5</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">C_CG</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">3</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Class</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">4</size>
+												<IProperty type="e">
+													<_Name type="a">In</_Name>
+													<_Value type="a">$type</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">InOut</_Name>
+													<_Value type="a">$type</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Out</_Name>
+													<_Value type="a">$type</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ReturnType</_Name>
+													<_Value type="a">$type</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Event</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">4</size>
+												<IProperty type="e">
+													<_Name type="a">In</_Name>
+													<_Value type="a">$type</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">InOut</_Name>
+													<_Value type="a">$type</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Out</_Name>
+													<_Value type="a">$type</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ReturnType</_Name>
+													<_Value type="a">$type</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Type</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">4</size>
+												<IProperty type="e">
+													<_Name type="a">In</_Name>
+													<_Value type="a">$type</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">InOut</_Name>
+													<_Value type="a">$type</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Out</_Name>
+													<_Value type="a">$type</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ReturnType</_Name>
+													<_Value type="a">$type</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">AUTOSAR_MDS</_name>
+			<_modifiedTimeWeak type="a">6.25.2025::4:18:10</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.25.2025::4:18:10</_modifiedTime>
+			<_lastID type="a">18</_lastID>
+			<weakCGTime type="a">6.25.2025::4:18:10</weakCGTime>
+			<strongCGTime type="a">12.4.2024::4:14:58</strongCGTime>
+			<_defaultComposite type="s">GUID d3ec3c56-978d-4dbc-b3aa-c9e38e241149</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">12.4.2024::3:35:34</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 4604fffa-9b68-4e43-9e54-b0246a3485c8</value>
+				<value>GUID b8efc2f9-1237-4250-8ba2-f72d5cd8f1fb</value>
+				<value>GUID fd0a6f96-6812-424d-9b96-047fc2040752</value>
+				<value>GUID 9450a224-190d-417b-98ef-5bb3f3dac4d5</value>
+				<value>GUID 6aa5539a-7869-4ab0-bcb7-7f13dde09b59</value>
+				<value>GUID 10b1cb42-7c6e-4194-8ad7-efd55e5cc3ed</value>
+				<value>GUID a3e67fd2-c709-4ca5-8130-1a41c60967ce</value>
+				<value>GUID afbff1ff-592b-4770-b2fd-0952a81280ee</value>
+				<value>GUID 219eabde-126b-4757-a359-4cea4f1e6718</value>
+				<value>GUID cfad5a17-34a8-4566-8e23-d34271ad8f50</value>
+				<value>GUID 053ee224-075f-4aea-afec-cf6bcdcd5440</value>
+				<value>GUID 8ae00e8b-de5a-4827-9860-0a452466f6c3</value>
+				<value>GUID ab1201ae-cbf5-4cff-8ae4-5ba3044a080f</value>
+				<value>GUID 3e6d63c6-8134-4aaa-9f99-974da97a42c3</value>
+				<value>GUID eb6ac8b0-b663-4fb2-92d6-6411d50f5531</value>
+				<value>GUID e6f9cde8-fece-47b3-bc8c-89c5d79f8143</value>
+				<value>GUID d1440678-2639-483d-bdff-7ded4b3b73f5</value>
+				<value>GUID 42852f02-701b-4e59-bbef-e8a985f4f790</value>
+				<value>GUID 186b0d02-2154-4b79-bc4d-b056445dc580</value>
+				<value>GUID d3ec3c56-978d-4dbc-b3aa-c9e38e241149</value>
+				<value>GUID 3b7758ce-58db-44da-89ed-9f9e2d500b25</value>
+				<value>GUID 37e53e0c-8c86-4bb5-86be-447ac17da769</value>
+			</AggregatesList>
+		</IProfile>
+		<ITag type="e">
+			<_id type="a">GUID 4604fffa-9b68-4e43-9e54-b0246a3485c8</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">kind</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset129 \'b1\'bc\'b8\'b2;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 tag_6\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hid type="a">GUID 3b7758ce-58db-44da-89ed-9f9e2d500b25</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID bd559f58-ccde-4b2a-a84b-254e2305c7a2</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID bd559f58-ccde-4b2a-a84b-254e2305c7a2</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="a">DomainProfile</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID b8efc2f9-1237-4250-8ba2-f72d5cd8f1fb</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">progress_rate</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset129 \'b1\'bc\'b8\'b2;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 progress_rate\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 803e8e6b-47eb-4a36-ab11-8ab1a2711922</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 803e8e6b-47eb-4a36-ab11-8ab1a2711922</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="a">40%25</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID fd0a6f96-6812-424d-9b96-047fc2040752</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">target_date</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset129 \'b1\'bc\'b8\'b2;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 target_date\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 0aa4911c-ade9-4ef7-be80-c26dc5f772c2</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 0aa4911c-ade9-4ef7-be80-c26dc5f772c2</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="a">2014-02-28</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID 9450a224-190d-417b-98ef-5bb3f3dac4d5</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">author</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 author\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 4c6f774a-7c58-47fa-90d6-cbeb72db8b31</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 4c6f774a-7c58-47fa-90d6-cbeb72db8b31</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="a">ADMIN</_value>
+		</ILiteralSpecification>
+		<IStereotype type="e">
+			<_id type="a">GUID 6aa5539a-7869-4ab0-bcb7-7f13dde09b59</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">mandatory</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset129 \'b1\'bc\'b8\'b2;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 mandatory\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">12.4.2024::4:14:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.12.2017::0:36:56</_modifiedTime>
+			<_lastID type="a">3</_lastID>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">2</size>
+					<value>Class</value>
+					<value>Package</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+		</IStereotype>
+		<IStereotype type="e">
+			<_id type="a">GUID 10b1cb42-7c6e-4194-8ad7-efd55e5cc3ed</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">optional</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset129 \'b1\'bc\'b8\'b2;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 optional\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">12.4.2024::4:14:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.12.2017::0:36:56</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">2</size>
+					<value>Class</value>
+					<value>Package</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+		</IStereotype>
+		<IStereotype type="e">
+			<_id type="a">GUID a3e67fd2-c709-4ca5-8130-1a41c60967ce</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">default</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset129 \'b1\'bc\'b8\'b2;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 default\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">12.4.2024::4:14:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.12.2017::0:36:56</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">2</size>
+					<value>Class</value>
+					<value>Package</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+		</IStereotype>
+		<IStereotype type="e">
+			<_id type="a">GUID afbff1ff-592b-4770-b2fd-0952a81280ee</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">alternative</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset129 \'b1\'bc\'b8\'b2;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 alternative\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">12.4.2024::4:14:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.12.2017::0:36:56</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">2</size>
+					<value>Class</value>
+					<value>Package</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+		</IStereotype>
+		<IStereotype type="e">
+			<_id type="a">GUID 219eabde-126b-4757-a359-4cea4f1e6718</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">modeEnumPkg</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset129 \'b1\'bc\'b8\'b2;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 l_modeEnumPkg\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">12.4.2024::4:14:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.12.2017::0:36:56</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					<value>Dependency</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+		</IStereotype>
+		<IStereotype type="e">
+			<_id type="a">GUID cfad5a17-34a8-4566-8e23-d34271ad8f50</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">dataTypeMappingSet</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset129 \'b1\'bc\'b8\'b2;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 dataTypeMappingSet\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">12.4.2024::4:14:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.12.2017::0:36:56</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					<value>Dependency</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+		</IStereotype>
+		<IStereotype type="e">
+			<_id type="a">GUID 053ee224-075f-4aea-afec-cf6bcdcd5440</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">caTypePkg</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset129 \'b1\'bc\'b8\'b2;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 compilerAbstractionTypePkg\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">12.4.2024::4:14:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.12.2017::0:36:56</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					<value>Dependency</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+		</IStereotype>
+		<IStereotype type="e">
+			<_id type="a">GUID 8ae00e8b-de5a-4827-9860-0a452466f6c3</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Subsystem_ADSN_Workflow_Message</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 Subsystem_ADSN_Workflow_Message\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">12.4.2024::4:14:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2017::7:1:40</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					<value>Constraint</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+		</IStereotype>
+		<IStereotype type="e">
+			<_id type="a">GUID ab1201ae-cbf5-4cff-8ae4-5ba3044a080f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Class Diagram</_name>
+			<_modifiedTimeWeak type="a">12.4.2024::4:14:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.4.2024::3:25:27</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					<value>ObjectModelDiagram</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+			<_newTerm type="a">1</_newTerm>
+		</IStereotype>
+		<ISubsystem type="e">
+			<_id type="a">GUID 3e6d63c6-8134-4aaa-9f99-974da97a42c3</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">Model</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Stereotype</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">PluralName</_Name>
+													<_Value type="a">CustomViews</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">RapidAUTOView</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 customview_2\par%0D
+}%0D
+</_displayName>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hid type="a">GUID eb6ac8b0-b663-4fb2-92d6-6411d50f5531</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.14.2025::12:59:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.14.2025::12:59:29</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">1.14.2025::12:59:29</weakCGTime>
+			<strongCGTime type="a">12.4.2024::4:14:58</strongCGTime>
+			<_defaultComposite type="s">GUID 177d5bda-cadc-4762-9475-00106e4eff3c</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID ea18b5c3-03f9-42ed-99f7-2d53548faf7b</value>
+				<value>GUID cc01dfad-7acc-48f4-8617-c8ffa941b491</value>
+				<value>GUID 177d5bda-cadc-4762-9475-00106e4eff3c</value>
+			</AggregatesList>
+		</ISubsystem>
+		<ITag type="e">
+			<_id type="a">GUID ea18b5c3-03f9-42ed-99f7-2d53548faf7b</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CriteriaType</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID ea69effa-e961-43a2-a7a5-a7696cf38b35</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID ea69effa-e961-43a2-a7a5-a7696cf38b35</_id>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_value type="a">ElementTypes</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID cc01dfad-7acc-48f4-8617-c8ffa941b491</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Criteria</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 Criteria\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.14.2025::12:59:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.14.2025::12:59:29</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpString</_hname>
+					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 40c9305d-522b-484a-97db-ee2297165d9a</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 40c9305d-522b-484a-97db-ee2297165d9a</_id>
+			<_modifiedTimeWeak type="a">1.14.2025::12:59:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.14.2025::12:59:29</_modifiedTime>
+			<_value type="a">External Model,AbsoluteTolerance,AbstractClassTailoring,AccessCount,AccessCountSet,accessedModeGroup,accessedParameter,accessedVariable,AclObjectSet,AclOperation,AclPermission,AclRole,activationPoint,ActivityDiagram,AdminData,AgeConstraint,AggregationCondition,AggregationTailoring,agingCycle,AliasNameAssignment,AliasNameSet,AnalyzedExecutionTime,annotationText,AnyInstanceRef,apiServicePrefix,ApplicationArrayDataType,ApplicationArrayElement,ApplicationCompositeDataTypeSubElementRef,ApplicationCompositeElementInPortInterfaceInstanceRef,ApplicationDataPrototypeInSystemInstanceRef,ApplicationEndpoint,ApplicationEntry,ApplicationError,ApplicationErrorMapping,ApplicationPartition,ApplicationPartitionToEcuPartitionMapping,ApplicationPrimitiveDataType,ApplicationRecordDataType,ApplicationRecordElement,ApplicationRuleBasedValueSpecification,ApplicationSwComponentType,ApplicationValueSpecification,ARAnnotation,ArbitraryEventTriggering,Area,ARExtensionAttribute,ARExtensionElement,argument,ArgumentDataPrototype,argumentMapping,ARObject_Tag,ARPackage,ArParameterInImplementationDataInstanceRef,arraySize,ArrayValueSpecification,artifactDescriptor,ARTrigger,arTypedPerInstanceMemory,ArTypedPerInstanceMemory,ArVariableInImplementationDataInstanceRef,AssemblySwConnector,assignedData,assignedDataType,assignedEntryRole,assignedPort,AssignFrameId,AssignFrameIdRange,AssignNad,AsynchronousServerCallPoint,AsynchronousServerCallResultPoint,AsynchronousServerCallReturnsEvent,AtpMixedStringDataType,AUTO_AsynchronousServerCallPoint,AUTO_dataReadAccess,AUTO_dataReceivedEvent,AUTO_dataReceivePointByArgument,AUTO_dataReceivePointByValue,AUTO_dataSendPoint,AUTO_dataWriteAccess,AUTO_SynchronousServerCallPoint,AutosarDataTypeRefConditional,AutosarEngineeringObject,AutosarOperationArgumentInstance,autosarParameter,AutosarParameterRef,autosarVariable,autosarVariableInImplDatatype,AutosarVariableInstance,AutosarVariableRef,BackgroundEvent,base,Baseline,BaseTypeDirectDefinition,bestCaseExecutionTime,bitfieldTextTableMaskFirst,bitfieldTextTableMaskSecond,blockLevelContent,blueprintCondition,blueprintDerivationGuide,BlueprintFormula,BlueprintGenerator,BlueprintMapping,blueprintMappingGuide,BlueprintMappingSet,BlueprintPolicyList,BlueprintPolicyNotModifiable,BlueprintPolicySingle,BooleanValueVariationPoint,Br,BswAsynchronousServerCallPoint,BswAsynchronousServerCallResultPoint,BswAsynchronousServerCallReturnsEvent,BswBackgroundEvent,BswCalledEntity,BswCalledEntity_dataSendPoint,BswClientPolicy,BswCompositionTiming,BswDataReceivedEvent,BswDataSendPolicy,BswDebugInfo,BswDirectCallPoint,BswDistinguishedPartition,BswEntryRelationship,BswEntryRelationshipSet,BswExclusiveAreaPolicy,BswExternalTriggerOccurredEvent,BswImplementation,BswInternalBehavior,BswInternalTriggeringPoint,BswInternalTriggeringPointPolicy,BswInternalTriggeringPointRefConditional,BswInternalTriggerOccurredEvent,BswInterruptEntity,BswInterruptEntity_dataSendPoint,BswMgrNeeds,BswModeManagerErrorEvent,BswModeReceiverPolicy,BswModeSenderPolicy,BswModeSwitchAckRequest,BswModeSwitchedAckEvent,BswModeSwitchEvent,BswModuleClientServerEntry,BswModuleDependency,BswModuleDescription,BswModuleDescriptionRefConditional,bswModuleDocumentation,BswModuleEntity_dataSendPoint,BswModuleEntry,BswModuleEntryRefConditional,BswModuleTiming,BswOperationInvokedEvent,BswParameterPolicy,BswPerInstanceMemoryPolicy,BswQueuedDataReceptionPolicy,BswReleasedTriggerPolicy,bswResourceEstimation,BswSchedulableEntity,BswSchedulableEntity_dataSendPoint,BswSchedulerNamePrefix,BswServiceDependency,BswServiceDependencyIdent,BswSynchronousServerCallPoint,BswTimingEvent,BswTriggerDirectImplementation,BswVariableAccess,bufferComputation,BufferProperties,BuildAction,BuildActionEnvironment,BuildActionInvocator,BuildActionIoElement,BuildActionManifest,BuildActionManifestRefConditional,BuildEngineeringObject,bundledConnection,BurstPatternEventTriggering,BusMirrorCanIdRangeMapping,BusMirrorCanIdToCanIdMapping,BusMirrorChannel,BusMirrorChannelMappingCan,BusMirrorChannelMappingFlexray,BusMirrorChannelMappingIp,BusMirrorChannelMappingUserDefined,BusMirrorLinPidToCanIdMapping,byPassPoint,calculationFormula,CalibrationParameterValue,CalibrationParameterValueSet,calledEntry,CanCluster,CanClusterBusOffRecovery,CanClusterConditional,CanClusterVariant,CanCommunicationConnector,CanCommunicationController,CanCommunicationControllerConditional,CanCommunicationControllerVariant,CanControllerConfiguration,CanControllerConfigurationRequirements,canControllerFdAttributes,CanControllerFdConfiguration,CanControllerFdConfigurationRequirements,canControllerFdRequirements,CanFrame,CanFrameTriggering,CanGlobalTimeDomainProps,CanNmCluster,CanNmClusterCoupling,CanNmEcu,CanNmNode,CanNmRangeConfig,CanPhysicalChannel,CanTpAddress,CanTpChannel,CanTpConfig,CanTpConnection,CanTpEcu,CanTpNode,capabilityRecord,Caption,category,change,ChannelLink,chapter,Chapter,ChapterContent,ChapterModel,ChapterOrMsrQuery,checkpoints,choice,CIdentifier,ClassContentConditional,ClientComSpec,ClientIdDefinition,ClientIdDefinitionSet,ClientIdMapping,ClientIdRange,clientPort,ClientServerAnnotation,ClientServerApplicationErrorMapping,ClientServerArrayElementMapping,ClientServerArrayTypeMapping,ClientServerInterfaceMapping,ClientServerInterfaceToBswModuleEntryBlueprintMapping,clientServerOperation,ClientServerOperation,ClientServerOperationBlueprintMapping,ClientServerOperationMapping,clientServerPort,ClientServerPrimitiveTypeMapping,ClientServerRecordElementMapping,ClientServerRecordTypeMapping,ClientServerToSignalGroupMapping,ClientServerToSignalMapping,clusteredComponent,Code,codeLabel,collectedInstance,Collection,Colspec,comBasedSignalGroupTransformation,ComManagementMapping,comManagementPortGroup,command,commConnector,commControllerMapping,Comment,ComMgrUserNeeds,commonProperties,CommonSignalPath,CommunicationBufferLocking,CommunicationConnectorRefConditional,CommunicationControllerMapping,Compiler,ComplexDeviceDriverSwComponentType,ComponentClustering,ComponentInCompositionInstanceRef,ComponentInSystemInstanceRef,ComponentSeparation,CompositeNetworkRepresentation,CompositeRuleBasedValueSpecification,CompositionSwComponentType,Compu,CompuConst,CompuConstFormulaContent,CompuConstNumericContent,CompuConstTextContent,compuDefaultValue,compuDenominator,CompuGenericMath,compuInternalToPhys,compuInverseValue,CompuMethod,CompuNominatorDenominator,compuNumerator,compuPhysToInternal,CompuRationalCoeffs,CompuScale,CompuScaleConstantContents,CompuScaleRationalFormula,CompuScales,ConcreteClassTailoring,ConcretePatternEventTriggering,cond,conditionAccess,ConditionalChangeNad,ConditionByFormula,ConfidenceInterval,conflicts,considerPtoStatus,ConsistencyNeeds,ConsistencyNeedsBlueprintSet,constantMemory,ConstantReference,ConstantSpecification,ConstantSpecificationMapping,ConstantSpecificationMappingSet,ConstraintTailoring,ConsumedEventGroup,ConsumedServiceInstance,ContainedIPduProps,ContainerIPdu,CouplingElement,CouplingPort,CouplingPortConnection,CouplingPortDetails,CouplingPortFifo,CouplingPortRatePolicy,CouplingPortScheduler,CouplingPortShaper,CouplingPortTrafficClassAssignment,createdData,CryptoServiceCertificate,CryptoServiceJobNeeds,CryptoServiceKey,CryptoServiceNeeds,CryptoServicePrimitive,CycleCounter,CycleRepetition,CyclicTiming,data,DataConstr,DataConstrRule,DataDumpEntry,dataElement,DataExchangePoint,DataFilter,DataFormatTailoring,dataMapping,DataPrototypeGroup,DataPrototypeInSystemInstanceRef,DataPrototypeMapping,DataPrototypeTransformationProps,DataPrototypeWithApplicationDataTypeInSystemRef,dataReadAccess,DataReadAccess,DataReceivedEvent,DataReceiveErrorEvent,dataReceivePoint,dataReceivePointByArgument,DataReceivePointByArgument,dataReceivePointByValue,DataReceivePointByValue,dataReceiverPort,DataSendCompletedEvent,dataSenderPort,dataSenderReceiverPort,dataSendPoint,DataSendPoint,DataTransformation,DataTransformationRefConditional,DataTransformationSet,DataTypeMap,DataTypeMappingSet,dataWriteAccess,DataWriteAccess,DataWriteCompletedEvent,DcmIPdu,defaultPeriodBegin,defaultPeriodEnd,defaultValue,DefaultValueElement,defCalprmSet,DefItem,DefList,DelegatedPortAnnotation,DelegationSwConnector,deliveryArtifact,dependencies,DependencyOnArtifact,desc,description,DevelopmentError,dhcpAddressAssignment,DhcpServerConfiguration,DiagEventDebounceCounterBased,DiagEventDebounceMonitorInternal,DiagEventDebounceTimeBased,DiagnosticAccessPermission,DiagnosticAging,DiagnosticClearDiagnosticInformation,DiagnosticClearDiagnosticInformationClass,DiagnosticClearResetEmissionRelatedInfo,DiagnosticClearResetEmissionRelatedInfoClass,DiagnosticComControl,DiagnosticComControlClass,DiagnosticComControlSpecificChannel,DiagnosticComControlSubNodeChannel,DiagnosticCommonElementRefConditional,DiagnosticCommonProps,DiagnosticCommonPropsConditional,DiagnosticCommonPropsVariant,DiagnosticCommunicationManagerNeeds,DiagnosticComponentNeeds,DiagnosticConnectedIndicator,DiagnosticConnection,DiagnosticConnectionRefConditional,DiagnosticContributionSet,DiagnosticControlDTCSetting,DiagnosticControlDTCSettingClass,DiagnosticControlNeeds,DiagnosticCustomServiceClass,DiagnosticDataChangeTrigger,DiagnosticDataElement,DiagnosticDataIdentifier,DiagnosticDataIdentifier_dataElement,DiagnosticDataIdentifierSet,DiagnosticDataTransfer,DiagnosticDataTransferClass,DiagnosticDebounceAlgorithmProps,DiagnosticDemProvidedDataMapping,DiagnosticDtcChangeTrigger,DiagnosticDynamicallyDefineDataIdentifier,DiagnosticDynamicallyDefineDataIdentifierClass,DiagnosticDynamicDataIdentifier,DiagnosticEcuInstanceProps,DiagnosticEcuProps,DiagnosticEcuReset,DiagnosticEcuResetClass,DiagnosticEnableCondition,DiagnosticEnableConditionGroup,DiagnosticEnableConditionNeeds,DiagnosticEnableConditionPortMapping,DiagnosticEnableConditionRefConditional,DiagnosticEnvBswModeElement,DiagnosticEnvConditionFormula,DiagnosticEnvDataCondition,DiagnosticEnvironmentalCondition,DiagnosticEnvModeCondition,DiagnosticEnvSwcModeElement,DiagnosticEvent,DiagnosticEventInfoNeeds,DiagnosticEventManagerNeeds,DiagnosticEventNeeds,DiagnosticEventPortMapping,DiagnosticEventToDebounceAlgorithmMapping,DiagnosticEventToEnableConditionGroupMapping,DiagnosticEventToOperationCycleMapping,DiagnosticEventToStorageConditionGroupMapping,DiagnosticEventToTroubleCodeJ1939Mapping,DiagnosticEventToTroubleCodeUdsMapping,DiagnosticEventWindow,DiagnosticExtendedDataRecord,DiagnosticExtendedDataRecordRefConditional,DiagnosticFimAliasEvent,DiagnosticFimAliasEventGroup,DiagnosticFimAliasEventGroupMapping,DiagnosticFimAliasEventMapping,DiagnosticFimEventGroup,DiagnosticFimFunctionMapping,DiagnosticFreezeFrame,DiagnosticFreezeFrameRefConditional,DiagnosticFunctionIdentifier,DiagnosticFunctionIdentifierInhibit,DiagnosticFunctionInhibitSource,DiagnosticIndicator,DiagnosticInfoType,DiagnosticInfoType_dataElement,DiagnosticInhibitSourceEventMapping,DiagnosticIOControl,DiagnosticIoControlClass,DiagnosticIoControlNeeds,DiagnosticIumpr,DiagnosticIumprDenominatorGroup,DiagnosticIumprGroup,DiagnosticJ1939ExpandedFreezeFrame,DiagnosticJ1939FreezeFrame,DiagnosticJ1939Node,DiagnosticJ1939Spn,DiagnosticJ1939SpnMapping,DiagnosticJ1939SwMapping,DiagnosticMasterToSlaveEventMapping,DiagnosticMasterToSlaveEventMappingSet,DiagnosticMeasurementIdentifier,DiagnosticMemoryDestinationMirror,DiagnosticMemoryDestinationPrimary,DiagnosticMemoryDestinationUserDefined,DiagnosticMemoryIdentifier,DiagnosticOperationCycle,DiagnosticOperationCycleNeeds,DiagnosticOperationCyclePortMapping,DiagnosticOperationCycleRefConditional,DiagnosticParameter,DiagnosticParameterIdentifier,DiagnosticParameterIdentifier_dataElement,DiagnosticParameterSupportInfo,DiagnosticPeriodicRate,DiagnosticPowertrainFreezeFrame,diagnosticProps,DiagnosticProtocol,DiagnosticReadDataByIdentifier,DiagnosticReadDataByIdentifierClass,DiagnosticReadDataByPeriodicID,DiagnosticReadDataByPeriodicIDClass,DiagnosticReadDTCInformation,DiagnosticReadDTCInformationClass,DiagnosticReadMemoryByAddress,DiagnosticReadMemoryByAddressClass,DiagnosticReadScalingDataByIdentifier,DiagnosticReadScalingDataByIdentifierClass,DiagnosticRequestControlOfOnBoardDevice,DiagnosticRequestControlOfOnBoardDeviceClass,DiagnosticRequestCurrentPowertrainData,DiagnosticRequestCurrentPowertrainDataClass,DiagnosticRequestDownload,DiagnosticRequestDownloadClass,DiagnosticRequestEmissionRelatedDTC,DiagnosticRequestEmissionRelatedDTCClass,DiagnosticRequestEmissionRelatedDTCPermanentStatus,DiagnosticRequestEmissionRelatedDTCPermanentStatusClass,DiagnosticRequestFileTransfer,DiagnosticRequestFileTransferClass,DiagnosticRequestFileTransferNeeds,DiagnosticRequestOnBoardMonitoringTestResults,DiagnosticRequestOnBoardMonitoringTestResultsClass,DiagnosticRequestPowertrainFreezeFrameData,DiagnosticRequestPowertrainFreezeFrameDataClass,DiagnosticRequestRoutineResults,DiagnosticRequestUpload,DiagnosticRequestUploadClass,DiagnosticRequestVehicleInfo,DiagnosticRequestVehicleInfoClass,DiagnosticResponseOnEvent,DiagnosticResponseOnEventClass,DiagnosticResponseOnEventNeeds,DiagnosticRoutine,DiagnosticRoutineControl,DiagnosticRoutineControlClass,DiagnosticRoutineNeeds,DiagnosticsCommunicationSecurityNeeds,DiagnosticSecurityAccess,DiagnosticSecurityAccessClass,DiagnosticSecurityLevel,DiagnosticServiceDataMapping,DiagnosticServiceSwMapping,DiagnosticServiceTable,DiagnosticServiceTableRefConditional,DiagnosticSession,DiagnosticSessionControl,DiagnosticSessionControlClass,DiagnosticStartRoutine,DiagnosticStopRoutine,DiagnosticStorageCondition,DiagnosticStorageConditionGroup,DiagnosticStorageConditionNeeds,DiagnosticStorageConditionPortMapping,DiagnosticStorageConditionRefConditional,DiagnosticSupportInfoByte,DiagnosticTestIdentifier,DiagnosticTestResult,DiagnosticTestRoutineIdentifier,DiagnosticTransferExit,DiagnosticTransferExitClass,DiagnosticTroubleCodeGroup,DiagnosticTroubleCodeJ1939,DiagnosticTroubleCodeObd,DiagnosticTroubleCodeProps,DiagnosticTroubleCodeRefConditional,DiagnosticTroubleCodeUds,DiagnosticTroubleCodeUdsToTroubleCodeObdMapping,DiagnosticUploadDownloadNeeds,DiagnosticValueNeeds,DiagnosticWriteDataByIdentifier,DiagnosticWriteDataByIdentifierClass,DiagnosticWriteMemoryByAddress,DiagnosticWriteMemoryByAddressClass,disabledInMode,disabledMode,DiscoveryTechnology,displayName,DltUserNeeds,DocRevision,Documentation,DocumentationBlock,documentationContent,DocumentationContext,DocumentElementScope,DoIpActivationLineNeeds,DoIpEntity,DoIpGidNeeds,DoIpGidSynchronizationNeeds,DoIpLogicAddress,DoIpPowerModeStatusNeeds,DoIpRoutingActivationAuthenticationNeeds,DoIpRoutingActivationConfirmationNeeds,DoIpTpConfig,DoIpTpConnection,dpgDoesNotRequireCoherency,dpgRequiresCoherency,DtcStatusChangeNotificationNeeds,DynamicPart,DynamicPartAlternative,EcuAbstractionSwComponentType,EcucAddInfoParamDef,EcucAddInfoParamValue,EcucBooleanParamDef,EcucChoiceContainerDef,EcucChoiceReferenceDef,EcucConditionFormula,EcucConditionSpecification,EcucConfigurationClassAffection,EcucContainerValue,EcucDefinitionCollection,EcucDerivationSpecification,EcucDestinationUriDef,EcucDestinationUriDefSet,EcucDestinationUriPolicy,EcucEnumerationLiteralDef,EcucEnumerationParamDef,EcucFloatParamDef,EcucForeignReferenceDef,EcucFunctionNameDef,EcucFunctionNameDefConditional,EcucFunctionNameDefVariant,EcucImplementationConfigurationClass,EcucInstanceReferenceDef,EcucInstanceReferenceValue,EcucIntegerParamDef,EcucLinkerSymbolDef,EcucLinkerSymbolDefConditional,EcucLinkerSymbolDefVariant,EcucModuleConfigurationValues,EcucModuleConfigurationValuesRefConditional,EcucModuleDef,EcucMultilineStringParamDef,EcucMultilineStringParamDefConditional,EcucMultilineStringParamDefVariant,EcucMultiplicityConfigurationClass,EcucNumericalParamValue,EcucParamConfContainerDef,EcucParameterDerivationFormula,EcucQuery,EcucQueryExpression,EcucReferenceDef,EcucReferenceValue,EcucStringParamDef,EcucStringParamDefConditional,EcucStringParamDefVariant,EcucSymbolicNameReferenceDef,EcucTextualParamValue,EcucUriReferenceDef,EcucValidationCondition,ecucValue,EcucValueCollection,EcucValueConfigurationClass,ECUExtractPackage,ecuExtractReference,EcuInstance,ECUMapping,EcuPartition,EcuResourceEstimation,ecuResourceMapping,EcuStateMgrUserNeeds,EcuTiming,elementRole,EmphasisText,EmptySignalMapping,emulationSupport,EndToEndDescription,endToEndProfile,EndToEndProtection,EndToEndProtectionISignalIPdu,EndToEndProtectionSet,EndToEndProtectionVariablePrototype,EndToEndTransformationComSpecProps,EndToEndTransformationDescription,EndToEndTransformationISignalProps,EndToEndTransformationISignalPropsConditional,EndToEndTransformationISignalPropsVariant,Entry,entryContents,EnumerationMappingEntry,EnumerationMappingTable,enumTable,EOCEventRef,EOCExecutableEntityRef,EOCExecutableEntityRefGroup,ErrorTracerNeeds,estimatedExecutionTime,EthernetCluster,EthernetClusterConditional,EthernetClusterVariant,EthernetCommunicationConnector,EthernetCommunicationController,EthernetCommunicationControllerConditional,EthernetCommunicationControllerVariant,EthernetFrame,EthernetFrameTriggering,EthernetPhysicalChannel,EthernetPriorityRegeneration,ethernetTrafficClassAssignment,EthGlobalTimeDomainProps,EthGlobalTimeManagedCouplingPort,EthTpConfig,EthTpConnection,EthTSynCrcFlags,EthTSynSubTlvConfig,EvaluatedVariantSet,EventControlledTiming,eventFailureCycleCounterThreshold,EventHandler,ExclusiveArea,ExclusiveAreaNestingOrder,ExecutableEntityActivationReason,ExecutionOrderConstraint,ExecutionTimeConstraint,expectedCallback,expectedEntry,explicitInterRunnableVariable,ExplicitInterRunnableVariable,expression,ExternalTriggeringPoint,ExternalTriggeringPointIdent,ExternalTriggerOccurredEvent,feature,FibexElementRefConditional,FileInfoComment,firstElementInstance,firstValue,FlatInstanceDescriptor,FlatMap,FlexrayAbsolutelyScheduledTiming,FlexrayArTpChannel,FlexrayArTpConfig,FlexrayArTpConnection,FlexrayArTpNode,FlexrayCluster,FlexrayClusterConditional,FlexrayClusterVariant,FlexrayCommunicationConnector,FlexrayCommunicationController,FlexrayCommunicationControllerConditional,FlexrayCommunicationControllerVariant,FlexrayFifoConfiguration,FlexrayFifoRange,FlexrayFrame,FlexrayFrameTriggering,FlexrayNmCluster,FlexrayNmClusterCoupling,FlexrayNmEcu,FlexrayNmNode,FlexrayPhysicalChannel,FlexrayTpConfig,FlexrayTpConnection,FlexrayTpConnectionControl,FlexrayTpEcu,FlexrayTpNode,FlexrayTpPduPool,FloatValueVariationPoint,FMAttributeDef,FMAttributeValue,FMConditionByFeaturesAndAttributes,FMConditionByFeaturesAndSwSystemconsts,FMFeature,FMFeatureDecomposition,FMFeatureMap,FMFeatureMapAssertion,FMFeatureMapCondition,FMFeatureMapElement,FMFeatureModel,FMFeatureRelation,FMFeatureRestriction,FMFeatureSelection,FMFeatureSelectionSet,fmSyscond,ForbiddenSignalPath,ForeignModelReference,formalBlueprintCondition,fragment,FrameMapping,FramePid,FramePort,FreeFormat,FrGlobalTimeDomainProps,FunctionInhibitionAvailabilityNeeds,FunctionInhibitionNeeds,FurtherActionByteNeeds,Gateway,GeneralParameter,GeneralPurposeConnection,GeneralPurposeIPdu,GeneralPurposePdu,generatedArtifact,GenericEthernetFrame,genericMath,GenericModelReference,GenericTp,GlobalSupervisionNeeds,GlobalTimeCanMaster,GlobalTimeCanSlave,GlobalTimeCorrectionProps,GlobalTimeCouplingPortProps,GlobalTimeDomain,GlobalTimeDomainRefConditional,GlobalTimeEthMaster,GlobalTimeEthSlave,GlobalTimeFrMaster,GlobalTimeFrSlave,GlobalTimeGateway,globalTimeProps,globalTimeSubDomain,Graphic,groupNumber,HardwareConfiguration,HardwareTestNeeds,healingCycleCounterThreshold,HttpTp,HwAttributeDef,HwAttributeLiteralDef,HwAttributeValue,HwCategory,HwElement,hwElementConnection,HwElementConnector,HwElementRefConditional,HwPin,hwPinConnection,HwPinConnector,HwPinGroup,hwPinGroupConnection,HwPinGroupConnector,HwPinGroupContent,HwPortMapping,HwType,Identifier,Ieee1722Tp,Ieee1722TpEthernetFrame,implementationConfigClass,ImplementationDataType,implementationDataTypeElement,ImplementationDataTypeElement,ImplementationDataTypeElementInSystemRef,ImplementationDataTypeSubElementRef,ImplementationElementInParameterInstanceRef,ImplementationFile,implementedEntry,implicitDataAccess,implicitInterRunnableVariable,ImplicitInterRunnableVariable,IncludedDataTypeSet,IncludedModeDeclarationGroupSet,IndentSample,IndexedArrayElement,IndexEntry,IndicatorStatusNeeds,informalFormula,InfrastructureServices,InitEvent,initialFindBehavior,initialOfferBehavior,InitialSdDelayConfig,inMeasurementSet,InnerDataPrototypeGroupInCompositionInstanceRef,innerGroup,InnerPortGroupInCompositionInstanceRef,InnerRunnableEntityGroupInCompositionInstanceRef,inputData,InstanceEventInCompositionInstanceRef,instanceInMemory,InstanceReference,InstantiationDataDefProps,InstantiationTimingEventProps,IntegerValueVariationPoint,Internal Behavior Diagram,InternalConstrs,InternalTriggeringPoint,InternalTriggerOccurredEvent,InterpolationRoutine,InterpolationRoutineMapping,InterpolationRoutineMappingSet,introduction,InvalidationPolicy,InvertCondition,invocation,IoHwAbstractionServerAnnotation,iPdu,IPduMapping,IPduPort,IPduTiming,Ipv4Configuration,Ipv4DhcpServerConfiguration,Ipv6Configuration,Ipv6DhcpServerConfiguration,IPv6ExtHeaderFilterList,IPv6ExtHeaderFilterSet,ISignal,ISignalGroup,ISignalIPdu,ISignalIPduGroup,ISignalIPduRefConditional,ISignalMapping,ISignalPort,ISignalProps,ISignalToIPduMapping,iSignalToPduMapping,ISignalTriggering,ISignalTriggeringRefConditional,issuedTrigger,Item,itemContents,itemLabel,J1939Cluster,J1939ClusterConditional,J1939ClusterVariant,J1939ControllerApplication,J1939ControllerApplicationToJ1939NmNodeMapping,J1939DcmIPdu,j1939DtcValue,J1939NmCluster,J1939NmEcu,J1939NmNode,J1939NodeName,J1939RmIncomingRequestServiceNeeds,J1939RmOutgoingRequestServiceNeeds,J1939SharedAddressCluster,J1939TpConfig,J1939TpConnection,J1939TpNode,J1939TpPg,jitter,Keyword,KeywordSet,l_accessedVariable,l_accessPermission,l_accessPoint,l_aclObject,l_aclOperation,l_aclRole,l_activationReasonRepresentation,l_actualEvent,l_affected,l_aggregation,l_aging,l_aliasEvent,l_allChannels,l_allowedIPv6ExtHeaders,l_allowedTcpOptions,l_applConstant,l_applicationArrayElement,l_applicationDataType,l_applicationEndpoint,l_applicationPartition,l_applicationRecordElement,l_argument,l_arTypedPerInstanceMemory,l_assignedController,l_assignedEntry,l_assignedFrameTriggering,l_assignedLinSlaveConfig,l_associatedComIPduGroup,l_associatedPdurIPduGroup,l_associatedRtePlugin,l_asynchronousServerCallPoint,l_attribute,l_authentication,l_authenticationProps,l_autosarDataType,l_base,l_baseComposition,l_baseReference,l_baseType,l_behavior,l_blueprint,l_bswBehavior,l_bswEntity,l_bswInternalTriggeringPoint,l_bswModeGroup,l_bswModuleDescription,l_bswModuleEntity,l_bswModuleEntry,l_bswModuleInstance,l_bswServiceDependency,l_bswTrigger,l_buildActionManifest,l_calibrationParameterValueSet,l_callbackHeader,l_calledEntry,l_calledFromWithinExclusiveArea,l_callSignal,l_canEnterExclusiveArea,l_canTpAddress,l_canTpChannel,l_certificate,l_channel,l_clearDiagnosticInformationClass,l_clearResetEmissionRelatedDiagnosticInfoClass,l_clientIdDefinitionSet,l_clientPort,l_clientServerInterface,l_clientServerOperation,l_collection,l_collisionResolvingSchedule,l_comControlClass,l_comManagementGroup,l_commController,l_communicationCluster,l_communicationConnector,l_communicationController,l_component,l_componentImplementation,l_compuMethod,l_configElementDefGlobal,l_configElementDefLocal,l_connector,l_constant,l_constantMapping,l_constantValueMapping,l_constraint,l_consumedEventGroup,l_containedISignalIPduGroup,l_containedPduTriggering,l_context,l_contextAtomicComponent,l_contextBswImplementation,l_contextComponent,l_contextComponentPrototype,l_contextComposition,l_contextDataPrototype,l_contextElement,l_contextImplementationDataElement,l_contextLimitation,l_contextModeDeclarationGroup,l_contextModeDeclarationGroupPrototype,l_contextOperation,l_contextPort,l_contextPortPrototype,l_contextPPort,l_contextRootComposition,l_contextRootSwComposition,l_contextRPort,l_contextSwComponentPrototype,l_contextSwcPrototype,l_controlledFid,l_controlledHwElement,l_controller,l_coupledCluster,l_couplingPort,l_cryptoServiceKey,l_currentValue,l_customDocumentation,l_customDocumentElement,l_customSdgDef,l_customSpecification,l_data,l_dataConstr,l_dataElement,l_dataIdentifier,l_dataPdu,l_dataPrototype,l_dataTransferClass,l_dataTransformation,l_dataType,l_dataTypeMapping,l_debounceAlgorithm,l_defaultLcState,l_defaultMode,l_defaultVlan,l_deferringFid,l_definition,l_derivedFromBlueprint,l_derivedObject,l_derivedPortInterface,l_derivedPortPrototype,l_destination,l_destinationUri,l_destSdg,l_diagnosticCommonElement,l_diagnosticConnection,l_diagnosticDataElement,l_diagnosticEnableCondition,l_diagnosticEvent,l_diagnosticExtendedDataRecord,l_diagnosticFreezeFrame,l_diagnosticOperationCycle,l_diagnosticServiceTable,l_diagnosticSession,l_diagnosticStorageCondition,l_diagnosticTestResult,l_diagnosticTroubleCode,l_directPdu,l_directSuccessor,l_directTpSdu,l_doIpSourceAddress,l_doIpTargetAddress,l_dtcProps,l_dtcSettingClass,l_dynamicAction,l_dynamicallyDefineDataIdentifierClass,l_ecu,l_ecuc,l_ecucDefinition,l_ecucModuleConfigurationValues,l_ecuConfiguration,l_ecucQuery,l_ecucQueryString,l_ecuExtract,l_ecuInstance,l_ecuPartition,l_ecuResetClass,l_element,l_enableCondition,l_enableConditionGroup,l_encapsulatedEntry,l_encryption,l_enteredMode,l_entry,l_entryModeDeclaration,l_environmentalCondition,l_evaluatedElement,l_evaluatedVariant,l_event,l_eventGroup,l_eventHandler,l_eventNeeds,l_eventSource,l_exclusiveArea,l_exclusiveAreaNestingOrder,l_executable,l_executableEntity,l_executionContext,l_exitedMode,l_exitModeDeclaration,l_explicitRptProfileSelection,l_externalReplacement,l_failureMonitoring,l_feature,l_featureModel,l_fibexElement,l_firstApplicationError,l_firstDataPrototype,l_firstElement,l_firstMode,l_firstModeGroup,l_firstOperation,l_firstPhysicalDimension,l_firstPort,l_firstToSecondDataTransformation,l_firstTrigger,l_flatInstance,l_flatMap,l_flatMapEntry,l_flowControl,l_flowControlPdu,l_followUpAction,l_frame,l_framePort,l_frameTriggering,l_frCluster,l_freezeFrame,l_freezeFrameContent,l_freezeFrameContentWwhObd,l_freshnessProps,l_from,l_functionalRequest,l_functionIdentifier,l_functionPointerSignature,l_globalInPackage,l_globalTimeDomain,l_globalTimePdu,l_globalTimePduTriggering,l_groupedAliasEvent,l_hardwareElement,l_healingCycle,l_host,l_hostSystem,l_hwAttributeDef,l_hwCategory,l_hwCommunicationController,l_hwCommunicationPort,l_hwElement,l_hwPin,l_hwPinGroup,l_hwType,l_identifiable,l_implConstant,l_implementation,l_implementationArrayElement,l_implementationDataType,l_implementationRecordElement,l_implementedEntry,l_implementedIn,l_impliedOperation,l_include,l_includedLibrary,l_includedVariant,l_indexDataType,l_indicator,l_inFile,l_infoType,l_inhibitingFid,l_inhibitingSecondaryFid,l_inhibitionSource,l_initializedParameter,l_initialMode,l_inputVariableType,l_interface,l_interpolationRoutine,l_ioControlClass,l_iPdu,l_iPduPort,l_iSignal,l_iSignalGroup,l_iSignalInIPdu,l_iSignalIPdu,l_iSignalPort,l_iSignalTriggering,l_iumpr,l_j1939ControllerApplication,l_j1939NmNode,l_keyExchange,l_lastEgressScheduler,l_lcObject,l_lcState,l_letInterval,l_linSlaveEcu,l_linTpNSdu,l_linUnconditionalFrame,l_localParameter,l_localPort,l_localVariable,l_macMulticastAddress,l_macMulticastGroup,l_managedPhysicalChannel,l_mappedBswServiceDependency,l_mappedFlatSwcServiceDependency,l_mappedFunction,l_mapping,l_mappingElement,l_master,l_masteredTrigger,l_masterEvent,l_matchingCriterion,l_mcDataInstance,l_mcDataInstanceVar,l_mcFunction,l_measurableSystemConstantValues,l_memoryDestination,l_memoryRange,l_mode,l_modeDeclaration,l_modeDeclarationGroup,l_modeDeclarationGroupPrototype,l_modeDeclarationMappingSet,l_modeElement,l_modeGroup,l_module,l_moduleDescription,l_monitoredIdentifier,l_multicast,l_multicastConnector,l_nestedElement,l_networkEndpoint,l_nextHigherCertificate,l_nmIfEcu,l_nmNode,l_nmPdu,l_node,l_nPdu,l_object,l_objectDefinition,l_objectDefintion,l_offsetTimeDomain,l_operation,l_operationCycle,l_outerPort,l_package,l_parameter,l_parameterAccessedForDebug,l_participatingJ1939Cluster,l_partition,l_payload,l_pdu,l_pduTriggering,l_perInstanceMemory,l_perInstanceParameter,l_periodicResponseUudt,l_physicalChannel,l_physicalDimension,l_physicalRequest,l_pid,l_pncGroup,l_pncMapping,l_port,l_portInterfaceBlueprint,l_portPrototype,l_portPrototypeBlueprint,l_possibleError,l_postBuildValueAccess,l_postBuildVariantCriterionValueSet,l_preconfiguredConfiguration,l_predecessor,l_predecessorAction,l_predecessorFifo,l_prefix,l_preSharedKey,l_processingUnit,l_providedData,l_providedInterface,l_providedMemory,l_providedModeGroup,l_providedOuterPort,l_providedRequiredInterface,l_providedServiceInstance,l_proviedeData,l_ramLocation,l_rateBasedMonitoredEvent,l_readClass,l_readDataClass,l_readDTCInformationClass,l_readScalingDataClass,l_receivedData,l_receiver,l_recommendedConfiguration,l_reference,l_referencedTDEventSwc,l_referencedTDEventVfb,l_referenceTable,l_referenceValue,l_referrable,l_refinedModuleDef,l_relatedTraceItem,l_releasedTrigger,l_remotePort,l_replicaPdus,l_representedPortGroup,l_requestControlOfOnBoardDeviceClass,l_requestCurrentPowertrainDiagnosticDataClass,l_requestDownloadClass,l_requestEmissionRelatedDtcClass,l_requestEmissionRelatedDtcClassPermanentStatus,l_requestFileTransferClass,l_requestGroup,l_requestOnBoardMonitoringTestResultsClass,l_requestPowertrainFreezeFrameData,l_requestUploadClass,l_requestVehicleInformationClass,l_requiredClientServerEntry,l_requiredEnvironment,l_requiredInterface,l_requiredModeGroup,l_requiredOuterPort,l_response,l_responseError,l_responseGroup,l_responseOnEvent,l_responseOnEventClass,l_returnSignal,l_reversedTpSdu,l_romLocation,l_root,l_rootArgumentDataPrototype,l_rootContext,l_rootDataPrototype,l_rootParameterDataPrototype,l_rootVariableDataPrototype,l_routine,l_routineControlClass,l_routingGroup,l_rptServicePointPost,l_rptServicePointPre,l_rptSystem,l_runnable,l_runnableFunction,l_runsInsideExclusiveArea,l_rxNmPdu,l_rxPduPool,l_schedulerNamePrefix,l_scope,l_scopeEvent,l_sdgCaptionRef,l_sdgClass,l_sdgConstraint,l_sdu,l_sdx,l_secOcCryptoMapping,l_secondApplicationError,l_secondDataPrototype,l_secondElement,l_secondMode,l_secondModeGroup,l_secondOperation,l_secondPhysicalDimension,l_secondPort,l_secondToFirstDataTransformation,l_secondTrigger,l_securityAccessClass,l_securityLevel,l_segment,l_selectedSwSystemconstantValueSet,l_sendingNode,l_sensorActuator,l_serializationTechnology,l_serializer,l_serverPort,l_serviceInstance,l_sessionControlClass,l_sharedAxisType,l_signalGroup,l_slave,l_slaveEvent,l_socketConnectionBundle,l_softwareComposition,l_softwareMemorySection,l_souceCanId,l_source,l_sourceEec,l_sourceElement,l_sourceEvent,l_sourceFrame,l_sourceIPdu,l_sourceLinPid,l_sourceSignal,l_specificChannel,l_spn,l_startAction,l_startOnEvent,l_startsOnEvent,l_stimulus,l_storageConditionGroup,l_subDomain,l_subFunction,l_subGroup,l_subNodeChannel,l_subSdg,l_substitutedFrame,l_successor,l_supervisedEntityCheckpointNeeds,l_swAddrmethod,l_swAddrMethod,l_swAxisType,l_swcBehavior,l_swcBswMapping,l_swcFlatServiceDependency,l_swcModeSwitchEvent,l_swCompToEcuMapping,l_swcRunnable,l_swGenericAxisParamType,l_swRecordLayout,l_swSystemconst,l_swSystemconstantValueSet,l_sysc,l_syscString,l_system,l_systemSignal,l_systemSignalGroup,l_tailoring,l_target,l_targetComponent,l_targetDataElement,l_targetDataPrototype,l_targetDataPrototypeGroup,l_targetDataProtoype,l_targetEec,l_targetEvent,l_targetFrame,l_targetImplementationDataTypeElement,l_targetIPdu,l_targetMode,l_targetModeDeclaration,l_targetModeGroup,l_targetOperation,l_targetPPort,l_targetProvidedOperation,l_targetRequiredOperation,l_targetRPort,l_targetRteEvent,l_targetRunnableEntity,l_targetRunnableEntityGroup,l_targetSignal,l_targetSwcServiceDependency,l_targetTrigger,l_targetVariableAccess,l_targetVariableDataPrototype,l_tdPduTriggeringFilter,l_tearDownAction,l_testedItem,l_testId,l_testResult,l_timeSyncServer,l_timingArgument,l_timingCondition,l_timingEvent,l_timingMode,l_timingVariable,l_tlsCryptoMapping,l_to,l_tpAddress,l_tpChannel,l_tpConnectionControl,l_tpSdu,l_trace,l_transferExitClass,l_transformationProps,l_transformer,l_transformerChain,l_transformingSystemSignal,l_transmitPdu,l_transmitter,l_transportPdu,l_trigger,l_triggeringEvent,l_troubleCodeJ1939,l_troubleCodeObd,l_troubleCodeUds,l_ttCanCluster,l_txNmPdu,l_txPduPool,l_type,l_unassignedFrameTriggering,l_unicastNetworkEndpoint,l_unit,l_unitGroup,l_usedFid,l_usedImplementationDataType,l_usedLifeCycleStateDefinitionGroup,l_usedPim,l_usedSecondaryFid,l_useInstead,l_value,l_valueAxisDataType,l_valueType,l_variable,l_variableAccess,l_variableAccessedForDebug,l_variantCriterion,l_variationPoint,l_vendorSpecificModuleDef,l_vlan,l_vLan,l_vlanModifier,l_wakeupFrame,l_writeClass,label,label1,LabeledItem,LabeledList,LatencyTimingConstraint,lcState,leafElement,LGraphic,LifeCycleInfo,LifeCycleInfoSet,LifeCyclePeriod,LifeCycleState,LifeCycleStateDefinitionGroup,Limit,LimitValueVariationPoint,LinCluster,LinClusterConditional,LinClusterVariant,LinCommunicationConnector,LinConfigurableFrame,LinErrorResponse,LinEventTriggeredFrame,LinFrameTriggering,Linker,LinMaster,LinMasterConditional,LinMasterVariant,LinNmCluster,LinOrderedConfigurableFrame,LinPhysicalChannel,LinScheduleTable,LinSlave,LinSlaveConditional,LinSlaveConfig,LinSlaveConfigIdent,LinSlaveVariant,LinSporadicFrame,LinTpConfig,LinTpConnection,LinTpNode,LinUnconditionalFrame,List,literalPrefix,LLongName,localDebugData,locMeasurementSet,LogicAddress,longName1,LOverviewParagraph,lowerBound,lowerLimit,lowerMultiplicity,LParagraph,LPlainText,LVerbatim,MacMulticastConfiguration,MacMulticastGroup,managedModeGroup,Map,mappedDataElement,mappedOperation,mappedSwcServiceDependency,mappedSwcServiceDependencyInSystem,mapping,max,maxDeltaCounterInit,maximum,maximumDistance,maximumExecutionTime,maximumInterArrivalTime,maxNumberOfElements,McDataAccessDetails,McDataInstance,mcFunction,McFunction,McFunctionDataRefSet,McFunctionDataRefSetConditional,McFunctionDataRefSetVariant,McGroup,McGroupDataRefSet,McGroupDataRefSetConditional,McGroupDataRefSetVariant,McParameterElementGroup,mcParameterInstance,McSupportData,McSwEmulationMethodSupport,mcVariableInstance,MeasuredExecutionTime,MeasuredHeapUsage,MeasuredStackUsage,memClassSymbol,MemorySection,MemorySectionLocation,min,minimum,minimumDistance,minimumExecutionTime,minimumInterArrivalTime,minNumberOfElements,MlFigure,MlFormula,mode,ModeAccessPoint,ModeAccessPointIdent,ModeDeclaration,ModeDeclarationGroup,ModeDeclarationGroupPrototype,ModeDeclarationGroupPrototypeMapping,ModeDeclarationGroupPrototypeRefConditional,ModeDeclarationMapping,ModeDeclarationMappingSet,modeDrivenFalseCondition,ModeDrivenTransmissionModeCondition,modeDrivenTrueCondition,ModeErrorBehavior,modeGroup,ModeInBswInstanceRef,ModeInBswModuleDescriptionInstanceRef,ModeInSwcInstanceRef,ModeInterfaceMapping,modelObjectReference,modeManagerErrorBehavior,modeMapping,ModePortAnnotation,ModeRequestTypeMap,ModeSwitchedAckEvent,ModeSwitchedAckRequest,ModeSwitchEventTriggeredActivity,ModeSwitchPoint,ModeSwitchReceiverComSpec,ModeSwitchSenderComSpec,ModeTransition,modeUserErrorBehavior,Modification,modifiedData,MsrQueryArg,MsrQueryChapter,MsrQueryP1,MsrQueryP2,MsrQueryProps,MsrQueryResultChapter,msrQueryResultP1,msrQueryResultP2,MsrQueryResultTopic1,MsrQueryTopic1,MultidimensionalTime,MultilanguageLongName,MultiLanguageOverviewParagraph,MultiLanguageParagraph,MultiLanguagePlainText,MultiLanguageVerbatim,MultiplexedIPdu,multiplicityConfigClass,MultiplicityRestrictionWithSeverity,namespace,nestedElement,NetworkEndpoint,networkRepresentation,networkRepresentationProps,NmConfig,NmCoordinator,NmEcu,nmIfEcu,NmPdu,NmPduRefConditional,nominal,nominalExecutionTime,NonqueuedReceiverComSpec,NonqueuedSenderComSpec,NotAvailableValueSpecification,Note,noteText,NPdu,NumericalOrText,NumericalRuleBasedValueSpecification,NumericalValueSpecification,NumericalValueVariationPoint,NvBlockDataMapping,NvBlockDescriptor,NvBlockNeeds,NvBlockSwComponentType,nvData,NvDataPortAnnotation,NvProvideComSpec,nvRamBlockElement,NvRequireComSpec,ObdControlServiceNeeds,obdDTCValue,ObdInfoServiceNeeds,ObdMonitorServiceNeeds,ObdPidServiceNeeds,ObdRatioDenominatorNeeds,ObdRatioServiceNeeds,ObjectModelDiagram,offset,OffsetTimingConstraint,OperationArgumentInComponentInstanceRef,operationArgumentInstance,OperationInSystemInstanceRef,OperationInvokedEvent,operationMapping,option,OrderedMaster,outerPort,outgoingCallback,outMeasurementSet,outMeasurmentSet,ParameterAccess,ParameterDataPrototype,parameterImplementationDataTypeElement,ParameterInAtomicSWCTypeInstanceRef,parameterInstance,ParameterPortAnnotation,ParameterProvideComSpec,ParameterRequireComSpec,ParameterSwComponentType,PassThroughSwConnector,patternJitter,patternLength,patternPeriod,PduMappingDefaultValue,pduPool,PdurIPduGroup,PduToFrameMapping,PduTriggering,PduTriggeringRefConditional,PerInstanceMemory,PerInstanceMemorySize,perInstanceParameter,period,periodBegin,periodEnd,PeriodicEventTriggering,PermissibleSignalPath,PhysConstrs,PhysicalChannelRefConditional,PhysicalDimension,PhysicalDimensionMapping,PhysicalDimensionMappingSet,physicalProps,PModeGroupInAtomicSwcInstanceRef,PModeInSystemInstanceRef,pModeSwitchPort,PncMapping,PncMappingIdent,POperationInAtomicSwcInstanceRef,PortAPIOption,portArgValue,PortDefinedArgumentBlueprint,PortDefinedArgumentValue,PortGroup,PortGroupInSystemInstanceRef,PortInterfaceBlueprintMapping,PortInterfaceMappingSet,PortPrototypeBlueprint,PortPrototypeBlueprintInitValue,PortPrototypeBlueprintMapping,PortPrototypeRefConditional,portType,PositiveIntegerValueVariationPoint,possibleError,PossibleErrorReaction,PostBuildVariantCondition,PostBuildVariantCriterion,PostBuildVariantCriterionValue,PostBuildVariantCriterionValueSet,PPortInCompositionInstanceRef,PPortPrototype,PredefinedChapter,PredefinedVariant,prefix,PrimitiveAttributeCondition,PrimitiveAttributeTailoring,PrmChar,PrmCharAbsTol,PrmCharMinTypMax,PrmCharNumericalContents,PrmCharTextualContents,prModeSwitchPort,Prms,prmUnit,providedClientServerEntry,providedData,providedEntry,providedModeGroup,ProvidedServiceInstance,provider,PRPortPrototype,prTriggerPort,PTriggerInAtomicSwcTypeInstanceRef,pTriggerPort,QueuedReceiverComSpec,QueuedSenderComSpec,ramBlock,RapidPrototypingScenario,rationale,readLocalVariable,ReadLocalVariable,readNvData,reason,receiver,ReceiverAnnotation,recordElement,recordNumber,RecordValueSpecification,Ref,refCalprmSet,ReferenceBase,ReferenceCondition,ReferenceTailoring,ReferenceValueSpecification,ReferrableRefConditional,refinedEvent,refMeasurementSet,regDoesNotRequireStability,regRequiresStability,RelativeTolerance,releasedTrigger,remark,RemotingTechnology,repetitionPeriod,replaceWith,request,requester,RequestResponseDelay,requestResult,requiredArtifact,requiredClientServerEntry,requiredData,requiredEntry,requiredGeneratorTool,requiredModeGroup,requiredTrigger,ResourceConsumption,response,restriction,resultingProperties,returnType,RModeGroupInAtomicSWCInstanceRef,RModeInAtomicSwcInstanceRef,rModeSwitchPort,role,RoleBasedBswModuleEntryAssignment,RoleBasedDataAssignment,RoleBasedDataTypeAssignment,RoleBasedMcDataAssignment,RoleBasedPortAssignment,romBlock,rootSoftwareComposition,RootSwCompositionPrototype,ROperationInAtomicSwcInstanceRef,RoughEstimateHeapUsage,RoughEstimateOfExecutionTime,RoughEstimateStackUsage,Row,rpImplPolicy,RPortInCompositionInstanceRef,RPortPrototype,rptArHook,RptComponent,RptContainer,RptExecutableEntity,RptExecutableEntityEvent,RptExecutableEntityProperties,RptExecutionContext,RptHook,RptImplPolicy,RptProfile,rptRead,RptServicePoint,RptSupportData,RptSwPrototypingAccess,rptWrite,RteEventInEcuInstanceRef,RtePluginProps,rteResourceEstimation,RtpTp,RTriggerInAtomicSwcInstanceRef,rTriggerPort,rule,RuleArguments,RuleBasedAxisCont,RuleBasedValueCont,RuleBasedValueSpecification,RunnableEntity,RunnableEntityArgument,RunnableEntityGroup,RunnableEntityInCompositionInstanceRef,RuntimeError,RVariableInAtomicSwcInstanceRef,RxIdentifierRange,SaveConfigurationEntry,ScaleConstr,Sd,SdClientConfig,Sdf,Sdg,SdgAggregationWithVariation,SdgCaption,SdgClass,SdgContents,SdgDef,SdgForeignReference,SdgForeignReferenceWithVariation,SdgPrimitiveAttribute,SdgPrimitiveAttributeWithVariation,SdgReference,SdgTailoring,SdServerConfig,sdxf,SecOcCryptoServiceMapping,secondElementInstance,secondValue,SectionNamePrefix,SecureCommunicationAuthenticationProps,SecureCommunicationFreshnessProps,SecureCommunicationProps,SecureCommunicationPropsSet,SecuredIPdu,SecureOnBoardCommunicationNeeds,SegmentPosition,sender,SenderAnnotation,SenderRecArrayElementMapping,SenderRecArrayTypeMapping,SenderReceiverCompositeElementToSignalMapping,SenderReceiverCompositeElementToSignalMapping_dataElement,SenderReceiverToSignalGroupMapping,SenderReceiverToSignalGroupMapping_dataElement,SenderReceiverToSignalMapping,SenderReceiverToSignalMapping_dataElement,SenderRecRecordElementMapping,SenderRecRecordTypeMapping,SensorActuatorSwComponentType,separatedComponent,SeparateSignalPath,SequenceCounterMapping,SequenceDiagram,SerializationTechnology,ServerComSpec,serverPort,servicePointSymbolPost,servicePointSymbolPre,ServiceProxySwComponentType,ServiceSwComponentType,sharedParameter,shortLabel,shortName,ShortNameFragment,signalAge,SignalIPduCounter,SignalIPduReplication,SimulatedExecutionTime,SingleLanguageLongName,SingleLanguageUnitNames,size,SlOverviewParagraph,SlParagraph,SoAdConfig,SoAdRoutingGroup,SocketAddress,SocketConnection,SocketConnectionBundle,SocketConnectionIpduIdentifier,Software Components Diagram,SoftwareContext,SomeipTpChannel,SomeipTpConfig,SomeipTpConnection,SOMEIPTransformationDescription,SOMEIPTransformationISignalProps,SOMEIPTransformationISignalPropsConditional,SOMEIPTransformationISignalPropsVariant,SOMEIPTransformationProps,sourceChannel,sourceInstance,SpecificationDocumentScope,SpecificationScope,SporadicEventTriggering,Statechart,staticMemory,StaticPart,Std,StructuredReq,sub,subAttributeTailoring,subContainer,subElement,SubElementMapping,sup,SupervisedEntityCheckpointNeeds,SupervisedEntityCheckpointNeedsRefConditional,SupervisedEntityNeeds,supportingMaterial,SwAddrMethod,swArraysize,swAxisCont,SwAxisCont,SwAxisGeneric,SwAxisGrouped,SwAxisIndividual,SwAxisType,SwBaseType,SwBitRepresentation,swCalibrationNotes,SwCalprmAxis,SwCalprmAxisSet,SwCalprmRefProxy,swCarbDoc,SwcBswMapping,SwcBswRunnableMapping,SwcBswSynchronizedModeGroupPrototype,SwcBswSynchronizedTrigger,SwcExclusiveAreaPolicy,SwcImplementation,SwcInternalBehavior,swcModeGroup,SwcModeManagerErrorEvent,SwcModeSwitchEvent,swComparisonVariable,SwComponentDocumentation,SwComponentPrototype,swComponentPrototypeRef,SwcServiceDependency,SwcServiceDependencyInCompositionInstanceRef,SwcServiceDependencyInSystemInstanceRef,SwcTiming,SwcToApplicationPartitionMapping,SwcToEcuMapping,SwcToEcuMappingConstraint,SwcToImplMapping,SwcToSwcOperationArguments,SwcToSwcSignal,SwcToSwcSignal_dataElement,swcTrigger,SwDataDefProps,SwDataDefPropsConditional,SwDataDefPropsVariant,SwDataDependency,SwDataDependencyArgs,swDataDependencyFormula,swDiagnosticsNotes,swFeatureDef,swFeatureDesc,swGenericAxisDesc,SwGenericAxisParam,SwGenericAxisParamType,swHostVariable,swImplMapping,swInterpolationMethod,swMaintenanceNotes,swMapping,swMaxAxisPoints,swMaxTextSize,swMinAxisPoints,swNumberOfAxisPoints,SwPointerTargetProps,SwRecordLayout,swRecordLayoutComponent,SwRecordLayoutGroup,SwRecordLayoutGroupContent,SwRecordLayoutV,swRefreshTiming,SwServiceArg,swSyscond,SwSystemconst,swSystemconstantValue,SwSystemconstantValueSet,SwSystemconstValue,swTestDesc,SwTextProps,swValueBlockSize,swValueBlockSizeMult,swValueCont,SwValueCont,SwValues,SwVariableRefProxy,symbol,SymbolicNameProps,SymbolProps,SymbolString,SynchronizationPointConstraint,SynchronizationTimingConstraint,SynchronousServerCallPoint,SyncTimeBaseMgrUserNeeds,System,System Diagram,systemDocumentation,SystemMapping,SystemSignal,SystemSignalGroup,SystemTiming,Table,Tag,TagWithOptionalValue,targetCategory,targetChannel,TargetIPduRef,targetModuleRef,targetPduTriggering,task,tbody,Tbody,TcpOptionFilterList,TcpOptionFilterSet,TcpTp,TDEventBswInternalBehavior,TDEventBswModeDeclaration,TDEventBswModule,TDEventComplex,TDEventFrame,TDEventFrameEthernet,TDEventFrClusterCycleStart,TDEventIPdu,TDEventISignal,TDEventModeDeclaration,TDEventOccurrenceExpression,TDEventOccurrenceExpressionFormula,TDEventOperation,TDEventSwcInternalBehavior,TDEventSwcInternalBehaviorReference,TDEventTrigger,TDEventTTCanCycleStart,TDEventVariableDataPrototype,TDEventVfbReference,tdHeaderIdFilter,TDHeaderIdRange,texMath,text,TextTableMapping,TextTableValuePair,TextualCondition,TextValueSpecification,tfoot,Tgroup,thead,threshold,timeOffset,timePeriod,TimeRangeType,TimeSyncClientConfiguration,TimeSynchronization,TimeSyncServerConfiguration,timingArgument,TimingCondition,TimingConditionFormula,TimingDescriptionEventChain,TimingDiagram,TimingEvent,TimingExtensionResource,TimingModeInstance,timingResource,timingVariable,tlsCipherSuite,TlsCryptoCipherSuite,TlsCryptoServiceMapping,tolerance,topic1,Topic1,TopicContent,TopicContentOrMsrQuery,TopicOrMsrQuery,Topology Diagram,TpAddress,TpConnectionIdent,TpPort,trace,TraceableText,TransformationPropsSet,TransformationTechnology,TransformerHardErrorEvent,TransientFault,TransmissionAcknowledgementRequest,TransmissionModeCondition,TransmissionModeDeclaration,transmissionModeFalseTiming,TransmissionModeTiming,transmissionModeTrueTiming,TriggerInSystemInstanceRef,TriggerInterfaceMapping,TriggerIPduSendCondition,TriggerMapping,triggerPeriod,TriggerPortAnnotation,TriggerRefConditional,TriggerToSignalMapping,Tt,TtcanAbsolutelyScheduledTiming,TtcanCluster,TtcanClusterConditional,TtcanClusterVariant,TtcanCommunicationConnector,TtcanCommunicationController,TtcanCommunicationControllerConditional,TtcanCommunicationControllerVariant,TtcanPhysicalChannel,type,typeBlueprint,UdpNmCluster,UdpNmClusterCoupling,UdpNmEcu,UdpNmNode,UdpTp,UnassignFrameId,Unit,unitDisplayName,UnitGroup,UnlimitedIntegerValueVariationPoint,UnresolvedReferenceRestrictionWithSeverity,upperBound,upperLimit,upperMultiplicity,upperMultiplicityInfinite,upstreamReference,Url,useCase,usedDataElement,usedLanguages,usedParameterElement,UserDefinedCluster,UserDefinedClusterConditional,UserDefinedClusterVariant,UserDefinedCommunicationConnector,UserDefinedCommunicationController,UserDefinedCommunicationControllerConditional,UserDefinedCommunicationControllerVariant,UserDefinedEthernetFrame,UserDefinedGlobalTimeMaster,UserDefinedGlobalTimeSlave,UserDefinedIPdu,UserDefinedPdu,UserDefinedPhysicalChannel,UserDefinedTransformationComSpecProps,UserDefinedTransformationDescription,UserDefinedTransformationISignalProps,UserDefinedTransformationISignalPropsConditional,UserDefinedTransformationISignalPropsVariant,UserDefinedTransformationProps,usesEndToEndProtection,v,V2xFacUserNeeds,V2xMUserNeeds,validationFormula,value,valueConfigClass,ValueGroup,ValueList,ValueRestrictionWithSeverity,VariableAccess,VariableAccessInEcuInstanceRef,VariableAndParameterInterfaceMapping,VariableDataPrototype,VariableDataPrototypeInCompositionInstanceRef,VariableDataPrototypeInSystemInstanceRef,VariableInAtomicSWCTypeInstanceRef,VariableInComponentInstanceRef,variableInstance,VariationPoint,VariationPointProxy,VariationPointValueMapping,VariationRestrictionWithSeverity,vendorApiInfix,VendorSpecificServiceNeeds,VerbatimString,VfbTiming,vfShortLabel,vfValue,vgContents,ViewMap,ViewMapSet,VlanConfig,VlanMembership,WaitPoint,WarningIndicatorRequestedBitNeeds,worstCaseExecutionTime,WorstCaseHeapUsage,WorstCaseStackUsage,writtenLocalVariable,WrittenLocalVariable,writtenNvData,writtenReadNvData,XcpPdu,Xdoc,Xfile,xmlExtension,Xref,XrefTarget</_value>
+		</ILiteralSpecification>
+		<IClass type="e">
+			<_id type="a">GUID 177d5bda-cadc-4762-9475-00106e4eff3c</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">12.4.2024::4:14:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">12.4.2024::4:14:58</weakCGTime>
+			<strongCGTime type="a">12.4.2024::4:14:58</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IStereotype type="e">
+			<_id type="a">GUID eb6ac8b0-b663-4fb2-92d6-6411d50f5531</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CustomView</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 CustomView\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">12.4.2024::4:14:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.4.2024::3:43:15</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					<value>Package</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+			<_newTerm type="a">1</_newTerm>
+		</IStereotype>
+		<IStereotype type="e">
+			<_id type="a">GUID e6f9cde8-fece-47b3-bc8c-89c5d79f8143</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DEL</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 DEL\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.7.2025::16:40:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.7.2025::16:40:5</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">2</size>
+					<value>ObjectModelDiagram</value>
+					<value>SequenceDiagram</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+		</IStereotype>
+		<IStereotype type="e">
+			<_id type="a">GUID d1440678-2639-483d-bdff-7ded4b3b73f5</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ExternalUser</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 ExternalUser\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.12.2025::13:41:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.12.2025::13:41:29</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">8</size>
+					<value>Attribute</value>
+					<value>Class</value>
+					<value>Comment</value>
+					<value>Object</value>
+					<value>Operation</value>
+					<value>Port</value>
+					<value>Type</value>
+					<value>Argument</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+		</IStereotype>
+		<IStereotype type="e">
+			<_id type="a">GUID 42852f02-701b-4e59-bbef-e8a985f4f790</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">Model</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Stereotype</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">Name</_Name>
+													<_Value type="a">External Model</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">ExternalModel</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 ExternalModel\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.14.2025::8:28:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.14.2025::8:28:33</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					<value>Package</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+			<_newTerm type="a">1</_newTerm>
+		</IStereotype>
+		<IStereotype type="e">
+			<_id type="a">GUID 186b0d02-2154-4b79-bc4d-b056445dc580</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">Model</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Stereotype</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">AlternativeDrawingTool</_Name>
+													<_Value type="a">Interface</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">Interface</_name>
+			<_modifiedTimeWeak type="a">6.13.2017::9:23:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">6.25.2025::4:18:10</_modifiedTime>
+			<_m2Classes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					<value>Class</value>
+				</IRPYRawContainer>
+			</_m2Classes>
+			<_newTerm type="a">1</_newTerm>
+		</IStereotype>
+		<IClass type="e">
+			<_id type="a">GUID d3ec3c56-978d-4dbc-b3aa-c9e38e241149</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">12.4.2024::4:14:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.14.2017::6:25:13</_modifiedTime>
+			<weakCGTime type="a">12.4.2024::4:14:58</weakCGTime>
+			<strongCGTime type="a">12.4.2024::4:14:58</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IType type="e">
+			<_id type="a">GUID 3b7758ce-58db-44da-89ed-9f9e2d500b25</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">softwareAbstractionKind</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset129 \'b1\'bc\'b8\'b2;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 softwareAbstractionKind\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">12.4.2024::4:14:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.12.2017::0:36:56</_modifiedTime>
+			<_lastID type="a">22</_lastID>
+			<_kind type="a">Enumeration</_kind>
+			<AggregatesList type="e">
+				<value>GUID 38f1b807-83ac-46b3-b8f2-cd73ae8f55df</value>
+				<value>GUID d29f5f21-6077-4c34-b2d7-71a6c11637e3</value>
+				<value>GUID baba223c-9f1b-4bc4-84dc-b8f18332e48f</value>
+				<value>GUID 76e5965f-c255-4559-991b-a8ebfe8bf3b4</value>
+				<value>GUID 0b214d7d-eab5-4913-8087-48d60a1d2b01</value>
+				<value>GUID 1eeebe3e-67d4-4eef-8449-72fdd9d927d2</value>
+				<value>GUID 95573c03-3c2b-41e6-bdbe-6a1c20944e9b</value>
+				<value>GUID 91502a4a-5bc3-4416-b66c-cbd3ba4cffc2</value>
+				<value>GUID c31f7630-b2ac-4f02-a103-761449755c7f</value>
+				<value>GUID 2a7ae0b8-3ddf-4145-a249-1aded268e769</value>
+				<value>GUID f60d1016-668e-46fb-902d-1dba0e067ce7</value>
+				<value>GUID a8d11861-a1d6-4970-b909-483160af7e17</value>
+				<value>GUID 74f7bee6-56ac-4734-9d9f-f0ea2550fc38</value>
+				<value>GUID 6cf49baf-b23e-4b8e-b59b-fa8a9810e696</value>
+				<value>GUID 8b03cd2c-d477-47b9-bec1-3da2d5b7432d</value>
+				<value>GUID 52bef19c-de76-487a-8d76-a30c7bcfaa74</value>
+				<value>GUID 084193e2-de81-4620-afc8-260bde449a3c</value>
+				<value>GUID 3bbe9318-c8f1-42fc-bc58-147e54b60c86</value>
+				<value>GUID 8920664e-e32b-4020-b59a-a840f2727eb7</value>
+				<value>GUID 703b63ca-4504-4752-bfae-c22e646c57f2</value>
+				<value>GUID 2a643716-109a-47ef-9e2c-a0ae45f58cc3</value>
+			</AggregatesList>
+		</IType>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 38f1b807-83ac-46b3-b8f2-cd73ae8f55df</_id>
+			<_name type="a">TBD</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID d29f5f21-6077-4c34-b2d7-71a6c11637e3</_id>
+			<_name type="a">SoftwareDocumentModel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID baba223c-9f1b-4bc4-84dc-b8f18332e48f</_id>
+			<_name type="a">SoftwareRequirementModel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 76e5965f-c255-4559-991b-a8ebfe8bf3b4</_id>
+			<_name type="a">SoftwareUseCaseModel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 0b214d7d-eab5-4913-8087-48d60a1d2b01</_id>
+			<_name type="a">SoftwareAnalysisModel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 1eeebe3e-67d4-4eef-8449-72fdd9d927d2</_id>
+			<_name type="a">AutosarArchitecturalDesignModel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 95573c03-3c2b-41e6-bdbe-6a1c20944e9b</_id>
+			<_name type="a">UmlArchitecturalDesignModel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 91502a4a-5bc3-4416-b66c-cbd3ba4cffc2</_id>
+			<_name type="a">AutosarMechanisticDesignModel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID c31f7630-b2ac-4f02-a103-761449755c7f</_id>
+			<_name type="a">UmlMechanisticDesignModel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 2a7ae0b8-3ddf-4145-a249-1aded268e769</_id>
+			<_name type="a">AutosarProductLineModel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID f60d1016-668e-46fb-902d-1dba0e067ce7</_id>
+			<_name type="a">UmlProductLineModel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID a8d11861-a1d6-4970-b909-483160af7e17</_id>
+			<_name type="a">ArchitecturalTestModel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 74f7bee6-56ac-4734-9d9f-f0ea2550fc38</_id>
+			<_name type="a">UnitTestModel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 6cf49baf-b23e-4b8e-b59b-fa8a9810e696</_id>
+			<_name type="a">DomainProfile</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 8b03cd2c-d477-47b9-bec1-3da2d5b7432d</_id>
+			<_name type="a">AutosarDataType</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 52bef19c-de76-487a-8d76-a30c7bcfaa74</_id>
+			<_name type="a">DomainDataType</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 084193e2-de81-4620-afc8-260bde449a3c</_id>
+			<_name type="a">CompilerAbstractionType</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 3bbe9318-c8f1-42fc-bc58-147e54b60c86</_id>
+			<_name type="a">NvMServiceDefinition</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 8920664e-e32b-4020-b59a-a840f2727eb7</_id>
+			<_name type="a">DetServiceDefinition</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 703b63ca-4504-4752-bfae-c22e646c57f2</_id>
+			<_name type="a">DcmServiceDefinition</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 2a643716-109a-47ef-9e2c-a0ae45f58cc3</_id>
+			<_name type="a">DemServiceDefinition</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IType type="e">
+			<_id type="a">GUID 37e53e0c-8c86-4bb5-86be-447ac17da769</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">architecturalPackageKind</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset129 \'b1\'bc\'b8\'b2;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 architecturalPackageKind\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">12.4.2024::4:14:58</_modifiedTimeWeak>
+			<_modifiedTime type="a">12.12.2017::0:36:56</_modifiedTime>
+			<_lastID type="a">7</_lastID>
+			<_kind type="a">Enumeration</_kind>
+			<AggregatesList type="e">
+				<value>GUID 3063f1f4-1ff5-4960-8bf6-d41763a50f2e</value>
+				<value>GUID f20c03c7-0b8e-4340-8086-a23239af35ba</value>
+				<value>GUID c71d7624-b73b-4672-87c2-98df17e11c59</value>
+				<value>GUID 56f80d50-4989-4edf-a997-c5d63033abd7</value>
+				<value>GUID b80fb0fa-06d5-484c-8308-650cadb38316</value>
+				<value>GUID 16583340-46d5-4ad5-8d40-89c47daac740</value>
+			</AggregatesList>
+		</IType>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 3063f1f4-1ff5-4960-8bf6-d41763a50f2e</_id>
+			<_name type="a">Subsystem</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID f20c03c7-0b8e-4340-8086-a23239af35ba</_id>
+			<_name type="a">Interface</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID c71d7624-b73b-4672-87c2-98df17e11c59</_id>
+			<_name type="a">LayerRoot</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 56f80d50-4989-4edf-a997-c5d63033abd7</_id>
+			<_name type="a">Layer</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID b80fb0fa-06d5-484c-8308-650cadb38316</_id>
+			<_name type="a">UseCaseRealization</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		<IEnumerationLiteral type="e">
+			<_id type="a">GUID 16583340-46d5-4ad5-8d40-89c47daac740</_id>
+			<_name type="a">Product</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+		</IEnumerationLiteral>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

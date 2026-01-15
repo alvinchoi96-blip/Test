@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Simplification-Rules>
+	<Runnable-Based-Rules>
+		<Runnable-Rules>
+			<Runnable-Show-Unmatched>true/false</Runnable-Show-Unmatched>
+			<Runnable-Rule>
+				<Runnable-Affix>None/Prefix/Postfix/Infix/Specific</Runnable-Affix>
+				<Runnable-Pattern>Pattern String</Runnable-Pattern> 
+				<Runnable-Selection-Option>FromStart/FromEnd/Random</Runnable-Selection-Option>
+				<Runnable-Selection-Count>ALL/1</Runnable-Selection-Count>
+			</Runnable-Rule>
+		</Runnable-Rules>
+
+		<SynchronousServerCallPoint-Rules>
+			<SynchronousServerCallPoint-Show-Unmatched>true/false</SynchronousServerCallPoint-Show-Unmatched>
+			<SynchronousServerCallPoint-Rule>
+				<SynchronousServerCallPoint-Affix>None/Prefix/Postfix/Infix/Specific</SynchronousServerCallPoint-Affix>
+				<SynchronousServerCallPoint-Pattern>Pattern String</SynchronousServerCallPoint-Pattern> 
+				<SynchronousServerCallPoint-Selection-Option>FromStart/FromEnd/Random</SynchronousServerCallPoint-Selection-Option>
+				<SynchronousServerCallPoint-Selection-Count>ALL/1</SynchronousServerCallPoint-Selection-Count>
+			</SynchronousServerCallPoint-Rule>
+		</SynchronousServerCallPoint-Rules>
+
+		<AsynchronousServerCallPoint-Rules>
+			<AsynchronousServerCallPoint-Show-Unmatched>true/false</AsynchronousServerCallPoint-Show-Unmatched>
+			<AsynchronousServerCallPoint-Rule>
+				<AsynchronousServerCallPoint-Affix>None/Prefix/Postfix/Infix/Specific</AsynchronousServerCallPoint-Affix>
+				<AsynchronousServerCallPoint-Pattern>Pattern String</AsynchronousServerCallPoint-Pattern> 
+				<AsynchronousServerCallPoint-Selection-Option>FromStart/FromEnd/Random</AsynchronousServerCallPoint-Selection-Option>
+				<AsynchronousServerCallPoint-Selection-Count>ALL/1</AsynchronousServerCallPoint-Selection-Count>
+			</AsynchronousServerCallPoint-Rule>
+		</AsynchronousServerCallPoint-Rules>
+
+		<AsynchronousServerCallResultPoint-Rules>
+			<AsynchronousServerCallResultPoint-Show-Unmatched>true/false</AsynchronousServerCallResultPoint-Show-Unmatched>
+			<AsynchronousServerCallResultPoint-Rule>
+				<AsynchronousServerCallResultPoint-Affix>None/Prefix/Postfix/Infix/Specific</AsynchronousServerCallResultPoint-Affix>
+				<AsynchronousServerCallResultPoint-Pattern>Pattern String</AsynchronousServerCallResultPoint-Pattern> 
+				<AsynchronousServerCallResultPoint-Selection-Option>FromStart/FromEnd/Random</AsynchronousServerCallResultPoint-Selection-Option>
+				<AsynchronousServerCallResultPoint-Selection-Count>ALL/1</AsynchronousServerCallResultPoint-Selection-Count>
+			</AsynchronousServerCallResultPoint-Rule>
+		</AsynchronousServerCallResultPoint-Rules>
+
+		<DataSendPoint-Rules>
+			<DataSendPoint-Show-Unmatched>true/false</DataSendPoint-Show-Unmatched>
+			<DataSendPoint-Rule>
+				<DataSendPoint-Affix>None/Prefix/Postfix/Infix/Specific</DataSendPoint-Affix>
+				<DataSendPoint-Pattern>Pattern String</DataSendPoint-Pattern> 
+				<DataSendPoint-Selection-Option>FromStart/FromEnd/Random</DataSendPoint-Selection-Option>
+				<DataSendPoint-Selection-Count>ALL/1</DataSendPoint-Selection-Count>
+			</DataSendPoint-Rule>
+		</DataSendPoint-Rules>
+
+		<DataReceivePointByValue-Rules>
+			<DataReceivePointByValue-Show-Unmatched>true/false</DataReceivePointByValue-Show-Unmatched>
+			<DataReceivePointByValue-Rule>
+				<DataReceivePointByValue-Affix>None/Prefix/Postfix/Infix/Specific</DataReceivePointByValue-Affix>
+				<DataReceivePointByValue-Pattern>Pattern String</DataReceivePointByValue-Pattern> 
+				<DataReceivePointByValue-Selection-Option>FromStart/FromEnd/Random</DataReceivePointByValue-Selection-Option>
+				<DataReceivePointByValue-Selection-Count>ALL/1</DataReceivePointByValue-Selection-Count>
+			</DataReceivePointByValue-Rule>
+		</DataReceivePointByValue-Rules>
+
+		<DataReceivePointByArgument-Rules>
+			<DataReceivePointByArgument-Show-Unmatched>true/false</DataReceivePointByArgument-Show-Unmatched>
+			<DataReceivePointByArgument-Rule>
+				<DataReceivePointByArgument-Affix>None/Prefix/Postfix/Infix/Specific</DataReceivePointByArgument-Affix>
+				<DataReceivePointByArgument-Pattern>Pattern String</DataReceivePointByArgument-Pattern> 
+				<DataReceivePointByArgument-Selection-Option>FromStart/FromEnd/Random</DataReceivePointByArgument-Selection-Option>
+				<DataReceivePointByArgument-Selection-Count>ALL/1</DataReceivePointByArgument-Selection-Count>
+			</DataReceivePointByArgument-Rule>
+		</DataReceivePointByArgument-Rules>
+
+		<DataReadAccess-Rules>
+			<DataReadAccess-Show-Unmatched>true/false</DataReadAccess-Show-Unmatched>
+			<DataReadAccess-Rule>
+				<DataReadAccess-Affix>None/Prefix/Postfix/Infix/Specific</DataReadAccess-Affix>
+				<DataReadAccess-Pattern>Pattern String</DataReadAccess-Pattern> 
+				<DataReadAccess-Selection-Option>FromStart/FromEnd/Random</DataReadAccess-Selection-Option>
+				<DataReadAccess-Selection-Count>ALL/1</DataReadAccess-Selection-Count>
+			</DataReadAccess-Rule>
+		</DataReadAccess-Rules>
+
+		<dataWriteAccess-Rules>
+			<dataWriteAccess-Show-Unmatched>true/false</dataWriteAccess-Show-Unmatched>
+			<dataWriteAccess-Rule>
+				<dataWriteAccess-Affix>None/Prefix/Postfix/Infix/Specific</dataWriteAccess-Affix>
+				<dataWriteAccess-Pattern>Pattern String</dataWriteAccess-Pattern> 
+				<dataWriteAccess-Selection-Option>FromStart/FromEnd/Random</dataWriteAccess-Selection-Option>
+				<dataWriteAccess-Selection-Count>ALL/1</dataWriteAccess-Selection-Count>
+			</dataWriteAccess-Rule>
+		</dataWriteAccess-Rules>
+
+		<ReadLocalVariable-Rules>
+			<ReadLocalVariable-Show-Unmatched>true/false</ReadLocalVariable-Show-Unmatched>
+			<ReadLocalVariable-Rule>
+				<ReadLocalVariable-Affix>None/Prefix/Postfix/Infix/Specific</ReadLocalVariable-Affix>
+				<ReadLocalVariable-Pattern>Pattern String</ReadLocalVariable-Pattern> 
+				<ReadLocalVariable-Selection-Option>FromStart/FromEnd/Random</ReadLocalVariable-Selection-Option>
+				<ReadLocalVariable-Selection-Count>ALL/1</ReadLocalVariable-Selection-Count>
+			</ReadLocalVariable-Rule>
+		</ReadLocalVariable-Rules>
+
+		<WrittenLocalVariable-Rules>
+			<WrittenLocalVariable-Show-Unmatched>true/false</WrittenLocalVariable-Show-Unmatched>
+			<WrittenLocalVariable-Rule>
+				<WrittenLocalVariable-Affix>None/Prefix/Postfix/Infix/Specific</WrittenLocalVariable-Affix>
+				<WrittenLocalVariable-Pattern>Pattern String</WrittenLocalVariable-Pattern> 
+				<WrittenLocalVariable-Selection-Option>FromStart/FromEnd/Random</WrittenLocalVariable-Selection-Option>
+				<WrittenLocalVariable-Selection-Count>ALL/1</WrittenLocalVariable-Selection-Count>
+			</WrittenLocalVariable-Rule>
+		</WrittenLocalVariable-Rules>
+
+		<ExternalTriggeringPoint-Rules>
+			<ExternalTriggeringPoint-Show-Unmatched>true/false</ExternalTriggeringPoint-Show-Unmatched>
+			<ExternalTriggeringPoint-Rule>
+				<ExternalTriggeringPoint-Affix>None/Prefix/Postfix/Infix/Specific</ExternalTriggeringPoint-Affix>
+				<ExternalTriggeringPoint-Pattern>Pattern String</ExternalTriggeringPoint-Pattern> 
+				<ExternalTriggeringPoint-Selection-Option>FromStart/FromEnd/Random</ExternalTriggeringPoint-Selection-Option>
+				<ExternalTriggeringPoint-Selection-Count>ALL/1</ExternalTriggeringPoint-Selection-Count>
+			</ExternalTriggeringPoint-Rule>
+		</ExternalTriggeringPoint-Rules>
+
+		<InternalTriggeringPoint-Rules>
+			<InternalTriggeringPoint-Show-Unmatched>true/false</InternalTriggeringPoint-Show-Unmatched>
+			<InternalTriggeringPoint-Rule>
+				<InternalTriggeringPoint-Affix>None/Prefix/Postfix/Infix/Specific</InternalTriggeringPoint-Affix>
+				<InternalTriggeringPoint-Pattern>Pattern String</InternalTriggeringPoint-Pattern> 
+				<InternalTriggeringPoint-Selection-Option>FromStart/FromEnd/Random</InternalTriggeringPoint-Selection-Option>
+				<InternalTriggeringPoint-Selection-Count>ALL/1</InternalTriggeringPoint-Selection-Count>
+			</InternalTriggeringPoint-Rule>
+		</InternalTriggeringPoint-Rules>
+
+		<ParameterAccess-Rules>
+			<ParameterAccess-Show-Unmatched>true/false</ParameterAccess-Show-Unmatched>
+			<ParameterAccess-Rule>
+				<ParameterAccess-Affix>None/Prefix/Postfix/Infix/Specific</ParameterAccess-Affix>
+				<ParameterAccess-Pattern>Pattern String</ParameterAccess-Pattern> 
+				<ParameterAccess-Selection-Option>FromStart/FromEnd/Random</ParameterAccess-Selection-Option>
+				<ParameterAccess-Selection-Count>ALL/1</ParameterAccess-Selection-Count>
+			</ParameterAccess-Rule>
+		</ParameterAccess-Rules>		
+	</Runnable-Based-Rules>
+
+	<Interface-Based-Rules>	
+		<Interface-Rules>
+			<Interface-Show-Unmatched>true/false</Interface-Show-Unmatched>
+			<Interface-Rule>
+				<Interface-Affix>None/Prefix/Postfix/Infix/Specific</Interface-Affix>
+				<Interface-Pattern>Pattern String</Interface-Pattern> 
+				<Interface-Selection-Option>FromStart/FromEnd/Random</Interface-Selection-Option>
+				<Interface-Selection-Count>ALL/1</Interface-Selection-Count>
+			</Interface-Rule>
+		</Interface-Rules>
+	
+		<dataElement-Rules>
+			<dataElement-Show-Unmatched>true/false</dataElement-Show-Unmatched>
+			<dataElement-Rule>
+				<dataElement-Affix>None/Prefix/Postfix/Infix/Specific</dataElement-Affix>
+				<dataElement-Pattern>Pattern String</dataElement-Pattern> 
+				<dataElement-Selection-Option>FromStart/FromEnd/Random</dataElement-Selection-Option>
+				<dataElement-Selection-Count>ALL/1</dataElement-Selection-Count>
+			</dataElement-Rule>
+		</dataElement-Rules>
+		
+		<nvData-Rules>
+			<nvData-Show-Unmatched>true/false</nvData-Show-Unmatched>
+			<nvData-Rule>
+				<nvData-Affix>None/Prefix/Postfix/Infix/Specific</nvData-Affix>
+				<nvData-Pattern>Pattern String</nvData-Pattern> 
+				<nvData-Selection-Option>FromStart/FromEnd/Random</nvData-Selection-Option>
+				<nvData-Selection-Count>ALL/1</nvData-Selection-Count>
+			</nvData-Rule>
+		</nvData-Rules>
+
+		<parameter-Rules>
+			<parameter-Show-Unmatched>true/false</parameter-Show-Unmatched>
+			<parameter-Rule>
+				<parameter-Affix>None/Prefix/Postfix/Infix/Specific</parameter-Affix>
+				<parameter-Pattern>Pattern String</parameter-Pattern> 
+				<parameter-Selection-Option>FromStart/FromEnd/Random</parameter-Selection-Option>
+				<parameter-Selection-Count>ALL/1</parameter-Selection-Count>
+			</parameter-Rule>
+		</parameter-Rules>
+
+		<modeGroup-Rules>
+			<modeGroup-Show-Unmatched>true/false</modeGroup-Show-Unmatched>
+			<modeGroup-Rule>
+				<modeGroup-Affix>None/Prefix/Postfix/Infix/Specific</modeGroup-Affix>
+				<modeGroup-Pattern>Pattern String</modeGroup-Pattern> 
+				<modeGroup-Selection-Option>FromStart/FromEnd/Random</modeGroup-Selection-Option>
+				<modeGroup-Selection-Count>ALL/1</modeGroup-Selection-Count>
+			</modeGroup-Rule>
+		</modeGroup-Rules>
+
+		<operation-Rules>
+			<operation-Show-Unmatched>true/false</operation-Show-Unmatched>
+			<operation-Rule>
+				<operation-Affix>None/Prefix/Postfix/Infix/Specific</operation-Affix>
+				<operation-Pattern>Pattern String</operation-Pattern> 
+				<operation-Selection-Option>FromStart/FromEnd/Random</operation-Selection-Option>
+				<operation-Selection-Count>ALL/1</operation-Selection-Count>
+			</operation-Rule>
+		</operation-Rules>
+
+		<trigger-Rules>
+			<trigger-Show-Unmatched>true/false</trigger-Show-Unmatched>
+			<trigger-Rule>
+				<trigger-Affix>None/Prefix/Postfix/Infix/Specific</trigger-Affix>
+				<trigger-Pattern>Pattern String</trigger-Pattern> 
+				<trigger-Selection-Option>FromStart/FromEnd/Random</trigger-Selection-Option>
+				<trigger-Selection-Count>ALL/1</trigger-Selection-Count>
+			</trigger-Rule>
+		</trigger-Rules>		
+	</Interface-Based-Rules>		
+</Simplification-Rules>			

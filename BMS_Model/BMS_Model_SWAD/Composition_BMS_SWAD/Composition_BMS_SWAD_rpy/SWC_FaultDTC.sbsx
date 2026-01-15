@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>949</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID ae4daf4a-c22c-452e-91c6-869df38ccd0c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SWC_FaultDTC</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">2</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::GenericStructure::CoreElements</_hsubsystem>
+							<_hname type="a">ARPackage</_hname>
+							<_hid type="a">GUID 03af387f-09cb-4f72-a858-56b9ff4323cb</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_MDS.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_MDS</_hsubsystem>
+							<_hname type="a">mandatory</_hname>
+							<_hid type="a">GUID 6aa5539a-7869-4ab0-bcb7-7f13dde09b59</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.15.2026::5:56:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.15.2026::5:56:3</_modifiedTime>
+			<weakCGTime type="a">1.15.2026::5:56:3</weakCGTime>
+			<strongCGTime type="a">1.15.2026::5:56:2</strongCGTime>
+			<_defaultComposite type="s">GUID a2044524-2b29-44db-b32b-d5daa443bbfb</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::9:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 41c92192-a905-406e-a797-396fca7f859c</value>
+				<value>GUID 56a10e06-646e-4b13-9285-67677b022164</value>
+				<value>GUID 6d8622b8-30b5-4930-989f-828db3aea149</value>
+				<value>GUID 1a8065f1-0ca9-4e88-965f-6089faf5f6b4</value>
+				<value>GUID c404e930-51f9-427c-94ff-0740aab14cf8</value>
+				<value>GUID 7c6c293c-145c-48f8-b866-01e59227ea2c</value>
+				<value>GUID 6fbf8c11-38c3-489e-80b7-88ab83604d26</value>
+				<value>GUID a2044524-2b29-44db-b32b-d5daa443bbfb</value>
+			</AggregatesList>
+		</ISubsystem>
+		<ITag type="e">
+			<_id type="a">GUID 41c92192-a905-406e-a797-396fca7f859c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">author</_name>
+			<_modifiedTimeWeak type="a">1.15.2026::5:56:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.15.2026::5:56:2</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 51c52762-0bb4-4adb-8202-9811ec1a7f24</value>
+				<value>GUID fde04b29-cac3-49db-95b9-f8300aae5c42</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 51c52762-0bb4-4adb-8202-9811ec1a7f24</_id>
+			<_modifiedTimeWeak type="a">1.15.2026::5:56:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.15.2026::5:56:2</_modifiedTime>
+			<_value type="a">MDS</_value>
+		</ILiteralSpecification>
+		<IType type="e">
+			<_id type="a">GUID fde04b29-cac3-49db-95b9-f8300aae5c42</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<ISubsystem type="e">
+			<_id type="a">GUID 56a10e06-646e-4b13-9285-67677b022164</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CompuMethods</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::GenericStructure::CoreElements</_hsubsystem>
+							<_hname type="a">ARPackage</_hname>
+							<_hid type="a">GUID 03af387f-09cb-4f72-a858-56b9ff4323cb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.15.2026::5:56:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.15.2026::5:56:2</_modifiedTime>
+			<weakCGTime type="a">1.15.2026::5:56:2</weakCGTime>
+			<strongCGTime type="a">1.15.2026::5:56:2</strongCGTime>
+			<_defaultComposite type="s">GUID 4b7e06dd-343c-4980-bcee-068107c1b5c5</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::9:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 4b7e06dd-343c-4980-bcee-068107c1b5c5</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 4b7e06dd-343c-4980-bcee-068107c1b5c5</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<ISubsystem type="e">
+			<_id type="a">GUID 6d8622b8-30b5-4930-989f-828db3aea149</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ImplementationDataTypes</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::GenericStructure::CoreElements</_hsubsystem>
+							<_hname type="a">ARPackage</_hname>
+							<_hid type="a">GUID 03af387f-09cb-4f72-a858-56b9ff4323cb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.15.2026::5:56:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.15.2026::5:56:2</_modifiedTime>
+			<weakCGTime type="a">1.15.2026::5:56:2</weakCGTime>
+			<strongCGTime type="a">1.15.2026::5:56:2</strongCGTime>
+			<_defaultComposite type="s">GUID 4a312fe0-f166-453e-b1d3-f72581b84b0a</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::9:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 4a312fe0-f166-453e-b1d3-f72581b84b0a</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 4a312fe0-f166-453e-b1d3-f72581b84b0a</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<ISubsystem type="e">
+			<_id type="a">GUID 1a8065f1-0ca9-4e88-965f-6089faf5f6b4</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ModeDeclarationGroups</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::GenericStructure::CoreElements</_hsubsystem>
+							<_hname type="a">ARPackage</_hname>
+							<_hid type="a">GUID 03af387f-09cb-4f72-a858-56b9ff4323cb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.15.2026::5:56:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.15.2026::5:56:2</_modifiedTime>
+			<weakCGTime type="a">1.15.2026::5:56:2</weakCGTime>
+			<strongCGTime type="a">1.15.2026::5:56:2</strongCGTime>
+			<_defaultComposite type="s">GUID e5696d1d-a925-4d02-b8f0-f569950943c5</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::9:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID e5696d1d-a925-4d02-b8f0-f569950943c5</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID e5696d1d-a925-4d02-b8f0-f569950943c5</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<ISubsystem type="e">
+			<_id type="a">GUID c404e930-51f9-427c-94ff-0740aab14cf8</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DataTypeMappingSets</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::GenericStructure::CoreElements</_hsubsystem>
+							<_hname type="a">ARPackage</_hname>
+							<_hid type="a">GUID 03af387f-09cb-4f72-a858-56b9ff4323cb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.15.2026::5:56:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.15.2026::5:56:2</_modifiedTime>
+			<weakCGTime type="a">1.15.2026::5:56:2</weakCGTime>
+			<strongCGTime type="a">1.15.2026::5:56:2</strongCGTime>
+			<_defaultComposite type="s">GUID 98483c7d-29ab-4781-a502-74f225d4880e</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::9:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 98483c7d-29ab-4781-a502-74f225d4880e</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 98483c7d-29ab-4781-a502-74f225d4880e</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<ISubsystem type="e">
+			<_id type="a">GUID 7c6c293c-145c-48f8-b866-01e59227ea2c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">PortInterfaces</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::GenericStructure::CoreElements</_hsubsystem>
+							<_hname type="a">ARPackage</_hname>
+							<_hid type="a">GUID 03af387f-09cb-4f72-a858-56b9ff4323cb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.15.2026::5:56:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.15.2026::5:56:3</_modifiedTime>
+			<weakCGTime type="a">1.15.2026::5:56:3</weakCGTime>
+			<strongCGTime type="a">1.15.2026::5:56:2</strongCGTime>
+			<_defaultComposite type="s">GUID 25c9f19a-7ee3-4c1d-9697-563644f66239</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::9:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 25c9f19a-7ee3-4c1d-9697-563644f66239</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 25c9f19a-7ee3-4c1d-9697-563644f66239</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<ISubsystem type="e">
+			<_id type="a">GUID 6fbf8c11-38c3-489e-80b7-88ab83604d26</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SwComponentTypes</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::GenericStructure::CoreElements</_hsubsystem>
+							<_hname type="a">ARPackage</_hname>
+							<_hid type="a">GUID 03af387f-09cb-4f72-a858-56b9ff4323cb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.15.2026::5:56:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.15.2026::5:56:3</_modifiedTime>
+			<weakCGTime type="a">1.15.2026::5:56:3</weakCGTime>
+			<strongCGTime type="a">1.15.2026::5:56:3</strongCGTime>
+			<_defaultComposite type="s">GUID 6608520b-068d-4636-ba9b-9b8de7fbf4b8</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::9:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 6608520b-068d-4636-ba9b-9b8de7fbf4b8</value>
+				<value>GUID 9deec391-cb6e-4591-b000-650faaaef892</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 6608520b-068d-4636-ba9b-9b8de7fbf4b8</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IClass type="e">
+			<_id type="a">GUID 9deec391-cb6e-4591-b000-650faaaef892</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SWC_FaultDTC</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::Components</_hsubsystem>
+							<_hname type="a">ApplicationSwComponentType</_hname>
+							<_hid type="a">GUID b38e8248-c140-4fd3-bd05-a4ab6659af82</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.15.2026::5:56:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.15.2026::5:56:5</_modifiedTime>
+			<weakCGTime type="a">1.15.2026::5:56:5</weakCGTime>
+			<strongCGTime type="a">1.15.2026::5:56:3</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID caf319ff-a041-43cd-a1e6-071e03ba667d</value>
+				<value>GUID 977cf91c-1a36-4516-a4bc-788b862060a5</value>
+				<value>GUID 5067ae4d-5a7f-4a3b-877e-7996b65e7d3e</value>
+				<value>GUID 0d7e7bde-b6a2-4793-95ac-8a2c7a0dac6d</value>
+				<value>GUID 69234ae2-feff-4e3d-8b7f-14a1ba8785e4</value>
+				<value>GUID a0c2ae5a-d7b1-443f-b8e4-b3e52c35cd45</value>
+				<value>GUID e52f8c40-ca55-422f-b312-7a2f91d178b0</value>
+			</AggregatesList>
+		</IClass>
+		<ITag type="e">
+			<_id type="a">GUID caf319ff-a041-43cd-a1e6-071e03ba667d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">RiskOrASIL</_name>
+			<_modifiedTimeWeak type="a">1.15.2026::5:56:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.15.2026::5:56:3</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 10db0819-24b9-42f6-aa00-0f3bc7569c49</value>
+				<value>GUID 3bfa3ef0-9042-415b-a582-a66465a64af3</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 10db0819-24b9-42f6-aa00-0f3bc7569c49</_id>
+			<_modifiedTimeWeak type="a">1.15.2026::5:56:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.15.2026::5:56:3</_modifiedTime>
+			<_value type="a">QM</_value>
+		</ILiteralSpecification>
+		<IType type="e">
+			<_id type="a">GUID 3bfa3ef0-9042-415b-a582-a66465a64af3</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<ITag type="e">
+			<_id type="a">GUID 977cf91c-1a36-4516-a4bc-788b862060a5</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ReleasePriority</_name>
+			<_modifiedTimeWeak type="a">1.15.2026::5:56:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.15.2026::5:56:3</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID ba035f14-d7ae-45fc-abe7-9c669d2dc4fa</value>
+				<value>GUID 878d4441-d302-4213-b2e2-44fbe4f1247e</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID ba035f14-d7ae-45fc-abe7-9c669d2dc4fa</_id>
+			<_modifiedTimeWeak type="a">1.15.2026::5:56:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.15.2026::5:56:3</_modifiedTime>
+			<_value type="a">P1</_value>
+		</ILiteralSpecification>
+		<IType type="e">
+			<_id type="a">GUID 878d4441-d302-4213-b2e2-44fbe4f1247e</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<ITag type="e">
+			<_id type="a">GUID 5067ae4d-5a7f-4a3b-877e-7996b65e7d3e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">VerificationMethod</_name>
+			<_modifiedTimeWeak type="a">1.15.2026::5:56:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.15.2026::5:56:3</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID d9d5120a-e803-484f-8d62-8156e698880b</value>
+				<value>GUID 0ebb30ad-5b57-4f89-906e-feb075c47d20</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID d9d5120a-e803-484f-8d62-8156e698880b</_id>
+			<_modifiedTimeWeak type="a">1.15.2026::5:56:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.15.2026::5:56:3</_modifiedTime>
+			<_value type="a">Test(SWIT)</_value>
+		</ILiteralSpecification>
+		<IType type="e">
+			<_id type="a">GUID 0ebb30ad-5b57-4f89-906e-feb075c47d20</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<ITag type="e">
+			<_id type="a">GUID 0d7e7bde-b6a2-4793-95ac-8a2c7a0dac6d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Status</_name>
+			<_modifiedTimeWeak type="a">1.15.2026::5:56:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.15.2026::5:56:3</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID f949a692-546a-4828-b2b0-390888843851</value>
+				<value>GUID a021df50-6514-47f9-8777-38d2d0ae6798</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID f949a692-546a-4828-b2b0-390888843851</_id>
+			<_modifiedTimeWeak type="a">1.15.2026::5:56:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.15.2026::5:56:3</_modifiedTime>
+			<_value type="a">Accepted</_value>
+		</ILiteralSpecification>
+		<IType type="e">
+			<_id type="a">GUID a021df50-6514-47f9-8777-38d2d0ae6798</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<ITag type="e">
+			<_id type="a">GUID 69234ae2-feff-4e3d-8b7f-14a1ba8785e4</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">RelatedID</_name>
+			<_modifiedTimeWeak type="a">1.15.2026::5:56:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.15.2026::5:56:3</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 95c160eb-a1ae-44c7-9c40-0460cdcf4db4</value>
+				<value>GUID 724d0a0b-5c4c-4b5d-b277-6d084f2237fe</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 95c160eb-a1ae-44c7-9c40-0460cdcf4db4</_id>
+			<_modifiedTimeWeak type="a">1.15.2026::5:56:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.15.2026::5:56:3</_modifiedTime>
+			<_value type="a">N/A</_value>
+		</ILiteralSpecification>
+		<IType type="e">
+			<_id type="a">GUID 724d0a0b-5c4c-4b5d-b277-6d084f2237fe</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<ITag type="e">
+			<_id type="a">GUID a0c2ae5a-d7b1-443f-b8e4-b3e52c35cd45</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">History</_name>
+			<_modifiedTimeWeak type="a">1.15.2026::5:56:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.15.2026::5:56:3</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID b8602684-606e-4e1b-92fc-1f9cd5400773</value>
+				<value>GUID aca3c971-f34f-4d8a-9203-a2448623a278</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID b8602684-606e-4e1b-92fc-1f9cd5400773</_id>
+			<_modifiedTimeWeak type="a">1.15.2026::5:56:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.15.2026::5:56:3</_modifiedTime>
+			<_value type="a">N/A</_value>
+		</ILiteralSpecification>
+		<IType type="e">
+			<_id type="a">GUID aca3c971-f34f-4d8a-9203-a2448623a278</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<IDiagram type="e">
+			<_id type="a">GUID e52f8c40-ca55-422f-b312-7a2f91d178b0</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">ObjectModelGe</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Class</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">2</size>
+												<IProperty type="e">
+													<_Name type="a">ShowAttributes</_Name>
+													<_Value type="a">None</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">All,None,Public,Explicit</_ExtraTypeInfo>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ShowOperations</_Name>
+													<_Value type="a">None</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">All,None,Public,Explicit</_ExtraTypeInfo>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">SWC_FaultDTC_1</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::Diagrams</_hsubsystem>
+							<_hname type="a">SWComponentDiagram</_hname>
+							<_hid type="a">GUID 6e878077-ae85-4c68-8dec-ce949a8c2514</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.15.2026::5:56:5</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.15.2026::5:56:5</_modifiedTime>
+			<_lastModifiedTime type="a">1.15.2026::5:56:5</_lastModifiedTime>
+			<m_hReferencedDiagram type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_hReferencedDiagram>
+			<_defaultSubsystem type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hid type="a">GUID 6fbf8c11-38c3-489e-80b7-88ab83604d26</_hid>
+				</IHandle>
+			</_defaultSubsystem>
+			<AggregatesList type="e">
+				<value>GUID 420ca560-23be-4d5f-abab-2aa8f8ff3615</value>
+			</AggregatesList>
+		</IDiagram>
+		<CGIClassChart type="e">
+			<_id type="a">GUID 420ca560-23be-4d5f-abab-2aa8f8ff3615</_id>
+			<m_type type="a">0</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hid type="a">GUID e52f8c40-ca55-422f-b312-7a2f91d178b0</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">0</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<elementList type="a">1</elementList>
+			
+			<m_access type="a">'Z'</m_access>
+			<m_modified type="a">'N'</m_modified>
+			<m_nModifyDate type="a">0</m_nModifyDate>
+			<m_nCreateDate type="a">0</m_nCreateDate>
+			<m_bScaleWithZoom type="a">1</m_bScaleWithZoom>
+			<m_arrowStyle type="a">'S'</m_arrowStyle>
+			<m_pRoot type="s">GUID b76a787d-5720-4ea8-87fe-8e0e8d77fc9e</m_pRoot>
+			<m_currentLeftTop type="a">0 0 </m_currentLeftTop>
+			<m_currentRightBottom type="a">0 0 </m_currentRightBottom>
+			<m_bFreezeCompartmentContent type="a">0</m_bFreezeCompartmentContent>
+			<AggregatesList type="e">
+				<value>GUID b76a787d-5720-4ea8-87fe-8e0e8d77fc9e</value>
+			</AggregatesList>
+		</CGIClassChart>
+		<CGIClass type="e">
+			<_id type="a">GUID b76a787d-5720-4ea8-87fe-8e0e8d77fc9e</_id>
+			<m_type type="a">78</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 6608520b-068d-4636-ba9b-9b8de7fbf4b8</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">TopLevel</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">0</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_polygon type="a">0 </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<Attrs type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Attrs>
+			<Operations type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Operations>
+		</CGIClass>
+		<IClass type="e">
+			<_id type="a">GUID a2044524-2b29-44db-b32b-d5daa443bbfb</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

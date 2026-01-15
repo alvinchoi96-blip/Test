@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>949</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 4ceaa99e-8bd7-42bc-9157-8d48ac657016</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SWREQ_Subsystem_Composition</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">2</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AutomotiveESWforUC.sbsx</_hfilename>
+							<_hsubsystem type="a">AutomotiveESW::ESW_RequirementModel</_hsubsystem>
+							<_hname type="a">Subsystem Requirement Package</_hname>
+							<_hid type="a">GUID 912b9da2-6177-4505-8015-2fa0b5caab24</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AutomotiveESWforUC.sbsx</_hfilename>
+							<_hsubsystem type="a">AutomotiveESW::ESW_ProductLine</_hsubsystem>
+							<_hname type="a">mandatory</_hname>
+							<_hid type="a">GUID d8efb1e8-dac3-45c8-bf92-5fe48ed9557f</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.15.2026::4:7:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.15.2026::4:7:8</_modifiedTime>
+			<weakCGTime type="a">1.15.2026::4:7:8</weakCGTime>
+			<strongCGTime type="a">1.15.2026::4:7:8</strongCGTime>
+			<_defaultComposite type="s">GUID f6a9d16b-1d9e-4548-95f9-24bc3958939d</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.1.1970::9:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 06156b5c-539a-4882-a051-b5ffefd26335</value>
+				<value>GUID 55982d8f-1b8a-484b-ac11-4d1d8fb2eda7</value>
+				<value>GUID 26128cd4-0d2e-47c0-8e05-a64af307c9d0</value>
+				<value>GUID c56b34b1-ab1d-4de2-82ee-76d0477c1c08</value>
+				<value>GUID 50d9b003-4c33-42cb-b6ee-44dc9cb6c0ea</value>
+				<value>GUID f6a9d16b-1d9e-4548-95f9-24bc3958939d</value>
+			</AggregatesList>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">SWREQ_Subsystem_Composition_SYSSHRS</fileName>
+			<_id type="a">GUID 06156b5c-539a-4882-a051-b5ffefd26335</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">SWREQ_Subsystem_Composition_SYSRS</fileName>
+			<_id type="a">GUID 55982d8f-1b8a-484b-ac11-4d1d8fb2eda7</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">SWREQ_Subsystem_Composition_SYSAD</fileName>
+			<_id type="a">GUID 26128cd4-0d2e-47c0-8e05-a64af307c9d0</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">SWREQ_Subsystem_Composition_SIRS</fileName>
+			<_id type="a">GUID c56b34b1-ab1d-4de2-82ee-76d0477c1c08</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">SWREQ_Subsystem_Composition_SRS</fileName>
+			<_id type="a">GUID 50d9b003-4c33-42cb-b6ee-44dc9cb6c0ea</_id>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID f6a9d16b-1d9e-4548-95f9-24bc3958939d</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

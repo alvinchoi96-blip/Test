@@ -28,10 +28,10 @@
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
 								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
 								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
-								<m_nLeft type="a">130</m_nLeft>
-								<m_nTop type="a">130</m_nTop>
-								<m_nRight type="a">1226</m_nRight>
-								<m_nBottom type="a">618</m_nBottom>
+								<m_nLeft type="a">26</m_nLeft>
+								<m_nTop type="a">26</m_nTop>
+								<m_nRight type="a">1102</m_nRight>
+								<m_nBottom type="a">515</m_nBottom>
 							</CCommon_WINDOWPLACEMENT>
 						</_placement>
 						<_wasOpenedOnCloseProject type="a">1</_wasOpenedOnCloseProject>
@@ -45,8 +45,8 @@
 								<_hid type="a">GUID 94c51895-c2f9-470b-9c91-5c3c5da7fd3b</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">19 20 </_UpLeft>
-						<_DownRight type="a">1470 782 </_DownRight>
+						<_UpLeft type="a">0 105 </_UpLeft>
+						<_DownRight type="a">1285 780 </_DownRight>
 						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
 						<m_bIsActiveView type="a">1</m_bIsActiveView>
 					</CGEMdiDiagramParams>
@@ -59,7 +59,7 @@
 					<size type="a">0</size>
 				</IRPYRawContainer>
 			</m_SearchScopeList>
-			<bUsingBrowserCustomView type="a">1</bUsingBrowserCustomView>
+			<bUsingBrowserCustomView type="a">0</bUsingBrowserCustomView>
 			<bApplyOnDiagrams type="a">0</bApplyOnDiagrams>
 			<liCustomViewIDs type="c">
 				<IRPYRawContainer type="e">

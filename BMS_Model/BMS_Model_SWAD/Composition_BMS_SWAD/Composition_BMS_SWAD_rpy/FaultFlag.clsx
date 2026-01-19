@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>949</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<IClass type="e">
+			<_id type="a">GUID 9d9a1c1b-654f-4f8d-b7f4-3982bc187a07</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">FaultFlag</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">2</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::PortInterface</_hsubsystem>
+							<_hname type="a">SenderReceiverInterface</_hname>
+							<_hid type="a">GUID 566a102f-86ca-4603-be1e-c8f2345f27bc</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_MDS.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_MDS</_hsubsystem>
+							<_hname type="a">mandatory</_hname>
+							<_hid type="a">GUID 6aa5539a-7869-4ab0-bcb7-7f13dde09b59</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.19.2026::10:38:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.19.2026::10:38:3</_modifiedTime>
+			<weakCGTime type="a">1.19.2026::10:38:3</weakCGTime>
+			<strongCGTime type="a">1.19.2026::10:38:3</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 05c55fca-fde5-41fa-82c2-50bdebca534e</value>
+				<value>GUID a47d38d5-06b9-40fc-9c79-f6b4b52a4ba6</value>
+			</AggregatesList>
+		</IClass>
+		<ITag type="e">
+			<_id type="a">GUID 05c55fca-fde5-41fa-82c2-50bdebca534e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">isService</_name>
+			<_modifiedTimeWeak type="a">1.19.2026::10:38:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.19.2026::10:38:3</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
+					<_hname type="a">RhpBoolean</_hname>
+					<_hid type="a">GUID f19b56f2-78ab-44fa-860e-6ead487ecb07</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_base type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">ITag</_hm2Class>
+					<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+					<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::CoreElements</_hsubsystem>
+					<_hclass type="a">PortInterface</_hclass>
+					<_hname type="a">isService</_hname>
+					<_hid type="a">GUID 0854400e-8128-4375-acf4-c0db1c9f47b4</_hid>
+				</IHandle>
+			</_base>
+			<AggregatesList type="e">
+				<value>GUID 290cf614-23ce-4d1a-b8bd-672eeb7429c0</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 290cf614-23ce-4d1a-b8bd-672eeb7429c0</_id>
+			<_modifiedTimeWeak type="a">1.19.2026::10:38:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.19.2026::10:38:3</_modifiedTime>
+			<_value type="a">False</_value>
+		</ILiteralSpecification>
+		<ITag type="e">
+			<_id type="a">GUID a47d38d5-06b9-40fc-9c79-f6b4b52a4ba6</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">author</_name>
+			<_modifiedTimeWeak type="a">1.19.2026::10:38:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.19.2026::10:38:3</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID cc5035f7-ce54-44b7-af78-a8c87fa3e9c9</value>
+				<value>GUID 4ade5fc1-d7e2-4c97-ac51-bc09021dafb0</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID cc5035f7-ce54-44b7-af78-a8c87fa3e9c9</_id>
+			<_modifiedTimeWeak type="a">1.19.2026::10:38:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.19.2026::10:38:3</_modifiedTime>
+			<_value type="a">MDS</_value>
+		</ILiteralSpecification>
+		<IType type="e">
+			<_id type="a">GUID 4ade5fc1-d7e2-4c97-ac51-bc09021dafb0</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_kind type="a">Language</_kind>
+		</IType>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

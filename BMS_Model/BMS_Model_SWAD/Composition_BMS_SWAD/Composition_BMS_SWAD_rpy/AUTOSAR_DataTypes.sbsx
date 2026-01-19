@@ -63,9 +63,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">12.4.2024::4:14:44</_modifiedTimeWeak>
-			<_modifiedTime type="a">9.2.2024::23:10:11</_modifiedTime>
-			<weakCGTime type="a">12.4.2024::4:14:44</weakCGTime>
+			<_modifiedTimeWeak type="a">1.19.2026::5:5:13</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.19.2026::5:5:13</_modifiedTime>
+			<weakCGTime type="a">1.19.2026::5:5:13</weakCGTime>
 			<strongCGTime type="a">12.4.2024::4:14:44</strongCGTime>
 			<_defaultComposite type="s">GUID ccb63a8b-8a19-4316-8adb-72d293b758fa</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -14461,9 +14461,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">12.4.2024::4:14:44</_modifiedTimeWeak>
-			<_modifiedTime type="a">9.2.2024::15:0:25</_modifiedTime>
-			<weakCGTime type="a">12.4.2024::4:14:44</weakCGTime>
+			<_modifiedTimeWeak type="a">1.19.2026::5:5:13</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.19.2026::5:5:13</_modifiedTime>
+			<weakCGTime type="a">1.19.2026::5:5:13</weakCGTime>
 			<strongCGTime type="a">12.4.2024::4:14:44</strongCGTime>
 			<_defaultComposite type="s">GUID 6ab2c6db-7958-4b26-9871-3f4da03ab35e</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -14509,14 +14509,15 @@
 			<_id type="a">GUID b40d871e-2635-4f86-9c5d-2c89245490e3</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">category</_name>
-			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">9.2.2024::15:0:25</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.19.2026::5:5:13</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.19.2026::5:5:13</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
-					<_hsubsystem type="a">PredefinedTypes</_hsubsystem>
-					<_hname type="a">RhpString</_hname>
-					<_hid type="a">GUID ae5e3720-4e3e-40f1-9346-9a8b4e501f35</_hid>
+					<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+					<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::GenericStructure::GeneralTemplateClasses::PrimitiveTypes</_hsubsystem>
+					<_hname type="a">CategoryString</_hname>
+					<_hid type="a">GUID 354a9f36-0795-47b4-9191-83d8be3c1109</_hid>
 				</IHandle>
 			</_typeOf>
 			<_isOrdered type="a">0</_isOrdered>

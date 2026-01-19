@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>949</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 85c9a470-a158-4d6c-98c9-b51f1ea4485d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DataTypes</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">2</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::GenericStructure::CoreElements</_hsubsystem>
+							<_hname type="a">ARPackage</_hname>
+							<_hid type="a">GUID 03af387f-09cb-4f72-a858-56b9ff4323cb</_hid>
+						</IHandle>
+					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_MDS.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_MDS</_hsubsystem>
+							<_hname type="a">mandatory</_hname>
+							<_hid type="a">GUID 6aa5539a-7869-4ab0-bcb7-7f13dde09b59</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.19.2026::7:29:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.19.2026::7:29:24</_modifiedTime>
+			<weakCGTime type="a">1.19.2026::7:29:24</weakCGTime>
+			<strongCGTime type="a">1.19.2026::7:28:47</strongCGTime>
+			<_defaultComposite type="s">GUID 39e34c8e-f74c-46ac-85df-482a9e77064b</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.19.2026::5:9:49</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 6a843f2b-4182-4ce2-b8ea-595d622dd829</value>
+				<value>GUID fb445df4-4e71-4ece-bf86-6c32a93e3b9a</value>
+				<value>GUID d2605160-0b44-4df6-bf33-77303fcd0045</value>
+				<value>GUID 2a24161b-876c-4938-ab13-1d0c16f41efe</value>
+				<value>GUID ccdb8331-4014-4209-a827-7f56616e6ee3</value>
+				<value>GUID 39e34c8e-f74c-46ac-85df-482a9e77064b</value>
+			</AggregatesList>
+		</ISubsystem>
+		<ITag type="e">
+			<_id type="a">GUID 6a843f2b-4182-4ce2-b8ea-595d622dd829</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">author</_name>
+			<_modifiedTimeWeak type="a">1.19.2026::5:9:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.19.2026::5:9:32</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 06a4605f-c0fe-4be1-a8af-f306046ec1ad</value>
+				<value>GUID d5c3c84f-0894-4bba-b01a-5e8381653f89</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 06a4605f-c0fe-4be1-a8af-f306046ec1ad</_id>
+			<_modifiedTimeWeak type="a">1.19.2026::5:9:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.19.2026::5:9:32</_modifiedTime>
+			<_value type="a">MDS</_value>
+		</ILiteralSpecification>
+		<IType type="e">
+			<_id type="a">GUID d5c3c84f-0894-4bba-b01a-5e8381653f89</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<ISubsystem type="e">
+			<_id type="a">GUID fb445df4-4e71-4ece-bf86-6c32a93e3b9a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">CompuMethods</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::GenericStructure::CoreElements</_hsubsystem>
+							<_hname type="a">ARPackage</_hname>
+							<_hid type="a">GUID 03af387f-09cb-4f72-a858-56b9ff4323cb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.19.2026::7:28:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.19.2026::5:9:32</_modifiedTime>
+			<weakCGTime type="a">1.19.2026::7:28:47</weakCGTime>
+			<strongCGTime type="a">1.19.2026::7:28:47</strongCGTime>
+			<_defaultComposite type="s">GUID b7ae6ad7-a7c6-4032-9115-fbce1ce1eb39</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID b7ae6ad7-a7c6-4032-9115-fbce1ce1eb39</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID b7ae6ad7-a7c6-4032-9115-fbce1ce1eb39</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.19.2026::7:28:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.19.2026::7:28:47</weakCGTime>
+			<strongCGTime type="a">1.19.2026::7:28:47</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<ISubsystem type="e">
+			<_id type="a">GUID d2605160-0b44-4df6-bf33-77303fcd0045</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ImplementationDataTypes</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::GenericStructure::CoreElements</_hsubsystem>
+							<_hname type="a">ARPackage</_hname>
+							<_hid type="a">GUID 03af387f-09cb-4f72-a858-56b9ff4323cb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.19.2026::7:29:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.19.2026::7:29:24</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<weakCGTime type="a">1.19.2026::7:29:24</weakCGTime>
+			<strongCGTime type="a">1.19.2026::7:28:47</strongCGTime>
+			<_defaultComposite type="s">GUID 1ab69444-edfc-4817-9834-455424e6ae3f</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<Types type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Types>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 1ab69444-edfc-4817-9834-455424e6ae3f</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 1ab69444-edfc-4817-9834-455424e6ae3f</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.19.2026::7:28:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.19.2026::7:28:47</weakCGTime>
+			<strongCGTime type="a">1.19.2026::7:28:47</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<ISubsystem type="e">
+			<_id type="a">GUID 2a24161b-876c-4938-ab13-1d0c16f41efe</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ModeDeclarationGroups</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::GenericStructure::CoreElements</_hsubsystem>
+							<_hname type="a">ARPackage</_hname>
+							<_hid type="a">GUID 03af387f-09cb-4f72-a858-56b9ff4323cb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.19.2026::7:28:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.19.2026::5:9:32</_modifiedTime>
+			<weakCGTime type="a">1.19.2026::7:28:47</weakCGTime>
+			<strongCGTime type="a">1.19.2026::7:28:47</strongCGTime>
+			<_defaultComposite type="s">GUID d4cf5f74-56db-42c9-b660-7c97bbbfd1a6</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID d4cf5f74-56db-42c9-b660-7c97bbbfd1a6</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID d4cf5f74-56db-42c9-b660-7c97bbbfd1a6</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.19.2026::7:28:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.19.2026::7:28:47</weakCGTime>
+			<strongCGTime type="a">1.19.2026::7:28:47</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<ISubsystem type="e">
+			<_id type="a">GUID ccdb8331-4014-4209-a827-7f56616e6ee3</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">DataTypeMappingSets</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::GenericStructure::CoreElements</_hsubsystem>
+							<_hname type="a">ARPackage</_hname>
+							<_hid type="a">GUID 03af387f-09cb-4f72-a858-56b9ff4323cb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.19.2026::7:28:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.19.2026::5:9:33</_modifiedTime>
+			<weakCGTime type="a">1.19.2026::7:28:47</weakCGTime>
+			<strongCGTime type="a">1.19.2026::7:28:47</strongCGTime>
+			<_defaultComposite type="s">GUID 3c6bc6d5-6ca6-45a8-8d90-8922cfbd19e7</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 3c6bc6d5-6ca6-45a8-8d90-8922cfbd19e7</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID 3c6bc6d5-6ca6-45a8-8d90-8922cfbd19e7</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.19.2026::7:28:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.19.2026::7:28:47</weakCGTime>
+			<strongCGTime type="a">1.19.2026::7:28:47</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		<IClass type="e">
+			<_id type="a">GUID 39e34c8e-f74c-46ac-85df-482a9e77064b</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.19.2026::7:28:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.19.2026::7:28:47</weakCGTime>
+			<strongCGTime type="a">1.19.2026::7:28:47</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

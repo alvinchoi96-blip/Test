@@ -34,9 +34,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.19.2026::4:1:58</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.15.2026::5:56:42</_modifiedTime>
-			<weakCGTime type="a">1.19.2026::4:1:58</weakCGTime>
+			<_modifiedTimeWeak type="a">1.19.2026::12:13:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.19.2026::12:13:22</_modifiedTime>
+			<weakCGTime type="a">1.19.2026::12:13:22</weakCGTime>
 			<strongCGTime type="a">1.15.2026::5:56:40</strongCGTime>
 			<_defaultComposite type="s">GUID 0ee74652-18b9-43cd-890c-34a9a8f79f7b</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -310,9 +310,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.19.2026::4:1:58</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.15.2026::5:56:42</_modifiedTime>
-			<weakCGTime type="a">1.19.2026::4:1:58</weakCGTime>
+			<_modifiedTimeWeak type="a">1.19.2026::12:13:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.19.2026::12:13:22</_modifiedTime>
+			<weakCGTime type="a">1.19.2026::12:13:22</weakCGTime>
 			<strongCGTime type="a">1.15.2026::5:56:42</strongCGTime>
 			<_defaultComposite type="s">GUID e9597e70-fc10-4165-9cb5-60f7b9d0e6a5</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -354,7 +354,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.19.2026::4:1:58</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.19.2026::12:13:22</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -365,8 +365,9 @@
 					<_hid type="a">GUID 94c51895-c2f9-470b-9c91-5c3c5da7fd3b</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">1.19.2026::4:1:58</_modifiedTime>
-			<weakCGTime type="a">1.19.2026::4:1:58</weakCGTime>
+			<_modifiedTime type="a">1.19.2026::12:13:22</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">1.19.2026::12:13:22</weakCGTime>
 			<strongCGTime type="a">1.15.2026::5:56:42</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -381,6 +382,7 @@
 				<value>GUID eb6119b8-b7ff-46a6-827b-3d4b2edfff8a</value>
 				<value>GUID 6cf599d7-779d-4aba-b400-1d90a0b8ce4b</value>
 				<value>GUID 42b01d31-3ce1-43d5-b3f0-40efbaa0c42a</value>
+				<value>GUID c097821c-6a2b-46ad-8ee6-73c79c7d8a23</value>
 			</AggregatesList>
 		</IClass>
 		<ITag type="e">
@@ -711,6 +713,132 @@
 				</IRPYRawContainer>
 			</Operations>
 		</CGIClass>
+		<IPort type="e">
+			<_id type="a">GUID c097821c-6a2b-46ad-8ee6-73c79c7d8a23</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">R_BattStatus</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::CoreElements</_hsubsystem>
+							<_hname type="a">dataReceiverPort</_hname>
+							<_hid type="a">GUID 5bb64f20-c6fc-46b2-b55f-81e998b48780</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.19.2026::12:13:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.19.2026::12:13:22</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 270f8c30-2fe8-493a-a1e5-f7f3aa28af19</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID 270f8c30-2fe8-493a-a1e5-f7f3aa28af19</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">R_BattStatus_implicitContract</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+								<_hsubsystem type="a">AUTOSAR_440::RHP_PredefinedTypes</_hsubsystem>
+								<_hname type="a">Interface</_hname>
+								<_hid type="a">GUID bbb4829a-eebb-4d51-b578-8971f1c0e1c1</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.19.2026::9:52:54</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.19.2026::9:53:9</_modifiedTime>
+				<weakCGTime type="a">1.19.2026::9:52:54</weakCGTime>
+				<strongCGTime type="a">1.19.2026::9:52:54</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+			</IClass>
+			</_implicitClass>
+			<AggregatesList type="e">
+				<value>GUID e7a2ab88-86d6-4009-bb34-5df307c7625c</value>
+				<value>GUID 2f984c9c-b8e9-475a-8d18-fa1f6b0fe023</value>
+			</AggregatesList>
+		</IPort>
+		<IDependency type="e">
+			<_id type="a">GUID e7a2ab88-86d6-4009-bb34-5df307c7625c</_id>
+			<_myState type="a">2048</_myState>
+			<_name type="a">BattStatus</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::Components</_hsubsystem>
+							<_hname type="a">l_requiredInterface</_hname>
+							<_hid type="a">GUID 07d6cc20-34ea-4dcd-a106-a90845107690</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.19.2026::12:13:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.19.2026::12:13:22</_modifiedTime>
+			<_dependsOn type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hfilename type="a">.\BattStatus.clsx</_hfilename>
+					<_hsubsystem type="a">Composition_BMS::PortInterfaces</_hsubsystem>
+					<_hname type="a">BattStatus</_hname>
+					<_hid type="a">GUID b429da5f-6138-4c8e-9921-89f910e5333e</_hid>
+				</INObjectHandle>
+			</_dependsOn>
+			<_dependent type="r">
+				<INObjectHandle type="e">
+					<_hm2Class type="a">IPort</_hm2Class>
+					<_hid type="a">GUID c097821c-6a2b-46ad-8ee6-73c79c7d8a23</_hid>
+				</INObjectHandle>
+			</_dependent>
+		</IDependency>
+		<ITag type="e">
+			<_id type="a">GUID 2f984c9c-b8e9-475a-8d18-fa1f6b0fe023</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">interfaceName</_name>
+			<_modifiedTimeWeak type="a">1.19.2026::9:53:9</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.19.2026::9:53:9</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID de24f920-263d-4f23-aafe-a7192ca4bc02</value>
+				<value>GUID 812524bb-3e73-4c94-953b-eba70724a458</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID de24f920-263d-4f23-aafe-a7192ca4bc02</_id>
+			<_modifiedTimeWeak type="a">1.19.2026::9:53:9</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.19.2026::9:53:9</_modifiedTime>
+			<_value type="a">BattStatus</_value>
+		</ILiteralSpecification>
+		<IType type="e">
+			<_id type="a">GUID 812524bb-3e73-4c94-953b-eba70724a458</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_kind type="a">Language</_kind>
+		</IType>
 		<IClass type="e">
 			<_id type="a">GUID 0ee74652-18b9-43cd-890c-34a9a8f79f7b</_id>
 			<_myState type="a">40960</_myState>

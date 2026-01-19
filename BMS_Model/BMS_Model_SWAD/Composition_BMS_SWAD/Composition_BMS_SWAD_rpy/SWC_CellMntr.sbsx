@@ -34,13 +34,13 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.15.2026::4:36:12</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.19.2026::4:0:39</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.15.2026::4:36:12</_modifiedTime>
-			<weakCGTime type="a">1.15.2026::4:36:12</weakCGTime>
+			<weakCGTime type="a">1.19.2026::4:0:39</weakCGTime>
 			<strongCGTime type="a">1.15.2026::4:36:9</strongCGTime>
 			<_defaultComposite type="s">GUID 00d5ba08-9d4a-41b8-9d80-8a371196fa47</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">1.1.1970::9:0:0</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 60e25cf7-3a66-4d52-9b4c-37e3d64c25dd</value>
 				<value>GUID 36a12d17-d516-435b-9add-4e5aeb6da8f6</value>
@@ -74,7 +74,7 @@
 			<_id type="a">GUID 1544db5f-bdb1-430a-a155-6e4dbdb3a08f</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_kind type="a">Language</_kind>
 		</IType>
 		<ISubsystem type="e">
@@ -101,7 +101,7 @@
 			<strongCGTime type="a">1.15.2026::4:36:10</strongCGTime>
 			<_defaultComposite type="s">GUID 8c492736-a16e-46e1-baf9-ab34c7afb756</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">1.1.1970::9:0:0</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 8c492736-a16e-46e1-baf9-ab34c7afb756</value>
 			</AggregatesList>
@@ -111,7 +111,7 @@
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -144,7 +144,7 @@
 			<strongCGTime type="a">1.15.2026::4:36:11</strongCGTime>
 			<_defaultComposite type="s">GUID 9a43b176-c2b0-42c1-8a67-bcb158cfea00</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">1.1.1970::9:0:0</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 9a43b176-c2b0-42c1-8a67-bcb158cfea00</value>
 			</AggregatesList>
@@ -154,7 +154,7 @@
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -187,7 +187,7 @@
 			<strongCGTime type="a">1.15.2026::4:36:12</strongCGTime>
 			<_defaultComposite type="s">GUID 053e3cf2-98b2-446f-a693-9c39827c628e</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">1.1.1970::9:0:0</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 053e3cf2-98b2-446f-a693-9c39827c628e</value>
 			</AggregatesList>
@@ -197,7 +197,7 @@
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -230,7 +230,7 @@
 			<strongCGTime type="a">1.15.2026::4:36:12</strongCGTime>
 			<_defaultComposite type="s">GUID 1dd9e044-7fc8-4236-a516-10a5d5db71f7</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">1.1.1970::9:0:0</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 1dd9e044-7fc8-4236-a516-10a5d5db71f7</value>
 			</AggregatesList>
@@ -240,7 +240,7 @@
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -273,7 +273,7 @@
 			<strongCGTime type="a">1.15.2026::4:36:12</strongCGTime>
 			<_defaultComposite type="s">GUID aea3878d-b2fc-476b-b2bd-44e3bd4855dd</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">1.1.1970::9:0:0</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID aea3878d-b2fc-476b-b2bd-44e3bd4855dd</value>
 			</AggregatesList>
@@ -283,7 +283,7 @@
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -310,13 +310,13 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.15.2026::4:36:13</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.19.2026::4:0:39</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.15.2026::4:36:13</_modifiedTime>
-			<weakCGTime type="a">1.15.2026::4:36:13</weakCGTime>
+			<weakCGTime type="a">1.19.2026::4:0:39</weakCGTime>
 			<strongCGTime type="a">1.15.2026::4:36:12</strongCGTime>
 			<_defaultComposite type="s">GUID 8b6a9ef6-4c3c-4c39-9a33-78f773917b74</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">1.1.1970::9:0:0</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">1.2.1990::0:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID 8b6a9ef6-4c3c-4c39-9a33-78f773917b74</value>
 				<value>GUID 29db6a20-0269-48b6-8831-f8760fa07e08</value>
@@ -327,7 +327,7 @@
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
@@ -354,9 +354,19 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.15.2026::4:36:15</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.15.2026::4:36:15</_modifiedTime>
-			<weakCGTime type="a">1.15.2026::4:36:15</weakCGTime>
+			<_modifiedTimeWeak type="a">1.19.2026::4:0:39</_modifiedTimeWeak>
+			<_theMainDiagram type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDiagram</_hm2Class>
+					<_hfilename type="a">.\Composition_BMS.sbsx</_hfilename>
+					<_hsubsystem type="a">Composition_BMS::SwComponentTypes</_hsubsystem>
+					<_hclass type="a">Composition_BMS</_hclass>
+					<_hname type="a">Composition_BMS_1</_hname>
+					<_hid type="a">GUID 94c51895-c2f9-470b-9c91-5c3c5da7fd3b</_hid>
+				</IHandle>
+			</_theMainDiagram>
+			<_modifiedTime type="a">1.19.2026::4:0:39</_modifiedTime>
+			<weakCGTime type="a">1.19.2026::4:0:39</weakCGTime>
 			<strongCGTime type="a">1.15.2026::4:36:13</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -395,7 +405,7 @@
 			<_id type="a">GUID 37ee02c7-105a-4213-875c-5acd58cdd2b6</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_kind type="a">Language</_kind>
 		</IType>
 		<ITag type="e">
@@ -420,7 +430,7 @@
 			<_id type="a">GUID c7119837-bf6b-42fb-8193-20c38067dc8e</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_kind type="a">Language</_kind>
 		</IType>
 		<ITag type="e">
@@ -445,7 +455,7 @@
 			<_id type="a">GUID d467af79-6647-4917-b08a-30a6d9b416b9</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_kind type="a">Language</_kind>
 		</IType>
 		<ITag type="e">
@@ -470,7 +480,7 @@
 			<_id type="a">GUID 7e9ecaa6-e632-4eac-bcdd-39e71ea10fe5</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_kind type="a">Language</_kind>
 		</IType>
 		<ITag type="e">
@@ -495,7 +505,7 @@
 			<_id type="a">GUID e85f9a37-0da2-45f9-add4-1aa939f705ae</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_kind type="a">Language</_kind>
 		</IType>
 		<ITag type="e">
@@ -520,7 +530,7 @@
 			<_id type="a">GUID 249157a1-ab54-4f1a-af76-aa95837c21d4</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_kind type="a">Language</_kind>
 		</IType>
 		<IDiagram type="e">
@@ -706,7 +716,7 @@
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">

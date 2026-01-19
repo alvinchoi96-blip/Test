@@ -1,4 +1,19 @@
 [Log]
-Num=2
-1=[2026-01-15 14:56:57.996] ¡Ú¡Ú¡Ú¡Ú¡Ú Add SW Component ¡Ú¡Ú¡Ú¡Ú¡Ú
-2=[Elapsed Time : 0 hours, 0 minutes, 6.1012866 seconds] ¡Ù¡Ù SW Component has been created. ¡Ù¡Ù
+Num=17
+1=[2026-01-19 12:58:04.812] ¡Ú¡Ú¡Ú¡Ú¡Ú Create/Open SW Architectural Design Model ¡Ú¡Ú¡Ú¡Ú¡Ú
+2=[Elapsed Time : 0 hours, 0 minutes, 14.2417812 seconds] ¡Ù¡Ù The AUTOSAR project has been opened. ¡Ù¡Ù
+3=[2026-01-19 13:00:43.793] ¡í¡í¡í¡í¡í¡í¡í¡í RapidAUTO Exception at mds_autosardesigner:8880
+4=[2026-01-19 13:00:46.045] ¡í¡í¡í¡í¡í¡í¡í¡í RapidAUTO Exception at mds_autosardesigner:8880
+5=[2026-01-19 13:00:48.166] ¡í¡í¡í¡í¡í¡í¡í¡í RapidAUTO Exception at mds_autosardesigner:8880
+6=[2026-01-19 13:01:06.413] ¡í¡í¡í¡í¡í¡í¡í¡í RapidAUTO Exception at mds_autosardesigner:8880
+7=[2026-01-19 13:01:09.154] ¡í¡í¡í¡í¡í¡í¡í¡í RapidAUTO Exception at mds_autosardesigner:8880
+8=[2026-01-19 13:01:21.033] ¡í¡í¡í¡í¡í¡í¡í¡í RapidAUTO Exception at mds_autosardesigner:8880
+9=[2026-01-19 13:01:27.932] ¡í¡í¡í¡í¡í¡í¡í¡í RapidAUTO Exception at mds_autosardesigner:8880
+10=[2026-01-19 13:01:34.972] ¡í¡í¡í¡í¡í¡í¡í¡í RapidAUTO Exception at mds_autosardesigner:20324
+11=[2026-01-19 13:01:34.979] ¡í¡í¡í¡í¡í¡í¡í¡í RapidAUTO Exception at mds_autosardesigner:8880
+12=[2026-01-19 13:01:41.759] ¡í¡í¡í¡í¡í¡í¡í¡í RapidAUTO Exception at mds_autosardesigner:8880
+13=[2026-01-19 13:02:06.229] ¡í¡í¡í¡í¡í¡í¡í¡í RapidAUTO Exception at mds_autosardesigner:8880
+14=[2026-01-19 13:02:08.845] ¡í¡í¡í¡í¡í¡í¡í¡í RapidAUTO Exception at mds_autosardesigner:8880
+15=[2026-01-19 13:02:11.481] ¡í¡í¡í¡í¡í¡í¡í¡í RapidAUTO Exception at mds_autosardesigner:8880
+16=[2026-01-19 13:02:13.146] ¡í¡í¡í¡í¡í¡í¡í¡í RapidAUTO Exception at mds_autosardesigner:8880
+17=[2026-01-19 13:02:15.847] ¡í¡í¡í¡í¡í¡í¡í¡í RapidAUTO Exception at mds_autosardesigner:8880

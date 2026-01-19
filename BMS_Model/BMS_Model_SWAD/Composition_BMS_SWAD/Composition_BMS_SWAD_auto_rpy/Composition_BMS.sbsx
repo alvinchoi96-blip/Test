@@ -49,7 +49,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\AUTOSAR_440.sbsx</_hfilename>
 							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::GenericStructure::CoreElements</_hsubsystem>
 							<_hname type="a">ARPackage</_hname>
 							<_hid type="a">GUID 03af387f-09cb-4f72-a858-56b9ff4323cb</_hid>
@@ -58,7 +58,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\AUTOSAR_MDS.sbsx</_hfilename>
+							<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\AUTOSAR_MDS.sbsx</_hfilename>
 							<_hsubsystem type="a">AUTOSAR_MDS</_hsubsystem>
 							<_hname type="a">mandatory</_hname>
 							<_hid type="a">GUID 6aa5539a-7869-4ab0-bcb7-7f13dde09b59</_hid>
@@ -66,9 +66,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.19.2026::3:59:8</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.19.2026::3:59:8</_modifiedTime>
-			<weakCGTime type="a">1.19.2026::3:59:8</weakCGTime>
+			<_modifiedTimeWeak type="a">1.19.2026::4:4:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.19.2026::4:33:4</_modifiedTime>
+			<weakCGTime type="a">1.19.2026::4:4:59</weakCGTime>
 			<strongCGTime type="a">1.15.2026::4:8:49</strongCGTime>
 			<_defaultComposite type="s">GUID 9797814f-4951-4c75-bb97-60d184826122</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -119,7 +119,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\AUTOSAR_440.sbsx</_hfilename>
 							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::GenericStructure::CoreElements</_hsubsystem>
 							<_hname type="a">ARPackage</_hname>
 							<_hid type="a">GUID 03af387f-09cb-4f72-a858-56b9ff4323cb</_hid>
@@ -162,7 +162,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\AUTOSAR_440.sbsx</_hfilename>
 							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::GenericStructure::CoreElements</_hsubsystem>
 							<_hname type="a">ARPackage</_hname>
 							<_hid type="a">GUID 03af387f-09cb-4f72-a858-56b9ff4323cb</_hid>
@@ -205,7 +205,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\AUTOSAR_440.sbsx</_hfilename>
 							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::GenericStructure::CoreElements</_hsubsystem>
 							<_hname type="a">ARPackage</_hname>
 							<_hid type="a">GUID 03af387f-09cb-4f72-a858-56b9ff4323cb</_hid>
@@ -248,7 +248,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\AUTOSAR_440.sbsx</_hfilename>
 							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::GenericStructure::CoreElements</_hsubsystem>
 							<_hname type="a">ARPackage</_hname>
 							<_hid type="a">GUID 03af387f-09cb-4f72-a858-56b9ff4323cb</_hid>
@@ -291,7 +291,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\AUTOSAR_440.sbsx</_hfilename>
 							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::GenericStructure::CoreElements</_hsubsystem>
 							<_hname type="a">ARPackage</_hname>
 							<_hid type="a">GUID 03af387f-09cb-4f72-a858-56b9ff4323cb</_hid>
@@ -334,7 +334,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\AUTOSAR_440.sbsx</_hfilename>
 							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::GenericStructure::CoreElements</_hsubsystem>
 							<_hname type="a">ARPackage</_hname>
 							<_hid type="a">GUID 03af387f-09cb-4f72-a858-56b9ff4323cb</_hid>
@@ -342,13 +342,13 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.19.2026::3:59:8</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.19.2026::4:4:59</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.19.2026::3:59:8</_modifiedTime>
-			<weakCGTime type="a">1.19.2026::4:2:39</weakCGTime>
+			<weakCGTime type="a">1.19.2026::4:19:31</weakCGTime>
 			<strongCGTime type="a">1.15.2026::4:8:51</strongCGTime>
 			<_defaultComposite type="s">GUID c444799e-f50f-4464-8143-2596736889ba</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">1.19.2026::4:2:39</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">1.19.2026::4:19:31</_configurationRelatedTime>
 			<AggregatesList type="e">
 				<value>GUID c444799e-f50f-4464-8143-2596736889ba</value>
 				<value>GUID faf0f1e0-8b14-4b10-9a88-99325684daca</value>
@@ -358,9 +358,9 @@
 			<_id type="a">GUID c444799e-f50f-4464-8143-2596736889ba</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">1.19.2026::4:2:39</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.19.2026::4:19:31</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
-			<weakCGTime type="a">1.19.2026::4:2:39</weakCGTime>
+			<weakCGTime type="a">1.19.2026::4:19:31</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -383,7 +383,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\AUTOSAR_440.sbsx</_hfilename>
 							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::Composition</_hsubsystem>
 							<_hname type="a">CompositionSwComponentType</_hname>
 							<_hid type="a">GUID ade4bb4a-aa05-49df-b27d-878a3fe6e004</_hid>
@@ -391,19 +391,19 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.19.2026::4:2:3</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.19.2026::4:4:59</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
-					<_hfilename type="a">.\SWC_HMI_Driver.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_HMI_Driver.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_HMI_Driver::SwComponentTypes</_hsubsystem>
 					<_hclass type="a">SWC_HMI_Driver</_hclass>
 					<_hname type="a">SWC_HMI_Driver_1</_hname>
 					<_hid type="a">GUID 6a358fbd-a212-4d93-a3b5-ae96e8c80a53</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">1.19.2026::4:2:3</_modifiedTime>
-			<weakCGTime type="a">1.19.2026::4:2:3</weakCGTime>
+			<_modifiedTime type="a">1.19.2026::4:4:59</_modifiedTime>
+			<weakCGTime type="a">1.19.2026::4:4:59</weakCGTime>
 			<strongCGTime type="a">1.15.2026::4:8:51</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -593,7 +593,7 @@
 							<_Name type="a">Format</_Name>
 							<Metaclasses type="c">
 								<IRPYRawContainer type="e">
-									<size type="a">2</size>
+									<size type="a">3</size>
 									<IPropertyMetaclass type="e">
 										<_Name type="a">Class</_Name>
 										<Properties type="c">
@@ -708,6 +708,57 @@
 										</Properties>
 									</IPropertyMetaclass>
 									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Port</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">7</size>
+												<IProperty type="e">
+													<_Name type="a">DefaultSize</_Name>
+													<_Value type="a">0,0,68,73</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Fill.FillColor</_Name>
+													<_Value type="a">255,255,255</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Font</_Name>
+													<_Value type="a">Tahoma</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Weight@Child.NameCompartment@Name</_Name>
+													<_Value type="a">700</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineColor</_Name>
+													<_Value type="a">109,163,217</_Value>
+													<_Type type="a">Color</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Line.LineWidth</_Name>
+													<_Value type="a">1</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
 								</IRPYRawContainer>
 							</Metaclasses>
 						</IPropertySubject>
@@ -723,7 +774,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\AUTOSAR_440.sbsx</_hfilename>
 							<_hsubsystem type="a">AUTOSAR_440::Diagrams</_hsubsystem>
 							<_hname type="a">SWComponentDiagram</_hname>
 							<_hid type="a">GUID 6e878077-ae85-4c68-8dec-ce949a8c2514</_hid>
@@ -731,9 +782,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.19.2026::4:2:3</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.19.2026::4:2:39</_modifiedTime>
-			<_lastModifiedTime type="a">1.19.2026::4:2:39</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">1.19.2026::4:4:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.19.2026::4:38:13</_modifiedTime>
+			<_lastModifiedTime type="a">1.19.2026::4:38:13</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -776,7 +827,7 @@
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<elementList type="a">13</elementList>
+			<elementList type="a">18</elementList>
 			
 			<m_access type="a">'Z'</m_access>
 			<m_modified type="a">'N'</m_modified>
@@ -802,6 +853,11 @@
 				<value>GUID b207d1bb-9936-4d03-b04b-fcbb07420aa7</value>
 				<value>GUID 2b3524d4-8edf-4af5-a05f-2f22fe0c7a13</value>
 				<value>GUID f643989d-1e86-4d88-a476-816c63498192</value>
+				<value>GUID a9097480-3dad-404b-880b-cc1abb1999df</value>
+				<value>GUID 5d09f367-1fe9-469e-a177-40eee405b9d5</value>
+				<value>GUID d837306e-5ffb-4469-b3ea-752060096642</value>
+				<value>GUID 0f7b84ff-7460-45e6-af16-281b3cbfefde</value>
+				<value>GUID d4639d04-9de0-41cb-9eba-d50010faf640</value>
 			</AggregatesList>
 		</CGIClassChart>
 		<CGIClass type="e">
@@ -901,7 +957,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SWC_PackMntr.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_PackMntr.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_PackMntr::SwComponentTypes</_hsubsystem>
 					<_hname type="a">SWC_PackMntr</_hname>
 					<_hid type="a">GUID fc565532-6706-4ba7-979c-d550d80c4713</_hid>
@@ -1027,7 +1083,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SWC_CellMntr.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_CellMntr.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_CellMntr::SwComponentTypes</_hsubsystem>
 					<_hname type="a">SWC_CellMntr</_hname>
 					<_hid type="a">GUID 29db6a20-0269-48b6-8831-f8760fa07e08</_hid>
@@ -1153,7 +1209,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SWC_TempMntr.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_TempMntr.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_TempMntr::SwComponentTypes</_hsubsystem>
 					<_hname type="a">SWC_TempMntr</_hname>
 					<_hid type="a">GUID 5a354f82-0f98-416c-a11b-2782e7c78bc1</_hid>
@@ -1279,7 +1335,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SWC_SigInput.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_SigInput.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_SigInput::SwComponentTypes</_hsubsystem>
 					<_hname type="a">SWC_SigInput</_hname>
 					<_hid type="a">GUID f3b1cace-033b-4130-b4eb-c299b04d0163</_hid>
@@ -1405,7 +1461,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
 					<_hname type="a">SWC_BMS_MainCntrl</_hname>
 					<_hid type="a">GUID c6cebead-bdbb-4464-a4f6-000d918e45e5</_hid>
@@ -1531,7 +1587,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SWC_ChargeMngr.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_ChargeMngr.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_ChargeMngr::SwComponentTypes</_hsubsystem>
 					<_hname type="a">SWC_ChargeMngr</_hname>
 					<_hid type="a">GUID c71bed4d-eea6-4209-be24-2f16d17e1731</_hid>
@@ -1657,7 +1713,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SWC_SOC_Algo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_SOC_Algo.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_SOC_Algo::SwComponentTypes</_hsubsystem>
 					<_hname type="a">SWC_SOC_Algo</_hname>
 					<_hid type="a">GUID 19222025-565f-470a-856b-e51905204618</_hid>
@@ -1783,7 +1839,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SWC_BalancingMngr.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_BalancingMngr.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BalancingMngr::SwComponentTypes</_hsubsystem>
 					<_hname type="a">SWC_BalancingMngr</_hname>
 					<_hid type="a">GUID 18a36187-69ef-4690-963a-f3dc8e47297e</_hid>
@@ -1909,7 +1965,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SWC_FaultDTC.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_FaultDTC.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_FaultDTC::SwComponentTypes</_hsubsystem>
 					<_hname type="a">SWC_FaultDTC</_hname>
 					<_hid type="a">GUID 9deec391-cb6e-4591-b000-650faaaef892</_hid>
@@ -2035,7 +2091,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SWC_RelayDriver.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_RelayDriver.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_RelayDriver::SwComponentTypes</_hsubsystem>
 					<_hname type="a">SWC_RelayDriver</_hname>
 					<_hid type="a">GUID f9bf65f0-9702-451e-bf39-b51b5c41e821</_hid>
@@ -2161,7 +2217,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SWC_BMS_Status_Tx.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_BMS_Status_Tx.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_Status_Tx::SwComponentTypes</_hsubsystem>
 					<_hname type="a">SWC_BMS_Status_Tx</_hname>
 					<_hid type="a">GUID 9a2970ad-80aa-4c28-9b47-ec2538fd71b5</_hid>
@@ -2287,7 +2343,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SWC_HMI_Driver.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_HMI_Driver.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_HMI_Driver::SwComponentTypes</_hsubsystem>
 					<_hname type="a">SWC_HMI_Driver</_hname>
 					<_hid type="a">GUID a040198f-e39f-4957-bbc1-d01841980e78</_hid>
@@ -2375,6 +2431,486 @@
 				</IRPYRawContainer>
 			</Items>
 		</CGICompartment>
+		<CGIPortConnector type="e">
+			<_id type="a">GUID a9097480-3dad-404b-880b-cc1abb1999df</_id>
+			<m_type type="a">57</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPort</_hm2Class>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_CellMntr.sbsx</_hfilename>
+					<_hsubsystem type="a">SWC_CellMntr::SwComponentTypes</_hsubsystem>
+					<_hclass type="a">SWC_CellMntr</_hclass>
+					<_hname type="a">datasenderport_0</_hname>
+					<_hid type="a">GUID 2708437d-e59b-43b1-abe6-7ca45a80d2ac</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 2b5d21e7-425e-4ada-9e4e-8b7c48c85a0f</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">datasenderport_0</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nVerticalSpacing type="a">-19</m_nVerticalSpacing>
+					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">0</m_drawBehavior>
+			<m_transform type="a">0 19.0833 -4.73017 0 1381.21 229 </m_transform>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nVerticalSpacing type="a">-29</m_nVerticalSpacing>
+					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_position type="a">4 0 0  0 73  68 73  68 0  </m_position>
+			<m_pInheritsFrom type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_pInheritsFrom>
+			<m_nInheritanceMask type="a">0</m_nInheritanceMask>
+			<m_SubType type="a">0</m_SubType>
+			<m_providedInterfaceLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nHorizontalSpacing type="a">67</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-25</m_nVerticalSpacing>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_providedInterfaceLabel>
+			<m_requiredInterfaceLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nHorizontalSpacing type="a">-67</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-25</m_nVerticalSpacing>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_requiredInterfaceLabel>
+		</CGIPortConnector>
+		<CGIPortConnector type="e">
+			<_id type="a">GUID 5d09f367-1fe9-469e-a177-40eee405b9d5</_id>
+			<m_type type="a">57</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPort</_hm2Class>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_PackMntr.sbsx</_hfilename>
+					<_hsubsystem type="a">SWC_PackMntr::SwComponentTypes</_hsubsystem>
+					<_hclass type="a">SWC_PackMntr</_hclass>
+					<_hname type="a">datasenderport_2</_hname>
+					<_hid type="a">GUID 4c7b0fdb-7301-477c-8f13-25ab7967f5d5</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID e4c229bf-b125-4d22-b05e-67e0e06786e0</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">datasenderport_2</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nVerticalSpacing type="a">-19</m_nVerticalSpacing>
+					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">0</m_drawBehavior>
+			<m_transform type="a">0 19.0833 -4.73016 0 1381.21 229 </m_transform>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nVerticalSpacing type="a">-29</m_nVerticalSpacing>
+					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_position type="a">4 0 0  0 73  68 73  68 0  </m_position>
+			<m_pInheritsFrom type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_pInheritsFrom>
+			<m_nInheritanceMask type="a">0</m_nInheritanceMask>
+			<m_SubType type="a">0</m_SubType>
+			<m_providedInterfaceLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nHorizontalSpacing type="a">67</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-25</m_nVerticalSpacing>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_providedInterfaceLabel>
+			<m_requiredInterfaceLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nHorizontalSpacing type="a">-67</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-25</m_nVerticalSpacing>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_requiredInterfaceLabel>
+		</CGIPortConnector>
+		<CGIPortConnector type="e">
+			<_id type="a">GUID d837306e-5ffb-4469-b3ea-752060096642</_id>
+			<m_type type="a">57</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPort</_hm2Class>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_TempMntr.sbsx</_hfilename>
+					<_hsubsystem type="a">SWC_TempMntr::SwComponentTypes</_hsubsystem>
+					<_hclass type="a">SWC_TempMntr</_hclass>
+					<_hname type="a">datasenderport_0</_hname>
+					<_hid type="a">GUID e8a499c3-69e8-43c6-aa75-c4e50e39de79</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID e8a70436-0268-4ce7-a75a-f088f990ee03</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">datasenderport_0</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nVerticalSpacing type="a">-19</m_nVerticalSpacing>
+					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">0</m_drawBehavior>
+			<m_transform type="a">0 19.0833 -4.73016 0 1381.21 229 </m_transform>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nVerticalSpacing type="a">-29</m_nVerticalSpacing>
+					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_position type="a">4 0 0  0 73  68 73  68 0  </m_position>
+			<m_pInheritsFrom type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_pInheritsFrom>
+			<m_nInheritanceMask type="a">0</m_nInheritanceMask>
+			<m_SubType type="a">0</m_SubType>
+			<m_providedInterfaceLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nHorizontalSpacing type="a">67</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-25</m_nVerticalSpacing>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_providedInterfaceLabel>
+			<m_requiredInterfaceLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nHorizontalSpacing type="a">-67</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-25</m_nVerticalSpacing>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_requiredInterfaceLabel>
+		</CGIPortConnector>
+		<CGIPortConnector type="e">
+			<_id type="a">GUID 0f7b84ff-7460-45e6-af16-281b3cbfefde</_id>
+			<m_type type="a">57</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPort</_hm2Class>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_SigInput.sbsx</_hfilename>
+					<_hsubsystem type="a">SWC_SigInput::SwComponentTypes</_hsubsystem>
+					<_hclass type="a">SWC_SigInput</_hclass>
+					<_hname type="a">datasenderport_0</_hname>
+					<_hid type="a">GUID 85e75c3a-cfdf-468d-bf73-f2fcaa065485</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 1627dbb7-ba5b-4ba0-b07c-b8b922f0928c</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">datasenderport_0</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nVerticalSpacing type="a">-19</m_nVerticalSpacing>
+					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">0</m_drawBehavior>
+			<m_transform type="a">0 19.0833 -5.22807 0 1401.12 229 </m_transform>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nVerticalSpacing type="a">-29</m_nVerticalSpacing>
+					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_position type="a">4 0 0  0 73  68 73  68 0  </m_position>
+			<m_pInheritsFrom type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_pInheritsFrom>
+			<m_nInheritanceMask type="a">0</m_nInheritanceMask>
+			<m_SubType type="a">0</m_SubType>
+			<m_providedInterfaceLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nHorizontalSpacing type="a">67</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-25</m_nVerticalSpacing>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_providedInterfaceLabel>
+			<m_requiredInterfaceLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nHorizontalSpacing type="a">-67</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-25</m_nVerticalSpacing>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_requiredInterfaceLabel>
+		</CGIPortConnector>
+		<CGIPortConnector type="e">
+			<_id type="a">GUID d4639d04-9de0-41cb-9eba-d50010faf640</_id>
+			<m_type type="a">57</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IPort</_hm2Class>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_BMS_MainCntrl.sbsx</_hfilename>
+					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
+					<_hclass type="a">SWC_BMS_MainCntrl</_hclass>
+					<_hname type="a">datareceiverport_0</_hname>
+					<_hid type="a">GUID 4d423ab1-39c9-4aca-9fa6-d49f23ff550d</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID 05d512de-a20a-4c46-bf56-6c407dc02abc</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">datareceiverport_0</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nVerticalSpacing type="a">-19</m_nVerticalSpacing>
+					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">0</m_drawBehavior>
+			<m_transform type="a">0 19.0833 -5.22807 0 1401.12 229 </m_transform>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nVerticalSpacing type="a">-29</m_nVerticalSpacing>
+					<m_nOrientationCtrlPt type="a">0</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_position type="a">4 0 0  0 73  68 73  68 0  </m_position>
+			<m_pInheritsFrom type="r">
+				<IHandle type="e">
+				</IHandle>
+			</m_pInheritsFrom>
+			<m_nInheritanceMask type="a">0</m_nInheritanceMask>
+			<m_SubType type="a">0</m_SubType>
+			<m_providedInterfaceLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nHorizontalSpacing type="a">67</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-25</m_nVerticalSpacing>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_providedInterfaceLabel>
+			<m_requiredInterfaceLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nHorizontalSpacing type="a">-67</m_nHorizontalSpacing>
+					<m_nVerticalSpacing type="a">-25</m_nVerticalSpacing>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_requiredInterfaceLabel>
+		</CGIPortConnector>
 		<IPart type="e">
 			<_id type="a">GUID ce473a88-0648-4059-a954-fe822f0e9e22</_id>
 			<_myState type="a">8192</_myState>
@@ -2385,7 +2921,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\AUTOSAR_440.sbsx</_hfilename>
 							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::CoreElements</_hsubsystem>
 							<_hname type="a">SwComponentPrototype</_hname>
 							<_hid type="a">GUID 65b52462-6977-4917-a2d0-ff16e95a09fd</_hid>
@@ -2399,7 +2935,7 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SWC_PackMntr.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_PackMntr.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_PackMntr::SwComponentTypes</_hsubsystem>
 					<_hname type="a">SWC_PackMntr</_hname>
 					<_hid type="a">GUID fc565532-6706-4ba7-979c-d550d80c4713</_hid>
@@ -2420,7 +2956,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\AUTOSAR_440.sbsx</_hfilename>
 							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::CoreElements</_hsubsystem>
 							<_hname type="a">SwComponentPrototype</_hname>
 							<_hid type="a">GUID 65b52462-6977-4917-a2d0-ff16e95a09fd</_hid>
@@ -2434,7 +2970,7 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SWC_CellMntr.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_CellMntr.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_CellMntr::SwComponentTypes</_hsubsystem>
 					<_hname type="a">SWC_CellMntr</_hname>
 					<_hid type="a">GUID 29db6a20-0269-48b6-8831-f8760fa07e08</_hid>
@@ -2455,7 +2991,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\AUTOSAR_440.sbsx</_hfilename>
 							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::CoreElements</_hsubsystem>
 							<_hname type="a">SwComponentPrototype</_hname>
 							<_hid type="a">GUID 65b52462-6977-4917-a2d0-ff16e95a09fd</_hid>
@@ -2469,7 +3005,7 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SWC_TempMntr.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_TempMntr.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_TempMntr::SwComponentTypes</_hsubsystem>
 					<_hname type="a">SWC_TempMntr</_hname>
 					<_hid type="a">GUID 5a354f82-0f98-416c-a11b-2782e7c78bc1</_hid>
@@ -2490,7 +3026,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\AUTOSAR_440.sbsx</_hfilename>
 							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::CoreElements</_hsubsystem>
 							<_hname type="a">SwComponentPrototype</_hname>
 							<_hid type="a">GUID 65b52462-6977-4917-a2d0-ff16e95a09fd</_hid>
@@ -2504,7 +3040,7 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SWC_SigInput.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_SigInput.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_SigInput::SwComponentTypes</_hsubsystem>
 					<_hname type="a">SWC_SigInput</_hname>
 					<_hid type="a">GUID f3b1cace-033b-4130-b4eb-c299b04d0163</_hid>
@@ -2525,7 +3061,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\AUTOSAR_440.sbsx</_hfilename>
 							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::CoreElements</_hsubsystem>
 							<_hname type="a">SwComponentPrototype</_hname>
 							<_hid type="a">GUID 65b52462-6977-4917-a2d0-ff16e95a09fd</_hid>
@@ -2539,7 +3075,7 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
 					<_hname type="a">SWC_BMS_MainCntrl</_hname>
 					<_hid type="a">GUID c6cebead-bdbb-4464-a4f6-000d918e45e5</_hid>
@@ -2560,7 +3096,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\AUTOSAR_440.sbsx</_hfilename>
 							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::CoreElements</_hsubsystem>
 							<_hname type="a">SwComponentPrototype</_hname>
 							<_hid type="a">GUID 65b52462-6977-4917-a2d0-ff16e95a09fd</_hid>
@@ -2574,7 +3110,7 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SWC_ChargeMngr.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_ChargeMngr.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_ChargeMngr::SwComponentTypes</_hsubsystem>
 					<_hname type="a">SWC_ChargeMngr</_hname>
 					<_hid type="a">GUID c71bed4d-eea6-4209-be24-2f16d17e1731</_hid>
@@ -2595,7 +3131,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\AUTOSAR_440.sbsx</_hfilename>
 							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::CoreElements</_hsubsystem>
 							<_hname type="a">SwComponentPrototype</_hname>
 							<_hid type="a">GUID 65b52462-6977-4917-a2d0-ff16e95a09fd</_hid>
@@ -2609,7 +3145,7 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SWC_SOC_Algo.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_SOC_Algo.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_SOC_Algo::SwComponentTypes</_hsubsystem>
 					<_hname type="a">SWC_SOC_Algo</_hname>
 					<_hid type="a">GUID 19222025-565f-470a-856b-e51905204618</_hid>
@@ -2630,7 +3166,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\AUTOSAR_440.sbsx</_hfilename>
 							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::CoreElements</_hsubsystem>
 							<_hname type="a">SwComponentPrototype</_hname>
 							<_hid type="a">GUID 65b52462-6977-4917-a2d0-ff16e95a09fd</_hid>
@@ -2644,7 +3180,7 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SWC_BalancingMngr.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_BalancingMngr.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BalancingMngr::SwComponentTypes</_hsubsystem>
 					<_hname type="a">SWC_BalancingMngr</_hname>
 					<_hid type="a">GUID 18a36187-69ef-4690-963a-f3dc8e47297e</_hid>
@@ -2665,7 +3201,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\AUTOSAR_440.sbsx</_hfilename>
 							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::CoreElements</_hsubsystem>
 							<_hname type="a">SwComponentPrototype</_hname>
 							<_hid type="a">GUID 65b52462-6977-4917-a2d0-ff16e95a09fd</_hid>
@@ -2679,7 +3215,7 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SWC_FaultDTC.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_FaultDTC.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_FaultDTC::SwComponentTypes</_hsubsystem>
 					<_hname type="a">SWC_FaultDTC</_hname>
 					<_hid type="a">GUID 9deec391-cb6e-4591-b000-650faaaef892</_hid>
@@ -2700,7 +3236,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\AUTOSAR_440.sbsx</_hfilename>
 							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::CoreElements</_hsubsystem>
 							<_hname type="a">SwComponentPrototype</_hname>
 							<_hid type="a">GUID 65b52462-6977-4917-a2d0-ff16e95a09fd</_hid>
@@ -2714,7 +3250,7 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SWC_RelayDriver.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_RelayDriver.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_RelayDriver::SwComponentTypes</_hsubsystem>
 					<_hname type="a">SWC_RelayDriver</_hname>
 					<_hid type="a">GUID f9bf65f0-9702-451e-bf39-b51b5c41e821</_hid>
@@ -2735,7 +3271,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\AUTOSAR_440.sbsx</_hfilename>
 							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::CoreElements</_hsubsystem>
 							<_hname type="a">SwComponentPrototype</_hname>
 							<_hid type="a">GUID 65b52462-6977-4917-a2d0-ff16e95a09fd</_hid>
@@ -2749,7 +3285,7 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SWC_BMS_Status_Tx.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_BMS_Status_Tx.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_Status_Tx::SwComponentTypes</_hsubsystem>
 					<_hname type="a">SWC_BMS_Status_Tx</_hname>
 					<_hid type="a">GUID 9a2970ad-80aa-4c28-9b47-ec2538fd71b5</_hid>
@@ -2770,7 +3306,7 @@
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
-							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\AUTOSAR_440.sbsx</_hfilename>
 							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::CoreElements</_hsubsystem>
 							<_hname type="a">SwComponentPrototype</_hname>
 							<_hid type="a">GUID 65b52462-6977-4917-a2d0-ff16e95a09fd</_hid>
@@ -2784,7 +3320,7 @@
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hfilename type="a">.\SWC_HMI_Driver.sbsx</_hfilename>
+					<_hfilename type="a">.\..\Composition_BMS_SWAD_rpy\SWC_HMI_Driver.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_HMI_Driver::SwComponentTypes</_hsubsystem>
 					<_hname type="a">SWC_HMI_Driver</_hname>
 					<_hid type="a">GUID a040198f-e39f-4957-bbc1-d01841980e78</_hid>

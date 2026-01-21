@@ -1,0 +1,7 @@
+[RunnableEntity]
+num=6
+2=REmsSWC_BMS_MainCntrl_R_VcuCmd_BmsModeSwitch_StandAlone
+3=REmsSWC_BMS_MainCntrl_R_VcuCmd_BmsModeSwitch_Standby
+4=REmsSWC_BMS_MainCntrl_R_VcuCmd_BmsModeSwitch_Driving
+5=REmsSWC_BMS_MainCntrl_R_VcuCmd_BmsModeSwitch_Charging
+6=REmsSWC_BMS_MainCntrl_R_VcuCmd_BmsModeSwitch_Shut_Down

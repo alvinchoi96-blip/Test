@@ -1,4 +1,20 @@
 [Log]
-Num=2
-1=[2026-01-19 21:13:27.595] ¡Ú¡Ú¡Ú¡Ú¡Ú Design Assembly/Delegation SW Connector ¡Ú¡Ú¡Ú¡Ú¡Ú
-2=[Elapsed Time : 0 hours, 0 minutes, 15.3743761 seconds] ¡Ù¡Ù The design of assembly/delegation sw connector is complete. ¡Ù¡Ù
+Num=18
+1=[2026-01-21 12:46:58.409] ¡Ú¡Ú¡Ú¡Ú¡Ú Create/Update SW Unit Design Model ¡Ú¡Ú¡Ú¡Ú¡Ú
+2=[2026-01-21 12:46:58.985] 	¢º Create the SwBaseType : Platform_Types.h 
+3=[2026-01-21 12:46:58.990] 	¢º Create the "Rte" module. 
+4=[2026-01-21 12:46:59.488] 	¢º Dependency of SW Component Facade is set.
+5=[2026-01-21 12:46:59.507] 	¢º Open VOPC for RTE modules.
+6=[2026-01-21 12:47:00.228] 	¢º Create the RTE API.
+7=[2026-01-21 12:47:00.242] 	¢º Create stub code for Data Receive Port. (Variables and functions
+8=[2026-01-21 12:47:00.333] 	¢º Generates stub codes for Data Send Port and Client Port.
+9=[2026-01-21 12:47:00.388] 	¢º Create Runnable Entitys.
+10=[2026-01-21 12:47:00.406] 		¡æ 
+11=[2026-01-21 12:47:00.452] 		¡æ REmsSWC_BMS_MainCntrl_R_VcuCmd_BmsModeSwitch_StandAlone
+12=[2026-01-21 12:47:00.506] 		¡æ REmsSWC_BMS_MainCntrl_R_VcuCmd_BmsModeSwitch_Standby
+13=[2026-01-21 12:47:00.564] 		¡æ REmsSWC_BMS_MainCntrl_R_VcuCmd_BmsModeSwitch_Driving
+14=[2026-01-21 12:47:00.625] 		¡æ REmsSWC_BMS_MainCntrl_R_VcuCmd_BmsModeSwitch_Charging
+15=[2026-01-21 12:47:00.697] 		¡æ REmsSWC_BMS_MainCntrl_R_VcuCmd_BmsModeSwitch_Shut_Down
+16=[2026-01-21 12:47:01.447] 	¢º Create Use Case Realizations.
+17=[2026-01-21 12:47:02.286] 	¢º Highlight Unrealized messages.
+18=[Elapsed Time : 0 hours, 0 minutes, 5.2652694 seconds] ¡Ù¡Ù The creation and update of SW Unit Design has been completed. ¡Ù¡Ù

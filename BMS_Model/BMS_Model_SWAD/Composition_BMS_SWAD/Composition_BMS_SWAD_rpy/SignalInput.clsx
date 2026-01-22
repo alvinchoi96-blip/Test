@@ -34,9 +34,10 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.19.2026::6:30:18</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.19.2026::6:30:18</_modifiedTime>
-			<weakCGTime type="a">1.19.2026::6:30:18</weakCGTime>
+			<_modifiedTimeWeak type="a">1.21.2026::23:54:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.22.2026::0:2:38</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">1.21.2026::23:54:54</weakCGTime>
 			<strongCGTime type="a">1.19.2026::6:30:18</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -46,6 +47,8 @@
 			<AggregatesList type="e">
 				<value>GUID a6ab4314-18ed-4cb4-ae7b-f4ba348b03fa</value>
 				<value>GUID e0dfd12a-56f7-4b3e-88d7-84f43a64da85</value>
+				<value>GUID 8f85ebe3-fe34-4f1d-b4b7-fc2173d60b3d</value>
+				<value>GUID 189a4876-85ca-4774-a73d-012d1f541448</value>
 			</AggregatesList>
 		</IClass>
 		<ITag type="e">
@@ -105,9 +108,96 @@
 			<_id type="a">GUID 90d014d5-46bb-487b-ae40-3c1a86977dbf</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_kind type="a">Language</_kind>
 		</IType>
+		<IAttribute type="e">
+			<_id type="a">GUID 8f85ebe3-fe34-4f1d-b4b7-fc2173d60b3d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">ignSignal</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::PortInterface</_hsubsystem>
+							<_hname type="a">dataElement</_hname>
+							<_hid type="a">GUID 3ce9813a-057f-464b-b4e0-815ecd23ea09</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.21.2026::23:54:44</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_text type="a">Key Ignition Level Enum%0D
+1=LOCK%0D
+2=ACC%0D
+3=ON%0D
+4=START</_text>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">1.21.2026::23:54:44</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hfilename type="a">.\Composition_BMS.sbsx</_hfilename>
+					<_hsubsystem type="a">Composition_BMS::ImplementationDataTypes</_hsubsystem>
+					<_hname type="a">e_IgnStat</_hname>
+					<_hid type="a">GUID 5bbf9693-d1aa-439c-bfeb-0de23cf33718</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
+		<IAttribute type="e">
+			<_id type="a">GUID 189a4876-85ca-4774-a73d-012d1f541448</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">chargeConnectedFlag</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::PortInterface</_hsubsystem>
+							<_hname type="a">dataElement</_hname>
+							<_hid type="a">GUID 3ce9813a-057f-464b-b4e0-815ecd23ea09</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.21.2026::23:54:54</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset129 Arial;}{\f1\fnil\fcharset0 Arial;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs20\'c3\'e6\'c0\'fc\'b1\'e2 \'bf\'ac\'b0\'e1 \'c7\'c3\'b7\'a1\'b1\'d7\par%0D
+0=Not Connected\par%0D
+1=Connected\f1\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">1.21.2026::23:54:54</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hfilename type="a">.\AUTOSAR_DataTypes.sbsx</_hfilename>
+					<_hsubsystem type="a">AUTOSAR_DataTypes::ImplementationDataTypes</_hsubsystem>
+					<_hname type="a">boolean</_hname>
+					<_hid type="a">GUID a58983bd-3c55-4913-8c02-fa290d9ed784</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_isReferenceAttr type="a">0</_isReferenceAttr>
+			<_isConstant type="a">0</_isConstant>
+		</IAttribute>
 		
 	</RHAPSODY-MODEL>
 	<OslcLinks type="c">

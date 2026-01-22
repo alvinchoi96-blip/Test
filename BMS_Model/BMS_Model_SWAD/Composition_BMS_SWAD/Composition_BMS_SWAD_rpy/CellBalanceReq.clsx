@@ -34,9 +34,10 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.19.2026::10:39:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.19.2026::10:39:39</_modifiedTime>
-			<weakCGTime type="a">1.19.2026::10:39:39</weakCGTime>
+			<_modifiedTimeWeak type="a">1.22.2026::0:5:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.22.2026::0:5:51</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">1.22.2026::0:5:51</weakCGTime>
 			<strongCGTime type="a">1.19.2026::10:39:39</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -46,6 +47,8 @@
 			<AggregatesList type="e">
 				<value>GUID 379715a9-ddef-450a-bb6a-725cb7e98700</value>
 				<value>GUID 7840eb08-be08-4b96-aa0f-d82f74de7881</value>
+				<value>GUID 6d47b14b-19cc-49c2-8f57-174ae5d804ff</value>
+				<value>GUID 900a59ac-ce71-4704-869f-ac8aa297cfef</value>
 			</AggregatesList>
 		</IClass>
 		<ITag type="e">
@@ -105,9 +108,155 @@
 			<_id type="a">GUID e26aa43e-539c-403b-b745-f44e040411c8</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_kind type="a">Language</_kind>
 		</IType>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 6d47b14b-19cc-49c2-8f57-174ae5d804ff</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">cellBalanceEnable</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::CoreElements</_hsubsystem>
+							<_hname type="a">ClientServerOperation</_hname>
+							<_hid type="a">GUID d6806855-7682-4ff6-9aea-11332aa993bb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.22.2026::0:5:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.22.2026::0:5:51</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<_virtual type="a">0</_virtual>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesC</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+			<AggregatesList type="e">
+				<value>GUID f06ad594-db3c-4044-ba74-863b48543188</value>
+				<value>GUID 26f62fd5-4ad0-4d74-9deb-b0d75b024dad</value>
+			</AggregatesList>
+		</IPrimitiveOperation>
+		<IArgument type="e">
+			<_id type="a">GUID f06ad594-db3c-4044-ba74-863b48543188</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">cellVoltageIndividual</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::CoreElements</_hsubsystem>
+							<_hname type="a">ArgumentDataPrototype</_hname>
+							<_hid type="a">GUID a9fdd353-07f8-4e1a-a63e-fd15066ceb6d</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.22.2026::0:5:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.22.2026::0:5:25</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hfilename type="a">.\Composition_BMS.sbsx</_hfilename>
+					<_hsubsystem type="a">Composition_BMS::ImplementationDataTypes</_hsubsystem>
+					<_hname type="a">CellVoltageData</_hname>
+					<_hid type="a">GUID f2cf048f-723d-46d8-84ad-a4ed45588d1e</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_argumentDirection type="a">In</_argumentDirection>
+		</IArgument>
+		<IArgument type="e">
+			<_id type="a">GUID 26f62fd5-4ad0-4d74-9deb-b0d75b024dad</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">targetIbpLevel</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::CoreElements</_hsubsystem>
+							<_hname type="a">ArgumentDataPrototype</_hname>
+							<_hid type="a">GUID a9fdd353-07f8-4e1a-a63e-fd15066ceb6d</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.22.2026::0:5:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.22.2026::0:5:51</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hfilename type="a">.\AUTOSAR_DataTypes.sbsx</_hfilename>
+					<_hsubsystem type="a">AUTOSAR_DataTypes::ImplementationDataTypes</_hsubsystem>
+					<_hname type="a">uint16</_hname>
+					<_hid type="a">GUID 71b3d820-64bb-42b3-a3d6-c170d5e7e729</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_argumentDirection type="a">In</_argumentDirection>
+		</IArgument>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 900a59ac-ce71-4704-869f-ac8aa297cfef</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">cellBalanceDisable</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::CoreElements</_hsubsystem>
+							<_hname type="a">ClientServerOperation</_hname>
+							<_hid type="a">GUID d6806855-7682-4ff6-9aea-11332aa993bb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.22.2026::0:4:48</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.22.2026::0:4:48</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesC</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+		</IPrimitiveOperation>
 		
 	</RHAPSODY-MODEL>
 	<OslcLinks type="c">

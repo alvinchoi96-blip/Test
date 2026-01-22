@@ -34,9 +34,10 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.19.2026::11:2:56</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.19.2026::11:2:56</_modifiedTime>
-			<weakCGTime type="a">1.19.2026::11:2:56</weakCGTime>
+			<_modifiedTimeWeak type="a">1.21.2026::23:57:51</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.22.2026::0:2:38</_modifiedTime>
+			<_lastID type="a">2</_lastID>
+			<weakCGTime type="a">1.21.2026::23:57:51</weakCGTime>
 			<strongCGTime type="a">1.19.2026::11:2:56</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -46,6 +47,8 @@
 			<AggregatesList type="e">
 				<value>GUID ad5c8bc5-9816-4554-af1f-2deb7076dc5b</value>
 				<value>GUID c19fc85e-17f6-43c9-aed7-ecd84a55c05c</value>
+				<value>GUID 3e41b642-f1b0-45a0-8956-f66c152b8d2c</value>
+				<value>GUID 3f10fafb-fcfa-47f6-83bd-0aeca9569b65</value>
 			</AggregatesList>
 		</IClass>
 		<ITag type="e">
@@ -105,9 +108,138 @@
 			<_id type="a">GUID 5d27428a-98be-49d5-95b3-4c997509439b</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_kind type="a">Language</_kind>
 		</IType>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 3e41b642-f1b0-45a0-8956-f66c152b8d2c</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">relayEnableReq</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::CoreElements</_hsubsystem>
+							<_hname type="a">ClientServerOperation</_hname>
+							<_hid type="a">GUID d6806855-7682-4ff6-9aea-11332aa993bb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.21.2026::23:57:42</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset129 Arial;}}%0D
+\viewkind4\uc1\pard\lang1042\fs20 Relay\f1\'b1\'b8\'b5\'bf \'b8\'ed\'b7\'c9\par%0D
+0=Immediate : \'c1\'ef\'bd\'c3 \'bf\'ac\'b0\'e1\par%0D
+1=Soft : \'bc\'ad\'c1\'f6 \'b9\'e6\'c1\'f6 \'c0\'fa\'c7\'d7 \'c8\'b8\'b7\'ce \'bf\'ac\'b0\'e1 \'b9\'d7 \'b4\'eb\'b1\'e2 \'c8\'c4 \'c1\'d6 \'c3\'e2\'b7\'c2\'bc\'b1 \'bf\'ac\'b0\'e1\f0\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">1.21.2026::23:57:42</_modifiedTime>
+			<_lastID type="a">1</_lastID>
+			<_virtual type="a">0</_virtual>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesC</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+			<AggregatesList type="e">
+				<value>GUID d211c594-d084-4154-98ba-7a9259e64b36</value>
+			</AggregatesList>
+		</IPrimitiveOperation>
+		<IArgument type="e">
+			<_id type="a">GUID d211c594-d084-4154-98ba-7a9259e64b36</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">speed</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::CoreElements</_hsubsystem>
+							<_hname type="a">ArgumentDataPrototype</_hname>
+							<_hid type="a">GUID a9fdd353-07f8-4e1a-a63e-fd15066ceb6d</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.21.2026::23:53:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.21.2026::23:53:4</_modifiedTime>
+			<_typeOf type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hfilename type="a">.\Composition_BMS.sbsx</_hfilename>
+					<_hsubsystem type="a">Composition_BMS::ImplementationDataTypes</_hsubsystem>
+					<_hname type="a">e_relayEnableSpeed</_hname>
+					<_hid type="a">GUID ebeb8b8c-ed7b-432e-a678-058cef326721</_hid>
+				</IHandle>
+			</_typeOf>
+			<_isOrdered type="a">0</_isOrdered>
+			<_argumentDirection type="a">In</_argumentDirection>
+		</IArgument>
+		<IPrimitiveOperation type="e">
+			<_id type="a">GUID 3f10fafb-fcfa-47f6-83bd-0aeca9569b65</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">relayDisableReq</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::CoreElements</_hsubsystem>
+							<_hname type="a">ClientServerOperation</_hname>
+							<_hid type="a">GUID d6806855-7682-4ff6-9aea-11332aa993bb</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.21.2026::23:57:51</_modifiedTimeWeak>
+			<_description type="p"><IDescription type="e">
+				<_textRTF type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset129 Arial;}}%0D
+\viewkind4\uc1\pard\lang1042\fs20 Relay \f1\'c2\'f7\'b4\'dc \'b8\'ed\'b7\'c9(\'c1\'ef\'bd\'c3 \'c2\'f7\'b4\'dc)\f0\par%0D
+}%0D
+</_textRTF>
+			</IDescription>
+			</_description>
+			<_modifiedTime type="a">1.21.2026::23:57:51</_modifiedTime>
+			<_virtual type="a">0</_virtual>
+			<Args type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Args>
+			<_returnType type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IType</_hm2Class>
+					<_hsubsystem type="a">PredefinedTypesC</_hsubsystem>
+					<_hname type="a">void</_hname>
+					<_hid type="a">GUID 1ae3fac8-89cb-11d2-b813-00104b3e6572</_hid>
+				</IHandle>
+			</_returnType>
+			<_abstract type="a">0</_abstract>
+			<_final type="a">0</_final>
+			<_concurrency type="a">Sequential</_concurrency>
+			<_protection type="a">iPublic</_protection>
+			<_static type="a">0</_static>
+			<_constant type="a">0</_constant>
+		</IPrimitiveOperation>
 		
 	</RHAPSODY-MODEL>
 	<OslcLinks type="c">

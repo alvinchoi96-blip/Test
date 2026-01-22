@@ -66,9 +66,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:51:56</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:51:56</_modifiedTime>
-			<weakCGTime type="a">1.21.2026::23:51:56</weakCGTime>
+			<_modifiedTimeWeak type="a">1.22.2026::5:26:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.22.2026::4:12:22</_modifiedTime>
+			<weakCGTime type="a">1.22.2026::5:26:33</weakCGTime>
 			<strongCGTime type="a">1.15.2026::4:8:49</strongCGTime>
 			<_defaultComposite type="s">GUID 9797814f-4951-4c75-bb97-60d184826122</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -6400,7 +6400,7 @@ num=5%0D
 			<_id type="a">GUID 503d781e-5971-4c30-bb0f-4858a6457b38</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_kind type="a">Language</_kind>
 		</IType>
 		<ITag type="e">
@@ -22658,7 +22658,7 @@ enum=ENUM_IgnStat</_text>
 			<_id type="a">GUID 6bd71f67-a961-4014-acba-f29281f049bd</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_kind type="a">Language</_kind>
 		</IType>
 		<ITag type="e">
@@ -22863,7 +22863,7 @@ enum=ENUM_FaultLevel</_text>
 			<_id type="a">GUID 268e609b-59a0-4c6a-be68-ec6ab107f4b5</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_kind type="a">Language</_kind>
 		</IType>
 		<ITag type="e">
@@ -23068,7 +23068,7 @@ enum=ENUM_ChgInfo</_text>
 			<_id type="a">GUID c4e966e8-d40f-4aee-84fe-46309ec6ee23</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_kind type="a">Language</_kind>
 		</IType>
 		<ITag type="e">
@@ -23274,7 +23274,7 @@ enum=ENUM_relayEnableSpeed%0D
 			<_id type="a">GUID bf825844-1f1a-4773-a4f3-6e23ea40c4c5</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_kind type="a">Language</_kind>
 		</IType>
 		<ITag type="e">
@@ -24518,9 +24518,9 @@ enum=ENUM_relayEnableSpeed%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::7:32:44</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::7:32:44</_modifiedTime>
-			<weakCGTime type="a">1.21.2026::7:32:44</weakCGTime>
+			<_modifiedTimeWeak type="a">1.22.2026::5:26:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.22.2026::4:12:22</_modifiedTime>
+			<weakCGTime type="a">1.22.2026::5:26:33</weakCGTime>
 			<strongCGTime type="a">1.19.2026::6:5:0</strongCGTime>
 			<_defaultComposite type="s">GUID c444799e-f50f-4464-8143-2596736889ba</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -24562,7 +24562,7 @@ enum=ENUM_relayEnableSpeed%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::7:32:44</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.22.2026::5:26:33</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -24573,9 +24573,9 @@ enum=ENUM_relayEnableSpeed%0D
 					<_hid type="a">GUID 6a358fbd-a212-4d93-a3b5-ae96e8c80a53</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">1.21.2026::7:32:44</_modifiedTime>
+			<_modifiedTime type="a">1.22.2026::4:12:22</_modifiedTime>
 			<_lastID type="a">33</_lastID>
-			<weakCGTime type="a">1.21.2026::7:32:44</weakCGTime>
+			<weakCGTime type="a">1.22.2026::5:26:33</weakCGTime>
 			<strongCGTime type="a">1.15.2026::4:8:51</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -25075,9 +25075,9 @@ enum=ENUM_relayEnableSpeed%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::7:32:44</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::7:32:44</_modifiedTime>
-			<_lastModifiedTime type="a">1.21.2026::7:32:44</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">1.22.2026::5:26:33</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.22.2026::4:12:22</_modifiedTime>
+			<_lastModifiedTime type="a">1.22.2026::5:26:33</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -30517,7 +30517,7 @@ enum=ENUM_relayEnableSpeed%0D
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 460 242  460 227  </m_arrow>
+			<m_arrow type="a">2 600 258  600 243  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -30640,7 +30640,7 @@ enum=ENUM_relayEnableSpeed%0D
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 490 241  490 688  </m_arrow>
+			<m_arrow type="a">2 770 257  770 704  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -30763,7 +30763,7 @@ enum=ENUM_relayEnableSpeed%0D
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 380 266  380 716  </m_arrow>
+			<m_arrow type="a">2 670 282  670 732  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -30886,7 +30886,7 @@ enum=ENUM_relayEnableSpeed%0D
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 1020 227  1020 272  </m_arrow>
+			<m_arrow type="a">2 1320 243  1320 288  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -31009,7 +31009,7 @@ enum=ENUM_relayEnableSpeed%0D
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 1060 347  1060 558  </m_arrow>
+			<m_arrow type="a">2 1330 363  1330 574  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -31132,7 +31132,7 @@ enum=ENUM_relayEnableSpeed%0D
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 1080 369  1080 298  </m_arrow>
+			<m_arrow type="a">2 1320 385  1320 314  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -31255,7 +31255,7 @@ enum=ENUM_relayEnableSpeed%0D
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 540 369  540 251  </m_arrow>
+			<m_arrow type="a">2 760 385  760 267  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -31378,7 +31378,7 @@ enum=ENUM_relayEnableSpeed%0D
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 980 455  980 274  </m_arrow>
+			<m_arrow type="a">2 1297 471  1297 290  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -31501,7 +31501,7 @@ enum=ENUM_relayEnableSpeed%0D
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">4 970 644  970 156  600 156  600 323  </m_arrow>
+			<m_arrow type="a">4 1220 660  1220 510  890 510  890 339  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -31624,7 +31624,7 @@ enum=ENUM_relayEnableSpeed%0D
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 1020 466  1020 322  </m_arrow>
+			<m_arrow type="a">2 1310 482  1310 338  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -31747,7 +31747,7 @@ enum=ENUM_relayEnableSpeed%0D
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 1010 558  1010 250  </m_arrow>
+			<m_arrow type="a">2 1297 574  1297 266  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -31870,7 +31870,7 @@ enum=ENUM_relayEnableSpeed%0D
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 460 610  460 299  </m_arrow>
+			<m_arrow type="a">2 690 626  690 315  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -31993,7 +31993,7 @@ enum=ENUM_relayEnableSpeed%0D
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 470 483  470 275  </m_arrow>
+			<m_arrow type="a">2 750 499  750 291  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -32116,7 +32116,7 @@ enum=ENUM_relayEnableSpeed%0D
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 450 373  450 640  </m_arrow>
+			<m_arrow type="a">2 740 389  740 656  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -32239,7 +32239,7 @@ enum=ENUM_relayEnableSpeed%0D
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 480 487  480 664  </m_arrow>
+			<m_arrow type="a">2 730 503  730 680  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -32642,7 +32642,7 @@ enum=ENUM_relayEnableSpeed%0D
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">1.20302 0 0 0.579912 23.3909 -10.6768 </m_transform>
+			<m_transform type="a">1.20302 0 0 0.579912 315.391 5.3232 </m_transform>
 			<m_bIsPreferencesInitialized type="a">1</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -32850,7 +32850,7 @@ enum=ENUM_relayEnableSpeed%0D
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">1 574 348  </m_arrow>
+			<m_arrow type="a">1 866 364  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -33067,7 +33067,7 @@ enum=ENUM_relayEnableSpeed%0D
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">1 1000 367  </m_arrow>
+			<m_arrow type="a">1 1292 383  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>

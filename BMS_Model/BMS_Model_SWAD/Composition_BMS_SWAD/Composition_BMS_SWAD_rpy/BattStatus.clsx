@@ -34,10 +34,10 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.22.2026::6:59:21</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.22.2026::7:36:49</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.25.2026::3:25:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.25.2026::3:25:45</_modifiedTime>
 			<_lastID type="a">17</_lastID>
-			<weakCGTime type="a">1.22.2026::6:59:21</weakCGTime>
+			<weakCGTime type="a">1.25.2026::3:25:45</weakCGTime>
 			<strongCGTime type="a">1.19.2026::8:45:13</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -200,6 +200,10 @@
 			<_id type="a">GUID 94f2114a-7883-4f92-8416-ee70604c2d5d</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">bmsModeInfo</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 bmsModeInfo\par%0D
+}%0D
+</_displayName>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -214,15 +218,15 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.22.2026::6:55:24</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.22.2026::6:55:24</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.25.2026::3:25:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.25.2026::3:25:45</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
 					<_hfilename type="a">.\Composition_BMS.sbsx</_hfilename>
 					<_hsubsystem type="a">Composition_BMS::ImplementationDataTypes</_hsubsystem>
-					<_hname type="a">VcuCmd_BmsMode_ModeRequest</_hname>
-					<_hid type="a">GUID 9d05feba-2959-48c9-a99b-999fdb50f1cf</_hid>
+					<_hname type="a">e_VcuCanCmd</_hname>
+					<_hid type="a">GUID 748b76b9-597d-42b3-875c-f92052353000</_hid>
 				</IHandle>
 			</_typeOf>
 			<_isOrdered type="a">0</_isOrdered>

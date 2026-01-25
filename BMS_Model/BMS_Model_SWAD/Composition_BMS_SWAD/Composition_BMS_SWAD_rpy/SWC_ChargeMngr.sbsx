@@ -34,9 +34,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.19.2026::12:13:19</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.19.2026::12:13:19</_modifiedTime>
-			<weakCGTime type="a">1.19.2026::12:13:19</weakCGTime>
+			<_modifiedTimeWeak type="a">1.25.2026::14:40:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.25.2026::14:40:41</_modifiedTime>
+			<weakCGTime type="a">1.25.2026::14:40:41</weakCGTime>
 			<strongCGTime type="a">1.15.2026::5:13:37</strongCGTime>
 			<_defaultComposite type="s">GUID f31a38b7-a7ae-4b98-9b8f-36782c2e3750</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -310,9 +310,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.19.2026::12:13:19</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.19.2026::12:13:19</_modifiedTime>
-			<weakCGTime type="a">1.19.2026::12:13:19</weakCGTime>
+			<_modifiedTimeWeak type="a">1.25.2026::14:40:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.25.2026::14:40:41</_modifiedTime>
+			<weakCGTime type="a">1.25.2026::14:40:41</weakCGTime>
 			<strongCGTime type="a">1.15.2026::5:13:38</strongCGTime>
 			<_defaultComposite type="s">GUID fa950827-e2f6-4800-96c6-380620a995d1</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -354,7 +354,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.19.2026::12:13:19</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.25.2026::14:40:41</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -365,9 +365,9 @@
 					<_hid type="a">GUID 6a358fbd-a212-4d93-a3b5-ae96e8c80a53</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">1.19.2026::12:13:19</_modifiedTime>
-			<_lastID type="a">3</_lastID>
-			<weakCGTime type="a">1.19.2026::12:13:19</weakCGTime>
+			<_modifiedTime type="a">1.25.2026::14:40:41</_modifiedTime>
+			<_lastID type="a">5</_lastID>
+			<weakCGTime type="a">1.25.2026::14:40:41</weakCGTime>
 			<strongCGTime type="a">1.15.2026::5:13:39</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -383,6 +383,7 @@
 				<value>GUID a3d3069b-5b96-4a2f-95f1-910bf25b88f2</value>
 				<value>GUID 804091ae-d829-4533-87a5-98b47e26e1e0</value>
 				<value>GUID 7af54889-e54b-4e9e-8b51-d6c1251e70fd</value>
+				<value>GUID 02b6a747-9930-44e4-96f3-13d90cb69abb</value>
 			</AggregatesList>
 		</IClass>
 		<ITag type="e">
@@ -834,6 +835,95 @@
 		</ILiteralSpecification>
 		<IType type="e">
 			<_id type="a">GUID b98ab09c-5255-4260-96e9-4a81ec78510e</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<IPort type="e">
+			<_id type="a">GUID 02b6a747-9930-44e4-96f3-13d90cb69abb</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">R_PackMeasData_Tx</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+							<_hsubsystem type="a">AUTOSAR_440::AUTOSARRoot::M2::AUTOSARTemplates::SWComponentTemplate::CoreElements</_hsubsystem>
+							<_hname type="a">dataReceiverPort</_hname>
+							<_hid type="a">GUID 5bb64f20-c6fc-46b2-b55f-81e998b48780</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.25.2026::14:40:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.25.2026::14:40:41</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 7a99b040-17ca-47bd-90f5-4066512a48c2</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID 7a99b040-17ca-47bd-90f5-4066512a48c2</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">R_PackMeasData_Tx_implicitContract</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AUTOSAR_440.sbsx</_hfilename>
+								<_hsubsystem type="a">AUTOSAR_440::RHP_PredefinedTypes</_hsubsystem>
+								<_hname type="a">Interface</_hname>
+								<_hid type="a">GUID bbb4829a-eebb-4d51-b578-8971f1c0e1c1</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.25.2026::14:21:34</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.25.2026::14:40:41</_modifiedTime>
+				<weakCGTime type="a">1.25.2026::14:21:34</weakCGTime>
+				<strongCGTime type="a">1.25.2026::14:21:34</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+			</IClass>
+			</_implicitClass>
+			<AggregatesList type="e">
+				<value>GUID 11f61c64-cfcb-4f1d-b84b-48b1cd813707</value>
+			</AggregatesList>
+		</IPort>
+		<ITag type="e">
+			<_id type="a">GUID 11f61c64-cfcb-4f1d-b84b-48b1cd813707</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">interfaceName</_name>
+			<_modifiedTimeWeak type="a">1.25.2026::14:40:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.25.2026::14:40:41</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 1b4782f2-3ced-47eb-ae00-c674a9895e3b</value>
+				<value>GUID 7898d57b-90cc-4927-8ce0-125d30ec645e</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 1b4782f2-3ced-47eb-ae00-c674a9895e3b</_id>
+			<_modifiedTimeWeak type="a">1.25.2026::14:40:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.25.2026::14:40:41</_modifiedTime>
+			<_value type="a">PackMeasData_Tx</_value>
+		</ILiteralSpecification>
+		<IType type="e">
+			<_id type="a">GUID 7898d57b-90cc-4927-8ce0-125d30ec645e</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>

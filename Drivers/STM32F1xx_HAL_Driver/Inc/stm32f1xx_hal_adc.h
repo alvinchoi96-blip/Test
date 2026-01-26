@@ -52,10 +52,10 @@
   */
 typedef struct
 {
-  uint32_t DataAlign;                        /*!< Specifies ADC data alignment to right (MSB on register bit 11 and LSB on register bit 0) (default setting)
+  uint32 DataAlign;                        /*!< Specifies ADC data alignment to right (MSB on register bit 11 and LSB on register bit 0) (default setting)
                                                   or to left (if regular group: MSB on register bit 15 and LSB on register bit 4, if injected group (MSB kept as signed value due to potential negative value after offset application): MSB on register bit 14 and LSB on register bit 3).
                                                   This parameter can be a value of @ref ADC_Data_align */
-  uint32_t ScanConvMode;                     /*!< Configures the sequencer of regular and injected groups.
+  uint32 ScanConvMode;                     /*!< Configures the sequencer of regular and injected groups.
                                                   This parameter can be associated to parameter 'DiscontinuousConvMode' to have main sequence subdivided in successive parts.
                                                   If disabled: Conversion is performed in single mode (one channel converted, the one defined in rank 1).
                                                                Parameters 'NbrOfConversion' and 'InjectedNbrOfConversion' are discarded (equivalent to set to 1).
@@ -69,17 +69,17 @@ typedef struct
   FunctionalState ContinuousConvMode;         /*!< Specifies whether the conversion is performed in single mode (one conversion) or continuous mode for regular group,
                                                   after the selected trigger occurred (software start or external trigger).
                                                   This parameter can be set to ENABLE or DISABLE. */
-  uint32_t NbrOfConversion;                  /*!< Specifies the number of ranks that will be converted within the regular group sequencer.
+  uint32 NbrOfConversion;                  /*!< Specifies the number of ranks that will be converted within the regular group sequencer.
                                                   To use regular group sequencer and convert several ranks, parameter 'ScanConvMode' must be enabled.
                                                   This parameter must be a number between Min_Data = 1 and Max_Data = 16. */
   FunctionalState  DiscontinuousConvMode;    /*!< Specifies whether the conversions sequence of regular group is performed in Complete-sequence/Discontinuous-sequence (main sequence subdivided in successive parts).
                                                   Discontinuous mode is used only if sequencer is enabled (parameter 'ScanConvMode'). If sequencer is disabled, this parameter is discarded.
                                                   Discontinuous mode can be enabled only if continuous mode is disabled. If continuous mode is enabled, this parameter setting is discarded.
                                                   This parameter can be set to ENABLE or DISABLE. */
-  uint32_t NbrOfDiscConversion;              /*!< Specifies the number of discontinuous conversions in which the  main sequence of regular group (parameter NbrOfConversion) will be subdivided.
+  uint32 NbrOfDiscConversion;              /*!< Specifies the number of discontinuous conversions in which the  main sequence of regular group (parameter NbrOfConversion) will be subdivided.
                                                   If parameter 'DiscontinuousConvMode' is disabled, this parameter is discarded.
                                                   This parameter must be a number between Min_Data = 1 and Max_Data = 8. */
-  uint32_t ExternalTrigConv;                 /*!< Selects the external event used to trigger the conversion start of regular group.
+  uint32 ExternalTrigConv;                 /*!< Selects the external event used to trigger the conversion start of regular group.
                                                   If set to ADC_SOFTWARE_START, external triggers are disabled.
                                                   If set to external trigger source, triggering is on event rising edge.
                                                   This parameter can be a value of @ref ADC_External_trigger_source_Regular */
@@ -92,17 +92,17 @@ typedef struct
   */ 
 typedef struct 
 {
-  uint32_t Channel;                /*!< Specifies the channel to configure into ADC regular group.
+  uint32 Channel;                /*!< Specifies the channel to configure into ADC regular group.
                                         This parameter can be a value of @ref ADC_channels
                                         Note: Depending on devices, some channels may not be available on package pins. Refer to device datasheet for channels availability.
                                         Note: On STM32F1 devices with several ADC: Only ADC1 can access internal measurement channels (VrefInt/TempSensor) 
                                         Note: On STM32F10xx8 and STM32F10xxB devices: A low-amplitude voltage glitch may be generated (on ADC input 0) on the PA0 pin, when the ADC is converting with injection trigger.
                                               It is advised to distribute the analog channels so that Channel 0 is configured as an injected channel.
                                               Refer to errata sheet of these devices for more details. */
-  uint32_t Rank;                   /*!< Specifies the rank in the regular group sequencer 
+  uint32 Rank;                   /*!< Specifies the rank in the regular group sequencer 
                                         This parameter can be a value of @ref ADC_regular_rank
                                         Note: In case of need to disable a channel or change order of conversion sequencer, rank containing a previous channel setting can be overwritten by the new channel setting (or parameter number of conversions can be adjusted) */
-  uint32_t SamplingTime;           /*!< Sampling time value to be set for the selected channel.
+  uint32 SamplingTime;           /*!< Sampling time value to be set for the selected channel.
                                         Unit: ADC clock cycles
                                         Conversion time is the addition of sampling time and processing time (12.5 ADC clock cycles at ADC resolution 12 bits).
                                         This parameter can be a value of @ref ADC_sampling_times
@@ -120,18 +120,18 @@ typedef struct
   */
 typedef struct
 {
-  uint32_t WatchdogMode;      /*!< Configures the ADC analog watchdog mode: single/all channels, regular/injected group.
+  uint32 WatchdogMode;      /*!< Configures the ADC analog watchdog mode: single/all channels, regular/injected group.
                                    This parameter can be a value of @ref ADC_analog_watchdog_mode. */
-  uint32_t Channel;           /*!< Selects which ADC channel to monitor by analog watchdog.
+  uint32 Channel;           /*!< Selects which ADC channel to monitor by analog watchdog.
                                    This parameter has an effect only if watchdog mode is configured on single channel (parameter WatchdogMode)
                                    This parameter can be a value of @ref ADC_channels. */
   FunctionalState  ITMode;    /*!< Specifies whether the analog watchdog is configured in interrupt or polling mode.
                                    This parameter can be set to ENABLE or DISABLE */
-  uint32_t HighThreshold;     /*!< Configures the ADC analog watchdog High threshold value.
+  uint32 HighThreshold;     /*!< Configures the ADC analog watchdog High threshold value.
                                    This parameter must be a number between Min_Data = 0x000 and Max_Data = 0xFFF. */
-  uint32_t LowThreshold;      /*!< Configures the ADC analog watchdog High threshold value.
+  uint32 LowThreshold;      /*!< Configures the ADC analog watchdog High threshold value.
                                    This parameter must be a number between Min_Data = 0x000 and Max_Data = 0xFFF. */
-  uint32_t WatchdogNumber;    /*!< Reserved for future use, can be set to 0 */
+  uint32 WatchdogNumber;    /*!< Reserved for future use, can be set to 0 */
 }ADC_AnalogWDGConfTypeDef;
 
 /** 
@@ -183,9 +183,9 @@ typedef struct __ADC_HandleTypeDef
 
   HAL_LockTypeDef               Lock;                   /*!< ADC locking object */
   
-  __IO uint32_t                 State;                  /*!< ADC communication state (bitmap of ADC states) */
+  __IO uint32                 State;                  /*!< ADC communication state (bitmap of ADC states) */
 
-  __IO uint32_t                 ErrorCode;              /*!< ADC Error code */
+  __IO uint32                 ErrorCode;              /*!< ADC Error code */
 
 #if (USE_HAL_ADC_REGISTER_CALLBACKS == 1)
   void (* ConvCpltCallback)(struct __ADC_HandleTypeDef *hadc);              /*!< ADC conversion complete callback */
@@ -254,7 +254,7 @@ typedef  void (*pADC_CallbackTypeDef)(ADC_HandleTypeDef *hadc); /*!< pointer to 
   * @{
   */
 #define ADC_DATAALIGN_RIGHT      0x00000000U
-#define ADC_DATAALIGN_LEFT       ((uint32_t)ADC_CR2_ALIGN)
+#define ADC_DATAALIGN_LEFT       ((uint32)ADC_CR2_ALIGN)
 /**
   * @}
   */
@@ -266,7 +266,7 @@ typedef  void (*pADC_CallbackTypeDef)(ADC_HandleTypeDef *hadc); /*!< pointer to 
 /*       compatibility with other STM32 devices having a sequencer with       */
 /*       additional options.                                                  */
 #define ADC_SCAN_DISABLE         0x00000000U
-#define ADC_SCAN_ENABLE          ((uint32_t)ADC_CR1_SCAN)
+#define ADC_SCAN_ENABLE          ((uint32)ADC_CR1_SCAN)
 /**
   * @}
   */
@@ -275,7 +275,7 @@ typedef  void (*pADC_CallbackTypeDef)(ADC_HandleTypeDef *hadc); /*!< pointer to 
   * @{
   */
 #define ADC_EXTERNALTRIGCONVEDGE_NONE           0x00000000U
-#define ADC_EXTERNALTRIGCONVEDGE_RISING         ((uint32_t)ADC_CR2_EXTTRIG)
+#define ADC_EXTERNALTRIGCONVEDGE_RISING         ((uint32)ADC_CR2_EXTTRIG)
 /**
   * @}
   */
@@ -286,23 +286,23 @@ typedef  void (*pADC_CallbackTypeDef)(ADC_HandleTypeDef *hadc); /*!< pointer to 
 /* Note: Depending on devices, some channels may not be available on package  */
 /*       pins. Refer to device datasheet for channels availability.           */
 #define ADC_CHANNEL_0                       0x00000000U
-#define ADC_CHANNEL_1           ((uint32_t)(                                                                    ADC_SQR3_SQ1_0))
-#define ADC_CHANNEL_2           ((uint32_t)(                                                   ADC_SQR3_SQ1_1                 ))
-#define ADC_CHANNEL_3           ((uint32_t)(                                                   ADC_SQR3_SQ1_1 | ADC_SQR3_SQ1_0))
-#define ADC_CHANNEL_4           ((uint32_t)(                                  ADC_SQR3_SQ1_2                                  ))
-#define ADC_CHANNEL_5           ((uint32_t)(                                  ADC_SQR3_SQ1_2                  | ADC_SQR3_SQ1_0))
-#define ADC_CHANNEL_6           ((uint32_t)(                                  ADC_SQR3_SQ1_2 | ADC_SQR3_SQ1_1                 ))
-#define ADC_CHANNEL_7           ((uint32_t)(                                  ADC_SQR3_SQ1_2 | ADC_SQR3_SQ1_1 | ADC_SQR3_SQ1_0))
-#define ADC_CHANNEL_8           ((uint32_t)(                 ADC_SQR3_SQ1_3                                                   ))
-#define ADC_CHANNEL_9           ((uint32_t)(                 ADC_SQR3_SQ1_3                                   | ADC_SQR3_SQ1_0))
-#define ADC_CHANNEL_10          ((uint32_t)(                 ADC_SQR3_SQ1_3                  | ADC_SQR3_SQ1_1                 ))
-#define ADC_CHANNEL_11          ((uint32_t)(                 ADC_SQR3_SQ1_3                  | ADC_SQR3_SQ1_1 | ADC_SQR3_SQ1_0))
-#define ADC_CHANNEL_12          ((uint32_t)(                 ADC_SQR3_SQ1_3 | ADC_SQR3_SQ1_2                                  ))
-#define ADC_CHANNEL_13          ((uint32_t)(                 ADC_SQR3_SQ1_3 | ADC_SQR3_SQ1_2                  | ADC_SQR3_SQ1_0))
-#define ADC_CHANNEL_14          ((uint32_t)(                 ADC_SQR3_SQ1_3 | ADC_SQR3_SQ1_2 | ADC_SQR3_SQ1_1                 ))
-#define ADC_CHANNEL_15          ((uint32_t)(                 ADC_SQR3_SQ1_3 | ADC_SQR3_SQ1_2 | ADC_SQR3_SQ1_1 | ADC_SQR3_SQ1_0))
-#define ADC_CHANNEL_16          ((uint32_t)(ADC_SQR3_SQ1_4                                                                    ))
-#define ADC_CHANNEL_17          ((uint32_t)(ADC_SQR3_SQ1_4                                                    | ADC_SQR3_SQ1_0))
+#define ADC_CHANNEL_1           ((uint32)(                                                                    ADC_SQR3_SQ1_0))
+#define ADC_CHANNEL_2           ((uint32)(                                                   ADC_SQR3_SQ1_1                 ))
+#define ADC_CHANNEL_3           ((uint32)(                                                   ADC_SQR3_SQ1_1 | ADC_SQR3_SQ1_0))
+#define ADC_CHANNEL_4           ((uint32)(                                  ADC_SQR3_SQ1_2                                  ))
+#define ADC_CHANNEL_5           ((uint32)(                                  ADC_SQR3_SQ1_2                  | ADC_SQR3_SQ1_0))
+#define ADC_CHANNEL_6           ((uint32)(                                  ADC_SQR3_SQ1_2 | ADC_SQR3_SQ1_1                 ))
+#define ADC_CHANNEL_7           ((uint32)(                                  ADC_SQR3_SQ1_2 | ADC_SQR3_SQ1_1 | ADC_SQR3_SQ1_0))
+#define ADC_CHANNEL_8           ((uint32)(                 ADC_SQR3_SQ1_3                                                   ))
+#define ADC_CHANNEL_9           ((uint32)(                 ADC_SQR3_SQ1_3                                   | ADC_SQR3_SQ1_0))
+#define ADC_CHANNEL_10          ((uint32)(                 ADC_SQR3_SQ1_3                  | ADC_SQR3_SQ1_1                 ))
+#define ADC_CHANNEL_11          ((uint32)(                 ADC_SQR3_SQ1_3                  | ADC_SQR3_SQ1_1 | ADC_SQR3_SQ1_0))
+#define ADC_CHANNEL_12          ((uint32)(                 ADC_SQR3_SQ1_3 | ADC_SQR3_SQ1_2                                  ))
+#define ADC_CHANNEL_13          ((uint32)(                 ADC_SQR3_SQ1_3 | ADC_SQR3_SQ1_2                  | ADC_SQR3_SQ1_0))
+#define ADC_CHANNEL_14          ((uint32)(                 ADC_SQR3_SQ1_3 | ADC_SQR3_SQ1_2 | ADC_SQR3_SQ1_1                 ))
+#define ADC_CHANNEL_15          ((uint32)(                 ADC_SQR3_SQ1_3 | ADC_SQR3_SQ1_2 | ADC_SQR3_SQ1_1 | ADC_SQR3_SQ1_0))
+#define ADC_CHANNEL_16          ((uint32)(ADC_SQR3_SQ1_4                                                                    ))
+#define ADC_CHANNEL_17          ((uint32)(ADC_SQR3_SQ1_4                                                    | ADC_SQR3_SQ1_0))
 
 #define ADC_CHANNEL_TEMPSENSOR  ADC_CHANNEL_16  /* ADC internal channel (no connection on device pin) */
 #define ADC_CHANNEL_VREFINT     ADC_CHANNEL_17  /* ADC internal channel (no connection on device pin) */
@@ -314,13 +314,13 @@ typedef  void (*pADC_CallbackTypeDef)(ADC_HandleTypeDef *hadc); /*!< pointer to 
   * @{
   */
 #define ADC_SAMPLETIME_1CYCLE_5                   0x00000000U                                              /*!< Sampling time 1.5 ADC clock cycle */
-#define ADC_SAMPLETIME_7CYCLES_5      ((uint32_t)(                                      ADC_SMPR2_SMP0_0)) /*!< Sampling time 7.5 ADC clock cycles */
-#define ADC_SAMPLETIME_13CYCLES_5     ((uint32_t)(                   ADC_SMPR2_SMP0_1                   )) /*!< Sampling time 13.5 ADC clock cycles */
-#define ADC_SAMPLETIME_28CYCLES_5     ((uint32_t)(                   ADC_SMPR2_SMP0_1 | ADC_SMPR2_SMP0_0)) /*!< Sampling time 28.5 ADC clock cycles */
-#define ADC_SAMPLETIME_41CYCLES_5     ((uint32_t)(ADC_SMPR2_SMP0_2                                      )) /*!< Sampling time 41.5 ADC clock cycles */
-#define ADC_SAMPLETIME_55CYCLES_5     ((uint32_t)(ADC_SMPR2_SMP0_2                    | ADC_SMPR2_SMP0_0)) /*!< Sampling time 55.5 ADC clock cycles */
-#define ADC_SAMPLETIME_71CYCLES_5     ((uint32_t)(ADC_SMPR2_SMP0_2 | ADC_SMPR2_SMP0_1                   )) /*!< Sampling time 71.5 ADC clock cycles */
-#define ADC_SAMPLETIME_239CYCLES_5    ((uint32_t)(ADC_SMPR2_SMP0_2 | ADC_SMPR2_SMP0_1 | ADC_SMPR2_SMP0_0)) /*!< Sampling time 239.5 ADC clock cycles */
+#define ADC_SAMPLETIME_7CYCLES_5      ((uint32)(                                      ADC_SMPR2_SMP0_0)) /*!< Sampling time 7.5 ADC clock cycles */
+#define ADC_SAMPLETIME_13CYCLES_5     ((uint32)(                   ADC_SMPR2_SMP0_1                   )) /*!< Sampling time 13.5 ADC clock cycles */
+#define ADC_SAMPLETIME_28CYCLES_5     ((uint32)(                   ADC_SMPR2_SMP0_1 | ADC_SMPR2_SMP0_0)) /*!< Sampling time 28.5 ADC clock cycles */
+#define ADC_SAMPLETIME_41CYCLES_5     ((uint32)(ADC_SMPR2_SMP0_2                                      )) /*!< Sampling time 41.5 ADC clock cycles */
+#define ADC_SAMPLETIME_55CYCLES_5     ((uint32)(ADC_SMPR2_SMP0_2                    | ADC_SMPR2_SMP0_0)) /*!< Sampling time 55.5 ADC clock cycles */
+#define ADC_SAMPLETIME_71CYCLES_5     ((uint32)(ADC_SMPR2_SMP0_2 | ADC_SMPR2_SMP0_1                   )) /*!< Sampling time 71.5 ADC clock cycles */
+#define ADC_SAMPLETIME_239CYCLES_5    ((uint32)(ADC_SMPR2_SMP0_2 | ADC_SMPR2_SMP0_1 | ADC_SMPR2_SMP0_0)) /*!< Sampling time 239.5 ADC clock cycles */
 /**
   * @}
   */
@@ -352,12 +352,12 @@ typedef  void (*pADC_CallbackTypeDef)(ADC_HandleTypeDef *hadc); /*!< pointer to 
   * @{
   */
 #define ADC_ANALOGWATCHDOG_NONE                             0x00000000U
-#define ADC_ANALOGWATCHDOG_SINGLE_REG           ((uint32_t)(ADC_CR1_AWDSGL | ADC_CR1_AWDEN))
-#define ADC_ANALOGWATCHDOG_SINGLE_INJEC         ((uint32_t)(ADC_CR1_AWDSGL | ADC_CR1_JAWDEN))
-#define ADC_ANALOGWATCHDOG_SINGLE_REGINJEC      ((uint32_t)(ADC_CR1_AWDSGL | ADC_CR1_AWDEN | ADC_CR1_JAWDEN))
-#define ADC_ANALOGWATCHDOG_ALL_REG              ((uint32_t)ADC_CR1_AWDEN)
-#define ADC_ANALOGWATCHDOG_ALL_INJEC            ((uint32_t)ADC_CR1_JAWDEN)
-#define ADC_ANALOGWATCHDOG_ALL_REGINJEC         ((uint32_t)(ADC_CR1_AWDEN | ADC_CR1_JAWDEN))
+#define ADC_ANALOGWATCHDOG_SINGLE_REG           ((uint32)(ADC_CR1_AWDSGL | ADC_CR1_AWDEN))
+#define ADC_ANALOGWATCHDOG_SINGLE_INJEC         ((uint32)(ADC_CR1_AWDSGL | ADC_CR1_JAWDEN))
+#define ADC_ANALOGWATCHDOG_SINGLE_REGINJEC      ((uint32)(ADC_CR1_AWDSGL | ADC_CR1_AWDEN | ADC_CR1_JAWDEN))
+#define ADC_ANALOGWATCHDOG_ALL_REG              ((uint32)ADC_CR1_AWDEN)
+#define ADC_ANALOGWATCHDOG_ALL_INJEC            ((uint32)ADC_CR1_JAWDEN)
+#define ADC_ANALOGWATCHDOG_ALL_REGINJEC         ((uint32)(ADC_CR1_AWDEN | ADC_CR1_JAWDEN))
 /**
   * @}
   */
@@ -365,9 +365,9 @@ typedef  void (*pADC_CallbackTypeDef)(ADC_HandleTypeDef *hadc); /*!< pointer to 
 /** @defgroup ADC_conversion_group ADC conversion group
   * @{
   */
-#define ADC_REGULAR_GROUP             ((uint32_t)(ADC_FLAG_EOC))
-#define ADC_INJECTED_GROUP            ((uint32_t)(ADC_FLAG_JEOC))
-#define ADC_REGULAR_INJECTED_GROUP    ((uint32_t)(ADC_FLAG_EOC | ADC_FLAG_JEOC))
+#define ADC_REGULAR_GROUP             ((uint32)(ADC_FLAG_EOC))
+#define ADC_INJECTED_GROUP            ((uint32)(ADC_FLAG_JEOC))
+#define ADC_REGULAR_INJECTED_GROUP    ((uint32)(ADC_FLAG_EOC | ADC_FLAG_JEOC))
 /**
   * @}
   */
@@ -375,7 +375,7 @@ typedef  void (*pADC_CallbackTypeDef)(ADC_HandleTypeDef *hadc); /*!< pointer to 
 /** @defgroup ADC_Event_type ADC Event type
   * @{
   */
-#define ADC_AWD_EVENT               ((uint32_t)ADC_FLAG_AWD)   /*!< ADC Analog watchdog event */
+#define ADC_AWD_EVENT               ((uint32)ADC_FLAG_AWD)   /*!< ADC Analog watchdog event */
 
 #define ADC_AWD1_EVENT              ADC_AWD_EVENT              /*!< ADC Analog watchdog 1 event: Alternate naming for compatibility with other STM32 devices having several analog watchdogs */
 /**
@@ -659,7 +659,7 @@ typedef  void (*pADC_CallbackTypeDef)(ADC_HandleTypeDef *hadc); /*!< pointer to 
   * @retval None
   */
 #define ADC_SQR1_L_SHIFT(_NbrOfConversion_)                                    \
-  (((_NbrOfConversion_) - (uint8_t)1) << ADC_SQR1_L_Pos)
+  (((_NbrOfConversion_) - (uint8)1) << ADC_SQR1_L_Pos)
 
 /**
   * @brief Set the ADC's sample time for channel numbers between 10 and 18.
@@ -919,19 +919,19 @@ HAL_StatusTypeDef HAL_ADC_UnRegisterCallback(ADC_HandleTypeDef *hadc, HAL_ADC_Ca
 /* Blocking mode: Polling */
 HAL_StatusTypeDef       HAL_ADC_Start(ADC_HandleTypeDef* hadc);
 HAL_StatusTypeDef       HAL_ADC_Stop(ADC_HandleTypeDef* hadc);
-HAL_StatusTypeDef       HAL_ADC_PollForConversion(ADC_HandleTypeDef* hadc, uint32_t Timeout);
-HAL_StatusTypeDef       HAL_ADC_PollForEvent(ADC_HandleTypeDef* hadc, uint32_t EventType, uint32_t Timeout);
+HAL_StatusTypeDef       HAL_ADC_PollForConversion(ADC_HandleTypeDef* hadc, uint32 Timeout);
+HAL_StatusTypeDef       HAL_ADC_PollForEvent(ADC_HandleTypeDef* hadc, uint32 EventType, uint32 Timeout);
 
 /* Non-blocking mode: Interruption */
 HAL_StatusTypeDef       HAL_ADC_Start_IT(ADC_HandleTypeDef* hadc);
 HAL_StatusTypeDef       HAL_ADC_Stop_IT(ADC_HandleTypeDef* hadc);
 
 /* Non-blocking mode: DMA */
-HAL_StatusTypeDef       HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
+HAL_StatusTypeDef       HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32* pData, uint32 Length);
 HAL_StatusTypeDef       HAL_ADC_Stop_DMA(ADC_HandleTypeDef* hadc);
 
 /* ADC retrieve conversion value intended to be used with polling or interruption */
-uint32_t                HAL_ADC_GetValue(ADC_HandleTypeDef* hadc);
+uint32                HAL_ADC_GetValue(ADC_HandleTypeDef* hadc);
 
 /* ADC IRQHandler and Callbacks used in non-blocking modes (Interruption and DMA) */
 void                    HAL_ADC_IRQHandler(ADC_HandleTypeDef* hadc);
@@ -959,8 +959,8 @@ HAL_StatusTypeDef       HAL_ADC_AnalogWDGConfig(ADC_HandleTypeDef* hadc, ADC_Ana
 /** @addtogroup ADC_Exported_Functions_Group4
   * @{
   */
-uint32_t                HAL_ADC_GetState(ADC_HandleTypeDef* hadc);
-uint32_t                HAL_ADC_GetError(ADC_HandleTypeDef *hadc);
+uint32                HAL_ADC_GetState(ADC_HandleTypeDef* hadc);
+uint32                HAL_ADC_GetError(ADC_HandleTypeDef *hadc);
 /**
   * @}
   */
@@ -977,7 +977,7 @@ uint32_t                HAL_ADC_GetError(ADC_HandleTypeDef *hadc);
   */
 HAL_StatusTypeDef ADC_Enable(ADC_HandleTypeDef* hadc);
 HAL_StatusTypeDef ADC_ConversionStop_Disable(ADC_HandleTypeDef* hadc);
-void              ADC_StabilizationTime(uint32_t DelayUs);
+void              ADC_StabilizationTime(uint32 DelayUs);
 void              ADC_DMAConvCplt(DMA_HandleTypeDef *hdma);
 void              ADC_DMAHalfConvCplt(DMA_HandleTypeDef *hdma);
 void              ADC_DMAError(DMA_HandleTypeDef *hdma);

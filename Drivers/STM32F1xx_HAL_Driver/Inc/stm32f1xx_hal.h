@@ -57,8 +57,8 @@ typedef enum
   * @}
   */
 /* Exported types ------------------------------------------------------------*/
-extern __IO uint32_t uwTick;
-extern uint32_t uwTickPrio;
+extern __IO uint32 uwTick;
+extern uint32 uwTickPrio;
 extern HAL_TickFreqTypeDef uwTickFreq;
 
 /**
@@ -284,7 +284,7 @@ HAL_StatusTypeDef HAL_Init(void);
 HAL_StatusTypeDef HAL_DeInit(void);
 void HAL_MspInit(void);
 void HAL_MspDeInit(void);
-HAL_StatusTypeDef HAL_InitTick(uint32_t TickPriority);
+HAL_StatusTypeDef HAL_InitTick(uint32 TickPriority);
 /**
   * @}
   */
@@ -294,19 +294,19 @@ HAL_StatusTypeDef HAL_InitTick(uint32_t TickPriority);
   */
 /* Peripheral Control functions  ************************************************/
 void HAL_IncTick(void);
-void HAL_Delay(uint32_t Delay);
-uint32_t HAL_GetTick(void);
-uint32_t HAL_GetTickPrio(void);
+void HAL_Delay(uint32 Delay);
+uint32 HAL_GetTick(void);
+uint32 HAL_GetTickPrio(void);
 HAL_StatusTypeDef HAL_SetTickFreq(HAL_TickFreqTypeDef Freq);
 HAL_TickFreqTypeDef HAL_GetTickFreq(void);
 void HAL_SuspendTick(void);
 void HAL_ResumeTick(void);
-uint32_t HAL_GetHalVersion(void);
-uint32_t HAL_GetREVID(void);
-uint32_t HAL_GetDEVID(void);
-uint32_t HAL_GetUIDw0(void);
-uint32_t HAL_GetUIDw1(void);
-uint32_t HAL_GetUIDw2(void);
+uint32 HAL_GetHalVersion(void);
+uint32 HAL_GetREVID(void);
+uint32 HAL_GetDEVID(void);
+uint32 HAL_GetUIDw0(void);
+uint32 HAL_GetUIDw1(void);
+uint32 HAL_GetUIDw2(void);
 void HAL_DBGMCU_EnableDBGSleepMode(void);
 void HAL_DBGMCU_DisableDBGSleepMode(void);
 void HAL_DBGMCU_EnableDBGStopMode(void);

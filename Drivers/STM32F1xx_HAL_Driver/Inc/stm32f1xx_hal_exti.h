@@ -56,7 +56,7 @@ typedef enum
   */
 typedef struct
 {
-  uint32_t Line;                    /*!<  Exti line number */
+  uint32 Line;                    /*!<  Exti line number */
   void (* PendingCallback)(void);   /*!<  Exti pending callback */
 } EXTI_HandleTypeDef;
 
@@ -65,13 +65,13 @@ typedef struct
   */
 typedef struct
 {
-  uint32_t Line;      /*!< The Exti line to be configured. This parameter
+  uint32 Line;      /*!< The Exti line to be configured. This parameter
                            can be a value of @ref EXTI_Line */
-  uint32_t Mode;      /*!< The Exit Mode to be configured for a core.
+  uint32 Mode;      /*!< The Exit Mode to be configured for a core.
                            This parameter can be a combination of @ref EXTI_Mode */
-  uint32_t Trigger;   /*!< The Exti Trigger to be configured. This parameter
+  uint32 Trigger;   /*!< The Exti Trigger to be configured. This parameter
                            can be a value of @ref EXTI_Trigger */
-  uint32_t GPIOSel;   /*!< The Exti GPIO multiplexer selection to be configured.
+  uint32 GPIOSel;   /*!< The Exti GPIO multiplexer selection to be configured.
                            This parameter is only possible for line 0 to 15. It
                            can be a value of @ref EXTI_GPIOSel */
 } EXTI_ConfigTypeDef;
@@ -280,7 +280,7 @@ HAL_StatusTypeDef HAL_EXTI_SetConfigLine(EXTI_HandleTypeDef *hexti, EXTI_ConfigT
 HAL_StatusTypeDef HAL_EXTI_GetConfigLine(EXTI_HandleTypeDef *hexti, EXTI_ConfigTypeDef *pExtiConfig);
 HAL_StatusTypeDef HAL_EXTI_ClearConfigLine(EXTI_HandleTypeDef *hexti);
 HAL_StatusTypeDef HAL_EXTI_RegisterCallback(EXTI_HandleTypeDef *hexti, EXTI_CallbackIDTypeDef CallbackID, void (*pPendingCbfn)(void));
-HAL_StatusTypeDef HAL_EXTI_GetHandle(EXTI_HandleTypeDef *hexti, uint32_t ExtiLine);
+HAL_StatusTypeDef HAL_EXTI_GetHandle(EXTI_HandleTypeDef *hexti, uint32 ExtiLine);
 /**
   * @}
   */
@@ -291,8 +291,8 @@ HAL_StatusTypeDef HAL_EXTI_GetHandle(EXTI_HandleTypeDef *hexti, uint32_t ExtiLin
   */
 /* IO operation functions *****************************************************/
 void              HAL_EXTI_IRQHandler(EXTI_HandleTypeDef *hexti);
-uint32_t          HAL_EXTI_GetPending(EXTI_HandleTypeDef *hexti, uint32_t Edge);
-void              HAL_EXTI_ClearPending(EXTI_HandleTypeDef *hexti, uint32_t Edge);
+uint32          HAL_EXTI_GetPending(EXTI_HandleTypeDef *hexti, uint32 Edge);
+void              HAL_EXTI_ClearPending(EXTI_HandleTypeDef *hexti, uint32 Edge);
 void              HAL_EXTI_GenerateSWI(EXTI_HandleTypeDef *hexti);
 
 /**

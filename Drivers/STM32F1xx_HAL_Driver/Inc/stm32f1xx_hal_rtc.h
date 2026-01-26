@@ -73,7 +73,7 @@ extern "C" {
 /** @defgroup RTC_EXTI_Line_Event RTC EXTI Line event
   * @{
   */
-#define RTC_EXTI_LINE_ALARM_EVENT   ((uint32_t)EXTI_IMR_MR17)  /*!< External interrupt line 17 Connected to the RTC Alarm event */
+#define RTC_EXTI_LINE_ALARM_EVENT   ((uint32)EXTI_IMR_MR17)  /*!< External interrupt line 17 Connected to the RTC Alarm event */
 /**
   * @}
   */
@@ -92,13 +92,13 @@ extern "C" {
   */
 typedef struct
 {
-  uint8_t Hours;            /*!< Specifies the RTC Time Hour.
+  uint8 Hours;            /*!< Specifies the RTC Time Hour.
                                  This parameter must be a number between Min_Data = 0 and Max_Data = 23 */
 
-  uint8_t Minutes;          /*!< Specifies the RTC Time Minutes.
+  uint8 Minutes;          /*!< Specifies the RTC Time Minutes.
                                  This parameter must be a number between Min_Data = 0 and Max_Data = 59 */
 
-  uint8_t Seconds;          /*!< Specifies the RTC Time Seconds.
+  uint8 Seconds;          /*!< Specifies the RTC Time Seconds.
                                  This parameter must be a number between Min_Data = 0 and Max_Data = 59 */
 
 } RTC_TimeTypeDef;
@@ -110,7 +110,7 @@ typedef struct
 {
   RTC_TimeTypeDef AlarmTime;     /*!< Specifies the RTC Alarm Time members */
 
-  uint32_t Alarm;                /*!< Specifies the alarm ID (only 1 alarm ID for STM32F1).
+  uint32 Alarm;                /*!< Specifies the alarm ID (only 1 alarm ID for STM32F1).
                                       This parameter can be a value of @ref RTC_Alarms_Definitions */
 } RTC_AlarmTypeDef;
 
@@ -132,11 +132,11 @@ typedef enum
   */
 typedef struct
 {
-  uint32_t AsynchPrediv;    /*!< Specifies the RTC Asynchronous Predivider value.
+  uint32 AsynchPrediv;    /*!< Specifies the RTC Asynchronous Predivider value.
                                  This parameter must be a number between Min_Data = 0x00 and Max_Data = 0xFFFFF  or RTC_AUTO_1_SECOND
                                  If RTC_AUTO_1_SECOND is selected, AsynchPrediv will be set automatically to get 1sec timebase */
 
-  uint32_t OutPut;          /*!< Specifies which signal will be routed to the RTC Tamper pin.
+  uint32 OutPut;          /*!< Specifies which signal will be routed to the RTC Tamper pin.
                                  This parameter can be a value of @ref RTC_output_source_to_output_on_the_Tamper_pin */
 
 } RTC_InitTypeDef;
@@ -146,16 +146,16 @@ typedef struct
   */
 typedef struct
 {
-  uint8_t WeekDay;  /*!< Specifies the RTC Date WeekDay (not necessary for HAL_RTC_SetDate).
+  uint8 WeekDay;  /*!< Specifies the RTC Date WeekDay (not necessary for HAL_RTC_SetDate).
                          This parameter can be a value of @ref RTC_WeekDay_Definitions */
 
-  uint8_t Month;    /*!< Specifies the RTC Date Month (in BCD format).
+  uint8 Month;    /*!< Specifies the RTC Date Month (in BCD format).
                          This parameter can be a value of @ref RTC_Month_Date_Definitions */
 
-  uint8_t Date;     /*!< Specifies the RTC Date.
+  uint8 Date;     /*!< Specifies the RTC Date.
                          This parameter must be a number between Min_Data = 1 and Max_Data = 31 */
 
-  uint8_t Year;     /*!< Specifies the RTC Date Year.
+  uint8 Year;     /*!< Specifies the RTC Date Year.
                          This parameter must be a number between Min_Data = 0 and Max_Data = 99 */
 
 } RTC_DateTypeDef;
@@ -243,18 +243,18 @@ typedef  void (*pRTC_CallbackTypeDef)(RTC_HandleTypeDef *hrtc);  /*!< pointer to
   */
 
 /* Coded in BCD format */
-#define RTC_MONTH_JANUARY              ((uint8_t)0x01)
-#define RTC_MONTH_FEBRUARY             ((uint8_t)0x02)
-#define RTC_MONTH_MARCH                ((uint8_t)0x03)
-#define RTC_MONTH_APRIL                ((uint8_t)0x04)
-#define RTC_MONTH_MAY                  ((uint8_t)0x05)
-#define RTC_MONTH_JUNE                 ((uint8_t)0x06)
-#define RTC_MONTH_JULY                 ((uint8_t)0x07)
-#define RTC_MONTH_AUGUST               ((uint8_t)0x08)
-#define RTC_MONTH_SEPTEMBER            ((uint8_t)0x09)
-#define RTC_MONTH_OCTOBER              ((uint8_t)0x10)
-#define RTC_MONTH_NOVEMBER             ((uint8_t)0x11)
-#define RTC_MONTH_DECEMBER             ((uint8_t)0x12)
+#define RTC_MONTH_JANUARY              ((uint8)0x01)
+#define RTC_MONTH_FEBRUARY             ((uint8)0x02)
+#define RTC_MONTH_MARCH                ((uint8)0x03)
+#define RTC_MONTH_APRIL                ((uint8)0x04)
+#define RTC_MONTH_MAY                  ((uint8)0x05)
+#define RTC_MONTH_JUNE                 ((uint8)0x06)
+#define RTC_MONTH_JULY                 ((uint8)0x07)
+#define RTC_MONTH_AUGUST               ((uint8)0x08)
+#define RTC_MONTH_SEPTEMBER            ((uint8)0x09)
+#define RTC_MONTH_OCTOBER              ((uint8)0x10)
+#define RTC_MONTH_NOVEMBER             ((uint8)0x11)
+#define RTC_MONTH_DECEMBER             ((uint8)0x12)
 
 /**
   * @}
@@ -263,13 +263,13 @@ typedef  void (*pRTC_CallbackTypeDef)(RTC_HandleTypeDef *hrtc);  /*!< pointer to
 /** @defgroup RTC_WeekDay_Definitions WeekDay Definitions
   * @{
   */
-#define RTC_WEEKDAY_MONDAY             ((uint8_t)0x01)
-#define RTC_WEEKDAY_TUESDAY            ((uint8_t)0x02)
-#define RTC_WEEKDAY_WEDNESDAY          ((uint8_t)0x03)
-#define RTC_WEEKDAY_THURSDAY           ((uint8_t)0x04)
-#define RTC_WEEKDAY_FRIDAY             ((uint8_t)0x05)
-#define RTC_WEEKDAY_SATURDAY           ((uint8_t)0x06)
-#define RTC_WEEKDAY_SUNDAY             ((uint8_t)0x00)
+#define RTC_WEEKDAY_MONDAY             ((uint8)0x01)
+#define RTC_WEEKDAY_TUESDAY            ((uint8)0x02)
+#define RTC_WEEKDAY_WEDNESDAY          ((uint8)0x03)
+#define RTC_WEEKDAY_THURSDAY           ((uint8)0x04)
+#define RTC_WEEKDAY_FRIDAY             ((uint8)0x05)
+#define RTC_WEEKDAY_SATURDAY           ((uint8)0x06)
+#define RTC_WEEKDAY_SUNDAY             ((uint8)0x00)
 
 /**
   * @}
@@ -545,10 +545,10 @@ HAL_StatusTypeDef HAL_RTC_UnRegisterCallback(RTC_HandleTypeDef *hrtc, HAL_RTC_Ca
 /** @addtogroup RTC_Exported_Functions_Group2
   * @{
   */
-HAL_StatusTypeDef HAL_RTC_SetTime(RTC_HandleTypeDef *hrtc, RTC_TimeTypeDef *sTime, uint32_t Format);
-HAL_StatusTypeDef HAL_RTC_GetTime(RTC_HandleTypeDef *hrtc, RTC_TimeTypeDef *sTime, uint32_t Format);
-HAL_StatusTypeDef HAL_RTC_SetDate(RTC_HandleTypeDef *hrtc, RTC_DateTypeDef *sDate, uint32_t Format);
-HAL_StatusTypeDef HAL_RTC_GetDate(RTC_HandleTypeDef *hrtc, RTC_DateTypeDef *sDate, uint32_t Format);
+HAL_StatusTypeDef HAL_RTC_SetTime(RTC_HandleTypeDef *hrtc, RTC_TimeTypeDef *sTime, uint32 Format);
+HAL_StatusTypeDef HAL_RTC_GetTime(RTC_HandleTypeDef *hrtc, RTC_TimeTypeDef *sTime, uint32 Format);
+HAL_StatusTypeDef HAL_RTC_SetDate(RTC_HandleTypeDef *hrtc, RTC_DateTypeDef *sDate, uint32 Format);
+HAL_StatusTypeDef HAL_RTC_GetDate(RTC_HandleTypeDef *hrtc, RTC_DateTypeDef *sDate, uint32 Format);
 /**
   * @}
   */
@@ -557,12 +557,12 @@ HAL_StatusTypeDef HAL_RTC_GetDate(RTC_HandleTypeDef *hrtc, RTC_DateTypeDef *sDat
 /** @addtogroup RTC_Exported_Functions_Group3
   * @{
   */
-HAL_StatusTypeDef HAL_RTC_SetAlarm(RTC_HandleTypeDef *hrtc, RTC_AlarmTypeDef *sAlarm, uint32_t Format);
-HAL_StatusTypeDef HAL_RTC_SetAlarm_IT(RTC_HandleTypeDef *hrtc, RTC_AlarmTypeDef *sAlarm, uint32_t Format);
-HAL_StatusTypeDef HAL_RTC_DeactivateAlarm(RTC_HandleTypeDef *hrtc, uint32_t Alarm);
-HAL_StatusTypeDef HAL_RTC_GetAlarm(RTC_HandleTypeDef *hrtc, RTC_AlarmTypeDef *sAlarm, uint32_t Alarm, uint32_t Format);
+HAL_StatusTypeDef HAL_RTC_SetAlarm(RTC_HandleTypeDef *hrtc, RTC_AlarmTypeDef *sAlarm, uint32 Format);
+HAL_StatusTypeDef HAL_RTC_SetAlarm_IT(RTC_HandleTypeDef *hrtc, RTC_AlarmTypeDef *sAlarm, uint32 Format);
+HAL_StatusTypeDef HAL_RTC_DeactivateAlarm(RTC_HandleTypeDef *hrtc, uint32 Alarm);
+HAL_StatusTypeDef HAL_RTC_GetAlarm(RTC_HandleTypeDef *hrtc, RTC_AlarmTypeDef *sAlarm, uint32 Alarm, uint32 Format);
 void              HAL_RTC_AlarmIRQHandler(RTC_HandleTypeDef *hrtc);
-HAL_StatusTypeDef HAL_RTC_PollForAlarmAEvent(RTC_HandleTypeDef *hrtc, uint32_t Timeout);
+HAL_StatusTypeDef HAL_RTC_PollForAlarmAEvent(RTC_HandleTypeDef *hrtc, uint32 Timeout);
 void              HAL_RTC_AlarmAEventCallback(RTC_HandleTypeDef *hrtc);
 /**
   * @}

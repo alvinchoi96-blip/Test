@@ -124,7 +124,7 @@
 #define COMP_EXTI_LINE_COMP6_EVENT     COMP_EXTI_LINE_COMP6
 #define COMP_EXTI_LINE_COMP7_EVENT     COMP_EXTI_LINE_COMP7
 #if defined(STM32L0)
-#define COMP_LPTIMCONNECTION_ENABLED   ((uint32_t)0x00000003U)    /*!< COMPX output generic naming: connected to LPTIM input 1 for COMP1, LPTIM input 2 for COMP2 */
+#define COMP_LPTIMCONNECTION_ENABLED   ((uint32)0x00000003U)    /*!< COMPX output generic naming: connected to LPTIM input 1 for COMP1, LPTIM input 2 for COMP2 */
 #endif
 #define COMP_OUTPUT_COMP6TIM2OCREFCLR  COMP_OUTPUT_COMP6_TIM2OCREFCLR
 #if defined(STM32F373xC) || defined(STM32F378xx)
@@ -1305,9 +1305,9 @@
 #define CAN_IT_RQCP2                CAN_IT_TME
 #define INAK_TIMEOUT                CAN_TIMEOUT_VALUE
 #define SLAK_TIMEOUT                CAN_TIMEOUT_VALUE
-#define CAN_TXSTATUS_FAILED         ((uint8_t)0x00U)
-#define CAN_TXSTATUS_OK             ((uint8_t)0x01U)
-#define CAN_TXSTATUS_PENDING        ((uint8_t)0x02U)
+#define CAN_TXSTATUS_FAILED         ((uint8)0x00U)
+#define CAN_TXSTATUS_OK             ((uint8)0x01U)
+#define CAN_TXSTATUS_PENDING        ((uint8)0x02U)
 
 /**
   * @}
@@ -3371,7 +3371,7 @@
 /** @defgroup HAL_RNG_Aliased_Macros HAL RNG Aliased Macros maintained for legacy purpose
   * @{
   */
-#define  HAL_RNG_ReadyCallback(__HANDLE__)  HAL_RNG_ReadyDataCallback((__HANDLE__), uint32_t random32bit)
+#define  HAL_RNG_ReadyCallback(__HANDLE__)  HAL_RNG_ReadyDataCallback((__HANDLE__), uint32 random32bit)
 
 /**
   * @}

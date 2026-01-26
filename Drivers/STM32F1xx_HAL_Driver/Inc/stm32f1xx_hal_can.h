@@ -60,20 +60,20 @@ typedef enum
   */
 typedef struct
 {
-  uint32_t Prescaler;                  /*!< Specifies the length of a time quantum.
+  uint32 Prescaler;                  /*!< Specifies the length of a time quantum.
                                             This parameter must be a number between Min_Data = 1 and Max_Data = 1024. */
 
-  uint32_t Mode;                       /*!< Specifies the CAN operating mode.
+  uint32 Mode;                       /*!< Specifies the CAN operating mode.
                                             This parameter can be a value of @ref CAN_operating_mode */
 
-  uint32_t SyncJumpWidth;              /*!< Specifies the maximum number of time quanta the CAN hardware
+  uint32 SyncJumpWidth;              /*!< Specifies the maximum number of time quanta the CAN hardware
                                             is allowed to lengthen or shorten a bit to perform resynchronization.
                                             This parameter can be a value of @ref CAN_synchronisation_jump_width */
 
-  uint32_t TimeSeg1;                   /*!< Specifies the number of time quanta in Bit Segment 1.
+  uint32 TimeSeg1;                   /*!< Specifies the number of time quanta in Bit Segment 1.
                                             This parameter can be a value of @ref CAN_time_quantum_in_bit_segment_1 */
 
-  uint32_t TimeSeg2;                   /*!< Specifies the number of time quanta in Bit Segment 2.
+  uint32 TimeSeg2;                   /*!< Specifies the number of time quanta in Bit Segment 2.
                                             This parameter can be a value of @ref CAN_time_quantum_in_bit_segment_2 */
 
   FunctionalState TimeTriggeredMode;   /*!< Enable or disable the time triggered communication mode.
@@ -101,43 +101,43 @@ typedef struct
   */
 typedef struct
 {
-  uint32_t FilterIdHigh;          /*!< Specifies the filter identification number (MSBs for a 32-bit
+  uint32 FilterIdHigh;          /*!< Specifies the filter identification number (MSBs for a 32-bit
                                        configuration, first one for a 16-bit configuration).
                                        This parameter must be a number between Min_Data = 0x0000 and Max_Data = 0xFFFF. */
 
-  uint32_t FilterIdLow;           /*!< Specifies the filter identification number (LSBs for a 32-bit
+  uint32 FilterIdLow;           /*!< Specifies the filter identification number (LSBs for a 32-bit
                                        configuration, second one for a 16-bit configuration).
                                        This parameter must be a number between Min_Data = 0x0000 and Max_Data = 0xFFFF. */
 
-  uint32_t FilterMaskIdHigh;      /*!< Specifies the filter mask number or identification number,
+  uint32 FilterMaskIdHigh;      /*!< Specifies the filter mask number or identification number,
                                        according to the mode (MSBs for a 32-bit configuration,
                                        first one for a 16-bit configuration).
                                        This parameter must be a number between Min_Data = 0x0000 and Max_Data = 0xFFFF. */
 
-  uint32_t FilterMaskIdLow;       /*!< Specifies the filter mask number or identification number,
+  uint32 FilterMaskIdLow;       /*!< Specifies the filter mask number or identification number,
                                        according to the mode (LSBs for a 32-bit configuration,
                                        second one for a 16-bit configuration).
                                        This parameter must be a number between Min_Data = 0x0000 and Max_Data = 0xFFFF. */
 
-  uint32_t FilterFIFOAssignment;  /*!< Specifies the FIFO (0 or 1U) which will be assigned to the filter.
+  uint32 FilterFIFOAssignment;  /*!< Specifies the FIFO (0 or 1U) which will be assigned to the filter.
                                        This parameter can be a value of @ref CAN_filter_FIFO */
 
-  uint32_t FilterBank;            /*!< Specifies the filter bank which will be initialized.
+  uint32 FilterBank;            /*!< Specifies the filter bank which will be initialized.
                                        For single CAN instance(14 dedicated filter banks),
                                        this parameter must be a number between Min_Data = 0 and Max_Data = 13.
                                        For dual CAN instances(28 filter banks shared),
                                        this parameter must be a number between Min_Data = 0 and Max_Data = 27. */
 
-  uint32_t FilterMode;            /*!< Specifies the filter mode to be initialized.
+  uint32 FilterMode;            /*!< Specifies the filter mode to be initialized.
                                        This parameter can be a value of @ref CAN_filter_mode */
 
-  uint32_t FilterScale;           /*!< Specifies the filter scale.
+  uint32 FilterScale;           /*!< Specifies the filter scale.
                                        This parameter can be a value of @ref CAN_filter_scale */
 
-  uint32_t FilterActivation;      /*!< Enable or disable the filter.
+  uint32 FilterActivation;      /*!< Enable or disable the filter.
                                        This parameter can be a value of @ref CAN_filter_activation */
 
-  uint32_t SlaveStartFilterBank;  /*!< Select the start filter bank for the slave CAN instance.
+  uint32 SlaveStartFilterBank;  /*!< Select the start filter bank for the slave CAN instance.
                                        For single CAN instances, this parameter is meaningless.
                                        For dual CAN instances, all filter banks with lower index are assigned to master
                                        CAN instance, whereas all filter banks with greater index are assigned to slave
@@ -151,19 +151,19 @@ typedef struct
   */
 typedef struct
 {
-  uint32_t StdId;    /*!< Specifies the standard identifier.
+  uint32 StdId;    /*!< Specifies the standard identifier.
                           This parameter must be a number between Min_Data = 0 and Max_Data = 0x7FF. */
 
-  uint32_t ExtId;    /*!< Specifies the extended identifier.
+  uint32 ExtId;    /*!< Specifies the extended identifier.
                           This parameter must be a number between Min_Data = 0 and Max_Data = 0x1FFFFFFF. */
 
-  uint32_t IDE;      /*!< Specifies the type of identifier for the message that will be transmitted.
+  uint32 IDE;      /*!< Specifies the type of identifier for the message that will be transmitted.
                           This parameter can be a value of @ref CAN_identifier_type */
 
-  uint32_t RTR;      /*!< Specifies the type of frame for the message that will be transmitted.
+  uint32 RTR;      /*!< Specifies the type of frame for the message that will be transmitted.
                           This parameter can be a value of @ref CAN_remote_transmission_request */
 
-  uint32_t DLC;      /*!< Specifies the length of the frame that will be transmitted.
+  uint32 DLC;      /*!< Specifies the length of the frame that will be transmitted.
                           This parameter must be a number between Min_Data = 0 and Max_Data = 8. */
 
   FunctionalState TransmitGlobalTime; /*!< Specifies whether the timestamp counter value captured on start
@@ -179,26 +179,26 @@ typedef struct
   */
 typedef struct
 {
-  uint32_t StdId;    /*!< Specifies the standard identifier.
+  uint32 StdId;    /*!< Specifies the standard identifier.
                           This parameter must be a number between Min_Data = 0 and Max_Data = 0x7FF. */
 
-  uint32_t ExtId;    /*!< Specifies the extended identifier.
+  uint32 ExtId;    /*!< Specifies the extended identifier.
                           This parameter must be a number between Min_Data = 0 and Max_Data = 0x1FFFFFFF. */
 
-  uint32_t IDE;      /*!< Specifies the type of identifier for the message that will be transmitted.
+  uint32 IDE;      /*!< Specifies the type of identifier for the message that will be transmitted.
                           This parameter can be a value of @ref CAN_identifier_type */
 
-  uint32_t RTR;      /*!< Specifies the type of frame for the message that will be transmitted.
+  uint32 RTR;      /*!< Specifies the type of frame for the message that will be transmitted.
                           This parameter can be a value of @ref CAN_remote_transmission_request */
 
-  uint32_t DLC;      /*!< Specifies the length of the frame that will be transmitted.
+  uint32 DLC;      /*!< Specifies the length of the frame that will be transmitted.
                           This parameter must be a number between Min_Data = 0 and Max_Data = 8. */
 
-  uint32_t Timestamp; /*!< Specifies the timestamp counter value captured on start of frame reception.
+  uint32 Timestamp; /*!< Specifies the timestamp counter value captured on start of frame reception.
                           @note: Time Triggered Communication Mode must be enabled.
                           This parameter must be a number between Min_Data = 0 and Max_Data = 0xFFFF. */
 
-  uint32_t FilterMatchIndex; /*!< Specifies the index of matching acceptance filter element.
+  uint32 FilterMatchIndex; /*!< Specifies the index of matching acceptance filter element.
                           This parameter must be a number between Min_Data = 0 and Max_Data = 0xFF. */
 
 } CAN_RxHeaderTypeDef;
@@ -214,7 +214,7 @@ typedef struct __CAN_HandleTypeDef
 
   __IO HAL_CAN_StateTypeDef   State;                     /*!< CAN communication state */
 
-  __IO uint32_t               ErrorCode;                 /*!< CAN Error code.
+  __IO uint32               ErrorCode;                 /*!< CAN Error code.
                                                               This parameter can be a value of @ref CAN_Error_Code */
 
 #if USE_HAL_CAN_REGISTER_CALLBACKS == 1
@@ -328,9 +328,9 @@ typedef  void (*pCAN_CallbackTypeDef)(CAN_HandleTypeDef *hcan); /*!< pointer to 
   * @{
   */
 #define CAN_MODE_NORMAL             (0x00000000U)                              /*!< Normal mode   */
-#define CAN_MODE_LOOPBACK           ((uint32_t)CAN_BTR_LBKM)                   /*!< Loopback mode */
-#define CAN_MODE_SILENT             ((uint32_t)CAN_BTR_SILM)                   /*!< Silent mode   */
-#define CAN_MODE_SILENT_LOOPBACK    ((uint32_t)(CAN_BTR_LBKM | CAN_BTR_SILM))  /*!< Loopback combined with silent mode */
+#define CAN_MODE_LOOPBACK           ((uint32)CAN_BTR_LBKM)                   /*!< Loopback mode */
+#define CAN_MODE_SILENT             ((uint32)CAN_BTR_SILM)                   /*!< Silent mode   */
+#define CAN_MODE_SILENT_LOOPBACK    ((uint32)(CAN_BTR_LBKM | CAN_BTR_SILM))  /*!< Loopback combined with silent mode */
 /**
   * @}
   */
@@ -340,9 +340,9 @@ typedef  void (*pCAN_CallbackTypeDef)(CAN_HandleTypeDef *hcan); /*!< pointer to 
   * @{
   */
 #define CAN_SJW_1TQ                 (0x00000000U)              /*!< 1 time quantum */
-#define CAN_SJW_2TQ                 ((uint32_t)CAN_BTR_SJW_0)  /*!< 2 time quantum */
-#define CAN_SJW_3TQ                 ((uint32_t)CAN_BTR_SJW_1)  /*!< 3 time quantum */
-#define CAN_SJW_4TQ                 ((uint32_t)CAN_BTR_SJW)    /*!< 4 time quantum */
+#define CAN_SJW_2TQ                 ((uint32)CAN_BTR_SJW_0)  /*!< 2 time quantum */
+#define CAN_SJW_3TQ                 ((uint32)CAN_BTR_SJW_1)  /*!< 3 time quantum */
+#define CAN_SJW_4TQ                 ((uint32)CAN_BTR_SJW)    /*!< 4 time quantum */
 /**
   * @}
   */
@@ -351,21 +351,21 @@ typedef  void (*pCAN_CallbackTypeDef)(CAN_HandleTypeDef *hcan); /*!< pointer to 
   * @{
   */
 #define CAN_BS1_1TQ                 (0x00000000U)                                                /*!< 1 time quantum  */
-#define CAN_BS1_2TQ                 ((uint32_t)CAN_BTR_TS1_0)                                    /*!< 2 time quantum  */
-#define CAN_BS1_3TQ                 ((uint32_t)CAN_BTR_TS1_1)                                    /*!< 3 time quantum  */
-#define CAN_BS1_4TQ                 ((uint32_t)(CAN_BTR_TS1_1 | CAN_BTR_TS1_0))                  /*!< 4 time quantum  */
-#define CAN_BS1_5TQ                 ((uint32_t)CAN_BTR_TS1_2)                                    /*!< 5 time quantum  */
-#define CAN_BS1_6TQ                 ((uint32_t)(CAN_BTR_TS1_2 | CAN_BTR_TS1_0))                  /*!< 6 time quantum  */
-#define CAN_BS1_7TQ                 ((uint32_t)(CAN_BTR_TS1_2 | CAN_BTR_TS1_1))                  /*!< 7 time quantum  */
-#define CAN_BS1_8TQ                 ((uint32_t)(CAN_BTR_TS1_2 | CAN_BTR_TS1_1 | CAN_BTR_TS1_0))  /*!< 8 time quantum  */
-#define CAN_BS1_9TQ                 ((uint32_t)CAN_BTR_TS1_3)                                    /*!< 9 time quantum  */
-#define CAN_BS1_10TQ                ((uint32_t)(CAN_BTR_TS1_3 | CAN_BTR_TS1_0))                  /*!< 10 time quantum */
-#define CAN_BS1_11TQ                ((uint32_t)(CAN_BTR_TS1_3 | CAN_BTR_TS1_1))                  /*!< 11 time quantum */
-#define CAN_BS1_12TQ                ((uint32_t)(CAN_BTR_TS1_3 | CAN_BTR_TS1_1 | CAN_BTR_TS1_0))  /*!< 12 time quantum */
-#define CAN_BS1_13TQ                ((uint32_t)(CAN_BTR_TS1_3 | CAN_BTR_TS1_2))                  /*!< 13 time quantum */
-#define CAN_BS1_14TQ                ((uint32_t)(CAN_BTR_TS1_3 | CAN_BTR_TS1_2 | CAN_BTR_TS1_0))  /*!< 14 time quantum */
-#define CAN_BS1_15TQ                ((uint32_t)(CAN_BTR_TS1_3 | CAN_BTR_TS1_2 | CAN_BTR_TS1_1))  /*!< 15 time quantum */
-#define CAN_BS1_16TQ                ((uint32_t)CAN_BTR_TS1) /*!< 16 time quantum */
+#define CAN_BS1_2TQ                 ((uint32)CAN_BTR_TS1_0)                                    /*!< 2 time quantum  */
+#define CAN_BS1_3TQ                 ((uint32)CAN_BTR_TS1_1)                                    /*!< 3 time quantum  */
+#define CAN_BS1_4TQ                 ((uint32)(CAN_BTR_TS1_1 | CAN_BTR_TS1_0))                  /*!< 4 time quantum  */
+#define CAN_BS1_5TQ                 ((uint32)CAN_BTR_TS1_2)                                    /*!< 5 time quantum  */
+#define CAN_BS1_6TQ                 ((uint32)(CAN_BTR_TS1_2 | CAN_BTR_TS1_0))                  /*!< 6 time quantum  */
+#define CAN_BS1_7TQ                 ((uint32)(CAN_BTR_TS1_2 | CAN_BTR_TS1_1))                  /*!< 7 time quantum  */
+#define CAN_BS1_8TQ                 ((uint32)(CAN_BTR_TS1_2 | CAN_BTR_TS1_1 | CAN_BTR_TS1_0))  /*!< 8 time quantum  */
+#define CAN_BS1_9TQ                 ((uint32)CAN_BTR_TS1_3)                                    /*!< 9 time quantum  */
+#define CAN_BS1_10TQ                ((uint32)(CAN_BTR_TS1_3 | CAN_BTR_TS1_0))                  /*!< 10 time quantum */
+#define CAN_BS1_11TQ                ((uint32)(CAN_BTR_TS1_3 | CAN_BTR_TS1_1))                  /*!< 11 time quantum */
+#define CAN_BS1_12TQ                ((uint32)(CAN_BTR_TS1_3 | CAN_BTR_TS1_1 | CAN_BTR_TS1_0))  /*!< 12 time quantum */
+#define CAN_BS1_13TQ                ((uint32)(CAN_BTR_TS1_3 | CAN_BTR_TS1_2))                  /*!< 13 time quantum */
+#define CAN_BS1_14TQ                ((uint32)(CAN_BTR_TS1_3 | CAN_BTR_TS1_2 | CAN_BTR_TS1_0))  /*!< 14 time quantum */
+#define CAN_BS1_15TQ                ((uint32)(CAN_BTR_TS1_3 | CAN_BTR_TS1_2 | CAN_BTR_TS1_1))  /*!< 15 time quantum */
+#define CAN_BS1_16TQ                ((uint32)CAN_BTR_TS1) /*!< 16 time quantum */
 /**
   * @}
   */
@@ -374,13 +374,13 @@ typedef  void (*pCAN_CallbackTypeDef)(CAN_HandleTypeDef *hcan); /*!< pointer to 
   * @{
   */
 #define CAN_BS2_1TQ                 (0x00000000U)                                /*!< 1 time quantum */
-#define CAN_BS2_2TQ                 ((uint32_t)CAN_BTR_TS2_0)                    /*!< 2 time quantum */
-#define CAN_BS2_3TQ                 ((uint32_t)CAN_BTR_TS2_1)                    /*!< 3 time quantum */
-#define CAN_BS2_4TQ                 ((uint32_t)(CAN_BTR_TS2_1 | CAN_BTR_TS2_0))  /*!< 4 time quantum */
-#define CAN_BS2_5TQ                 ((uint32_t)CAN_BTR_TS2_2)                    /*!< 5 time quantum */
-#define CAN_BS2_6TQ                 ((uint32_t)(CAN_BTR_TS2_2 | CAN_BTR_TS2_0))  /*!< 6 time quantum */
-#define CAN_BS2_7TQ                 ((uint32_t)(CAN_BTR_TS2_2 | CAN_BTR_TS2_1))  /*!< 7 time quantum */
-#define CAN_BS2_8TQ                 ((uint32_t)CAN_BTR_TS2)                      /*!< 8 time quantum */
+#define CAN_BS2_2TQ                 ((uint32)CAN_BTR_TS2_0)                    /*!< 2 time quantum */
+#define CAN_BS2_3TQ                 ((uint32)CAN_BTR_TS2_1)                    /*!< 3 time quantum */
+#define CAN_BS2_4TQ                 ((uint32)(CAN_BTR_TS2_1 | CAN_BTR_TS2_0))  /*!< 4 time quantum */
+#define CAN_BS2_5TQ                 ((uint32)CAN_BTR_TS2_2)                    /*!< 5 time quantum */
+#define CAN_BS2_6TQ                 ((uint32)(CAN_BTR_TS2_2 | CAN_BTR_TS2_0))  /*!< 6 time quantum */
+#define CAN_BS2_7TQ                 ((uint32)(CAN_BTR_TS2_2 | CAN_BTR_TS2_1))  /*!< 7 time quantum */
+#define CAN_BS2_8TQ                 ((uint32)CAN_BTR_TS2)                      /*!< 8 time quantum */
 /**
   * @}
   */
@@ -507,26 +507,26 @@ typedef  void (*pCAN_CallbackTypeDef)(CAN_HandleTypeDef *hcan); /*!< pointer to 
   * @{
   */
 /* Transmit Interrupt */
-#define CAN_IT_TX_MAILBOX_EMPTY     ((uint32_t)CAN_IER_TMEIE)   /*!< Transmit mailbox empty interrupt */
+#define CAN_IT_TX_MAILBOX_EMPTY     ((uint32)CAN_IER_TMEIE)   /*!< Transmit mailbox empty interrupt */
 
 /* Receive Interrupts */
-#define CAN_IT_RX_FIFO0_MSG_PENDING ((uint32_t)CAN_IER_FMPIE0)  /*!< FIFO 0 message pending interrupt */
-#define CAN_IT_RX_FIFO0_FULL        ((uint32_t)CAN_IER_FFIE0)   /*!< FIFO 0 full interrupt            */
-#define CAN_IT_RX_FIFO0_OVERRUN     ((uint32_t)CAN_IER_FOVIE0)  /*!< FIFO 0 overrun interrupt         */
-#define CAN_IT_RX_FIFO1_MSG_PENDING ((uint32_t)CAN_IER_FMPIE1)  /*!< FIFO 1 message pending interrupt */
-#define CAN_IT_RX_FIFO1_FULL        ((uint32_t)CAN_IER_FFIE1)   /*!< FIFO 1 full interrupt            */
-#define CAN_IT_RX_FIFO1_OVERRUN     ((uint32_t)CAN_IER_FOVIE1)  /*!< FIFO 1 overrun interrupt         */
+#define CAN_IT_RX_FIFO0_MSG_PENDING ((uint32)CAN_IER_FMPIE0)  /*!< FIFO 0 message pending interrupt */
+#define CAN_IT_RX_FIFO0_FULL        ((uint32)CAN_IER_FFIE0)   /*!< FIFO 0 full interrupt            */
+#define CAN_IT_RX_FIFO0_OVERRUN     ((uint32)CAN_IER_FOVIE0)  /*!< FIFO 0 overrun interrupt         */
+#define CAN_IT_RX_FIFO1_MSG_PENDING ((uint32)CAN_IER_FMPIE1)  /*!< FIFO 1 message pending interrupt */
+#define CAN_IT_RX_FIFO1_FULL        ((uint32)CAN_IER_FFIE1)   /*!< FIFO 1 full interrupt            */
+#define CAN_IT_RX_FIFO1_OVERRUN     ((uint32)CAN_IER_FOVIE1)  /*!< FIFO 1 overrun interrupt         */
 
 /* Operating Mode Interrupts */
-#define CAN_IT_WAKEUP               ((uint32_t)CAN_IER_WKUIE)   /*!< Wake-up interrupt                */
-#define CAN_IT_SLEEP_ACK            ((uint32_t)CAN_IER_SLKIE)   /*!< Sleep acknowledge interrupt      */
+#define CAN_IT_WAKEUP               ((uint32)CAN_IER_WKUIE)   /*!< Wake-up interrupt                */
+#define CAN_IT_SLEEP_ACK            ((uint32)CAN_IER_SLKIE)   /*!< Sleep acknowledge interrupt      */
 
 /* Error Interrupts */
-#define CAN_IT_ERROR_WARNING        ((uint32_t)CAN_IER_EWGIE)   /*!< Error warning interrupt          */
-#define CAN_IT_ERROR_PASSIVE        ((uint32_t)CAN_IER_EPVIE)   /*!< Error passive interrupt          */
-#define CAN_IT_BUSOFF               ((uint32_t)CAN_IER_BOFIE)   /*!< Bus-off interrupt                */
-#define CAN_IT_LAST_ERROR_CODE      ((uint32_t)CAN_IER_LECIE)   /*!< Last error code interrupt        */
-#define CAN_IT_ERROR                ((uint32_t)CAN_IER_ERRIE)   /*!< Error Interrupt                  */
+#define CAN_IT_ERROR_WARNING        ((uint32)CAN_IER_EWGIE)   /*!< Error warning interrupt          */
+#define CAN_IT_ERROR_PASSIVE        ((uint32)CAN_IER_EPVIE)   /*!< Error passive interrupt          */
+#define CAN_IT_BUSOFF               ((uint32)CAN_IER_BOFIE)   /*!< Bus-off interrupt                */
+#define CAN_IT_LAST_ERROR_CODE      ((uint32)CAN_IER_LECIE)   /*!< Last error code interrupt        */
+#define CAN_IT_ERROR                ((uint32)CAN_IER_ERRIE)   /*!< Error Interrupt                  */
 /**
   * @}
   */
@@ -675,14 +675,14 @@ HAL_StatusTypeDef HAL_CAN_Start(CAN_HandleTypeDef *hcan);
 HAL_StatusTypeDef HAL_CAN_Stop(CAN_HandleTypeDef *hcan);
 HAL_StatusTypeDef HAL_CAN_RequestSleep(CAN_HandleTypeDef *hcan);
 HAL_StatusTypeDef HAL_CAN_WakeUp(CAN_HandleTypeDef *hcan);
-uint32_t HAL_CAN_IsSleepActive(CAN_HandleTypeDef *hcan);
-HAL_StatusTypeDef HAL_CAN_AddTxMessage(CAN_HandleTypeDef *hcan, CAN_TxHeaderTypeDef *pHeader, uint8_t aData[], uint32_t *pTxMailbox);
-HAL_StatusTypeDef HAL_CAN_AbortTxRequest(CAN_HandleTypeDef *hcan, uint32_t TxMailboxes);
-uint32_t HAL_CAN_GetTxMailboxesFreeLevel(CAN_HandleTypeDef *hcan);
-uint32_t HAL_CAN_IsTxMessagePending(CAN_HandleTypeDef *hcan, uint32_t TxMailboxes);
-uint32_t HAL_CAN_GetTxTimestamp(CAN_HandleTypeDef *hcan, uint32_t TxMailbox);
-HAL_StatusTypeDef HAL_CAN_GetRxMessage(CAN_HandleTypeDef *hcan, uint32_t RxFifo, CAN_RxHeaderTypeDef *pHeader, uint8_t aData[]);
-uint32_t HAL_CAN_GetRxFifoFillLevel(CAN_HandleTypeDef *hcan, uint32_t RxFifo);
+uint32 HAL_CAN_IsSleepActive(CAN_HandleTypeDef *hcan);
+HAL_StatusTypeDef HAL_CAN_AddTxMessage(CAN_HandleTypeDef *hcan, CAN_TxHeaderTypeDef *pHeader, uint8 aData[], uint32 *pTxMailbox);
+HAL_StatusTypeDef HAL_CAN_AbortTxRequest(CAN_HandleTypeDef *hcan, uint32 TxMailboxes);
+uint32 HAL_CAN_GetTxMailboxesFreeLevel(CAN_HandleTypeDef *hcan);
+uint32 HAL_CAN_IsTxMessagePending(CAN_HandleTypeDef *hcan, uint32 TxMailboxes);
+uint32 HAL_CAN_GetTxTimestamp(CAN_HandleTypeDef *hcan, uint32 TxMailbox);
+HAL_StatusTypeDef HAL_CAN_GetRxMessage(CAN_HandleTypeDef *hcan, uint32 RxFifo, CAN_RxHeaderTypeDef *pHeader, uint8 aData[]);
+uint32 HAL_CAN_GetRxFifoFillLevel(CAN_HandleTypeDef *hcan, uint32 RxFifo);
 
 /**
  * @}
@@ -693,8 +693,8 @@ uint32_t HAL_CAN_GetRxFifoFillLevel(CAN_HandleTypeDef *hcan, uint32_t RxFifo);
  * @{
  */
 /* Interrupts management ******************************************************/
-HAL_StatusTypeDef HAL_CAN_ActivateNotification(CAN_HandleTypeDef *hcan, uint32_t ActiveITs);
-HAL_StatusTypeDef HAL_CAN_DeactivateNotification(CAN_HandleTypeDef *hcan, uint32_t InactiveITs);
+HAL_StatusTypeDef HAL_CAN_ActivateNotification(CAN_HandleTypeDef *hcan, uint32 ActiveITs);
+HAL_StatusTypeDef HAL_CAN_DeactivateNotification(CAN_HandleTypeDef *hcan, uint32 InactiveITs);
 void HAL_CAN_IRQHandler(CAN_HandleTypeDef *hcan);
 
 /**
@@ -731,7 +731,7 @@ void HAL_CAN_ErrorCallback(CAN_HandleTypeDef *hcan);
  */
 /* Peripheral State and Error functions ***************************************/
 HAL_CAN_StateTypeDef HAL_CAN_GetState(CAN_HandleTypeDef *hcan);
-uint32_t HAL_CAN_GetError(CAN_HandleTypeDef *hcan);
+uint32 HAL_CAN_GetError(CAN_HandleTypeDef *hcan);
 HAL_StatusTypeDef HAL_CAN_ResetError(CAN_HandleTypeDef *hcan);
 
 /**

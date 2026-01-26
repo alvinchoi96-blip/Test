@@ -46,41 +46,41 @@ extern "C" {
   */
 typedef struct
 {
-  uint32_t Mode;                /*!< Specifies the SPI operating mode.
+  uint32 Mode;                /*!< Specifies the SPI operating mode.
                                      This parameter can be a value of @ref SPI_Mode */
 
-  uint32_t Direction;           /*!< Specifies the SPI bidirectional mode state.
+  uint32 Direction;           /*!< Specifies the SPI bidirectional mode state.
                                      This parameter can be a value of @ref SPI_Direction */
 
-  uint32_t DataSize;            /*!< Specifies the SPI data size.
+  uint32 DataSize;            /*!< Specifies the SPI data size.
                                      This parameter can be a value of @ref SPI_Data_Size */
 
-  uint32_t CLKPolarity;         /*!< Specifies the serial clock steady state.
+  uint32 CLKPolarity;         /*!< Specifies the serial clock steady state.
                                      This parameter can be a value of @ref SPI_Clock_Polarity */
 
-  uint32_t CLKPhase;            /*!< Specifies the clock active edge for the bit capture.
+  uint32 CLKPhase;            /*!< Specifies the clock active edge for the bit capture.
                                      This parameter can be a value of @ref SPI_Clock_Phase */
 
-  uint32_t NSS;                 /*!< Specifies whether the NSS signal is managed by
+  uint32 NSS;                 /*!< Specifies whether the NSS signal is managed by
                                      hardware (NSS pin) or by software using the SSI bit.
                                      This parameter can be a value of @ref SPI_Slave_Select_management */
 
-  uint32_t BaudRatePrescaler;   /*!< Specifies the Baud Rate prescaler value which will be
+  uint32 BaudRatePrescaler;   /*!< Specifies the Baud Rate prescaler value which will be
                                      used to configure the transmit and receive SCK clock.
                                      This parameter can be a value of @ref SPI_BaudRate_Prescaler
                                      @note The communication clock is derived from the master
                                      clock. The slave clock does not need to be set. */
 
-  uint32_t FirstBit;            /*!< Specifies whether data transfers start from MSB or LSB bit.
+  uint32 FirstBit;            /*!< Specifies whether data transfers start from MSB or LSB bit.
                                      This parameter can be a value of @ref SPI_MSB_LSB_transmission */
 
-  uint32_t TIMode;              /*!< Specifies if the TI mode is enabled or not.
+  uint32 TIMode;              /*!< Specifies if the TI mode is enabled or not.
                                      This parameter can be a value of @ref SPI_TI_mode */
 
-  uint32_t CRCCalculation;      /*!< Specifies if the CRC calculation is enabled or not.
+  uint32 CRCCalculation;      /*!< Specifies if the CRC calculation is enabled or not.
                                      This parameter can be a value of @ref SPI_CRC_Calculation */
 
-  uint32_t CRCPolynomial;       /*!< Specifies the polynomial used for the CRC calculation.
+  uint32 CRCPolynomial;       /*!< Specifies the polynomial used for the CRC calculation.
                                      This parameter must be an odd number between Min_Data = 1 and Max_Data = 65535 */
 } SPI_InitTypeDef;
 
@@ -108,17 +108,17 @@ typedef struct __SPI_HandleTypeDef
 
   SPI_InitTypeDef            Init;           /*!< SPI communication parameters             */
 
-  uint8_t                    *pTxBuffPtr;    /*!< Pointer to SPI Tx transfer Buffer        */
+  uint8                    *pTxBuffPtr;    /*!< Pointer to SPI Tx transfer Buffer        */
 
-  uint16_t                   TxXferSize;     /*!< SPI Tx Transfer size                     */
+  uint16                   TxXferSize;     /*!< SPI Tx Transfer size                     */
 
-  __IO uint16_t              TxXferCount;    /*!< SPI Tx Transfer Counter                  */
+  __IO uint16              TxXferCount;    /*!< SPI Tx Transfer Counter                  */
 
-  uint8_t                    *pRxBuffPtr;    /*!< Pointer to SPI Rx transfer Buffer        */
+  uint8                    *pRxBuffPtr;    /*!< Pointer to SPI Rx transfer Buffer        */
 
-  uint16_t                   RxXferSize;     /*!< SPI Rx Transfer size                     */
+  uint16                   RxXferSize;     /*!< SPI Rx Transfer size                     */
 
-  __IO uint16_t              RxXferCount;    /*!< SPI Rx Transfer Counter                  */
+  __IO uint16              RxXferCount;    /*!< SPI Rx Transfer Counter                  */
 
   void (*RxISR)(struct __SPI_HandleTypeDef *hspi);   /*!< function pointer on Rx ISR       */
 
@@ -132,7 +132,7 @@ typedef struct __SPI_HandleTypeDef
 
   __IO HAL_SPI_StateTypeDef  State;          /*!< SPI communication state                  */
 
-  __IO uint32_t              ErrorCode;      /*!< SPI Error code                           */
+  __IO uint32              ErrorCode;      /*!< SPI Error code                           */
 
 #if (USE_HAL_SPI_REGISTER_CALLBACKS == 1U)
   void (* TxCpltCallback)(struct __SPI_HandleTypeDef *hspi);             /*!< SPI Tx Completed callback          */
@@ -403,7 +403,7 @@ typedef  void (*pSPI_CallbackTypeDef)(SPI_HandleTypeDef *hspi); /*!< pointer to 
   *         This parameter can be SPI where x: 1, 2, or 3 to select the SPI peripheral.
   * @retval None
   */
-#define __HAL_SPI_CLEAR_CRCERRFLAG(__HANDLE__) ((__HANDLE__)->Instance->SR = (uint16_t)(~SPI_FLAG_CRCERR))
+#define __HAL_SPI_CLEAR_CRCERRFLAG(__HANDLE__) ((__HANDLE__)->Instance->SR = (uint16)(~SPI_FLAG_CRCERR))
 
 /** @brief  Clear the SPI MODF pending flag.
   * @param  __HANDLE__ specifies the SPI Handle.
@@ -412,7 +412,7 @@ typedef  void (*pSPI_CallbackTypeDef)(SPI_HandleTypeDef *hspi); /*!< pointer to 
   */
 #define __HAL_SPI_CLEAR_MODFFLAG(__HANDLE__)             \
   do{                                                    \
-    __IO uint32_t tmpreg_modf = 0x00U;                   \
+    __IO uint32 tmpreg_modf = 0x00U;                   \
     tmpreg_modf = (__HANDLE__)->Instance->SR;            \
     CLEAR_BIT((__HANDLE__)->Instance->CR1, SPI_CR1_SPE); \
     UNUSED(tmpreg_modf);                                 \
@@ -425,7 +425,7 @@ typedef  void (*pSPI_CallbackTypeDef)(SPI_HandleTypeDef *hspi); /*!< pointer to 
   */
 #define __HAL_SPI_CLEAR_OVRFLAG(__HANDLE__)        \
   do{                                              \
-    __IO uint32_t tmpreg_ovr = 0x00U;              \
+    __IO uint32 tmpreg_ovr = 0x00U;              \
     tmpreg_ovr = (__HANDLE__)->Instance->DR;       \
     tmpreg_ovr = (__HANDLE__)->Instance->SR;       \
     UNUSED(tmpreg_ovr);                            \
@@ -636,7 +636,7 @@ typedef  void (*pSPI_CallbackTypeDef)(SPI_HandleTypeDef *hspi); /*!< pointer to 
 /** @defgroup SPI_Private_Functions SPI Private Functions
   * @{
   */
-uint8_t SPI_ISCRCErrorValid(SPI_HandleTypeDef *hspi);
+uint8 SPI_ISCRCErrorValid(SPI_HandleTypeDef *hspi);
 /**
   * @}
   */
@@ -668,18 +668,18 @@ HAL_StatusTypeDef HAL_SPI_UnRegisterCallback(SPI_HandleTypeDef *hspi, HAL_SPI_Ca
   * @{
   */
 /* I/O operation functions  ***************************************************/
-HAL_StatusTypeDef HAL_SPI_Transmit(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size, uint32_t Timeout);
-HAL_StatusTypeDef HAL_SPI_Receive(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size, uint32_t Timeout);
-HAL_StatusTypeDef HAL_SPI_TransmitReceive(SPI_HandleTypeDef *hspi, uint8_t *pTxData, uint8_t *pRxData, uint16_t Size,
-                                          uint32_t Timeout);
-HAL_StatusTypeDef HAL_SPI_Transmit_IT(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size);
-HAL_StatusTypeDef HAL_SPI_Receive_IT(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size);
-HAL_StatusTypeDef HAL_SPI_TransmitReceive_IT(SPI_HandleTypeDef *hspi, uint8_t *pTxData, uint8_t *pRxData,
-                                             uint16_t Size);
-HAL_StatusTypeDef HAL_SPI_Transmit_DMA(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size);
-HAL_StatusTypeDef HAL_SPI_Receive_DMA(SPI_HandleTypeDef *hspi, uint8_t *pData, uint16_t Size);
-HAL_StatusTypeDef HAL_SPI_TransmitReceive_DMA(SPI_HandleTypeDef *hspi, uint8_t *pTxData, uint8_t *pRxData,
-                                              uint16_t Size);
+HAL_StatusTypeDef HAL_SPI_Transmit(SPI_HandleTypeDef *hspi, uint8 *pData, uint16 Size, uint32 Timeout);
+HAL_StatusTypeDef HAL_SPI_Receive(SPI_HandleTypeDef *hspi, uint8 *pData, uint16 Size, uint32 Timeout);
+HAL_StatusTypeDef HAL_SPI_TransmitReceive(SPI_HandleTypeDef *hspi, uint8 *pTxData, uint8 *pRxData, uint16 Size,
+                                          uint32 Timeout);
+HAL_StatusTypeDef HAL_SPI_Transmit_IT(SPI_HandleTypeDef *hspi, uint8 *pData, uint16 Size);
+HAL_StatusTypeDef HAL_SPI_Receive_IT(SPI_HandleTypeDef *hspi, uint8 *pData, uint16 Size);
+HAL_StatusTypeDef HAL_SPI_TransmitReceive_IT(SPI_HandleTypeDef *hspi, uint8 *pTxData, uint8 *pRxData,
+                                             uint16 Size);
+HAL_StatusTypeDef HAL_SPI_Transmit_DMA(SPI_HandleTypeDef *hspi, uint8 *pData, uint16 Size);
+HAL_StatusTypeDef HAL_SPI_Receive_DMA(SPI_HandleTypeDef *hspi, uint8 *pData, uint16 Size);
+HAL_StatusTypeDef HAL_SPI_TransmitReceive_DMA(SPI_HandleTypeDef *hspi, uint8 *pTxData, uint8 *pRxData,
+                                              uint16 Size);
 HAL_StatusTypeDef HAL_SPI_DMAPause(SPI_HandleTypeDef *hspi);
 HAL_StatusTypeDef HAL_SPI_DMAResume(SPI_HandleTypeDef *hspi);
 HAL_StatusTypeDef HAL_SPI_DMAStop(SPI_HandleTypeDef *hspi);
@@ -705,7 +705,7 @@ void HAL_SPI_AbortCpltCallback(SPI_HandleTypeDef *hspi);
   */
 /* Peripheral State and Error functions ***************************************/
 HAL_SPI_StateTypeDef HAL_SPI_GetState(SPI_HandleTypeDef *hspi);
-uint32_t             HAL_SPI_GetError(SPI_HandleTypeDef *hspi);
+uint32             HAL_SPI_GetError(SPI_HandleTypeDef *hspi);
 /**
   * @}
   */

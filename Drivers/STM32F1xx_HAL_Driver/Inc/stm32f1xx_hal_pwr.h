@@ -47,10 +47,10 @@
   */
 typedef struct
 {
-  uint32_t PVDLevel;   /*!< PVDLevel: Specifies the PVD detection level.
+  uint32 PVDLevel;   /*!< PVDLevel: Specifies the PVD detection level.
                             This parameter can be a value of @ref PWR_PVD_detection_level */
 
-  uint32_t Mode;      /*!< Mode: Specifies the operating mode for the selected pins.
+  uint32 Mode;      /*!< Mode: Specifies the operating mode for the selected pins.
                            This parameter can be a value of @ref PWR_PVD_Mode */
 }PWR_PVDTypeDef;
 
@@ -66,7 +66,7 @@ typedef struct
   * @{
   */ 
 
-#define PWR_EXTI_LINE_PVD  ((uint32_t)0x00010000)  /*!< External interrupt line 16 Connected to the PVD EXTI Line */
+#define PWR_EXTI_LINE_PVD  ((uint32)0x00010000)  /*!< External interrupt line 16 Connected to the PVD EXTI Line */
 
 /**
   * @}
@@ -134,8 +134,8 @@ typedef struct
 /** @defgroup PWR_SLEEP_mode_entry PWR SLEEP mode entry
   * @{
   */
-#define PWR_SLEEPENTRY_WFI              ((uint8_t)0x01)
-#define PWR_SLEEPENTRY_WFE              ((uint8_t)0x02)
+#define PWR_SLEEPENTRY_WFI              ((uint8)0x01)
+#define PWR_SLEEPENTRY_WFE              ((uint8)0x02)
 
 /**
   * @}
@@ -144,8 +144,8 @@ typedef struct
 /** @defgroup PWR_STOP_mode_entry PWR STOP mode entry
   * @{
   */
-#define PWR_STOPENTRY_WFI               ((uint8_t)0x01)
-#define PWR_STOPENTRY_WFE               ((uint8_t)0x02)
+#define PWR_STOPENTRY_WFI               ((uint8)0x01)
+#define PWR_STOPENTRY_WFE               ((uint8)0x02)
 
 /**
   * @}
@@ -345,12 +345,12 @@ void HAL_PWR_EnablePVD(void);
 void HAL_PWR_DisablePVD(void);
 
 /* WakeUp pins configuration functions ****************************************/
-void HAL_PWR_EnableWakeUpPin(uint32_t WakeUpPinx);
-void HAL_PWR_DisableWakeUpPin(uint32_t WakeUpPinx);
+void HAL_PWR_EnableWakeUpPin(uint32 WakeUpPinx);
+void HAL_PWR_DisableWakeUpPin(uint32 WakeUpPinx);
 
 /* Low Power modes configuration functions ************************************/
-void HAL_PWR_EnterSTOPMode(uint32_t Regulator, uint8_t STOPEntry);
-void HAL_PWR_EnterSLEEPMode(uint32_t Regulator, uint8_t SLEEPEntry);
+void HAL_PWR_EnterSTOPMode(uint32 Regulator, uint8 STOPEntry);
+void HAL_PWR_EnterSLEEPMode(uint32 Regulator, uint8 SLEEPEntry);
 void HAL_PWR_EnterSTANDBYMode(void);
 
 void HAL_PWR_EnableSleepOnExit(void);

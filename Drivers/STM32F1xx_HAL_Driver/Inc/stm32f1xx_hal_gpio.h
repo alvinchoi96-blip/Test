@@ -46,16 +46,16 @@ extern "C" {
   */
 typedef struct
 {
-  uint32_t Pin;       /*!< Specifies the GPIO pins to be configured.
+  uint32 Pin;       /*!< Specifies the GPIO pins to be configured.
                            This parameter can be any value of @ref GPIO_pins_define */
 
-  uint32_t Mode;      /*!< Specifies the operating mode for the selected pins.
+  uint32 Mode;      /*!< Specifies the operating mode for the selected pins.
                            This parameter can be a value of @ref GPIO_mode_define */
 
-  uint32_t Pull;      /*!< Specifies the Pull-up or Pull-Down activation for the selected pins.
+  uint32 Pull;      /*!< Specifies the Pull-up or Pull-Down activation for the selected pins.
                            This parameter can be a value of @ref GPIO_pull_define */
 
-  uint32_t Speed;     /*!< Specifies the speed for the selected pins.
+  uint32 Speed;     /*!< Specifies the speed for the selected pins.
                            This parameter can be a value of @ref GPIO_speed_define */
 } GPIO_InitTypeDef;
 
@@ -80,23 +80,23 @@ typedef enum
 /** @defgroup GPIO_pins_define GPIO pins define
   * @{
   */
-#define GPIO_PIN_0                 ((uint16_t)0x0001)  /* Pin 0 selected    */
-#define GPIO_PIN_1                 ((uint16_t)0x0002)  /* Pin 1 selected    */
-#define GPIO_PIN_2                 ((uint16_t)0x0004)  /* Pin 2 selected    */
-#define GPIO_PIN_3                 ((uint16_t)0x0008)  /* Pin 3 selected    */
-#define GPIO_PIN_4                 ((uint16_t)0x0010)  /* Pin 4 selected    */
-#define GPIO_PIN_5                 ((uint16_t)0x0020)  /* Pin 5 selected    */
-#define GPIO_PIN_6                 ((uint16_t)0x0040)  /* Pin 6 selected    */
-#define GPIO_PIN_7                 ((uint16_t)0x0080)  /* Pin 7 selected    */
-#define GPIO_PIN_8                 ((uint16_t)0x0100)  /* Pin 8 selected    */
-#define GPIO_PIN_9                 ((uint16_t)0x0200)  /* Pin 9 selected    */
-#define GPIO_PIN_10                ((uint16_t)0x0400)  /* Pin 10 selected   */
-#define GPIO_PIN_11                ((uint16_t)0x0800)  /* Pin 11 selected   */
-#define GPIO_PIN_12                ((uint16_t)0x1000)  /* Pin 12 selected   */
-#define GPIO_PIN_13                ((uint16_t)0x2000)  /* Pin 13 selected   */
-#define GPIO_PIN_14                ((uint16_t)0x4000)  /* Pin 14 selected   */
-#define GPIO_PIN_15                ((uint16_t)0x8000)  /* Pin 15 selected   */
-#define GPIO_PIN_All               ((uint16_t)0xFFFF)  /* All pins selected */
+#define GPIO_PIN_0                 ((uint16)0x0001)  /* Pin 0 selected    */
+#define GPIO_PIN_1                 ((uint16)0x0002)  /* Pin 1 selected    */
+#define GPIO_PIN_2                 ((uint16)0x0004)  /* Pin 2 selected    */
+#define GPIO_PIN_3                 ((uint16)0x0008)  /* Pin 3 selected    */
+#define GPIO_PIN_4                 ((uint16)0x0010)  /* Pin 4 selected    */
+#define GPIO_PIN_5                 ((uint16)0x0020)  /* Pin 5 selected    */
+#define GPIO_PIN_6                 ((uint16)0x0040)  /* Pin 6 selected    */
+#define GPIO_PIN_7                 ((uint16)0x0080)  /* Pin 7 selected    */
+#define GPIO_PIN_8                 ((uint16)0x0100)  /* Pin 8 selected    */
+#define GPIO_PIN_9                 ((uint16)0x0200)  /* Pin 9 selected    */
+#define GPIO_PIN_10                ((uint16)0x0400)  /* Pin 10 selected   */
+#define GPIO_PIN_11                ((uint16)0x0800)  /* Pin 11 selected   */
+#define GPIO_PIN_12                ((uint16)0x1000)  /* Pin 12 selected   */
+#define GPIO_PIN_13                ((uint16)0x2000)  /* Pin 13 selected   */
+#define GPIO_PIN_14                ((uint16)0x4000)  /* Pin 14 selected   */
+#define GPIO_PIN_15                ((uint16)0x8000)  /* Pin 15 selected   */
+#define GPIO_PIN_All               ((uint16)0xFFFF)  /* All pins selected */
 
 #define GPIO_PIN_MASK              0x0000FFFFu /* PIN mask for assert test */
 /**
@@ -222,7 +222,7 @@ typedef enum
   */
 /* Initialization and de-initialization functions *****************************/
 void  HAL_GPIO_Init(GPIO_TypeDef  *GPIOx, GPIO_InitTypeDef *GPIO_Init);
-void  HAL_GPIO_DeInit(GPIO_TypeDef  *GPIOx, uint32_t GPIO_Pin);
+void  HAL_GPIO_DeInit(GPIO_TypeDef  *GPIOx, uint32 GPIO_Pin);
 /**
   * @}
   */
@@ -231,12 +231,12 @@ void  HAL_GPIO_DeInit(GPIO_TypeDef  *GPIOx, uint32_t GPIO_Pin);
   * @{
   */
 /* IO operation functions *****************************************************/
-GPIO_PinState HAL_GPIO_ReadPin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin);
-void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
-void HAL_GPIO_TogglePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin);
-HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin);
-void HAL_GPIO_EXTI_IRQHandler(uint16_t GPIO_Pin);
-void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin);
+GPIO_PinState HAL_GPIO_ReadPin(GPIO_TypeDef *GPIOx, uint16 GPIO_Pin);
+void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16 GPIO_Pin, GPIO_PinState PinState);
+void HAL_GPIO_TogglePin(GPIO_TypeDef *GPIOx, uint16 GPIO_Pin);
+HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef *GPIOx, uint16 GPIO_Pin);
+void HAL_GPIO_EXTI_IRQHandler(uint16 GPIO_Pin);
+void HAL_GPIO_EXTI_Callback(uint16 GPIO_Pin);
 
 /**
   * @}
@@ -261,7 +261,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin);
   * @{
   */
 #define IS_GPIO_PIN_ACTION(ACTION) (((ACTION) == GPIO_PIN_RESET) || ((ACTION) == GPIO_PIN_SET))
-#define IS_GPIO_PIN(PIN)           (((((uint32_t)PIN) & GPIO_PIN_MASK ) != 0x00u) && ((((uint32_t)PIN) & ~GPIO_PIN_MASK) == 0x00u))
+#define IS_GPIO_PIN(PIN)           (((((uint32)PIN) & GPIO_PIN_MASK ) != 0x00u) && ((((uint32)PIN) & ~GPIO_PIN_MASK) == 0x00u))
 #define IS_GPIO_MODE(MODE) (((MODE) == GPIO_MODE_INPUT)              ||\
                             ((MODE) == GPIO_MODE_OUTPUT_PP)          ||\
                             ((MODE) == GPIO_MODE_OUTPUT_OD)          ||\

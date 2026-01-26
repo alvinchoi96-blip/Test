@@ -172,7 +172,7 @@ HAL_StatusTypeDef HAL_RTCEx_SetTamper_IT(RTC_HandleTypeDef *hrtc, RTC_TamperType
   *          This parameter can be a value of @ref RTCEx_Tamper_Pins_Definitions
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_RTCEx_DeactivateTamper(RTC_HandleTypeDef *hrtc, uint32_t Tamper)
+HAL_StatusTypeDef HAL_RTCEx_DeactivateTamper(RTC_HandleTypeDef *hrtc, uint32 Tamper)
 {
   /* Check input parameters */
   if (hrtc == NULL)
@@ -220,7 +220,7 @@ void HAL_RTCEx_TamperIRQHandler(RTC_HandleTypeDef *hrtc)
   if (__HAL_RTC_TAMPER_GET_IT_SOURCE(hrtc, RTC_IT_TAMP1))
   {
     /* Get the TAMPER Interrupt enable bit and pending bit */
-    if (__HAL_RTC_TAMPER_GET_FLAG(hrtc, RTC_FLAG_TAMP1F) != (uint32_t)RESET)
+    if (__HAL_RTC_TAMPER_GET_FLAG(hrtc, RTC_FLAG_TAMP1F) != (uint32)RESET)
     {
       /* Tamper callback */
 #if (USE_HAL_RTC_REGISTER_CALLBACKS == 1)
@@ -260,9 +260,9 @@ __weak void HAL_RTCEx_Tamper1EventCallback(RTC_HandleTypeDef *hrtc)
   * @param  Timeout: Timeout duration
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_RTCEx_PollForTamper1Event(RTC_HandleTypeDef *hrtc, uint32_t Timeout)
+HAL_StatusTypeDef HAL_RTCEx_PollForTamper1Event(RTC_HandleTypeDef *hrtc, uint32 Timeout)
 {
-  uint32_t tickstart = HAL_GetTick();
+  uint32 tickstart = HAL_GetTick();
 
   /* Check input parameters */
   if (hrtc == NULL)
@@ -471,9 +471,9 @@ __weak void HAL_RTCEx_RTCEventErrorCallback(RTC_HandleTypeDef *hrtc)
   * @param  Data: Data to be written in the specified RTC Backup data register.
   * @retval None
   */
-void HAL_RTCEx_BKUPWrite(RTC_HandleTypeDef *hrtc, uint32_t BackupRegister, uint32_t Data)
+void HAL_RTCEx_BKUPWrite(RTC_HandleTypeDef *hrtc, uint32 BackupRegister, uint32 Data)
 {
-  uint32_t tmp = 0U;
+  uint32 tmp = 0U;
 
   /* Prevent unused argument(s) compilation warning */
   UNUSED(hrtc);
@@ -481,10 +481,10 @@ void HAL_RTCEx_BKUPWrite(RTC_HandleTypeDef *hrtc, uint32_t BackupRegister, uint3
   /* Check the parameters */
   assert_param(IS_RTC_BKP(BackupRegister));
 
-  tmp = (uint32_t)BKP_BASE;
+  tmp = (uint32)BKP_BASE;
   tmp += (BackupRegister * 4U);
 
-  *(__IO uint32_t *) tmp = (Data & BKP_DR1_D);
+  *(__IO uint32 *) tmp = (Data & BKP_DR1_D);
 }
 
 /**
@@ -496,10 +496,10 @@ void HAL_RTCEx_BKUPWrite(RTC_HandleTypeDef *hrtc, uint32_t BackupRegister, uint3
   *                                 specify the register (depending devices).
   * @retval Read value
   */
-uint32_t HAL_RTCEx_BKUPRead(RTC_HandleTypeDef *hrtc, uint32_t BackupRegister)
+uint32 HAL_RTCEx_BKUPRead(RTC_HandleTypeDef *hrtc, uint32 BackupRegister)
 {
-  uint32_t backupregister = 0U;
-  uint32_t pvalue = 0U;
+  uint32 backupregister = 0U;
+  uint32 pvalue = 0U;
 
   /* Prevent unused argument(s) compilation warning */
   UNUSED(hrtc);
@@ -507,10 +507,10 @@ uint32_t HAL_RTCEx_BKUPRead(RTC_HandleTypeDef *hrtc, uint32_t BackupRegister)
   /* Check the parameters */
   assert_param(IS_RTC_BKP(BackupRegister));
 
-  backupregister = (uint32_t)BKP_BASE;
+  backupregister = (uint32)BKP_BASE;
   backupregister += (BackupRegister * 4U);
 
-  pvalue = (*(__IO uint32_t *)(backupregister)) & BKP_DR1_D;
+  pvalue = (*(__IO uint32 *)(backupregister)) & BKP_DR1_D;
 
   /* Read the specified register */
   return pvalue;
@@ -526,7 +526,7 @@ uint32_t HAL_RTCEx_BKUPRead(RTC_HandleTypeDef *hrtc, uint32_t BackupRegister)
   *          This parameter must be a number between 0 and 0x7F.
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_RTCEx_SetSmoothCalib(RTC_HandleTypeDef *hrtc, uint32_t SmoothCalibPeriod, uint32_t SmoothCalibPlusPulses, uint32_t SmouthCalibMinusPulsesValue)
+HAL_StatusTypeDef HAL_RTCEx_SetSmoothCalib(RTC_HandleTypeDef *hrtc, uint32 SmoothCalibPeriod, uint32 SmoothCalibPlusPulses, uint32 SmouthCalibMinusPulsesValue)
 {
   /* Check input parameters */
   if (hrtc == NULL)

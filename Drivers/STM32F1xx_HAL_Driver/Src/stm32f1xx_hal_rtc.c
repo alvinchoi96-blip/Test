@@ -201,7 +201,7 @@
 /** @defgroup RTC_Private_Constants RTC Private Constants
   * @{
   */
-#define RTC_ALARM_RESETVALUE_REGISTER    (uint16_t)0xFFFF
+#define RTC_ALARM_RESETVALUE_REGISTER    (uint16)0xFFFF
 #define RTC_ALARM_RESETVALUE             0xFFFFFFFFU
 
 /**
@@ -221,17 +221,17 @@
 /** @defgroup RTC_Private_Functions RTC Private Functions
   * @{
   */
-static uint32_t           RTC_ReadTimeCounter(RTC_HandleTypeDef *hrtc);
-static HAL_StatusTypeDef  RTC_WriteTimeCounter(RTC_HandleTypeDef *hrtc, uint32_t TimeCounter);
-static uint32_t           RTC_ReadAlarmCounter(RTC_HandleTypeDef *hrtc);
-static HAL_StatusTypeDef  RTC_WriteAlarmCounter(RTC_HandleTypeDef *hrtc, uint32_t AlarmCounter);
+static uint32           RTC_ReadTimeCounter(RTC_HandleTypeDef *hrtc);
+static HAL_StatusTypeDef  RTC_WriteTimeCounter(RTC_HandleTypeDef *hrtc, uint32 TimeCounter);
+static uint32           RTC_ReadAlarmCounter(RTC_HandleTypeDef *hrtc);
+static HAL_StatusTypeDef  RTC_WriteAlarmCounter(RTC_HandleTypeDef *hrtc, uint32 AlarmCounter);
 static HAL_StatusTypeDef  RTC_EnterInitMode(RTC_HandleTypeDef *hrtc);
 static HAL_StatusTypeDef  RTC_ExitInitMode(RTC_HandleTypeDef *hrtc);
-static uint8_t            RTC_ByteToBcd2(uint8_t Value);
-static uint8_t            RTC_Bcd2ToByte(uint8_t Value);
-static uint8_t            RTC_IsLeapYear(uint16_t nYear);
-static void               RTC_DateUpdate(RTC_HandleTypeDef *hrtc, uint32_t DayElapsed);
-static uint8_t            RTC_WeekDayNum(uint32_t nYear, uint8_t nMonth, uint8_t nDay);
+static uint8            RTC_ByteToBcd2(uint8 Value);
+static uint8            RTC_Bcd2ToByte(uint8 Value);
+static uint8            RTC_IsLeapYear(uint16 nYear);
+static void               RTC_DateUpdate(RTC_HandleTypeDef *hrtc, uint32 DayElapsed);
+static uint8            RTC_WeekDayNum(uint32 nYear, uint8 nMonth, uint8 nDay);
 
 /**
   * @}
@@ -274,7 +274,7 @@ static uint8_t            RTC_WeekDayNum(uint32_t nYear, uint8_t nMonth, uint8_t
   */
 HAL_StatusTypeDef HAL_RTC_Init(RTC_HandleTypeDef *hrtc)
 {
-  uint32_t prescaler = 0U;
+  uint32 prescaler = 0U;
   /* Check input parameters */
   if (hrtc == NULL)
   {
@@ -700,9 +700,9 @@ __weak void HAL_RTC_MspDeInit(RTC_HandleTypeDef *hrtc)
   *            @arg RTC_FORMAT_BCD: BCD data format
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_RTC_SetTime(RTC_HandleTypeDef *hrtc, RTC_TimeTypeDef *sTime, uint32_t Format)
+HAL_StatusTypeDef HAL_RTC_SetTime(RTC_HandleTypeDef *hrtc, RTC_TimeTypeDef *sTime, uint32 Format)
 {
-  uint32_t counter_time = 0U, counter_alarm = 0U;
+  uint32 counter_time = 0U, counter_alarm = 0U;
 
   /* Check input parameters */
   if ((hrtc == NULL) || (sTime == NULL))
@@ -724,9 +724,9 @@ HAL_StatusTypeDef HAL_RTC_SetTime(RTC_HandleTypeDef *hrtc, RTC_TimeTypeDef *sTim
     assert_param(IS_RTC_MINUTES(sTime->Minutes));
     assert_param(IS_RTC_SECONDS(sTime->Seconds));
 
-    counter_time = (uint32_t)(((uint32_t)sTime->Hours * 3600U) + \
-                              ((uint32_t)sTime->Minutes * 60U) + \
-                              ((uint32_t)sTime->Seconds));
+    counter_time = (uint32)(((uint32)sTime->Hours * 3600U) + \
+                              ((uint32)sTime->Minutes * 60U) + \
+                              ((uint32)sTime->Seconds));
   }
   else
   {
@@ -734,9 +734,9 @@ HAL_StatusTypeDef HAL_RTC_SetTime(RTC_HandleTypeDef *hrtc, RTC_TimeTypeDef *sTim
     assert_param(IS_RTC_MINUTES(RTC_Bcd2ToByte(sTime->Minutes)));
     assert_param(IS_RTC_SECONDS(RTC_Bcd2ToByte(sTime->Seconds)));
 
-    counter_time = (((uint32_t)(RTC_Bcd2ToByte(sTime->Hours)) * 3600U) + \
-                    ((uint32_t)(RTC_Bcd2ToByte(sTime->Minutes)) * 60U) + \
-                    ((uint32_t)(RTC_Bcd2ToByte(sTime->Seconds))));
+    counter_time = (((uint32)(RTC_Bcd2ToByte(sTime->Hours)) * 3600U) + \
+                    ((uint32)(RTC_Bcd2ToByte(sTime->Minutes)) * 60U) + \
+                    ((uint32)(RTC_Bcd2ToByte(sTime->Seconds))));
   }
 
   /* Write time counter in RTC registers */
@@ -764,7 +764,7 @@ HAL_StatusTypeDef HAL_RTC_SetTime(RTC_HandleTypeDef *hrtc, RTC_TimeTypeDef *sTim
       if (counter_alarm < counter_time)
       {
         /* Add 1 day to alarm counter*/
-        counter_alarm += (uint32_t)(24U * 3600U);
+        counter_alarm += (uint32)(24U * 3600U);
 
         /* Write new Alarm counter in RTC registers */
         if (RTC_WriteAlarmCounter(hrtc, counter_alarm) != HAL_OK)
@@ -799,9 +799,9 @@ HAL_StatusTypeDef HAL_RTC_SetTime(RTC_HandleTypeDef *hrtc, RTC_TimeTypeDef *sTim
   *            @arg RTC_FORMAT_BCD: BCD data format
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_RTC_GetTime(RTC_HandleTypeDef *hrtc, RTC_TimeTypeDef *sTime, uint32_t Format)
+HAL_StatusTypeDef HAL_RTC_GetTime(RTC_HandleTypeDef *hrtc, RTC_TimeTypeDef *sTime, uint32 Format)
 {
-  uint32_t counter_time = 0U, counter_alarm = 0U, days_elapsed = 0U, hours = 0U;
+  uint32 counter_time = 0U, counter_alarm = 0U, days_elapsed = 0U, hours = 0U;
 
   /* Check input parameters */
   if ((hrtc == NULL) || (sTime == NULL))
@@ -823,8 +823,8 @@ HAL_StatusTypeDef HAL_RTC_GetTime(RTC_HandleTypeDef *hrtc, RTC_TimeTypeDef *sTim
 
   /* Fill the structure fields with the read parameters */
   hours = counter_time / 3600U;
-  sTime->Minutes  = (uint8_t)((counter_time % 3600U) / 60U);
-  sTime->Seconds  = (uint8_t)((counter_time % 3600U) % 60U);
+  sTime->Minutes  = (uint8)((counter_time % 3600U) / 60U);
+  sTime->Seconds  = (uint8)((counter_time % 3600U) % 60U);
 
   if (hours >= 24U)
   {
@@ -890,9 +890,9 @@ HAL_StatusTypeDef HAL_RTC_GetTime(RTC_HandleTypeDef *hrtc, RTC_TimeTypeDef *sTim
   if (Format != RTC_FORMAT_BIN)
   {
     /* Convert the time structure parameters to BCD format */
-    sTime->Hours    = (uint8_t)RTC_ByteToBcd2(sTime->Hours);
-    sTime->Minutes  = (uint8_t)RTC_ByteToBcd2(sTime->Minutes);
-    sTime->Seconds  = (uint8_t)RTC_ByteToBcd2(sTime->Seconds);
+    sTime->Hours    = (uint8)RTC_ByteToBcd2(sTime->Hours);
+    sTime->Minutes  = (uint8)RTC_ByteToBcd2(sTime->Minutes);
+    sTime->Seconds  = (uint8)RTC_ByteToBcd2(sTime->Seconds);
   }
 
   return HAL_OK;
@@ -910,9 +910,9 @@ HAL_StatusTypeDef HAL_RTC_GetTime(RTC_HandleTypeDef *hrtc, RTC_TimeTypeDef *sTim
   *            @arg RTC_FORMAT_BCD: BCD data format
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_RTC_SetDate(RTC_HandleTypeDef *hrtc, RTC_DateTypeDef *sDate, uint32_t Format)
+HAL_StatusTypeDef HAL_RTC_SetDate(RTC_HandleTypeDef *hrtc, RTC_DateTypeDef *sDate, uint32 Format)
 {
-  uint32_t counter_time = 0U, counter_alarm = 0U, hours = 0U;
+  uint32 counter_time = 0U, counter_alarm = 0U, hours = 0U;
 
   /* Check input parameters */
   if ((hrtc == NULL) || (sDate == NULL))
@@ -986,7 +986,7 @@ HAL_StatusTypeDef HAL_RTC_SetDate(RTC_HandleTypeDef *hrtc, RTC_DateTypeDef *sDat
       if (counter_alarm < counter_time)
       {
         /* Add 1 day to alarm counter*/
-        counter_alarm += (uint32_t)(24U * 3600U);
+        counter_alarm += (uint32)(24U * 3600U);
 
         /* Write new Alarm counter in RTC registers */
         if (RTC_WriteAlarmCounter(hrtc, counter_alarm) != HAL_OK)
@@ -1024,7 +1024,7 @@ HAL_StatusTypeDef HAL_RTC_SetDate(RTC_HandleTypeDef *hrtc, RTC_DateTypeDef *sDat
   *            @arg RTC_FORMAT_BCD:  BCD data format
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_RTC_GetDate(RTC_HandleTypeDef *hrtc, RTC_DateTypeDef *sDate, uint32_t Format)
+HAL_StatusTypeDef HAL_RTC_GetDate(RTC_HandleTypeDef *hrtc, RTC_DateTypeDef *sDate, uint32 Format)
 {
   RTC_TimeTypeDef stime = {0U};
 
@@ -1053,9 +1053,9 @@ HAL_StatusTypeDef HAL_RTC_GetDate(RTC_HandleTypeDef *hrtc, RTC_DateTypeDef *sDat
   if (Format != RTC_FORMAT_BIN)
   {
     /* Convert the date structure parameters to BCD format */
-    sDate->Year   = (uint8_t)RTC_ByteToBcd2(sDate->Year);
-    sDate->Month  = (uint8_t)RTC_ByteToBcd2(sDate->Month);
-    sDate->Date   = (uint8_t)RTC_ByteToBcd2(sDate->Date);
+    sDate->Year   = (uint8)RTC_ByteToBcd2(sDate->Year);
+    sDate->Month  = (uint8)RTC_ByteToBcd2(sDate->Month);
+    sDate->Date   = (uint8)RTC_ByteToBcd2(sDate->Date);
   }
   return HAL_OK;
 }
@@ -1089,9 +1089,9 @@ HAL_StatusTypeDef HAL_RTC_GetDate(RTC_HandleTypeDef *hrtc, RTC_DateTypeDef *sDat
   *             @arg RTC_FORMAT_BCD: BCD data format
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_RTC_SetAlarm(RTC_HandleTypeDef *hrtc, RTC_AlarmTypeDef *sAlarm, uint32_t Format)
+HAL_StatusTypeDef HAL_RTC_SetAlarm(RTC_HandleTypeDef *hrtc, RTC_AlarmTypeDef *sAlarm, uint32 Format)
 {
-  uint32_t counter_alarm = 0U, counter_time;
+  uint32 counter_alarm = 0U, counter_time;
   RTC_TimeTypeDef stime = {0U};
 
   /* Check input parameters */
@@ -1116,9 +1116,9 @@ HAL_StatusTypeDef HAL_RTC_SetAlarm(RTC_HandleTypeDef *hrtc, RTC_AlarmTypeDef *sA
   }
 
   /* Convert time in seconds */
-  counter_time = (uint32_t)(((uint32_t)stime.Hours * 3600U) + \
-                            ((uint32_t)stime.Minutes * 60U) + \
-                            ((uint32_t)stime.Seconds));
+  counter_time = (uint32)(((uint32)stime.Hours * 3600U) + \
+                            ((uint32)stime.Minutes * 60U) + \
+                            ((uint32)stime.Seconds));
 
   if (Format == RTC_FORMAT_BIN)
   {
@@ -1126,9 +1126,9 @@ HAL_StatusTypeDef HAL_RTC_SetAlarm(RTC_HandleTypeDef *hrtc, RTC_AlarmTypeDef *sA
     assert_param(IS_RTC_MINUTES(sAlarm->AlarmTime.Minutes));
     assert_param(IS_RTC_SECONDS(sAlarm->AlarmTime.Seconds));
 
-    counter_alarm = (uint32_t)(((uint32_t)sAlarm->AlarmTime.Hours * 3600U) + \
-                               ((uint32_t)sAlarm->AlarmTime.Minutes * 60U) + \
-                               ((uint32_t)sAlarm->AlarmTime.Seconds));
+    counter_alarm = (uint32)(((uint32)sAlarm->AlarmTime.Hours * 3600U) + \
+                               ((uint32)sAlarm->AlarmTime.Minutes * 60U) + \
+                               ((uint32)sAlarm->AlarmTime.Seconds));
   }
   else
   {
@@ -1136,16 +1136,16 @@ HAL_StatusTypeDef HAL_RTC_SetAlarm(RTC_HandleTypeDef *hrtc, RTC_AlarmTypeDef *sA
     assert_param(IS_RTC_MINUTES(RTC_Bcd2ToByte(sAlarm->AlarmTime.Minutes)));
     assert_param(IS_RTC_SECONDS(RTC_Bcd2ToByte(sAlarm->AlarmTime.Seconds)));
 
-    counter_alarm = (((uint32_t)(RTC_Bcd2ToByte(sAlarm->AlarmTime.Hours)) * 3600U) + \
-                     ((uint32_t)(RTC_Bcd2ToByte(sAlarm->AlarmTime.Minutes)) * 60U) + \
-                     ((uint32_t)RTC_Bcd2ToByte(sAlarm->AlarmTime.Seconds)));
+    counter_alarm = (((uint32)(RTC_Bcd2ToByte(sAlarm->AlarmTime.Hours)) * 3600U) + \
+                     ((uint32)(RTC_Bcd2ToByte(sAlarm->AlarmTime.Minutes)) * 60U) + \
+                     ((uint32)RTC_Bcd2ToByte(sAlarm->AlarmTime.Seconds)));
   }
 
   /* Check that requested alarm should expire in the same day (otherwise add 1 day) */
   if (counter_alarm < counter_time)
   {
     /* Add 1 day to alarm counter*/
-    counter_alarm += (uint32_t)(24U * 3600U);
+    counter_alarm += (uint32)(24U * 3600U);
   }
 
   /* Write Alarm counter in RTC registers */
@@ -1181,9 +1181,9 @@ HAL_StatusTypeDef HAL_RTC_SetAlarm(RTC_HandleTypeDef *hrtc, RTC_AlarmTypeDef *sA
   * @note   The HAL_RTC_SetTime() must be called before enabling the Alarm feature.
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_RTC_SetAlarm_IT(RTC_HandleTypeDef *hrtc, RTC_AlarmTypeDef *sAlarm, uint32_t Format)
+HAL_StatusTypeDef HAL_RTC_SetAlarm_IT(RTC_HandleTypeDef *hrtc, RTC_AlarmTypeDef *sAlarm, uint32 Format)
 {
-  uint32_t counter_alarm = 0U, counter_time;
+  uint32 counter_alarm = 0U, counter_time;
   RTC_TimeTypeDef stime = {0U};
 
   /* Check input parameters */
@@ -1208,9 +1208,9 @@ HAL_StatusTypeDef HAL_RTC_SetAlarm_IT(RTC_HandleTypeDef *hrtc, RTC_AlarmTypeDef 
   }
 
   /* Convert time in seconds */
-  counter_time = (uint32_t)(((uint32_t)stime.Hours * 3600U) + \
-                            ((uint32_t)stime.Minutes * 60U) + \
-                            ((uint32_t)stime.Seconds));
+  counter_time = (uint32)(((uint32)stime.Hours * 3600U) + \
+                            ((uint32)stime.Minutes * 60U) + \
+                            ((uint32)stime.Seconds));
 
   if (Format == RTC_FORMAT_BIN)
   {
@@ -1218,9 +1218,9 @@ HAL_StatusTypeDef HAL_RTC_SetAlarm_IT(RTC_HandleTypeDef *hrtc, RTC_AlarmTypeDef 
     assert_param(IS_RTC_MINUTES(sAlarm->AlarmTime.Minutes));
     assert_param(IS_RTC_SECONDS(sAlarm->AlarmTime.Seconds));
 
-    counter_alarm = (uint32_t)(((uint32_t)sAlarm->AlarmTime.Hours * 3600U) + \
-                               ((uint32_t)sAlarm->AlarmTime.Minutes * 60U) + \
-                               ((uint32_t)sAlarm->AlarmTime.Seconds));
+    counter_alarm = (uint32)(((uint32)sAlarm->AlarmTime.Hours * 3600U) + \
+                               ((uint32)sAlarm->AlarmTime.Minutes * 60U) + \
+                               ((uint32)sAlarm->AlarmTime.Seconds));
   }
   else
   {
@@ -1228,16 +1228,16 @@ HAL_StatusTypeDef HAL_RTC_SetAlarm_IT(RTC_HandleTypeDef *hrtc, RTC_AlarmTypeDef 
     assert_param(IS_RTC_MINUTES(RTC_Bcd2ToByte(sAlarm->AlarmTime.Minutes)));
     assert_param(IS_RTC_SECONDS(RTC_Bcd2ToByte(sAlarm->AlarmTime.Seconds)));
 
-    counter_alarm = (((uint32_t)(RTC_Bcd2ToByte(sAlarm->AlarmTime.Hours)) * 3600U) + \
-                     ((uint32_t)(RTC_Bcd2ToByte(sAlarm->AlarmTime.Minutes)) * 60U) + \
-                     ((uint32_t)RTC_Bcd2ToByte(sAlarm->AlarmTime.Seconds)));
+    counter_alarm = (((uint32)(RTC_Bcd2ToByte(sAlarm->AlarmTime.Hours)) * 3600U) + \
+                     ((uint32)(RTC_Bcd2ToByte(sAlarm->AlarmTime.Minutes)) * 60U) + \
+                     ((uint32)RTC_Bcd2ToByte(sAlarm->AlarmTime.Seconds)));
   }
 
   /* Check that requested alarm should expire in the same day (otherwise add 1 day) */
   if (counter_alarm < counter_time)
   {
     /* Add 1 day to alarm counter*/
-    counter_alarm += (uint32_t)(24U * 3600U);
+    counter_alarm += (uint32)(24U * 3600U);
   }
 
   /* Write alarm counter in RTC registers */
@@ -1286,9 +1286,9 @@ HAL_StatusTypeDef HAL_RTC_SetAlarm_IT(RTC_HandleTypeDef *hrtc, RTC_AlarmTypeDef 
   *             @arg RTC_FORMAT_BCD: BCD data format
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_RTC_GetAlarm(RTC_HandleTypeDef *hrtc, RTC_AlarmTypeDef *sAlarm, uint32_t Alarm, uint32_t Format)
+HAL_StatusTypeDef HAL_RTC_GetAlarm(RTC_HandleTypeDef *hrtc, RTC_AlarmTypeDef *sAlarm, uint32 Alarm, uint32 Format)
 {
-  uint32_t counter_alarm = 0U;
+  uint32 counter_alarm = 0U;
 
   /* Prevent unused argument(s) compilation warning */
   UNUSED(Alarm);
@@ -1308,9 +1308,9 @@ HAL_StatusTypeDef HAL_RTC_GetAlarm(RTC_HandleTypeDef *hrtc, RTC_AlarmTypeDef *sA
 
   /* Fill the structure with the read parameters */
   /* Set hours in a day range (between 0 to 24)*/
-  sAlarm->AlarmTime.Hours   = (uint32_t)((counter_alarm / 3600U) % 24U);
-  sAlarm->AlarmTime.Minutes = (uint32_t)((counter_alarm % 3600U) / 60U);
-  sAlarm->AlarmTime.Seconds = (uint32_t)((counter_alarm % 3600U) % 60U);
+  sAlarm->AlarmTime.Hours   = (uint32)((counter_alarm / 3600U) % 24U);
+  sAlarm->AlarmTime.Minutes = (uint32)((counter_alarm % 3600U) / 60U);
+  sAlarm->AlarmTime.Seconds = (uint32)((counter_alarm % 3600U) % 60U);
 
   if (Format != RTC_FORMAT_BIN)
   {
@@ -1331,7 +1331,7 @@ HAL_StatusTypeDef HAL_RTC_GetAlarm(RTC_HandleTypeDef *hrtc, RTC_AlarmTypeDef *sA
   *            @arg RTC_ALARM_A:  AlarmA
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_RTC_DeactivateAlarm(RTC_HandleTypeDef *hrtc, uint32_t Alarm)
+HAL_StatusTypeDef HAL_RTC_DeactivateAlarm(RTC_HandleTypeDef *hrtc, uint32 Alarm)
 {
   /* Prevent unused argument(s) compilation warning */
   UNUSED(Alarm);
@@ -1406,7 +1406,7 @@ void HAL_RTC_AlarmIRQHandler(RTC_HandleTypeDef *hrtc)
   if (__HAL_RTC_ALARM_GET_IT_SOURCE(hrtc, RTC_IT_ALRA))
   {
     /* Get the status of the Interrupt */
-    if (__HAL_RTC_ALARM_GET_FLAG(hrtc, RTC_FLAG_ALRAF) != (uint32_t)RESET)
+    if (__HAL_RTC_ALARM_GET_FLAG(hrtc, RTC_FLAG_ALRAF) != (uint32)RESET)
     {
       /* AlarmA callback */
 #if (USE_HAL_RTC_REGISTER_CALLBACKS == 1)
@@ -1449,9 +1449,9 @@ __weak void HAL_RTC_AlarmAEventCallback(RTC_HandleTypeDef *hrtc)
   * @param  Timeout: Timeout duration
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_RTC_PollForAlarmAEvent(RTC_HandleTypeDef *hrtc, uint32_t Timeout)
+HAL_StatusTypeDef HAL_RTC_PollForAlarmAEvent(RTC_HandleTypeDef *hrtc, uint32 Timeout)
 {
-  uint32_t tickstart = HAL_GetTick();
+  uint32 tickstart = HAL_GetTick();
 
   /* Check input parameters */
   if (hrtc == NULL)
@@ -1539,7 +1539,7 @@ HAL_RTCStateTypeDef HAL_RTC_GetState(RTC_HandleTypeDef *hrtc)
   */
 HAL_StatusTypeDef HAL_RTC_WaitForSynchro(RTC_HandleTypeDef *hrtc)
 {
-  uint32_t tickstart = 0U;
+  uint32 tickstart = 0U;
 
   /* Check input parameters */
   if (hrtc == NULL)
@@ -1553,7 +1553,7 @@ HAL_StatusTypeDef HAL_RTC_WaitForSynchro(RTC_HandleTypeDef *hrtc)
   tickstart = HAL_GetTick();
 
   /* Wait the registers to be synchronised */
-  while ((hrtc->Instance->CRL & RTC_FLAG_RSF) == (uint32_t)RESET)
+  while ((hrtc->Instance->CRL & RTC_FLAG_RSF) == (uint32)RESET)
   {
     if ((HAL_GetTick() - tickstart) >  RTC_TIMEOUT_VALUE)
     {
@@ -1584,10 +1584,10 @@ HAL_StatusTypeDef HAL_RTC_WaitForSynchro(RTC_HandleTypeDef *hrtc)
   *                the configuration information for RTC.
   * @retval Time counter
   */
-static uint32_t RTC_ReadTimeCounter(RTC_HandleTypeDef *hrtc)
+static uint32 RTC_ReadTimeCounter(RTC_HandleTypeDef *hrtc)
 {
-  uint16_t high1 = 0U, high2 = 0U, low = 0U;
-  uint32_t timecounter = 0U;
+  uint16 high1 = 0U, high2 = 0U, low = 0U;
+  uint32 timecounter = 0U;
 
   high1 = READ_REG(hrtc->Instance->CNTH & RTC_CNTH_RTC_CNT);
   low   = READ_REG(hrtc->Instance->CNTL & RTC_CNTL_RTC_CNT);
@@ -1597,13 +1597,13 @@ static uint32_t RTC_ReadTimeCounter(RTC_HandleTypeDef *hrtc)
   {
     /* In this case the counter roll over during reading of CNTL and CNTH registers,
        read again CNTL register then return the counter value */
-    timecounter = (((uint32_t) high2 << 16U) | READ_REG(hrtc->Instance->CNTL & RTC_CNTL_RTC_CNT));
+    timecounter = (((uint32) high2 << 16U) | READ_REG(hrtc->Instance->CNTL & RTC_CNTL_RTC_CNT));
   }
   else
   {
     /* No counter roll over during reading of CNTL and CNTH registers, counter
        value is equal to first value of CNTL and CNTH */
-    timecounter = (((uint32_t) high1 << 16U) | low);
+    timecounter = (((uint32) high1 << 16U) | low);
   }
 
   return timecounter;
@@ -1616,7 +1616,7 @@ static uint32_t RTC_ReadTimeCounter(RTC_HandleTypeDef *hrtc)
   * @param  TimeCounter: Counter to write in RTC_CNT registers
   * @retval HAL status
   */
-static HAL_StatusTypeDef RTC_WriteTimeCounter(RTC_HandleTypeDef *hrtc, uint32_t TimeCounter)
+static HAL_StatusTypeDef RTC_WriteTimeCounter(RTC_HandleTypeDef *hrtc, uint32 TimeCounter)
 {
   HAL_StatusTypeDef status = HAL_OK;
 
@@ -1648,14 +1648,14 @@ static HAL_StatusTypeDef RTC_WriteTimeCounter(RTC_HandleTypeDef *hrtc, uint32_t 
   *                the configuration information for RTC.
   * @retval Time counter
   */
-static uint32_t RTC_ReadAlarmCounter(RTC_HandleTypeDef *hrtc)
+static uint32 RTC_ReadAlarmCounter(RTC_HandleTypeDef *hrtc)
 {
-  uint16_t high1 = 0U, low = 0U;
+  uint16 high1 = 0U, low = 0U;
 
   high1 = READ_REG(hrtc->Instance->ALRH & RTC_CNTH_RTC_CNT);
   low   = READ_REG(hrtc->Instance->ALRL & RTC_CNTL_RTC_CNT);
 
-  return (((uint32_t) high1 << 16U) | low);
+  return (((uint32) high1 << 16U) | low);
 }
 
 /**
@@ -1665,7 +1665,7 @@ static uint32_t RTC_ReadAlarmCounter(RTC_HandleTypeDef *hrtc)
   * @param  AlarmCounter: Counter to write in RTC_ALR registers
   * @retval HAL status
   */
-static HAL_StatusTypeDef RTC_WriteAlarmCounter(RTC_HandleTypeDef *hrtc, uint32_t AlarmCounter)
+static HAL_StatusTypeDef RTC_WriteAlarmCounter(RTC_HandleTypeDef *hrtc, uint32 AlarmCounter)
 {
   HAL_StatusTypeDef status = HAL_OK;
 
@@ -1699,11 +1699,11 @@ static HAL_StatusTypeDef RTC_WriteAlarmCounter(RTC_HandleTypeDef *hrtc, uint32_t
   */
 static HAL_StatusTypeDef RTC_EnterInitMode(RTC_HandleTypeDef *hrtc)
 {
-  uint32_t tickstart = 0U;
+  uint32 tickstart = 0U;
 
   tickstart = HAL_GetTick();
   /* Wait till RTC is in INIT state and if Time out is reached exit */
-  while ((hrtc->Instance->CRL & RTC_CRL_RTOFF) == (uint32_t)RESET)
+  while ((hrtc->Instance->CRL & RTC_CRL_RTOFF) == (uint32)RESET)
   {
     if ((HAL_GetTick() - tickstart) >  RTC_TIMEOUT_VALUE)
     {
@@ -1726,14 +1726,14 @@ static HAL_StatusTypeDef RTC_EnterInitMode(RTC_HandleTypeDef *hrtc)
   */
 static HAL_StatusTypeDef RTC_ExitInitMode(RTC_HandleTypeDef *hrtc)
 {
-  uint32_t tickstart = 0U;
+  uint32 tickstart = 0U;
 
   /* Disable the write protection for RTC registers */
   __HAL_RTC_WRITEPROTECTION_ENABLE(hrtc);
 
   tickstart = HAL_GetTick();
   /* Wait till RTC is in INIT state and if Time out is reached exit */
-  while ((hrtc->Instance->CRL & RTC_CRL_RTOFF) == (uint32_t)RESET)
+  while ((hrtc->Instance->CRL & RTC_CRL_RTOFF) == (uint32)RESET)
   {
     if ((HAL_GetTick() - tickstart) >  RTC_TIMEOUT_VALUE)
     {
@@ -1749,9 +1749,9 @@ static HAL_StatusTypeDef RTC_ExitInitMode(RTC_HandleTypeDef *hrtc)
   * @param  Value: Byte to be converted
   * @retval Converted byte
   */
-static uint8_t RTC_ByteToBcd2(uint8_t Value)
+static uint8 RTC_ByteToBcd2(uint8 Value)
 {
-  uint32_t bcdhigh = 0U;
+  uint32 bcdhigh = 0U;
 
   while (Value >= 10U)
   {
@@ -1759,7 +1759,7 @@ static uint8_t RTC_ByteToBcd2(uint8_t Value)
     Value -= 10U;
   }
 
-  return ((uint8_t)(bcdhigh << 4U) | Value);
+  return ((uint8)(bcdhigh << 4U) | Value);
 }
 
 /**
@@ -1767,11 +1767,11 @@ static uint8_t RTC_ByteToBcd2(uint8_t Value)
   * @param  Value: BCD value to be converted
   * @retval Converted word
   */
-static uint8_t RTC_Bcd2ToByte(uint8_t Value)
+static uint8 RTC_Bcd2ToByte(uint8 Value)
 {
-  uint32_t tmp = 0U;
-  tmp = ((uint8_t)(Value & (uint8_t)0xF0) >> (uint8_t)0x4) * 10U;
-  return (tmp + (Value & (uint8_t)0x0F));
+  uint32 tmp = 0U;
+  tmp = ((uint8)(Value & (uint8)0xF0) >> (uint8)0x4) * 10U;
+  return (tmp + (Value & (uint8)0x0F));
 }
 
 /**
@@ -1781,10 +1781,10 @@ static uint8_t RTC_Bcd2ToByte(uint8_t Value)
   * @param  DayElapsed: Number of days elapsed from last date update
   * @retval None
   */
-static void RTC_DateUpdate(RTC_HandleTypeDef *hrtc, uint32_t DayElapsed)
+static void RTC_DateUpdate(RTC_HandleTypeDef *hrtc, uint32 DayElapsed)
 {
-  uint32_t year = 0U, month = 0U, day = 0U;
-  uint32_t loop = 0U;
+  uint32 year = 0U, month = 0U, day = 0U;
+  uint32 loop = 0U;
 
   /* Get the current year*/
   year = hrtc->DateToUpdate.Year;
@@ -1876,7 +1876,7 @@ static void RTC_DateUpdate(RTC_HandleTypeDef *hrtc, uint32_t DayElapsed)
   * @retval 1: leap year
   *         0: not leap year
   */
-static uint8_t RTC_IsLeapYear(uint16_t nYear)
+static uint8 RTC_IsLeapYear(uint16 nYear)
 {
   if ((nYear % 4U) != 0U)
   {
@@ -1913,9 +1913,9 @@ static uint8_t RTC_IsLeapYear(uint16_t nYear)
   *         @arg RTC_WEEKDAY_SATURDAY
   *         @arg RTC_WEEKDAY_SUNDAY
   */
-static uint8_t RTC_WeekDayNum(uint32_t nYear, uint8_t nMonth, uint8_t nDay)
+static uint8 RTC_WeekDayNum(uint32 nYear, uint8 nMonth, uint8 nDay)
 {
-  uint32_t year = 0U, weekday = 0U;
+  uint32 year = 0U, weekday = 0U;
 
   year = 2000U + nYear;
 
@@ -1930,7 +1930,7 @@ static uint8_t RTC_WeekDayNum(uint32_t nYear, uint8_t nMonth, uint8_t nDay)
     weekday = (((23U * nMonth) / 9U) + nDay + 4U + year + (year / 4U) - (year / 100U) + (year / 400U) - 2U) % 7U;
   }
 
-  return (uint8_t)weekday;
+  return (uint8)weekday;
 }
 
 /**

@@ -126,8 +126,8 @@
 HAL_StatusTypeDef HAL_ADCEx_Calibration_Start(ADC_HandleTypeDef* hadc)
 {
   HAL_StatusTypeDef tmp_hal_status = HAL_OK;
-  uint32_t tickstart;
-  __IO uint32_t wait_loop_index = 0U;
+  uint32 tickstart;
+  __IO uint32 wait_loop_index = 0U;
   
   /* Check the parameters */
   assert_param(IS_ADC_ALL_INSTANCE(hadc->Instance));
@@ -388,14 +388,14 @@ HAL_StatusTypeDef HAL_ADCEx_InjectedStop(ADC_HandleTypeDef* hadc)
   * @param  Timeout: Timeout value in millisecond.
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_ADCEx_InjectedPollForConversion(ADC_HandleTypeDef* hadc, uint32_t Timeout)
+HAL_StatusTypeDef HAL_ADCEx_InjectedPollForConversion(ADC_HandleTypeDef* hadc, uint32 Timeout)
 {
-  uint32_t tickstart;
+  uint32 tickstart;
 
   /* Variables for polling in case of scan mode enabled and polling for each  */
   /* conversion.                                                              */
-  __IO uint32_t Conversion_Timeout_CPU_cycles = 0U;
-  uint32_t Conversion_Timeout_CPU_cycles_max = 0U;
+  __IO uint32 Conversion_Timeout_CPU_cycles = 0U;
+  uint32 Conversion_Timeout_CPU_cycles_max = 0U;
   
   /* Check the parameters */
   assert_param(IS_ADC_ALL_INSTANCE(hadc->Instance));
@@ -682,7 +682,7 @@ HAL_StatusTypeDef HAL_ADCEx_InjectedStop_IT(ADC_HandleTypeDef* hadc)
   * @param  Length: The length of data to be transferred from ADC peripheral to memory.
   * @retval None
   */
-HAL_StatusTypeDef HAL_ADCEx_MultiModeStart_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length)
+HAL_StatusTypeDef HAL_ADCEx_MultiModeStart_DMA(ADC_HandleTypeDef* hadc, uint32* pData, uint32 Length)
 {
   HAL_StatusTypeDef tmp_hal_status = HAL_OK;
   ADC_HandleTypeDef tmphadcSlave={0};
@@ -767,7 +767,7 @@ HAL_StatusTypeDef HAL_ADCEx_MultiModeStart_DMA(ADC_HandleTypeDef* hadc, uint32_t
     SET_BIT(hadc->Instance->CR2, ADC_CR2_DMA);
     
     /* Start the DMA channel */
-    HAL_DMA_Start_IT(hadc->DMA_Handle, (uint32_t)&hadc->Instance->DR, (uint32_t)pData, Length);
+    HAL_DMA_Start_IT(hadc->DMA_Handle, (uint32)&hadc->Instance->DR, (uint32)pData, Length);
     
     /* Start conversion of regular group if software start has been selected. */
     /* If external trigger has been selected, conversion will start at next   */
@@ -896,9 +896,9 @@ HAL_StatusTypeDef HAL_ADCEx_MultiModeStop_DMA(ADC_HandleTypeDef* hadc)
   *            @arg ADC_INJECTED_RANK_4: Injected Channel4 selected
   * @retval ADC group injected conversion data
   */
-uint32_t HAL_ADCEx_InjectedGetValue(ADC_HandleTypeDef* hadc, uint32_t InjectedRank)
+uint32 HAL_ADCEx_InjectedGetValue(ADC_HandleTypeDef* hadc, uint32 InjectedRank)
 {
-  uint32_t tmp_jdr = 0U;
+  uint32 tmp_jdr = 0U;
   
   /* Check the parameters */
   assert_param(IS_ADC_ALL_INSTANCE(hadc->Instance));
@@ -933,9 +933,9 @@ uint32_t HAL_ADCEx_InjectedGetValue(ADC_HandleTypeDef* hadc, uint32_t InjectedRa
   * @param  hadc: ADC handle of ADC master (handle of ADC slave must not be used)
   * @retval The converted data value.
   */
-uint32_t HAL_ADCEx_MultiModeGetValue(ADC_HandleTypeDef* hadc)
+uint32 HAL_ADCEx_MultiModeGetValue(ADC_HandleTypeDef* hadc)
 {
-  uint32_t tmpDR = 0U;
+  uint32 tmpDR = 0U;
   
   /* Check the parameters */
   assert_param(IS_ADC_MULTIMODE_MASTER_INSTANCE(hadc->Instance));
@@ -1010,7 +1010,7 @@ __weak void HAL_ADCEx_InjectedConvCpltCallback(ADC_HandleTypeDef* hadc)
 HAL_StatusTypeDef HAL_ADCEx_InjectedConfigChannel(ADC_HandleTypeDef* hadc, ADC_InjectionConfTypeDef* sConfigInjected)
 {
   HAL_StatusTypeDef tmp_hal_status = HAL_OK;
-  __IO uint32_t wait_loop_index = 0U;
+  __IO uint32 wait_loop_index = 0U;
   
   /* Check the parameters */
   assert_param(IS_ADC_ALL_INSTANCE(hadc->Instance));

@@ -103,7 +103,7 @@
   */
 
 /* Private function prototypes -----------------------------------------------*/
-static void RCC_Delay(uint32_t mdelay);
+static void RCC_Delay(uint32 mdelay);
 
 /* Exported functions --------------------------------------------------------*/
 
@@ -201,7 +201,7 @@ static void RCC_Delay(uint32_t mdelay);
   */
 HAL_StatusTypeDef HAL_RCC_DeInit(void)
 {
-  uint32_t tickstart;
+  uint32 tickstart;
 
   /* Get Start Tick */
   tickstart = HAL_GetTick();
@@ -346,8 +346,8 @@ HAL_StatusTypeDef HAL_RCC_DeInit(void)
   */
 HAL_StatusTypeDef HAL_RCC_OscConfig(RCC_OscInitTypeDef  *RCC_OscInitStruct)
 {
-  uint32_t tickstart;
-  uint32_t pll_config;
+  uint32 tickstart;
+  uint32 pll_config;
 
   /* Check Null pointer */
   if (RCC_OscInitStruct == NULL)
@@ -810,9 +810,9 @@ HAL_StatusTypeDef HAL_RCC_OscConfig(RCC_OscInitTypeDef  *RCC_OscInitStruct)
   *         currently used as system clock source.
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_RCC_ClockConfig(RCC_ClkInitTypeDef  *RCC_ClkInitStruct, uint32_t FLatency)
+HAL_StatusTypeDef HAL_RCC_ClockConfig(RCC_ClkInitTypeDef  *RCC_ClkInitStruct, uint32 FLatency)
 {
-  uint32_t tickstart;
+  uint32 tickstart;
 
   /* Check Null pointer */
   if (RCC_ClkInitStruct == NULL)
@@ -999,7 +999,7 @@ if (((RCC_ClkInitStruct->ClockType) & RCC_CLOCKTYPE_PCLK1) == RCC_CLOCKTYPE_PCLK
   *            @arg @ref RCC_MCODIV_1 no division applied to MCO clock
   * @retval None
   */
-void HAL_RCC_MCOConfig(uint32_t RCC_MCOx, uint32_t RCC_MCOSource, uint32_t RCC_MCODiv)
+void HAL_RCC_MCOConfig(uint32 RCC_MCOx, uint32 RCC_MCOSource, uint32 RCC_MCODiv)
 {
   GPIO_InitTypeDef gpio = {0U};
 
@@ -1038,7 +1038,7 @@ void HAL_RCC_MCOConfig(uint32_t RCC_MCOx, uint32_t RCC_MCOSource, uint32_t RCC_M
   */
 void HAL_RCC_EnableCSS(void)
 {
-  *(__IO uint32_t *) RCC_CR_CSSON_BB = (uint32_t)ENABLE;
+  *(__IO uint32 *) RCC_CR_CSSON_BB = (uint32)ENABLE;
 }
 
 /**
@@ -1047,7 +1047,7 @@ void HAL_RCC_EnableCSS(void)
   */
 void HAL_RCC_DisableCSS(void)
 {
-  *(__IO uint32_t *) RCC_CR_CSSON_BB = (uint32_t)DISABLE;
+  *(__IO uint32 *) RCC_CR_CSSON_BB = (uint32)DISABLE;
 }
 
 /**
@@ -1079,24 +1079,24 @@ void HAL_RCC_DisableCSS(void)
   *
   * @retval SYSCLK frequency
   */
-uint32_t HAL_RCC_GetSysClockFreq(void)
+uint32 HAL_RCC_GetSysClockFreq(void)
 {
 #if defined(RCC_CFGR2_PREDIV1SRC)
-  const uint8_t aPLLMULFactorTable[14] = {0, 0, 4, 5, 6, 7, 8, 9, 0, 0, 0, 0, 0, 13};
-  const uint8_t aPredivFactorTable[16] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16};
+  const uint8 aPLLMULFactorTable[14] = {0, 0, 4, 5, 6, 7, 8, 9, 0, 0, 0, 0, 0, 13};
+  const uint8 aPredivFactorTable[16] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16};
 #else
-  const uint8_t aPLLMULFactorTable[16] = {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 16};
+  const uint8 aPLLMULFactorTable[16] = {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 16};
 #if defined(RCC_CFGR2_PREDIV1)
-  const uint8_t aPredivFactorTable[16] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16};
+  const uint8 aPredivFactorTable[16] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16};
 #else
-  const uint8_t aPredivFactorTable[2] = {1, 2};
+  const uint8 aPredivFactorTable[2] = {1, 2};
 #endif /*RCC_CFGR2_PREDIV1*/
 
 #endif
-  uint32_t tmpreg = 0U, prediv = 0U, pllclk = 0U, pllmul = 0U;
-  uint32_t sysclockfreq = 0U;
+  uint32 tmpreg = 0U, prediv = 0U, pllclk = 0U, pllmul = 0U;
+  uint32 sysclockfreq = 0U;
 #if defined(RCC_CFGR2_PREDIV1SRC)
-  uint32_t prediv2 = 0U, pll2mul = 0U;
+  uint32 prediv2 = 0U, pll2mul = 0U;
 #endif /*RCC_CFGR2_PREDIV1SRC*/
 
   tmpreg = RCC->CFGR;
@@ -1111,13 +1111,13 @@ uint32_t HAL_RCC_GetSysClockFreq(void)
     }
     case RCC_SYSCLKSOURCE_STATUS_PLLCLK:  /* PLL used as system clock */
     {
-      pllmul = aPLLMULFactorTable[(uint32_t)(tmpreg & RCC_CFGR_PLLMULL) >> RCC_CFGR_PLLMULL_Pos];
+      pllmul = aPLLMULFactorTable[(uint32)(tmpreg & RCC_CFGR_PLLMULL) >> RCC_CFGR_PLLMULL_Pos];
       if ((tmpreg & RCC_CFGR_PLLSRC) != RCC_PLLSOURCE_HSI_DIV2)
       {
 #if defined(RCC_CFGR2_PREDIV1)
-        prediv = aPredivFactorTable[(uint32_t)(RCC->CFGR2 & RCC_CFGR2_PREDIV1) >> RCC_CFGR2_PREDIV1_Pos];
+        prediv = aPredivFactorTable[(uint32)(RCC->CFGR2 & RCC_CFGR2_PREDIV1) >> RCC_CFGR2_PREDIV1_Pos];
 #else
-        prediv = aPredivFactorTable[(uint32_t)(RCC->CFGR & RCC_CFGR_PLLXTPRE) >> RCC_CFGR_PLLXTPRE_Pos];
+        prediv = aPredivFactorTable[(uint32)(RCC->CFGR & RCC_CFGR_PLLXTPRE) >> RCC_CFGR_PLLXTPRE_Pos];
 #endif /*RCC_CFGR2_PREDIV1*/
 #if defined(RCC_CFGR2_PREDIV1SRC)
 
@@ -1127,29 +1127,29 @@ uint32_t HAL_RCC_GetSysClockFreq(void)
           /* PLLCLK = PLL2CLK / PREDIV1 * PLLMUL with PLL2CLK = HSE/PREDIV2 * PLL2MUL */
           prediv2 = ((RCC->CFGR2 & RCC_CFGR2_PREDIV2) >> RCC_CFGR2_PREDIV2_Pos) + 1;
           pll2mul = ((RCC->CFGR2 & RCC_CFGR2_PLL2MUL) >> RCC_CFGR2_PLL2MUL_Pos) + 2;
-          pllclk = (uint32_t)(((uint64_t)HSE_VALUE * (uint64_t)pll2mul * (uint64_t)pllmul) / ((uint64_t)prediv2 * (uint64_t)prediv));
+          pllclk = (uint32)(((uint64)HSE_VALUE * (uint64)pll2mul * (uint64)pllmul) / ((uint64)prediv2 * (uint64)prediv));
         }
         else
         {
           /* HSE used as PLL clock source : PLLCLK = HSE/PREDIV1 * PLLMUL */
-          pllclk = (uint32_t)((HSE_VALUE * pllmul) / prediv);
+          pllclk = (uint32)((HSE_VALUE * pllmul) / prediv);
         }
 
         /* If PLLMUL was set to 13 means that it was to cover the case PLLMUL 6.5 (avoid using float) */
         /* In this case need to divide pllclk by 2 */
-        if (pllmul == aPLLMULFactorTable[(uint32_t)(RCC_CFGR_PLLMULL6_5) >> RCC_CFGR_PLLMULL_Pos])
+        if (pllmul == aPLLMULFactorTable[(uint32)(RCC_CFGR_PLLMULL6_5) >> RCC_CFGR_PLLMULL_Pos])
         {
           pllclk = pllclk / 2;
         }
 #else
         /* HSE used as PLL clock source : PLLCLK = HSE/PREDIV1 * PLLMUL */
-        pllclk = (uint32_t)((HSE_VALUE  * pllmul) / prediv);
+        pllclk = (uint32)((HSE_VALUE  * pllmul) / prediv);
 #endif /*RCC_CFGR2_PREDIV1SRC*/
       }
       else
       {
         /* HSI used as PLL clock source : PLLCLK = HSI/2 * PLLMUL */
-        pllclk = (uint32_t)((HSI_VALUE >> 1) * pllmul);
+        pllclk = (uint32)((HSI_VALUE >> 1) * pllmul);
       }
       sysclockfreq = pllclk;
       break;
@@ -1173,7 +1173,7 @@ uint32_t HAL_RCC_GetSysClockFreq(void)
   *         and updated within this function
   * @retval HCLK frequency
   */
-uint32_t HAL_RCC_GetHCLKFreq(void)
+uint32 HAL_RCC_GetHCLKFreq(void)
 {
   return SystemCoreClock;
 }
@@ -1184,7 +1184,7 @@ uint32_t HAL_RCC_GetHCLKFreq(void)
   *         right PCLK1 value. Otherwise, any configuration based on this function will be incorrect.
   * @retval PCLK1 frequency
   */
-uint32_t HAL_RCC_GetPCLK1Freq(void)
+uint32 HAL_RCC_GetPCLK1Freq(void)
 {
   /* Get HCLK source and Compute PCLK1 frequency ---------------------------*/
   return (HAL_RCC_GetHCLKFreq() >> APBPrescTable[(RCC->CFGR & RCC_CFGR_PPRE1) >> RCC_CFGR_PPRE1_Pos]);
@@ -1196,7 +1196,7 @@ uint32_t HAL_RCC_GetPCLK1Freq(void)
   *         right PCLK2 value. Otherwise, any configuration based on this function will be incorrect.
   * @retval PCLK2 frequency
   */
-uint32_t HAL_RCC_GetPCLK2Freq(void)
+uint32 HAL_RCC_GetPCLK2Freq(void)
 {
   /* Get HCLK source and Compute PCLK2 frequency ---------------------------*/
   return (HAL_RCC_GetHCLKFreq() >> APBPrescTable[(RCC->CFGR & RCC_CFGR_PPRE2) >> RCC_CFGR_PPRE2_Pos]);
@@ -1248,7 +1248,7 @@ void HAL_RCC_GetOscConfig(RCC_OscInitTypeDef  *RCC_OscInitStruct)
     RCC_OscInitStruct->HSIState = RCC_HSI_OFF;
   }
 
-  RCC_OscInitStruct->HSICalibrationValue = (uint32_t)((RCC->CR & RCC_CR_HSITRIM) >> RCC_CR_HSITRIM_Pos);
+  RCC_OscInitStruct->HSICalibrationValue = (uint32)((RCC->CR & RCC_CR_HSITRIM) >> RCC_CR_HSITRIM_Pos);
 
   /* Get the LSE configuration -----------------------------------------------*/
   if ((RCC->BDCR & RCC_BDCR_LSEBYP) == RCC_BDCR_LSEBYP)
@@ -1284,8 +1284,8 @@ void HAL_RCC_GetOscConfig(RCC_OscInitTypeDef  *RCC_OscInitStruct)
   {
     RCC_OscInitStruct->PLL.PLLState = RCC_PLL_OFF;
   }
-  RCC_OscInitStruct->PLL.PLLSource = (uint32_t)(RCC->CFGR & RCC_CFGR_PLLSRC);
-  RCC_OscInitStruct->PLL.PLLMUL = (uint32_t)(RCC->CFGR & RCC_CFGR_PLLMULL);
+  RCC_OscInitStruct->PLL.PLLSource = (uint32)(RCC->CFGR & RCC_CFGR_PLLSRC);
+  RCC_OscInitStruct->PLL.PLLMUL = (uint32)(RCC->CFGR & RCC_CFGR_PLLMULL);
 #if defined(RCC_CR_PLL2ON)
   /* Get the PLL2 configuration -----------------------------------------------*/
   if ((RCC->CR & RCC_CR_PLL2ON) == RCC_CR_PLL2ON)
@@ -1297,7 +1297,7 @@ void HAL_RCC_GetOscConfig(RCC_OscInitTypeDef  *RCC_OscInitStruct)
     RCC_OscInitStruct->PLL2.PLL2State = RCC_PLL2_OFF;
   }
   RCC_OscInitStruct->PLL2.HSEPrediv2Value = __HAL_RCC_HSE_GET_PREDIV2();
-  RCC_OscInitStruct->PLL2.PLL2MUL = (uint32_t)(RCC->CFGR2 & RCC_CFGR2_PLL2MUL);
+  RCC_OscInitStruct->PLL2.PLL2MUL = (uint32)(RCC->CFGR2 & RCC_CFGR2_PLL2MUL);
 #endif /* RCC_CR_PLL2ON */
 }
 
@@ -1309,7 +1309,7 @@ void HAL_RCC_GetOscConfig(RCC_OscInitTypeDef  *RCC_OscInitStruct)
   * @param  pFLatency Pointer on the Flash Latency.
   * @retval None
   */
-void HAL_RCC_GetClockConfig(RCC_ClkInitTypeDef  *RCC_ClkInitStruct, uint32_t *pFLatency)
+void HAL_RCC_GetClockConfig(RCC_ClkInitTypeDef  *RCC_ClkInitStruct, uint32 *pFLatency)
 {
   /* Check the parameters */
   assert_param(RCC_ClkInitStruct != NULL);
@@ -1319,23 +1319,23 @@ void HAL_RCC_GetClockConfig(RCC_ClkInitTypeDef  *RCC_ClkInitStruct, uint32_t *pF
   RCC_ClkInitStruct->ClockType = RCC_CLOCKTYPE_SYSCLK | RCC_CLOCKTYPE_HCLK | RCC_CLOCKTYPE_PCLK1 | RCC_CLOCKTYPE_PCLK2;
 
   /* Get the SYSCLK configuration --------------------------------------------*/
-  RCC_ClkInitStruct->SYSCLKSource = (uint32_t)(RCC->CFGR & RCC_CFGR_SW);
+  RCC_ClkInitStruct->SYSCLKSource = (uint32)(RCC->CFGR & RCC_CFGR_SW);
 
   /* Get the HCLK configuration ----------------------------------------------*/
-  RCC_ClkInitStruct->AHBCLKDivider = (uint32_t)(RCC->CFGR & RCC_CFGR_HPRE);
+  RCC_ClkInitStruct->AHBCLKDivider = (uint32)(RCC->CFGR & RCC_CFGR_HPRE);
 
   /* Get the APB1 configuration ----------------------------------------------*/
-  RCC_ClkInitStruct->APB1CLKDivider = (uint32_t)(RCC->CFGR & RCC_CFGR_PPRE1);
+  RCC_ClkInitStruct->APB1CLKDivider = (uint32)(RCC->CFGR & RCC_CFGR_PPRE1);
 
   /* Get the APB2 configuration ----------------------------------------------*/
-  RCC_ClkInitStruct->APB2CLKDivider = (uint32_t)((RCC->CFGR & RCC_CFGR_PPRE2) >> 3);
+  RCC_ClkInitStruct->APB2CLKDivider = (uint32)((RCC->CFGR & RCC_CFGR_PPRE2) >> 3);
 
 #if   defined(FLASH_ACR_LATENCY)
   /* Get the Flash Wait State (Latency) configuration ------------------------*/
-  *pFLatency = (uint32_t)(FLASH->ACR & FLASH_ACR_LATENCY);
+  *pFLatency = (uint32)(FLASH->ACR & FLASH_ACR_LATENCY);
 #else
   /* For VALUE lines devices, only LATENCY_0 can be set*/
-  *pFLatency = (uint32_t)FLASH_LATENCY_0;
+  *pFLatency = (uint32)FLASH_LATENCY_0;
 #endif
 }
 
@@ -1362,9 +1362,9 @@ void HAL_RCC_NMI_IRQHandler(void)
   * @param  mdelay: specifies the delay time length, in milliseconds.
   * @retval None
   */
-static void RCC_Delay(uint32_t mdelay)
+static void RCC_Delay(uint32 mdelay)
 {
-  __IO uint32_t Delay = mdelay * (SystemCoreClock / 8U / 1000U);
+  __IO uint32 Delay = mdelay * (SystemCoreClock / 8U / 1000U);
   do
   {
     __NOP();

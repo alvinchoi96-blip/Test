@@ -421,9 +421,9 @@
 HAL_StatusTypeDef HAL_ADC_Init(ADC_HandleTypeDef* hadc)
 {
   HAL_StatusTypeDef tmp_hal_status = HAL_OK;
-  uint32_t tmp_cr1 = 0U;
-  uint32_t tmp_cr2 = 0U;
-  uint32_t tmp_sqr1 = 0U;
+  uint32 tmp_cr1 = 0U;
+  uint32 tmp_cr2 = 0U;
+  uint32 tmp_sqr1 = 0U;
   
   /* Check ADC handle */
   if(hadc == NULL)
@@ -516,7 +516,7 @@ HAL_StatusTypeDef HAL_ADC_Init(ADC_HandleTypeDef* hadc)
     /*       regular group after ADC enabling.                                */
     tmp_cr2 |= (hadc->Init.DataAlign                                          |
                 ADC_CFGR_EXTSEL(hadc, hadc->Init.ExternalTrigConv)            |
-                ADC_CR2_CONTINUOUS((uint32_t)hadc->Init.ContinuousConvMode)   );
+                ADC_CR2_CONTINUOUS((uint32)hadc->Init.ContinuousConvMode)   );
 
     /* Configuration of ADC:                                                  */
     /*  - scan mode                                                           */
@@ -1200,14 +1200,14 @@ HAL_StatusTypeDef HAL_ADC_Stop(ADC_HandleTypeDef* hadc)
   * @param  Timeout: Timeout value in millisecond.
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_ADC_PollForConversion(ADC_HandleTypeDef* hadc, uint32_t Timeout)
+HAL_StatusTypeDef HAL_ADC_PollForConversion(ADC_HandleTypeDef* hadc, uint32 Timeout)
 {
-  uint32_t tickstart = 0U;
+  uint32 tickstart = 0U;
   
   /* Variables for polling in case of scan mode enabled and polling for each  */
   /* conversion.                                                              */
-  __IO uint32_t Conversion_Timeout_CPU_cycles = 0U;
-  uint32_t Conversion_Timeout_CPU_cycles_max = 0U;
+  __IO uint32 Conversion_Timeout_CPU_cycles = 0U;
+  uint32 Conversion_Timeout_CPU_cycles_max = 0U;
  
   /* Check the parameters */
   assert_param(IS_ADC_ALL_INSTANCE(hadc->Instance));
@@ -1339,9 +1339,9 @@ HAL_StatusTypeDef HAL_ADC_PollForConversion(ADC_HandleTypeDef* hadc, uint32_t Ti
   * @param  Timeout: Timeout value in millisecond.
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_ADC_PollForEvent(ADC_HandleTypeDef* hadc, uint32_t EventType, uint32_t Timeout)
+HAL_StatusTypeDef HAL_ADC_PollForEvent(ADC_HandleTypeDef* hadc, uint32 EventType, uint32 Timeout)
 {
-  uint32_t tickstart = 0U; 
+  uint32 tickstart = 0U; 
 
   /* Check the parameters */
   assert_param(IS_ADC_ALL_INSTANCE(hadc->Instance));
@@ -1560,7 +1560,7 @@ HAL_StatusTypeDef HAL_ADC_Stop_IT(ADC_HandleTypeDef* hadc)
   * @param  Length: The length of data to be transferred from ADC peripheral to memory.
   * @retval None
   */
-HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length)
+HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32* pData, uint32 Length)
 {
   HAL_StatusTypeDef tmp_hal_status = HAL_OK;
   
@@ -1655,7 +1655,7 @@ HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, ui
       SET_BIT(hadc->Instance->CR2, ADC_CR2_DMA);
       
       /* Start the DMA channel */
-      HAL_DMA_Start_IT(hadc->DMA_Handle, (uint32_t)&hadc->Instance->DR, (uint32_t)pData, Length);
+      HAL_DMA_Start_IT(hadc->DMA_Handle, (uint32)&hadc->Instance->DR, (uint32)pData, Length);
       
       /* Enable conversion of regular group.                                  */
       /* If software start has been selected, conversion starts immediately.  */
@@ -1769,7 +1769,7 @@ HAL_StatusTypeDef HAL_ADC_Stop_DMA(ADC_HandleTypeDef* hadc)
   * @param  hadc: ADC handle
   * @retval ADC group regular conversion data
   */
-uint32_t HAL_ADC_GetValue(ADC_HandleTypeDef* hadc)
+uint32 HAL_ADC_GetValue(ADC_HandleTypeDef* hadc)
 {
   /* Check the parameters */
   assert_param(IS_ADC_ALL_INSTANCE(hadc->Instance));
@@ -2007,7 +2007,7 @@ __weak void HAL_ADC_ErrorCallback(ADC_HandleTypeDef *hadc)
 HAL_StatusTypeDef HAL_ADC_ConfigChannel(ADC_HandleTypeDef* hadc, ADC_ChannelConfTypeDef* sConfig)
 { 
   HAL_StatusTypeDef tmp_hal_status = HAL_OK;
-  __IO uint32_t wait_loop_index = 0U;
+  __IO uint32 wait_loop_index = 0U;
   
   /* Check the parameters */
   assert_param(IS_ADC_ALL_INSTANCE(hadc->Instance));
@@ -2201,7 +2201,7 @@ HAL_StatusTypeDef HAL_ADC_AnalogWDGConfig(ADC_HandleTypeDef* hadc, ADC_AnalogWDG
   * @param  hadc: ADC handle
   * @retval HAL state
   */
-uint32_t HAL_ADC_GetState(ADC_HandleTypeDef* hadc)
+uint32 HAL_ADC_GetState(ADC_HandleTypeDef* hadc)
 {
   /* Return ADC state */
   return hadc->State;
@@ -2212,7 +2212,7 @@ uint32_t HAL_ADC_GetState(ADC_HandleTypeDef* hadc)
   * @param  hadc: ADC handle
   * @retval ADC Error Code
   */
-uint32_t HAL_ADC_GetError(ADC_HandleTypeDef *hadc)
+uint32 HAL_ADC_GetError(ADC_HandleTypeDef *hadc)
 {
   return hadc->ErrorCode;
 }
@@ -2238,8 +2238,8 @@ uint32_t HAL_ADC_GetError(ADC_HandleTypeDef *hadc)
   */
 HAL_StatusTypeDef ADC_Enable(ADC_HandleTypeDef* hadc)
 {
-  uint32_t tickstart = 0U;
-  __IO uint32_t wait_loop_index = 0U;
+  uint32 tickstart = 0U;
+  __IO uint32 wait_loop_index = 0U;
   
   /* ADC enable and wait for ADC ready (in case of ADC is disabled or         */
   /* enabling phase not yet completed: flag ADC ready not yet set).           */
@@ -2297,7 +2297,7 @@ HAL_StatusTypeDef ADC_Enable(ADC_HandleTypeDef* hadc)
   */
 HAL_StatusTypeDef ADC_ConversionStop_Disable(ADC_HandleTypeDef* hadc)
 {
-  uint32_t tickstart = 0U;
+  uint32 tickstart = 0U;
   
   /* Verification if ADC is not already disabled */
   if (ADC_IS_ENABLE(hadc) != RESET)

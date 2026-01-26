@@ -34,9 +34,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.22.2026::5:15:27</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.19.2026::12:13:20</_modifiedTime>
-			<weakCGTime type="a">1.22.2026::5:15:27</weakCGTime>
+			<_modifiedTimeWeak type="a">1.26.2026::0:16:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2026::0:16:23</_modifiedTime>
+			<weakCGTime type="a">1.26.2026::0:16:23</weakCGTime>
 			<strongCGTime type="a">1.15.2026::5:55:29</strongCGTime>
 			<_defaultComposite type="s">GUID eec2c336-d4c0-40e4-9539-61f5ff466764</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -310,9 +310,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.22.2026::5:15:27</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.19.2026::12:13:20</_modifiedTime>
-			<weakCGTime type="a">1.22.2026::5:15:27</weakCGTime>
+			<_modifiedTimeWeak type="a">1.26.2026::0:16:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2026::0:16:23</_modifiedTime>
+			<weakCGTime type="a">1.26.2026::0:16:23</weakCGTime>
 			<strongCGTime type="a">1.15.2026::5:55:33</strongCGTime>
 			<_defaultComposite type="s">GUID 45cb43ee-9096-4d6f-bc65-953dd5a1715b</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -354,7 +354,7 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.22.2026::5:15:30</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.26.2026::0:16:26</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -365,9 +365,9 @@
 					<_hid type="a">GUID 94c51895-c2f9-470b-9c91-5c3c5da7fd3b</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">1.22.2026::5:15:30</_modifiedTime>
+			<_modifiedTime type="a">1.26.2026::0:16:26</_modifiedTime>
 			<_lastID type="a">6</_lastID>
-			<weakCGTime type="a">1.22.2026::5:15:30</weakCGTime>
+			<weakCGTime type="a">1.26.2026::0:16:26</weakCGTime>
 			<strongCGTime type="a">1.15.2026::5:55:33</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -383,7 +383,7 @@
 				<value>GUID 52b6b375-665f-4c2b-a84c-ed819868730d</value>
 				<value>GUID 2e39f3ae-7d37-43be-905f-923ef65bf93c</value>
 				<value>GUID 87d67554-cd02-4ec2-a519-c1f2ec7fabc5</value>
-				<value>GUID b7e4da1b-a575-437e-90e1-7fb36043a134</value>
+				<value>GUID bad5c8af-4f47-4ca0-8827-2861e1cd4f3a</value>
 			</AggregatesList>
 		</IClass>
 		<ITag type="e">
@@ -732,8 +732,8 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.22.2026::5:15:30</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.22.2026::5:15:30</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.26.2026::0:16:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2026::0:16:26</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -775,12 +775,12 @@
 			</IClass>
 			</_implicitClass>
 			<AggregatesList type="e">
-				<value>GUID 3969486e-2188-48f3-967e-e55be24a6fe7</value>
+				<value>GUID b00f3814-5d6c-4f1a-82bf-dbdbd040b420</value>
 				<value>GUID f09fb5d3-adf1-4c52-b8d4-4773892730f4</value>
 			</AggregatesList>
 		</IPort>
 		<IDependency type="e">
-			<_id type="a">GUID 3969486e-2188-48f3-967e-e55be24a6fe7</_id>
+			<_id type="a">GUID b00f3814-5d6c-4f1a-82bf-dbdbd040b420</_id>
 			<_myState type="a">2048</_myState>
 			<_name type="a">CellBalanceReq</_name>
 			<Stereotypes type="c">
@@ -797,8 +797,8 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.22.2026::5:15:30</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.22.2026::5:15:30</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.26.2026::0:16:26</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2026::0:16:26</_modifiedTime>
 			<_dependsOn type="r">
 				<INObjectHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
@@ -841,7 +841,7 @@
 			<_kind type="a">Language</_kind>
 		</IType>
 		<IPart type="e">
-			<_id type="a">GUID b7e4da1b-a575-437e-90e1-7fb36043a134</_id>
+			<_id type="a">GUID bad5c8af-4f47-4ca0-8827-2861e1cd4f3a</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">IB_SWC_BalancingMngr</_name>
 			<Stereotypes type="c">
@@ -858,13 +858,13 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.22.2026::5:15:29</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.22.2026::5:15:29</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.26.2026::0:16:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2026::0:16:25</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 51e4437f-ef50-4127-a50d-e36f4c223ced</_hid>
+					<_hid type="a">GUID 3469e75a-2a14-4747-a222-34dafe989b28</_hid>
 				</IClassifierHandle>
 			</_otherClass>
 			<_inverse type="r">
@@ -872,12 +872,12 @@
 				</IHandle>
 			</_inverse>
 			<_implicitClass type="p"><IClass type="e">
-				<_id type="a">GUID 51e4437f-ef50-4127-a50d-e36f4c223ced</_id>
+				<_id type="a">GUID 3469e75a-2a14-4747-a222-34dafe989b28</_id>
 				<_myState type="a">10240</_myState>
 				<_name type="a">IB_SWC_BalancingMngr</_name>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.22.2026::5:15:36</_modifiedTime>
-				<weakCGTime type="a">1.22.2026::5:15:36</weakCGTime>
+				<_modifiedTime type="a">1.26.2026::0:16:32</_modifiedTime>
+				<weakCGTime type="a">1.26.2026::0:16:32</weakCGTime>
 				<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
@@ -885,14 +885,14 @@
 				</_itsStateChart>
 				<_classModifier type="a">Unspecified</_classModifier>
 				<AggregatesList type="e">
-					<value>GUID 98a00cec-36a5-4ba6-a679-87aba31fc109</value>
-					<value>GUID d5e9051f-103a-4244-9076-e8506e8cdd99</value>
-					<value>GUID 7c42ccdb-0f4f-4dbb-8b7c-facd05a87138</value>
-					<value>GUID c5b8c5c0-36a1-423d-9798-ba7e4e8b7545</value>
+					<value>GUID 9496f148-9996-4c4b-951b-a01b4d7dba2c</value>
+					<value>GUID 038898d4-e645-4ada-abde-7688031ea939</value>
+					<value>GUID 20c15c7a-e3fe-4f71-9f05-e129a833e515</value>
+					<value>GUID ae9a524f-e882-481e-9962-071535df840c</value>
 				</AggregatesList>
 			</IClass>
 			<IPart type="e">
-				<_id type="a">GUID 98a00cec-36a5-4ba6-a679-87aba31fc109</_id>
+				<_id type="a">GUID 9496f148-9996-4c4b-951b-a01b4d7dba2c</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">REoiSWC_BalancingMngr_P_CellBalanceReq_cellBalanceEnable</_name>
 				<Stereotypes type="c">
@@ -909,13 +909,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.22.2026::5:15:32</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.22.2026::5:15:32</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.26.2026::0:16:28</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.26.2026::0:16:28</_modifiedTime>
 				<_multiplicity type="a">1</_multiplicity>
 				<_otherClass type="r">
 					<IClassifierHandle type="e">
 						<_hm2Class type="a">IClass</_hm2Class>
-						<_hid type="a">GUID 759b93c8-3f12-4698-b9bf-e7d38c38339f</_hid>
+						<_hid type="a">GUID ca657ccc-37a2-4bbe-a95e-8e29db600d2f</_hid>
 					</IClassifierHandle>
 				</_otherClass>
 				<_inverse type="r">
@@ -923,12 +923,12 @@
 					</IHandle>
 				</_inverse>
 				<_implicitClass type="p"><IClass type="e">
-					<_id type="a">GUID 759b93c8-3f12-4698-b9bf-e7d38c38339f</_id>
+					<_id type="a">GUID ca657ccc-37a2-4bbe-a95e-8e29db600d2f</_id>
 					<_myState type="a">10240</_myState>
 					<_name type="a">REoiSWC_BalancingMngr_P_CellBalanceReq_cellBalanceEnable</_name>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.22.2026::5:15:32</_modifiedTime>
-					<weakCGTime type="a">1.22.2026::5:15:32</weakCGTime>
+					<_modifiedTime type="a">1.26.2026::0:16:28</_modifiedTime>
+					<weakCGTime type="a">1.26.2026::0:16:28</weakCGTime>
 					<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 					<_itsStateChart type="r">
 						<IHandle type="e">
@@ -936,13 +936,13 @@
 					</_itsStateChart>
 					<_classModifier type="a">Unspecified</_classModifier>
 					<AggregatesList type="e">
-						<value>GUID bc014a2e-2f18-49ec-ae31-6ea138f29a2b</value>
-						<value>GUID 23170e5e-3d62-4dcb-9961-d544f72b2a41</value>
-						<value>GUID 592dd05f-b385-4afb-9fb9-0c906e721205</value>
+						<value>GUID dc68d606-7ddc-4a73-bdd4-c598a68458f2</value>
+						<value>GUID d322368a-1f86-42e3-8cab-1cf631a46f1a</value>
+						<value>GUID aec1854e-1a65-4c66-8231-03f085ef4f03</value>
 					</AggregatesList>
 				</IClass>
 				<IComment type="e">
-					<_id type="a">GUID bc014a2e-2f18-49ec-ae31-6ea138f29a2b</_id>
+					<_id type="a">GUID dc68d606-7ddc-4a73-bdd4-c598a68458f2</_id>
 					<_myState type="a">8192</_myState>
 					<_name type="a">REoiSWC_BalancingMngr_P_CellBalanceReq_cellBalanceEnable_symbol</_name>
 					<Stereotypes type="c">
@@ -959,18 +959,18 @@
 							
 						</IRPYRawContainer>
 					</Stereotypes>
-					<_modifiedTimeWeak type="a">1.22.2026::5:15:31</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.22.2026::5:15:31</_modifiedTime>
+					<_modifiedTimeWeak type="a">1.26.2026::0:16:27</_modifiedTimeWeak>
+					<_modifiedTime type="a">1.26.2026::0:16:27</_modifiedTime>
 					<AggregatesList type="e">
-						<value>GUID 1deac7ea-76d3-4992-ba16-a5df480138f2</value>
+						<value>GUID ebdd9f96-966d-4f4a-966e-b2ade89868c3</value>
 					</AggregatesList>
 				</IComment>
 				<ITag type="e">
-					<_id type="a">GUID 1deac7ea-76d3-4992-ba16-a5df480138f2</_id>
+					<_id type="a">GUID ebdd9f96-966d-4f4a-966e-b2ade89868c3</_id>
 					<_myState type="a">8192</_myState>
 					<_name type="a">value</_name>
-					<_modifiedTimeWeak type="a">1.22.2026::5:15:31</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.22.2026::5:15:31</_modifiedTime>
+					<_modifiedTimeWeak type="a">1.26.2026::0:16:27</_modifiedTimeWeak>
+					<_modifiedTime type="a">1.26.2026::0:16:27</_modifiedTime>
 					<_typeOf type="r">
 						<IHandle type="e">
 							<_hm2Class type="a">IType</_hm2Class>
@@ -991,60 +991,60 @@
 						</IHandle>
 					</_base>
 					<AggregatesList type="e">
-						<value>GUID 2d44d545-690d-46c6-8a22-50b6e3519214</value>
+						<value>GUID e1da16cd-3435-48f4-9e0c-9ee16f17b35b</value>
 					</AggregatesList>
 				</ITag>
 				<ILiteralSpecification type="e">
-					<_id type="a">GUID 2d44d545-690d-46c6-8a22-50b6e3519214</_id>
-					<_modifiedTimeWeak type="a">1.22.2026::5:15:31</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.22.2026::5:15:31</_modifiedTime>
+					<_id type="a">GUID e1da16cd-3435-48f4-9e0c-9ee16f17b35b</_id>
+					<_modifiedTimeWeak type="a">1.26.2026::0:16:27</_modifiedTimeWeak>
+					<_modifiedTime type="a">1.26.2026::0:16:27</_modifiedTime>
 					<_value type="a">REoiSWC_BalancingMngr_P_CellBalanceReq_cellBalanceEnable</_value>
 				</ILiteralSpecification>
 				<ITag type="e">
-					<_id type="a">GUID 23170e5e-3d62-4dcb-9961-d544f72b2a41</_id>
+					<_id type="a">GUID d322368a-1f86-42e3-8cab-1cf631a46f1a</_id>
 					<_myState type="a">8192</_myState>
 					<_name type="a">RAUTO_PortName</_name>
-					<_modifiedTimeWeak type="a">1.22.2026::5:15:32</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.22.2026::5:15:32</_modifiedTime>
+					<_modifiedTimeWeak type="a">1.26.2026::0:16:28</_modifiedTimeWeak>
+					<_modifiedTime type="a">1.26.2026::0:16:28</_modifiedTime>
 					<_isOrdered type="a">0</_isOrdered>
 					<AggregatesList type="e">
-						<value>GUID 619a14db-3a59-4bd8-8ea6-35fe8c2ee54e</value>
-						<value>GUID 3d62835a-1985-4976-8a5d-59bf7bbcc712</value>
+						<value>GUID 62c4dee8-21ec-4b34-9208-f3cd255e4afc</value>
+						<value>GUID 69452546-60a3-4d6e-a1e7-230a4eeef9ad</value>
 					</AggregatesList>
 				</ITag>
 				<ILiteralSpecification type="e">
-					<_id type="a">GUID 619a14db-3a59-4bd8-8ea6-35fe8c2ee54e</_id>
-					<_modifiedTimeWeak type="a">1.22.2026::5:15:32</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.22.2026::5:15:32</_modifiedTime>
+					<_id type="a">GUID 62c4dee8-21ec-4b34-9208-f3cd255e4afc</_id>
+					<_modifiedTimeWeak type="a">1.26.2026::0:16:28</_modifiedTimeWeak>
+					<_modifiedTime type="a">1.26.2026::0:16:28</_modifiedTime>
 					<_value type="a">P_CellBalanceReq</_value>
 				</ILiteralSpecification>
 				<IType type="e">
-					<_id type="a">GUID 3d62835a-1985-4976-8a5d-59bf7bbcc712</_id>
+					<_id type="a">GUID 69452546-60a3-4d6e-a1e7-230a4eeef9ad</_id>
 					<_myState type="a">8192</_myState>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
 					<_kind type="a">Language</_kind>
 				</IType>
 				<ITag type="e">
-					<_id type="a">GUID 592dd05f-b385-4afb-9fb9-0c906e721205</_id>
+					<_id type="a">GUID aec1854e-1a65-4c66-8231-03f085ef4f03</_id>
 					<_myState type="a">8192</_myState>
 					<_name type="a">RAUTO_OpName</_name>
-					<_modifiedTimeWeak type="a">1.22.2026::5:15:32</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.22.2026::5:15:32</_modifiedTime>
+					<_modifiedTimeWeak type="a">1.26.2026::0:16:28</_modifiedTimeWeak>
+					<_modifiedTime type="a">1.26.2026::0:16:28</_modifiedTime>
 					<_isOrdered type="a">0</_isOrdered>
 					<AggregatesList type="e">
-						<value>GUID a2ba14b8-a143-4736-b2a5-1e7da43d9041</value>
-						<value>GUID d268d586-5574-44fb-b4e7-529316d00ece</value>
+						<value>GUID 3e976935-e5ba-4c60-b692-14e5c26158b6</value>
+						<value>GUID 5b8910bf-b896-4364-a89a-06e86d2e5e85</value>
 					</AggregatesList>
 				</ITag>
 				<ILiteralSpecification type="e">
-					<_id type="a">GUID a2ba14b8-a143-4736-b2a5-1e7da43d9041</_id>
-					<_modifiedTimeWeak type="a">1.22.2026::5:15:32</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.22.2026::5:15:32</_modifiedTime>
+					<_id type="a">GUID 3e976935-e5ba-4c60-b692-14e5c26158b6</_id>
+					<_modifiedTimeWeak type="a">1.26.2026::0:16:28</_modifiedTimeWeak>
+					<_modifiedTime type="a">1.26.2026::0:16:28</_modifiedTime>
 					<_value type="a">cellBalanceEnable</_value>
 				</ILiteralSpecification>
 				<IType type="e">
-					<_id type="a">GUID d268d586-5574-44fb-b4e7-529316d00ece</_id>
+					<_id type="a">GUID 5b8910bf-b896-4364-a89a-06e86d2e5e85</_id>
 					<_myState type="a">8192</_myState>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
@@ -1052,16 +1052,16 @@
 				</IType>
 				</_implicitClass>
 				<AggregatesList type="e">
-					<value>GUID d7fc508a-dddf-48d4-9a5e-393d8d993f78</value>
-					<value>GUID 3f476946-5926-48ef-aa0e-e5ad9f492116</value>
+					<value>GUID 11f749d5-87e0-42ea-8b60-58ac07b82470</value>
+					<value>GUID 6663be77-5ee2-4d20-8104-5ced96176f55</value>
 				</AggregatesList>
 			</IPart>
 			<ITag type="e">
-				<_id type="a">GUID d7fc508a-dddf-48d4-9a5e-393d8d993f78</_id>
+				<_id type="a">GUID 11f749d5-87e0-42ea-8b60-58ac07b82470</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">canBeInvokedConcurrently</_name>
-				<_modifiedTimeWeak type="a">1.22.2026::5:15:31</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.22.2026::5:15:31</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.26.2026::0:16:27</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.26.2026::0:16:27</_modifiedTime>
 				<_typeOf type="r">
 					<IHandle type="e">
 						<_hm2Class type="a">IType</_hm2Class>
@@ -1082,21 +1082,21 @@
 					</IHandle>
 				</_base>
 				<AggregatesList type="e">
-					<value>GUID 9a05425b-0277-4a5b-8612-b5819f90239a</value>
+					<value>GUID 9a79d451-12d6-44cf-9921-84a5da6a60e3</value>
 				</AggregatesList>
 			</ITag>
 			<ILiteralSpecification type="e">
-				<_id type="a">GUID 9a05425b-0277-4a5b-8612-b5819f90239a</_id>
-				<_modifiedTimeWeak type="a">1.22.2026::5:15:31</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.22.2026::5:15:31</_modifiedTime>
+				<_id type="a">GUID 9a79d451-12d6-44cf-9921-84a5da6a60e3</_id>
+				<_modifiedTimeWeak type="a">1.26.2026::0:16:27</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.26.2026::0:16:27</_modifiedTime>
 				<_value type="a">True</_value>
 			</ILiteralSpecification>
 			<ITag type="e">
-				<_id type="a">GUID 3f476946-5926-48ef-aa0e-e5ad9f492116</_id>
+				<_id type="a">GUID 6663be77-5ee2-4d20-8104-5ced96176f55</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">minimumStartInterval</_name>
-				<_modifiedTimeWeak type="a">1.22.2026::5:15:32</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.22.2026::5:15:32</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.26.2026::0:16:28</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.26.2026::0:16:28</_modifiedTime>
 				<_typeOf type="r">
 					<IHandle type="e">
 						<_hm2Class type="a">IType</_hm2Class>
@@ -1118,17 +1118,17 @@
 					</IHandle>
 				</_base>
 				<AggregatesList type="e">
-					<value>GUID e558ffd5-8352-4c9f-9f47-8f82c564c2fc</value>
+					<value>GUID 92304cdd-549b-49d7-ab23-88b00dc3faa6</value>
 				</AggregatesList>
 			</ITag>
 			<ILiteralSpecification type="e">
-				<_id type="a">GUID e558ffd5-8352-4c9f-9f47-8f82c564c2fc</_id>
-				<_modifiedTimeWeak type="a">1.22.2026::5:15:32</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.22.2026::5:15:32</_modifiedTime>
+				<_id type="a">GUID 92304cdd-549b-49d7-ab23-88b00dc3faa6</_id>
+				<_modifiedTimeWeak type="a">1.26.2026::0:16:28</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.26.2026::0:16:28</_modifiedTime>
 				<_value type="a">0.0</_value>
 			</ILiteralSpecification>
 			<IPart type="e">
-				<_id type="a">GUID d5e9051f-103a-4244-9076-e8506e8cdd99</_id>
+				<_id type="a">GUID 038898d4-e645-4ada-abde-7688031ea939</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">OIE_P_CellBalanceReq_cellBalanceEnable</_name>
 				<Stereotypes type="c">
@@ -1145,13 +1145,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.22.2026::5:15:32</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.22.2026::5:15:32</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.26.2026::0:16:28</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.26.2026::0:16:28</_modifiedTime>
 				<_multiplicity type="a">1</_multiplicity>
 				<_otherClass type="r">
 					<IClassifierHandle type="e">
 						<_hm2Class type="a">IClass</_hm2Class>
-						<_hid type="a">GUID 1361ad00-aef5-4350-a05f-130cc6645139</_hid>
+						<_hid type="a">GUID b3efb183-2709-4105-a60f-a75ff996a9dd</_hid>
 					</IClassifierHandle>
 				</_otherClass>
 				<_inverse type="r">
@@ -1159,12 +1159,12 @@
 					</IHandle>
 				</_inverse>
 				<_implicitClass type="p"><IClass type="e">
-					<_id type="a">GUID 1361ad00-aef5-4350-a05f-130cc6645139</_id>
+					<_id type="a">GUID b3efb183-2709-4105-a60f-a75ff996a9dd</_id>
 					<_myState type="a">10240</_myState>
 					<_name type="a">OIE_P_CellBalanceReq_cellBalanceEnable</_name>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.22.2026::5:15:33</_modifiedTime>
-					<weakCGTime type="a">1.22.2026::5:15:33</weakCGTime>
+					<_modifiedTime type="a">1.26.2026::0:16:28</_modifiedTime>
+					<weakCGTime type="a">1.26.2026::0:16:28</weakCGTime>
 					<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 					<_itsStateChart type="r">
 						<IHandle type="e">
@@ -1172,11 +1172,11 @@
 					</_itsStateChart>
 					<_classModifier type="a">Unspecified</_classModifier>
 					<AggregatesList type="e">
-						<value>GUID 54ec55c5-c862-4b2d-8088-635c303fe79c</value>
+						<value>GUID e6470fca-abb6-45a5-ab7c-e502e9b16909</value>
 					</AggregatesList>
 				</IClass>
 				<IComment type="e">
-					<_id type="a">GUID 54ec55c5-c862-4b2d-8088-635c303fe79c</_id>
+					<_id type="a">GUID e6470fca-abb6-45a5-ab7c-e502e9b16909</_id>
 					<_myState type="a">8192</_myState>
 					<_name type="a">OIE_P_CellBalanceReq_cellBalanceEnable_iRef</_name>
 					<Stereotypes type="c">
@@ -1193,15 +1193,15 @@
 							
 						</IRPYRawContainer>
 					</Stereotypes>
-					<_modifiedTimeWeak type="a">1.22.2026::5:15:33</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.22.2026::5:15:33</_modifiedTime>
+					<_modifiedTimeWeak type="a">1.26.2026::0:16:28</_modifiedTimeWeak>
+					<_modifiedTime type="a">1.26.2026::0:16:28</_modifiedTime>
 					<AggregatesList type="e">
-						<value>GUID 5a833cad-c256-4eea-b225-eb9be5640049</value>
-						<value>GUID a943cc3b-7736-43b0-90cb-fa321775a843</value>
+						<value>GUID 959082be-82c6-456d-a435-5cfbf94fac9b</value>
+						<value>GUID 2f25102f-b33e-492a-9b78-81084b936c64</value>
 					</AggregatesList>
 				</IComment>
 				<IDependency type="e">
-					<_id type="a">GUID 5a833cad-c256-4eea-b225-eb9be5640049</_id>
+					<_id type="a">GUID 959082be-82c6-456d-a435-5cfbf94fac9b</_id>
 					<_myState type="a">2048</_myState>
 					<_name type="a">P_CellBalanceReq</_name>
 					<Stereotypes type="c">
@@ -1218,8 +1218,8 @@
 							
 						</IRPYRawContainer>
 					</Stereotypes>
-					<_modifiedTimeWeak type="a">1.22.2026::5:15:32</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.22.2026::5:15:32</_modifiedTime>
+					<_modifiedTimeWeak type="a">1.26.2026::0:16:28</_modifiedTimeWeak>
+					<_modifiedTime type="a">1.26.2026::0:16:28</_modifiedTime>
 					<_dependsOn type="r">
 						<INObjectHandle type="e">
 							<_hm2Class type="a">IPort</_hm2Class>
@@ -1229,12 +1229,12 @@
 					<_dependent type="r">
 						<INObjectHandle type="e">
 							<_hm2Class type="a">IComment</_hm2Class>
-							<_hid type="a">GUID 54ec55c5-c862-4b2d-8088-635c303fe79c</_hid>
+							<_hid type="a">GUID e6470fca-abb6-45a5-ab7c-e502e9b16909</_hid>
 						</INObjectHandle>
 					</_dependent>
 				</IDependency>
 				<IDependency type="e">
-					<_id type="a">GUID a943cc3b-7736-43b0-90cb-fa321775a843</_id>
+					<_id type="a">GUID 2f25102f-b33e-492a-9b78-81084b936c64</_id>
 					<_myState type="a">2048</_myState>
 					<_name type="a">cellBalanceEnable</_name>
 					<Stereotypes type="c">
@@ -1251,8 +1251,8 @@
 							
 						</IRPYRawContainer>
 					</Stereotypes>
-					<_modifiedTimeWeak type="a">1.22.2026::5:15:33</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.22.2026::5:15:33</_modifiedTime>
+					<_modifiedTimeWeak type="a">1.26.2026::0:16:28</_modifiedTimeWeak>
+					<_modifiedTime type="a">1.26.2026::0:16:28</_modifiedTime>
 					<_dependsOn type="r">
 						<INObjectHandle type="e">
 							<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
@@ -1266,17 +1266,17 @@
 					<_dependent type="r">
 						<INObjectHandle type="e">
 							<_hm2Class type="a">IComment</_hm2Class>
-							<_hid type="a">GUID 54ec55c5-c862-4b2d-8088-635c303fe79c</_hid>
+							<_hid type="a">GUID e6470fca-abb6-45a5-ab7c-e502e9b16909</_hid>
 						</INObjectHandle>
 					</_dependent>
 				</IDependency>
 				</_implicitClass>
 				<AggregatesList type="e">
-					<value>GUID 58638e87-e937-4952-b16c-62fcbae8b705</value>
+					<value>GUID 7828fdf1-cae9-4364-b67f-0825a093457e</value>
 				</AggregatesList>
 			</IPart>
 			<IDependency type="e">
-				<_id type="a">GUID 58638e87-e937-4952-b16c-62fcbae8b705</_id>
+				<_id type="a">GUID 7828fdf1-cae9-4364-b67f-0825a093457e</_id>
 				<_myState type="a">2048</_myState>
 				<_name type="a">REoiSWC_BalancingMngr_P_CellBalanceReq_cellBalanceEnable</_name>
 				<Stereotypes type="c">
@@ -1293,23 +1293,23 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.22.2026::5:15:32</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.22.2026::5:15:32</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.26.2026::0:16:28</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.26.2026::0:16:28</_modifiedTime>
 				<_dependsOn type="r">
 					<INObjectHandle type="e">
 						<_hm2Class type="a">IPart</_hm2Class>
-						<_hid type="a">GUID 98a00cec-36a5-4ba6-a679-87aba31fc109</_hid>
+						<_hid type="a">GUID 9496f148-9996-4c4b-951b-a01b4d7dba2c</_hid>
 					</INObjectHandle>
 				</_dependsOn>
 				<_dependent type="r">
 					<INObjectHandle type="e">
 						<_hm2Class type="a">IPart</_hm2Class>
-						<_hid type="a">GUID d5e9051f-103a-4244-9076-e8506e8cdd99</_hid>
+						<_hid type="a">GUID 038898d4-e645-4ada-abde-7688031ea939</_hid>
 					</INObjectHandle>
 				</_dependent>
 			</IDependency>
 			<IPart type="e">
-				<_id type="a">GUID 7c42ccdb-0f4f-4dbb-8b7c-facd05a87138</_id>
+				<_id type="a">GUID 20c15c7a-e3fe-4f71-9f05-e129a833e515</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">REoiSWC_BalancingMngr_P_CellBalanceReq_cellBalanceDisable</_name>
 				<Stereotypes type="c">
@@ -1326,13 +1326,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.22.2026::5:15:34</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.22.2026::5:15:34</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.26.2026::0:16:30</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.26.2026::0:16:30</_modifiedTime>
 				<_multiplicity type="a">1</_multiplicity>
 				<_otherClass type="r">
 					<IClassifierHandle type="e">
 						<_hm2Class type="a">IClass</_hm2Class>
-						<_hid type="a">GUID 6c7ccd96-d70c-402f-bbf6-d5ec1453c5b1</_hid>
+						<_hid type="a">GUID 45c309ed-39a2-4afd-bcee-a09b6e175dff</_hid>
 					</IClassifierHandle>
 				</_otherClass>
 				<_inverse type="r">
@@ -1340,12 +1340,12 @@
 					</IHandle>
 				</_inverse>
 				<_implicitClass type="p"><IClass type="e">
-					<_id type="a">GUID 6c7ccd96-d70c-402f-bbf6-d5ec1453c5b1</_id>
+					<_id type="a">GUID 45c309ed-39a2-4afd-bcee-a09b6e175dff</_id>
 					<_myState type="a">10240</_myState>
 					<_name type="a">REoiSWC_BalancingMngr_P_CellBalanceReq_cellBalanceDisable</_name>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.22.2026::5:15:35</_modifiedTime>
-					<weakCGTime type="a">1.22.2026::5:15:35</weakCGTime>
+					<_modifiedTime type="a">1.26.2026::0:16:31</_modifiedTime>
+					<weakCGTime type="a">1.26.2026::0:16:31</weakCGTime>
 					<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 					<_itsStateChart type="r">
 						<IHandle type="e">
@@ -1353,13 +1353,13 @@
 					</_itsStateChart>
 					<_classModifier type="a">Unspecified</_classModifier>
 					<AggregatesList type="e">
-						<value>GUID 859cdfcc-644c-4184-8345-0a7f8bed0f48</value>
-						<value>GUID 152e2777-3bd1-480b-89bd-a91d559a2d48</value>
-						<value>GUID f31b7e64-0e42-4cf8-904a-40b718c5a0d8</value>
+						<value>GUID e8257ed8-5aad-46ad-ba7b-1b270878c831</value>
+						<value>GUID b7363ca3-337c-4011-a385-316a1e7a02f5</value>
+						<value>GUID f555af91-6cae-4541-89c5-5fd4a9990fda</value>
 					</AggregatesList>
 				</IClass>
 				<IComment type="e">
-					<_id type="a">GUID 859cdfcc-644c-4184-8345-0a7f8bed0f48</_id>
+					<_id type="a">GUID e8257ed8-5aad-46ad-ba7b-1b270878c831</_id>
 					<_myState type="a">8192</_myState>
 					<_name type="a">REoiSWC_BalancingMngr_P_CellBalanceReq_cellBalanceDisable_symbol</_name>
 					<Stereotypes type="c">
@@ -1376,18 +1376,18 @@
 							
 						</IRPYRawContainer>
 					</Stereotypes>
-					<_modifiedTimeWeak type="a">1.22.2026::5:15:34</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.22.2026::5:15:34</_modifiedTime>
+					<_modifiedTimeWeak type="a">1.26.2026::0:16:29</_modifiedTimeWeak>
+					<_modifiedTime type="a">1.26.2026::0:16:29</_modifiedTime>
 					<AggregatesList type="e">
-						<value>GUID b1689fb1-2aec-4f34-867e-8c9f403471b5</value>
+						<value>GUID 0e85e256-ab46-4803-8324-2508efd21093</value>
 					</AggregatesList>
 				</IComment>
 				<ITag type="e">
-					<_id type="a">GUID b1689fb1-2aec-4f34-867e-8c9f403471b5</_id>
+					<_id type="a">GUID 0e85e256-ab46-4803-8324-2508efd21093</_id>
 					<_myState type="a">8192</_myState>
 					<_name type="a">value</_name>
-					<_modifiedTimeWeak type="a">1.22.2026::5:15:34</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.22.2026::5:15:34</_modifiedTime>
+					<_modifiedTimeWeak type="a">1.26.2026::0:16:29</_modifiedTimeWeak>
+					<_modifiedTime type="a">1.26.2026::0:16:29</_modifiedTime>
 					<_typeOf type="r">
 						<IHandle type="e">
 							<_hm2Class type="a">IType</_hm2Class>
@@ -1408,60 +1408,60 @@
 						</IHandle>
 					</_base>
 					<AggregatesList type="e">
-						<value>GUID b9e8f80c-30d1-4cde-9727-764a1c3ee208</value>
+						<value>GUID 57e19f8f-6f43-4f8d-8867-abbef945e8b9</value>
 					</AggregatesList>
 				</ITag>
 				<ILiteralSpecification type="e">
-					<_id type="a">GUID b9e8f80c-30d1-4cde-9727-764a1c3ee208</_id>
-					<_modifiedTimeWeak type="a">1.22.2026::5:15:34</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.22.2026::5:15:34</_modifiedTime>
+					<_id type="a">GUID 57e19f8f-6f43-4f8d-8867-abbef945e8b9</_id>
+					<_modifiedTimeWeak type="a">1.26.2026::0:16:29</_modifiedTimeWeak>
+					<_modifiedTime type="a">1.26.2026::0:16:29</_modifiedTime>
 					<_value type="a">REoiSWC_BalancingMngr_P_CellBalanceReq_cellBalanceDisable</_value>
 				</ILiteralSpecification>
 				<ITag type="e">
-					<_id type="a">GUID 152e2777-3bd1-480b-89bd-a91d559a2d48</_id>
+					<_id type="a">GUID b7363ca3-337c-4011-a385-316a1e7a02f5</_id>
 					<_myState type="a">8192</_myState>
 					<_name type="a">RAUTO_PortName</_name>
-					<_modifiedTimeWeak type="a">1.22.2026::5:15:35</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.22.2026::5:15:35</_modifiedTime>
+					<_modifiedTimeWeak type="a">1.26.2026::0:16:30</_modifiedTimeWeak>
+					<_modifiedTime type="a">1.26.2026::0:16:30</_modifiedTime>
 					<_isOrdered type="a">0</_isOrdered>
 					<AggregatesList type="e">
-						<value>GUID b17ab3e6-c51e-4a38-bb81-cdce39ef53c6</value>
-						<value>GUID 10187945-720c-4cc4-a662-3d5932aa78c7</value>
+						<value>GUID 38e8ec11-c037-4431-8feb-42d80fb9af5a</value>
+						<value>GUID 4960c180-e625-4793-91a4-47c57632d996</value>
 					</AggregatesList>
 				</ITag>
 				<ILiteralSpecification type="e">
-					<_id type="a">GUID b17ab3e6-c51e-4a38-bb81-cdce39ef53c6</_id>
-					<_modifiedTimeWeak type="a">1.22.2026::5:15:35</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.22.2026::5:15:35</_modifiedTime>
+					<_id type="a">GUID 38e8ec11-c037-4431-8feb-42d80fb9af5a</_id>
+					<_modifiedTimeWeak type="a">1.26.2026::0:16:30</_modifiedTimeWeak>
+					<_modifiedTime type="a">1.26.2026::0:16:30</_modifiedTime>
 					<_value type="a">P_CellBalanceReq</_value>
 				</ILiteralSpecification>
 				<IType type="e">
-					<_id type="a">GUID 10187945-720c-4cc4-a662-3d5932aa78c7</_id>
+					<_id type="a">GUID 4960c180-e625-4793-91a4-47c57632d996</_id>
 					<_myState type="a">8192</_myState>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
 					<_kind type="a">Language</_kind>
 				</IType>
 				<ITag type="e">
-					<_id type="a">GUID f31b7e64-0e42-4cf8-904a-40b718c5a0d8</_id>
+					<_id type="a">GUID f555af91-6cae-4541-89c5-5fd4a9990fda</_id>
 					<_myState type="a">8192</_myState>
 					<_name type="a">RAUTO_OpName</_name>
-					<_modifiedTimeWeak type="a">1.22.2026::5:15:35</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.22.2026::5:15:35</_modifiedTime>
+					<_modifiedTimeWeak type="a">1.26.2026::0:16:31</_modifiedTimeWeak>
+					<_modifiedTime type="a">1.26.2026::0:16:31</_modifiedTime>
 					<_isOrdered type="a">0</_isOrdered>
 					<AggregatesList type="e">
-						<value>GUID 6c4fca34-feed-4df2-bc55-ffef1b188151</value>
-						<value>GUID 57b83fc5-f524-4eb1-9b00-0f054c78b22b</value>
+						<value>GUID cb17ae81-62b5-4eb4-9287-316b15c5b882</value>
+						<value>GUID 3c07e7c1-e75a-4279-83fc-9934c6b998bd</value>
 					</AggregatesList>
 				</ITag>
 				<ILiteralSpecification type="e">
-					<_id type="a">GUID 6c4fca34-feed-4df2-bc55-ffef1b188151</_id>
-					<_modifiedTimeWeak type="a">1.22.2026::5:15:35</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.22.2026::5:15:35</_modifiedTime>
+					<_id type="a">GUID cb17ae81-62b5-4eb4-9287-316b15c5b882</_id>
+					<_modifiedTimeWeak type="a">1.26.2026::0:16:31</_modifiedTimeWeak>
+					<_modifiedTime type="a">1.26.2026::0:16:31</_modifiedTime>
 					<_value type="a">cellBalanceDisable</_value>
 				</ILiteralSpecification>
 				<IType type="e">
-					<_id type="a">GUID 57b83fc5-f524-4eb1-9b00-0f054c78b22b</_id>
+					<_id type="a">GUID 3c07e7c1-e75a-4279-83fc-9934c6b998bd</_id>
 					<_myState type="a">8192</_myState>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
@@ -1469,16 +1469,16 @@
 				</IType>
 				</_implicitClass>
 				<AggregatesList type="e">
-					<value>GUID 24ef083c-ebff-4229-9439-3882de274dcd</value>
-					<value>GUID 6104eec7-46d6-4ad6-8391-53da9bd0b7ed</value>
+					<value>GUID f0e4cd6a-0ddc-433d-a1dd-8e90a016c933</value>
+					<value>GUID 07344203-2a70-4a70-8a88-aa653eb4a4ff</value>
 				</AggregatesList>
 			</IPart>
 			<ITag type="e">
-				<_id type="a">GUID 24ef083c-ebff-4229-9439-3882de274dcd</_id>
+				<_id type="a">GUID f0e4cd6a-0ddc-433d-a1dd-8e90a016c933</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">canBeInvokedConcurrently</_name>
-				<_modifiedTimeWeak type="a">1.22.2026::5:15:34</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.22.2026::5:15:34</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.26.2026::0:16:30</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.26.2026::0:16:30</_modifiedTime>
 				<_typeOf type="r">
 					<IHandle type="e">
 						<_hm2Class type="a">IType</_hm2Class>
@@ -1499,21 +1499,21 @@
 					</IHandle>
 				</_base>
 				<AggregatesList type="e">
-					<value>GUID 006f5936-125b-4686-9d8e-d0bd8a57d220</value>
+					<value>GUID 3ffe6405-186a-4ea7-87df-8f5b1d8bf9ed</value>
 				</AggregatesList>
 			</ITag>
 			<ILiteralSpecification type="e">
-				<_id type="a">GUID 006f5936-125b-4686-9d8e-d0bd8a57d220</_id>
-				<_modifiedTimeWeak type="a">1.22.2026::5:15:34</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.22.2026::5:15:34</_modifiedTime>
+				<_id type="a">GUID 3ffe6405-186a-4ea7-87df-8f5b1d8bf9ed</_id>
+				<_modifiedTimeWeak type="a">1.26.2026::0:16:30</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.26.2026::0:16:30</_modifiedTime>
 				<_value type="a">True</_value>
 			</ILiteralSpecification>
 			<ITag type="e">
-				<_id type="a">GUID 6104eec7-46d6-4ad6-8391-53da9bd0b7ed</_id>
+				<_id type="a">GUID 07344203-2a70-4a70-8a88-aa653eb4a4ff</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">minimumStartInterval</_name>
-				<_modifiedTimeWeak type="a">1.22.2026::5:15:34</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.22.2026::5:15:34</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.26.2026::0:16:30</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.26.2026::0:16:30</_modifiedTime>
 				<_typeOf type="r">
 					<IHandle type="e">
 						<_hm2Class type="a">IType</_hm2Class>
@@ -1535,17 +1535,17 @@
 					</IHandle>
 				</_base>
 				<AggregatesList type="e">
-					<value>GUID de21f91d-32cc-4ac2-b81b-282fd5c0caa5</value>
+					<value>GUID 8a38ec3f-d98d-4282-97e6-763df3235682</value>
 				</AggregatesList>
 			</ITag>
 			<ILiteralSpecification type="e">
-				<_id type="a">GUID de21f91d-32cc-4ac2-b81b-282fd5c0caa5</_id>
-				<_modifiedTimeWeak type="a">1.22.2026::5:15:34</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.22.2026::5:15:34</_modifiedTime>
+				<_id type="a">GUID 8a38ec3f-d98d-4282-97e6-763df3235682</_id>
+				<_modifiedTimeWeak type="a">1.26.2026::0:16:30</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.26.2026::0:16:30</_modifiedTime>
 				<_value type="a">0.0</_value>
 			</ILiteralSpecification>
 			<IPart type="e">
-				<_id type="a">GUID c5b8c5c0-36a1-423d-9798-ba7e4e8b7545</_id>
+				<_id type="a">GUID ae9a524f-e882-481e-9962-071535df840c</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">OIE_P_CellBalanceReq_cellBalanceDisable</_name>
 				<Stereotypes type="c">
@@ -1562,13 +1562,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.22.2026::5:15:36</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.22.2026::5:15:36</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.26.2026::0:16:32</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.26.2026::0:16:32</_modifiedTime>
 				<_multiplicity type="a">1</_multiplicity>
 				<_otherClass type="r">
 					<IClassifierHandle type="e">
 						<_hm2Class type="a">IClass</_hm2Class>
-						<_hid type="a">GUID f40f39af-5201-428e-99a2-985b76e5a6ad</_hid>
+						<_hid type="a">GUID 1d58f064-6296-47fd-91bb-cc90c258bd9a</_hid>
 					</IClassifierHandle>
 				</_otherClass>
 				<_inverse type="r">
@@ -1576,12 +1576,12 @@
 					</IHandle>
 				</_inverse>
 				<_implicitClass type="p"><IClass type="e">
-					<_id type="a">GUID f40f39af-5201-428e-99a2-985b76e5a6ad</_id>
+					<_id type="a">GUID 1d58f064-6296-47fd-91bb-cc90c258bd9a</_id>
 					<_myState type="a">10240</_myState>
 					<_name type="a">OIE_P_CellBalanceReq_cellBalanceDisable</_name>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.22.2026::5:15:37</_modifiedTime>
-					<weakCGTime type="a">1.22.2026::5:15:37</weakCGTime>
+					<_modifiedTime type="a">1.26.2026::0:16:33</_modifiedTime>
+					<weakCGTime type="a">1.26.2026::0:16:33</weakCGTime>
 					<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 					<_itsStateChart type="r">
 						<IHandle type="e">
@@ -1589,11 +1589,11 @@
 					</_itsStateChart>
 					<_classModifier type="a">Unspecified</_classModifier>
 					<AggregatesList type="e">
-						<value>GUID 7d84d4c0-9753-45c0-af86-231159ae9857</value>
+						<value>GUID ae61f5bb-cd92-44e5-b7bd-05f024e5937d</value>
 					</AggregatesList>
 				</IClass>
 				<IComment type="e">
-					<_id type="a">GUID 7d84d4c0-9753-45c0-af86-231159ae9857</_id>
+					<_id type="a">GUID ae61f5bb-cd92-44e5-b7bd-05f024e5937d</_id>
 					<_myState type="a">8192</_myState>
 					<_name type="a">OIE_P_CellBalanceReq_cellBalanceDisable_iRef</_name>
 					<Stereotypes type="c">
@@ -1610,15 +1610,15 @@
 							
 						</IRPYRawContainer>
 					</Stereotypes>
-					<_modifiedTimeWeak type="a">1.22.2026::5:15:37</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.22.2026::5:15:37</_modifiedTime>
+					<_modifiedTimeWeak type="a">1.26.2026::0:16:33</_modifiedTimeWeak>
+					<_modifiedTime type="a">1.26.2026::0:16:33</_modifiedTime>
 					<AggregatesList type="e">
-						<value>GUID 1288d256-f274-4c37-8ae8-2bf65cbf0936</value>
-						<value>GUID 3726c713-12f2-424a-8c49-6ff69907e538</value>
+						<value>GUID 53f7a822-1585-4517-a8e3-757c4428d90f</value>
+						<value>GUID 9a935bc6-a50a-4da3-80d8-600c75bb10ef</value>
 					</AggregatesList>
 				</IComment>
 				<IDependency type="e">
-					<_id type="a">GUID 1288d256-f274-4c37-8ae8-2bf65cbf0936</_id>
+					<_id type="a">GUID 53f7a822-1585-4517-a8e3-757c4428d90f</_id>
 					<_myState type="a">2048</_myState>
 					<_name type="a">P_CellBalanceReq</_name>
 					<Stereotypes type="c">
@@ -1635,8 +1635,8 @@
 							
 						</IRPYRawContainer>
 					</Stereotypes>
-					<_modifiedTimeWeak type="a">1.22.2026::5:15:37</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.22.2026::5:15:37</_modifiedTime>
+					<_modifiedTimeWeak type="a">1.26.2026::0:16:32</_modifiedTimeWeak>
+					<_modifiedTime type="a">1.26.2026::0:16:32</_modifiedTime>
 					<_dependsOn type="r">
 						<INObjectHandle type="e">
 							<_hm2Class type="a">IPort</_hm2Class>
@@ -1646,12 +1646,12 @@
 					<_dependent type="r">
 						<INObjectHandle type="e">
 							<_hm2Class type="a">IComment</_hm2Class>
-							<_hid type="a">GUID 7d84d4c0-9753-45c0-af86-231159ae9857</_hid>
+							<_hid type="a">GUID ae61f5bb-cd92-44e5-b7bd-05f024e5937d</_hid>
 						</INObjectHandle>
 					</_dependent>
 				</IDependency>
 				<IDependency type="e">
-					<_id type="a">GUID 3726c713-12f2-424a-8c49-6ff69907e538</_id>
+					<_id type="a">GUID 9a935bc6-a50a-4da3-80d8-600c75bb10ef</_id>
 					<_myState type="a">2048</_myState>
 					<_name type="a">cellBalanceDisable</_name>
 					<Stereotypes type="c">
@@ -1668,8 +1668,8 @@
 							
 						</IRPYRawContainer>
 					</Stereotypes>
-					<_modifiedTimeWeak type="a">1.22.2026::5:15:37</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.22.2026::5:15:37</_modifiedTime>
+					<_modifiedTimeWeak type="a">1.26.2026::0:16:33</_modifiedTimeWeak>
+					<_modifiedTime type="a">1.26.2026::0:16:33</_modifiedTime>
 					<_dependsOn type="r">
 						<INObjectHandle type="e">
 							<_hm2Class type="a">IPrimitiveOperation</_hm2Class>
@@ -1683,17 +1683,17 @@
 					<_dependent type="r">
 						<INObjectHandle type="e">
 							<_hm2Class type="a">IComment</_hm2Class>
-							<_hid type="a">GUID 7d84d4c0-9753-45c0-af86-231159ae9857</_hid>
+							<_hid type="a">GUID ae61f5bb-cd92-44e5-b7bd-05f024e5937d</_hid>
 						</INObjectHandle>
 					</_dependent>
 				</IDependency>
 				</_implicitClass>
 				<AggregatesList type="e">
-					<value>GUID 6dd0a93b-2bf5-452a-a2b5-24f4e1affef4</value>
+					<value>GUID a045efc5-904f-4872-a961-8a9deefc0e24</value>
 				</AggregatesList>
 			</IPart>
 			<IDependency type="e">
-				<_id type="a">GUID 6dd0a93b-2bf5-452a-a2b5-24f4e1affef4</_id>
+				<_id type="a">GUID a045efc5-904f-4872-a961-8a9deefc0e24</_id>
 				<_myState type="a">2048</_myState>
 				<_name type="a">REoiSWC_BalancingMngr_P_CellBalanceReq_cellBalanceDisable</_name>
 				<Stereotypes type="c">
@@ -1710,33 +1710,33 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.22.2026::5:15:36</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.22.2026::5:15:36</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.26.2026::0:16:32</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.26.2026::0:16:32</_modifiedTime>
 				<_dependsOn type="r">
 					<INObjectHandle type="e">
 						<_hm2Class type="a">IPart</_hm2Class>
-						<_hid type="a">GUID 7c42ccdb-0f4f-4dbb-8b7c-facd05a87138</_hid>
+						<_hid type="a">GUID 20c15c7a-e3fe-4f71-9f05-e129a833e515</_hid>
 					</INObjectHandle>
 				</_dependsOn>
 				<_dependent type="r">
 					<INObjectHandle type="e">
 						<_hm2Class type="a">IPart</_hm2Class>
-						<_hid type="a">GUID c5b8c5c0-36a1-423d-9798-ba7e4e8b7545</_hid>
+						<_hid type="a">GUID ae9a524f-e882-481e-9962-071535df840c</_hid>
 					</INObjectHandle>
 				</_dependent>
 			</IDependency>
 			</_implicitClass>
 			<AggregatesList type="e">
-				<value>GUID 8131c746-04e1-4131-ad6f-a468025e04f6</value>
-				<value>GUID 49e29804-5b3b-444f-9f46-a87e0708b2ff</value>
+				<value>GUID 559fd41b-0d59-464f-a243-d4899be1ca13</value>
+				<value>GUID a9dff667-8e67-41a5-b754-911672f127c9</value>
 			</AggregatesList>
 		</IPart>
 		<ITag type="e">
-			<_id type="a">GUID 8131c746-04e1-4131-ad6f-a468025e04f6</_id>
+			<_id type="a">GUID 559fd41b-0d59-464f-a243-d4899be1ca13</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">handleTerminationAndRestart</_name>
-			<_modifiedTimeWeak type="a">1.22.2026::5:15:29</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.22.2026::5:15:29</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.26.2026::0:16:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2026::0:16:25</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -1758,21 +1758,21 @@
 				</IHandle>
 			</_base>
 			<AggregatesList type="e">
-				<value>GUID 8a1477b2-68a6-40b6-94d8-ac959c3629f2</value>
+				<value>GUID 1f414221-d112-4b1a-843f-5230a0762868</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 8a1477b2-68a6-40b6-94d8-ac959c3629f2</_id>
-			<_modifiedTimeWeak type="a">1.22.2026::5:15:29</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.22.2026::5:15:29</_modifiedTime>
+			<_id type="a">GUID 1f414221-d112-4b1a-843f-5230a0762868</_id>
+			<_modifiedTimeWeak type="a">1.26.2026::0:16:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2026::0:16:25</_modifiedTime>
 			<_value type="a">noSupport</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
-			<_id type="a">GUID 49e29804-5b3b-444f-9f46-a87e0708b2ff</_id>
+			<_id type="a">GUID a9dff667-8e67-41a5-b754-911672f127c9</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">supportsMultipleInstantiation</_name>
-			<_modifiedTimeWeak type="a">1.22.2026::5:15:29</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.22.2026::5:15:29</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.26.2026::0:16:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2026::0:16:25</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -1793,13 +1793,13 @@
 				</IHandle>
 			</_base>
 			<AggregatesList type="e">
-				<value>GUID 6bdb265d-e997-4dad-86ac-169a80167b8f</value>
+				<value>GUID 615d8bfb-82a8-4a74-9e70-e0796f2e2b25</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 6bdb265d-e997-4dad-86ac-169a80167b8f</_id>
-			<_modifiedTimeWeak type="a">1.22.2026::5:15:29</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.22.2026::5:15:29</_modifiedTime>
+			<_id type="a">GUID 615d8bfb-82a8-4a74-9e70-e0796f2e2b25</_id>
+			<_modifiedTimeWeak type="a">1.26.2026::0:16:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.26.2026::0:16:25</_modifiedTime>
 			<_value type="a">False</_value>
 		</ILiteralSpecification>
 		<IClass type="e">

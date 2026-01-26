@@ -66,9 +66,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.25.2026::14:42:41</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.25.2026::14:42:41</_modifiedTime>
-			<weakCGTime type="a">1.25.2026::14:42:41</weakCGTime>
+			<_modifiedTimeWeak type="a">1.26.2026::0:19:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.25.2026::23:29:27</_modifiedTime>
+			<weakCGTime type="a">1.26.2026::0:19:45</weakCGTime>
 			<strongCGTime type="a">1.15.2026::4:8:49</strongCGTime>
 			<_defaultComposite type="s">GUID 9797814f-4951-4c75-bb97-60d184826122</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -23480,7 +23480,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<_id type="a">GUID 88939804-b55d-4b98-a2b3-20f49f6e0e59</_id>
 			<_myState type="a">8192</_myState>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 			<_kind type="a">Language</_kind>
 		</IType>
 		<ITag type="e">
@@ -24342,11 +24342,6 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<Annotations type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Annotations>
 			<_modifiedTimeWeak type="a">1.25.2026::14:19:12</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.25.2026::14:19:12</_modifiedTime>
 			<_lastID type="a">1</_lastID>
@@ -24727,9 +24722,9 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.25.2026::14:42:41</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.25.2026::14:42:41</_modifiedTime>
-			<weakCGTime type="a">1.25.2026::14:42:41</weakCGTime>
+			<_modifiedTimeWeak type="a">1.26.2026::0:19:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.25.2026::23:29:27</_modifiedTime>
+			<weakCGTime type="a">1.26.2026::0:19:45</weakCGTime>
 			<strongCGTime type="a">1.19.2026::6:5:0</strongCGTime>
 			<_defaultComposite type="s">GUID c444799e-f50f-4464-8143-2596736889ba</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -24771,7 +24766,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.25.2026::14:42:41</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.26.2026::0:19:45</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -24782,15 +24777,10 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					<_hid type="a">GUID 6a358fbd-a212-4d93-a3b5-ae96e8c80a53</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">1.25.2026::14:42:41</_modifiedTime>
+			<_modifiedTime type="a">1.25.2026::23:29:27</_modifiedTime>
 			<_lastID type="a">39</_lastID>
-			<weakCGTime type="a">1.25.2026::14:42:41</weakCGTime>
+			<weakCGTime type="a">1.26.2026::0:19:45</weakCGTime>
 			<strongCGTime type="a">1.15.2026::4:8:51</strongCGTime>
-			<Ports type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Ports>
 			<_itsStateChart type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -25291,9 +25281,9 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.25.2026::14:42:41</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.25.2026::14:43:44</_modifiedTime>
-			<_lastModifiedTime type="a">1.25.2026::14:43:44</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">1.26.2026::0:19:45</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.25.2026::23:29:27</_modifiedTime>
+			<_lastModifiedTime type="a">1.26.2026::0:19:45</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -32998,6 +32988,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
 				<CGIText type="e">
+					<m_str type="a">sWC_SigInput_sWC_BMS_MainCntrl</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">

@@ -45,8 +45,8 @@
 								<_hid type="a">GUID 94c51895-c2f9-470b-9c91-5c3c5da7fd3b</_hid>
 							</IHandle>
 						</_theDiagram>
-						<_UpLeft type="a">637 294 </_UpLeft>
-						<_DownRight type="a">1607 886 </_DownRight>
+						<_UpLeft type="a">184 0 </_UpLeft>
+						<_DownRight type="a">1802 1023 </_DownRight>
 						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
 						<m_bIsActiveView type="a">1</m_bIsActiveView>
 					</CGEMdiDiagramParams>

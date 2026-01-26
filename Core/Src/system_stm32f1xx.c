@@ -120,9 +120,9 @@
                is no need to call the 2 first functions listed above, since SystemCoreClock
                variable is updated automatically.
   */
-uint32_t SystemCoreClock = 16000000;
-const uint8_t AHBPrescTable[16U] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
-const uint8_t APBPrescTable[8U] =  {0, 0, 0, 0, 1, 2, 3, 4};
+uint32 SystemCoreClock = 16000000;
+const uint8 AHBPrescTable[16U] = {0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 3, 4, 6, 7, 8, 9};
+const uint8 APBPrescTable[8U] =  {0, 0, 0, 0, 1, 2, 3, 4};
 
 /**
   * @}
@@ -246,14 +246,14 @@ void SystemInit (void)
   */
 void SystemCoreClockUpdate (void)
 {
-  uint32_t tmp = 0U, pllmull = 0U, pllsource = 0U;
+  uint32 tmp = 0U, pllmull = 0U, pllsource = 0U;
 
 #if defined(STM32F105xC) || defined(STM32F107xC)
-  uint32_t prediv1source = 0U, prediv1factor = 0U, prediv2factor = 0U, pll2mull = 0U;
+  uint32 prediv1source = 0U, prediv1factor = 0U, prediv2factor = 0U, pll2mull = 0U;
 #endif /* STM32F105xC */
 
 #if defined(STM32F100xB) || defined(STM32F100xE)
-  uint32_t prediv1factor = 0U;
+  uint32 prediv1factor = 0U;
 #endif /* STM32F100xB or STM32F100xE */
     
   /* Get SYSCLK source -------------------------------------------------------*/
@@ -289,7 +289,7 @@ void SystemCoreClockUpdate (void)
        SystemCoreClock = (HSE_VALUE / prediv1factor) * pllmull; 
  #else
         /* HSE selected as PLL clock entry */
-        if ((RCC->CFGR & RCC_CFGR_PLLXTPRE) != (uint32_t)RESET)
+        if ((RCC->CFGR & RCC_CFGR_PLLXTPRE) != (uint32)RESET)
         {/* HSE oscillator clock divided by 2 */
           SystemCoreClock = (HSE_VALUE >> 1U) * pllmull;
         }
@@ -371,7 +371,7 @@ void SystemCoreClockUpdate (void)
   */ 
 void SystemInit_ExtMemCtl(void) 
 {
-  __IO uint32_t tmpreg;
+  __IO uint32 tmpreg;
   /*!< FSMC Bank1 NOR/SRAM3 is used for the STM3210E-EVAL, if another Bank is 
     required, then adjust the Register Addresses */
 

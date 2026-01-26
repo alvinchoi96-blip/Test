@@ -11,11 +11,11 @@
 
 void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
 {
-	uint8_t i;
+	uint8 i;
 
 	if (HAL_CAN_GetRxMessage(hcan, CAN_RX_FIFO0, &RxHeader, ucRxData) != HAL_OK)
 	{
-		uint32_t errorcode = hcan->ErrorCode;
+		uint32 errorcode = hcan->ErrorCode;
 		if(errorcode == HAL_CAN_ERROR_NOT_INITIALIZED)
 		{
 //			HAL_CAN_Init(&hcan);

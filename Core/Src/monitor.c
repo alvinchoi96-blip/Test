@@ -157,7 +157,7 @@ void print_adc(void)
 	}
 }
 
-void print_etc(uint8_t datalog_en)
+void print_etc(uint8 datalog_en)
 {
 	if (datalog_en == 1)
 	{
@@ -173,7 +173,7 @@ void print_etc(uint8_t datalog_en)
 
 /******************** LTC6811 API ********************/
 
-void print_error(int error)
+void print_error(sint32 error)
 {
 	char str[80];
 
@@ -189,7 +189,7 @@ void print_error(int error)
 }
 
 // brief Prints cell voltage codes to the serial port
-void print_cells(uint8_t datalog_en)
+void print_cells(uint8 datalog_en)
 {
 	char str[256];
 
@@ -199,18 +199,18 @@ void print_cells(uint8_t datalog_en)
 		if (C_CELL_PRINT == 1)
 		{
 			Uart1Transmit("\t");
-			for (int i = 0; i < bms_ic[0].ic_reg.cell_channels; i++)
+			for (sint32 i = 0; i < bms_ic[0].ic_reg.cell_channels; i++)
 			{
 				sprintf(str, "C%d     ", i + 1);
 				Uart1Transmit(str);
 			}
 			Uart1Transmit("\r\n");
 
-			for (int n = 0; n < TOTAL_IC; n++)
+			for (sint32 n = 0; n < TOTAL_IC; n++)
 			{
 				sprintf(str, " IC%d\t", n + 1);
 				Uart1Transmit(str);
-				for (int i = 0; i < bms_ic[0].ic_reg.cell_channels; i++)
+				for (sint32 i = 0; i < bms_ic[0].ic_reg.cell_channels; i++)
 				{
 					sprintf(str, "%d, ", bms_ic[n].cells.c_codes[i]);
 					Uart1Transmit(str);
@@ -230,9 +230,9 @@ void print_cells(uint8_t datalog_en)
 
 		sprintf(pstr, "\r\n%3d", TOT_CELLS);
 
-		for (int n = 0; n < TOTAL_IC; n++)
+		for (sint32 n = 0; n < TOTAL_IC; n++)
 		{
-			for (int i = 0; i < 12; i++)
+			for (sint32 i = 0; i < 12; i++)
 			{
 				sprintf(vstr, ",%5d", bms_ic[n].cells.c_codes[i]);
 				strcat(pstr, vstr);
@@ -246,7 +246,7 @@ void print_cells(uint8_t datalog_en)
 }
 
 // brief Prints GPIO voltage codes and Vref2 voltage code onto the serial port
-void print_aux(uint8_t datalog_en)
+void print_aux(uint8 datalog_en)
 {
 	if (datalog_en == 0)
 	{
@@ -255,19 +255,19 @@ void print_aux(uint8_t datalog_en)
 		if (C_CELL_PRINT == 1)
 		{
 			Uart1Transmit("\t");
-			for (int i = 0; i < 2; i++)
+			for (sint32 i = 0; i < 2; i++)
 			{
 				sprintf(str, "T%d   ", i + 1);
 				Uart1Transmit(str);
 			}
 			Uart1Transmit("\r\n");
 
-			for (int n = 0; n < TOTAL_IC; n++)
+			for (sint32 n = 0; n < TOTAL_IC; n++)
 			{
 				sprintf(str, " IC%d\t", n + 1);
 				Uart1Transmit(str);
 
-				for (int i = 0; i < 2; i++)
+				for (sint32 i = 0; i < 2; i++)
 				{
 					sprintf(str, "%d, ", nTemp[n * 2 + i]);
 					Uart1Transmit(str);
@@ -287,10 +287,10 @@ void print_aux(uint8_t datalog_en)
 
 		sprintf(pstr, ",%2d", TOT_PLACE);
 
-		int k = 0;
-		for (int n = 0; n < TOTAL_IC; n++)
+		sint32 k = 0;
+		for (sint32 n = 0; n < TOTAL_IC; n++)
 		{
-			for (int i = 0; i < 2; i++)
+			for (sint32 i = 0; i < 2; i++)
 			{
 				sprintf(vstr, ",%4d", nTemp[n * 2 + i]);
 				strcat(pstr, vstr);
@@ -320,7 +320,7 @@ void print_stat()
 {
 	char str[80];
 
-	for (int n = 0; n < TOTAL_IC; n++)
+	for (sint32 n = 0; n < TOTAL_IC; n++)
 	{
 		sprintf(str, " IC %d SOC:%d, Itemp:%d, VregA:%d, VregD:%d\r\n", n + 1, bms_ic[n].stat.stat_codes[0] * 20,
 				bms_ic[n].stat.stat_codes[1], bms_ic[n].stat.stat_codes[2], bms_ic[n].stat.stat_codes[3]);
@@ -334,7 +334,7 @@ void print_pec()
 {
 	char str[80];
 
-	for (int n = 0; n < TOTAL_IC; n++)
+	for (sint32 n = 0; n < TOTAL_IC; n++)
 	{
 		sprintf(str, "\r\n%d : PEC Errors Detected on IC%d\r\n", bms_ic[n].crc_count.pec_count, n + 1);
 		Uart1Transmit(str);
@@ -346,7 +346,7 @@ void print_open()
 {
 	char str[80];
 
-	for (int n = 0; n < TOTAL_IC; n++)
+	for (sint32 n = 0; n < TOTAL_IC; n++)
 	{
 		if (bms_ic[n].system_open_wire == 0)
 		{
@@ -355,7 +355,7 @@ void print_open()
 		}
 		else
 		{
-			for (int cell = 0; cell < bms_ic[0].ic_reg.cell_channels + 1; cell++)
+			for (sint32 cell = 0; cell < bms_ic[0].ic_reg.cell_channels + 1; cell++)
 			{
 				if ((bms_ic[n].system_open_wire & (1 << cell)) > 0)
 				{
@@ -375,7 +375,7 @@ void print_config()
 
 	Uart1Transmit("Written Configuration:\r\n");
 
-	for (int n = 0; n < TOTAL_IC; n++)
+	for (sint32 n = 0; n < TOTAL_IC; n++)
 	{
 		sprintf(str, " IC %d: %d, %d, %d, %d, %d, %d, Calculated PEC: %d\r\n", n + 1, bms_ic[n].configa.tx_data[0],
 				bms_ic[n].configa.tx_data[1], bms_ic[n].configa.tx_data[2], bms_ic[n].configa.tx_data[3],

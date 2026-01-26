@@ -32,7 +32,7 @@ void User_Init(void)
 		TOT_CELLS = TOTAL_IC * CELL_COUNT;			//20S
 
 
-	uint32_t i;
+	uint32 i;
 
 	ReadFromFlash();
 
@@ -63,7 +63,7 @@ void User_Init(void)
 		ErrorHandler(2);
 	}
 
-	if (HAL_UART_Receive_IT(&huart1, (uint8_t*) ucpUartRx1Buf, 16) != HAL_OK)
+	if (HAL_UART_Receive_IT(&huart1, (uint8*) ucpUartRx1Buf, 16) != HAL_OK)
 	{
 		ErrorHandler(4);
 	}
@@ -76,7 +76,7 @@ void User_Init(void)
 
 ///	SOC = Get_OCV_SOC(i);  										// SOC is 0.1% scale, Vol is mV scale
 
-//	REM_AH = (uint32_t) SOC * (uint16_t)AMPERE_HOUR / 100;
+//	REM_AH = (uint32) SOC * (uint16)AMPERE_HOUR / 100;
 //	lRemAsec = REM_AH *3600;
 
 //	CAN_Tx_Process(CAN_BASE + 2, un202_TxData.BY);
@@ -203,8 +203,8 @@ void Main_Loop(void)
 void Ad_Conversion(void)
 
 {
-	uint16_t i;
-	uint32_t ulTmp1;
+	uint16 i;
+	uint32 ulTmp1;
 	int32_t lTmp1;
 	ADC_ChannelConfTypeDef sConfig = { 0 };
 
@@ -248,19 +248,19 @@ void Ad_Conversion(void)
 
 	if(ulChargeCurrAdcAvg >= 15)
 	{
-		ulTmp1 = (uint32_t)(ulChargeCurrAdcAvg);
+		ulTmp1 = (uint32)(ulChargeCurrAdcAvg);
 		ulTmp1 *= 33000;
 		ulTmp1 /= 4095;
-		lTmp1 = (uint32_t)(ulTmp1*200/1500);
+		lTmp1 = (uint32)(ulTmp1*200/1500);
 
 		I_TOT_ACTUAL = (int16_t) lTmp1;
 	}
 	else
 	{
-		ulTmp1 = (uint32_t)(ulDischargeCurrAdcAvg);
+		ulTmp1 = (uint32)(ulDischargeCurrAdcAvg);
 		ulTmp1 *= 33000;
 		ulTmp1 /= 4095;
-		lTmp1 = (uint32_t)(ulTmp1*200/1500);
+		lTmp1 = (uint32)(ulTmp1*200/1500);
 		if(lTmp1 <= 10)
 			lTmp1 = 0;								//
 		I_TOT_ACTUAL = (int16_t) (-lTmp1);
@@ -268,20 +268,20 @@ void Ad_Conversion(void)
 /*
 	ulTmp1 *= 33000;
 	ulTmp1 /= 4095;
-	lTmp1 = (uint32_t)(ulTmp1*200/1500);
+	lTmp1 = (uint32)(ulTmp1*200/1500);
 
 	I_TOT_ACTUAL = (int16_t) lTmp1;				// 0x201 48,16,iTotalActual "Actual current of the battery pack (충전:+, 방전:-)"
 	lSumAh += I_TOT_ACTUAL * 10;
 */
 	if (lTmp1 > 0)
 	{
-		usChargeCurrent = (uint16_t) lTmp1;
+		usChargeCurrent = (uint16) lTmp1;
 		usDischargeCurrent = 0;
 	}
 	else
 	{
 		usChargeCurrent = 0;
-		usDischargeCurrent = (uint16_t) (-lTmp1);
+		usDischargeCurrent = (uint16) (-lTmp1);
 	}
 
 }
@@ -291,9 +291,9 @@ void Ad_Conversion(void)
 void Read_CellData(void)
 {
 	HAL_GPIO_WritePin(GPIOC, GPIO_PIN_6, ON);	//LTC 6820 ON
-	uint8_t n, i, j;
-	uint32_t ulSum = 0;
-	uint16_t usMax = 0, usMin = 0xffff;
+	uint8 n, i, j;
+	uint32 ulSum = 0;
+	uint16 usMax = 0, usMin = 0xffff;
 	wakeup_idle();
 
 	LTC6811_rdcv(0, bms_ic);
@@ -310,7 +310,7 @@ void Read_CellData(void)
 				usCellVolBuf[n][i][8] = bms_ic[n].cells.c_codes[i];
 			ulCellVolTot[n][i] -= usCellVolBuf[n][i][0];
 			ulCellVolTot[n][i] += usCellVolBuf[n][i][8];
-			usCellVolAvg[n][i] = (uint16_t) (ulCellVolTot[n][i] >> 3);
+			usCellVolAvg[n][i] = (uint16) (ulCellVolTot[n][i] >> 3);
 
 			for (j = 0; j < 8; j++)
 				usCellVolBuf[n][i][j] = usCellVolBuf[n][i][j + 1];
@@ -331,7 +331,7 @@ void Read_CellData(void)
 	ulSum_Vol = ulSum / 10;          							// divide by 10 to change mV scale
 	CELL_V_HIGH = usMax / 10;									// 0x206 0,16,vHighCell "Highest voltage among battery cells"
 	CELL_V_LOW = usMin / 10;          							// 0x206 16,16,vLowCell "Lowest voltage among battery cells"
-	CELL_V_AVG = (uint16_t) (ulSum / TOT_CELLS) / 10;			// 0x206 32,16,vAverageCell "Average voltage of battery cells"
+	CELL_V_AVG = (uint16) (ulSum / TOT_CELLS) / 10;			// 0x206 32,16,vAverageCell "Average voltage of battery cells"
 	CELL_V_DEVI = (usMax - usMin) / 10;  						// 0x206 48,16,vDeviationCell "Deviation voltage of battery cells"
 	V_TOT_ACTUAL = (int16_t) (ulSum_Vol / 100);					// 0x201 32,16,vTotalActual "Actual voltage of the battery pack"
 
@@ -362,9 +362,9 @@ void Read_TempData(void)
 	}
 	ulCellTempTot[0][0] -= usCellTempBuf[0][0][0];
 	ulCellTempTot[0][0] += usCellTempBuf[0][0][4];
-	usCellTempAvg[0][0] = (uint16_t) (ulCellTempTot[0][0] >> 2);
+	usCellTempAvg[0][0] = (uint16) (ulCellTempTot[0][0] >> 2);
 
-	for (int j = 0; j < 4; j++)
+	for (sint32 j = 0; j < 4; j++)
 		usCellTempBuf[0][0][j] = usCellTempBuf[0][0][j + 1];
 
 	CELL_T_HIGH = sTemp;											// 0x207 0,16,tHighPlace "Highest temperature among battery cells"
@@ -382,7 +382,7 @@ void Cell_Balancing(void)
 	if(++usCellBalanceCnt == TMR10S_1HZ)						//밸런싱 중에 셀 전압 센싱이 낮게 나오기 때문에 밸런싱off후 밸런싱 대상 선정 필요
 	{
 		usCellBalanceCnt = 0;
-		for (int n=0; n<TOTAL_IC; n++)
+		for (sint32 n=0; n<TOTAL_IC; n++)
 		{
 			bms_ic[TOTAL_IC-n-1].configa.tx_data[4]  = 0;
 			bms_ic[TOTAL_IC-n-1].configa.tx_data[5] &= 0xf0;
@@ -408,9 +408,9 @@ void Cell_Balancing(void)
 
 	if(F_CB)
 	{
-		for (int n=0; n<TOTAL_IC; n++)
+		for (sint32 n=0; n<TOTAL_IC; n++)
 		{
-			for (int i=0; i<bms_ic[n].ic_reg.cell_channels; i++)
+			for (sint32 i=0; i<bms_ic[n].ic_reg.cell_channels; i++)
 			{
 
 				if (bms_ic[n].cells.c_codes[i] > CELL_V_HIGH * 10 - 10)
@@ -431,7 +431,7 @@ void Cell_Balancing(void)
 		if(CELL_V_DEVI < Balancing_Hysteresis)
 		{
 			F_CB = 0;
-			for (int n=0; n<TOTAL_IC; n++)
+			for (sint32 n=0; n<TOTAL_IC; n++)
 			{
 				bms_ic[TOTAL_IC-n-1].configa.tx_data[4]  = 0;
 				bms_ic[TOTAL_IC-n-1].configa.tx_data[5] &= 0xf0;
@@ -603,9 +603,9 @@ void CAN_Send_Process(void)
 
 }
 
-void CAN_Tx_Process(uint16_t id, uint8_t data[8])
+void CAN_Tx_Process(uint16 id, uint8 data[8])
 {
-	uint8_t i;
+	uint8 i;
 
 	TxHeader.StdId = id;
 	TxHeader.RTR = CAN_RTR_DATA;
@@ -620,7 +620,7 @@ void CAN_Tx_Process(uint16_t id, uint8_t data[8])
 
 	if (HAL_CAN_AddTxMessage(&hcan, &TxHeader, ucTxData, &unTxMailbox) != HAL_OK)
 	{
-		uint32_t errorcode = hcan.ErrorCode;
+		uint32 errorcode = hcan.ErrorCode;
 		if(errorcode == HAL_CAN_ERROR_NOT_INITIALIZED)
 			HAL_CAN_Init(&hcan);
 	}
@@ -632,7 +632,7 @@ void CAN_Timeout(void)
 	{
 		usVCU_RelayCommandCnt = 0;
 		ucVCU_RelayCommandBuf[5] = VCU_RelayCommandFlag;
-		for (int v = 0; v < 5; v++)
+		for (sint32 v = 0; v < 5; v++)
 		{
 			ucVCU_RelayCommandBuf[v] = ucVCU_RelayCommandBuf[v + 1];
 		}
@@ -688,7 +688,7 @@ void PwrOff_Process(void)
 		SleepMode_count = 0;
 }
 
-void Relays_Control(bool cmd)
+void Relays_Control(boolean cmd)
 {
 	CHARGE_P = cmd;
 	DISCHARGE_P = cmd;
@@ -698,13 +698,13 @@ void Relays_Control(bool cmd)
 void Calculate_SOC(void)
 {
 	lRemAsec += lSumAh / 100;
-//	usSocAh = (uint16_t) (lRemAsec / 36 / (uint16_t)AMPERE_HOUR);
+//	usSocAh = (uint16) (lRemAsec / 36 / (uint16)AMPERE_HOUR);
 	lSumAh = 0;
 
 	SOC = Get_OCV_SOC(CELL_V_AVG);//vol);  										// SOC is 0.1% scale, Vol is mV scale
-	REM_AH = (uint32_t) SOC * (uint16_t)AMPERE_HOUR / 100;					// 0.01Ah scale
+	REM_AH = (uint32) SOC * (uint16)AMPERE_HOUR / 100;					// 0.01Ah scale
 	REM_WH = 4976*SOC/1000;
-			//(uint32_t) REM_AH * ulSum_Vol / 1000;
+			//(uint32) REM_AH * ulSum_Vol / 1000;
 }
 
 void SOC_LED_Process(void)
@@ -786,12 +786,12 @@ void AC_ON_LED_Output(void)
 		FULL_LED = OFF;
 }
 
-int16_t Vol2Temp(uint16_t vol)
+int16_t Vol2Temp(uint16 vol)
 {
-	uint32_t uwTmp;
+	uint32 uwTmp;
 	int16_t temp, t;
 
-	uwTmp = (uint32_t) vol * 100;
+	uwTmp = (uint32) vol * 100;
 
 	if (uwTmp < 211818)          						// over 110 degree C
 		temp = 9999;
@@ -814,7 +814,7 @@ int16_t Vol2Temp(uint16_t vol)
 	return temp; 										// 0.1 degree C scale
 }
 
-int16_t Vol2Temp_5k(uint16_t vol)
+int16_t Vol2Temp_5k(uint16 vol)
 {
 	int16_t temp, t;
 
@@ -840,9 +840,9 @@ int16_t Vol2Temp_5k(uint16_t vol)
 	return temp; 												// 0.1 degree C scale
 }
 
-uint16_t Get_OCV_SOC(uint16_t vol)
+uint16 Get_OCV_SOC(uint16 vol)
 {
-	uint16_t s, soc;
+	uint16 s, soc;
 
 	if (vol <= usOCV[0])
 		return 0;
@@ -861,7 +861,7 @@ uint16_t Get_OCV_SOC(uint16_t vol)
 	return soc;        											// 0.1% scale
 }
 /*
-void SetSOC_LED(uint16_t soc)
+void SetSOC_LED(uint16 soc)
 {
 	if (soc < 700)        										// under 70%
 	{
@@ -898,9 +898,9 @@ void SetSOC_LED(uint16_t soc)
 
 /******************** SPI ********************/
 
-uint8_t spi_read_byte(uint8_t data)
+uint8 spi_read_byte(uint8 data)
 {
-	uint8_t r_data[10] = { 0 };
+	uint8 r_data[10] = { 0 };
 
 	if (HAL_SPI_Receive(&hspi2, r_data, 1, 10) != HAL_OK)
 	{
@@ -910,7 +910,7 @@ uint8_t spi_read_byte(uint8_t data)
 	return r_data[0];
 }
 
-void spi_write_array(uint8_t cnt, uint8_t data[])
+void spi_write_array(uint8 cnt, uint8 data[])
 {
 	if (HAL_SPI_Transmit(&hspi2, data, cnt, 10) != HAL_OK)
 	{
@@ -918,7 +918,7 @@ void spi_write_array(uint8_t cnt, uint8_t data[])
 	}
 }
 
-void spi_write_read(uint8_t w_cnt, uint8_t w_data[], uint8_t r_cnt, uint8_t r_data[])
+void spi_write_read(uint8 w_cnt, uint8 w_data[], uint8 r_cnt, uint8 r_data[])
 {
 	if (HAL_SPI_Transmit(&hspi2, w_data, w_cnt, 10) != HAL_OK)
 	{
@@ -931,7 +931,7 @@ void spi_write_read(uint8_t w_cnt, uint8_t w_data[], uint8_t r_cnt, uint8_t r_da
 	}
 }
 
-void SPI2_CS(uint8_t OnOff)				//for LTC6820 wake up -	PB12(STM32F103RCT)
+void SPI2_CS(uint8 OnOff)				//for LTC6820 wake up -	PB12(STM32F103RCT)
 {
 	if (OnOff)
 		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_12, GPIO_PIN_RESET);       // On
@@ -941,12 +941,12 @@ void SPI2_CS(uint8_t OnOff)				//for LTC6820 wake up -	PB12(STM32F103RCT)
 
 void Uart1Transmit(char *str)
 {
-	HAL_UART_Transmit(&huart1, (uint8_t*) str, strlen(str), 10);
+	HAL_UART_Transmit(&huart1, (uint8*) str, strlen(str), 10);
 }
 
 void Uart1Receive(void)
 {
-	if (HAL_UART_Receive_IT(&huart1, (uint8_t*) ucpUartRx1Buf, sizeof(ucpUartRx1Buf)) != HAL_OK)
+	if (HAL_UART_Receive_IT(&huart1, (uint8*) ucpUartRx1Buf, sizeof(ucpUartRx1Buf)) != HAL_OK)
 	{
 		ErrorHandler(21);
 	}

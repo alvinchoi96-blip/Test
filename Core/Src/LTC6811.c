@@ -47,7 +47,7 @@
 #include "extref.h"
 #include "main.h"
 
-uint16_t crc15Table[256] = { 0x0, 0xc599, 0xceab, 0xb32, 0xd8cf, 0x1d56, 0x1664, 0xd3fd, 0xf407, 0x319e,
+uint16 crc15Table[256] = { 0x0, 0xc599, 0xceab, 0xb32, 0xd8cf, 0x1d56, 0x1664, 0xd3fd, 0xf407, 0x319e,
 		0x3aac,  //!<precomputed CRC15 Table
 		0xff35, 0x2cc8, 0xe951, 0xe263, 0x27fa, 0xad97, 0x680e, 0x633c, 0xa6a5, 0x7558, 0xb0c1, 0xbbf3, 0x7e6a, 0x5990, 0x9c09,
 		0x973b, 0x52a2, 0x815f, 0x44c6, 0x4ff4, 0x8a6d, 0x5b2e, 0x9eb7, 0x9585, 0x501c, 0x83e1, 0x4678, 0x4d4a, 0x88d3, 0xaf29,
@@ -69,7 +69,7 @@ uint16_t crc15Table[256] = { 0x0, 0xc599, 0xceab, 0xb32, 0xd8cf, 0x1d56, 0x1664,
 
 void LTC6811_init_reg_limits(cell_asic ic[])
 {
-	for (uint8_t cic = 0; cic < TOTAL_IC; cic++)
+	for (uint8 cic = 0; cic < TOTAL_IC; cic++)
 	{
 		ic[cic].ic_reg.cell_channels = CELL_COUNT;
 		ic[cic].ic_reg.aux_channels = 5;
@@ -82,7 +82,7 @@ void LTC6811_init_reg_limits(cell_asic ic[])
 
 void wakeup_idle()
 {
-	uint16_t i = 500;
+	uint16 i = 500;
 
 	SPI2_CS(ON);
 	while (i--) // 0.01 msec wait for isoSPI ready mode
@@ -93,7 +93,7 @@ void wakeup_idle()
 //Generic wakeup commannd to wake the LTC6813 from sleep
 void wakeup_sleep()
 {
-	uint16_t i = 20000;
+	uint16 i = 20000;
 
 	SPI2_CS(ON);
 	while (i--) // 0.4 msec(Max) wait for LTC6811 Standby Mode
@@ -102,51 +102,51 @@ void wakeup_sleep()
 }
 
 //Generic function to write 68xx commands. Function calculated PEC for tx_cmd data
-void cmd_68(uint8_t tx_cmd[2])
+void cmd_68(uint8 tx_cmd[2])
 {
-	uint8_t cmd[4];
-	uint16_t cmd_pec;
+	uint8 cmd[4];
+	uint16 cmd_pec;
 
 	cmd[0] = tx_cmd[0];
 	cmd[1] = tx_cmd[1];
 	cmd_pec = pec15_calc(2, cmd);
-	cmd[2] = (uint8_t) (cmd_pec >> 8);
-	cmd[3] = (uint8_t) (cmd_pec);
+	cmd[2] = (uint8) (cmd_pec >> 8);
+	cmd[3] = (uint8) (cmd_pec);
 	SPI2_CS(ON);
 	spi_write_array(4, cmd);
 	SPI2_CS(OFF);
 }
 
 //Generic function to write 68xx commands and write payload data. Function calculated PEC for tx_cmd data
-void write_68(uint8_t tx_cmd[2], uint8_t data[])
+void write_68(uint8 tx_cmd[2], uint8 data[])
 {
-	const uint8_t BYTES_IN_REG = 6;
-	const uint8_t CMD_LEN = 4 + (8 * TOTAL_IC);
-	uint8_t *cmd;
-	uint16_t data_pec;
-	uint16_t cmd_pec;
-	uint8_t cmd_index;
+	const uint8 BYTES_IN_REG = 6;
+	const uint8 CMD_LEN = 4 + (8 * TOTAL_IC);
+	uint8 *cmd;
+	uint16 data_pec;
+	uint16 cmd_pec;
+	uint8 cmd_index;
 
-	cmd = (uint8_t*) malloc(CMD_LEN * sizeof(uint8_t));
+	cmd = (uint8*) malloc(CMD_LEN * sizeof(uint8));
 	cmd[0] = tx_cmd[0];
 	cmd[1] = tx_cmd[1];
 	cmd_pec = pec15_calc(2, cmd);
-	cmd[2] = (uint8_t) (cmd_pec >> 8);
-	cmd[3] = (uint8_t) (cmd_pec);
+	cmd[2] = (uint8) (cmd_pec >> 8);
+	cmd[3] = (uint8) (cmd_pec);
 	cmd_index = 4;
-	for (uint8_t n = TOTAL_IC; n > 0; n--)       // executes for each LTC6811 in daisy chain, this loops starts with
+	for (uint8 n = TOTAL_IC; n > 0; n--)       // executes for each LTC6811 in daisy chain, this loops starts with
 	{												// the last IC on the stack. The first configuration written is
 													// received by the last IC in the daisy chain
 
-		for (uint8_t current_byte = 0; current_byte < BYTES_IN_REG; current_byte++)
+		for (uint8 current_byte = 0; current_byte < BYTES_IN_REG; current_byte++)
 		{
 			cmd[cmd_index] = data[((n - 1) * 6) + current_byte];
 			cmd_index = cmd_index + 1;
 		}
 
-		data_pec = (uint16_t) pec15_calc(BYTES_IN_REG, &data[(n - 1) * 6]); // calculating the PEC for each Iss configuration register data
-		cmd[cmd_index] = (uint8_t) (data_pec >> 8);
-		cmd[cmd_index + 1] = (uint8_t) data_pec;
+		data_pec = (uint16) pec15_calc(BYTES_IN_REG, &data[(n - 1) * 6]); // calculating the PEC for each Iss configuration register data
+		cmd[cmd_index] = (uint8) (data_pec >> 8);
+		cmd[cmd_index + 1] = (uint8) data_pec;
 		cmd_index = cmd_index + 2;
 	}
 
@@ -157,33 +157,33 @@ void write_68(uint8_t tx_cmd[2], uint8_t data[])
 }
 
 //Generic function to write 68xx commands and read data. Function calculated PEC for tx_cmd data
-int8_t read_68(uint8_t tx_cmd[2], uint8_t *rx_data)
+int8_t read_68(uint8 tx_cmd[2], uint8 *rx_data)
 {
-	const uint8_t BYTES_IN_REG = 8;
-	uint8_t cmd[4];
-	uint8_t data[256];
+	const uint8 BYTES_IN_REG = 8;
+	uint8 cmd[4];
+	uint8 data[256];
 	int8_t pec_error = 0;
-	uint16_t cmd_pec;
-	uint16_t data_pec;
-	uint16_t received_pec;
+	uint16 cmd_pec;
+	uint16 data_pec;
+	uint16 received_pec;
 
-	// data = (uint8_t *) malloc((8*TOTAL_IC)*sizeof(uint8_t)); // This is a problem because it can fail
+	// data = (uint8 *) malloc((8*TOTAL_IC)*sizeof(uint8)); // This is a problem because it can fail
 
 	cmd[0] = tx_cmd[0];
 	cmd[1] = tx_cmd[1];
 	cmd_pec = pec15_calc(2, cmd);
-	cmd[2] = (uint8_t) (cmd_pec >> 8);
-	cmd[3] = (uint8_t) (cmd_pec);
+	cmd[2] = (uint8) (cmd_pec >> 8);
+	cmd[3] = (uint8) (cmd_pec);
 
 	SPI2_CS(ON);
 	spi_write_read(4, cmd, (BYTES_IN_REG * TOTAL_IC), data);        //Read the configuration data of all ICs on the daisy chain into
 	SPI2_CS(OFF);                          //rx_data[] array
 
-	for (uint8_t n = 0; n < TOTAL_IC; n++)       //executes for each LTC6811 in the daisy chain and packs the data
+	for (uint8 n = 0; n < TOTAL_IC; n++)       //executes for each LTC6811 in the daisy chain and packs the data
 	{
 		//into the r_comm array as well as check the received Config data
 		//for any bit errors
-		for (uint8_t current_byte = 0; current_byte < BYTES_IN_REG; current_byte++)
+		for (uint8 current_byte = 0; current_byte < BYTES_IN_REG; current_byte++)
 		{
 			rx_data[(n * 8) + current_byte] = data[current_byte + (n * BYTES_IN_REG)];
 		}
@@ -201,14 +201,14 @@ int8_t read_68(uint8_t tx_cmd[2], uint8_t *rx_data)
 /*
  Calculates  and returns the CRC15
  */
-uint16_t pec15_calc(uint8_t len, //Number of bytes that will be used to calculate a PEC
-		uint8_t *data //Array of data that will be used to calculate  a PEC
+uint16 pec15_calc(uint8 len, //Number of bytes that will be used to calculate a PEC
+		uint8 *data //Array of data that will be used to calculate  a PEC
 		)
 {
-	uint16_t remainder, addr;
+	uint16 remainder, addr;
 
 	remainder = 16;                        //initialize the PEC
-	for (uint8_t i = 0; i < len; i++)        // loops for each byte in data array
+	for (uint8 i = 0; i < len; i++)        // loops for each byte in data array
 	{
 		addr = ((remainder >> 7) ^ data[i]) & 0xff;        //calculate PEC table address
 		remainder = (remainder << 8) ^ crc15Table[addr]; //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -218,13 +218,13 @@ uint16_t pec15_calc(uint8_t len, //Number of bytes that will be used to calculat
 }
 
 //Starts cell voltage conversion
-void LTC6811_adcv(uint8_t MD, //ADC Mode
-		uint8_t DCP, //Discharge Permit
-		uint8_t CH //Cell Channels to be measured
+void LTC6811_adcv(uint8 MD, //ADC Mode
+		uint8 DCP, //Discharge Permit
+		uint8 CH //Cell Channels to be measured
 		)
 {
-	uint8_t cmd[4];
-	uint8_t md_bits;
+	uint8 cmd[4];
+	uint8 md_bits;
 
 	md_bits = (MD & 0x02) >> 1;
 	cmd[0] = md_bits + 0x02;
@@ -234,12 +234,12 @@ void LTC6811_adcv(uint8_t MD, //ADC Mode
 }
 
 //Starts cell voltage and SOC conversion
-void LTC6811_adcvsc(uint8_t MD, //ADC Mode
-		uint8_t DCP //Discharge Permit
+void LTC6811_adcvsc(uint8 MD, //ADC Mode
+		uint8 DCP //Discharge Permit
 		)
 {
-	uint8_t cmd[4];
-	uint8_t md_bits;
+	uint8 cmd[4];
+	uint8 md_bits;
 	md_bits = (MD & 0x02) >> 1;
 	cmd[0] = md_bits | 0x04;
 	md_bits = (MD & 0x01) << 7;
@@ -249,12 +249,12 @@ void LTC6811_adcvsc(uint8_t MD, //ADC Mode
 }
 
 // Starts cell voltage  and GPIO 1&2 conversion -> modified for gpio 5 aux in m-BMS3.1ver
-void LTC6811_adcvax(uint8_t MD, //ADC Mode
-		uint8_t DCP //Discharge Permit
+void LTC6811_adcvax(uint8 MD, //ADC Mode
+		uint8 DCP //Discharge Permit
 		)
 {
-	uint8_t cmd[4];
-	uint8_t md_bits;
+	uint8 cmd[4];
+	uint8 md_bits;
 	md_bits = (MD & 0x02) >> 1;
 	cmd[0] = md_bits | 0x04;
 
@@ -264,12 +264,12 @@ void LTC6811_adcvax(uint8_t MD, //ADC Mode
 }
 
 //Starts cell voltage overlap conversion
-void LTC6811_adol(uint8_t MD, //ADC Mode
-		uint8_t DCP //Discharge Permit
+void LTC6811_adol(uint8 MD, //ADC Mode
+		uint8 DCP //Discharge Permit
 		)
 {
-	uint8_t cmd[4];
-	uint8_t md_bits;
+	uint8 cmd[4];
+	uint8 md_bits;
 	md_bits = (MD & 0x02) >> 1;
 	cmd[0] = md_bits + 0x02;
 	md_bits = (MD & 0x01) << 7;
@@ -278,12 +278,12 @@ void LTC6811_adol(uint8_t MD, //ADC Mode
 }
 
 //Starts cell voltage self test conversion
-void LTC6811_cvst(uint8_t MD, //ADC Mode
-		uint8_t ST //Self Test
+void LTC6811_cvst(uint8 MD, //ADC Mode
+		uint8 ST //Self Test
 		)
 {
-	uint8_t cmd[2];
-	uint8_t md_bits;
+	uint8 cmd[2];
+	uint8 md_bits;
 
 	md_bits = (MD & 0x02) >> 1;
 	cmd[0] = md_bits + 0x02;
@@ -294,12 +294,12 @@ void LTC6811_cvst(uint8_t MD, //ADC Mode
 }
 
 //Start an Auxiliary Register Self Test Conversion
-void LTC6811_axst(uint8_t MD, //ADC Mode
-		uint8_t ST //Self Test
+void LTC6811_axst(uint8 MD, //ADC Mode
+		uint8 ST //Self Test
 		)
 {
-	uint8_t cmd[4];
-	uint8_t md_bits;
+	uint8 cmd[4];
+	uint8 md_bits;
 
 	md_bits = (MD & 0x02) >> 1;
 	cmd[0] = md_bits + 0x04;
@@ -310,12 +310,12 @@ void LTC6811_axst(uint8_t MD, //ADC Mode
 }
 
 //Start a Status Register Self Test Conversion
-void LTC6811_statst(uint8_t MD, //ADC Mode
-		uint8_t ST //Self Test
+void LTC6811_statst(uint8 MD, //ADC Mode
+		uint8 ST //Self Test
 		)
 {
-	uint8_t cmd[2];
-	uint8_t md_bits;
+	uint8 cmd[2];
+	uint8 md_bits;
 
 	md_bits = (MD & 0x02) >> 1;
 	cmd[0] = md_bits + 0x04;
@@ -326,17 +326,17 @@ void LTC6811_statst(uint8_t MD, //ADC Mode
 }
 
 //Sends the poll adc command
-uint8_t LTC6811_pladc()
+uint8 LTC6811_pladc()
 {
-	uint8_t cmd[4];
-	uint8_t adc_state = 0xFF;
-	uint16_t cmd_pec;
+	uint8 cmd[4];
+	uint8 adc_state = 0xFF;
+	uint16 cmd_pec;
 
 	cmd[0] = 0x07;
 	cmd[1] = 0x14;
 	cmd_pec = pec15_calc(2, cmd);
-	cmd[2] = (uint8_t) (cmd_pec >> 8);
-	cmd[3] = (uint8_t) (cmd_pec);
+	cmd[2] = (uint8) (cmd_pec >> 8);
+	cmd[3] = (uint8) (cmd_pec);
 
 	SPI2_CS(ON);
 	spi_write_array(4, cmd);
@@ -347,17 +347,17 @@ uint8_t LTC6811_pladc()
 }
 
 //This function will block operation until the ADC has finished it's conversion
-uint32_t LTC6811_pollAdc()
+uint32 LTC6811_pollAdc()
 {
-	uint32_t counter = 0;
-	uint8_t cmd[4];
-	uint16_t cmd_pec;
+	uint32 counter = 0;
+	uint8 cmd[4];
+	uint16 cmd_pec;
 
 	cmd[0] = 0x07;
 	cmd[1] = 0x14;
 	cmd_pec = pec15_calc(2, cmd);
-	cmd[2] = (uint8_t) (cmd_pec >> 8);
-	cmd[3] = (uint8_t) (cmd_pec);
+	cmd[2] = (uint8) (cmd_pec >> 8);
+	cmd[3] = (uint8) (cmd_pec);
 
 	SPI2_CS(ON);
 	spi_write_array(4, cmd);
@@ -370,12 +370,12 @@ uint32_t LTC6811_pollAdc()
 }
 
 //Start a GPIO and Vref2 Conversion
-void LTC6811_adax(uint8_t MD, //ADC Mode
-		uint8_t CHG //GPIO Channels to be measured)
+void LTC6811_adax(uint8 MD, //ADC Mode
+		uint8 CHG //GPIO Channels to be measured)
 		)
 {
-	uint8_t cmd[4];
-	uint8_t md_bits;
+	uint8 cmd[4];
+	uint8 md_bits;
 
 	md_bits = (MD & 0x02) >> 1;
 	cmd[0] = md_bits + 0x04;
@@ -386,12 +386,12 @@ void LTC6811_adax(uint8_t MD, //ADC Mode
 }
 
 //Start an GPIO Redundancy test
-void LTC6811_adaxd(uint8_t MD, //ADC Mode
-		uint8_t CHG //GPIO Channels to be measured)
+void LTC6811_adaxd(uint8 MD, //ADC Mode
+		uint8 CHG //GPIO Channels to be measured)
 		)
 {
-	uint8_t cmd[4];
-	uint8_t md_bits;
+	uint8 cmd[4];
+	uint8 md_bits;
 
 	md_bits = (MD & 0x02) >> 1;
 	cmd[0] = md_bits + 0x04;
@@ -401,12 +401,12 @@ void LTC6811_adaxd(uint8_t MD, //ADC Mode
 }
 
 //Start a Status ADC Conversion
-void LTC6811_adstat(uint8_t MD, //ADC Mode
-		uint8_t CHST //GPIO Channels to be measured
+void LTC6811_adstat(uint8 MD, //ADC Mode
+		uint8 CHST //GPIO Channels to be measured
 		)
 {
-	uint8_t cmd[4];
-	uint8_t md_bits;
+	uint8 cmd[4];
+	uint8 md_bits;
 
 	md_bits = (MD & 0x02) >> 1;
 	cmd[0] = md_bits + 0x04;
@@ -416,12 +416,12 @@ void LTC6811_adstat(uint8_t MD, //ADC Mode
 }
 
 // Start a Status register redundancy test Conversion
-void LTC6811_adstatd(uint8_t MD, //ADC Mode
-		uint8_t CHST //GPIO Channels to be measured
+void LTC6811_adstatd(uint8 MD, //ADC Mode
+		uint8 CHST //GPIO Channels to be measured
 		)
 {
-	uint8_t cmd[2];
-	uint8_t md_bits;
+	uint8 cmd[2];
+	uint8 md_bits;
 
 	md_bits = (MD & 0x02) >> 1;
 	cmd[0] = md_bits + 0x04;
@@ -432,12 +432,12 @@ void LTC6811_adstatd(uint8_t MD, //ADC Mode
 }
 
 // Start an open wire Conversion
-void LTC6811_adow(uint8_t MD, //ADC Mode
-		uint8_t PUP //Discharge Permit
+void LTC6811_adow(uint8 MD, //ADC Mode
+		uint8 PUP //Discharge Permit
 		)
 {
-	uint8_t cmd[2];
-	uint8_t md_bits;
+	uint8 cmd[2];
+	uint8 md_bits;
 	md_bits = (MD & 0x02) >> 1;
 	cmd[0] = md_bits + 0x02;
 	md_bits = (MD & 0x01) << 7;
@@ -446,12 +446,12 @@ void LTC6811_adow(uint8_t MD, //ADC Mode
 }
 
 // Reads the raw cell voltage register data
-void LTC6811_rdcv_reg(uint8_t reg, //Determines which cell voltage register is read back
-		uint8_t *data) //An array of the unparsed cell codes
+void LTC6811_rdcv_reg(uint8 reg, //Determines which cell voltage register is read back
+		uint8 *data) //An array of the unparsed cell codes
 {
-	const uint8_t REG_LEN = 8; //number of bytes in each ICs register + 2 bytes for the PEC
-	uint8_t cmd[4];
-	uint16_t cmd_pec;
+	const uint8 REG_LEN = 8; //number of bytes in each ICs register + 2 bytes for the PEC
+	uint8 cmd[4];
+	uint16 cmd_pec;
 
 	if (reg == 1)     //1: RDCVA
 	{
@@ -485,8 +485,8 @@ void LTC6811_rdcv_reg(uint8_t reg, //Determines which cell voltage register is r
 	}
 
 	cmd_pec = pec15_calc(2, cmd);
-	cmd[2] = (uint8_t) (cmd_pec >> 8);
-	cmd[3] = (uint8_t) (cmd_pec);
+	cmd[2] = (uint8) (cmd_pec >> 8);
+	cmd[3] = (uint8) (cmd_pec);
 
 	SPI2_CS(ON);
 	spi_write_read(4, cmd, (REG_LEN * TOTAL_IC), data);
@@ -495,18 +495,18 @@ void LTC6811_rdcv_reg(uint8_t reg, //Determines which cell voltage register is r
 }
 
 //helper function that parses voltage measurement registers
-int8_t parse_cells(uint8_t current_ic, uint8_t cell_reg, uint8_t cell_data[], uint16_t *cell_codes, uint8_t *ic_pec)
+int8_t parse_cells(uint8 current_ic, uint8 cell_reg, uint8 cell_data[], uint16 *cell_codes, uint8 *ic_pec)
 {
 
-	const uint8_t BYT_IN_REG = 6;
-	const uint8_t CELL_IN_REG = 3;
+	const uint8 BYT_IN_REG = 6;
+	const uint8 CELL_IN_REG = 3;
 	int8_t pec_error = 0;
-	uint16_t parsed_cell;
-	uint16_t received_pec;
-	uint16_t data_pec;
-	uint8_t data_counter = current_ic * NUM_RX_BYT; //data counter
+	uint16 parsed_cell;
+	uint16 received_pec;
+	uint16 data_pec;
+	uint8 data_counter = current_ic * NUM_RX_BYT; //data counter
 
-	for (uint8_t current_cell = 0; current_cell < CELL_IN_REG; current_cell++)// This loop parses the read back data into cell voltages, it
+	for (uint8 current_cell = 0; current_cell < CELL_IN_REG; current_cell++)// This loop parses the read back data into cell voltages, it
 	{
 		// loops once for each of the 3 cell voltage codes in the register
 
@@ -539,12 +539,12 @@ int8_t parse_cells(uint8_t current_ic, uint8_t cell_reg, uint8_t cell_data[], ui
  in the *data point as a byte array. This function is rarely used outside of
  the LTC6811_rdaux() command.
  */
-void LTC6811_rdaux_reg(uint8_t reg, //Determines which GPIO voltage register is read back
-		uint8_t *data) //Array of the unparsed auxiliary codes
+void LTC6811_rdaux_reg(uint8 reg, //Determines which GPIO voltage register is read back
+		uint8 *data) //Array of the unparsed auxiliary codes
 {
-	const uint8_t REG_LEN = 8; // number of bytes in the register + 2 bytes for the PEC
-	uint8_t cmd[4];
-	uint16_t cmd_pec;
+	const uint8 REG_LEN = 8; // number of bytes in the register + 2 bytes for the PEC
+	uint8 cmd[4];
+	uint16 cmd_pec;
 
 	if (reg == 1)     //Read back auxiliary group A
 	{
@@ -573,8 +573,8 @@ void LTC6811_rdaux_reg(uint8_t reg, //Determines which GPIO voltage register is 
 	}
 
 	cmd_pec = pec15_calc(2, cmd);
-	cmd[2] = (uint8_t) (cmd_pec >> 8);
-	cmd[3] = (uint8_t) (cmd_pec);
+	cmd[2] = (uint8) (cmd_pec >> 8);
+	cmd[3] = (uint8) (cmd_pec);
 
 	SPI2_CS(ON);
 	spi_write_read(4, cmd, (REG_LEN * TOTAL_IC), data);
@@ -587,12 +587,12 @@ void LTC6811_rdaux_reg(uint8_t reg, //Determines which GPIO voltage register is 
  in the *data point as a byte array. This function is rarely used outside of
  the LTC6811_rdstat() command.
  */
-void LTC6811_rdstat_reg(uint8_t reg, //Determines which stat register is read back
-		uint8_t *data) //Array of the unparsed stat codes
+void LTC6811_rdstat_reg(uint8 reg, //Determines which stat register is read back
+		uint8 *data) //Array of the unparsed stat codes
 {
-	const uint8_t REG_LEN = 8; // number of bytes in the register + 2 bytes for the PEC
-	uint8_t cmd[4];
-	uint16_t cmd_pec;
+	const uint8 REG_LEN = 8; // number of bytes in the register + 2 bytes for the PEC
+	uint8 cmd[4];
+	uint16 cmd_pec;
 
 	if (reg == 1)     //Read back statiliary group A
 	{
@@ -612,8 +612,8 @@ void LTC6811_rdstat_reg(uint8_t reg, //Determines which stat register is read ba
 	}
 
 	cmd_pec = pec15_calc(2, cmd);
-	cmd[2] = (uint8_t) (cmd_pec >> 8);
-	cmd[3] = (uint8_t) (cmd_pec);
+	cmd[2] = (uint8) (cmd_pec >> 8);
+	cmd[3] = (uint8) (cmd_pec);
 
 	SPI2_CS(ON);
 	spi_write_read(4, cmd, (REG_LEN * TOTAL_IC), data);
@@ -627,7 +627,7 @@ void LTC6811_rdstat_reg(uint8_t reg, //Determines which stat register is read ba
  */
 void LTC6811_clrcell()
 {
-	uint8_t cmd[2] = { 0x07, 0x11 };
+	uint8 cmd[2] = { 0x07, 0x11 };
 	cmd_68(cmd);
 }
 
@@ -638,7 +638,7 @@ void LTC6811_clrcell()
  */
 void LTC6811_clraux()
 {
-	uint8_t cmd[2] = { 0x07, 0x12 };
+	uint8 cmd[2] = { 0x07, 0x12 };
 	cmd_68(cmd);
 }
 
@@ -650,7 +650,7 @@ void LTC6811_clraux()
  */
 void LTC6811_clrstat()
 {
-	uint8_t cmd[2] = { 0x07, 0x13 };
+	uint8 cmd[2] = { 0x07, 0x13 };
 	cmd_68(cmd);
 }
 /*
@@ -660,31 +660,31 @@ void LTC6811_clrstat()
  */
 void LTC6811_clrsctrl()
 {
-	uint8_t cmd[2] = { 0x00, 0x18 };
+	uint8 cmd[2] = { 0x00, 0x18 };
 	cmd_68(cmd);
 }
 //Starts the Mux Decoder diagnostic self test
 void LTC6811_diagn()
 {
-	uint8_t cmd[2] = { 0x07, 0x15 };
+	uint8 cmd[2] = { 0x07, 0x15 };
 	cmd_68(cmd);
 }
 
 //Reads and parses the LTC6811 cell voltage registers.
-uint8_t LTC6811_rdcv(uint8_t reg, 											// Controls which cell voltage register is read back.
+uint8 LTC6811_rdcv(uint8 reg, 											// Controls which cell voltage register is read back.
 		cell_asic ic[]) 												// Array of the parsed cell codes
 {
 	int8_t pec_error = 0;
-	uint8_t *cell_data;
-	uint8_t c_ic = 0;
-	cell_data = (uint8_t*) malloc((NUM_RX_BYT * TOTAL_IC) * sizeof(uint8_t));
+	uint8 *cell_data;
+	uint8 c_ic = 0;
+	cell_data = (uint8*) malloc((NUM_RX_BYT * TOTAL_IC) * sizeof(uint8));
 
 	if (reg == 0)
 	{
-		for (uint8_t cell_reg = 1; cell_reg < ic[0].ic_reg.num_cv_reg + 1; cell_reg++) //executes once for each of the LTC6811 cell voltage registers
+		for (uint8 cell_reg = 1; cell_reg < ic[0].ic_reg.num_cv_reg + 1; cell_reg++) //executes once for each of the LTC6811 cell voltage registers
 		{   																			//increase cell_reg from 1 to 4
 			LTC6811_rdcv_reg(cell_reg, cell_data);
-			for (int n = 0; n < TOTAL_IC; n++)
+			for (sint32 n = 0; n < TOTAL_IC; n++)
 			{
 				if (ic->isospi_reverse == false)
 				{
@@ -704,7 +704,7 @@ uint8_t LTC6811_rdcv(uint8_t reg, 											// Controls which cell voltage regi
 	{
 		LTC6811_rdcv_reg(reg, cell_data);
 
-		for (int n = 0; n < TOTAL_IC; n++)
+		for (sint32 n = 0; n < TOTAL_IC; n++)
 		{
 			if (ic->isospi_reverse == false)
 			{
@@ -728,20 +728,20 @@ uint8_t LTC6811_rdcv(uint8_t reg, 											// Controls which cell voltage regi
  to read the  parsed GPIO codes of the LTC6811. This function will send the requested
  read commands parse the data and store the gpio voltages in aux_codes variable
  */
-int8_t LTC6811_rdaux(uint8_t reg, //Determines which GPIO voltage register is read back.
+int8_t LTC6811_rdaux(uint8 reg, //Determines which GPIO voltage register is read back.
 		cell_asic ic[]) //A two dimensional array of the gpio voltage codes.
 {
-	uint8_t *data;
+	uint8 *data;
 	int8_t pec_error = 0;
-	uint8_t c_ic = 0;
-	data = (uint8_t*) malloc((NUM_RX_BYT * TOTAL_IC) * sizeof(uint8_t));
+	uint8 c_ic = 0;
+	data = (uint8*) malloc((NUM_RX_BYT * TOTAL_IC) * sizeof(uint8));
 
 	if (reg == 0)
 	{
-		for (uint8_t gpio_reg = 1; gpio_reg < ic[0].ic_reg.num_gpio_reg + 3; gpio_reg++)//executes once for each of the LTC6811 aux voltage registers
+		for (uint8 gpio_reg = 1; gpio_reg < ic[0].ic_reg.num_gpio_reg + 3; gpio_reg++)//executes once for each of the LTC6811 aux voltage registers
 		{
 			LTC6811_rdaux_reg(gpio_reg, data);                 		//Reads the raw auxiliary register data into the data[] array
-			for (int n = 0; n < TOTAL_IC; n++)
+			for (sint32 n = 0; n < TOTAL_IC; n++)
 			{
 				if (ic->isospi_reverse == false)
 				{
@@ -759,7 +759,7 @@ int8_t LTC6811_rdaux(uint8_t reg, //Determines which GPIO voltage register is re
 	{
 		LTC6811_rdaux_reg(reg, data);
 
-		for (int n = 0; n < TOTAL_IC; n++)
+		for (sint32 n = 0; n < TOTAL_IC; n++)
 		{
 			if (ic->isospi_reverse == false)
 			{
@@ -779,32 +779,32 @@ int8_t LTC6811_rdaux(uint8_t reg, //Determines which GPIO voltage register is re
 }
 
 // Reads and parses the LTC6811 stat registers.
-int8_t LTC6811_rdstat(uint8_t reg, //Determines which Stat  register is read back.
+int8_t LTC6811_rdstat(uint8 reg, //Determines which Stat  register is read back.
 		cell_asic ic[])
 
 {
 
-	const uint8_t BYT_IN_REG = 6;
-	const uint8_t GPIO_IN_REG = 3;
+	const uint8 BYT_IN_REG = 6;
+	const uint8 GPIO_IN_REG = 3;
 
-	uint8_t *data;
-	uint8_t data_counter = 0;
+	uint8 *data;
+	uint8 data_counter = 0;
 	int8_t pec_error = 0;
-	uint16_t parsed_stat;
-	uint16_t received_pec;
-	uint16_t data_pec;
-	uint8_t c_ic = 0;
-	data = (uint8_t*) malloc((NUM_RX_BYT * TOTAL_IC) * sizeof(uint8_t));
+	uint16 parsed_stat;
+	uint16 received_pec;
+	uint16 data_pec;
+	uint8 c_ic = 0;
+	data = (uint8*) malloc((NUM_RX_BYT * TOTAL_IC) * sizeof(uint8));
 
 	if (reg == 0)
 	{
 
-		for (uint8_t stat_reg = 1; stat_reg < 3; stat_reg++)          //executes once for each of the LTC6811 stat voltage registers
+		for (uint8 stat_reg = 1; stat_reg < 3; stat_reg++)          //executes once for each of the LTC6811 stat voltage registers
 		{
 			data_counter = 0;
 			LTC6811_rdstat_reg(stat_reg, data);                       //Reads the raw statiliary register data into the data[] array
 
-			for (uint8_t n = 0; n < TOTAL_IC; n++)      // executes for every LTC6811 in the daisy chain
+			for (uint8 n = 0; n < TOTAL_IC; n++)      // executes for every LTC6811 in the daisy chain
 			{
 				if (ic->isospi_reverse == false)
 				{
@@ -817,7 +817,7 @@ int8_t LTC6811_rdstat(uint8_t reg, //Determines which Stat  register is read bac
 				// n is used as the IC counter
 				if (stat_reg == 1)
 				{
-					for (uint8_t current_gpio = 0; current_gpio < GPIO_IN_REG; current_gpio++) // This loop parses the read back data into GPIO voltages, it
+					for (uint8 current_gpio = 0; current_gpio < GPIO_IN_REG; current_gpio++) // This loop parses the read back data into GPIO voltages, it
 					{
 						// loops once for each of the 3 gpio voltage codes in the register
 
@@ -865,7 +865,7 @@ int8_t LTC6811_rdstat(uint8_t reg, //Determines which Stat  register is read bac
 	{
 
 		LTC6811_rdstat_reg(reg, data);
-		for (int n = 0; n < TOTAL_IC; n++)            // executes for every LTC6811 in the daisy chain
+		for (sint32 n = 0; n < TOTAL_IC; n++)            // executes for every LTC6811 in the daisy chain
 		{
 			// n is used as an IC counter
 			if (ic->isospi_reverse == false)
@@ -878,7 +878,7 @@ int8_t LTC6811_rdstat(uint8_t reg, //Determines which Stat  register is read bac
 			}
 			if (reg == 1)
 			{
-				for (uint8_t current_gpio = 0; current_gpio < GPIO_IN_REG; current_gpio++) // This loop parses the read back data into GPIO voltages, it
+				for (uint8 current_gpio = 0; current_gpio < GPIO_IN_REG; current_gpio++) // This loop parses the read back data into GPIO voltages, it
 				{
 					// loops once for each of the 3 gpio voltage codes in the register
 					parsed_stat = data[data_counter] + (data[data_counter + 1] << 8); //Each gpio codes is received as two bytes and is combined to
@@ -925,11 +925,11 @@ int8_t LTC6811_rdstat(uint8_t reg, //Determines which Stat  register is read bac
 //Write the LTC6811 CFGRA
 void LTC6811_wrcfg(cell_asic ic[])
 {
-	uint8_t cmd[2] = { 0x00, 0x01 };
-	uint8_t write_buffer[256];
-	uint8_t write_count = 0;
-	uint8_t c_ic = 0;
-	for (uint8_t n = 0; n < TOTAL_IC; n++)
+	uint8 cmd[2] = { 0x00, 0x01 };
+	uint8 write_buffer[256];
+	uint8 write_count = 0;
+	uint8 c_ic = 0;
+	for (uint8 n = 0; n < TOTAL_IC; n++)
 	{
 		if (ic->isospi_reverse == true)
 		{
@@ -940,7 +940,7 @@ void LTC6811_wrcfg(cell_asic ic[])
 			c_ic = TOTAL_IC - n - 1;
 		}
 
-		for (uint8_t data = 0; data < 6; data++)
+		for (uint8 data = 0; data < 6; data++)
 		{
 			write_buffer[write_count] = ic[c_ic].configa.tx_data[data];
 			write_count++;
@@ -952,11 +952,11 @@ void LTC6811_wrcfg(cell_asic ic[])
 //Write the LTC6811 CFGRB
 void LTC6811_wrcfgb(cell_asic ic[])
 {
-	uint8_t cmd[2] = { 0x00, 0x24 };
-	uint8_t write_buffer[256];
-	uint8_t write_count = 0;
-	uint8_t c_ic = 0;
-	for (uint8_t n = 0; n < TOTAL_IC; n++)
+	uint8 cmd[2] = { 0x00, 0x24 };
+	uint8 write_buffer[256];
+	uint8 write_count = 0;
+	uint8 c_ic = 0;
+	for (uint8 n = 0; n < TOTAL_IC; n++)
 	{
 		if (ic->isospi_reverse == true)
 		{
@@ -967,7 +967,7 @@ void LTC6811_wrcfgb(cell_asic ic[])
 			c_ic = TOTAL_IC - n - 1;
 		}
 
-		for (uint8_t data = 0; data < 6; data++)
+		for (uint8 data = 0; data < 6; data++)
 		{
 			write_buffer[write_count] = ic[c_ic].configb.tx_data[data];
 			write_count++;
@@ -979,14 +979,14 @@ void LTC6811_wrcfgb(cell_asic ic[])
 //Read CFGA
 int8_t LTC6811_rdcfg(cell_asic ic[])
 {
-	uint8_t cmd[2] = { 0x00, 0x02 };
-	uint8_t read_buffer[256];
+	uint8 cmd[2] = { 0x00, 0x02 };
+	uint8 read_buffer[256];
 	int8_t pec_error = 0;
-	uint16_t data_pec;
-	uint16_t calc_pec;
-	uint8_t c_ic = 0;
+	uint16 data_pec;
+	uint16 calc_pec;
+	uint8 c_ic = 0;
 	pec_error = read_68(cmd, read_buffer);
-	for (uint8_t n = 0; n < TOTAL_IC; n++)
+	for (uint8 n = 0; n < TOTAL_IC; n++)
 	{
 		if (ic->isospi_reverse == false)
 		{
@@ -997,7 +997,7 @@ int8_t LTC6811_rdcfg(cell_asic ic[])
 			c_ic = TOTAL_IC - n - 1;
 		}
 
-		for (int byte = 0; byte < 8; byte++)
+		for (sint32 byte = 0; byte < 8; byte++)
 		{
 			ic[c_ic].configa.rx_data[byte] = read_buffer[byte + (8 * n)];
 		}
@@ -1017,14 +1017,14 @@ int8_t LTC6811_rdcfg(cell_asic ic[])
 //Reads CFGB
 int8_t LTC6811_rdcfgb(cell_asic ic[])
 {
-	uint8_t cmd[2] = { 0x00, 0x26 };
-	uint8_t read_buffer[256];
+	uint8 cmd[2] = { 0x00, 0x26 };
+	uint8 read_buffer[256];
 	int8_t pec_error = 0;
-	uint16_t data_pec;
-	uint16_t calc_pec;
-	uint8_t c_ic = 0;
+	uint16 data_pec;
+	uint16 calc_pec;
+	uint8 c_ic = 0;
 	pec_error = read_68(cmd, read_buffer);
-	for (uint8_t n = 0; n < TOTAL_IC; n++)
+	for (uint8 n = 0; n < TOTAL_IC; n++)
 	{
 		if (ic->isospi_reverse == false)
 		{
@@ -1035,7 +1035,7 @@ int8_t LTC6811_rdcfgb(cell_asic ic[])
 			c_ic = TOTAL_IC - n - 1;
 		}
 
-		for (int byte = 0; byte < 8; byte++)
+		for (sint32 byte = 0; byte < 8; byte++)
 		{
 			ic[c_ic].configb.rx_data[byte] = read_buffer[byte + (8 * n)];
 		}
@@ -1053,11 +1053,11 @@ int8_t LTC6811_rdcfgb(cell_asic ic[])
 }
 
 //Looks up the result pattern for digital filter self test
-uint16_t LTC6811_st_lookup(uint8_t MD, //ADC Mode
-		uint8_t ST //Self Test
+uint16 LTC6811_st_lookup(uint8 MD, //ADC Mode
+		uint8 ST //Self Test
 		)
 {
-	uint16_t test_pattern = 0;
+	uint16 test_pattern = 0;
 	if (MD == 1)
 	{
 		if (ST == 1)
@@ -1086,7 +1086,7 @@ uint16_t LTC6811_st_lookup(uint8_t MD, //ADC Mode
 //Clears all of the DCC bits in the configuration registers
 void clear_discharge(cell_asic ic[])
 {
-	for (int i = 0; i < TOTAL_IC; i++)
+	for (sint32 i = 0; i < TOTAL_IC; i++)
 	{
 		ic[i].configa.tx_data[4] = 0;
 		ic[i].configa.tx_data[5] = 0;
@@ -1094,11 +1094,11 @@ void clear_discharge(cell_asic ic[])
 }
 
 // Runs the Digital Filter Self Test
-int16_t LTC6811_run_cell_adc_st(uint8_t adc_reg, cell_asic ic[])
+int16_t LTC6811_run_cell_adc_st(uint8 adc_reg, cell_asic ic[])
 {
 	int16_t error = 0;
-	uint16_t expected_result = 0;
-	for (int self_test = 1; self_test < 3; self_test++)
+	uint16 expected_result = 0;
+	for (sint32 self_test = 1; self_test < 3; self_test++)
 	{
 
 		expected_result = LTC6811_st_lookup(2, self_test);
@@ -1112,9 +1112,9 @@ int16_t LTC6811_run_cell_adc_st(uint8_t adc_reg, cell_asic ic[])
 			LTC6811_pollAdc(); //this isn't working
 			wakeup_idle();
 			error = LTC6811_rdcv(0, ic);
-			for (int cic = 0; cic < TOTAL_IC; cic++)
+			for (sint32 cic = 0; cic < TOTAL_IC; cic++)
 			{
-				for (int channel = 0; channel < ic[cic].ic_reg.cell_channels; channel++)
+				for (sint32 channel = 0; channel < ic[cic].ic_reg.cell_channels; channel++)
 				{
 					if (ic[cic].cells.c_codes[channel] != expected_result)
 					{
@@ -1132,9 +1132,9 @@ int16_t LTC6811_run_cell_adc_st(uint8_t adc_reg, cell_asic ic[])
 			//HAL_Delay(1); // 1000!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 			wakeup_idle();
 			LTC6811_rdaux(0, ic);
-			for (int cic = 0; cic < TOTAL_IC; cic++)
+			for (sint32 cic = 0; cic < TOTAL_IC; cic++)
 			{
-				for (int channel = 0; channel < ic[cic].ic_reg.aux_channels; channel++)
+				for (sint32 channel = 0; channel < ic[cic].ic_reg.aux_channels; channel++)
 				{
 					if (ic[cic].aux.a_codes[channel] != expected_result)
 					{
@@ -1150,9 +1150,9 @@ int16_t LTC6811_run_cell_adc_st(uint8_t adc_reg, cell_asic ic[])
 			LTC6811_pollAdc();
 			wakeup_idle();
 			error = LTC6811_rdstat(0, ic);
-			for (int cic = 0; cic < TOTAL_IC; cic++)
+			for (sint32 cic = 0; cic < TOTAL_IC; cic++)
 			{
-				for (int channel = 0; channel < ic[cic].ic_reg.stat_channels; channel++)
+				for (sint32 channel = 0; channel < ic[cic].ic_reg.stat_channels; channel++)
 				{
 					if (ic[cic].stat.stat_codes[channel] != expected_result)
 					{
@@ -1171,10 +1171,10 @@ int16_t LTC6811_run_cell_adc_st(uint8_t adc_reg, cell_asic ic[])
 }
 
 //runs the redundancy self test
-int16_t LTC6811_run_adc_redundancy_st(uint8_t adc_mode, uint8_t adc_reg, cell_asic ic[])
+int16_t LTC6811_run_adc_redundancy_st(uint8 adc_mode, uint8 adc_reg, cell_asic ic[])
 {
 	int16_t error = 0;
-	for (int self_test = 1; self_test < 3; self_test++)
+	for (sint32 self_test = 1; self_test < 3; self_test++)
 	{
 		wakeup_idle();
 		switch (adc_reg)
@@ -1185,9 +1185,9 @@ int16_t LTC6811_run_adc_redundancy_st(uint8_t adc_mode, uint8_t adc_reg, cell_as
 			LTC6811_pollAdc();
 			wakeup_idle();
 			error = LTC6811_rdaux(0, ic);
-			for (int cic = 0; cic < TOTAL_IC; cic++)
+			for (sint32 cic = 0; cic < TOTAL_IC; cic++)
 			{
-				for (int channel = 0; channel < ic[cic].ic_reg.aux_channels; channel++)
+				for (sint32 channel = 0; channel < ic[cic].ic_reg.aux_channels; channel++)
 				{
 					if (ic[cic].aux.a_codes[channel] >= 65280)
 					{
@@ -1202,9 +1202,9 @@ int16_t LTC6811_run_adc_redundancy_st(uint8_t adc_mode, uint8_t adc_reg, cell_as
 			LTC6811_pollAdc();
 			wakeup_idle();
 			error = LTC6811_rdstat(0, ic);
-			for (int cic = 0; cic < TOTAL_IC; cic++)
+			for (sint32 cic = 0; cic < TOTAL_IC; cic++)
 			{
-				for (int channel = 0; channel < ic[cic].ic_reg.stat_channels; channel++)
+				for (sint32 channel = 0; channel < ic[cic].ic_reg.stat_channels; channel++)
 				{
 					if (ic[cic].stat.stat_codes[channel] >= 65280)
 					{
@@ -1225,9 +1225,9 @@ int16_t LTC6811_run_adc_redundancy_st(uint8_t adc_mode, uint8_t adc_reg, cell_as
 //Runs the datasheet algorithm for open wire
 void LTC6811_run_openwire(cell_asic ic[])
 {
-	uint16_t OPENWIRE_THRESHOLD = 4000;
-	const uint8_t N_CHANNELS = ic[0].ic_reg.cell_channels;
-	//uint8_t error;
+	uint16 OPENWIRE_THRESHOLD = 4000;
+	const uint8 N_CHANNELS = ic[0].ic_reg.cell_channels;
+	//uint8 error;
 
 	cell_asic pullUp_cell_codes[TOTAL_IC];
 	cell_asic pullDwn_cell_codes[TOTAL_IC];
@@ -1253,10 +1253,10 @@ void LTC6811_run_openwire(cell_asic ic[])
 	//error = LTC6811_rdcv(0, pullDwn_cell_codes);
 	LTC6811_rdcv(0, pullDwn_cell_codes);
 
-	for (int cic = 0; cic < TOTAL_IC; cic++)
+	for (sint32 cic = 0; cic < TOTAL_IC; cic++)
 	{
 		ic[cic].system_open_wire = 0;
-		for (int cell = 0; cell < N_CHANNELS; cell++)
+		for (sint32 cell = 0; cell < N_CHANNELS; cell++)
 		{
 			if (pullDwn_cell_codes[cic].cells.c_codes[cell] > pullUp_cell_codes[cic].cells.c_codes[cell])
 			{
@@ -1270,9 +1270,9 @@ void LTC6811_run_openwire(cell_asic ic[])
 
 		}
 	}
-	for (int cic = 0; cic < TOTAL_IC; cic++)
+	for (sint32 cic = 0; cic < TOTAL_IC; cic++)
 	{
-		for (int cell = 1; cell < N_CHANNELS; cell++)
+		for (sint32 cell = 1; cell < N_CHANNELS; cell++)
 		{
 
 			if (openWire_delta[cic].cells.c_codes[cell] > OPENWIRE_THRESHOLD)
@@ -1293,9 +1293,9 @@ void LTC6811_run_openwire(cell_asic ic[])
 }
 
 // Runs the ADC overlap test for the IC
-uint16_t LTC6811_run_adc_overlap(cell_asic ic[])
+uint16 LTC6811_run_adc_overlap(cell_asic ic[])
 {
-	uint16_t error = 0;
+	uint16 error = 0;
 	int32_t measure_delta = 0;
 	int16_t failure_pos_limit = 20;
 	int16_t failure_neg_limit = -20;
@@ -1304,7 +1304,7 @@ uint16_t LTC6811_run_adc_overlap(cell_asic ic[])
 	LTC6811_pollAdc();
 	wakeup_idle();
 	error = LTC6811_rdcv(0, ic);
-	for (int cic = 0; cic < TOTAL_IC; cic++)
+	for (sint32 cic = 0; cic < TOTAL_IC; cic++)
 	{
 		measure_delta = (int32_t) ic[cic].cells.c_codes[6] - (int32_t) ic[cic].cells.c_codes[7];
 		if ((measure_delta > failure_pos_limit) || (measure_delta < failure_neg_limit))
@@ -1316,12 +1316,12 @@ uint16_t LTC6811_run_adc_overlap(cell_asic ic[])
 }
 
 //Helper function that increments PEC counters
-void LTC6811_check_pec(uint8_t reg, cell_asic ic[])
+void LTC6811_check_pec(uint8 reg, cell_asic ic[])
 {
 	switch (reg)
 	{
 	case CFGRA:
-		for (int n = 0; n < TOTAL_IC; n++)
+		for (sint32 n = 0; n < TOTAL_IC; n++)
 		{
 			ic[n].crc_count.pec_count = ic[n].crc_count.pec_count + ic[n].configa.rx_pec_match;
 			ic[n].crc_count.cfgr_pec = ic[n].crc_count.cfgr_pec + ic[n].configa.rx_pec_match;
@@ -1329,16 +1329,16 @@ void LTC6811_check_pec(uint8_t reg, cell_asic ic[])
 		break;
 
 	case CFGRB:
-		for (int n = 0; n < TOTAL_IC; n++)
+		for (sint32 n = 0; n < TOTAL_IC; n++)
 		{
 			ic[n].crc_count.pec_count = ic[n].crc_count.pec_count + ic[n].configb.rx_pec_match;
 			ic[n].crc_count.cfgr_pec = ic[n].crc_count.cfgr_pec + ic[n].configb.rx_pec_match;
 		}
 		break;
 	case CELL:
-		for (int n = 0; n < TOTAL_IC; n++)
+		for (sint32 n = 0; n < TOTAL_IC; n++)
 		{
-			for (int i = 0; i < ic[0].ic_reg.num_cv_reg; i++)
+			for (sint32 i = 0; i < ic[0].ic_reg.num_cv_reg; i++)
 			{
 				ic[n].crc_count.pec_count = ic[n].crc_count.pec_count + ic[n].cells.pec_match[i];
 				ic[n].crc_count.cell_pec[i] = ic[n].crc_count.cell_pec[i] + ic[n].cells.pec_match[i];
@@ -1346,9 +1346,9 @@ void LTC6811_check_pec(uint8_t reg, cell_asic ic[])
 		}
 		break;
 	case AUX:
-		for (int n = 0; n < TOTAL_IC; n++)
+		for (sint32 n = 0; n < TOTAL_IC; n++)
 		{
-			for (int i = 0; i < ic[0].ic_reg.num_gpio_reg; i++)
+			for (sint32 i = 0; i < ic[0].ic_reg.num_gpio_reg; i++)
 			{
 				ic[n].crc_count.pec_count = ic[n].crc_count.pec_count + (ic[n].aux.pec_match[i]);
 				ic[n].crc_count.aux_pec[i] = ic[n].crc_count.aux_pec[i] + (ic[n].aux.pec_match[i]);
@@ -1357,10 +1357,10 @@ void LTC6811_check_pec(uint8_t reg, cell_asic ic[])
 
 		break;
 	case STAT:
-		for (int n = 0; n < TOTAL_IC; n++)
+		for (sint32 n = 0; n < TOTAL_IC; n++)
 		{
 
-			for (int i = 0; i < ic[0].ic_reg.num_stat_reg - 1; i++)
+			for (sint32 i = 0; i < ic[0].ic_reg.num_stat_reg - 1; i++)
 			{
 				ic[n].crc_count.pec_count = ic[n].crc_count.pec_count + ic[n].stat.pec_match[i];
 				ic[n].crc_count.stat_pec[i] = ic[n].crc_count.stat_pec[i] + ic[n].stat.pec_match[i];
@@ -1375,20 +1375,20 @@ void LTC6811_check_pec(uint8_t reg, cell_asic ic[])
 //Helper Function to reset PEC counters
 void LTC6811_reset_crc_count(cell_asic ic[])
 {
-	for (int n = 0; n < TOTAL_IC; n++)
+	for (sint32 n = 0; n < TOTAL_IC; n++)
 	{
 		ic[n].crc_count.pec_count = 0;
 		ic[n].crc_count.cfgr_pec = 0;
-		for (int i = 0; i < 6; i++)
+		for (sint32 i = 0; i < 6; i++)
 		{
 			ic[n].crc_count.cell_pec[i] = 0;
 
 		}
-		for (int i = 0; i < 4; i++)
+		for (sint32 i = 0; i < 4; i++)
 		{
 			ic[n].crc_count.aux_pec[i] = 0;
 		}
-		for (int i = 0; i < 2; i++)
+		for (sint32 i = 0; i < 2; i++)
 		{
 			ic[n].crc_count.stat_pec[i] = 0;
 		}
@@ -1398,12 +1398,12 @@ void LTC6811_reset_crc_count(cell_asic ic[])
 //Helper function to intialize CFG variables.
 void LTC6811_init_cfg(cell_asic ic[])
 {
-	bool gpioBits[5] = { true, true, true, true, true };
-	bool dccBits[12] = { false, false, false, false, false, false, false, false, false, false, false, false };
+	boolean gpioBits[5] = { true, true, true, true, true };
+	boolean dccBits[12] = { false, false, false, false, false, false, false, false, false, false, false, false };
 
-	for (int n = 0; n < TOTAL_IC; n++)
+	for (sint32 n = 0; n < TOTAL_IC; n++)
 	{
-		for (int j = 0; j < 6; j++)
+		for (sint32 j = 0; j < 6; j++)
 		{
 			ic[n].configa.tx_data[j] = 0;
 			ic[n].configb.tx_data[j] = 0;
@@ -1416,7 +1416,7 @@ void LTC6811_init_cfg(cell_asic ic[])
 }
 
 //Helper function to set CFGR variable
-void LTC6811_set_cfgr(uint8_t nIC, cell_asic ic[], bool refon, bool adcopt, bool gpio[5], bool dcc[12])
+void LTC6811_set_cfgr(uint8 nIC, cell_asic ic[], boolean refon, boolean adcopt, boolean gpio[5], boolean dcc[12])
 {
 	LTC6811_set_cfgr_refon(nIC, ic, refon);
 	LTC6811_set_cfgr_adcopt(nIC, ic, adcopt);
@@ -1425,7 +1425,7 @@ void LTC6811_set_cfgr(uint8_t nIC, cell_asic ic[], bool refon, bool adcopt, bool
 }
 
 //Helper function to set the REFON bit
-void LTC6811_set_cfgr_refon(uint8_t nIC, cell_asic ic[], bool refon)
+void LTC6811_set_cfgr_refon(uint8 nIC, cell_asic ic[], boolean refon)
 {
 	if (refon)
 	{
@@ -1438,7 +1438,7 @@ void LTC6811_set_cfgr_refon(uint8_t nIC, cell_asic ic[], bool refon)
 }
 
 //Helper function to set the adcopt bit
-void LTC6811_set_cfgr_adcopt(uint8_t nIC, cell_asic ic[], bool adcopt)
+void LTC6811_set_cfgr_adcopt(uint8 nIC, cell_asic ic[], boolean adcopt)
 {
 	if (adcopt)
 	{
@@ -1451,9 +1451,9 @@ void LTC6811_set_cfgr_adcopt(uint8_t nIC, cell_asic ic[], bool adcopt)
 }
 
 //Helper function to set GPIO bits
-void LTC6811_set_cfgr_gpio(uint8_t nIC, cell_asic ic[], bool gpio[5])
+void LTC6811_set_cfgr_gpio(uint8 nIC, cell_asic ic[], boolean gpio[5])
 {
-	for (int i = 0; i < 5; i++)
+	for (sint32 i = 0; i < 5; i++)
 	{
 		if (gpio[i])
 		{
@@ -1467,9 +1467,9 @@ void LTC6811_set_cfgr_gpio(uint8_t nIC, cell_asic ic[], bool gpio[5])
 }
 
 //Helper function to control discharge
-void LTC6811_set_cfgr_dis(uint8_t nIC, cell_asic ic[], bool dcc[12])
+void LTC6811_set_cfgr_dis(uint8 nIC, cell_asic ic[], boolean dcc[12])
 {
-	for (int i = 0; i < 8; i++)
+	for (sint32 i = 0; i < 8; i++)
 	{
 		if (dcc[i])
 		{
@@ -1480,7 +1480,7 @@ void LTC6811_set_cfgr_dis(uint8_t nIC, cell_asic ic[], bool dcc[12])
 			ic[nIC].configa.tx_data[4] = ic[nIC].configa.tx_data[4] & (~(0x01 << i));
 		}
 	}
-	for (int i = 0; i < 4; i++)
+	for (sint32 i = 0; i < 4; i++)
 	{
 		if (dcc[i + 8])
 		{
@@ -1494,18 +1494,18 @@ void LTC6811_set_cfgr_dis(uint8_t nIC, cell_asic ic[], bool dcc[12])
 }
 
 //Helper Function to set uv value in CFG register
-void LTC6811_set_cfgr_uv(uint8_t nIC, cell_asic ic[], uint16_t uv)
+void LTC6811_set_cfgr_uv(uint8 nIC, cell_asic ic[], uint16 uv)
 {
-	uint16_t tmp = (uv / 16) - 1;
+	uint16 tmp = (uv / 16) - 1;
 	ic[nIC].configa.tx_data[1] = 0x00FF & tmp;
 	ic[nIC].configa.tx_data[2] = ic[nIC].configa.tx_data[2] & 0xF0;
 	ic[nIC].configa.tx_data[2] = ic[nIC].configa.tx_data[2] | ((0x0F00 & tmp) >> 8);
 }
 
 //helper function to set OV value in CFG register
-void LTC6811_set_cfgr_ov(uint8_t nIC, cell_asic ic[], uint16_t ov)
+void LTC6811_set_cfgr_ov(uint8 nIC, cell_asic ic[], uint16 ov)
 {
-	uint16_t tmp = (ov / 16);
+	uint16 tmp = (ov / 16);
 	ic[nIC].configa.tx_data[3] = 0x00FF & (tmp >> 4);
 	ic[nIC].configa.tx_data[2] = ic[nIC].configa.tx_data[2] & 0x0F;
 	ic[nIC].configa.tx_data[2] = ic[nIC].configa.tx_data[2] | ((0x000F & tmp) << 4);
@@ -1514,11 +1514,11 @@ void LTC6811_set_cfgr_ov(uint8_t nIC, cell_asic ic[], uint16_t ov)
 //Writes the comm register
 void LTC6811_wrcomm(cell_asic ic[])
 {
-	uint8_t cmd[2] = { 0x07, 0x21 };
-	uint8_t write_buffer[256];
-	uint8_t write_count = 0;
-	uint8_t c_ic = 0;
-	for (uint8_t n = 0; n < TOTAL_IC; n++)
+	uint8 cmd[2] = { 0x07, 0x21 };
+	uint8 write_buffer[256];
+	uint8 write_count = 0;
+	uint8 c_ic = 0;
+	for (uint8 n = 0; n < TOTAL_IC; n++)
 	{
 		if (ic->isospi_reverse == true)
 		{
@@ -1529,7 +1529,7 @@ void LTC6811_wrcomm(cell_asic ic[])
 			c_ic = TOTAL_IC - n - 1;
 		}
 
-		for (uint8_t data = 0; data < 6; data++)
+		for (uint8 data = 0; data < 6; data++)
 		{
 			write_buffer[write_count] = ic[c_ic].com.tx_data[data];
 			write_count++;
@@ -1543,14 +1543,14 @@ void LTC6811_wrcomm(cell_asic ic[])
  */
 int8_t LTC6811_rdcomm(cell_asic ic[])
 {
-	uint8_t cmd[2] = { 0x07, 0x22 };
-	uint8_t read_buffer[256];
+	uint8 cmd[2] = { 0x07, 0x22 };
+	uint8 read_buffer[256];
 	int8_t pec_error = 0;
-	uint16_t data_pec;
-	uint16_t calc_pec;
-	uint8_t c_ic = 0;
+	uint16 data_pec;
+	uint16 calc_pec;
+	uint8 c_ic = 0;
 	pec_error = read_68(cmd, read_buffer);
-	for (uint8_t n = 0; n < TOTAL_IC; n++)
+	for (uint8 n = 0; n < TOTAL_IC; n++)
 	{
 		if (ic->isospi_reverse == false)
 		{
@@ -1561,7 +1561,7 @@ int8_t LTC6811_rdcomm(cell_asic ic[])
 			c_ic = TOTAL_IC - n - 1;
 		}
 
-		for (int byte = 0; byte < 8; byte++)
+		for (sint32 byte = 0; byte < 8; byte++)
 		{
 			ic[c_ic].com.rx_data[byte] = read_buffer[byte + (8 * n)];
 		}
@@ -1583,18 +1583,18 @@ int8_t LTC6811_rdcomm(cell_asic ic[])
 void LTC6811_stcomm()
 {
 
-	uint8_t cmd[4];
-	uint16_t cmd_pec;
+	uint8 cmd[4];
+	uint16 cmd_pec;
 
 	cmd[0] = 0x07;
 	cmd[1] = 0x23;
 	cmd_pec = pec15_calc(2, cmd);
-	cmd[2] = (uint8_t) (cmd_pec >> 8);
-	cmd[3] = (uint8_t) (cmd_pec);
+	cmd[2] = (uint8) (cmd_pec >> 8);
+	cmd[3] = (uint8) (cmd_pec);
 
 	SPI2_CS(ON);
 	spi_write_array(4, cmd);
-	for (int i = 0; i < 9; i++)
+	for (sint32 i = 0; i < 9; i++)
 	{
 		spi_read_byte(0xFF);
 	}
@@ -1603,9 +1603,9 @@ void LTC6811_stcomm()
 }
 
 //Helper function to set discharge bit in CFG register
-void LTC6811_set_discharge(int Cell, cell_asic ic[])
+void LTC6811_set_discharge(sint32 Cell, cell_asic ic[])
 {
-	for (int i = 0; i < TOTAL_IC; i++)
+	for (sint32 i = 0; i < TOTAL_IC; i++)
 	{
 		if (Cell < 9)
 		{
@@ -1619,12 +1619,12 @@ void LTC6811_set_discharge(int Cell, cell_asic ic[])
 }
 
 // Writes the pwm register
-void LTC6811_wrpwm(uint8_t pwmReg, cell_asic ic[])
+void LTC6811_wrpwm(uint8 pwmReg, cell_asic ic[])
 {
-	uint8_t cmd[2];
-	uint8_t write_buffer[256];
-	uint8_t write_count = 0;
-	uint8_t c_ic = 0;
+	uint8 cmd[2];
+	uint8 write_buffer[256];
+	uint8 write_count = 0;
+	uint8 c_ic = 0;
 	if (pwmReg == 0)
 	{
 		cmd[0] = 0x00;
@@ -1636,7 +1636,7 @@ void LTC6811_wrpwm(uint8_t pwmReg, cell_asic ic[])
 		cmd[1] = 0x1C;
 	}
 
-	for (uint8_t n = 0; n < TOTAL_IC; n++)
+	for (uint8 n = 0; n < TOTAL_IC; n++)
 	{
 		if (ic->isospi_reverse == true)
 		{
@@ -1646,7 +1646,7 @@ void LTC6811_wrpwm(uint8_t pwmReg, cell_asic ic[])
 		{
 			c_ic = TOTAL_IC - n - 1;
 		}
-		for (uint8_t data = 0; data < 6; data++)
+		for (uint8 data = 0; data < 6; data++)
 		{
 			write_buffer[write_count] = ic[c_ic].pwm.tx_data[data];
 			write_count++;
@@ -1658,16 +1658,16 @@ void LTC6811_wrpwm(uint8_t pwmReg, cell_asic ic[])
 /*
  Reads pwm registers of a LTC6811 daisy chain
  */
-int8_t LTC6811_rdpwm(uint8_t pwmReg, cell_asic ic[])
+int8_t LTC6811_rdpwm(uint8 pwmReg, cell_asic ic[])
 {
-	//const uint8_t BYTES_IN_REG = 8;
+	//const uint8 BYTES_IN_REG = 8;
 
-	uint8_t cmd[4];
-	uint8_t read_buffer[256];
+	uint8 cmd[4];
+	uint8 read_buffer[256];
 	int8_t pec_error = 0;
-	uint16_t data_pec;
-	uint16_t calc_pec;
-	uint8_t c_ic = 0;
+	uint16 data_pec;
+	uint16 calc_pec;
+	uint8 c_ic = 0;
 
 	if (pwmReg == 0)
 	{
@@ -1681,7 +1681,7 @@ int8_t LTC6811_rdpwm(uint8_t pwmReg, cell_asic ic[])
 	}
 
 	pec_error = read_68(cmd, read_buffer);
-	for (uint8_t n = 0; n < TOTAL_IC; n++)
+	for (uint8 n = 0; n < TOTAL_IC; n++)
 	{
 		if (ic->isospi_reverse == false)
 		{
@@ -1691,7 +1691,7 @@ int8_t LTC6811_rdpwm(uint8_t pwmReg, cell_asic ic[])
 		{
 			c_ic = TOTAL_IC - n - 1;
 		}
-		for (int byte = 0; byte < 8; byte++)
+		for (sint32 byte = 0; byte < 8; byte++)
 		{
 			ic[c_ic].pwm.rx_data[byte] = read_buffer[byte + (8 * n)];
 		}

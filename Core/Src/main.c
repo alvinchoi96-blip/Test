@@ -59,7 +59,7 @@ UART_HandleTypeDef huart1;
 
 /* USER CODE BEGIN PV */
 #define F_OFF ucPwrOffFlag
-extern uint8_t ucPwrOffFlag;
+extern uint8 ucPwrOffFlag;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -86,9 +86,9 @@ void Main_Loop(void);
 
 /**
   * @brief  The application entry point.
-  * @retval int
+  * @retval sint32
   */
-int main(void)
+sint32 main(void)
 {
   /* USER CODE BEGIN 1 */
 
@@ -570,7 +570,7 @@ void Error_Handler(void)
   * @param  line: assert_param error line source number
   * @retval None
   */
-void assert_failed(uint8_t *file, uint32_t line)
+void assert_failed(uint8 *file, uint32 line)
 {
   /* USER CODE BEGIN 6 */
   /* User can add his own implementation to report the file name and line number,

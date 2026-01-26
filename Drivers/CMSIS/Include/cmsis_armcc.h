@@ -80,19 +80,19 @@
   #define __PACKED_UNION                         __packed union
 #endif
 #ifndef   __UNALIGNED_UINT32        /* deprecated */
-  #define __UNALIGNED_UINT32(x)                  (*((__packed uint32_t *)(x)))
+  #define __UNALIGNED_UINT32(x)                  (*((__packed uint32 *)(x)))
 #endif
 #ifndef   __UNALIGNED_UINT16_WRITE
-  #define __UNALIGNED_UINT16_WRITE(addr, val)    ((*((__packed uint16_t *)(addr))) = (val))
+  #define __UNALIGNED_UINT16_WRITE(addr, val)    ((*((__packed uint16 *)(addr))) = (val))
 #endif
 #ifndef   __UNALIGNED_UINT16_READ
-  #define __UNALIGNED_UINT16_READ(addr)          (*((const __packed uint16_t *)(addr)))
+  #define __UNALIGNED_UINT16_READ(addr)          (*((const __packed uint16 *)(addr)))
 #endif
 #ifndef   __UNALIGNED_UINT32_WRITE
-  #define __UNALIGNED_UINT32_WRITE(addr, val)    ((*((__packed uint32_t *)(addr))) = (val))
+  #define __UNALIGNED_UINT32_WRITE(addr, val)    ((*((__packed uint32 *)(addr))) = (val))
 #endif
 #ifndef   __UNALIGNED_UINT32_READ
-  #define __UNALIGNED_UINT32_READ(addr)          (*((const __packed uint32_t *)(addr)))
+  #define __UNALIGNED_UINT32_READ(addr)          (*((const __packed uint32 *)(addr)))
 #endif
 #ifndef   __ALIGNED
   #define __ALIGNED(x)                           __attribute__((aligned(x)))
@@ -127,9 +127,9 @@
   \details Returns the content of the Control Register.
   \return               Control Register value
  */
-__STATIC_INLINE uint32_t __get_CONTROL(void)
+__STATIC_INLINE uint32 __get_CONTROL(void)
 {
-  register uint32_t __regControl         __ASM("control");
+  register uint32 __regControl         __ASM("control");
   return(__regControl);
 }
 
@@ -139,9 +139,9 @@ __STATIC_INLINE uint32_t __get_CONTROL(void)
   \details Writes the given value to the Control Register.
   \param [in]    control  Control Register value to set
  */
-__STATIC_INLINE void __set_CONTROL(uint32_t control)
+__STATIC_INLINE void __set_CONTROL(uint32 control)
 {
-  register uint32_t __regControl         __ASM("control");
+  register uint32 __regControl         __ASM("control");
   __regControl = control;
 }
 
@@ -151,9 +151,9 @@ __STATIC_INLINE void __set_CONTROL(uint32_t control)
   \details Returns the content of the IPSR Register.
   \return               IPSR Register value
  */
-__STATIC_INLINE uint32_t __get_IPSR(void)
+__STATIC_INLINE uint32 __get_IPSR(void)
 {
-  register uint32_t __regIPSR          __ASM("ipsr");
+  register uint32 __regIPSR          __ASM("ipsr");
   return(__regIPSR);
 }
 
@@ -163,9 +163,9 @@ __STATIC_INLINE uint32_t __get_IPSR(void)
   \details Returns the content of the APSR Register.
   \return               APSR Register value
  */
-__STATIC_INLINE uint32_t __get_APSR(void)
+__STATIC_INLINE uint32 __get_APSR(void)
 {
-  register uint32_t __regAPSR          __ASM("apsr");
+  register uint32 __regAPSR          __ASM("apsr");
   return(__regAPSR);
 }
 
@@ -175,9 +175,9 @@ __STATIC_INLINE uint32_t __get_APSR(void)
   \details Returns the content of the xPSR Register.
   \return               xPSR Register value
  */
-__STATIC_INLINE uint32_t __get_xPSR(void)
+__STATIC_INLINE uint32 __get_xPSR(void)
 {
-  register uint32_t __regXPSR          __ASM("xpsr");
+  register uint32 __regXPSR          __ASM("xpsr");
   return(__regXPSR);
 }
 
@@ -187,9 +187,9 @@ __STATIC_INLINE uint32_t __get_xPSR(void)
   \details Returns the current value of the Process Stack Pointer (PSP).
   \return               PSP Register value
  */
-__STATIC_INLINE uint32_t __get_PSP(void)
+__STATIC_INLINE uint32 __get_PSP(void)
 {
-  register uint32_t __regProcessStackPointer  __ASM("psp");
+  register uint32 __regProcessStackPointer  __ASM("psp");
   return(__regProcessStackPointer);
 }
 
@@ -199,9 +199,9 @@ __STATIC_INLINE uint32_t __get_PSP(void)
   \details Assigns the given value to the Process Stack Pointer (PSP).
   \param [in]    topOfProcStack  Process Stack Pointer value to set
  */
-__STATIC_INLINE void __set_PSP(uint32_t topOfProcStack)
+__STATIC_INLINE void __set_PSP(uint32 topOfProcStack)
 {
-  register uint32_t __regProcessStackPointer  __ASM("psp");
+  register uint32 __regProcessStackPointer  __ASM("psp");
   __regProcessStackPointer = topOfProcStack;
 }
 
@@ -211,9 +211,9 @@ __STATIC_INLINE void __set_PSP(uint32_t topOfProcStack)
   \details Returns the current value of the Main Stack Pointer (MSP).
   \return               MSP Register value
  */
-__STATIC_INLINE uint32_t __get_MSP(void)
+__STATIC_INLINE uint32 __get_MSP(void)
 {
-  register uint32_t __regMainStackPointer     __ASM("msp");
+  register uint32 __regMainStackPointer     __ASM("msp");
   return(__regMainStackPointer);
 }
 
@@ -223,9 +223,9 @@ __STATIC_INLINE uint32_t __get_MSP(void)
   \details Assigns the given value to the Main Stack Pointer (MSP).
   \param [in]    topOfMainStack  Main Stack Pointer value to set
  */
-__STATIC_INLINE void __set_MSP(uint32_t topOfMainStack)
+__STATIC_INLINE void __set_MSP(uint32 topOfMainStack)
 {
-  register uint32_t __regMainStackPointer     __ASM("msp");
+  register uint32 __regMainStackPointer     __ASM("msp");
   __regMainStackPointer = topOfMainStack;
 }
 
@@ -235,9 +235,9 @@ __STATIC_INLINE void __set_MSP(uint32_t topOfMainStack)
   \details Returns the current state of the priority mask bit from the Priority Mask Register.
   \return               Priority Mask value
  */
-__STATIC_INLINE uint32_t __get_PRIMASK(void)
+__STATIC_INLINE uint32 __get_PRIMASK(void)
 {
-  register uint32_t __regPriMask         __ASM("primask");
+  register uint32 __regPriMask         __ASM("primask");
   return(__regPriMask);
 }
 
@@ -247,9 +247,9 @@ __STATIC_INLINE uint32_t __get_PRIMASK(void)
   \details Assigns the given value to the Priority Mask Register.
   \param [in]    priMask  Priority Mask
  */
-__STATIC_INLINE void __set_PRIMASK(uint32_t priMask)
+__STATIC_INLINE void __set_PRIMASK(uint32 priMask)
 {
-  register uint32_t __regPriMask         __ASM("primask");
+  register uint32 __regPriMask         __ASM("primask");
   __regPriMask = (priMask);
 }
 
@@ -278,9 +278,9 @@ __STATIC_INLINE void __set_PRIMASK(uint32_t priMask)
   \details Returns the current value of the Base Priority register.
   \return               Base Priority register value
  */
-__STATIC_INLINE uint32_t  __get_BASEPRI(void)
+__STATIC_INLINE uint32  __get_BASEPRI(void)
 {
-  register uint32_t __regBasePri         __ASM("basepri");
+  register uint32 __regBasePri         __ASM("basepri");
   return(__regBasePri);
 }
 
@@ -290,9 +290,9 @@ __STATIC_INLINE uint32_t  __get_BASEPRI(void)
   \details Assigns the given value to the Base Priority register.
   \param [in]    basePri  Base Priority value to set
  */
-__STATIC_INLINE void __set_BASEPRI(uint32_t basePri)
+__STATIC_INLINE void __set_BASEPRI(uint32 basePri)
 {
-  register uint32_t __regBasePri         __ASM("basepri");
+  register uint32 __regBasePri         __ASM("basepri");
   __regBasePri = (basePri & 0xFFU);
 }
 
@@ -303,9 +303,9 @@ __STATIC_INLINE void __set_BASEPRI(uint32_t basePri)
            or the new value increases the BASEPRI priority level.
   \param [in]    basePri  Base Priority value to set
  */
-__STATIC_INLINE void __set_BASEPRI_MAX(uint32_t basePri)
+__STATIC_INLINE void __set_BASEPRI_MAX(uint32 basePri)
 {
-  register uint32_t __regBasePriMax      __ASM("basepri_max");
+  register uint32 __regBasePriMax      __ASM("basepri_max");
   __regBasePriMax = (basePri & 0xFFU);
 }
 
@@ -315,9 +315,9 @@ __STATIC_INLINE void __set_BASEPRI_MAX(uint32_t basePri)
   \details Returns the current value of the Fault Mask register.
   \return               Fault Mask register value
  */
-__STATIC_INLINE uint32_t __get_FAULTMASK(void)
+__STATIC_INLINE uint32 __get_FAULTMASK(void)
 {
-  register uint32_t __regFaultMask       __ASM("faultmask");
+  register uint32 __regFaultMask       __ASM("faultmask");
   return(__regFaultMask);
 }
 
@@ -327,10 +327,10 @@ __STATIC_INLINE uint32_t __get_FAULTMASK(void)
   \details Assigns the given value to the Fault Mask register.
   \param [in]    faultMask  Fault Mask value to set
  */
-__STATIC_INLINE void __set_FAULTMASK(uint32_t faultMask)
+__STATIC_INLINE void __set_FAULTMASK(uint32 faultMask)
 {
-  register uint32_t __regFaultMask       __ASM("faultmask");
-  __regFaultMask = (faultMask & (uint32_t)1U);
+  register uint32 __regFaultMask       __ASM("faultmask");
+  __regFaultMask = (faultMask & (uint32)1U);
 }
 
 #endif /* ((defined (__ARM_ARCH_7M__ ) && (__ARM_ARCH_7M__  == 1)) || \
@@ -342,11 +342,11 @@ __STATIC_INLINE void __set_FAULTMASK(uint32_t faultMask)
   \details Returns the current value of the Floating Point Status/Control register.
   \return               Floating Point Status/Control register value
  */
-__STATIC_INLINE uint32_t __get_FPSCR(void)
+__STATIC_INLINE uint32 __get_FPSCR(void)
 {
 #if ((defined (__FPU_PRESENT) && (__FPU_PRESENT == 1U)) && \
      (defined (__FPU_USED   ) && (__FPU_USED    == 1U))     )
-  register uint32_t __regfpscr         __ASM("fpscr");
+  register uint32 __regfpscr         __ASM("fpscr");
   return(__regfpscr);
 #else
    return(0U);
@@ -359,11 +359,11 @@ __STATIC_INLINE uint32_t __get_FPSCR(void)
   \details Assigns the given value to the Floating Point Status/Control register.
   \param [in]    fpscr  Floating Point Status/Control value to set
  */
-__STATIC_INLINE void __set_FPSCR(uint32_t fpscr)
+__STATIC_INLINE void __set_FPSCR(uint32 fpscr)
 {
 #if ((defined (__FPU_PRESENT) && (__FPU_PRESENT == 1U)) && \
      (defined (__FPU_USED   ) && (__FPU_USED    == 1U))     )
-  register uint32_t __regfpscr         __ASM("fpscr");
+  register uint32 __regfpscr         __ASM("fpscr");
   __regfpscr = (fpscr);
 #else
   (void)fpscr;
@@ -460,7 +460,7 @@ __STATIC_INLINE void __set_FPSCR(uint32_t fpscr)
   \return               Reversed value
  */
 #ifndef __NO_EMBEDDED_ASM
-__attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32_t __REV16(uint32_t value)
+__attribute__((section(".rev16_text"))) __STATIC_INLINE __ASM uint32 __REV16(uint32 value)
 {
   rev16 r0, r0
   bx lr
@@ -513,10 +513,10 @@ __attribute__((section(".revsh_text"))) __STATIC_INLINE __ASM int16_t __REVSH(in
      (defined (__ARM_ARCH_7EM__) && (__ARM_ARCH_7EM__ == 1))     )
   #define __RBIT                          __rbit
 #else
-__attribute__((always_inline)) __STATIC_INLINE uint32_t __RBIT(uint32_t value)
+__attribute__((always_inline)) __STATIC_INLINE uint32 __RBIT(uint32 value)
 {
-  uint32_t result;
-  uint32_t s = (4U /*sizeof(v)*/ * 8U) - 1U; /* extra shift needed at end */
+  uint32 result;
+  uint32 s = (4U /*sizeof(v)*/ * 8U) - 1U; /* extra shift needed at end */
 
   result = value;                      /* r will be reversed bits of v; first get LSB of v */
   for (value >>= 1U; value != 0U; value >>= 1U)
@@ -547,12 +547,12 @@ __attribute__((always_inline)) __STATIC_INLINE uint32_t __RBIT(uint32_t value)
   \brief   LDR Exclusive (8 bit)
   \details Executes a exclusive LDR instruction for 8 bit value.
   \param [in]    ptr  Pointer to data
-  \return             value of type uint8_t at (*ptr)
+  \return             value of type uint8 at (*ptr)
  */
 #if defined(__ARMCC_VERSION) && (__ARMCC_VERSION < 5060020)
-  #define __LDREXB(ptr)                                                        ((uint8_t ) __ldrex(ptr))
+  #define __LDREXB(ptr)                                                        ((uint8 ) __ldrex(ptr))
 #else
-  #define __LDREXB(ptr)          _Pragma("push") _Pragma("diag_suppress 3731") ((uint8_t ) __ldrex(ptr))  _Pragma("pop")
+  #define __LDREXB(ptr)          _Pragma("push") _Pragma("diag_suppress 3731") ((uint8 ) __ldrex(ptr))  _Pragma("pop")
 #endif
 
 
@@ -560,12 +560,12 @@ __attribute__((always_inline)) __STATIC_INLINE uint32_t __RBIT(uint32_t value)
   \brief   LDR Exclusive (16 bit)
   \details Executes a exclusive LDR instruction for 16 bit values.
   \param [in]    ptr  Pointer to data
-  \return        value of type uint16_t at (*ptr)
+  \return        value of type uint16 at (*ptr)
  */
 #if defined(__ARMCC_VERSION) && (__ARMCC_VERSION < 5060020)
-  #define __LDREXH(ptr)                                                        ((uint16_t) __ldrex(ptr))
+  #define __LDREXH(ptr)                                                        ((uint16) __ldrex(ptr))
 #else
-  #define __LDREXH(ptr)          _Pragma("push") _Pragma("diag_suppress 3731") ((uint16_t) __ldrex(ptr))  _Pragma("pop")
+  #define __LDREXH(ptr)          _Pragma("push") _Pragma("diag_suppress 3731") ((uint16) __ldrex(ptr))  _Pragma("pop")
 #endif
 
 
@@ -573,12 +573,12 @@ __attribute__((always_inline)) __STATIC_INLINE uint32_t __RBIT(uint32_t value)
   \brief   LDR Exclusive (32 bit)
   \details Executes a exclusive LDR instruction for 32 bit values.
   \param [in]    ptr  Pointer to data
-  \return        value of type uint32_t at (*ptr)
+  \return        value of type uint32 at (*ptr)
  */
 #if defined(__ARMCC_VERSION) && (__ARMCC_VERSION < 5060020)
-  #define __LDREXW(ptr)                                                        ((uint32_t ) __ldrex(ptr))
+  #define __LDREXW(ptr)                                                        ((uint32 ) __ldrex(ptr))
 #else
-  #define __LDREXW(ptr)          _Pragma("push") _Pragma("diag_suppress 3731") ((uint32_t ) __ldrex(ptr))  _Pragma("pop")
+  #define __LDREXW(ptr)          _Pragma("push") _Pragma("diag_suppress 3731") ((uint32 ) __ldrex(ptr))  _Pragma("pop")
 #endif
 
 
@@ -662,7 +662,7 @@ __attribute__((always_inline)) __STATIC_INLINE uint32_t __RBIT(uint32_t value)
   \return               Rotated value
  */
 #ifndef __NO_EMBEDDED_ASM
-__attribute__((section(".rrx_text"))) __STATIC_INLINE __ASM uint32_t __RRX(uint32_t value)
+__attribute__((section(".rrx_text"))) __STATIC_INLINE __ASM uint32 __RRX(uint32 value)
 {
   rrx r0, r0
   bx lr
@@ -674,27 +674,27 @@ __attribute__((section(".rrx_text"))) __STATIC_INLINE __ASM uint32_t __RRX(uint3
   \brief   LDRT Unprivileged (8 bit)
   \details Executes a Unprivileged LDRT instruction for 8 bit value.
   \param [in]    ptr  Pointer to data
-  \return             value of type uint8_t at (*ptr)
+  \return             value of type uint8 at (*ptr)
  */
-#define __LDRBT(ptr)                      ((uint8_t )  __ldrt(ptr))
+#define __LDRBT(ptr)                      ((uint8 )  __ldrt(ptr))
 
 
 /**
   \brief   LDRT Unprivileged (16 bit)
   \details Executes a Unprivileged LDRT instruction for 16 bit values.
   \param [in]    ptr  Pointer to data
-  \return        value of type uint16_t at (*ptr)
+  \return        value of type uint16 at (*ptr)
  */
-#define __LDRHT(ptr)                      ((uint16_t)  __ldrt(ptr))
+#define __LDRHT(ptr)                      ((uint16)  __ldrt(ptr))
 
 
 /**
   \brief   LDRT Unprivileged (32 bit)
   \details Executes a Unprivileged LDRT instruction for 32 bit values.
   \param [in]    ptr  Pointer to data
-  \return        value of type uint32_t at (*ptr)
+  \return        value of type uint32 at (*ptr)
  */
-#define __LDRT(ptr)                       ((uint32_t ) __ldrt(ptr))
+#define __LDRT(ptr)                       ((uint32 ) __ldrt(ptr))
 
 
 /**
@@ -733,7 +733,7 @@ __attribute__((section(".rrx_text"))) __STATIC_INLINE __ASM uint32_t __RRX(uint3
   \param [in]    sat  Bit position to saturate to (1..32)
   \return             Saturated value
  */
-__attribute__((always_inline)) __STATIC_INLINE int32_t __SSAT(int32_t val, uint32_t sat)
+__attribute__((always_inline)) __STATIC_INLINE int32_t __SSAT(int32_t val, uint32 sat)
 {
   if ((sat >= 1U) && (sat <= 32U))
   {
@@ -758,11 +758,11 @@ __attribute__((always_inline)) __STATIC_INLINE int32_t __SSAT(int32_t val, uint3
   \param [in]    sat  Bit position to saturate to (0..31)
   \return             Saturated value
  */
-__attribute__((always_inline)) __STATIC_INLINE uint32_t __USAT(int32_t val, uint32_t sat)
+__attribute__((always_inline)) __STATIC_INLINE uint32 __USAT(int32_t val, uint32 sat)
 {
   if (sat <= 31U)
   {
-    const uint32_t max = ((1U << sat) - 1U);
+    const uint32 max = ((1U << sat) - 1U);
     if (val > (int32_t)max)
     {
       return max;
@@ -772,7 +772,7 @@ __attribute__((always_inline)) __STATIC_INLINE uint32_t __USAT(int32_t val, uint
       return 0U;
     }
   }
-  return (uint32_t)val;
+  return (uint32)val;
 }
 
 #endif /* ((defined (__ARM_ARCH_7M__ ) && (__ARM_ARCH_7M__  == 1)) || \
@@ -849,11 +849,11 @@ __attribute__((always_inline)) __STATIC_INLINE uint32_t __USAT(int32_t val, uint
 #define __QADD                            __qadd
 #define __QSUB                            __qsub
 
-#define __PKHBT(ARG1,ARG2,ARG3)          ( ((((uint32_t)(ARG1))          ) & 0x0000FFFFUL) |  \
-                                           ((((uint32_t)(ARG2)) << (ARG3)) & 0xFFFF0000UL)  )
+#define __PKHBT(ARG1,ARG2,ARG3)          ( ((((uint32)(ARG1))          ) & 0x0000FFFFUL) |  \
+                                           ((((uint32)(ARG2)) << (ARG3)) & 0xFFFF0000UL)  )
 
-#define __PKHTB(ARG1,ARG2,ARG3)          ( ((((uint32_t)(ARG1))          ) & 0xFFFF0000UL) |  \
-                                           ((((uint32_t)(ARG2)) >> (ARG3)) & 0x0000FFFFUL)  )
+#define __PKHTB(ARG1,ARG2,ARG3)          ( ((((uint32)(ARG1))          ) & 0xFFFF0000UL) |  \
+                                           ((((uint32)(ARG2)) >> (ARG3)) & 0x0000FFFFUL)  )
 
 #define __SMMLA(ARG1,ARG2,ARG3)          ( (int32_t)((((int64_t)(ARG1) * (ARG2)) + \
                                                       ((int64_t)(ARG3) << 32U)     ) >> 32U))

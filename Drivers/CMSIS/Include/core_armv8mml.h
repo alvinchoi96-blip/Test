@@ -315,16 +315,16 @@ typedef union
 {
   struct
   {
-    uint32_t _reserved0:16;              /*!< bit:  0..15  Reserved */
-    uint32_t GE:4;                       /*!< bit: 16..19  Greater than or Equal flags */
-    uint32_t _reserved1:7;               /*!< bit: 20..26  Reserved */
-    uint32_t Q:1;                        /*!< bit:     27  Saturation condition flag */
-    uint32_t V:1;                        /*!< bit:     28  Overflow condition code flag */
-    uint32_t C:1;                        /*!< bit:     29  Carry condition code flag */
-    uint32_t Z:1;                        /*!< bit:     30  Zero condition code flag */
-    uint32_t N:1;                        /*!< bit:     31  Negative condition code flag */
+    uint32 _reserved0:16;              /*!< bit:  0..15  Reserved */
+    uint32 GE:4;                       /*!< bit: 16..19  Greater than or Equal flags */
+    uint32 _reserved1:7;               /*!< bit: 20..26  Reserved */
+    uint32 Q:1;                        /*!< bit:     27  Saturation condition flag */
+    uint32 V:1;                        /*!< bit:     28  Overflow condition code flag */
+    uint32 C:1;                        /*!< bit:     29  Carry condition code flag */
+    uint32 Z:1;                        /*!< bit:     30  Zero condition code flag */
+    uint32 N:1;                        /*!< bit:     31  Negative condition code flag */
   } b;                                   /*!< Structure used for bit  access */
-  uint32_t w;                            /*!< Type      used for word access */
+  uint32 w;                            /*!< Type      used for word access */
 } APSR_Type;
 
 /* APSR Register Definitions */
@@ -354,10 +354,10 @@ typedef union
 {
   struct
   {
-    uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number */
-    uint32_t _reserved0:23;              /*!< bit:  9..31  Reserved */
+    uint32 ISR:9;                      /*!< bit:  0.. 8  Exception number */
+    uint32 _reserved0:23;              /*!< bit:  9..31  Reserved */
   } b;                                   /*!< Structure used for bit  access */
-  uint32_t w;                            /*!< Type      used for word access */
+  uint32 w;                            /*!< Type      used for word access */
 } IPSR_Type;
 
 /* IPSR Register Definitions */
@@ -372,19 +372,19 @@ typedef union
 {
   struct
   {
-    uint32_t ISR:9;                      /*!< bit:  0.. 8  Exception number */
-    uint32_t _reserved0:7;               /*!< bit:  9..15  Reserved */
-    uint32_t GE:4;                       /*!< bit: 16..19  Greater than or Equal flags */
-    uint32_t _reserved1:4;               /*!< bit: 20..23  Reserved */
-    uint32_t T:1;                        /*!< bit:     24  Thumb bit        (read 0) */
-    uint32_t IT:2;                       /*!< bit: 25..26  saved IT state   (read 0) */
-    uint32_t Q:1;                        /*!< bit:     27  Saturation condition flag */
-    uint32_t V:1;                        /*!< bit:     28  Overflow condition code flag */
-    uint32_t C:1;                        /*!< bit:     29  Carry condition code flag */
-    uint32_t Z:1;                        /*!< bit:     30  Zero condition code flag */
-    uint32_t N:1;                        /*!< bit:     31  Negative condition code flag */
+    uint32 ISR:9;                      /*!< bit:  0.. 8  Exception number */
+    uint32 _reserved0:7;               /*!< bit:  9..15  Reserved */
+    uint32 GE:4;                       /*!< bit: 16..19  Greater than or Equal flags */
+    uint32 _reserved1:4;               /*!< bit: 20..23  Reserved */
+    uint32 T:1;                        /*!< bit:     24  Thumb bit        (read 0) */
+    uint32 IT:2;                       /*!< bit: 25..26  saved IT state   (read 0) */
+    uint32 Q:1;                        /*!< bit:     27  Saturation condition flag */
+    uint32 V:1;                        /*!< bit:     28  Overflow condition code flag */
+    uint32 C:1;                        /*!< bit:     29  Carry condition code flag */
+    uint32 Z:1;                        /*!< bit:     30  Zero condition code flag */
+    uint32 N:1;                        /*!< bit:     31  Negative condition code flag */
   } b;                                   /*!< Structure used for bit  access */
-  uint32_t w;                            /*!< Type      used for word access */
+  uint32 w;                            /*!< Type      used for word access */
 } xPSR_Type;
 
 /* xPSR Register Definitions */
@@ -423,13 +423,13 @@ typedef union
 {
   struct
   {
-    uint32_t nPRIV:1;                    /*!< bit:      0  Execution privilege in Thread mode */
-    uint32_t SPSEL:1;                    /*!< bit:      1  Stack-pointer select */
-    uint32_t FPCA:1;                     /*!< bit:      2  Floating-point context active */
-    uint32_t SFPA:1;                     /*!< bit:      3  Secure floating-point active */
-    uint32_t _reserved1:28;              /*!< bit:  4..31  Reserved */
+    uint32 nPRIV:1;                    /*!< bit:      0  Execution privilege in Thread mode */
+    uint32 SPSEL:1;                    /*!< bit:      1  Stack-pointer select */
+    uint32 FPCA:1;                     /*!< bit:      2  Floating-point context active */
+    uint32 SFPA:1;                     /*!< bit:      3  Secure floating-point active */
+    uint32 _reserved1:28;              /*!< bit:  4..31  Reserved */
   } b;                                   /*!< Structure used for bit  access */
-  uint32_t w;                            /*!< Type      used for word access */
+  uint32 w;                            /*!< Type      used for word access */
 } CONTROL_Type;
 
 /* CONTROL Register Definitions */
@@ -460,21 +460,21 @@ typedef union
  */
 typedef struct
 {
-  __IOM uint32_t ISER[16U];              /*!< Offset: 0x000 (R/W)  Interrupt Set Enable Register */
-        uint32_t RESERVED0[16U];
-  __IOM uint32_t ICER[16U];              /*!< Offset: 0x080 (R/W)  Interrupt Clear Enable Register */
-        uint32_t RSERVED1[16U];
-  __IOM uint32_t ISPR[16U];              /*!< Offset: 0x100 (R/W)  Interrupt Set Pending Register */
-        uint32_t RESERVED2[16U];
-  __IOM uint32_t ICPR[16U];              /*!< Offset: 0x180 (R/W)  Interrupt Clear Pending Register */
-        uint32_t RESERVED3[16U];
-  __IOM uint32_t IABR[16U];              /*!< Offset: 0x200 (R/W)  Interrupt Active bit Register */
-        uint32_t RESERVED4[16U];
-  __IOM uint32_t ITNS[16U];              /*!< Offset: 0x280 (R/W)  Interrupt Non-Secure State Register */
-        uint32_t RESERVED5[16U];
-  __IOM uint8_t  IPR[496U];              /*!< Offset: 0x300 (R/W)  Interrupt Priority Register (8Bit wide) */
-        uint32_t RESERVED6[580U];
-  __OM  uint32_t STIR;                   /*!< Offset: 0xE00 ( /W)  Software Trigger Interrupt Register */
+  __IOM uint32 ISER[16U];              /*!< Offset: 0x000 (R/W)  Interrupt Set Enable Register */
+        uint32 RESERVED0[16U];
+  __IOM uint32 ICER[16U];              /*!< Offset: 0x080 (R/W)  Interrupt Clear Enable Register */
+        uint32 RSERVED1[16U];
+  __IOM uint32 ISPR[16U];              /*!< Offset: 0x100 (R/W)  Interrupt Set Pending Register */
+        uint32 RESERVED2[16U];
+  __IOM uint32 ICPR[16U];              /*!< Offset: 0x180 (R/W)  Interrupt Clear Pending Register */
+        uint32 RESERVED3[16U];
+  __IOM uint32 IABR[16U];              /*!< Offset: 0x200 (R/W)  Interrupt Active bit Register */
+        uint32 RESERVED4[16U];
+  __IOM uint32 ITNS[16U];              /*!< Offset: 0x280 (R/W)  Interrupt Non-Secure State Register */
+        uint32 RESERVED5[16U];
+  __IOM uint8  IPR[496U];              /*!< Offset: 0x300 (R/W)  Interrupt Priority Register (8Bit wide) */
+        uint32 RESERVED6[580U];
+  __OM  uint32 STIR;                   /*!< Offset: 0xE00 ( /W)  Software Trigger Interrupt Register */
 }  NVIC_Type;
 
 /* Software Triggered Interrupt Register Definitions */
@@ -496,56 +496,56 @@ typedef struct
  */
 typedef struct
 {
-  __IM  uint32_t CPUID;                  /*!< Offset: 0x000 (R/ )  CPUID Base Register */
-  __IOM uint32_t ICSR;                   /*!< Offset: 0x004 (R/W)  Interrupt Control and State Register */
-  __IOM uint32_t VTOR;                   /*!< Offset: 0x008 (R/W)  Vector Table Offset Register */
-  __IOM uint32_t AIRCR;                  /*!< Offset: 0x00C (R/W)  Application Interrupt and Reset Control Register */
-  __IOM uint32_t SCR;                    /*!< Offset: 0x010 (R/W)  System Control Register */
-  __IOM uint32_t CCR;                    /*!< Offset: 0x014 (R/W)  Configuration Control Register */
-  __IOM uint8_t  SHPR[12U];              /*!< Offset: 0x018 (R/W)  System Handlers Priority Registers (4-7, 8-11, 12-15) */
-  __IOM uint32_t SHCSR;                  /*!< Offset: 0x024 (R/W)  System Handler Control and State Register */
-  __IOM uint32_t CFSR;                   /*!< Offset: 0x028 (R/W)  Configurable Fault Status Register */
-  __IOM uint32_t HFSR;                   /*!< Offset: 0x02C (R/W)  HardFault Status Register */
-  __IOM uint32_t DFSR;                   /*!< Offset: 0x030 (R/W)  Debug Fault Status Register */
-  __IOM uint32_t MMFAR;                  /*!< Offset: 0x034 (R/W)  MemManage Fault Address Register */
-  __IOM uint32_t BFAR;                   /*!< Offset: 0x038 (R/W)  BusFault Address Register */
-  __IOM uint32_t AFSR;                   /*!< Offset: 0x03C (R/W)  Auxiliary Fault Status Register */
-  __IM  uint32_t ID_PFR[2U];             /*!< Offset: 0x040 (R/ )  Processor Feature Register */
-  __IM  uint32_t ID_DFR;                 /*!< Offset: 0x048 (R/ )  Debug Feature Register */
-  __IM  uint32_t ID_ADR;                 /*!< Offset: 0x04C (R/ )  Auxiliary Feature Register */
-  __IM  uint32_t ID_MMFR[4U];            /*!< Offset: 0x050 (R/ )  Memory Model Feature Register */
-  __IM  uint32_t ID_ISAR[6U];            /*!< Offset: 0x060 (R/ )  Instruction Set Attributes Register */
-  __IM  uint32_t CLIDR;                  /*!< Offset: 0x078 (R/ )  Cache Level ID register */
-  __IM  uint32_t CTR;                    /*!< Offset: 0x07C (R/ )  Cache Type register */
-  __IM  uint32_t CCSIDR;                 /*!< Offset: 0x080 (R/ )  Cache Size ID Register */
-  __IOM uint32_t CSSELR;                 /*!< Offset: 0x084 (R/W)  Cache Size Selection Register */
-  __IOM uint32_t CPACR;                  /*!< Offset: 0x088 (R/W)  Coprocessor Access Control Register */
-  __IOM uint32_t NSACR;                  /*!< Offset: 0x08C (R/W)  Non-Secure Access Control Register */
-        uint32_t RESERVED3[92U];
-  __OM  uint32_t STIR;                   /*!< Offset: 0x200 ( /W)  Software Triggered Interrupt Register */
-        uint32_t RESERVED4[15U];
-  __IM  uint32_t MVFR0;                  /*!< Offset: 0x240 (R/ )  Media and VFP Feature Register 0 */
-  __IM  uint32_t MVFR1;                  /*!< Offset: 0x244 (R/ )  Media and VFP Feature Register 1 */
-  __IM  uint32_t MVFR2;                  /*!< Offset: 0x248 (R/ )  Media and VFP Feature Register 2 */
-        uint32_t RESERVED5[1U];
-  __OM  uint32_t ICIALLU;                /*!< Offset: 0x250 ( /W)  I-Cache Invalidate All to PoU */
-        uint32_t RESERVED6[1U];
-  __OM  uint32_t ICIMVAU;                /*!< Offset: 0x258 ( /W)  I-Cache Invalidate by MVA to PoU */
-  __OM  uint32_t DCIMVAC;                /*!< Offset: 0x25C ( /W)  D-Cache Invalidate by MVA to PoC */
-  __OM  uint32_t DCISW;                  /*!< Offset: 0x260 ( /W)  D-Cache Invalidate by Set-way */
-  __OM  uint32_t DCCMVAU;                /*!< Offset: 0x264 ( /W)  D-Cache Clean by MVA to PoU */
-  __OM  uint32_t DCCMVAC;                /*!< Offset: 0x268 ( /W)  D-Cache Clean by MVA to PoC */
-  __OM  uint32_t DCCSW;                  /*!< Offset: 0x26C ( /W)  D-Cache Clean by Set-way */
-  __OM  uint32_t DCCIMVAC;               /*!< Offset: 0x270 ( /W)  D-Cache Clean and Invalidate by MVA to PoC */
-  __OM  uint32_t DCCISW;                 /*!< Offset: 0x274 ( /W)  D-Cache Clean and Invalidate by Set-way */
-        uint32_t RESERVED7[6U];
-  __IOM uint32_t ITCMCR;                 /*!< Offset: 0x290 (R/W)  Instruction Tightly-Coupled Memory Control Register */
-  __IOM uint32_t DTCMCR;                 /*!< Offset: 0x294 (R/W)  Data Tightly-Coupled Memory Control Registers */
-  __IOM uint32_t AHBPCR;                 /*!< Offset: 0x298 (R/W)  AHBP Control Register */
-  __IOM uint32_t CACR;                   /*!< Offset: 0x29C (R/W)  L1 Cache Control Register */
-  __IOM uint32_t AHBSCR;                 /*!< Offset: 0x2A0 (R/W)  AHB Slave Control Register */
-        uint32_t RESERVED8[1U];
-  __IOM uint32_t ABFSR;                  /*!< Offset: 0x2A8 (R/W)  Auxiliary Bus Fault Status Register */
+  __IM  uint32 CPUID;                  /*!< Offset: 0x000 (R/ )  CPUID Base Register */
+  __IOM uint32 ICSR;                   /*!< Offset: 0x004 (R/W)  Interrupt Control and State Register */
+  __IOM uint32 VTOR;                   /*!< Offset: 0x008 (R/W)  Vector Table Offset Register */
+  __IOM uint32 AIRCR;                  /*!< Offset: 0x00C (R/W)  Application Interrupt and Reset Control Register */
+  __IOM uint32 SCR;                    /*!< Offset: 0x010 (R/W)  System Control Register */
+  __IOM uint32 CCR;                    /*!< Offset: 0x014 (R/W)  Configuration Control Register */
+  __IOM uint8  SHPR[12U];              /*!< Offset: 0x018 (R/W)  System Handlers Priority Registers (4-7, 8-11, 12-15) */
+  __IOM uint32 SHCSR;                  /*!< Offset: 0x024 (R/W)  System Handler Control and State Register */
+  __IOM uint32 CFSR;                   /*!< Offset: 0x028 (R/W)  Configurable Fault Status Register */
+  __IOM uint32 HFSR;                   /*!< Offset: 0x02C (R/W)  HardFault Status Register */
+  __IOM uint32 DFSR;                   /*!< Offset: 0x030 (R/W)  Debug Fault Status Register */
+  __IOM uint32 MMFAR;                  /*!< Offset: 0x034 (R/W)  MemManage Fault Address Register */
+  __IOM uint32 BFAR;                   /*!< Offset: 0x038 (R/W)  BusFault Address Register */
+  __IOM uint32 AFSR;                   /*!< Offset: 0x03C (R/W)  Auxiliary Fault Status Register */
+  __IM  uint32 ID_PFR[2U];             /*!< Offset: 0x040 (R/ )  Processor Feature Register */
+  __IM  uint32 ID_DFR;                 /*!< Offset: 0x048 (R/ )  Debug Feature Register */
+  __IM  uint32 ID_ADR;                 /*!< Offset: 0x04C (R/ )  Auxiliary Feature Register */
+  __IM  uint32 ID_MMFR[4U];            /*!< Offset: 0x050 (R/ )  Memory Model Feature Register */
+  __IM  uint32 ID_ISAR[6U];            /*!< Offset: 0x060 (R/ )  Instruction Set Attributes Register */
+  __IM  uint32 CLIDR;                  /*!< Offset: 0x078 (R/ )  Cache Level ID register */
+  __IM  uint32 CTR;                    /*!< Offset: 0x07C (R/ )  Cache Type register */
+  __IM  uint32 CCSIDR;                 /*!< Offset: 0x080 (R/ )  Cache Size ID Register */
+  __IOM uint32 CSSELR;                 /*!< Offset: 0x084 (R/W)  Cache Size Selection Register */
+  __IOM uint32 CPACR;                  /*!< Offset: 0x088 (R/W)  Coprocessor Access Control Register */
+  __IOM uint32 NSACR;                  /*!< Offset: 0x08C (R/W)  Non-Secure Access Control Register */
+        uint32 RESERVED3[92U];
+  __OM  uint32 STIR;                   /*!< Offset: 0x200 ( /W)  Software Triggered Interrupt Register */
+        uint32 RESERVED4[15U];
+  __IM  uint32 MVFR0;                  /*!< Offset: 0x240 (R/ )  Media and VFP Feature Register 0 */
+  __IM  uint32 MVFR1;                  /*!< Offset: 0x244 (R/ )  Media and VFP Feature Register 1 */
+  __IM  uint32 MVFR2;                  /*!< Offset: 0x248 (R/ )  Media and VFP Feature Register 2 */
+        uint32 RESERVED5[1U];
+  __OM  uint32 ICIALLU;                /*!< Offset: 0x250 ( /W)  I-Cache Invalidate All to PoU */
+        uint32 RESERVED6[1U];
+  __OM  uint32 ICIMVAU;                /*!< Offset: 0x258 ( /W)  I-Cache Invalidate by MVA to PoU */
+  __OM  uint32 DCIMVAC;                /*!< Offset: 0x25C ( /W)  D-Cache Invalidate by MVA to PoC */
+  __OM  uint32 DCISW;                  /*!< Offset: 0x260 ( /W)  D-Cache Invalidate by Set-way */
+  __OM  uint32 DCCMVAU;                /*!< Offset: 0x264 ( /W)  D-Cache Clean by MVA to PoU */
+  __OM  uint32 DCCMVAC;                /*!< Offset: 0x268 ( /W)  D-Cache Clean by MVA to PoC */
+  __OM  uint32 DCCSW;                  /*!< Offset: 0x26C ( /W)  D-Cache Clean by Set-way */
+  __OM  uint32 DCCIMVAC;               /*!< Offset: 0x270 ( /W)  D-Cache Clean and Invalidate by MVA to PoC */
+  __OM  uint32 DCCISW;                 /*!< Offset: 0x274 ( /W)  D-Cache Clean and Invalidate by Set-way */
+        uint32 RESERVED7[6U];
+  __IOM uint32 ITCMCR;                 /*!< Offset: 0x290 (R/W)  Instruction Tightly-Coupled Memory Control Register */
+  __IOM uint32 DTCMCR;                 /*!< Offset: 0x294 (R/W)  Data Tightly-Coupled Memory Control Registers */
+  __IOM uint32 AHBPCR;                 /*!< Offset: 0x298 (R/W)  AHBP Control Register */
+  __IOM uint32 CACR;                   /*!< Offset: 0x29C (R/W)  L1 Cache Control Register */
+  __IOM uint32 AHBSCR;                 /*!< Offset: 0x2A0 (R/W)  AHB Slave Control Register */
+        uint32 RESERVED8[1U];
+  __IOM uint32 ABFSR;                  /*!< Offset: 0x2A8 (R/W)  Auxiliary Bus Fault Status Register */
 } SCB_Type;
 
 /* SCB CPUID Register Definitions */
@@ -1008,10 +1008,10 @@ typedef struct
  */
 typedef struct
 {
-        uint32_t RESERVED0[1U];
-  __IM  uint32_t ICTR;                   /*!< Offset: 0x004 (R/ )  Interrupt Controller Type Register */
-  __IOM uint32_t ACTLR;                  /*!< Offset: 0x008 (R/W)  Auxiliary Control Register */
-  __IOM uint32_t CPPWR;                  /*!< Offset: 0x00C (R/W)  Coprocessor Power Control  Register */
+        uint32 RESERVED0[1U];
+  __IM  uint32 ICTR;                   /*!< Offset: 0x004 (R/ )  Interrupt Controller Type Register */
+  __IOM uint32 ACTLR;                  /*!< Offset: 0x008 (R/W)  Auxiliary Control Register */
+  __IOM uint32 CPPWR;                  /*!< Offset: 0x00C (R/W)  Coprocessor Power Control  Register */
 } SCnSCB_Type;
 
 /* Interrupt Controller Type Register Definitions */
@@ -1033,10 +1033,10 @@ typedef struct
  */
 typedef struct
 {
-  __IOM uint32_t CTRL;                   /*!< Offset: 0x000 (R/W)  SysTick Control and Status Register */
-  __IOM uint32_t LOAD;                   /*!< Offset: 0x004 (R/W)  SysTick Reload Value Register */
-  __IOM uint32_t VAL;                    /*!< Offset: 0x008 (R/W)  SysTick Current Value Register */
-  __IM  uint32_t CALIB;                  /*!< Offset: 0x00C (R/ )  SysTick Calibration Register */
+  __IOM uint32 CTRL;                   /*!< Offset: 0x000 (R/W)  SysTick Control and Status Register */
+  __IOM uint32 LOAD;                   /*!< Offset: 0x004 (R/W)  SysTick Reload Value Register */
+  __IOM uint32 VAL;                    /*!< Offset: 0x008 (R/W)  SysTick Current Value Register */
+  __IM  uint32 CALIB;                  /*!< Offset: 0x00C (R/ )  SysTick Calibration Register */
 } SysTick_Type;
 
 /* SysTick Control / Status Register Definitions */
@@ -1087,38 +1087,38 @@ typedef struct
 {
   __OM  union
   {
-    __OM  uint8_t    u8;                 /*!< Offset: 0x000 ( /W)  ITM Stimulus Port 8-bit */
-    __OM  uint16_t   u16;                /*!< Offset: 0x000 ( /W)  ITM Stimulus Port 16-bit */
-    __OM  uint32_t   u32;                /*!< Offset: 0x000 ( /W)  ITM Stimulus Port 32-bit */
+    __OM  uint8    u8;                 /*!< Offset: 0x000 ( /W)  ITM Stimulus Port 8-bit */
+    __OM  uint16   u16;                /*!< Offset: 0x000 ( /W)  ITM Stimulus Port 16-bit */
+    __OM  uint32   u32;                /*!< Offset: 0x000 ( /W)  ITM Stimulus Port 32-bit */
   }  PORT [32U];                         /*!< Offset: 0x000 ( /W)  ITM Stimulus Port Registers */
-        uint32_t RESERVED0[864U];
-  __IOM uint32_t TER;                    /*!< Offset: 0xE00 (R/W)  ITM Trace Enable Register */
-        uint32_t RESERVED1[15U];
-  __IOM uint32_t TPR;                    /*!< Offset: 0xE40 (R/W)  ITM Trace Privilege Register */
-        uint32_t RESERVED2[15U];
-  __IOM uint32_t TCR;                    /*!< Offset: 0xE80 (R/W)  ITM Trace Control Register */
-        uint32_t RESERVED3[29U];
-  __OM  uint32_t IWR;                    /*!< Offset: 0xEF8 ( /W)  ITM Integration Write Register */
-  __IM  uint32_t IRR;                    /*!< Offset: 0xEFC (R/ )  ITM Integration Read Register */
-  __IOM uint32_t IMCR;                   /*!< Offset: 0xF00 (R/W)  ITM Integration Mode Control Register */
-        uint32_t RESERVED4[43U];
-  __OM  uint32_t LAR;                    /*!< Offset: 0xFB0 ( /W)  ITM Lock Access Register */
-  __IM  uint32_t LSR;                    /*!< Offset: 0xFB4 (R/ )  ITM Lock Status Register */
-        uint32_t RESERVED5[1U];
-  __IM  uint32_t DEVARCH;                /*!< Offset: 0xFBC (R/ )  ITM Device Architecture Register */
-        uint32_t RESERVED6[4U];
-  __IM  uint32_t PID4;                   /*!< Offset: 0xFD0 (R/ )  ITM Peripheral Identification Register #4 */
-  __IM  uint32_t PID5;                   /*!< Offset: 0xFD4 (R/ )  ITM Peripheral Identification Register #5 */
-  __IM  uint32_t PID6;                   /*!< Offset: 0xFD8 (R/ )  ITM Peripheral Identification Register #6 */
-  __IM  uint32_t PID7;                   /*!< Offset: 0xFDC (R/ )  ITM Peripheral Identification Register #7 */
-  __IM  uint32_t PID0;                   /*!< Offset: 0xFE0 (R/ )  ITM Peripheral Identification Register #0 */
-  __IM  uint32_t PID1;                   /*!< Offset: 0xFE4 (R/ )  ITM Peripheral Identification Register #1 */
-  __IM  uint32_t PID2;                   /*!< Offset: 0xFE8 (R/ )  ITM Peripheral Identification Register #2 */
-  __IM  uint32_t PID3;                   /*!< Offset: 0xFEC (R/ )  ITM Peripheral Identification Register #3 */
-  __IM  uint32_t CID0;                   /*!< Offset: 0xFF0 (R/ )  ITM Component  Identification Register #0 */
-  __IM  uint32_t CID1;                   /*!< Offset: 0xFF4 (R/ )  ITM Component  Identification Register #1 */
-  __IM  uint32_t CID2;                   /*!< Offset: 0xFF8 (R/ )  ITM Component  Identification Register #2 */
-  __IM  uint32_t CID3;                   /*!< Offset: 0xFFC (R/ )  ITM Component  Identification Register #3 */
+        uint32 RESERVED0[864U];
+  __IOM uint32 TER;                    /*!< Offset: 0xE00 (R/W)  ITM Trace Enable Register */
+        uint32 RESERVED1[15U];
+  __IOM uint32 TPR;                    /*!< Offset: 0xE40 (R/W)  ITM Trace Privilege Register */
+        uint32 RESERVED2[15U];
+  __IOM uint32 TCR;                    /*!< Offset: 0xE80 (R/W)  ITM Trace Control Register */
+        uint32 RESERVED3[29U];
+  __OM  uint32 IWR;                    /*!< Offset: 0xEF8 ( /W)  ITM Integration Write Register */
+  __IM  uint32 IRR;                    /*!< Offset: 0xEFC (R/ )  ITM Integration Read Register */
+  __IOM uint32 IMCR;                   /*!< Offset: 0xF00 (R/W)  ITM Integration Mode Control Register */
+        uint32 RESERVED4[43U];
+  __OM  uint32 LAR;                    /*!< Offset: 0xFB0 ( /W)  ITM Lock Access Register */
+  __IM  uint32 LSR;                    /*!< Offset: 0xFB4 (R/ )  ITM Lock Status Register */
+        uint32 RESERVED5[1U];
+  __IM  uint32 DEVARCH;                /*!< Offset: 0xFBC (R/ )  ITM Device Architecture Register */
+        uint32 RESERVED6[4U];
+  __IM  uint32 PID4;                   /*!< Offset: 0xFD0 (R/ )  ITM Peripheral Identification Register #4 */
+  __IM  uint32 PID5;                   /*!< Offset: 0xFD4 (R/ )  ITM Peripheral Identification Register #5 */
+  __IM  uint32 PID6;                   /*!< Offset: 0xFD8 (R/ )  ITM Peripheral Identification Register #6 */
+  __IM  uint32 PID7;                   /*!< Offset: 0xFDC (R/ )  ITM Peripheral Identification Register #7 */
+  __IM  uint32 PID0;                   /*!< Offset: 0xFE0 (R/ )  ITM Peripheral Identification Register #0 */
+  __IM  uint32 PID1;                   /*!< Offset: 0xFE4 (R/ )  ITM Peripheral Identification Register #1 */
+  __IM  uint32 PID2;                   /*!< Offset: 0xFE8 (R/ )  ITM Peripheral Identification Register #2 */
+  __IM  uint32 PID3;                   /*!< Offset: 0xFEC (R/ )  ITM Peripheral Identification Register #3 */
+  __IM  uint32 CID0;                   /*!< Offset: 0xFF0 (R/ )  ITM Component  Identification Register #0 */
+  __IM  uint32 CID1;                   /*!< Offset: 0xFF4 (R/ )  ITM Component  Identification Register #1 */
+  __IM  uint32 CID2;                   /*!< Offset: 0xFF8 (R/ )  ITM Component  Identification Register #2 */
+  __IM  uint32 CID3;                   /*!< Offset: 0xFFC (R/ )  ITM Component  Identification Register #3 */
 } ITM_Type;
 
 /* ITM Stimulus Port Register Definitions */
@@ -1200,81 +1200,81 @@ typedef struct
  */
 typedef struct
 {
-  __IOM uint32_t CTRL;                   /*!< Offset: 0x000 (R/W)  Control Register */
-  __IOM uint32_t CYCCNT;                 /*!< Offset: 0x004 (R/W)  Cycle Count Register */
-  __IOM uint32_t CPICNT;                 /*!< Offset: 0x008 (R/W)  CPI Count Register */
-  __IOM uint32_t EXCCNT;                 /*!< Offset: 0x00C (R/W)  Exception Overhead Count Register */
-  __IOM uint32_t SLEEPCNT;               /*!< Offset: 0x010 (R/W)  Sleep Count Register */
-  __IOM uint32_t LSUCNT;                 /*!< Offset: 0x014 (R/W)  LSU Count Register */
-  __IOM uint32_t FOLDCNT;                /*!< Offset: 0x018 (R/W)  Folded-instruction Count Register */
-  __IM  uint32_t PCSR;                   /*!< Offset: 0x01C (R/ )  Program Counter Sample Register */
-  __IOM uint32_t COMP0;                  /*!< Offset: 0x020 (R/W)  Comparator Register 0 */
-        uint32_t RESERVED1[1U];
-  __IOM uint32_t FUNCTION0;              /*!< Offset: 0x028 (R/W)  Function Register 0 */
-        uint32_t RESERVED2[1U];
-  __IOM uint32_t COMP1;                  /*!< Offset: 0x030 (R/W)  Comparator Register 1 */
-        uint32_t RESERVED3[1U];
-  __IOM uint32_t FUNCTION1;              /*!< Offset: 0x038 (R/W)  Function Register 1 */
-        uint32_t RESERVED4[1U];
-  __IOM uint32_t COMP2;                  /*!< Offset: 0x040 (R/W)  Comparator Register 2 */
-        uint32_t RESERVED5[1U];
-  __IOM uint32_t FUNCTION2;              /*!< Offset: 0x048 (R/W)  Function Register 2 */
-        uint32_t RESERVED6[1U];
-  __IOM uint32_t COMP3;                  /*!< Offset: 0x050 (R/W)  Comparator Register 3 */
-        uint32_t RESERVED7[1U];
-  __IOM uint32_t FUNCTION3;              /*!< Offset: 0x058 (R/W)  Function Register 3 */
-        uint32_t RESERVED8[1U];
-  __IOM uint32_t COMP4;                  /*!< Offset: 0x060 (R/W)  Comparator Register 4 */
-        uint32_t RESERVED9[1U];
-  __IOM uint32_t FUNCTION4;              /*!< Offset: 0x068 (R/W)  Function Register 4 */
-        uint32_t RESERVED10[1U];
-  __IOM uint32_t COMP5;                  /*!< Offset: 0x070 (R/W)  Comparator Register 5 */
-        uint32_t RESERVED11[1U];
-  __IOM uint32_t FUNCTION5;              /*!< Offset: 0x078 (R/W)  Function Register 5 */
-        uint32_t RESERVED12[1U];
-  __IOM uint32_t COMP6;                  /*!< Offset: 0x080 (R/W)  Comparator Register 6 */
-        uint32_t RESERVED13[1U];
-  __IOM uint32_t FUNCTION6;              /*!< Offset: 0x088 (R/W)  Function Register 6 */
-        uint32_t RESERVED14[1U];
-  __IOM uint32_t COMP7;                  /*!< Offset: 0x090 (R/W)  Comparator Register 7 */
-        uint32_t RESERVED15[1U];
-  __IOM uint32_t FUNCTION7;              /*!< Offset: 0x098 (R/W)  Function Register 7 */
-        uint32_t RESERVED16[1U];
-  __IOM uint32_t COMP8;                  /*!< Offset: 0x0A0 (R/W)  Comparator Register 8 */
-        uint32_t RESERVED17[1U];
-  __IOM uint32_t FUNCTION8;              /*!< Offset: 0x0A8 (R/W)  Function Register 8 */
-        uint32_t RESERVED18[1U];
-  __IOM uint32_t COMP9;                  /*!< Offset: 0x0B0 (R/W)  Comparator Register 9 */
-        uint32_t RESERVED19[1U];
-  __IOM uint32_t FUNCTION9;              /*!< Offset: 0x0B8 (R/W)  Function Register 9 */
-        uint32_t RESERVED20[1U];
-  __IOM uint32_t COMP10;                 /*!< Offset: 0x0C0 (R/W)  Comparator Register 10 */
-        uint32_t RESERVED21[1U];
-  __IOM uint32_t FUNCTION10;             /*!< Offset: 0x0C8 (R/W)  Function Register 10 */
-        uint32_t RESERVED22[1U];
-  __IOM uint32_t COMP11;                 /*!< Offset: 0x0D0 (R/W)  Comparator Register 11 */
-        uint32_t RESERVED23[1U];
-  __IOM uint32_t FUNCTION11;             /*!< Offset: 0x0D8 (R/W)  Function Register 11 */
-        uint32_t RESERVED24[1U];
-  __IOM uint32_t COMP12;                 /*!< Offset: 0x0E0 (R/W)  Comparator Register 12 */
-        uint32_t RESERVED25[1U];
-  __IOM uint32_t FUNCTION12;             /*!< Offset: 0x0E8 (R/W)  Function Register 12 */
-        uint32_t RESERVED26[1U];
-  __IOM uint32_t COMP13;                 /*!< Offset: 0x0F0 (R/W)  Comparator Register 13 */
-        uint32_t RESERVED27[1U];
-  __IOM uint32_t FUNCTION13;             /*!< Offset: 0x0F8 (R/W)  Function Register 13 */
-        uint32_t RESERVED28[1U];
-  __IOM uint32_t COMP14;                 /*!< Offset: 0x100 (R/W)  Comparator Register 14 */
-        uint32_t RESERVED29[1U];
-  __IOM uint32_t FUNCTION14;             /*!< Offset: 0x108 (R/W)  Function Register 14 */
-        uint32_t RESERVED30[1U];
-  __IOM uint32_t COMP15;                 /*!< Offset: 0x110 (R/W)  Comparator Register 15 */
-        uint32_t RESERVED31[1U];
-  __IOM uint32_t FUNCTION15;             /*!< Offset: 0x118 (R/W)  Function Register 15 */
-        uint32_t RESERVED32[934U];
-  __IM  uint32_t LSR;                    /*!< Offset: 0xFB4 (R  )  Lock Status Register */
-        uint32_t RESERVED33[1U];
-  __IM  uint32_t DEVARCH;                /*!< Offset: 0xFBC (R/ )  Device Architecture Register */
+  __IOM uint32 CTRL;                   /*!< Offset: 0x000 (R/W)  Control Register */
+  __IOM uint32 CYCCNT;                 /*!< Offset: 0x004 (R/W)  Cycle Count Register */
+  __IOM uint32 CPICNT;                 /*!< Offset: 0x008 (R/W)  CPI Count Register */
+  __IOM uint32 EXCCNT;                 /*!< Offset: 0x00C (R/W)  Exception Overhead Count Register */
+  __IOM uint32 SLEEPCNT;               /*!< Offset: 0x010 (R/W)  Sleep Count Register */
+  __IOM uint32 LSUCNT;                 /*!< Offset: 0x014 (R/W)  LSU Count Register */
+  __IOM uint32 FOLDCNT;                /*!< Offset: 0x018 (R/W)  Folded-instruction Count Register */
+  __IM  uint32 PCSR;                   /*!< Offset: 0x01C (R/ )  Program Counter Sample Register */
+  __IOM uint32 COMP0;                  /*!< Offset: 0x020 (R/W)  Comparator Register 0 */
+        uint32 RESERVED1[1U];
+  __IOM uint32 FUNCTION0;              /*!< Offset: 0x028 (R/W)  Function Register 0 */
+        uint32 RESERVED2[1U];
+  __IOM uint32 COMP1;                  /*!< Offset: 0x030 (R/W)  Comparator Register 1 */
+        uint32 RESERVED3[1U];
+  __IOM uint32 FUNCTION1;              /*!< Offset: 0x038 (R/W)  Function Register 1 */
+        uint32 RESERVED4[1U];
+  __IOM uint32 COMP2;                  /*!< Offset: 0x040 (R/W)  Comparator Register 2 */
+        uint32 RESERVED5[1U];
+  __IOM uint32 FUNCTION2;              /*!< Offset: 0x048 (R/W)  Function Register 2 */
+        uint32 RESERVED6[1U];
+  __IOM uint32 COMP3;                  /*!< Offset: 0x050 (R/W)  Comparator Register 3 */
+        uint32 RESERVED7[1U];
+  __IOM uint32 FUNCTION3;              /*!< Offset: 0x058 (R/W)  Function Register 3 */
+        uint32 RESERVED8[1U];
+  __IOM uint32 COMP4;                  /*!< Offset: 0x060 (R/W)  Comparator Register 4 */
+        uint32 RESERVED9[1U];
+  __IOM uint32 FUNCTION4;              /*!< Offset: 0x068 (R/W)  Function Register 4 */
+        uint32 RESERVED10[1U];
+  __IOM uint32 COMP5;                  /*!< Offset: 0x070 (R/W)  Comparator Register 5 */
+        uint32 RESERVED11[1U];
+  __IOM uint32 FUNCTION5;              /*!< Offset: 0x078 (R/W)  Function Register 5 */
+        uint32 RESERVED12[1U];
+  __IOM uint32 COMP6;                  /*!< Offset: 0x080 (R/W)  Comparator Register 6 */
+        uint32 RESERVED13[1U];
+  __IOM uint32 FUNCTION6;              /*!< Offset: 0x088 (R/W)  Function Register 6 */
+        uint32 RESERVED14[1U];
+  __IOM uint32 COMP7;                  /*!< Offset: 0x090 (R/W)  Comparator Register 7 */
+        uint32 RESERVED15[1U];
+  __IOM uint32 FUNCTION7;              /*!< Offset: 0x098 (R/W)  Function Register 7 */
+        uint32 RESERVED16[1U];
+  __IOM uint32 COMP8;                  /*!< Offset: 0x0A0 (R/W)  Comparator Register 8 */
+        uint32 RESERVED17[1U];
+  __IOM uint32 FUNCTION8;              /*!< Offset: 0x0A8 (R/W)  Function Register 8 */
+        uint32 RESERVED18[1U];
+  __IOM uint32 COMP9;                  /*!< Offset: 0x0B0 (R/W)  Comparator Register 9 */
+        uint32 RESERVED19[1U];
+  __IOM uint32 FUNCTION9;              /*!< Offset: 0x0B8 (R/W)  Function Register 9 */
+        uint32 RESERVED20[1U];
+  __IOM uint32 COMP10;                 /*!< Offset: 0x0C0 (R/W)  Comparator Register 10 */
+        uint32 RESERVED21[1U];
+  __IOM uint32 FUNCTION10;             /*!< Offset: 0x0C8 (R/W)  Function Register 10 */
+        uint32 RESERVED22[1U];
+  __IOM uint32 COMP11;                 /*!< Offset: 0x0D0 (R/W)  Comparator Register 11 */
+        uint32 RESERVED23[1U];
+  __IOM uint32 FUNCTION11;             /*!< Offset: 0x0D8 (R/W)  Function Register 11 */
+        uint32 RESERVED24[1U];
+  __IOM uint32 COMP12;                 /*!< Offset: 0x0E0 (R/W)  Comparator Register 12 */
+        uint32 RESERVED25[1U];
+  __IOM uint32 FUNCTION12;             /*!< Offset: 0x0E8 (R/W)  Function Register 12 */
+        uint32 RESERVED26[1U];
+  __IOM uint32 COMP13;                 /*!< Offset: 0x0F0 (R/W)  Comparator Register 13 */
+        uint32 RESERVED27[1U];
+  __IOM uint32 FUNCTION13;             /*!< Offset: 0x0F8 (R/W)  Function Register 13 */
+        uint32 RESERVED28[1U];
+  __IOM uint32 COMP14;                 /*!< Offset: 0x100 (R/W)  Comparator Register 14 */
+        uint32 RESERVED29[1U];
+  __IOM uint32 FUNCTION14;             /*!< Offset: 0x108 (R/W)  Function Register 14 */
+        uint32 RESERVED30[1U];
+  __IOM uint32 COMP15;                 /*!< Offset: 0x110 (R/W)  Comparator Register 15 */
+        uint32 RESERVED31[1U];
+  __IOM uint32 FUNCTION15;             /*!< Offset: 0x118 (R/W)  Function Register 15 */
+        uint32 RESERVED32[934U];
+  __IM  uint32 LSR;                    /*!< Offset: 0xFB4 (R  )  Lock Status Register */
+        uint32 RESERVED33[1U];
+  __IM  uint32 DEVARCH;                /*!< Offset: 0xFBC (R/ )  Device Architecture Register */
 } DWT_Type;
 
 /* DWT Control Register Definitions */
@@ -1386,22 +1386,22 @@ typedef struct
  */
 typedef struct
 {
-  __IM  uint32_t SSPSR;                  /*!< Offset: 0x000 (R/ )  Supported Parallel Port Sizes Register */
-  __IOM uint32_t CSPSR;                  /*!< Offset: 0x004 (R/W)  Current Parallel Port Sizes Register */
-        uint32_t RESERVED0[2U];
-  __IOM uint32_t ACPR;                   /*!< Offset: 0x010 (R/W)  Asynchronous Clock Prescaler Register */
-        uint32_t RESERVED1[55U];
-  __IOM uint32_t SPPR;                   /*!< Offset: 0x0F0 (R/W)  Selected Pin Protocol Register */
-        uint32_t RESERVED2[131U];
-  __IM  uint32_t FFSR;                   /*!< Offset: 0x300 (R/ )  Formatter and Flush Status Register */
-  __IOM uint32_t FFCR;                   /*!< Offset: 0x304 (R/W)  Formatter and Flush Control Register */
-  __IOM uint32_t PSCR;                   /*!< Offset: 0x308 (R/W)  Periodic Synchronization Control Register */
-        uint32_t RESERVED3[809U];
-  __OM  uint32_t LAR;                    /*!< Offset: 0xFB0 ( /W)  Software Lock Access Register */
-  __IM  uint32_t LSR;                    /*!< Offset: 0xFB4 (R/ )  Software Lock Status Register */
-        uint32_t RESERVED4[4U];
-  __IM  uint32_t TYPE;                   /*!< Offset: 0xFC8 (R/ )  Device Identifier Register */
-  __IM  uint32_t DEVTYPE;                /*!< Offset: 0xFCC (R/ )  Device Type Register */
+  __IM  uint32 SSPSR;                  /*!< Offset: 0x000 (R/ )  Supported Parallel Port Sizes Register */
+  __IOM uint32 CSPSR;                  /*!< Offset: 0x004 (R/W)  Current Parallel Port Sizes Register */
+        uint32 RESERVED0[2U];
+  __IOM uint32 ACPR;                   /*!< Offset: 0x010 (R/W)  Asynchronous Clock Prescaler Register */
+        uint32 RESERVED1[55U];
+  __IOM uint32 SPPR;                   /*!< Offset: 0x0F0 (R/W)  Selected Pin Protocol Register */
+        uint32 RESERVED2[131U];
+  __IM  uint32 FFSR;                   /*!< Offset: 0x300 (R/ )  Formatter and Flush Status Register */
+  __IOM uint32 FFCR;                   /*!< Offset: 0x304 (R/W)  Formatter and Flush Control Register */
+  __IOM uint32 PSCR;                   /*!< Offset: 0x308 (R/W)  Periodic Synchronization Control Register */
+        uint32 RESERVED3[809U];
+  __OM  uint32 LAR;                    /*!< Offset: 0xFB0 ( /W)  Software Lock Access Register */
+  __IM  uint32 LSR;                    /*!< Offset: 0xFB4 (R/ )  Software Lock Status Register */
+        uint32 RESERVED4[4U];
+  __IM  uint32 TYPE;                   /*!< Offset: 0xFC8 (R/ )  Device Identifier Register */
+  __IM  uint32 DEVTYPE;                /*!< Offset: 0xFCC (R/ )  Device Type Register */
 } TPI_Type;
 
 /* TPI Asynchronous Clock Prescaler Register Definitions */
@@ -1485,23 +1485,23 @@ typedef struct
  */
 typedef struct
 {
-  __IM  uint32_t TYPE;                   /*!< Offset: 0x000 (R/ )  MPU Type Register */
-  __IOM uint32_t CTRL;                   /*!< Offset: 0x004 (R/W)  MPU Control Register */
-  __IOM uint32_t RNR;                    /*!< Offset: 0x008 (R/W)  MPU Region Number Register */
-  __IOM uint32_t RBAR;                   /*!< Offset: 0x00C (R/W)  MPU Region Base Address Register */
-  __IOM uint32_t RLAR;                   /*!< Offset: 0x010 (R/W)  MPU Region Limit Address Register */
-  __IOM uint32_t RBAR_A1;                /*!< Offset: 0x014 (R/W)  MPU Region Base Address Register Alias 1 */
-  __IOM uint32_t RLAR_A1;                /*!< Offset: 0x018 (R/W)  MPU Region Limit Address Register Alias 1 */
-  __IOM uint32_t RBAR_A2;                /*!< Offset: 0x01C (R/W)  MPU Region Base Address Register Alias 2 */
-  __IOM uint32_t RLAR_A2;                /*!< Offset: 0x020 (R/W)  MPU Region Limit Address Register Alias 2 */
-  __IOM uint32_t RBAR_A3;                /*!< Offset: 0x024 (R/W)  MPU Region Base Address Register Alias 3 */
-  __IOM uint32_t RLAR_A3;                /*!< Offset: 0x028 (R/W)  MPU Region Limit Address Register Alias 3 */
-        uint32_t RESERVED0[1];
+  __IM  uint32 TYPE;                   /*!< Offset: 0x000 (R/ )  MPU Type Register */
+  __IOM uint32 CTRL;                   /*!< Offset: 0x004 (R/W)  MPU Control Register */
+  __IOM uint32 RNR;                    /*!< Offset: 0x008 (R/W)  MPU Region Number Register */
+  __IOM uint32 RBAR;                   /*!< Offset: 0x00C (R/W)  MPU Region Base Address Register */
+  __IOM uint32 RLAR;                   /*!< Offset: 0x010 (R/W)  MPU Region Limit Address Register */
+  __IOM uint32 RBAR_A1;                /*!< Offset: 0x014 (R/W)  MPU Region Base Address Register Alias 1 */
+  __IOM uint32 RLAR_A1;                /*!< Offset: 0x018 (R/W)  MPU Region Limit Address Register Alias 1 */
+  __IOM uint32 RBAR_A2;                /*!< Offset: 0x01C (R/W)  MPU Region Base Address Register Alias 2 */
+  __IOM uint32 RLAR_A2;                /*!< Offset: 0x020 (R/W)  MPU Region Limit Address Register Alias 2 */
+  __IOM uint32 RBAR_A3;                /*!< Offset: 0x024 (R/W)  MPU Region Base Address Register Alias 3 */
+  __IOM uint32 RLAR_A3;                /*!< Offset: 0x028 (R/W)  MPU Region Limit Address Register Alias 3 */
+        uint32 RESERVED0[1];
   union {
-  __IOM uint32_t MAIR[2];
+  __IOM uint32 MAIR[2];
   struct {
-  __IOM uint32_t MAIR0;                  /*!< Offset: 0x030 (R/W)  MPU Memory Attribute Indirection Register 0 */
-  __IOM uint32_t MAIR1;                  /*!< Offset: 0x034 (R/W)  MPU Memory Attribute Indirection Register 1 */
+  __IOM uint32 MAIR0;                  /*!< Offset: 0x030 (R/W)  MPU Memory Attribute Indirection Register 0 */
+  __IOM uint32 MAIR1;                  /*!< Offset: 0x034 (R/W)  MPU Memory Attribute Indirection Register 1 */
   };
   };
 } MPU_Type;
@@ -1598,17 +1598,17 @@ typedef struct
  */
 typedef struct
 {
-  __IOM uint32_t CTRL;                   /*!< Offset: 0x000 (R/W)  SAU Control Register */
-  __IM  uint32_t TYPE;                   /*!< Offset: 0x004 (R/ )  SAU Type Register */
+  __IOM uint32 CTRL;                   /*!< Offset: 0x000 (R/W)  SAU Control Register */
+  __IM  uint32 TYPE;                   /*!< Offset: 0x004 (R/ )  SAU Type Register */
 #if defined (__SAUREGION_PRESENT) && (__SAUREGION_PRESENT == 1U)
-  __IOM uint32_t RNR;                    /*!< Offset: 0x008 (R/W)  SAU Region Number Register */
-  __IOM uint32_t RBAR;                   /*!< Offset: 0x00C (R/W)  SAU Region Base Address Register */
-  __IOM uint32_t RLAR;                   /*!< Offset: 0x010 (R/W)  SAU Region Limit Address Register */
+  __IOM uint32 RNR;                    /*!< Offset: 0x008 (R/W)  SAU Region Number Register */
+  __IOM uint32 RBAR;                   /*!< Offset: 0x00C (R/W)  SAU Region Base Address Register */
+  __IOM uint32 RLAR;                   /*!< Offset: 0x010 (R/W)  SAU Region Limit Address Register */
 #else
-        uint32_t RESERVED0[3];
+        uint32 RESERVED0[3];
 #endif
-  __IOM uint32_t SFSR;                   /*!< Offset: 0x014 (R/W)  Secure Fault Status Register */
-  __IOM uint32_t SFAR;                   /*!< Offset: 0x018 (R/W)  Secure Fault Address Register */
+  __IOM uint32 SFSR;                   /*!< Offset: 0x014 (R/W)  Secure Fault Status Register */
+  __IOM uint32 SFAR;                   /*!< Offset: 0x018 (R/W)  Secure Fault Address Register */
 } SAU_Type;
 
 /* SAU Control Register Definitions */
@@ -1684,12 +1684,12 @@ typedef struct
  */
 typedef struct
 {
-        uint32_t RESERVED0[1U];
-  __IOM uint32_t FPCCR;                  /*!< Offset: 0x004 (R/W)  Floating-Point Context Control Register */
-  __IOM uint32_t FPCAR;                  /*!< Offset: 0x008 (R/W)  Floating-Point Context Address Register */
-  __IOM uint32_t FPDSCR;                 /*!< Offset: 0x00C (R/W)  Floating-Point Default Status Control Register */
-  __IM  uint32_t MVFR0;                  /*!< Offset: 0x010 (R/ )  Media and FP Feature Register 0 */
-  __IM  uint32_t MVFR1;                  /*!< Offset: 0x014 (R/ )  Media and FP Feature Register 1 */
+        uint32 RESERVED0[1U];
+  __IOM uint32 FPCCR;                  /*!< Offset: 0x004 (R/W)  Floating-Point Context Control Register */
+  __IOM uint32 FPCAR;                  /*!< Offset: 0x008 (R/W)  Floating-Point Context Address Register */
+  __IOM uint32 FPDSCR;                 /*!< Offset: 0x00C (R/W)  Floating-Point Default Status Control Register */
+  __IM  uint32 MVFR0;                  /*!< Offset: 0x010 (R/ )  Media and FP Feature Register 0 */
+  __IM  uint32 MVFR1;                  /*!< Offset: 0x014 (R/ )  Media and FP Feature Register 1 */
 } FPU_Type;
 
 /* Floating-Point Context Control Register Definitions */
@@ -1814,13 +1814,13 @@ typedef struct
  */
 typedef struct
 {
-  __IOM uint32_t DHCSR;                  /*!< Offset: 0x000 (R/W)  Debug Halting Control and Status Register */
-  __OM  uint32_t DCRSR;                  /*!< Offset: 0x004 ( /W)  Debug Core Register Selector Register */
-  __IOM uint32_t DCRDR;                  /*!< Offset: 0x008 (R/W)  Debug Core Register Data Register */
-  __IOM uint32_t DEMCR;                  /*!< Offset: 0x00C (R/W)  Debug Exception and Monitor Control Register */
-        uint32_t RESERVED4[1U];
-  __IOM uint32_t DAUTHCTRL;              /*!< Offset: 0x014 (R/W)  Debug Authentication Control Register */
-  __IOM uint32_t DSCSR;                  /*!< Offset: 0x018 (R/W)  Debug Security Control and Status Register */
+  __IOM uint32 DHCSR;                  /*!< Offset: 0x000 (R/W)  Debug Halting Control and Status Register */
+  __OM  uint32 DCRSR;                  /*!< Offset: 0x004 ( /W)  Debug Core Register Selector Register */
+  __IOM uint32 DCRDR;                  /*!< Offset: 0x008 (R/W)  Debug Core Register Data Register */
+  __IOM uint32 DEMCR;                  /*!< Offset: 0x00C (R/W)  Debug Exception and Monitor Control Register */
+        uint32 RESERVED4[1U];
+  __IOM uint32 DAUTHCTRL;              /*!< Offset: 0x014 (R/W)  Debug Authentication Control Register */
+  __IOM uint32 DSCSR;                  /*!< Offset: 0x018 (R/W)  Debug Security Control and Status Register */
 } CoreDebug_Type;
 
 /* Debug Halting Control and Status Register Definitions */
@@ -1946,18 +1946,18 @@ typedef struct
 /**
   \brief   Mask and shift a bit field value for use in a register bit range.
   \param[in] field  Name of the register bit field.
-  \param[in] value  Value of the bit field. This parameter is interpreted as an uint32_t type.
+  \param[in] value  Value of the bit field. This parameter is interpreted as an uint32 type.
   \return           Masked and shifted value.
 */
-#define _VAL2FLD(field, value)    (((uint32_t)(value) << field ## _Pos) & field ## _Msk)
+#define _VAL2FLD(field, value)    (((uint32)(value) << field ## _Pos) & field ## _Msk)
 
 /**
   \brief     Mask and shift a register value to extract a bit filed value.
   \param[in] field  Name of the register bit field.
-  \param[in] value  Value of register. This parameter is interpreted as an uint32_t type.
+  \param[in] value  Value of register. This parameter is interpreted as an uint32 type.
   \return           Masked and shifted bit field value.
 */
-#define _FLD2VAL(field, value)    (((uint32_t)(value) & field ## _Msk) >> field ## _Pos)
+#define _FLD2VAL(field, value)    (((uint32)(value) & field ## _Msk) >> field ## _Pos)
 
 /*@} end of group CMSIS_core_bitfield */
 
@@ -2113,15 +2113,15 @@ typedef struct
            priority bits (__NVIC_PRIO_BITS), the smallest possible priority group is set.
   \param [in]      PriorityGroup  Priority grouping field.
  */
-__STATIC_INLINE void __NVIC_SetPriorityGrouping(uint32_t PriorityGroup)
+__STATIC_INLINE void __NVIC_SetPriorityGrouping(uint32 PriorityGroup)
 {
-  uint32_t reg_value;
-  uint32_t PriorityGroupTmp = (PriorityGroup & (uint32_t)0x07UL);             /* only values 0..7 are used          */
+  uint32 reg_value;
+  uint32 PriorityGroupTmp = (PriorityGroup & (uint32)0x07UL);             /* only values 0..7 are used          */
 
   reg_value  =  SCB->AIRCR;                                                   /* read old register configuration    */
-  reg_value &= ~((uint32_t)(SCB_AIRCR_VECTKEY_Msk | SCB_AIRCR_PRIGROUP_Msk)); /* clear bits to change               */
+  reg_value &= ~((uint32)(SCB_AIRCR_VECTKEY_Msk | SCB_AIRCR_PRIGROUP_Msk)); /* clear bits to change               */
   reg_value  =  (reg_value                                   |
-                ((uint32_t)0x5FAUL << SCB_AIRCR_VECTKEY_Pos) |
+                ((uint32)0x5FAUL << SCB_AIRCR_VECTKEY_Pos) |
                 (PriorityGroupTmp << 8U)                      );              /* Insert write key and priorty group */
   SCB->AIRCR =  reg_value;
 }
@@ -2132,9 +2132,9 @@ __STATIC_INLINE void __NVIC_SetPriorityGrouping(uint32_t PriorityGroup)
   \details Reads the priority grouping field from the NVIC Interrupt Controller.
   \return                Priority grouping field (SCB->AIRCR [10:8] PRIGROUP field).
  */
-__STATIC_INLINE uint32_t __NVIC_GetPriorityGrouping(void)
+__STATIC_INLINE uint32 __NVIC_GetPriorityGrouping(void)
 {
-  return ((uint32_t)((SCB->AIRCR & SCB_AIRCR_PRIGROUP_Msk) >> SCB_AIRCR_PRIGROUP_Pos));
+  return ((uint32)((SCB->AIRCR & SCB_AIRCR_PRIGROUP_Msk) >> SCB_AIRCR_PRIGROUP_Pos));
 }
 
 
@@ -2148,7 +2148,7 @@ __STATIC_INLINE void __NVIC_EnableIRQ(IRQn_Type IRQn)
 {
   if ((int32_t)(IRQn) >= 0)
   {
-    NVIC->ISER[(((uint32_t)IRQn) >> 5UL)] = (uint32_t)(1UL << (((uint32_t)IRQn) & 0x1FUL));
+    NVIC->ISER[(((uint32)IRQn) >> 5UL)] = (uint32)(1UL << (((uint32)IRQn) & 0x1FUL));
   }
 }
 
@@ -2161,11 +2161,11 @@ __STATIC_INLINE void __NVIC_EnableIRQ(IRQn_Type IRQn)
   \return             1  Interrupt is enabled.
   \note    IRQn must not be negative.
  */
-__STATIC_INLINE uint32_t __NVIC_GetEnableIRQ(IRQn_Type IRQn)
+__STATIC_INLINE uint32 __NVIC_GetEnableIRQ(IRQn_Type IRQn)
 {
   if ((int32_t)(IRQn) >= 0)
   {
-    return((uint32_t)(((NVIC->ISER[(((uint32_t)IRQn) >> 5UL)] & (1UL << (((uint32_t)IRQn) & 0x1FUL))) != 0UL) ? 1UL : 0UL));
+    return((uint32)(((NVIC->ISER[(((uint32)IRQn) >> 5UL)] & (1UL << (((uint32)IRQn) & 0x1FUL))) != 0UL) ? 1UL : 0UL));
   }
   else
   {
@@ -2184,7 +2184,7 @@ __STATIC_INLINE void __NVIC_DisableIRQ(IRQn_Type IRQn)
 {
   if ((int32_t)(IRQn) >= 0)
   {
-    NVIC->ICER[(((uint32_t)IRQn) >> 5UL)] = (uint32_t)(1UL << (((uint32_t)IRQn) & 0x1FUL));
+    NVIC->ICER[(((uint32)IRQn) >> 5UL)] = (uint32)(1UL << (((uint32)IRQn) & 0x1FUL));
     __DSB();
     __ISB();
   }
@@ -2199,11 +2199,11 @@ __STATIC_INLINE void __NVIC_DisableIRQ(IRQn_Type IRQn)
   \return             1  Interrupt status is pending.
   \note    IRQn must not be negative.
  */
-__STATIC_INLINE uint32_t __NVIC_GetPendingIRQ(IRQn_Type IRQn)
+__STATIC_INLINE uint32 __NVIC_GetPendingIRQ(IRQn_Type IRQn)
 {
   if ((int32_t)(IRQn) >= 0)
   {
-    return((uint32_t)(((NVIC->ISPR[(((uint32_t)IRQn) >> 5UL)] & (1UL << (((uint32_t)IRQn) & 0x1FUL))) != 0UL) ? 1UL : 0UL));
+    return((uint32)(((NVIC->ISPR[(((uint32)IRQn) >> 5UL)] & (1UL << (((uint32)IRQn) & 0x1FUL))) != 0UL) ? 1UL : 0UL));
   }
   else
   {
@@ -2222,7 +2222,7 @@ __STATIC_INLINE void __NVIC_SetPendingIRQ(IRQn_Type IRQn)
 {
   if ((int32_t)(IRQn) >= 0)
   {
-    NVIC->ISPR[(((uint32_t)IRQn) >> 5UL)] = (uint32_t)(1UL << (((uint32_t)IRQn) & 0x1FUL));
+    NVIC->ISPR[(((uint32)IRQn) >> 5UL)] = (uint32)(1UL << (((uint32)IRQn) & 0x1FUL));
   }
 }
 
@@ -2237,7 +2237,7 @@ __STATIC_INLINE void __NVIC_ClearPendingIRQ(IRQn_Type IRQn)
 {
   if ((int32_t)(IRQn) >= 0)
   {
-    NVIC->ICPR[(((uint32_t)IRQn) >> 5UL)] = (uint32_t)(1UL << (((uint32_t)IRQn) & 0x1FUL));
+    NVIC->ICPR[(((uint32)IRQn) >> 5UL)] = (uint32)(1UL << (((uint32)IRQn) & 0x1FUL));
   }
 }
 
@@ -2250,11 +2250,11 @@ __STATIC_INLINE void __NVIC_ClearPendingIRQ(IRQn_Type IRQn)
   \return             1  Interrupt status is active.
   \note    IRQn must not be negative.
  */
-__STATIC_INLINE uint32_t __NVIC_GetActive(IRQn_Type IRQn)
+__STATIC_INLINE uint32 __NVIC_GetActive(IRQn_Type IRQn)
 {
   if ((int32_t)(IRQn) >= 0)
   {
-    return((uint32_t)(((NVIC->IABR[(((uint32_t)IRQn) >> 5UL)] & (1UL << (((uint32_t)IRQn) & 0x1FUL))) != 0UL) ? 1UL : 0UL));
+    return((uint32)(((NVIC->IABR[(((uint32)IRQn) >> 5UL)] & (1UL << (((uint32)IRQn) & 0x1FUL))) != 0UL) ? 1UL : 0UL));
   }
   else
   {
@@ -2272,11 +2272,11 @@ __STATIC_INLINE uint32_t __NVIC_GetActive(IRQn_Type IRQn)
   \return             1  if interrupt is assigned to Non Secure
   \note    IRQn must not be negative.
  */
-__STATIC_INLINE uint32_t NVIC_GetTargetState(IRQn_Type IRQn)
+__STATIC_INLINE uint32 NVIC_GetTargetState(IRQn_Type IRQn)
 {
   if ((int32_t)(IRQn) >= 0)
   {
-    return((uint32_t)(((NVIC->ITNS[(((uint32_t)IRQn) >> 5UL)] & (1UL << (((uint32_t)IRQn) & 0x1FUL))) != 0UL) ? 1UL : 0UL));
+    return((uint32)(((NVIC->ITNS[(((uint32)IRQn) >> 5UL)] & (1UL << (((uint32)IRQn) & 0x1FUL))) != 0UL) ? 1UL : 0UL));
   }
   else
   {
@@ -2293,12 +2293,12 @@ __STATIC_INLINE uint32_t NVIC_GetTargetState(IRQn_Type IRQn)
                       1  if interrupt is assigned to Non Secure
   \note    IRQn must not be negative.
  */
-__STATIC_INLINE uint32_t NVIC_SetTargetState(IRQn_Type IRQn)
+__STATIC_INLINE uint32 NVIC_SetTargetState(IRQn_Type IRQn)
 {
   if ((int32_t)(IRQn) >= 0)
   {
-    NVIC->ITNS[(((uint32_t)IRQn) >> 5UL)] |=  ((uint32_t)(1UL << (((uint32_t)IRQn) & 0x1FUL)));
-    return((uint32_t)(((NVIC->ITNS[(((uint32_t)IRQn) >> 5UL)] & (1UL << (((uint32_t)IRQn) & 0x1FUL))) != 0UL) ? 1UL : 0UL));
+    NVIC->ITNS[(((uint32)IRQn) >> 5UL)] |=  ((uint32)(1UL << (((uint32)IRQn) & 0x1FUL)));
+    return((uint32)(((NVIC->ITNS[(((uint32)IRQn) >> 5UL)] & (1UL << (((uint32)IRQn) & 0x1FUL))) != 0UL) ? 1UL : 0UL));
   }
   else
   {
@@ -2315,12 +2315,12 @@ __STATIC_INLINE uint32_t NVIC_SetTargetState(IRQn_Type IRQn)
                       1  if interrupt is assigned to Non Secure
   \note    IRQn must not be negative.
  */
-__STATIC_INLINE uint32_t NVIC_ClearTargetState(IRQn_Type IRQn)
+__STATIC_INLINE uint32 NVIC_ClearTargetState(IRQn_Type IRQn)
 {
   if ((int32_t)(IRQn) >= 0)
   {
-    NVIC->ITNS[(((uint32_t)IRQn) >> 5UL)] &= ~((uint32_t)(1UL << (((uint32_t)IRQn) & 0x1FUL)));
-    return((uint32_t)(((NVIC->ITNS[(((uint32_t)IRQn) >> 5UL)] & (1UL << (((uint32_t)IRQn) & 0x1FUL))) != 0UL) ? 1UL : 0UL));
+    NVIC->ITNS[(((uint32)IRQn) >> 5UL)] &= ~((uint32)(1UL << (((uint32)IRQn) & 0x1FUL)));
+    return((uint32)(((NVIC->ITNS[(((uint32)IRQn) >> 5UL)] & (1UL << (((uint32)IRQn) & 0x1FUL))) != 0UL) ? 1UL : 0UL));
   }
   else
   {
@@ -2339,15 +2339,15 @@ __STATIC_INLINE uint32_t NVIC_ClearTargetState(IRQn_Type IRQn)
   \param [in]  priority  Priority to set.
   \note    The priority cannot be set for every processor exception.
  */
-__STATIC_INLINE void __NVIC_SetPriority(IRQn_Type IRQn, uint32_t priority)
+__STATIC_INLINE void __NVIC_SetPriority(IRQn_Type IRQn, uint32 priority)
 {
   if ((int32_t)(IRQn) >= 0)
   {
-    NVIC->IPR[((uint32_t)IRQn)]               = (uint8_t)((priority << (8U - __NVIC_PRIO_BITS)) & (uint32_t)0xFFUL);
+    NVIC->IPR[((uint32)IRQn)]               = (uint8)((priority << (8U - __NVIC_PRIO_BITS)) & (uint32)0xFFUL);
   }
   else
   {
-    SCB->SHPR[(((uint32_t)IRQn) & 0xFUL)-4UL] = (uint8_t)((priority << (8U - __NVIC_PRIO_BITS)) & (uint32_t)0xFFUL);
+    SCB->SHPR[(((uint32)IRQn) & 0xFUL)-4UL] = (uint8)((priority << (8U - __NVIC_PRIO_BITS)) & (uint32)0xFFUL);
   }
 }
 
@@ -2361,16 +2361,16 @@ __STATIC_INLINE void __NVIC_SetPriority(IRQn_Type IRQn, uint32_t priority)
   \return             Interrupt Priority.
                       Value is aligned automatically to the implemented priority bits of the microcontroller.
  */
-__STATIC_INLINE uint32_t __NVIC_GetPriority(IRQn_Type IRQn)
+__STATIC_INLINE uint32 __NVIC_GetPriority(IRQn_Type IRQn)
 {
 
   if ((int32_t)(IRQn) >= 0)
   {
-    return(((uint32_t)NVIC->IPR[((uint32_t)IRQn)]               >> (8U - __NVIC_PRIO_BITS)));
+    return(((uint32)NVIC->IPR[((uint32)IRQn)]               >> (8U - __NVIC_PRIO_BITS)));
   }
   else
   {
-    return(((uint32_t)SCB->SHPR[(((uint32_t)IRQn) & 0xFUL)-4UL] >> (8U - __NVIC_PRIO_BITS)));
+    return(((uint32)SCB->SHPR[(((uint32)IRQn) & 0xFUL)-4UL] >> (8U - __NVIC_PRIO_BITS)));
   }
 }
 
@@ -2386,18 +2386,18 @@ __STATIC_INLINE uint32_t __NVIC_GetPriority(IRQn_Type IRQn)
   \param [in]       SubPriority  Subpriority value (starting from 0).
   \return                        Encoded priority. Value can be used in the function \ref NVIC_SetPriority().
  */
-__STATIC_INLINE uint32_t NVIC_EncodePriority (uint32_t PriorityGroup, uint32_t PreemptPriority, uint32_t SubPriority)
+__STATIC_INLINE uint32 NVIC_EncodePriority (uint32 PriorityGroup, uint32 PreemptPriority, uint32 SubPriority)
 {
-  uint32_t PriorityGroupTmp = (PriorityGroup & (uint32_t)0x07UL);   /* only values 0..7 are used          */
-  uint32_t PreemptPriorityBits;
-  uint32_t SubPriorityBits;
+  uint32 PriorityGroupTmp = (PriorityGroup & (uint32)0x07UL);   /* only values 0..7 are used          */
+  uint32 PreemptPriorityBits;
+  uint32 SubPriorityBits;
 
-  PreemptPriorityBits = ((7UL - PriorityGroupTmp) > (uint32_t)(__NVIC_PRIO_BITS)) ? (uint32_t)(__NVIC_PRIO_BITS) : (uint32_t)(7UL - PriorityGroupTmp);
-  SubPriorityBits     = ((PriorityGroupTmp + (uint32_t)(__NVIC_PRIO_BITS)) < (uint32_t)7UL) ? (uint32_t)0UL : (uint32_t)((PriorityGroupTmp - 7UL) + (uint32_t)(__NVIC_PRIO_BITS));
+  PreemptPriorityBits = ((7UL - PriorityGroupTmp) > (uint32)(__NVIC_PRIO_BITS)) ? (uint32)(__NVIC_PRIO_BITS) : (uint32)(7UL - PriorityGroupTmp);
+  SubPriorityBits     = ((PriorityGroupTmp + (uint32)(__NVIC_PRIO_BITS)) < (uint32)7UL) ? (uint32)0UL : (uint32)((PriorityGroupTmp - 7UL) + (uint32)(__NVIC_PRIO_BITS));
 
   return (
-           ((PreemptPriority & (uint32_t)((1UL << (PreemptPriorityBits)) - 1UL)) << SubPriorityBits) |
-           ((SubPriority     & (uint32_t)((1UL << (SubPriorityBits    )) - 1UL)))
+           ((PreemptPriority & (uint32)((1UL << (PreemptPriorityBits)) - 1UL)) << SubPriorityBits) |
+           ((SubPriority     & (uint32)((1UL << (SubPriorityBits    )) - 1UL)))
          );
 }
 
@@ -2413,17 +2413,17 @@ __STATIC_INLINE uint32_t NVIC_EncodePriority (uint32_t PriorityGroup, uint32_t P
   \param [out] pPreemptPriority  Preemptive priority value (starting from 0).
   \param [out]     pSubPriority  Subpriority value (starting from 0).
  */
-__STATIC_INLINE void NVIC_DecodePriority (uint32_t Priority, uint32_t PriorityGroup, uint32_t* const pPreemptPriority, uint32_t* const pSubPriority)
+__STATIC_INLINE void NVIC_DecodePriority (uint32 Priority, uint32 PriorityGroup, uint32* const pPreemptPriority, uint32* const pSubPriority)
 {
-  uint32_t PriorityGroupTmp = (PriorityGroup & (uint32_t)0x07UL);   /* only values 0..7 are used          */
-  uint32_t PreemptPriorityBits;
-  uint32_t SubPriorityBits;
+  uint32 PriorityGroupTmp = (PriorityGroup & (uint32)0x07UL);   /* only values 0..7 are used          */
+  uint32 PreemptPriorityBits;
+  uint32 SubPriorityBits;
 
-  PreemptPriorityBits = ((7UL - PriorityGroupTmp) > (uint32_t)(__NVIC_PRIO_BITS)) ? (uint32_t)(__NVIC_PRIO_BITS) : (uint32_t)(7UL - PriorityGroupTmp);
-  SubPriorityBits     = ((PriorityGroupTmp + (uint32_t)(__NVIC_PRIO_BITS)) < (uint32_t)7UL) ? (uint32_t)0UL : (uint32_t)((PriorityGroupTmp - 7UL) + (uint32_t)(__NVIC_PRIO_BITS));
+  PreemptPriorityBits = ((7UL - PriorityGroupTmp) > (uint32)(__NVIC_PRIO_BITS)) ? (uint32)(__NVIC_PRIO_BITS) : (uint32)(7UL - PriorityGroupTmp);
+  SubPriorityBits     = ((PriorityGroupTmp + (uint32)(__NVIC_PRIO_BITS)) < (uint32)7UL) ? (uint32)0UL : (uint32)((PriorityGroupTmp - 7UL) + (uint32)(__NVIC_PRIO_BITS));
 
-  *pPreemptPriority = (Priority >> SubPriorityBits) & (uint32_t)((1UL << (PreemptPriorityBits)) - 1UL);
-  *pSubPriority     = (Priority                   ) & (uint32_t)((1UL << (SubPriorityBits    )) - 1UL);
+  *pPreemptPriority = (Priority >> SubPriorityBits) & (uint32)((1UL << (PreemptPriorityBits)) - 1UL);
+  *pSubPriority     = (Priority                   ) & (uint32)((1UL << (SubPriorityBits    )) - 1UL);
 }
 
 
@@ -2436,9 +2436,9 @@ __STATIC_INLINE void NVIC_DecodePriority (uint32_t Priority, uint32_t PriorityGr
   \param [in]   IRQn      Interrupt number
   \param [in]   vector    Address of interrupt handler function
  */
-__STATIC_INLINE void __NVIC_SetVector(IRQn_Type IRQn, uint32_t vector)
+__STATIC_INLINE void __NVIC_SetVector(IRQn_Type IRQn, uint32 vector)
 {
-  uint32_t *vectors = (uint32_t *)SCB->VTOR;
+  uint32 *vectors = (uint32 *)SCB->VTOR;
   vectors[(int32_t)IRQn + NVIC_USER_IRQ_OFFSET] = vector;
 }
 
@@ -2451,9 +2451,9 @@ __STATIC_INLINE void __NVIC_SetVector(IRQn_Type IRQn, uint32_t vector)
   \param [in]   IRQn      Interrupt number.
   \return                 Address of interrupt handler function
  */
-__STATIC_INLINE uint32_t __NVIC_GetVector(IRQn_Type IRQn)
+__STATIC_INLINE uint32 __NVIC_GetVector(IRQn_Type IRQn)
 {
-  uint32_t *vectors = (uint32_t *)SCB->VTOR;
+  uint32 *vectors = (uint32 *)SCB->VTOR;
   return vectors[(int32_t)IRQn + NVIC_USER_IRQ_OFFSET];
 }
 
@@ -2466,7 +2466,7 @@ __NO_RETURN __STATIC_INLINE void __NVIC_SystemReset(void)
 {
   __DSB();                                                          /* Ensure all outstanding memory accesses included
                                                                        buffered write are completed before reset */
-  SCB->AIRCR  = (uint32_t)((0x5FAUL << SCB_AIRCR_VECTKEY_Pos)    |
+  SCB->AIRCR  = (uint32)((0x5FAUL << SCB_AIRCR_VECTKEY_Pos)    |
                            (SCB->AIRCR & SCB_AIRCR_PRIGROUP_Msk) |
                             SCB_AIRCR_SYSRESETREQ_Msk    );         /* Keep priority group unchanged */
   __DSB();                                                          /* Ensure completion of memory access */
@@ -2487,15 +2487,15 @@ __NO_RETURN __STATIC_INLINE void __NVIC_SystemReset(void)
            priority bits (__NVIC_PRIO_BITS), the smallest possible priority group is set.
   \param [in]      PriorityGroup  Priority grouping field.
  */
-__STATIC_INLINE void TZ_NVIC_SetPriorityGrouping_NS(uint32_t PriorityGroup)
+__STATIC_INLINE void TZ_NVIC_SetPriorityGrouping_NS(uint32 PriorityGroup)
 {
-  uint32_t reg_value;
-  uint32_t PriorityGroupTmp = (PriorityGroup & (uint32_t)0x07UL);             /* only values 0..7 are used          */
+  uint32 reg_value;
+  uint32 PriorityGroupTmp = (PriorityGroup & (uint32)0x07UL);             /* only values 0..7 are used          */
 
   reg_value  =  SCB_NS->AIRCR;                                                   /* read old register configuration    */
-  reg_value &= ~((uint32_t)(SCB_AIRCR_VECTKEY_Msk | SCB_AIRCR_PRIGROUP_Msk));             /* clear bits to change               */
+  reg_value &= ~((uint32)(SCB_AIRCR_VECTKEY_Msk | SCB_AIRCR_PRIGROUP_Msk));             /* clear bits to change               */
   reg_value  =  (reg_value                                   |
-                ((uint32_t)0x5FAUL << SCB_AIRCR_VECTKEY_Pos) |
+                ((uint32)0x5FAUL << SCB_AIRCR_VECTKEY_Pos) |
                 (PriorityGroupTmp << 8U)                      );              /* Insert write key and priorty group */
   SCB_NS->AIRCR =  reg_value;
 }
@@ -2506,9 +2506,9 @@ __STATIC_INLINE void TZ_NVIC_SetPriorityGrouping_NS(uint32_t PriorityGroup)
   \details Reads the priority grouping field from the non-secure NVIC when in secure state.
   \return                Priority grouping field (SCB->AIRCR [10:8] PRIGROUP field).
  */
-__STATIC_INLINE uint32_t TZ_NVIC_GetPriorityGrouping_NS(void)
+__STATIC_INLINE uint32 TZ_NVIC_GetPriorityGrouping_NS(void)
 {
-  return ((uint32_t)((SCB_NS->AIRCR & SCB_AIRCR_PRIGROUP_Msk) >> SCB_AIRCR_PRIGROUP_Pos));
+  return ((uint32)((SCB_NS->AIRCR & SCB_AIRCR_PRIGROUP_Msk) >> SCB_AIRCR_PRIGROUP_Pos));
 }
 
 
@@ -2522,7 +2522,7 @@ __STATIC_INLINE void TZ_NVIC_EnableIRQ_NS(IRQn_Type IRQn)
 {
   if ((int32_t)(IRQn) >= 0)
   {
-    NVIC_NS->ISER[(((uint32_t)IRQn) >> 5UL)] = (uint32_t)(1UL << (((uint32_t)IRQn) & 0x1FUL));
+    NVIC_NS->ISER[(((uint32)IRQn) >> 5UL)] = (uint32)(1UL << (((uint32)IRQn) & 0x1FUL));
   }
 }
 
@@ -2535,11 +2535,11 @@ __STATIC_INLINE void TZ_NVIC_EnableIRQ_NS(IRQn_Type IRQn)
   \return             1  Interrupt is enabled.
   \note    IRQn must not be negative.
  */
-__STATIC_INLINE uint32_t TZ_NVIC_GetEnableIRQ_NS(IRQn_Type IRQn)
+__STATIC_INLINE uint32 TZ_NVIC_GetEnableIRQ_NS(IRQn_Type IRQn)
 {
   if ((int32_t)(IRQn) >= 0)
   {
-    return((uint32_t)(((NVIC_NS->ISER[(((uint32_t)IRQn) >> 5UL)] & (1UL << (((uint32_t)IRQn) & 0x1FUL))) != 0UL) ? 1UL : 0UL));
+    return((uint32)(((NVIC_NS->ISER[(((uint32)IRQn) >> 5UL)] & (1UL << (((uint32)IRQn) & 0x1FUL))) != 0UL) ? 1UL : 0UL));
   }
   else
   {
@@ -2558,7 +2558,7 @@ __STATIC_INLINE void TZ_NVIC_DisableIRQ_NS(IRQn_Type IRQn)
 {
   if ((int32_t)(IRQn) >= 0)
   {
-    NVIC_NS->ICER[(((uint32_t)IRQn) >> 5UL)] = (uint32_t)(1UL << (((uint32_t)IRQn) & 0x1FUL));
+    NVIC_NS->ICER[(((uint32)IRQn) >> 5UL)] = (uint32)(1UL << (((uint32)IRQn) & 0x1FUL));
   }
 }
 
@@ -2571,11 +2571,11 @@ __STATIC_INLINE void TZ_NVIC_DisableIRQ_NS(IRQn_Type IRQn)
   \return             1  Interrupt status is pending.
   \note    IRQn must not be negative.
  */
-__STATIC_INLINE uint32_t TZ_NVIC_GetPendingIRQ_NS(IRQn_Type IRQn)
+__STATIC_INLINE uint32 TZ_NVIC_GetPendingIRQ_NS(IRQn_Type IRQn)
 {
   if ((int32_t)(IRQn) >= 0)
   {
-    return((uint32_t)(((NVIC_NS->ISPR[(((uint32_t)IRQn) >> 5UL)] & (1UL << (((uint32_t)IRQn) & 0x1FUL))) != 0UL) ? 1UL : 0UL));
+    return((uint32)(((NVIC_NS->ISPR[(((uint32)IRQn) >> 5UL)] & (1UL << (((uint32)IRQn) & 0x1FUL))) != 0UL) ? 1UL : 0UL));
   }
   else
   {
@@ -2594,7 +2594,7 @@ __STATIC_INLINE void TZ_NVIC_SetPendingIRQ_NS(IRQn_Type IRQn)
 {
   if ((int32_t)(IRQn) >= 0)
   {
-    NVIC_NS->ISPR[(((uint32_t)IRQn) >> 5UL)] = (uint32_t)(1UL << (((uint32_t)IRQn) & 0x1FUL));
+    NVIC_NS->ISPR[(((uint32)IRQn) >> 5UL)] = (uint32)(1UL << (((uint32)IRQn) & 0x1FUL));
   }
 }
 
@@ -2609,7 +2609,7 @@ __STATIC_INLINE void TZ_NVIC_ClearPendingIRQ_NS(IRQn_Type IRQn)
 {
   if ((int32_t)(IRQn) >= 0)
   {
-    NVIC_NS->ICPR[(((uint32_t)IRQn) >> 5UL)] = (uint32_t)(1UL << (((uint32_t)IRQn) & 0x1FUL));
+    NVIC_NS->ICPR[(((uint32)IRQn) >> 5UL)] = (uint32)(1UL << (((uint32)IRQn) & 0x1FUL));
   }
 }
 
@@ -2622,11 +2622,11 @@ __STATIC_INLINE void TZ_NVIC_ClearPendingIRQ_NS(IRQn_Type IRQn)
   \return             1  Interrupt status is active.
   \note    IRQn must not be negative.
  */
-__STATIC_INLINE uint32_t TZ_NVIC_GetActive_NS(IRQn_Type IRQn)
+__STATIC_INLINE uint32 TZ_NVIC_GetActive_NS(IRQn_Type IRQn)
 {
   if ((int32_t)(IRQn) >= 0)
   {
-    return((uint32_t)(((NVIC_NS->IABR[(((uint32_t)IRQn) >> 5UL)] & (1UL << (((uint32_t)IRQn) & 0x1FUL))) != 0UL) ? 1UL : 0UL));
+    return((uint32)(((NVIC_NS->IABR[(((uint32)IRQn) >> 5UL)] & (1UL << (((uint32)IRQn) & 0x1FUL))) != 0UL) ? 1UL : 0UL));
   }
   else
   {
@@ -2644,15 +2644,15 @@ __STATIC_INLINE uint32_t TZ_NVIC_GetActive_NS(IRQn_Type IRQn)
   \param [in]  priority  Priority to set.
   \note    The priority cannot be set for every non-secure processor exception.
  */
-__STATIC_INLINE void TZ_NVIC_SetPriority_NS(IRQn_Type IRQn, uint32_t priority)
+__STATIC_INLINE void TZ_NVIC_SetPriority_NS(IRQn_Type IRQn, uint32 priority)
 {
   if ((int32_t)(IRQn) >= 0)
   {
-    NVIC_NS->IPR[((uint32_t)IRQn)]               = (uint8_t)((priority << (8U - __NVIC_PRIO_BITS)) & (uint32_t)0xFFUL);
+    NVIC_NS->IPR[((uint32)IRQn)]               = (uint8)((priority << (8U - __NVIC_PRIO_BITS)) & (uint32)0xFFUL);
   }
   else
   {
-    SCB_NS->SHPR[(((uint32_t)IRQn) & 0xFUL)-4UL] = (uint8_t)((priority << (8U - __NVIC_PRIO_BITS)) & (uint32_t)0xFFUL);
+    SCB_NS->SHPR[(((uint32)IRQn) & 0xFUL)-4UL] = (uint8)((priority << (8U - __NVIC_PRIO_BITS)) & (uint32)0xFFUL);
   }
 }
 
@@ -2665,16 +2665,16 @@ __STATIC_INLINE void TZ_NVIC_SetPriority_NS(IRQn_Type IRQn, uint32_t priority)
   \param [in]   IRQn  Interrupt number.
   \return             Interrupt Priority. Value is aligned automatically to the implemented priority bits of the microcontroller.
  */
-__STATIC_INLINE uint32_t TZ_NVIC_GetPriority_NS(IRQn_Type IRQn)
+__STATIC_INLINE uint32 TZ_NVIC_GetPriority_NS(IRQn_Type IRQn)
 {
 
   if ((int32_t)(IRQn) >= 0)
   {
-    return(((uint32_t)NVIC_NS->IPR[((uint32_t)IRQn)]               >> (8U - __NVIC_PRIO_BITS)));
+    return(((uint32)NVIC_NS->IPR[((uint32)IRQn)]               >> (8U - __NVIC_PRIO_BITS)));
   }
   else
   {
-    return(((uint32_t)SCB_NS->SHPR[(((uint32_t)IRQn) & 0xFUL)-4UL] >> (8U - __NVIC_PRIO_BITS)));
+    return(((uint32)SCB_NS->SHPR[(((uint32)IRQn) & 0xFUL)-4UL] >> (8U - __NVIC_PRIO_BITS)));
   }
 }
 #endif /*  defined (__ARM_FEATURE_CMSE) &&(__ARM_FEATURE_CMSE == 3U) */
@@ -2705,9 +2705,9 @@ __STATIC_INLINE uint32_t TZ_NVIC_GetPriority_NS(IRQn_Type IRQn)
    - \b  1: Single precision FPU
    - \b  2: Double + Single precision FPU
  */
-__STATIC_INLINE uint32_t SCB_GetFPUType(void)
+__STATIC_INLINE uint32 SCB_GetFPUType(void)
 {
-  uint32_t mvfr0;
+  uint32 mvfr0;
 
   mvfr0 = FPU->MVFR0;
   if      ((mvfr0 & (FPU_MVFR0_Single_precision_Msk | FPU_MVFR0_Double_precision_Msk)) == 0x220U)
@@ -2787,14 +2787,14 @@ __STATIC_INLINE void TZ_SAU_Disable(void)
            function <b>SysTick_Config</b> is not included. In this case, the file <b><i>device</i>.h</b>
            must contain a vendor-specific implementation of this function.
  */
-__STATIC_INLINE uint32_t SysTick_Config(uint32_t ticks)
+__STATIC_INLINE uint32 SysTick_Config(uint32 ticks)
 {
   if ((ticks - 1UL) > SysTick_LOAD_RELOAD_Msk)
   {
     return (1UL);                                                   /* Reload value impossible */
   }
 
-  SysTick->LOAD  = (uint32_t)(ticks - 1UL);                         /* set reload register */
+  SysTick->LOAD  = (uint32)(ticks - 1UL);                         /* set reload register */
   NVIC_SetPriority (SysTick_IRQn, (1UL << __NVIC_PRIO_BITS) - 1UL); /* set Priority for Systick Interrupt */
   SysTick->VAL   = 0UL;                                             /* Load the SysTick Counter Value */
   SysTick->CTRL  = SysTick_CTRL_CLKSOURCE_Msk |
@@ -2816,14 +2816,14 @@ __STATIC_INLINE uint32_t SysTick_Config(uint32_t ticks)
            must contain a vendor-specific implementation of this function.
 
  */
-__STATIC_INLINE uint32_t TZ_SysTick_Config_NS(uint32_t ticks)
+__STATIC_INLINE uint32 TZ_SysTick_Config_NS(uint32 ticks)
 {
   if ((ticks - 1UL) > SysTick_LOAD_RELOAD_Msk)
   {
     return (1UL);                                                         /* Reload value impossible */
   }
 
-  SysTick_NS->LOAD  = (uint32_t)(ticks - 1UL);                            /* set reload register */
+  SysTick_NS->LOAD  = (uint32)(ticks - 1UL);                            /* set reload register */
   TZ_NVIC_SetPriority_NS (SysTick_IRQn, (1UL << __NVIC_PRIO_BITS) - 1UL); /* set Priority for Systick Interrupt */
   SysTick_NS->VAL   = 0UL;                                                /* Load the SysTick Counter Value */
   SysTick_NS->CTRL  = SysTick_CTRL_CLKSOURCE_Msk |
@@ -2859,7 +2859,7 @@ extern volatile int32_t ITM_RxBuffer;                              /*!< External
   \param [in]     ch  Character to transmit.
   \returns            Character to transmit.
  */
-__STATIC_INLINE uint32_t ITM_SendChar (uint32_t ch)
+__STATIC_INLINE uint32 ITM_SendChar (uint32 ch)
 {
   if (((ITM->TCR & ITM_TCR_ITMENA_Msk) != 0UL) &&      /* ITM enabled */
       ((ITM->TER & 1UL               ) != 0UL)   )     /* ITM Port #0 enabled */
@@ -2868,7 +2868,7 @@ __STATIC_INLINE uint32_t ITM_SendChar (uint32_t ch)
     {
       __NOP();
     }
-    ITM->PORT[0U].u8 = (uint8_t)ch;
+    ITM->PORT[0U].u8 = (uint8)ch;
   }
   return (ch);
 }

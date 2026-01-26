@@ -31,34 +31,34 @@
 #ifndef ARM_MPU_ARMV7_H
 #define ARM_MPU_ARMV7_H
 
-#define ARM_MPU_REGION_SIZE_32B      ((uint8_t)0x04U) ///!< MPU Region Size 32 Bytes
-#define ARM_MPU_REGION_SIZE_64B      ((uint8_t)0x05U) ///!< MPU Region Size 64 Bytes
-#define ARM_MPU_REGION_SIZE_128B     ((uint8_t)0x06U) ///!< MPU Region Size 128 Bytes
-#define ARM_MPU_REGION_SIZE_256B     ((uint8_t)0x07U) ///!< MPU Region Size 256 Bytes
-#define ARM_MPU_REGION_SIZE_512B     ((uint8_t)0x08U) ///!< MPU Region Size 512 Bytes
-#define ARM_MPU_REGION_SIZE_1KB      ((uint8_t)0x09U) ///!< MPU Region Size 1 KByte
-#define ARM_MPU_REGION_SIZE_2KB      ((uint8_t)0x0AU) ///!< MPU Region Size 2 KBytes
-#define ARM_MPU_REGION_SIZE_4KB      ((uint8_t)0x0BU) ///!< MPU Region Size 4 KBytes
-#define ARM_MPU_REGION_SIZE_8KB      ((uint8_t)0x0CU) ///!< MPU Region Size 8 KBytes
-#define ARM_MPU_REGION_SIZE_16KB     ((uint8_t)0x0DU) ///!< MPU Region Size 16 KBytes
-#define ARM_MPU_REGION_SIZE_32KB     ((uint8_t)0x0EU) ///!< MPU Region Size 32 KBytes
-#define ARM_MPU_REGION_SIZE_64KB     ((uint8_t)0x0FU) ///!< MPU Region Size 64 KBytes
-#define ARM_MPU_REGION_SIZE_128KB    ((uint8_t)0x10U) ///!< MPU Region Size 128 KBytes
-#define ARM_MPU_REGION_SIZE_256KB    ((uint8_t)0x11U) ///!< MPU Region Size 256 KBytes
-#define ARM_MPU_REGION_SIZE_512KB    ((uint8_t)0x12U) ///!< MPU Region Size 512 KBytes
-#define ARM_MPU_REGION_SIZE_1MB      ((uint8_t)0x13U) ///!< MPU Region Size 1 MByte
-#define ARM_MPU_REGION_SIZE_2MB      ((uint8_t)0x14U) ///!< MPU Region Size 2 MBytes
-#define ARM_MPU_REGION_SIZE_4MB      ((uint8_t)0x15U) ///!< MPU Region Size 4 MBytes
-#define ARM_MPU_REGION_SIZE_8MB      ((uint8_t)0x16U) ///!< MPU Region Size 8 MBytes
-#define ARM_MPU_REGION_SIZE_16MB     ((uint8_t)0x17U) ///!< MPU Region Size 16 MBytes
-#define ARM_MPU_REGION_SIZE_32MB     ((uint8_t)0x18U) ///!< MPU Region Size 32 MBytes
-#define ARM_MPU_REGION_SIZE_64MB     ((uint8_t)0x19U) ///!< MPU Region Size 64 MBytes
-#define ARM_MPU_REGION_SIZE_128MB    ((uint8_t)0x1AU) ///!< MPU Region Size 128 MBytes
-#define ARM_MPU_REGION_SIZE_256MB    ((uint8_t)0x1BU) ///!< MPU Region Size 256 MBytes
-#define ARM_MPU_REGION_SIZE_512MB    ((uint8_t)0x1CU) ///!< MPU Region Size 512 MBytes
-#define ARM_MPU_REGION_SIZE_1GB      ((uint8_t)0x1DU) ///!< MPU Region Size 1 GByte
-#define ARM_MPU_REGION_SIZE_2GB      ((uint8_t)0x1EU) ///!< MPU Region Size 2 GBytes
-#define ARM_MPU_REGION_SIZE_4GB      ((uint8_t)0x1FU) ///!< MPU Region Size 4 GBytes
+#define ARM_MPU_REGION_SIZE_32B      ((uint8)0x04U) ///!< MPU Region Size 32 Bytes
+#define ARM_MPU_REGION_SIZE_64B      ((uint8)0x05U) ///!< MPU Region Size 64 Bytes
+#define ARM_MPU_REGION_SIZE_128B     ((uint8)0x06U) ///!< MPU Region Size 128 Bytes
+#define ARM_MPU_REGION_SIZE_256B     ((uint8)0x07U) ///!< MPU Region Size 256 Bytes
+#define ARM_MPU_REGION_SIZE_512B     ((uint8)0x08U) ///!< MPU Region Size 512 Bytes
+#define ARM_MPU_REGION_SIZE_1KB      ((uint8)0x09U) ///!< MPU Region Size 1 KByte
+#define ARM_MPU_REGION_SIZE_2KB      ((uint8)0x0AU) ///!< MPU Region Size 2 KBytes
+#define ARM_MPU_REGION_SIZE_4KB      ((uint8)0x0BU) ///!< MPU Region Size 4 KBytes
+#define ARM_MPU_REGION_SIZE_8KB      ((uint8)0x0CU) ///!< MPU Region Size 8 KBytes
+#define ARM_MPU_REGION_SIZE_16KB     ((uint8)0x0DU) ///!< MPU Region Size 16 KBytes
+#define ARM_MPU_REGION_SIZE_32KB     ((uint8)0x0EU) ///!< MPU Region Size 32 KBytes
+#define ARM_MPU_REGION_SIZE_64KB     ((uint8)0x0FU) ///!< MPU Region Size 64 KBytes
+#define ARM_MPU_REGION_SIZE_128KB    ((uint8)0x10U) ///!< MPU Region Size 128 KBytes
+#define ARM_MPU_REGION_SIZE_256KB    ((uint8)0x11U) ///!< MPU Region Size 256 KBytes
+#define ARM_MPU_REGION_SIZE_512KB    ((uint8)0x12U) ///!< MPU Region Size 512 KBytes
+#define ARM_MPU_REGION_SIZE_1MB      ((uint8)0x13U) ///!< MPU Region Size 1 MByte
+#define ARM_MPU_REGION_SIZE_2MB      ((uint8)0x14U) ///!< MPU Region Size 2 MBytes
+#define ARM_MPU_REGION_SIZE_4MB      ((uint8)0x15U) ///!< MPU Region Size 4 MBytes
+#define ARM_MPU_REGION_SIZE_8MB      ((uint8)0x16U) ///!< MPU Region Size 8 MBytes
+#define ARM_MPU_REGION_SIZE_16MB     ((uint8)0x17U) ///!< MPU Region Size 16 MBytes
+#define ARM_MPU_REGION_SIZE_32MB     ((uint8)0x18U) ///!< MPU Region Size 32 MBytes
+#define ARM_MPU_REGION_SIZE_64MB     ((uint8)0x19U) ///!< MPU Region Size 64 MBytes
+#define ARM_MPU_REGION_SIZE_128MB    ((uint8)0x1AU) ///!< MPU Region Size 128 MBytes
+#define ARM_MPU_REGION_SIZE_256MB    ((uint8)0x1BU) ///!< MPU Region Size 256 MBytes
+#define ARM_MPU_REGION_SIZE_512MB    ((uint8)0x1CU) ///!< MPU Region Size 512 MBytes
+#define ARM_MPU_REGION_SIZE_1GB      ((uint8)0x1DU) ///!< MPU Region Size 1 GByte
+#define ARM_MPU_REGION_SIZE_2GB      ((uint8)0x1EU) ///!< MPU Region Size 2 GBytes
+#define ARM_MPU_REGION_SIZE_4GB      ((uint8)0x1FU) ///!< MPU Region Size 4 GBytes
 
 #define ARM_MPU_AP_NONE 0U ///!< MPU Access Permission no access
 #define ARM_MPU_AP_PRIV 1U ///!< MPU Access Permission privileged access only
@@ -178,14 +178,14 @@
 * Struct for a single MPU Region
 */
 typedef struct {
-  uint32_t RBAR; //!< The region base address register value (RBAR)
-  uint32_t RASR; //!< The region attribute and size register value (RASR) \ref MPU_RASR
+  uint32 RBAR; //!< The region base address register value (RBAR)
+  uint32 RASR; //!< The region attribute and size register value (RASR) \ref MPU_RASR
 } ARM_MPU_Region_t;
     
 /** Enable the MPU.
 * \param MPU_Control Default access permissions for unconfigured regions.
 */
-__STATIC_INLINE void ARM_MPU_Enable(uint32_t MPU_Control)
+__STATIC_INLINE void ARM_MPU_Enable(uint32 MPU_Control)
 {
   __DSB();
   __ISB();
@@ -210,7 +210,7 @@ __STATIC_INLINE void ARM_MPU_Disable(void)
 /** Clear and disable the given MPU region.
 * \param rnr Region number to be cleared.
 */
-__STATIC_INLINE void ARM_MPU_ClrRegion(uint32_t rnr)
+__STATIC_INLINE void ARM_MPU_ClrRegion(uint32 rnr)
 {
   MPU->RNR = rnr;
   MPU->RASR = 0U;
@@ -220,7 +220,7 @@ __STATIC_INLINE void ARM_MPU_ClrRegion(uint32_t rnr)
 * \param rbar Value for RBAR register.
 * \param rsar Value for RSAR register.
 */   
-__STATIC_INLINE void ARM_MPU_SetRegion(uint32_t rbar, uint32_t rasr)
+__STATIC_INLINE void ARM_MPU_SetRegion(uint32 rbar, uint32 rasr)
 {
   MPU->RBAR = rbar;
   MPU->RASR = rasr;
@@ -231,7 +231,7 @@ __STATIC_INLINE void ARM_MPU_SetRegion(uint32_t rbar, uint32_t rasr)
 * \param rbar Value for RBAR register.
 * \param rsar Value for RSAR register.
 */   
-__STATIC_INLINE void ARM_MPU_SetRegionEx(uint32_t rnr, uint32_t rbar, uint32_t rasr)
+__STATIC_INLINE void ARM_MPU_SetRegionEx(uint32 rnr, uint32 rbar, uint32 rasr)
 {
   MPU->RNR = rnr;
   MPU->RBAR = rbar;
@@ -243,9 +243,9 @@ __STATIC_INLINE void ARM_MPU_SetRegionEx(uint32_t rnr, uint32_t rbar, uint32_t r
 * \param src Source data is copied from.
 * \param len Amount of data words to be copied.
 */
-__STATIC_INLINE void orderedCpy(volatile uint32_t* dst, const uint32_t* __RESTRICT src, uint32_t len)
+__STATIC_INLINE void orderedCpy(volatile uint32* dst, const uint32* __RESTRICT src, uint32 len)
 {
-  uint32_t i;
+  uint32 i;
   for (i = 0U; i < len; ++i) 
   {
     dst[i] = src[i];
@@ -256,9 +256,9 @@ __STATIC_INLINE void orderedCpy(volatile uint32_t* dst, const uint32_t* __RESTRI
 * \param table Pointer to the MPU configuration table.
 * \param cnt Amount of regions to be configured.
 */
-__STATIC_INLINE void ARM_MPU_Load(ARM_MPU_Region_t const* table, uint32_t cnt) 
+__STATIC_INLINE void ARM_MPU_Load(ARM_MPU_Region_t const* table, uint32 cnt) 
 {
-  const uint32_t rowWordSize = sizeof(ARM_MPU_Region_t)/4U;
+  const uint32 rowWordSize = sizeof(ARM_MPU_Region_t)/4U;
   while (cnt > MPU_TYPE_RALIASES) {
     orderedCpy(&(MPU->RBAR), &(table->RBAR), MPU_TYPE_RALIASES*rowWordSize);
     table += MPU_TYPE_RALIASES;

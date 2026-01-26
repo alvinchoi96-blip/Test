@@ -46,50 +46,50 @@ Copyright 2015 Linear Technology Corp. (LTC)
 //! Cell Voltage data structure.
 typedef struct
 {
-  uint16_t c_codes[18];//!< Cell Voltage Codes
-  uint8_t pec_match[6];//!< If a PEC error was detected during most recent read cmd
+  uint16 c_codes[18];//!< Cell Voltage Codes
+  uint8 pec_match[6];//!< If a PEC error was detected during most recent read cmd
 } cv;
 
 //! AUX Reg Voltage Data
 typedef struct
 {
-  uint16_t a_codes[9];//!< Aux Voltage Codes
-  uint8_t pec_match[4];//!< If a PEC error was detected during most recent read cmd
+  uint16 a_codes[9];//!< Aux Voltage Codes
+  uint8 pec_match[4];//!< If a PEC error was detected during most recent read cmd
 } ax;
 
 typedef struct
 {
-  uint16_t stat_codes[4];//!< A two dimensional array of the stat voltage codes.
-  uint8_t flags[3]; //!< byte array that contains the uv/ov flag data
-  uint8_t mux_fail[1]; //!< Mux self test status flag
-  uint8_t thsd[1]; //!< Thermal shutdown status
-  uint8_t pec_match[2];//!< If a PEC error was detected during most recent read cmd
+  uint16 stat_codes[4];//!< A two dimensional array of the stat voltage codes.
+  uint8 flags[3]; //!< byte array that contains the uv/ov flag data
+  uint8 mux_fail[1]; //!< Mux self test status flag
+  uint8 thsd[1]; //!< Thermal shutdown status
+  uint8 pec_match[2];//!< If a PEC error was detected during most recent read cmd
 } st;
 
 typedef struct
 {
-  uint8_t tx_data[6];
-  uint8_t rx_data[8];
-  uint8_t rx_pec_match;//!< If a PEC error was detected during most recent read cmd
+  uint8 tx_data[6];
+  uint8 rx_data[8];
+  uint8 rx_pec_match;//!< If a PEC error was detected during most recent read cmd
 } ic_register;
 
 typedef struct
 {
-  uint16_t pec_count;
-  uint16_t cfgr_pec;
-  uint16_t cell_pec[6];
-  uint16_t aux_pec[4];
-  uint16_t stat_pec[2];
+  uint16 pec_count;
+  uint16 cfgr_pec;
+  uint16 cell_pec[6];
+  uint16 aux_pec[4];
+  uint16 stat_pec[2];
 } pec_counter;
 
 typedef struct
 {
-  uint8_t cell_channels;
-  uint8_t stat_channels;
-  uint8_t aux_channels;
-  uint8_t num_cv_reg;
-  uint8_t num_gpio_reg;
-  uint8_t num_stat_reg;
+  uint8 cell_channels;
+  uint8 stat_channels;
+  uint8 aux_channels;
+  uint8 num_cv_reg;
+  uint8 num_gpio_reg;
+  uint8 num_stat_reg;
 } register_cfg;
 
 typedef struct
@@ -104,18 +104,18 @@ typedef struct
   ic_register  pwmb;
   ic_register  sctrl;
   ic_register  sctrlb;
-  bool         isospi_reverse;
+  boolean         isospi_reverse;
   pec_counter  crc_count;
   register_cfg ic_reg;
-  long         system_open_wire;
+  sint32         system_open_wire;
 } cell_asic;
 
 
 /*!   calculates  and returns the CRC15
-  @returns The calculated pec15 as an unsigned int
+  @returns The calculated pec15 as an unsigned sint32
 */
-uint16_t pec15_calc(uint8_t len, //!< the length of the data array being passed to the function
-                    uint8_t *data); //!<  the array of data that the PEC will be generated from
+uint16 pec15_calc(uint8 len, //!< the length of the data array being passed to the function
+                    uint8 *data); //!<  the array of data that the PEC will be generated from
 
 void LTC6811_init_reg_limits(cell_asic ic[]);
 
@@ -126,14 +126,14 @@ void wakeup_idle();//!< number of ICs in the daisy chain
 void wakeup_sleep(); //!< number of ICs in the daisy chain
 
 /*! Sense a command to the bms IC. This code will calculate the PEC code for the transmitted command*/
-void cmd_68(uint8_t tx_cmd[2]); //!< 2 Byte array containing the BMS command to be sent
+void cmd_68(uint8 tx_cmd[2]); //!< 2 Byte array containing the BMS command to be sent
 
 //! Writes an array of data to the daisy chain
-void write_68(uint8_t tx_cmd[2], //!< 2 Byte array containing the BMS command to be sent
-              uint8_t data[]); //!< Array containing the data to be written to the BMS ICs
+void write_68(uint8 tx_cmd[2], //!< 2 Byte array containing the BMS command to be sent
+              uint8 data[]); //!< Array containing the data to be written to the BMS ICs
 //! Issues a command onto the daisy chain and reads back 6*total_ic data in the rx_data array
-int8_t read_68(uint8_t tx_cmd[2], //!< 2 Byte array containing the BMS command to be sent
-               uint8_t *rx_data); //!< Array that the read back data will be stored.
+int8_t read_68(uint8 tx_cmd[2], //!< 2 Byte array containing the BMS command to be sent
+               uint8 *rx_data); //!< Array that the read back data will be stored.
 
 /*! Starts the Mux Decoder diagnostic self test
 
@@ -145,77 +145,77 @@ void LTC6811_diagn();
 
 //! Sends the poll adc command
 //! @returns 1 byte read back after a pladc command. If the byte is not 0xFF ADC conversion has completed
-uint8_t LTC6811_pladc();
+uint8 LTC6811_pladc();
 
 //! This function will block operation until the ADC has finished it's conversion
 //! @returns the approximate time it took for the ADC function to complete.
-uint32_t LTC6811_pollAdc();
+uint32 LTC6811_pollAdc();
 
 /*! Starts cell voltage conversion
 
   Starts ADC conversions of the LTC6811 Cpin inputs.
   The type of ADC conversion executed can be changed by setting the following parameters:
 */
-void LTC6811_adcv(uint8_t MD, //!< ADC Conversion Mode
-                  uint8_t DCP, //!< Controls if Discharge is permitted during conversion
-                  uint8_t CH //!< Sets which Cell channels are converted
+void LTC6811_adcv(uint8 MD, //!< ADC Conversion Mode
+                  uint8 DCP, //!< Controls if Discharge is permitted during conversion
+                  uint8 CH //!< Sets which Cell channels are converted
                  );
 
 /*!  Starts cell voltage  and GPIO 1&2 conversion
 */
 void LTC6811_adcvax(
-  uint8_t MD, //!< ADC Conversion Mode
-  uint8_t DCP //!< Controls if Discharge is permitted during conversion
+  uint8 MD, //!< ADC Conversion Mode
+  uint8 DCP //!< Controls if Discharge is permitted during conversion
 );
 
 
 /*!  Starts cell voltage self test conversion
 */
 void LTC6811_cvst(
-  uint8_t MD, //!< ADC Conversion Mode
-  uint8_t ST //!< Self Test Mode
+  uint8 MD, //!< ADC Conversion Mode
+  uint8 ST //!< Self Test Mode
 );
 
 /*!  Starts cell voltage and SOC conversion
 */
 void LTC6811_adcvsc(
-  uint8_t MD, //!< ADC Conversion Mode
-  uint8_t DCP //!< Controls if Discharge is permitted during conversion
+  uint8 MD, //!< ADC Conversion Mode
+  uint8 DCP //!< Controls if Discharge is permitted during conversion
 );
 /*!  Starts cell voltage overlap conversion
 */
 void LTC6811_adol(
-  uint8_t MD, //!< ADC Conversion Mode
-  uint8_t DCP //!< Discharge permitted during conversion
+  uint8 MD, //!< ADC Conversion Mode
+  uint8 DCP //!< Discharge permitted during conversion
 );
 
 /*!  Start an open wire Conversion
 */
 void LTC6811_adow(
-  uint8_t MD, //!< ADC Conversion Mode
-  uint8_t PUP //!< Controls if Discharge is permitted during conversion
+  uint8 MD, //!< ADC Conversion Mode
+  uint8 PUP //!< Controls if Discharge is permitted during conversion
 );
 
 
 /*!  Start a GPIO and Vref2 Conversion
 */
 void LTC6811_adax(
-  uint8_t MD, //!< ADC Conversion Mode
-  uint8_t CHG //!< Sets which GPIO channels are converted
+  uint8 MD, //!< ADC Conversion Mode
+  uint8 CHG //!< Sets which GPIO channels are converted
 );
 
 /*!  Start an GPIO Redundancy test
 */
 void LTC6811_adaxd(
-  uint8_t MD, //!< ADC Conversion Mode
-  uint8_t CHG //!< Sets which GPIO channels are converted
+  uint8 MD, //!< ADC Conversion Mode
+  uint8 CHG //!< Sets which GPIO channels are converted
 );
 
 /*!  Start an Auxiliary Register Self Test Conversion
 */
 void LTC6811_axst(
-  uint8_t MD, //!< ADC Conversion Mode
-  uint8_t ST //!< Sets if self test 1 or 2 is run
+  uint8 MD, //!< ADC Conversion Mode
+  uint8 ST //!< Sets if self test 1 or 2 is run
 );
 
 
@@ -223,34 +223,34 @@ void LTC6811_axst(
 /*!  Start a Status ADC Conversion
 */
 void LTC6811_adstat(
-  uint8_t MD, //!< ADC Conversion Mode
-  uint8_t CHST //!< Sets which Stat channels are converted
+  uint8 MD, //!< ADC Conversion Mode
+  uint8 CHST //!< Sets which Stat channels are converted
 );
 
 /*!   Start a Status register redundancy test Conversion
 */
 void LTC6811_adstatd(
-  uint8_t MD, //!< ADC Mode
-  uint8_t CHST //!< Sets which Status channels are converted
+  uint8 MD, //!< ADC Mode
+  uint8 CHST //!< Sets which Status channels are converted
 );
 
 
 /*!  Start a Status Register Self Test Conversion
 */
 void LTC6811_statst(
-  uint8_t MD, //!< ADC Conversion Mode
-  uint8_t ST //!< Sets if self test 1 or 2 is run
+  uint8 MD, //!< ADC Conversion Mode
+  uint8 ST //!< Sets if self test 1 or 2 is run
 );
 
-void LTC6811_rdcv_reg(uint8_t reg, //!<Determines which cell voltage register is read back
-                      uint8_t *data); //!<An array of the unparsed cell codes
+void LTC6811_rdcv_reg(uint8 reg, //!<Determines which cell voltage register is read back
+                      uint8 *data); //!<An array of the unparsed cell codes
 /*! helper function that parses voltage measurement registers
 */
-int8_t parse_cells(uint8_t current_ic,
-                   uint8_t cell_reg,
-                   uint8_t cell_data[],
-                   uint16_t *cell_codes,
-                   uint8_t *ic_pec);
+int8_t parse_cells(uint8 current_ic,
+                   uint8 cell_reg,
+                   uint8 cell_data[],
+                   uint16 *cell_codes,
+                   uint8 *ic_pec);
 
 /*!  Read the raw data from the LTC6811 auxiliary register
 
@@ -258,16 +258,16 @@ int8_t parse_cells(uint8_t current_ic,
  in the *data point as a byte array. This function is rarely used outside of
  the LTC6811_rdaux() command.
  */
-void LTC6811_rdaux_reg(uint8_t reg, //Determines which GPIO voltage register is read back
-                       uint8_t *data); //Array of the unparsed auxiliary codes
+void LTC6811_rdaux_reg(uint8 reg, //Determines which GPIO voltage register is read back
+                       uint8 *data); //Array of the unparsed auxiliary codes
 /*!  Read the raw data from the LTC6811 stat register
 
  The function reads a single GPIO voltage register and stores thre read data
  in the *data point as a byte array. This function is rarely used outside of
  the LTC6811_rdstat() command.
  */
-void LTC6811_rdstat_reg(uint8_t reg, //Determines which stat register is read back
-                        uint8_t *data); //Array of the unparsed stat codes
+void LTC6811_rdstat_reg(uint8 reg, //Determines which stat register is read back
+                        uint8 *data); //Array of the unparsed stat codes
 
 /*!  Clears the LTC6811 cell voltage registers
 
@@ -314,7 +314,7 @@ void LTC6811_diagn();
  This function will send the requested read commands parse the data
  and store the cell voltages in the cell_asic structure.
  */
-uint8_t LTC6811_rdcv(uint8_t reg, // Controls which cell voltage register is read back.
+uint8 LTC6811_rdcv(uint8 reg, // Controls which cell voltage register is read back.
                      cell_asic ic[]); // Array of the parsed cell codes
 
 /*!  Reads and parses the LTC6811 auxiliary registers.
@@ -322,7 +322,7 @@ uint8_t LTC6811_rdcv(uint8_t reg, // Controls which cell voltage register is rea
  The function is used to read the  parsed GPIO codes of the LTC6811. This function will send the requested
  read commands parse the data and store the gpio voltages in the cell_asic structure.
 */
-int8_t LTC6811_rdaux(uint8_t reg, //Determines which GPIO voltage register is read back.
+int8_t LTC6811_rdaux(uint8 reg, //Determines which GPIO voltage register is read back.
                      cell_asic ic[]); //!< Measurement Data Structure
 
 /*!  Reads and parses the LTC6811 stat registers.
@@ -330,7 +330,7 @@ int8_t LTC6811_rdaux(uint8_t reg, //Determines which GPIO voltage register is re
  The function is used to read the  parsed status codes of the LTC6811. This function will send the requested
  read commands parse the data and store the status voltages in the cell_asic structure
  */
-int8_t LTC6811_rdstat(uint8_t reg, //!<Determines which Stat  register is read back.
+int8_t LTC6811_rdstat(uint8 reg, //!<Determines which Stat  register is read back.
                       cell_asic ic[]); //!< Measurement Data Structure
 /*!  Write the LTC6811 CFGRA
 
@@ -357,7 +357,7 @@ int8_t LTC6811_rdcfgb(cell_asic ic[]); //A two dimensional array that the functi
 
 /*!  Reads pwm registers of a LTC6811 daisy chain
 */
-int8_t LTC6811_rdpwm(uint8_t pwmReg, //!< The PWM Register to be written A or B
+int8_t LTC6811_rdpwm(uint8 pwmReg, //!< The PWM Register to be written A or B
                      cell_asic ic[]); //!< ASIC Variable
 
 /*!  Write the LTC6811 PWM register
@@ -366,13 +366,13 @@ int8_t LTC6811_rdpwm(uint8_t pwmReg, //!< The PWM Register to be written A or B
  connected in a daisy chain stack. The pwm is written in descending
  order so the last device's pwm is written first.
 */
-void LTC6811_wrpwm(uint8_t pwmReg,  //!< The PWM Register to be written
+void LTC6811_wrpwm(uint8 pwmReg,  //!< The PWM Register to be written
                    cell_asic ic[]); //!< ASIC Variable
 
 /*!  issues a stcomm command and clocks data out of the COMM register */
 void LTC6811_stcomm();
 
-void LTC6811_set_discharge(int Cell, cell_asic ic[]);
+void LTC6811_set_discharge(sint32 Cell, cell_asic ic[]);
 
 /*!  Reads comm registers of a LTC6811 daisy chain
 */
@@ -387,30 +387,30 @@ int8_t LTC6811_rdcomm(cell_asic ic[]); //!< ASIC Variable
 void LTC6811_wrcomm(cell_asic ic[]); ///!< ASIC Variable
 
 /*! Selft Test Helper Function*/
-uint16_t LTC6811_st_lookup(
-  uint8_t MD, //ADC Mode
-  uint8_t ST //Self Test
+uint16 LTC6811_st_lookup(
+  uint8 MD, //ADC Mode
+  uint8 ST //Self Test
 );
 
 /*! Helper Function to clear DCC bits in the CFGR Registers*/
 void clear_discharge(cell_asic ic[]);
 
 /*! Helper function that runs the ADC Self Tests*/
-int16_t LTC6811_run_cell_adc_st(uint8_t adc_reg,
+int16_t LTC6811_run_cell_adc_st(uint8 adc_reg,
                                 cell_asic ic[]);
 
 /*! Helper function that runs the ADC Digital Redudancy commands and checks output for errors*/
-int16_t LTC6811_run_adc_redundancy_st(uint8_t adc_mode,
-                                      uint8_t adc_reg,
+int16_t LTC6811_run_adc_redundancy_st(uint8 adc_mode,
+                                      uint8 adc_reg,
                                       cell_asic ic[]);
 
 /*! Helper function that runs the datasheet open wire algorithm*/
 void LTC6811_run_openwire(cell_asic ic[]);
 
 /*! Helper Function that runs the ADC Overlap test*/
-uint16_t LTC6811_run_adc_overlap(cell_asic ic[]);
+uint16 LTC6811_run_adc_overlap(cell_asic ic[]);
 /*! Helper Function that counts overall PEC errors and register/IC PEC errors*/
-void LTC6811_check_pec(uint8_t reg,
+void LTC6811_check_pec(uint8 reg,
                        cell_asic ic[]);
 
 /*! Helper Function that resets the PEC error counters */
@@ -420,32 +420,32 @@ void LTC6811_reset_crc_count(cell_asic ic[]);
 void LTC6811_init_cfg(cell_asic ic[]);
 
 /*! Helper function to turn the refon bit HIGH or LOW*/
-void LTC6811_set_cfgr_refon(uint8_t nIC,
+void LTC6811_set_cfgr_refon(uint8 nIC,
                             cell_asic ic[],
-                            bool refon);
+                            boolean refon);
 
 /*! Helper function to turn the ADCOPT bit HIGH or LOW*/
-void LTC6811_set_cfgr_adcopt(uint8_t nIC,
+void LTC6811_set_cfgr_adcopt(uint8 nIC,
                              cell_asic ic[],
-                             bool adcopt);
+                             boolean adcopt);
 
 /*! Helper function to turn the GPIO bits HIGH or LOW*/
-void LTC6811_set_cfgr_gpio(uint8_t nIC,
+void LTC6811_set_cfgr_gpio(uint8 nIC,
                            cell_asic ic[],
-                           bool gpio[]);
+                           boolean gpio[]);
 
 /*! Helper function to turn the DCC bits HIGH or LOW*/
-void LTC6811_set_cfgr_dis(uint8_t nIC,
+void LTC6811_set_cfgr_dis(uint8 nIC,
                           cell_asic ic[],
-                          bool dcc[]);
+                          boolean dcc[]);
 /*!  Helper function to set uv field in CFGRA register*/
-void LTC6811_set_cfgr_uv(uint8_t nIC,
+void LTC6811_set_cfgr_uv(uint8 nIC,
                          cell_asic ic[],
-                         uint16_t uv);
+                         uint16 uv);
 
 /*!  Helper function to set ov field in CFGRA register*/
-void LTC6811_set_cfgr_ov(uint8_t nIC,
+void LTC6811_set_cfgr_ov(uint8 nIC,
                          cell_asic ic[],
-                         uint16_t ov);
+                         uint16 ov);
 
 #endif

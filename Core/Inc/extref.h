@@ -42,23 +42,23 @@ extern RTC_HandleTypeDef hrtc;
 
 EXT volatile union T_Flags
 {
-	uint8_t BY;
+	uint8 BY;
 	struct
 	{
-		uint8_t t05ms :1;
-		uint8_t t10ms :1;
-		uint8_t Monitor :1;
-		uint8_t SocLed :1;
-		uint8_t Charging :1;
-		uint8_t KeyOff :1;
-		uint8_t CellBalance :1;
-		uint8_t PwrOff :1;
+		uint8 t05ms :1;
+		uint8 t10ms :1;
+		uint8 Monitor :1;
+		uint8 SocLed :1;
+		uint8 Charging :1;
+		uint8 KeyOff :1;
+		uint8 CellBalance :1;
+		uint8 PwrOff :1;
 	} B;
 } unT_Flags;
 
 #define F_OFF			ucPwrOffFlag
 
-EXT uint8_t ucPwrOffFlag;
+EXT uint8 ucPwrOffFlag;
 
 /* GPIO Input Ports -----------------------------------------------*/
 #define POWER_ON			unInputPort.B.Power_On
@@ -68,21 +68,21 @@ EXT uint8_t ucPwrOffFlag;
 
 EXT volatile union InputPort
 {
-	uint8_t BY;
+	uint8 BY;
 	struct
 	{
-		uint8_t Power_On :1;
-		uint8_t Power_Enalbe :1;
-		uint8_t AC_On_Signal :1;
-		uint8_t Key_On_Signal :1;
-		uint8_t Reserved :4;
+		uint8 Power_On :1;
+		uint8 Power_Enalbe :1;
+		uint8 AC_On_Signal :1;
+		uint8 Key_On_Signal :1;
+		uint8 Reserved :4;
 	} B;
 } unInputPort;
 
-EXT uint8_t ucChtPower_On;
-EXT uint8_t ucChtPower_Enalbe;
-EXT uint8_t ucChtAC_On_Signal;
-EXT uint8_t ucChtKey_On_Signal;
+EXT uint8 ucChtPower_On;
+EXT uint8 ucChtPower_Enalbe;
+EXT uint8 ucChtAC_On_Signal;
+EXT uint8 ucChtKey_On_Signal;
 
 /* GPIO OutPut Ports -----------------------------------------------*/
 #define	SPI_EN 					unOutPutPort.B.SPI_Enable
@@ -105,33 +105,33 @@ EXT uint8_t ucChtKey_On_Signal;
 
 EXT union OutPutPort
 {
-	uint8_t BY[3];
+	uint8 BY[3];
 
 	struct
 	{
-		uint8_t SPI_Enable:1;							//LTC6820 enable
-		uint8_t Error_LED :1;
-		uint8_t Full_LED :1;
-		uint8_t Error_Buzzer :1;
-		uint8_t Buzzer_Out :1;
-		uint8_t Buzzer_UVerr :1;
+		uint8 SPI_Enable:1;							//LTC6820 enable
+		uint8 Error_LED :1;
+		uint8 Full_LED :1;
+		uint8 Error_Buzzer :1;
+		uint8 Buzzer_Out :1;
+		uint8 Buzzer_UVerr :1;
 
-		uint8_t Reserved1 :2;
+		uint8 Reserved1 :2;
 
-		uint8_t Heater_Minus :1;
-		uint8_t Heater_Plus :1;
-		uint8_t Charger_Minus :1;
-		uint8_t Charger_Plus :1;
-		uint8_t Discharge_Minus :1;
-		uint8_t Discharge_Plus :1;
-		uint8_t Reserved2 :2;
+		uint8 Heater_Minus :1;
+		uint8 Heater_Plus :1;
+		uint8 Charger_Minus :1;
+		uint8 Charger_Plus :1;
+		uint8 Discharge_Minus :1;
+		uint8 Discharge_Plus :1;
+		uint8 Reserved2 :2;
 
-		uint8_t Batt_20p :1;
-		uint8_t Batt_40p :1;
-		uint8_t Batt_60p :1;
-		uint8_t Batt_80p :1;
-		uint8_t Batt_100p :1;
-		uint8_t Reserved3 :3;
+		uint8 Batt_20p :1;
+		uint8 Batt_40p :1;
+		uint8 Batt_60p :1;
+		uint8 Batt_80p :1;
+		uint8 Batt_100p :1;
+		uint8 Reserved3 :3;
 
 	} B;
 } unOutPutPort;
@@ -166,134 +166,134 @@ EXT union OutPutPort
 #define TMR30M_1HZ			1800								// 30 min/1HZ
 #define TMR1H_1HZ			3600								// 1hour/1HZ
 
-EXT uint8_t ucLTC_WAIT_Count;
-EXT uint8_t ucBuzzer_Count;
-EXT uint8_t ucChgLED_Count;
-EXT uint16_t usChargeStepTmr;
-EXT uint8_t Charge_Restart_cnt;
-EXT uint32_t SleepMode_count;
+EXT uint8 ucLTC_WAIT_Count;
+EXT uint8 ucBuzzer_Count;
+EXT uint8 ucChgLED_Count;
+EXT uint16 usChargeStepTmr;
+EXT uint8 Charge_Restart_cnt;
+EXT uint32 SleepMode_count;
 
-EXT uint8_t ucPWRoffSWCnt;
-EXT uint16_t usTimeoutCnt;
-EXT uint8_t ucMonTimerCnt;
-EXT uint8_t ucSocTimerCnt;
-EXT uint16_t usSohTimerCnt;
-EXT uint16_t usChgTimeUpCnt;
-EXT uint32_t ulP_Interval_timer;
-EXT uint16_t usCellBalanceCnt;
-EXT uint8_t CAN_100ms_Count;
+EXT uint8 ucPWRoffSWCnt;
+EXT uint16 usTimeoutCnt;
+EXT uint8 ucMonTimerCnt;
+EXT uint8 ucSocTimerCnt;
+EXT uint16 usSohTimerCnt;
+EXT uint16 usChgTimeUpCnt;
+EXT uint32 ulP_Interval_timer;
+EXT uint16 usCellBalanceCnt;
+EXT uint8 CAN_100ms_Count;
 /* Warn/Error Timeout variable-------------------------------------------*/
-EXT uint16_t usChgModeTimerCnt;
-EXT uint16_t usIBPerrTmr;
-EXT uint16_t usDCHG_CUVPtmr;
-EXT uint16_t usDCHG_PIBPtmr;
-EXT uint16_t usDCHG_OCPtmr;
-EXT uint16_t usDCHG_UVPtmr;
-EXT uint16_t usBUZZER_UVPtmr;
-EXT uint16_t usErrRelease_tmr;
+EXT uint16 usChgModeTimerCnt;
+EXT uint16 usIBPerrTmr;
+EXT uint16 usDCHG_CUVPtmr;
+EXT uint16 usDCHG_PIBPtmr;
+EXT uint16 usDCHG_OCPtmr;
+EXT uint16 usDCHG_UVPtmr;
+EXT uint16 usBUZZER_UVPtmr;
+EXT uint16 usErrRelease_tmr;
 
-EXT uint16_t usCHG_POVRtmr;
-EXT uint16_t usCHG_OVRtmr;
+EXT uint16 usCHG_POVRtmr;
+EXT uint16 usCHG_OVRtmr;
 /* CAN Timeout variable-------------------------------------------*/
-EXT uint8_t ucCanTxTimer;
-EXT uint32_t unTxMailbox;
+EXT uint8 ucCanTxTimer;
+EXT uint32 unTxMailbox;
 //0x309
-EXT uint16_t usVCU_RelayCommandCnt;
-EXT bool VCU_RelayCommandFlag;
-EXT uint8_t ucVCU_RelayCommandBuf[6];
+EXT uint16 usVCU_RelayCommandCnt;
+EXT boolean VCU_RelayCommandFlag;
+EXT uint8 ucVCU_RelayCommandBuf[6];
 
 //0x501
-EXT uint8_t ucChargeStartSignalCnt;
-EXT uint8_t ucChargeStopSignalCnt;
-EXT bool ChargeStartSignalFlag;
-EXT uint8_t ucChargeStartSignalBuf[6];
+EXT uint8 ucChargeStartSignalCnt;
+EXT uint8 ucChargeStopSignalCnt;
+EXT boolean ChargeStartSignalFlag;
+EXT uint8 ucChargeStartSignalBuf[6];
 
 void CAN_Timeout(void);
 
 
 /* Sequence Step Variable --------------------------------------*/
-EXT uint8_t CHG_LED;
-EXT uint8_t ucRelayStep;
-EXT uint8_t ucMonStep;
-EXT uint8_t ucChargeStep;
-EXT uint8_t ucChgStCode;
+EXT uint8 CHG_LED;
+EXT uint8 ucRelayStep;
+EXT uint8 ucMonStep;
+EXT uint8 ucChargeStep;
+EXT uint8 ucChgStCode;
 
 /* Cell ADC Buffers -----------------------------------------------*/
-EXT uint16_t usCellVolBuf[TOTAL_IC][12][9];
-EXT uint32_t ulCellVolTot[TOTAL_IC][12];
-EXT uint16_t usCellVolAvg[TOTAL_IC][12];
-EXT uint16_t usCellTempBuf[TOTAL_IC][1][5];
-EXT uint32_t ulCellTempTot[TOTAL_IC][1];
-EXT uint16_t usCellTempAvg[TOTAL_IC][1];
+EXT uint16 usCellVolBuf[TOTAL_IC][12][9];
+EXT uint32 ulCellVolTot[TOTAL_IC][12];
+EXT uint16 usCellVolAvg[TOTAL_IC][12];
+EXT uint16 usCellTempBuf[TOTAL_IC][1][5];
+EXT uint32 ulCellTempTot[TOTAL_IC][1];
+EXT uint16 usCellTempAvg[TOTAL_IC][1];
 EXT int16_t nTemp[TOTAL_IC * 2];
 
 
 /* A/D Conversion Buffers -----------------------------------------------*/
 #define	ADC_VREF			usAdcVRef
 
-EXT uint16_t usAdcVRef;
-EXT uint32_t ulSum_Vol;											// sum of cell voltage 1mV scale
+EXT uint16 usAdcVRef;
+EXT uint32 ulSum_Vol;											// sum of cell voltage 1mV scale
 EXT int32_t lSumAh;
-EXT uint16_t usSocAh;
+EXT uint16 usSocAh;
 EXT int32_t lRemAsec;
 
-EXT uint16_t ulChargeCurrAdcBuf[9];
-EXT uint32_t ulChargeCurrAdcTot;
-EXT uint32_t ulChargeCurrAdcAvg;
+EXT uint16 ulChargeCurrAdcBuf[9];
+EXT uint32 ulChargeCurrAdcTot;
+EXT uint32 ulChargeCurrAdcAvg;
 
-EXT uint16_t ulDischargeCurrAdcBuf[9];
-EXT uint32_t ulDischargeCurrAdcTot;
-EXT uint32_t ulDischargeCurrAdcAvg;
+EXT uint16 ulDischargeCurrAdcBuf[9];
+EXT uint32 ulDischargeCurrAdcTot;
+EXT uint32 ulDischargeCurrAdcAvg;
 
-EXT uint16_t usChargeCurrent;
-EXT uint16_t usDischargeCurrent;
+EXT uint16 usChargeCurrent;
+EXT uint16 usDischargeCurrent;
 
 //ADC Command Configurations
-EXT uint8_t ADC_OPT              ; // See LTC6811_daisy.h for Options
-EXT uint8_t ADC_CONVERSION_MODE  ;     // MD_7KHZ_3KHZ; //MD_26HZ_2KHZ;//MD_7KHZ_3KHZ; // See LTC6811_daisy.h for Options
-EXT uint8_t ADC_DCP              ;     // See LTC6811_daisy.h for Options
+EXT uint8 ADC_OPT              ; // See LTC6811_daisy.h for Options
+EXT uint8 ADC_CONVERSION_MODE  ;     // MD_7KHZ_3KHZ; //MD_26HZ_2KHZ;//MD_7KHZ_3KHZ; // See LTC6811_daisy.h for Options
+EXT uint8 ADC_DCP              ;     // See LTC6811_daisy.h for Options
 
 /* CAN Data -----------------------------------------------*/
 EXT CAN_TxHeaderTypeDef TxHeader;
 EXT CAN_RxHeaderTypeDef RxHeader;
-EXT uint8_t ucTxData[8];
-EXT uint8_t ucRxData[8];
-EXT uint8_t DataAssign_step;
-EXT uint16_t usTargetVoltage;
-EXT uint16_t usTargetCurrent;
+EXT uint8 ucTxData[8];
+EXT uint8 ucRxData[8];
+EXT uint8 DataAssign_step;
+EXT uint16 usTargetVoltage;
+EXT uint16 usTargetCurrent;
 
-EXT uint8_t ucpUartRx1Buf[16];
+EXT uint8 ucpUartRx1Buf[16];
 /* Cell Data  -----------------------------------------------*/
 EXT cell_asic bms_ic[TOTAL_IC];
 
 /* EEPROM Data  -----------------------------------------------*/
-EXT __IO uint32_t ulFlashData[16];
+EXT __IO uint32 ulFlashData[16];
 
 
 #define PRODID			unFlashData.B.ProductId
 #define CAN_BASE		unFlashData.B.CanBase
 EXT union FlashData
 {
-	uint32_t W[16];
+	uint32 W[16];
 
 	struct
 	{
-		uint32_t ProductId;              		// 25: 0;
-		uint32_t CanBase;              		// 25: 0;
+		uint32 ProductId;              		// 25: 0;
+		uint32 CanBase;              		// 25: 0;
 
-		uint32_t notuse[15];              	//
+		uint32 notuse[15];              	//
 	} B;
 } unFlashData;
 
 /* Private function prototypes -----------------------------------------------*/
-void print_error(int error);
-void print_cells(uint8_t datalog_en);           // Print cell voltages
-void print_aux(uint8_t datalog_en);             // Print cell temperature
+void print_error(sint32 error);
+void print_cells(uint8 datalog_en);           // Print cell voltages
+void print_aux(uint8 datalog_en);             // Print cell temperature
 void print_stat(void);
 void print_pec(void);
 void print_open(void);
 void print_config(void);
-void print_etc(uint8_t datalog_en);
+void print_etc(uint8 datalog_en);
 void print_settings(void);
 
 void User_Init(void);                           						// Initialize the values and functions
@@ -305,8 +305,8 @@ void DCHG_Warn_Error_Process(void);
 void CHG_Warn_Error_Process(void);
 void Shutdown_Process(void);                    						// Shutdown Process
 void ChargeProcess(void);                      						// Common charge sequence
-void Sequence_Timeout(uint8_t ucChgStCode);								// timeout during charge sequence
-void Relays_Control(bool cmd);
+void Sequence_Timeout(uint8 ucChgStCode);								// timeout during charge sequence
+void Relays_Control(boolean cmd);
 void Relays_OFF(void);
 void PwrOff_Process(void);                         						// Key On / Start / Off sequence
 
@@ -321,25 +321,25 @@ void Read_IGN(void);
 void Ad_Conversion(void);
 void Read_CellData(void);
 void Read_TempData(void);
-int16_t Vol2Temp(uint16_t vol);         								// Calculate the voltage to temperature
-int Vol2Temp_10k(double vol);   										// Calculate the voltage to temperature with 10k ohm
-int16_t Vol2Temp_5k(uint16_t vol);              						// Calculate the voltage to temperature with 5k ohm
+int16_t Vol2Temp(uint16 vol);         								// Calculate the voltage to temperature
+sint32 Vol2Temp_10k(double vol);   										// Calculate the voltage to temperature with 10k ohm
+int16_t Vol2Temp_5k(uint16 vol);              						// Calculate the voltage to temperature with 5k ohm
 void Cell_Balancing(void);              								// Turn on resistance of high voltage cells
-uint16_t Get_OCV_SOC(uint16_t vol);               						// Get SOC from OCV table
-void SetSOC_LED(uint16_t soc);                  						// Turn On / Off the SOC LEDs according to the SOC
-void BatteryCooling(uint8_t OnOff);             						// Turn the 3-way valve On / Off, turn on when over 40, turn off when under 38
+uint16 Get_OCV_SOC(uint16 vol);               						// Get SOC from OCV table
+void SetSOC_LED(uint16 soc);                  						// Turn On / Off the SOC LEDs according to the SOC
+void BatteryCooling(uint8 OnOff);             						// Turn the 3-way valve On / Off, turn on when over 40, turn off when under 38
 
 
-//void CAN_Standby(uint8_t OnOff);                						// Turn the CAN operation Normal / Standby
+//void CAN_Standby(uint8 OnOff);                						// Turn the CAN operation Normal / Standby
 void Monitoring(void);
 void Uart1Transmit(char *str);                  						// Send the data via RS232
 void Uart1Receive(void);                        						// Receive the data via RS232
-void CAN_Tx_Process(uint16_t id, uint8_t data[8]);                  	// Send the data via CAN physically
+void CAN_Tx_Process(uint16 id, uint8 data[8]);                  	// Send the data via CAN physically
 void CAN_Celldata_Assign(void);
-void SPI2_CS(uint8_t OnOff);
-uint8_t spi_read_byte(uint8_t data);
-void spi_write_array(uint8_t cnt, uint8_t data[]);
-void spi_write_read(uint8_t w_cnt, uint8_t w_data[], uint8_t r_cnt, uint8_t r_data[]);
+void SPI2_CS(uint8 OnOff);
+uint8 spi_read_byte(uint8 data);
+void spi_write_array(uint8 cnt, uint8 data[]);
+void spi_write_read(uint8 w_cnt, uint8 w_data[], uint8 r_cnt, uint8 r_data[]);
 void ErrorHandler(char code);
 
 //Setting mode

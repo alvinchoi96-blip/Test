@@ -51,47 +51,47 @@
 
 EXT union BMS_DTC
 {
-	uint8_t BY[8];
+	uint8 BY[8];
 	struct
 	{
-		uint8_t warnOverCharge :1;								//Over charge warning
-		uint8_t warnOverDischarge :1;							//Over discharge warning
-		uint8_t warnOverCellVmax :1;							//Over cell voltage warning
-		uint8_t warnUnderCellVmin :1;							//Under cell voltage warning
-		uint8_t warnChargeOverTemp :1;							//Charge Over temperature warning
-		uint8_t warnChargeUnderTemp :1;							//Charge Under temperature warning
-		uint8_t warnDischargeOverTemp :1;						//Discharge Over temperature warning
-		uint8_t warnDischargeUnderTemp :1;						//Discharge Under temperature warning
+		uint8 warnOverCharge :1;								//Over charge warning
+		uint8 warnOverDischarge :1;							//Over discharge warning
+		uint8 warnOverCellVmax :1;							//Over cell voltage warning
+		uint8 warnUnderCellVmin :1;							//Under cell voltage warning
+		uint8 warnChargeOverTemp :1;							//Charge Over temperature warning
+		uint8 warnChargeUnderTemp :1;							//Charge Under temperature warning
+		uint8 warnDischargeOverTemp :1;						//Discharge Over temperature warning
+		uint8 warnDischargeUnderTemp :1;						//Discharge Under temperature warning
 
-		uint8_t errOverCharge :1;								//Over charge power shutdown error
-		uint8_t errOverDischarge :1;							//Over discharge power shutdown error
-		uint8_t errOverCellVmax :1;								//Over cell voltage shutdown error
-		uint8_t errUnderCellVmin :1;							//Under cell voltage shutdown error
-		uint8_t errChargeOverTemp :1;							//Charge Over temperature shutdown error
-		uint8_t errChargeUnderTemp :1;							//Charge Under temperature shutdown error
-		uint8_t errDischargeOverTemp :1;						//Discharge Over temperature shutdown error
-		uint8_t errDischargeUnderTemp :1;						//Discharge Under temperature shutdown error
+		uint8 errOverCharge :1;								//Over charge power shutdown error
+		uint8 errOverDischarge :1;							//Over discharge power shutdown error
+		uint8 errOverCellVmax :1;								//Over cell voltage shutdown error
+		uint8 errUnderCellVmin :1;							//Under cell voltage shutdown error
+		uint8 errChargeOverTemp :1;							//Charge Over temperature shutdown error
+		uint8 errChargeUnderTemp :1;							//Charge Under temperature shutdown error
+		uint8 errDischargeOverTemp :1;						//Discharge Over temperature shutdown error
+		uint8 errDischargeUnderTemp :1;						//Discharge Under temperature shutdown error
 
-		uint8_t warnOverIbp :1;									//Over difference voltage of cells warning
-		uint8_t warnOverChargeCurrent :1;						//Over charge current warning
-		uint8_t warnOverDischargeCurrent :1;					//Over discharge current warning
-		uint8_t notuse1 :5;
+		uint8 warnOverIbp :1;									//Over difference voltage of cells warning
+		uint8 warnOverChargeCurrent :1;						//Over charge current warning
+		uint8 warnOverDischargeCurrent :1;					//Over discharge current warning
+		uint8 notuse1 :5;
 
-		uint8_t errOverIbp :1;									//Over difference voltage of cells error
-		uint8_t errOverChargeCurrent :1;						//Over charge current error
-		uint8_t errOverDischargeCurrent :1;						//Over discharge current error
-		uint8_t errIsolation :1;								//Isolation error(고전압 +와 샤시 GND의 절연저항값이 기준치 초과시 발생)"
-		uint8_t notuse2 :4;										//
+		uint8 errOverIbp :1;									//Over difference voltage of cells error
+		uint8 errOverChargeCurrent :1;						//Over charge current error
+		uint8 errOverDischargeCurrent :1;						//Over discharge current error
+		uint8 errIsolation :1;								//Isolation error(고전압 +와 샤시 GND의 절연저항값이 기준치 초과시 발생)"
+		uint8 notuse2 :4;										//
 
-		uint8_t errFaultFlag :1;							//Generic Fault flag in the battery pack(Battery Pack 내부적 에러 발생시 정비필요사항)
-		uint8_t WarningFlag :1;
-		uint8_t notuse3 :6;
+		uint8 errFaultFlag :1;							//Generic Fault flag in the battery pack(Battery Pack 내부적 에러 발생시 정비필요사항)
+		uint8 WarningFlag :1;
+		uint8 notuse3 :6;
 
-		uint8_t notuse4;
+		uint8 notuse4;
 
-		uint8_t notuse5;
+		uint8 notuse5;
 
-		uint8_t notuse6;
+		uint8 notuse6;
 	} B;
 } un200_TxData;
 
@@ -112,26 +112,26 @@ EXT union BMS_DTC
 
 EXT union BMS_201_MSG
 {
-	uint8_t BY[8];
+	uint8 BY[8];
 	struct
 	{
-		uint8_t stCharge :1;
-		uint8_t stDisharge :1;
-		uint8_t stDischargeRelay :1;											//Status of Main Relay On/Off
-		uint8_t stChargeRelay :1;											//Status of Heater On/Off
-		uint8_t stBms_Ready :1;											//BMS Ready
-		uint8_t stPrechargeRelay :1;									//Status of Precharge Relay On/Off
-		uint8_t Buzzer :1;
-		uint8_t stCB :1;												//
+		uint8 stCharge :1;
+		uint8 stDisharge :1;
+		uint8 stDischargeRelay :1;											//Status of Main Relay On/Off
+		uint8 stChargeRelay :1;											//Status of Heater On/Off
+		uint8 stBms_Ready :1;											//BMS Ready
+		uint8 stPrechargeRelay :1;									//Status of Precharge Relay On/Off
+		uint8 Buzzer :1;
+		uint8 stCB :1;												//
 
-		uint8_t stPowerSwitch :1;												//
-		uint8_t stKeyON :1;
-		uint8_t stACON :1;
-		uint8_t notuse1 :5;
+		uint8 stPowerSwitch :1;												//
+		uint8 stKeyON :1;
+		uint8 stACON :1;
+		uint8 notuse1 :5;
 
-		uint8_t software_version;
-		uint8_t notuse2;
-		uint16_t vTotalActual;											//Actual voltage of the battery pack
+		uint8 software_version;
+		uint8 notuse2;
+		uint16 vTotalActual;											//Actual voltage of the battery pack
 		int16_t iTotalActual;											//Actual current of the battery pack (충전:+, 방전:-)
 	} B;
 } un201_TxData;
@@ -143,13 +143,13 @@ EXT union BMS_201_MSG
 
 EXT union BMS_202_MSG
 {
-	uint8_t BY[8];
+	uint8 BY[8];
 	struct
 	{
-		uint16_t vMinDischarge;									//Min voltage limit at discharging(방전시 최저전압 셋팅값)
-		uint16_t iMaxDischarge;									//Max current limit at discharging
-		uint16_t vMaxCharge;									//Max voltage limit at charging
-		uint16_t iMaxCharge;									//Max current limit at charging
+		uint16 vMinDischarge;									//Min voltage limit at discharging(방전시 최저전압 셋팅값)
+		uint16 iMaxDischarge;									//Max current limit at discharging
+		uint16 vMaxCharge;									//Max voltage limit at charging
+		uint16 iMaxCharge;									//Max current limit at charging
 	} B;
 } un202_TxData;
 
@@ -160,13 +160,13 @@ EXT union BMS_202_MSG
 
 EXT union BMS_205_MSG
 {
-	uint8_t BY[8];
+	uint8 BY[8];
 	struct
 	{
-		uint16_t ahRemainedCap;									//Remained Capacity
-		uint16_t Soc;											//State Of Charge
-		uint16_t Soh;											//State Of Health
-		uint16_t RemainedWh;									//Remained Watt Hour
+		uint16 ahRemainedCap;									//Remained Capacity
+		uint16 Soc;											//State Of Charge
+		uint16 Soh;											//State Of Health
+		uint16 RemainedWh;									//Remained Watt Hour
 	} B;
 } un205_TxData;
 
@@ -177,7 +177,7 @@ EXT union BMS_205_MSG
 
 EXT union BMS_206_MSG
 {
-	uint8_t BY[8];
+	uint8 BY[8];
 	struct
 	{
 		int16_t vHighCell;										//Highest voltage among battery cells
@@ -194,13 +194,13 @@ EXT union BMS_206_MSG
 
 EXT union BMS_207_MSG
 {
-	uint8_t BY[8];
+	uint8 BY[8];
 	struct
 	{
 		int16_t tHighPlace;									//Highest temperature among battery cells
 		int16_t tLowPlace;										//Lowest temperature among battery cells
 		int16_t tAveragePlace;									//Average temperature of battery cells
-		uint16_t tDeviationPlace;								//Deviation temperature of battery cells
+		uint16 tDeviationPlace;								//Deviation temperature of battery cells
 	} B;
 } un207_TxData;
 
@@ -211,14 +211,14 @@ EXT union BMS_207_MSG
 
 EXT union BMS_208_MSG2
 {
-	uint8_t BY[8];
+	uint8 BY[8];
 	struct
 	{
-		uint8_t ucTotalCells;									//Total numbers of cells
-		uint8_t ucTotalPlace;									//Total numbers of temperature sensors
-		uint16_t usDc_Temp1;									//DC Temperature 1
-		uint16_t usDc_Temp2;									//DC Temperature 2
-		uint16_t notuse;
+		uint8 ucTotalCells;									//Total numbers of cells
+		uint8 ucTotalPlace;									//Total numbers of temperature sensors
+		uint16 usDc_Temp1;									//DC Temperature 1
+		uint16 usDc_Temp2;									//DC Temperature 2
+		uint16 notuse;
 	} B;
 } un208_TxData;
 
@@ -226,15 +226,15 @@ EXT union BMS_208_MSG2
 
 EXT union VCU_209_MSG
 {
-	uint8_t BY[8];
+	uint8 BY[8];
 	struct
 	{
-		uint8_t notuse;											//Total numbers of cells
+		uint8 notuse;											//Total numbers of cells
 
-		uint8_t Main_RelayOnOff :1;								//Main Relay ON request of BMS in VCU
-		uint8_t notuse1 :7;										//Main Relay ON request of BMS in VCU
+		uint8 Main_RelayOnOff :1;								//Main Relay ON request of BMS in VCU
+		uint8 notuse1 :7;										//Main Relay ON request of BMS in VCU
 
-		uint8_t notuse3[6];										//
+		uint8 notuse3[6];										//
 	} B;
 } un209_RxData;
 
@@ -254,28 +254,28 @@ EXT union VCU_209_MSG
 
 EXT union DEBUG_2f0_MSG
 {
-	uint8_t BY[8];
+	uint8 BY[8];
 	struct
 	{
-		uint8_t Debug :1;
-		uint8_t Cell_Print :1;
-		uint8_t ADC_Print :1;
-		uint8_t Data_Log :1;
-		uint8_t Settings :1;
-		uint8_t notuse1 :3;
+		uint8 Debug :1;
+		uint8 Cell_Print :1;
+		uint8 ADC_Print :1;
+		uint8 Data_Log :1;
+		uint8 Settings :1;
+		uint8 notuse1 :3;
 
-		uint8_t Flash_Wr :1;
-		uint8_t Relays :2;
-		uint8_t Heater :2;
-		uint8_t Buzzer :2;
-		uint8_t notuse2 :1;
+		uint8 Flash_Wr :1;
+		uint8 Relays :2;
+		uint8 Heater :2;
+		uint8 Buzzer :2;
+		uint8 notuse2 :1;
 
-		uint8_t notuse3[2];
+		uint8 notuse3[2];
 
-		uint8_t CoolHigh;
-		uint8_t CoolLow;
-		uint8_t HotHigh;
-		uint8_t HotLow;
+		uint8 CoolHigh;
+		uint8 CoolLow;
+		uint8 HotHigh;
+		uint8 HotLow;
 	} B;
 } un2f0_RxData;
 
@@ -289,13 +289,13 @@ EXT union DEBUG_2f0_MSG
 
 EXT union YamahaBMS_511
 {
-	uint8_t BY[8];
+	uint8 BY[8];
 	struct
 	{
-		uint16_t CellV_01;
-		uint16_t CellV_02;
-		uint16_t CellV_03;
-		uint16_t CellV_04;
+		uint16 CellV_01;
+		uint16 CellV_02;
+		uint16 CellV_03;
+		uint16 CellV_04;
 	} B;
 } un511_TxData;
 
@@ -306,13 +306,13 @@ EXT union YamahaBMS_511
 
 EXT union YamahaBMS_512
 {
-	uint8_t BY[8];
+	uint8 BY[8];
 	struct
 	{
-		uint16_t CellV_05;
-		uint16_t CellV_06;
-		uint16_t CellV_07;
-		uint16_t CellV_08;
+		uint16 CellV_05;
+		uint16 CellV_06;
+		uint16 CellV_07;
+		uint16 CellV_08;
 	} B;
 } un512_TxData;
 
@@ -323,13 +323,13 @@ EXT union YamahaBMS_512
 
 EXT union YamahaBMS_513
 {
-	uint8_t BY[8];
+	uint8 BY[8];
 	struct
 	{
-		uint16_t CellV_09;
-		uint16_t CellV_10;
-		uint16_t CellV_11;
-		uint16_t CellV_12;
+		uint16 CellV_09;
+		uint16 CellV_10;
+		uint16 CellV_11;
+		uint16 CellV_12;
 	} B;
 } un513_TxData;
 
@@ -340,13 +340,13 @@ EXT union YamahaBMS_513
 
 EXT union YamahaBMS_514
 {
-	uint8_t BY[8];
+	uint8 BY[8];
 	struct
 	{
-		uint16_t CellV_13;
-		uint16_t CellV_14;
-		uint16_t CellV_15;
-		uint16_t CellV_16;
+		uint16 CellV_13;
+		uint16 CellV_14;
+		uint16 CellV_15;
+		uint16 CellV_16;
 	} B;
 } un514_TxData;
 
@@ -357,13 +357,13 @@ EXT union YamahaBMS_514
 
 EXT union YamahaBMS_515
 {
-	uint8_t BY[8];
+	uint8 BY[8];
 	struct
 	{
-		uint16_t CellV_17;
-		uint16_t CellV_18;
-		uint16_t CellV_19;
-		uint16_t CellV_20;
+		uint16 CellV_17;
+		uint16 CellV_18;
+		uint16 CellV_19;
+		uint16 CellV_20;
 	} B;
 } un515_TxData;
 
@@ -373,10 +373,10 @@ EXT union YamahaBMS_515
 #define	CELLT_4				un517_TxData.B.CellT_4
 EXT union YamahaBMS_517
 {
-	uint8_t BY[6];
+	uint8 BY[6];
 	struct
 	{
-		uint16_t CellT_1;
+		uint16 CellT_1;
 		int16_t CellT_2;
 		int16_t CellT_3;
 		int16_t CellT_4;

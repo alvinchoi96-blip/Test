@@ -9,7 +9,7 @@
 #define TOTAL_IC            2
 #define PARALLEL            24
 /*
-#define AMPERE_HOUR         (48.0 * PARALLEL)			//must change into (uint16_t) in code
+#define AMPERE_HOUR         (48.0 * PARALLEL)			//must change into (uint16) in code
 #define OVER_VOL_ERR        4250
 #define OVER_VOL_WARN       4100
 #define VOL_HIGH            4150
@@ -101,6 +101,6 @@
 
 
 
-#define FLASH_ADDR_START 	((uint32_t)0x803F800)
+#define FLASH_ADDR_START 	((uint32)0x803F800)
 
 #endif

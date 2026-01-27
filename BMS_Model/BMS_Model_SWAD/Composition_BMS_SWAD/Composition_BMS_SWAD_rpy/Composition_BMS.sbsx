@@ -66,9 +66,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::23:51:54</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::23:51:54</_modifiedTime>
-			<weakCGTime type="a">1.26.2026::23:51:54</weakCGTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:5:14</_modifiedTime>
+			<weakCGTime type="a">1.27.2026::4:5:14</weakCGTime>
 			<strongCGTime type="a">1.15.2026::4:8:49</strongCGTime>
 			<_defaultComposite type="s">GUID 9797814f-4951-4c75-bb97-60d184826122</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -25024,9 +25024,9 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::23:51:54</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::23:51:54</_modifiedTime>
-			<weakCGTime type="a">1.26.2026::23:51:54</weakCGTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:5:14</_modifiedTime>
+			<weakCGTime type="a">1.27.2026::4:5:14</weakCGTime>
 			<strongCGTime type="a">1.19.2026::6:5:0</strongCGTime>
 			<_defaultComposite type="s">GUID c444799e-f50f-4464-8143-2596736889ba</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -25068,7 +25068,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::23:52:4</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.27.2026::4:6:0</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -25079,9 +25079,9 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					<_hid type="a">GUID 6a358fbd-a212-4d93-a3b5-ae96e8c80a53</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">1.26.2026::23:52:4</_modifiedTime>
+			<_modifiedTime type="a">1.27.2026::4:6:0</_modifiedTime>
 			<_lastID type="a">39</_lastID>
-			<weakCGTime type="a">1.26.2026::23:52:4</weakCGTime>
+			<weakCGTime type="a">1.27.2026::4:6:0</weakCGTime>
 			<strongCGTime type="a">1.15.2026::4:8:51</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -25649,9 +25649,9 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::23:51:54</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::23:51:57</_modifiedTime>
-			<_lastModifiedTime type="a">1.26.2026::23:53:9</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:6:0</_modifiedTime>
+			<_lastModifiedTime type="a">1.27.2026::4:6:0</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -25957,7 +25957,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 490e1848-d926-4fa6-851d-9df2f8b790ea</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_PackMntr:SWC_PackMntr</m_str>
+					<m_str type="a">swc_PackMntr:SWC_PackMntr</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -26284,7 +26284,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 490e1848-d926-4fa6-851d-9df2f8b790ea</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_CellMntr:SWC_CellMntr</m_str>
+					<m_str type="a">swc_CellMntr:SWC_CellMntr</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -26514,7 +26514,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 490e1848-d926-4fa6-851d-9df2f8b790ea</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_TempMntr:SWC_TempMntr</m_str>
+					<m_str type="a">swc_TempMntr:SWC_TempMntr</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -26744,7 +26744,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 490e1848-d926-4fa6-851d-9df2f8b790ea</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_SigInput:SWC_SigInput</m_str>
+					<m_str type="a">swc_SigInput:SWC_SigInput</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -27071,7 +27071,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 490e1848-d926-4fa6-851d-9df2f8b790ea</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
+					<m_str type="a">swc_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -28677,7 +28677,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 490e1848-d926-4fa6-851d-9df2f8b790ea</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_ChargeMngr:SWC_ChargeMngr</m_str>
+					<m_str type="a">swc_ChargeMngr:SWC_ChargeMngr</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -29004,7 +29004,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 490e1848-d926-4fa6-851d-9df2f8b790ea</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_SOC_Algo:SWC_SOC_Algo</m_str>
+					<m_str type="a">swc_SOC_Algo:SWC_SOC_Algo</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -29331,7 +29331,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 490e1848-d926-4fa6-851d-9df2f8b790ea</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_BalancingMngr:SWC_BalancingMngr</m_str>
+					<m_str type="a">swc_BalancingMngr:SWC_BalancingMngr</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -29561,7 +29561,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 490e1848-d926-4fa6-851d-9df2f8b790ea</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_FaultDTC:SWC_FaultDTC</m_str>
+					<m_str type="a">swc_FaultDTC:SWC_FaultDTC</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -30183,7 +30183,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 490e1848-d926-4fa6-851d-9df2f8b790ea</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_RelayDriver:SWC_RelayDriver</m_str>
+					<m_str type="a">swc_RelayDriver:SWC_RelayDriver</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -30413,7 +30413,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 490e1848-d926-4fa6-851d-9df2f8b790ea</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_BMS_Status_Tx:SWC_BMS_Status_Tx</m_str>
+					<m_str type="a">swc_BMS_Status_Tx:SWC_BMS_Status_Tx</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -30936,7 +30936,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 490e1848-d926-4fa6-851d-9df2f8b790ea</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_HMI_Driver:SWC_HMI_Driver</m_str>
+					<m_str type="a">swc_HMI_Driver:SWC_HMI_Driver</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -31482,9 +31482,9 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::23:51:58</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::23:52:6</_modifiedTime>
-			<_lastModifiedTime type="a">1.26.2026::23:53:4</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:5:50</_modifiedTime>
+			<_lastModifiedTime type="a">1.27.2026::4:5:50</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -31752,7 +31752,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 4e5236f0-da1f-4edf-b373-402c7f644639</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_PackMntr:SWC_PackMntr</m_str>
+					<m_str type="a">swc_PackMntr:SWC_PackMntr</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -32203,7 +32203,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 4e5236f0-da1f-4edf-b373-402c7f644639</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_FaultDTC:SWC_FaultDTC</m_str>
+					<m_str type="a">swc_FaultDTC:SWC_FaultDTC</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -32654,7 +32654,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 4e5236f0-da1f-4edf-b373-402c7f644639</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
+					<m_str type="a">swc_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -33631,9 +33631,9 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::23:51:58</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::23:52:9</_modifiedTime>
-			<_lastModifiedTime type="a">1.26.2026::23:53:4</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:5:50</_modifiedTime>
+			<_lastModifiedTime type="a">1.27.2026::4:5:50</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -33898,7 +33898,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 8531cb66-eec0-46e3-9b8c-5088fb752384</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_CellMntr:SWC_CellMntr</m_str>
+					<m_str type="a">swc_CellMntr:SWC_CellMntr</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -34190,7 +34190,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 8531cb66-eec0-46e3-9b8c-5088fb752384</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
+					<m_str type="a">swc_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -34482,7 +34482,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 8531cb66-eec0-46e3-9b8c-5088fb752384</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_FaultDTC:SWC_FaultDTC</m_str>
+					<m_str type="a">swc_FaultDTC:SWC_FaultDTC</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -35336,9 +35336,9 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::23:51:59</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::23:52:11</_modifiedTime>
-			<_lastModifiedTime type="a">1.26.2026::23:53:4</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:5:50</_modifiedTime>
+			<_lastModifiedTime type="a">1.27.2026::4:5:50</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -35603,7 +35603,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID c2626912-9caf-4a4c-bf48-8525f381fbf7</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_TempMntr:SWC_TempMntr</m_str>
+					<m_str type="a">swc_TempMntr:SWC_TempMntr</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -35895,7 +35895,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID c2626912-9caf-4a4c-bf48-8525f381fbf7</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
+					<m_str type="a">swc_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -36187,7 +36187,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID c2626912-9caf-4a4c-bf48-8525f381fbf7</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_FaultDTC:SWC_FaultDTC</m_str>
+					<m_str type="a">swc_FaultDTC:SWC_FaultDTC</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -37041,9 +37041,9 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::23:52:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::23:52:12</_modifiedTime>
-			<_lastModifiedTime type="a">1.26.2026::23:52:54</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:5:35</_modifiedTime>
+			<_lastModifiedTime type="a">1.27.2026::4:5:35</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -37308,7 +37308,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 4a1449a0-b5d4-4b51-8675-077a86eabacb</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_SigInput:SWC_SigInput</m_str>
+					<m_str type="a">swc_SigInput:SWC_SigInput</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -37759,7 +37759,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 4a1449a0-b5d4-4b51-8675-077a86eabacb</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
+					<m_str type="a">swc_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -38772,9 +38772,9 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::23:52:1</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::23:52:24</_modifiedTime>
-			<_lastModifiedTime type="a">1.26.2026::23:53:9</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:6:0</_modifiedTime>
+			<_lastModifiedTime type="a">1.27.2026::4:6:0</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -39092,7 +39092,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID f96aef6d-c244-4ed2-972b-7910136bc688</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
+					<m_str type="a">swc_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -41610,7 +41610,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID f96aef6d-c244-4ed2-972b-7910136bc688</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_BMS_Status_Tx:SWC_BMS_Status_Tx</m_str>
+					<m_str type="a">swc_BMS_Status_Tx:SWC_BMS_Status_Tx</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -42379,7 +42379,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID f96aef6d-c244-4ed2-972b-7910136bc688</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_ChargeMngr:SWC_ChargeMngr</m_str>
+					<m_str type="a">swc_ChargeMngr:SWC_ChargeMngr</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -42830,7 +42830,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID f96aef6d-c244-4ed2-972b-7910136bc688</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_SOC_Algo:SWC_SOC_Algo</m_str>
+					<m_str type="a">swc_SOC_Algo:SWC_SOC_Algo</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -43281,7 +43281,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID f96aef6d-c244-4ed2-972b-7910136bc688</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_SigInput:SWC_SigInput</m_str>
+					<m_str type="a">swc_SigInput:SWC_SigInput</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -43732,7 +43732,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID f96aef6d-c244-4ed2-972b-7910136bc688</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_BalancingMngr:SWC_BalancingMngr</m_str>
+					<m_str type="a">swc_BalancingMngr:SWC_BalancingMngr</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -44024,7 +44024,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID f96aef6d-c244-4ed2-972b-7910136bc688</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_CellMntr:SWC_CellMntr</m_str>
+					<m_str type="a">swc_CellMntr:SWC_CellMntr</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -44316,7 +44316,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID f96aef6d-c244-4ed2-972b-7910136bc688</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_FaultDTC:SWC_FaultDTC</m_str>
+					<m_str type="a">swc_FaultDTC:SWC_FaultDTC</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -44608,7 +44608,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID f96aef6d-c244-4ed2-972b-7910136bc688</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_HMI_Driver:SWC_HMI_Driver</m_str>
+					<m_str type="a">swc_HMI_Driver:SWC_HMI_Driver</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -44900,7 +44900,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID f96aef6d-c244-4ed2-972b-7910136bc688</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_PackMntr:SWC_PackMntr</m_str>
+					<m_str type="a">swc_PackMntr:SWC_PackMntr</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -45192,7 +45192,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID f96aef6d-c244-4ed2-972b-7910136bc688</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_RelayDriver:SWC_RelayDriver</m_str>
+					<m_str type="a">swc_RelayDriver:SWC_RelayDriver</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -45484,7 +45484,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID f96aef6d-c244-4ed2-972b-7910136bc688</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_TempMntr:SWC_TempMntr</m_str>
+					<m_str type="a">swc_TempMntr:SWC_TempMntr</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -48183,9 +48183,9 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::23:52:1</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::23:52:26</_modifiedTime>
-			<_lastModifiedTime type="a">1.26.2026::23:52:56</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:5:38</_modifiedTime>
+			<_lastModifiedTime type="a">1.27.2026::4:5:38</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -48450,7 +48450,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 19d51c10-22f2-47d5-b2cf-cc61cc946186</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_ChargeMngr:SWC_ChargeMngr</m_str>
+					<m_str type="a">swc_ChargeMngr:SWC_ChargeMngr</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -48901,7 +48901,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 19d51c10-22f2-47d5-b2cf-cc61cc946186</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
+					<m_str type="a">swc_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -49913,9 +49913,9 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::23:52:1</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::23:52:27</_modifiedTime>
-			<_lastModifiedTime type="a">1.26.2026::23:52:59</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:5:42</_modifiedTime>
+			<_lastModifiedTime type="a">1.27.2026::4:5:42</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -50180,7 +50180,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID b3fd05ac-03f0-42f3-ad9b-91185e93cd79</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_SOC_Algo:SWC_SOC_Algo</m_str>
+					<m_str type="a">swc_SOC_Algo:SWC_SOC_Algo</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -50631,7 +50631,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID b3fd05ac-03f0-42f3-ad9b-91185e93cd79</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
+					<m_str type="a">swc_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -51644,9 +51644,9 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::23:52:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::23:52:29</_modifiedTime>
-			<_lastModifiedTime type="a">1.26.2026::23:53:1</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:5:46</_modifiedTime>
+			<_lastModifiedTime type="a">1.27.2026::4:5:46</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -51908,7 +51908,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID c0d25410-ac04-4f79-88e6-f59fc04f61b5</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_BalancingMngr:SWC_BalancingMngr</m_str>
+					<m_str type="a">swc_BalancingMngr:SWC_BalancingMngr</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -52200,7 +52200,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID c0d25410-ac04-4f79-88e6-f59fc04f61b5</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
+					<m_str type="a">swc_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -52930,9 +52930,9 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::23:52:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::23:52:31</_modifiedTime>
-			<_lastModifiedTime type="a">1.26.2026::23:53:4</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:5:50</_modifiedTime>
+			<_lastModifiedTime type="a">1.27.2026::4:5:50</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -53209,7 +53209,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 9fc0c85b-1f6a-49d7-8d4a-f39b96fa1515</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_FaultDTC:SWC_FaultDTC</m_str>
+					<m_str type="a">swc_FaultDTC:SWC_FaultDTC</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -54137,7 +54137,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 9fc0c85b-1f6a-49d7-8d4a-f39b96fa1515</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_PackMntr:SWC_PackMntr</m_str>
+					<m_str type="a">swc_PackMntr:SWC_PackMntr</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -54588,7 +54588,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 9fc0c85b-1f6a-49d7-8d4a-f39b96fa1515</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
+					<m_str type="a">swc_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -54880,7 +54880,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 9fc0c85b-1f6a-49d7-8d4a-f39b96fa1515</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_CellMntr:SWC_CellMntr</m_str>
+					<m_str type="a">swc_CellMntr:SWC_CellMntr</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -55172,7 +55172,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 9fc0c85b-1f6a-49d7-8d4a-f39b96fa1515</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_TempMntr:SWC_TempMntr</m_str>
+					<m_str type="a">swc_TempMntr:SWC_TempMntr</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -56394,9 +56394,9 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::23:52:3</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::23:52:33</_modifiedTime>
-			<_lastModifiedTime type="a">1.26.2026::23:53:5</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:5:53</_modifiedTime>
+			<_lastModifiedTime type="a">1.27.2026::4:5:53</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -56658,7 +56658,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 097d8e21-bd17-447d-b2db-daf2075e6d7a</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_RelayDriver:SWC_RelayDriver</m_str>
+					<m_str type="a">swc_RelayDriver:SWC_RelayDriver</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -56950,7 +56950,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 097d8e21-bd17-447d-b2db-daf2075e6d7a</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
+					<m_str type="a">swc_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -57680,9 +57680,9 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::23:52:4</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::23:52:34</_modifiedTime>
-			<_lastModifiedTime type="a">1.26.2026::23:53:7</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:5:56</_modifiedTime>
+			<_lastModifiedTime type="a">1.27.2026::4:5:56</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -57953,7 +57953,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID f4a22426-4874-4485-a4dd-7035a6beed7e</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_BMS_Status_Tx:SWC_BMS_Status_Tx</m_str>
+					<m_str type="a">swc_BMS_Status_Tx:SWC_BMS_Status_Tx</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -58722,7 +58722,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID f4a22426-4874-4485-a4dd-7035a6beed7e</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
+					<m_str type="a">swc_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -60299,9 +60299,9 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::23:52:4</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::23:52:36</_modifiedTime>
-			<_lastModifiedTime type="a">1.26.2026::23:53:9</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:6:0</_modifiedTime>
+			<_lastModifiedTime type="a">1.27.2026::4:6:0</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -60563,7 +60563,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 4796e59f-a749-4861-982d-29bdeab06dda</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_HMI_Driver:SWC_HMI_Driver</m_str>
+					<m_str type="a">swc_HMI_Driver:SWC_HMI_Driver</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -60855,7 +60855,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 			<m_pParent type="s">GUID 4796e59f-a749-4861-982d-29bdeab06dda</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">sWC_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
+					<m_str type="a">swc_BMS_MainCntrl:SWC_BMS_MainCntrl</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -61223,7 +61223,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 		<IPart type="e">
 			<_id type="a">GUID ce473a88-0648-4059-a954-fe822f0e9e22</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">sWC_PackMntr</_name>
+			<_name type="a">swc_PackMntr</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -61238,8 +61238,8 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.25.2026::14:13:58</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.19.2026::11:31:40</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:14</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:5:14</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -61258,7 +61258,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 		<IPart type="e">
 			<_id type="a">GUID 7f77696c-3314-44bd-860e-171694411385</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">sWC_CellMntr</_name>
+			<_name type="a">swc_CellMntr</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -61273,8 +61273,8 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.25.2026::14:13:58</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.15.2026::4:36:16</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:25</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:5:25</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -61293,7 +61293,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 		<IPart type="e">
 			<_id type="a">GUID b9b22edb-7938-4a97-83fb-6ae137d6165d</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">sWC_TempMntr</_name>
+			<_name type="a">swc_TempMntr</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -61308,8 +61308,8 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.25.2026::14:13:58</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.15.2026::4:36:27</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:5:29</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -61328,7 +61328,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 		<IPart type="e">
 			<_id type="a">GUID d8a5435f-e685-46c2-9811-28a12805e4ec</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">sWC_SigInput</_name>
+			<_name type="a">swc_SigInput</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -61343,8 +61343,8 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.25.2026::14:13:58</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.15.2026::4:42:53</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:32</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:5:32</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -61363,7 +61363,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 		<IPart type="e">
 			<_id type="a">GUID add835e1-7f92-46d0-a001-9af359f43bc8</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">sWC_BMS_MainCntrl</_name>
+			<_name type="a">swc_BMS_MainCntrl</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -61378,8 +61378,8 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.25.2026::14:13:58</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.15.2026::5:13:14</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:5:35</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -61398,7 +61398,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 		<IPart type="e">
 			<_id type="a">GUID a0f2c5e8-7460-4aac-b13b-4c09a27eab07</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">sWC_ChargeMngr</_name>
+			<_name type="a">swc_ChargeMngr</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -61413,8 +61413,8 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.25.2026::14:13:58</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.15.2026::5:13:41</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:38</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:5:38</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -61433,7 +61433,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 		<IPart type="e">
 			<_id type="a">GUID 4b3867c7-0d1b-4ae8-a559-270aec4b3c8a</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">sWC_SOC_Algo</_name>
+			<_name type="a">swc_SOC_Algo</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -61448,8 +61448,8 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.25.2026::14:13:58</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.15.2026::5:55:15</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:42</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:5:42</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -61468,7 +61468,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 		<IPart type="e">
 			<_id type="a">GUID f2459956-dbfa-4840-b9b3-2694a72b6c60</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">sWC_BalancingMngr</_name>
+			<_name type="a">swc_BalancingMngr</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -61483,8 +61483,8 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.25.2026::14:13:58</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.15.2026::5:55:34</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:46</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:5:46</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -61503,7 +61503,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 		<IPart type="e">
 			<_id type="a">GUID 36f1d967-7e67-4c15-bcc7-7c568ce8f3f6</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">sWC_FaultDTC</_name>
+			<_name type="a">swc_FaultDTC</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -61518,8 +61518,8 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.25.2026::14:13:58</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.15.2026::5:56:7</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:5:50</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -61538,7 +61538,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 		<IPart type="e">
 			<_id type="a">GUID ebc9ce25-67b1-41ca-a247-5b2b90a087cf</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">sWC_RelayDriver</_name>
+			<_name type="a">swc_RelayDriver</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -61553,8 +61553,8 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.25.2026::14:13:58</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.15.2026::5:56:24</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:5:53</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -61573,7 +61573,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 		<IPart type="e">
 			<_id type="a">GUID 376969ac-114d-4077-a1e9-41fda4f089e2</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">sWC_BMS_Status_Tx</_name>
+			<_name type="a">swc_BMS_Status_Tx</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -61588,8 +61588,8 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.25.2026::14:13:58</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.15.2026::5:56:44</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:5:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:5:56</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -61608,7 +61608,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 		<IPart type="e">
 			<_id type="a">GUID 6f97c5b5-65f5-4dae-811b-fdd42a12750a</_id>
 			<_myState type="a">8192</_myState>
-			<_name type="a">sWC_HMI_Driver</_name>
+			<_name type="a">swc_HMI_Driver</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
 					<size type="a">1</size>
@@ -61623,8 +61623,8 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.25.2026::14:13:58</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.15.2026::5:57:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::4:6:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::4:6:0</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">

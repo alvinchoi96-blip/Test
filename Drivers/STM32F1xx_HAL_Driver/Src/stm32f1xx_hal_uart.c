@@ -299,7 +299,7 @@ static void UART_DMARxOnlyAbortCallback(DMA_HandleTypeDef *hdma);
 static HAL_StatusTypeDef UART_Transmit_IT(UART_HandleTypeDef *huart);
 static HAL_StatusTypeDef UART_EndTransmit_IT(UART_HandleTypeDef *huart);
 static HAL_StatusTypeDef UART_Receive_IT(UART_HandleTypeDef *huart);
-static HAL_StatusTypeDef UART_WaitOnFlagUntilTimeout(UART_HandleTypeDef *huart, uint32_t Flag, FlagStatus Status, uint32_t Tickstart, uint32_t Timeout);
+static HAL_StatusTypeDef UART_WaitOnFlagUntilTimeout(UART_HandleTypeDef *huart, uint32 Flag, FlagStatus Status, uint32 Tickstart, uint32 Timeout);
 static void UART_SetConfig(UART_HandleTypeDef *huart);
 
 /**
@@ -501,7 +501,7 @@ HAL_StatusTypeDef HAL_HalfDuplex_Init(UART_HandleTypeDef *huart)
   *            @arg UART_LINBREAKDETECTLENGTH_11B: 11-bit break detection
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_LIN_Init(UART_HandleTypeDef *huart, uint32_t BreakDetectLength)
+HAL_StatusTypeDef HAL_LIN_Init(UART_HandleTypeDef *huart, uint32 BreakDetectLength)
 {
   /* Check the UART handle allocation */
   if (huart == NULL)
@@ -584,7 +584,7 @@ HAL_StatusTypeDef HAL_LIN_Init(UART_HandleTypeDef *huart, uint32_t BreakDetectLe
   *            @arg UART_WAKEUPMETHOD_ADDRESSMARK: Wake-up by an address mark
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_MultiProcessor_Init(UART_HandleTypeDef *huart, uint8_t Address, uint32_t WakeUpMethod)
+HAL_StatusTypeDef HAL_MultiProcessor_Init(UART_HandleTypeDef *huart, uint8 Address, uint32 WakeUpMethod)
 {
   /* Check the UART handle allocation */
   if (huart == NULL)
@@ -1133,11 +1133,11 @@ HAL_StatusTypeDef HAL_UART_UnRegisterRxEventCallback(UART_HandleTypeDef *huart)
   * @param  Timeout Timeout duration
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout)
+HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8 *pData, uint16 Size, uint32 Timeout)
 {
-  uint8_t  *pdata8bits;
-  uint16_t *pdata16bits;
-  uint32_t tickstart = 0U;
+  uint8  *pdata8bits;
+  uint16 *pdata16bits;
+  uint32 tickstart = 0U;
 
   /* Check that a Tx process is not already ongoing */
   if (huart->gState == HAL_UART_STATE_READY)
@@ -1159,11 +1159,11 @@ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, u
     huart->TxXferSize = Size;
     huart->TxXferCount = Size;
 
-    /* In case of 9bits/No Parity transfer, pData needs to be handled as a uint16_t pointer */
+    /* In case of 9bits/No Parity transfer, pData needs to be handled as a uint16 pointer */
     if ((huart->Init.WordLength == UART_WORDLENGTH_9B) && (huart->Init.Parity == UART_PARITY_NONE))
     {
       pdata8bits  = NULL;
-      pdata16bits = (uint16_t *) pData;
+      pdata16bits = (uint16 *) pData;
     }
     else
     {
@@ -1182,12 +1182,12 @@ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, u
       }
       if (pdata8bits == NULL)
       {
-        huart->Instance->DR = (uint16_t)(*pdata16bits & 0x01FFU);
+        huart->Instance->DR = (uint16)(*pdata16bits & 0x01FFU);
         pdata16bits++;
       }
       else
       {
-        huart->Instance->DR = (uint8_t)(*pdata8bits & 0xFFU);
+        huart->Instance->DR = (uint8)(*pdata8bits & 0xFFU);
         pdata8bits++;
       }
       huart->TxXferCount--;
@@ -1221,11 +1221,11 @@ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, u
   * @param  Timeout Timeout duration
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_UART_Receive(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout)
+HAL_StatusTypeDef HAL_UART_Receive(UART_HandleTypeDef *huart, uint8 *pData, uint16 Size, uint32 Timeout)
 {
-  uint8_t  *pdata8bits;
-  uint16_t *pdata16bits;
-  uint32_t tickstart = 0U;
+  uint8  *pdata8bits;
+  uint16 *pdata16bits;
+  uint32 tickstart = 0U;
 
   /* Check that a Rx process is not already ongoing */
   if (huart->RxState == HAL_UART_STATE_READY)
@@ -1248,11 +1248,11 @@ HAL_StatusTypeDef HAL_UART_Receive(UART_HandleTypeDef *huart, uint8_t *pData, ui
     huart->RxXferSize = Size;
     huart->RxXferCount = Size;
 
-    /* In case of 9bits/No Parity transfer, pRxData needs to be handled as a uint16_t pointer */
+    /* In case of 9bits/No Parity transfer, pRxData needs to be handled as a uint16 pointer */
     if ((huart->Init.WordLength == UART_WORDLENGTH_9B) && (huart->Init.Parity == UART_PARITY_NONE))
     {
       pdata8bits  = NULL;
-      pdata16bits = (uint16_t *) pData;
+      pdata16bits = (uint16 *) pData;
     }
     else
     {
@@ -1272,18 +1272,18 @@ HAL_StatusTypeDef HAL_UART_Receive(UART_HandleTypeDef *huart, uint8_t *pData, ui
       }
       if (pdata8bits == NULL)
       {
-        *pdata16bits = (uint16_t)(huart->Instance->DR & 0x01FF);
+        *pdata16bits = (uint16)(huart->Instance->DR & 0x01FF);
         pdata16bits++;
       }
       else
       {
         if ((huart->Init.WordLength == UART_WORDLENGTH_9B) || ((huart->Init.WordLength == UART_WORDLENGTH_8B) && (huart->Init.Parity == UART_PARITY_NONE)))
         {
-          *pdata8bits = (uint8_t)(huart->Instance->DR & (uint8_t)0x00FF);
+          *pdata8bits = (uint8)(huart->Instance->DR & (uint8)0x00FF);
         }
         else
         {
-          *pdata8bits = (uint8_t)(huart->Instance->DR & (uint8_t)0x007F);
+          *pdata8bits = (uint8)(huart->Instance->DR & (uint8)0x007F);
         }
         pdata8bits++;
       }
@@ -1312,7 +1312,7 @@ HAL_StatusTypeDef HAL_UART_Receive(UART_HandleTypeDef *huart, uint8_t *pData, ui
   * @param  Size  Amount of data elements (u8 or u16) to be sent
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_UART_Transmit_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size)
+HAL_StatusTypeDef HAL_UART_Transmit_IT(UART_HandleTypeDef *huart, uint8 *pData, uint16 Size)
 {
   /* Check that a Tx process is not already ongoing */
   if (huart->gState == HAL_UART_STATE_READY)
@@ -1357,7 +1357,7 @@ HAL_StatusTypeDef HAL_UART_Transmit_IT(UART_HandleTypeDef *huart, uint8_t *pData
   * @param  Size  Amount of data elements (u8 or u16) to be received.
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size)
+HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8 *pData, uint16 Size)
 {
   /* Check that a Rx process is not already ongoing */
   if (huart->RxState == HAL_UART_STATE_READY)
@@ -1392,9 +1392,9 @@ HAL_StatusTypeDef HAL_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData,
   * @param  Size  Amount of data elements (u8 or u16) to be sent
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_UART_Transmit_DMA(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size)
+HAL_StatusTypeDef HAL_UART_Transmit_DMA(UART_HandleTypeDef *huart, uint8 *pData, uint16 Size)
 {
-  uint32_t *tmp;
+  uint32 *tmp;
 
   /* Check that a Tx process is not already ongoing */
   if (huart->gState == HAL_UART_STATE_READY)
@@ -1427,8 +1427,8 @@ HAL_StatusTypeDef HAL_UART_Transmit_DMA(UART_HandleTypeDef *huart, uint8_t *pDat
     huart->hdmatx->XferAbortCallback = NULL;
 
     /* Enable the UART transmit DMA channel */
-    tmp = (uint32_t *)&pData;
-    HAL_DMA_Start_IT(huart->hdmatx, *(uint32_t *)tmp, (uint32_t)&huart->Instance->DR, Size);
+    tmp = (uint32 *)&pData;
+    HAL_DMA_Start_IT(huart->hdmatx, *(uint32 *)tmp, (uint32)&huart->Instance->DR, Size);
 
     /* Clear the TC flag in the SR register by writing 0 to it */
     __HAL_UART_CLEAR_FLAG(huart, UART_FLAG_TC);
@@ -1460,7 +1460,7 @@ HAL_StatusTypeDef HAL_UART_Transmit_DMA(UART_HandleTypeDef *huart, uint8_t *pDat
   * @note   When the UART parity is enabled (PCE = 1) the received data contains the parity bit.
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_UART_Receive_DMA(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size)
+HAL_StatusTypeDef HAL_UART_Receive_DMA(UART_HandleTypeDef *huart, uint8 *pData, uint16 Size)
 {
   /* Check that a Rx process is not already ongoing */
   if (huart->RxState == HAL_UART_STATE_READY)
@@ -1492,7 +1492,7 @@ HAL_StatusTypeDef HAL_UART_Receive_DMA(UART_HandleTypeDef *huart, uint8_t *pData
   */
 HAL_StatusTypeDef HAL_UART_DMAPause(UART_HandleTypeDef *huart)
 {
-  uint32_t dmarequest = 0x00U;
+  uint32 dmarequest = 0x00U;
 
   /* Process Locked */
   __HAL_LOCK(huart);
@@ -1565,7 +1565,7 @@ HAL_StatusTypeDef HAL_UART_DMAResume(UART_HandleTypeDef *huart)
   */
 HAL_StatusTypeDef HAL_UART_DMAStop(UART_HandleTypeDef *huart)
 {
-  uint32_t dmarequest = 0x00U;
+  uint32 dmarequest = 0x00U;
   /* The Lock is not implemented on this API to allow the user application
      to call the HAL UART API under callbacks HAL_UART_TxCpltCallback() / HAL_UART_RxCpltCallback():
      when calling HAL_DMA_Abort() API the DMA TX/RX Transfer complete interrupt is generated
@@ -1609,20 +1609,20 @@ HAL_StatusTypeDef HAL_UART_DMAStop(UART_HandleTypeDef *huart)
   *         or if reception is stopped after IDLE event (less than the expected number of data has been received)
   *         In this case, RxLen output parameter indicates number of data available in reception buffer.
   * @note   When UART parity is not enabled (PCE = 0), and Word Length is configured to 9 bits (M = 01),
-  *         the received data is handled as a set of uint16_t. In this case, Size must indicate the number
-  *         of uint16_t available through pData.
+  *         the received data is handled as a set of uint16. In this case, Size must indicate the number
+  *         of uint16 available through pData.
   * @param huart   UART handle.
-  * @param pData   Pointer to data buffer (uint8_t or uint16_t data elements).
-  * @param Size    Amount of data elements (uint8_t or uint16_t) to be received.
+  * @param pData   Pointer to data buffer (uint8 or uint16 data elements).
+  * @param Size    Amount of data elements (uint8 or uint16) to be received.
   * @param RxLen   Number of data elements finally received (could be lower than Size, in case reception ends on IDLE event)
   * @param Timeout Timeout duration expressed in ms (covers the whole reception sequence).
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_UARTEx_ReceiveToIdle(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint16_t *RxLen, uint32_t Timeout)
+HAL_StatusTypeDef HAL_UARTEx_ReceiveToIdle(UART_HandleTypeDef *huart, uint8 *pData, uint16 Size, uint16 *RxLen, uint32 Timeout)
 {
-  uint8_t  *pdata8bits;
-  uint16_t *pdata16bits;
-  uint32_t tickstart;
+  uint8  *pdata8bits;
+  uint16 *pdata16bits;
+  uint32 tickstart;
 
   /* Check that a Rx process is not already ongoing */
   if (huart->RxState == HAL_UART_STATE_READY)
@@ -1644,11 +1644,11 @@ HAL_StatusTypeDef HAL_UARTEx_ReceiveToIdle(UART_HandleTypeDef *huart, uint8_t *p
     huart->RxXferSize  = Size;
     huart->RxXferCount = Size;
 
-    /* In case of 9bits/No Parity transfer, pRxData needs to be handled as a uint16_t pointer */
+    /* In case of 9bits/No Parity transfer, pRxData needs to be handled as a uint16 pointer */
     if ((huart->Init.WordLength == UART_WORDLENGTH_9B) && (huart->Init.Parity == UART_PARITY_NONE))
     {
       pdata8bits  = NULL;
-      pdata16bits = (uint16_t *) pData;
+      pdata16bits = (uint16 *) pData;
     }
     else
     {
@@ -1685,18 +1685,18 @@ HAL_StatusTypeDef HAL_UARTEx_ReceiveToIdle(UART_HandleTypeDef *huart, uint8_t *p
       {
         if (pdata8bits == NULL)
         {
-          *pdata16bits = (uint16_t)(huart->Instance->DR & (uint16_t)0x01FF);
+          *pdata16bits = (uint16)(huart->Instance->DR & (uint16)0x01FF);
           pdata16bits++;
         }
         else
         {
            if ((huart->Init.WordLength == UART_WORDLENGTH_9B) || ((huart->Init.WordLength == UART_WORDLENGTH_8B) && (huart->Init.Parity == UART_PARITY_NONE)))
            {
-             *pdata8bits = (uint8_t)(huart->Instance->DR & (uint8_t)0x00FF);
+             *pdata8bits = (uint8)(huart->Instance->DR & (uint8)0x00FF);
            }
            else
            {
-             *pdata8bits = (uint8_t)(huart->Instance->DR & (uint8_t)0x007F);
+             *pdata8bits = (uint8)(huart->Instance->DR & (uint8)0x007F);
            }
 
           pdata8bits++;
@@ -1737,14 +1737,14 @@ HAL_StatusTypeDef HAL_UARTEx_ReceiveToIdle(UART_HandleTypeDef *huart, uint8_t *p
   *         to UART interrupts raised by RXNE and IDLE events. Callback is called at end of reception indicating
   *         number of received data elements.
   * @note   When UART parity is not enabled (PCE = 0), and Word Length is configured to 9 bits (M = 01),
-  *         the received data is handled as a set of uint16_t. In this case, Size must indicate the number
-  *         of uint16_t available through pData.
+  *         the received data is handled as a set of uint16. In this case, Size must indicate the number
+  *         of uint16 available through pData.
   * @param huart UART handle.
-  * @param pData Pointer to data buffer (uint8_t or uint16_t data elements).
-  * @param Size  Amount of data elements (uint8_t or uint16_t) to be received.
+  * @param pData Pointer to data buffer (uint8 or uint16 data elements).
+  * @param Size  Amount of data elements (uint8 or uint16) to be received.
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_UARTEx_ReceiveToIdle_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size)
+HAL_StatusTypeDef HAL_UARTEx_ReceiveToIdle_IT(UART_HandleTypeDef *huart, uint8 *pData, uint16 Size)
 {
   HAL_StatusTypeDef status;
 
@@ -1798,14 +1798,14 @@ HAL_StatusTypeDef HAL_UARTEx_ReceiveToIdle_IT(UART_HandleTypeDef *huart, uint8_t
   * @note   When the UART parity is enabled (PCE = 1), the received data contain
   *         the parity bit (MSB position).
   * @note   When UART parity is not enabled (PCE = 0), and Word Length is configured to 9 bits (M = 01),
-  *         the received data is handled as a set of uint16_t. In this case, Size must indicate the number
-  *         of uint16_t available through pData.
+  *         the received data is handled as a set of uint16. In this case, Size must indicate the number
+  *         of uint16 available through pData.
   * @param huart UART handle.
-  * @param pData Pointer to data buffer (uint8_t or uint16_t data elements).
-  * @param Size  Amount of data elements (uint8_t or uint16_t) to be received.
+  * @param pData Pointer to data buffer (uint8 or uint16 data elements).
+  * @param Size  Amount of data elements (uint8 or uint16) to be received.
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_UARTEx_ReceiveToIdle_DMA(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size)
+HAL_StatusTypeDef HAL_UARTEx_ReceiveToIdle_DMA(UART_HandleTypeDef *huart, uint8 *pData, uint16 Size)
 {
   HAL_StatusTypeDef status;
 
@@ -2065,7 +2065,7 @@ HAL_StatusTypeDef HAL_UART_AbortReceive(UART_HandleTypeDef *huart)
 */
 HAL_StatusTypeDef HAL_UART_Abort_IT(UART_HandleTypeDef *huart)
 {
-  uint32_t AbortCplt = 0x01U;
+  uint32 AbortCplt = 0x01U;
 
   /* Disable TXEIE, TCIE, RXNE, PE and ERR (Frame error, noise error, overrun error) interrupts */
   CLEAR_BIT(huart->Instance->CR1, (USART_CR1_RXNEIE | USART_CR1_PEIE | USART_CR1_TXEIE | USART_CR1_TCIE));
@@ -2355,14 +2355,14 @@ HAL_StatusTypeDef HAL_UART_AbortReceive_IT(UART_HandleTypeDef *huart)
   */
 void HAL_UART_IRQHandler(UART_HandleTypeDef *huart)
 {
-  uint32_t isrflags   = READ_REG(huart->Instance->SR);
-  uint32_t cr1its     = READ_REG(huart->Instance->CR1);
-  uint32_t cr3its     = READ_REG(huart->Instance->CR3);
-  uint32_t errorflags = 0x00U;
-  uint32_t dmarequest = 0x00U;
+  uint32 isrflags   = READ_REG(huart->Instance->SR);
+  uint32 cr1its     = READ_REG(huart->Instance->CR1);
+  uint32 cr3its     = READ_REG(huart->Instance->CR3);
+  uint32 errorflags = 0x00U;
+  uint32 dmarequest = 0x00U;
 
   /* If no error occurs */
-  errorflags = (isrflags & (uint32_t)(USART_SR_PE | USART_SR_FE | USART_SR_ORE | USART_SR_NE));
+  errorflags = (isrflags & (uint32)(USART_SR_PE | USART_SR_FE | USART_SR_ORE | USART_SR_NE));
   if (errorflags == RESET)
   {
     /* UART in mode Receiver -------------------------------------------------*/
@@ -2493,7 +2493,7 @@ void HAL_UART_IRQHandler(UART_HandleTypeDef *huart)
       /* Check received length : If all expected data are received, do nothing,
          (DMA cplt callback will be called).
          Otherwise, if at least one data has already been received, IDLE event is to be notified to user */
-      uint16_t nb_remaining_rx_data = (uint16_t) __HAL_DMA_GET_COUNTER(huart->hdmarx);
+      uint16 nb_remaining_rx_data = (uint16) __HAL_DMA_GET_COUNTER(huart->hdmarx);
       if (  (nb_remaining_rx_data > 0U)
           &&(nb_remaining_rx_data < huart->RxXferSize))
       {
@@ -2535,7 +2535,7 @@ void HAL_UART_IRQHandler(UART_HandleTypeDef *huart)
       /* DMA mode not enabled */
       /* Check received length : If all expected data are received, do nothing.
          Otherwise, if at least one data has already been received, IDLE event is to be notified to user */
-      uint16_t nb_rx_data = huart->RxXferSize - huart->RxXferCount;
+      uint16 nb_rx_data = huart->RxXferSize - huart->RxXferCount;
       if (  (huart->RxXferCount > 0U)
           &&(nb_rx_data > 0U) )
       {
@@ -2704,7 +2704,7 @@ __weak void HAL_UART_AbortReceiveCpltCallback(UART_HandleTypeDef *huart)
   *               reception buffer until which, data are available)
   * @retval None
   */
-__weak void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
+__weak void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16 Size)
 {
   /* Prevent unused argument(s) compilation warning */
   UNUSED(huart);
@@ -2827,7 +2827,7 @@ HAL_StatusTypeDef HAL_MultiProcessor_ExitMuteMode(UART_HandleTypeDef *huart)
   */
 HAL_StatusTypeDef HAL_HalfDuplex_EnableTransmitter(UART_HandleTypeDef *huart)
 {
-  uint32_t tmpreg = 0x00U;
+  uint32 tmpreg = 0x00U;
 
   /* Process Locked */
   __HAL_LOCK(huart);
@@ -2838,13 +2838,13 @@ HAL_StatusTypeDef HAL_HalfDuplex_EnableTransmitter(UART_HandleTypeDef *huart)
   tmpreg = huart->Instance->CR1;
 
   /* Clear TE and RE bits */
-  tmpreg &= (uint32_t)~((uint32_t)(USART_CR1_TE | USART_CR1_RE));
+  tmpreg &= (uint32)~((uint32)(USART_CR1_TE | USART_CR1_RE));
 
   /* Enable the USART's transmit interface by setting the TE bit in the USART CR1 register */
-  tmpreg |= (uint32_t)USART_CR1_TE;
+  tmpreg |= (uint32)USART_CR1_TE;
 
   /* Write to USART CR1 */
-  WRITE_REG(huart->Instance->CR1, (uint32_t)tmpreg);
+  WRITE_REG(huart->Instance->CR1, (uint32)tmpreg);
 
   huart->gState = HAL_UART_STATE_READY;
 
@@ -2862,7 +2862,7 @@ HAL_StatusTypeDef HAL_HalfDuplex_EnableTransmitter(UART_HandleTypeDef *huart)
   */
 HAL_StatusTypeDef HAL_HalfDuplex_EnableReceiver(UART_HandleTypeDef *huart)
 {
-  uint32_t tmpreg = 0x00U;
+  uint32 tmpreg = 0x00U;
 
   /* Process Locked */
   __HAL_LOCK(huart);
@@ -2873,13 +2873,13 @@ HAL_StatusTypeDef HAL_HalfDuplex_EnableReceiver(UART_HandleTypeDef *huart)
   tmpreg = huart->Instance->CR1;
 
   /* Clear TE and RE bits */
-  tmpreg &= (uint32_t)~((uint32_t)(USART_CR1_TE | USART_CR1_RE));
+  tmpreg &= (uint32)~((uint32)(USART_CR1_TE | USART_CR1_RE));
 
   /* Enable the USART's receive interface by setting the RE bit in the USART CR1 register */
-  tmpreg |= (uint32_t)USART_CR1_RE;
+  tmpreg |= (uint32)USART_CR1_RE;
 
   /* Write to USART CR1 */
-  WRITE_REG(huart->Instance->CR1, (uint32_t)tmpreg);
+  WRITE_REG(huart->Instance->CR1, (uint32)tmpreg);
 
   huart->gState = HAL_UART_STATE_READY;
 
@@ -2919,7 +2919,7 @@ HAL_StatusTypeDef HAL_HalfDuplex_EnableReceiver(UART_HandleTypeDef *huart)
   */
 HAL_UART_StateTypeDef HAL_UART_GetState(UART_HandleTypeDef *huart)
 {
-  uint32_t temp1 = 0x00U, temp2 = 0x00U;
+  uint32 temp1 = 0x00U, temp2 = 0x00U;
   temp1 = huart->gState;
   temp2 = huart->RxState;
 
@@ -2932,7 +2932,7 @@ HAL_UART_StateTypeDef HAL_UART_GetState(UART_HandleTypeDef *huart)
   *               the configuration information for the specified UART.
   * @retval UART Error Code
   */
-uint32_t HAL_UART_GetError(UART_HandleTypeDef *huart)
+uint32 HAL_UART_GetError(UART_HandleTypeDef *huart)
 {
   return huart->ErrorCode;
 }
@@ -3125,7 +3125,7 @@ static void UART_DMARxHalfCplt(DMA_HandleTypeDef *hdma)
   */
 static void UART_DMAError(DMA_HandleTypeDef *hdma)
 {
-  uint32_t dmarequest = 0x00U;
+  uint32 dmarequest = 0x00U;
   UART_HandleTypeDef *huart = (UART_HandleTypeDef *)((DMA_HandleTypeDef *)hdma)->Parent;
 
   /* Stop UART DMA Tx request if ongoing */
@@ -3164,7 +3164,7 @@ static void UART_DMAError(DMA_HandleTypeDef *hdma)
   * @param  Timeout Timeout duration
   * @retval HAL status
   */
-static HAL_StatusTypeDef UART_WaitOnFlagUntilTimeout(UART_HandleTypeDef *huart, uint32_t Flag, FlagStatus Status, uint32_t Tickstart, uint32_t Timeout)
+static HAL_StatusTypeDef UART_WaitOnFlagUntilTimeout(UART_HandleTypeDef *huart, uint32 Flag, FlagStatus Status, uint32 Tickstart, uint32 Timeout)
 {
   /* Wait until flag is set */
   while ((__HAL_UART_GET_FLAG(huart, Flag) ? SET : RESET) == Status)
@@ -3202,7 +3202,7 @@ static HAL_StatusTypeDef UART_WaitOnFlagUntilTimeout(UART_HandleTypeDef *huart, 
   * @param  Size  Amount of data elements (u8 or u16) to be received.
   * @retval HAL status
   */
-HAL_StatusTypeDef UART_Start_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size)
+HAL_StatusTypeDef UART_Start_Receive_IT(UART_HandleTypeDef *huart, uint8 *pData, uint16 Size)
 {
   huart->pRxBuffPtr = pData;
   huart->RxXferSize = Size;
@@ -3237,9 +3237,9 @@ HAL_StatusTypeDef UART_Start_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pDat
   * @param  Size  Amount of data elements (u8 or u16) to be received.
   * @retval HAL status
   */
-HAL_StatusTypeDef UART_Start_Receive_DMA(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size)
+HAL_StatusTypeDef UART_Start_Receive_DMA(UART_HandleTypeDef *huart, uint8 *pData, uint16 Size)
 {
-  uint32_t *tmp;
+  uint32 *tmp;
 
   huart->pRxBuffPtr = pData;
   huart->RxXferSize = Size;
@@ -3260,8 +3260,8 @@ HAL_StatusTypeDef UART_Start_Receive_DMA(UART_HandleTypeDef *huart, uint8_t *pDa
   huart->hdmarx->XferAbortCallback = NULL;
 
   /* Enable the DMA stream */
-  tmp = (uint32_t *)&pData;
-  HAL_DMA_Start_IT(huart->hdmarx, (uint32_t)&huart->Instance->DR, *(uint32_t *)tmp, Size);
+  tmp = (uint32 *)&pData;
+  HAL_DMA_Start_IT(huart->hdmarx, (uint32)&huart->Instance->DR, *(uint32 *)tmp, Size);
 
   /* Clear the Overrun flag just before enabling the DMA Rx request: can be mandatory for the second transfer */
   __HAL_UART_CLEAR_OREFLAG(huart);
@@ -3497,20 +3497,20 @@ static void UART_DMARxOnlyAbortCallback(DMA_HandleTypeDef *hdma)
   */
 static HAL_StatusTypeDef UART_Transmit_IT(UART_HandleTypeDef *huart)
 {
-  uint16_t *tmp;
+  uint16 *tmp;
 
   /* Check that a Tx process is ongoing */
   if (huart->gState == HAL_UART_STATE_BUSY_TX)
   {
     if ((huart->Init.WordLength == UART_WORDLENGTH_9B) && (huart->Init.Parity == UART_PARITY_NONE))
     {
-      tmp = (uint16_t *) huart->pTxBuffPtr;
-      huart->Instance->DR = (uint16_t)(*tmp & (uint16_t)0x01FF);
+      tmp = (uint16 *) huart->pTxBuffPtr;
+      huart->Instance->DR = (uint16)(*tmp & (uint16)0x01FF);
       huart->pTxBuffPtr += 2U;
     }
     else
     {
-      huart->Instance->DR = (uint8_t)(*huart->pTxBuffPtr++ & (uint8_t)0x00FF);
+      huart->Instance->DR = (uint8)(*huart->pTxBuffPtr++ & (uint8)0x00FF);
     }
 
     if (--huart->TxXferCount == 0U)
@@ -3562,8 +3562,8 @@ static HAL_StatusTypeDef UART_EndTransmit_IT(UART_HandleTypeDef *huart)
   */
 static HAL_StatusTypeDef UART_Receive_IT(UART_HandleTypeDef *huart)
 {
-  uint8_t  *pdata8bits;
-  uint16_t *pdata16bits;
+  uint8  *pdata8bits;
+  uint16 *pdata16bits;
 
   /* Check that a Rx process is ongoing */
   if (huart->RxState == HAL_UART_STATE_BUSY_RX)
@@ -3571,22 +3571,22 @@ static HAL_StatusTypeDef UART_Receive_IT(UART_HandleTypeDef *huart)
     if ((huart->Init.WordLength == UART_WORDLENGTH_9B) && (huart->Init.Parity == UART_PARITY_NONE))
     {
       pdata8bits  = NULL;
-      pdata16bits = (uint16_t *) huart->pRxBuffPtr;
-      *pdata16bits = (uint16_t)(huart->Instance->DR & (uint16_t)0x01FF);
+      pdata16bits = (uint16 *) huart->pRxBuffPtr;
+      *pdata16bits = (uint16)(huart->Instance->DR & (uint16)0x01FF);
       huart->pRxBuffPtr += 2U;
     }
     else
     {
-      pdata8bits = (uint8_t *) huart->pRxBuffPtr;
+      pdata8bits = (uint8 *) huart->pRxBuffPtr;
       pdata16bits  = NULL;
 
       if ((huart->Init.WordLength == UART_WORDLENGTH_9B) || ((huart->Init.WordLength == UART_WORDLENGTH_8B) && (huart->Init.Parity == UART_PARITY_NONE)))
       {
-        *pdata8bits = (uint8_t)(huart->Instance->DR & (uint8_t)0x00FF);
+        *pdata8bits = (uint8)(huart->Instance->DR & (uint8)0x00FF);
       }
       else
       {
-        *pdata8bits = (uint8_t)(huart->Instance->DR & (uint8_t)0x007F);
+        *pdata8bits = (uint8)(huart->Instance->DR & (uint8)0x007F);
       }
       huart->pRxBuffPtr += 1U;
     }
@@ -3660,8 +3660,8 @@ static HAL_StatusTypeDef UART_Receive_IT(UART_HandleTypeDef *huart)
   */
 static void UART_SetConfig(UART_HandleTypeDef *huart)
 {
-  uint32_t tmpreg;
-  uint32_t pclk;
+  uint32 tmpreg;
+  uint32 pclk;
 
   /* Check the parameters */
   assert_param(IS_UART_BAUDRATE(huart->Init.BaudRate));
@@ -3682,14 +3682,14 @@ static void UART_SetConfig(UART_HandleTypeDef *huart)
      Set OVER8 bit according to huart->Init.OverSampling value */
 
 #if defined(USART_CR1_OVER8)
-  tmpreg = (uint32_t)huart->Init.WordLength | huart->Init.Parity | huart->Init.Mode | huart->Init.OverSampling;
+  tmpreg = (uint32)huart->Init.WordLength | huart->Init.Parity | huart->Init.Mode | huart->Init.OverSampling;
   MODIFY_REG(huart->Instance->CR1,
-             (uint32_t)(USART_CR1_M | USART_CR1_PCE | USART_CR1_PS | USART_CR1_TE | USART_CR1_RE | USART_CR1_OVER8),
+             (uint32)(USART_CR1_M | USART_CR1_PCE | USART_CR1_PS | USART_CR1_TE | USART_CR1_RE | USART_CR1_OVER8),
              tmpreg);
 #else
-  tmpreg = (uint32_t)huart->Init.WordLength | huart->Init.Parity | huart->Init.Mode;
+  tmpreg = (uint32)huart->Init.WordLength | huart->Init.Parity | huart->Init.Mode;
   MODIFY_REG(huart->Instance->CR1,
-             (uint32_t)(USART_CR1_M | USART_CR1_PCE | USART_CR1_PS | USART_CR1_TE | USART_CR1_RE),
+             (uint32)(USART_CR1_M | USART_CR1_PCE | USART_CR1_PS | USART_CR1_TE | USART_CR1_RE),
              tmpreg);
 #endif /* USART_CR1_OVER8 */
 

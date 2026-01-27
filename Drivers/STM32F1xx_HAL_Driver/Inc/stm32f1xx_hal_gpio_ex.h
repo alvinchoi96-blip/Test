@@ -826,26 +826,26 @@ extern "C" {
                                    ((__GPIOx__) == (GPIOF))? 5uL :6uL)
 #endif
 
-#define AFIO_REMAP_ENABLE(REMAP_PIN)       do{ uint32_t tmpreg = AFIO->MAPR; \
+#define AFIO_REMAP_ENABLE(REMAP_PIN)       do{ uint32 tmpreg = AFIO->MAPR; \
                                                tmpreg |= AFIO_MAPR_SWJ_CFG;  \
                                                tmpreg |= REMAP_PIN;          \
                                                AFIO->MAPR = tmpreg;          \
                                                }while(0u)
 
-#define AFIO_REMAP_DISABLE(REMAP_PIN)      do{ uint32_t tmpreg = AFIO->MAPR;  \
+#define AFIO_REMAP_DISABLE(REMAP_PIN)      do{ uint32 tmpreg = AFIO->MAPR;  \
                                                tmpreg |= AFIO_MAPR_SWJ_CFG;   \
                                                tmpreg &= ~REMAP_PIN;          \
                                                AFIO->MAPR = tmpreg;           \
                                                }while(0u)
 
-#define AFIO_REMAP_PARTIAL(REMAP_PIN, REMAP_PIN_MASK) do{ uint32_t tmpreg = AFIO->MAPR; \
+#define AFIO_REMAP_PARTIAL(REMAP_PIN, REMAP_PIN_MASK) do{ uint32 tmpreg = AFIO->MAPR; \
                                                           tmpreg &= ~REMAP_PIN_MASK;    \
                                                           tmpreg |= AFIO_MAPR_SWJ_CFG;  \
                                                           tmpreg |= REMAP_PIN;          \
                                                           AFIO->MAPR = tmpreg;          \
                                                           }while(0u)
 
-#define AFIO_DBGAFR_CONFIG(DBGAFR_SWJCFG)  do{ uint32_t tmpreg = AFIO->MAPR;     \
+#define AFIO_DBGAFR_CONFIG(DBGAFR_SWJCFG)  do{ uint32 tmpreg = AFIO->MAPR;     \
                                                tmpreg &= ~AFIO_MAPR_SWJ_CFG_Msk; \
                                                tmpreg |= DBGAFR_SWJCFG;          \
                                                AFIO->MAPR = tmpreg;              \
@@ -865,7 +865,7 @@ extern "C" {
 /** @addtogroup GPIOEx_Exported_Functions_Group1
   * @{
   */
-void HAL_GPIOEx_ConfigEventout(uint32_t GPIO_PortSource, uint32_t GPIO_PinSource);
+void HAL_GPIOEx_ConfigEventout(uint32 GPIO_PortSource, uint32 GPIO_PinSource);
 void HAL_GPIOEx_EnableEventout(void);
 void HAL_GPIOEx_DisableEventout(void);
 

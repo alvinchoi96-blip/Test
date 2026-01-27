@@ -78,7 +78,7 @@
   *   This parameter can be a value of @ref GPIOEx_EVENTOUT_PIN.
   * @retval None
   */
-void HAL_GPIOEx_ConfigEventout(uint32_t GPIO_PortSource, uint32_t GPIO_PinSource)
+void HAL_GPIOEx_ConfigEventout(uint32 GPIO_PortSource, uint32 GPIO_PinSource)
 {
   /* Verify the parameters */
   assert_param(IS_AFIO_EVENTOUT_PORT(GPIO_PortSource));

@@ -168,9 +168,9 @@
 #ifndef __UNALIGNED_UINT16_READ
 #pragma language=save
 #pragma language=extended
-__IAR_FT uint16_t __iar_uint16_read(void const *ptr)
+__IAR_FT uint16 __iar_uint16_read(void const *ptr)
 {
-  return *(__packed uint16_t*)(ptr);
+  return *(__packed uint16*)(ptr);
 }
 #pragma language=restore
 #define __UNALIGNED_UINT16_READ(PTR) __iar_uint16_read(PTR)
@@ -180,9 +180,9 @@ __IAR_FT uint16_t __iar_uint16_read(void const *ptr)
 #ifndef __UNALIGNED_UINT16_WRITE
 #pragma language=save
 #pragma language=extended
-__IAR_FT void __iar_uint16_write(void const *ptr, uint16_t val)
+__IAR_FT void __iar_uint16_write(void const *ptr, uint16 val)
 {
-  *(__packed uint16_t*)(ptr) = val;;
+  *(__packed uint16*)(ptr) = val;;
 }
 #pragma language=restore
 #define __UNALIGNED_UINT16_WRITE(PTR,VAL) __iar_uint16_write(PTR,VAL)
@@ -191,9 +191,9 @@ __IAR_FT void __iar_uint16_write(void const *ptr, uint16_t val)
 #ifndef __UNALIGNED_UINT32_READ
 #pragma language=save
 #pragma language=extended
-__IAR_FT uint32_t __iar_uint32_read(void const *ptr)
+__IAR_FT uint32 __iar_uint32_read(void const *ptr)
 {
-  return *(__packed uint32_t*)(ptr);
+  return *(__packed uint32*)(ptr);
 }
 #pragma language=restore
 #define __UNALIGNED_UINT32_READ(PTR) __iar_uint32_read(PTR)
@@ -202,9 +202,9 @@ __IAR_FT uint32_t __iar_uint32_read(void const *ptr)
 #ifndef __UNALIGNED_UINT32_WRITE
 #pragma language=save
 #pragma language=extended
-__IAR_FT void __iar_uint32_write(void const *ptr, uint32_t val)
+__IAR_FT void __iar_uint32_write(void const *ptr, uint32 val)
 {
-  *(__packed uint32_t*)(ptr) = val;;
+  *(__packed uint32*)(ptr) = val;;
 }
 #pragma language=restore
 #define __UNALIGNED_UINT32_WRITE(PTR,VAL) __iar_uint32_write(PTR,VAL)
@@ -213,7 +213,7 @@ __IAR_FT void __iar_uint32_write(void const *ptr, uint32_t val)
 #ifndef __UNALIGNED_UINT32   /* deprecated */
 #pragma language=save
 #pragma language=extended
-__packed struct  __iar_u32 { uint32_t v; };
+__packed struct  __iar_u32 { uint32 v; };
 #pragma language=restore
 #define __UNALIGNED_UINT32(PTR) (((struct __iar_u32 *)(PTR))->v)
 #endif
@@ -493,12 +493,12 @@ __packed struct  __iar_u32 { uint32_t v; };
     #undef __RBIT
     #undef __get_APSR
 
-    __STATIC_INLINE uint8_t __CLZ(uint32_t data)
+    __STATIC_INLINE uint8 __CLZ(uint32 data)
     {
       if (data == 0U) { return 32U; }
 
-      uint32_t count = 0U;
-      uint32_t mask = 0x80000000U;
+      uint32 count = 0U;
+      uint32 mask = 0x80000000U;
 
       while ((data & mask) == 0U)
       {
@@ -508,10 +508,10 @@ __packed struct  __iar_u32 { uint32_t v; };
       return count;
     }
 
-    __STATIC_INLINE uint32_t __RBIT(uint32_t v)
+    __STATIC_INLINE uint32 __RBIT(uint32 v)
     {
-      uint8_t sc = 31U;
-      uint32_t r = v;
+      uint8 sc = 31U;
+      uint32 r = v;
       for (v >>= 1U; v; v >>= 1U)
       {
         r <<= 1U;
@@ -521,9 +521,9 @@ __packed struct  __iar_u32 { uint32_t v; };
       return (r << sc);
     }
 
-    __STATIC_INLINE  uint32_t __get_APSR(void)
+    __STATIC_INLINE  uint32 __get_APSR(void)
     {
-      uint32_t res;
+      uint32 res;
       __asm("MRS      %0,APSR" : "=r" (res));
       return res;
     }
@@ -549,14 +549,14 @@ __packed struct  __iar_u32 { uint32_t v; };
 
   #if (!defined(__ARM_ARCH_6M__) || __ARM_ARCH_6M__==0)
 
-    __IAR_FT uint32_t __LDREXW(uint32_t volatile *ptr)
+    __IAR_FT uint32 __LDREXW(uint32 volatile *ptr)
     {
-      return __LDREX((unsigned long *)ptr);
+      return __LDREX((uint32 *)ptr);
     }
 
-    __IAR_FT uint32_t __STREXW(uint32_t value, uint32_t volatile *ptr)
+    __IAR_FT uint32 __STREXW(uint32 value, uint32 volatile *ptr)
     {
-      return __STREX(value, (unsigned long *)ptr);
+      return __STREX(value, (uint32 *)ptr);
     }
   #endif
 
@@ -564,14 +564,14 @@ __packed struct  __iar_u32 { uint32_t v; };
   /* __CORTEX_M is defined in core_cm0.h, core_cm3.h and core_cm4.h. */
   #if (__CORTEX_M >= 0x03)
 
-    __IAR_FT uint32_t __RRX(uint32_t value)
+    __IAR_FT uint32 __RRX(uint32 value)
     {
-      uint32_t result;
+      uint32 result;
       __ASM("RRX      %0, %1" : "=r"(result) : "r" (value) : "cc");
       return(result);
     }
 
-    __IAR_FT void __set_BASEPRI_MAX(uint32_t value)
+    __IAR_FT void __set_BASEPRI_MAX(uint32 value)
     {
       __asm volatile("MSR      BASEPRI_MAX,%0"::"r" (value));
     }
@@ -583,7 +583,7 @@ __packed struct  __iar_u32 { uint32_t v; };
 
   #endif /* (__CORTEX_M >= 0x03) */
 
-  __IAR_FT uint32_t __ROR(uint32_t op1, uint32_t op2)
+  __IAR_FT uint32 __ROR(uint32 op1, uint32 op2)
   {
     return (op1 >> op2) | (op1 << ((sizeof(op1)*8)-op2));
   }
@@ -591,9 +591,9 @@ __packed struct  __iar_u32 { uint32_t v; };
   #if ((defined (__ARM_ARCH_8M_MAIN__ ) && (__ARM_ARCH_8M_MAIN__ == 1)) || \
        (defined (__ARM_ARCH_8M_BASE__ ) && (__ARM_ARCH_8M_BASE__ == 1))    )
 
-   __IAR_FT uint32_t __get_MSPLIM(void)
+   __IAR_FT uint32 __get_MSPLIM(void)
     {
-      uint32_t res;
+      uint32 res;
     #if (!(defined (__ARM_ARCH_8M_MAIN__ ) && (__ARM_ARCH_8M_MAIN__ == 1)) && \
          (!defined (__ARM_FEATURE_CMSE  ) || (__ARM_FEATURE_CMSE   < 3)))
       // without main extensions, the non-secure MSPLIM is RAZ/WI
@@ -604,7 +604,7 @@ __packed struct  __iar_u32 { uint32_t v; };
       return res;
     }
 
-    __IAR_FT void   __set_MSPLIM(uint32_t value)
+    __IAR_FT void   __set_MSPLIM(uint32 value)
     {
     #if (!(defined (__ARM_ARCH_8M_MAIN__ ) && (__ARM_ARCH_8M_MAIN__ == 1)) && \
          (!defined (__ARM_FEATURE_CMSE  ) || (__ARM_FEATURE_CMSE   < 3)))
@@ -615,9 +615,9 @@ __packed struct  __iar_u32 { uint32_t v; };
     #endif
     }
 
-    __IAR_FT uint32_t __get_PSPLIM(void)
+    __IAR_FT uint32 __get_PSPLIM(void)
     {
-      uint32_t res;
+      uint32 res;
     #if (!(defined (__ARM_ARCH_8M_MAIN__ ) && (__ARM_ARCH_8M_MAIN__ == 1)) && \
          (!defined (__ARM_FEATURE_CMSE  ) || (__ARM_FEATURE_CMSE   < 3)))
       // without main extensions, the non-secure PSPLIM is RAZ/WI
@@ -628,7 +628,7 @@ __packed struct  __iar_u32 { uint32_t v; };
       return res;
     }
 
-    __IAR_FT void   __set_PSPLIM(uint32_t value)
+    __IAR_FT void   __set_PSPLIM(uint32 value)
     {
     #if (!(defined (__ARM_ARCH_8M_MAIN__ ) && (__ARM_ARCH_8M_MAIN__ == 1)) && \
          (!defined (__ARM_FEATURE_CMSE  ) || (__ARM_FEATURE_CMSE   < 3)))
@@ -639,92 +639,92 @@ __packed struct  __iar_u32 { uint32_t v; };
     #endif
     }
 
-    __IAR_FT uint32_t __TZ_get_CONTROL_NS(void)
+    __IAR_FT uint32 __TZ_get_CONTROL_NS(void)
     {
-      uint32_t res;
+      uint32 res;
       __asm volatile("MRS      %0,CONTROL_NS" : "=r" (res));
       return res;
     }
 
-    __IAR_FT void   __TZ_set_CONTROL_NS(uint32_t value)
+    __IAR_FT void   __TZ_set_CONTROL_NS(uint32 value)
     {
       __asm volatile("MSR      CONTROL_NS,%0" :: "r" (value));
     }
 
-    __IAR_FT uint32_t   __TZ_get_PSP_NS(void)
+    __IAR_FT uint32   __TZ_get_PSP_NS(void)
     {
-      uint32_t res;
+      uint32 res;
       __asm volatile("MRS      %0,PSP_NS" : "=r" (res));
       return res;
     }
 
-    __IAR_FT void   __TZ_set_PSP_NS(uint32_t value)
+    __IAR_FT void   __TZ_set_PSP_NS(uint32 value)
     {
       __asm volatile("MSR      PSP_NS,%0" :: "r" (value));
     }
 
-    __IAR_FT uint32_t   __TZ_get_MSP_NS(void)
+    __IAR_FT uint32   __TZ_get_MSP_NS(void)
     {
-      uint32_t res;
+      uint32 res;
       __asm volatile("MRS      %0,MSP_NS" : "=r" (res));
       return res;
     }
 
-    __IAR_FT void   __TZ_set_MSP_NS(uint32_t value)
+    __IAR_FT void   __TZ_set_MSP_NS(uint32 value)
     {
       __asm volatile("MSR      MSP_NS,%0" :: "r" (value));
     }
 
-    __IAR_FT uint32_t   __TZ_get_SP_NS(void)
+    __IAR_FT uint32   __TZ_get_SP_NS(void)
     {
-      uint32_t res;
+      uint32 res;
       __asm volatile("MRS      %0,SP_NS" : "=r" (res));
       return res;
     }
-    __IAR_FT void   __TZ_set_SP_NS(uint32_t value)
+    __IAR_FT void   __TZ_set_SP_NS(uint32 value)
     {
       __asm volatile("MSR      SP_NS,%0" :: "r" (value));
     }
 
-    __IAR_FT uint32_t   __TZ_get_PRIMASK_NS(void)
+    __IAR_FT uint32   __TZ_get_PRIMASK_NS(void)
     {
-      uint32_t res;
+      uint32 res;
       __asm volatile("MRS      %0,PRIMASK_NS" : "=r" (res));
       return res;
     }
 
-    __IAR_FT void   __TZ_set_PRIMASK_NS(uint32_t value)
+    __IAR_FT void   __TZ_set_PRIMASK_NS(uint32 value)
     {
       __asm volatile("MSR      PRIMASK_NS,%0" :: "r" (value));
     }
 
-    __IAR_FT uint32_t   __TZ_get_BASEPRI_NS(void)
+    __IAR_FT uint32   __TZ_get_BASEPRI_NS(void)
     {
-      uint32_t res;
+      uint32 res;
       __asm volatile("MRS      %0,BASEPRI_NS" : "=r" (res));
       return res;
     }
 
-    __IAR_FT void   __TZ_set_BASEPRI_NS(uint32_t value)
+    __IAR_FT void   __TZ_set_BASEPRI_NS(uint32 value)
     {
       __asm volatile("MSR      BASEPRI_NS,%0" :: "r" (value));
     }
 
-    __IAR_FT uint32_t   __TZ_get_FAULTMASK_NS(void)
+    __IAR_FT uint32   __TZ_get_FAULTMASK_NS(void)
     {
-      uint32_t res;
+      uint32 res;
       __asm volatile("MRS      %0,FAULTMASK_NS" : "=r" (res));
       return res;
     }
 
-    __IAR_FT void   __TZ_set_FAULTMASK_NS(uint32_t value)
+    __IAR_FT void   __TZ_set_FAULTMASK_NS(uint32 value)
     {
       __asm volatile("MSR      FAULTMASK_NS,%0" :: "r" (value));
     }
 
-    __IAR_FT uint32_t   __TZ_get_PSPLIM_NS(void)
+    __IAR_FT uint32   __TZ_get_PSPLIM_NS(void)
     {
-      uint32_t res;
+      uint32 res;
     #if (!(defined (__ARM_ARCH_8M_MAIN__ ) && (__ARM_ARCH_8M_MAIN__ == 1)) && \
          (!defined (__ARM_FEATURE_CMSE  ) || (__ARM_FEATURE_CMSE   < 3)))
       // without main extensions, the non-secure PSPLIM is RAZ/WI
@@ -735,7 +735,7 @@ __packed struct  __iar_u32 { uint32_t v; };
       return res;
     }
 
-    __IAR_FT void   __TZ_set_PSPLIM_NS(uint32_t value)
+    __IAR_FT void   __TZ_set_PSPLIM_NS(uint32 value)
     {
     #if (!(defined (__ARM_ARCH_8M_MAIN__ ) && (__ARM_ARCH_8M_MAIN__ == 1)) && \
          (!defined (__ARM_FEATURE_CMSE  ) || (__ARM_FEATURE_CMSE   < 3)))
@@ -746,14 +746,14 @@ __packed struct  __iar_u32 { uint32_t v; };
     #endif
     }
 
-    __IAR_FT uint32_t   __TZ_get_MSPLIM_NS(void)
+    __IAR_FT uint32   __TZ_get_MSPLIM_NS(void)
     {
-      uint32_t res;
+      uint32 res;
       __asm volatile("MRS      %0,MSPLIM_NS" : "=r" (res));
       return res;
     }
 
-    __IAR_FT void   __TZ_set_MSPLIM_NS(uint32_t value)
+    __IAR_FT void   __TZ_set_MSPLIM_NS(uint32 value)
     {
       __asm volatile("MSR      MSPLIM_NS,%0" :: "r" (value));
     }
@@ -765,7 +765,7 @@ __packed struct  __iar_u32 { uint32_t v; };
 #define __BKPT(value)    __asm volatile ("BKPT     %0" : : "i"(value))
 
 #if __IAR_M0_FAMILY
-  __STATIC_INLINE int32_t __SSAT(int32_t val, uint32_t sat)
+  __STATIC_INLINE int32_t __SSAT(int32_t val, uint32 sat)
   {
     if ((sat >= 1U) && (sat <= 32U))
     {
@@ -783,11 +783,11 @@ __packed struct  __iar_u32 { uint32_t v; };
     return val;
   }
 
-  __STATIC_INLINE uint32_t __USAT(int32_t val, uint32_t sat)
+  __STATIC_INLINE uint32 __USAT(int32_t val, uint32 sat)
   {
     if (sat <= 31U)
     {
-      const uint32_t max = ((1U << sat) - 1U);
+      const uint32 max = ((1U << sat) - 1U);
       if (val > (int32_t)max)
       {
         return max;
@@ -797,44 +797,44 @@ __packed struct  __iar_u32 { uint32_t v; };
         return 0U;
       }
     }
-    return (uint32_t)val;
+    return (uint32)val;
   }
 #endif
 
 #if (__CORTEX_M >= 0x03)   /* __CORTEX_M is defined in core_cm0.h, core_cm3.h and core_cm4.h. */
 
-  __IAR_FT uint8_t __LDRBT(volatile uint8_t *addr)
+  __IAR_FT uint8 __LDRBT(volatile uint8 *addr)
   {
-    uint32_t res;
+    uint32 res;
     __ASM("LDRBT %0, [%1]" : "=r" (res) : "r" (addr) : "memory");
-    return ((uint8_t)res);
+    return ((uint8)res);
   }
 
-  __IAR_FT uint16_t __LDRHT(volatile uint16_t *addr)
+  __IAR_FT uint16 __LDRHT(volatile uint16 *addr)
   {
-    uint32_t res;
+    uint32 res;
     __ASM("LDRHT %0, [%1]" : "=r" (res) : "r" (addr) : "memory");
-    return ((uint16_t)res);
+    return ((uint16)res);
   }
 
-  __IAR_FT uint32_t __LDRT(volatile uint32_t *addr)
+  __IAR_FT uint32 __LDRT(volatile uint32 *addr)
   {
-    uint32_t res;
+    uint32 res;
     __ASM("LDRT %0, [%1]" : "=r" (res) : "r" (addr) : "memory");
     return res;
   }
 
-  __IAR_FT void __STRBT(uint8_t value, volatile uint8_t *addr)
+  __IAR_FT void __STRBT(uint8 value, volatile uint8 *addr)
   {
-    __ASM("STRBT %1, [%0]" : : "r" (addr), "r" ((uint32_t)value) : "memory");
+    __ASM("STRBT %1, [%0]" : : "r" (addr), "r" ((uint32)value) : "memory");
   }
 
-  __IAR_FT void __STRHT(uint16_t value, volatile uint16_t *addr)
+  __IAR_FT void __STRHT(uint16 value, volatile uint16 *addr)
   {
-    __ASM("STRHT %1, [%0]" : : "r" (addr), "r" ((uint32_t)value) : "memory");
+    __ASM("STRHT %1, [%0]" : : "r" (addr), "r" ((uint32)value) : "memory");
   }
 
-  __IAR_FT void __STRT(uint32_t value, volatile uint32_t *addr)
+  __IAR_FT void __STRT(uint32 value, volatile uint32 *addr)
   {
     __ASM("STRT %1, [%0]" : : "r" (addr), "r" (value) : "memory");
   }
@@ -845,80 +845,80 @@ __packed struct  __iar_u32 { uint32_t v; };
      (defined (__ARM_ARCH_8M_BASE__ ) && (__ARM_ARCH_8M_BASE__ == 1))    )
 
 
-  __IAR_FT uint8_t __LDAB(volatile uint8_t *ptr)
+  __IAR_FT uint8 __LDAB(volatile uint8 *ptr)
   {
-    uint32_t res;
+    uint32 res;
     __ASM volatile ("LDAB %0, [%1]" : "=r" (res) : "r" (ptr) : "memory");
-    return ((uint8_t)res);
+    return ((uint8)res);
   }
 
-  __IAR_FT uint16_t __LDAH(volatile uint16_t *ptr)
+  __IAR_FT uint16 __LDAH(volatile uint16 *ptr)
   {
-    uint32_t res;
+    uint32 res;
     __ASM volatile ("LDAH %0, [%1]" : "=r" (res) : "r" (ptr) : "memory");
-    return ((uint16_t)res);
+    return ((uint16)res);
   }
 
-  __IAR_FT uint32_t __LDA(volatile uint32_t *ptr)
+  __IAR_FT uint32 __LDA(volatile uint32 *ptr)
   {
-    uint32_t res;
+    uint32 res;
     __ASM volatile ("LDA %0, [%1]" : "=r" (res) : "r" (ptr) : "memory");
     return res;
   }
 
-  __IAR_FT void __STLB(uint8_t value, volatile uint8_t *ptr)
+  __IAR_FT void __STLB(uint8 value, volatile uint8 *ptr)
   {
     __ASM volatile ("STLB %1, [%0]" :: "r" (ptr), "r" (value) : "memory");
   }
 
-  __IAR_FT void __STLH(uint16_t value, volatile uint16_t *ptr)
+  __IAR_FT void __STLH(uint16 value, volatile uint16 *ptr)
   {
     __ASM volatile ("STLH %1, [%0]" :: "r" (ptr), "r" (value) : "memory");
   }
 
-  __IAR_FT void __STL(uint32_t value, volatile uint32_t *ptr)
+  __IAR_FT void __STL(uint32 value, volatile uint32 *ptr)
   {
     __ASM volatile ("STL %1, [%0]" :: "r" (ptr), "r" (value) : "memory");
   }
 
-  __IAR_FT uint8_t __LDAEXB(volatile uint8_t *ptr)
+  __IAR_FT uint8 __LDAEXB(volatile uint8 *ptr)
   {
-    uint32_t res;
+    uint32 res;
     __ASM volatile ("LDAEXB %0, [%1]" : "=r" (res) : "r" (ptr) : "memory");
-    return ((uint8_t)res);
+    return ((uint8)res);
   }
 
-  __IAR_FT uint16_t __LDAEXH(volatile uint16_t *ptr)
+  __IAR_FT uint16 __LDAEXH(volatile uint16 *ptr)
   {
-    uint32_t res;
+    uint32 res;
     __ASM volatile ("LDAEXH %0, [%1]" : "=r" (res) : "r" (ptr) : "memory");
-    return ((uint16_t)res);
+    return ((uint16)res);
   }
 
-  __IAR_FT uint32_t __LDAEX(volatile uint32_t *ptr)
+  __IAR_FT uint32 __LDAEX(volatile uint32 *ptr)
   {
-    uint32_t res;
+    uint32 res;
     __ASM volatile ("LDAEX %0, [%1]" : "=r" (res) : "r" (ptr) : "memory");
     return res;
   }
 
-  __IAR_FT uint32_t __STLEXB(uint8_t value, volatile uint8_t *ptr)
+  __IAR_FT uint32 __STLEXB(uint8 value, volatile uint8 *ptr)
   {
-    uint32_t res;
+    uint32 res;
     __ASM volatile ("STLEXB %0, %2, [%1]" : "=r" (res) : "r" (ptr), "r" (value) : "memory");
     return res;
   }
 
-  __IAR_FT uint32_t __STLEXH(uint16_t value, volatile uint16_t *ptr)
+  __IAR_FT uint32 __STLEXH(uint16 value, volatile uint16 *ptr)
   {
-    uint32_t res;
+    uint32 res;
     __ASM volatile ("STLEXH %0, %2, [%1]" : "=r" (res) : "r" (ptr), "r" (value) : "memory");
     return res;
   }
 
-  __IAR_FT uint32_t __STLEX(uint32_t value, volatile uint32_t *ptr)
+  __IAR_FT uint32 __STLEX(uint32 value, volatile uint32 *ptr)
   {
-    uint32_t res;
+    uint32 res;
     __ASM volatile ("STLEX %0, %2, [%1]" : "=r" (res) : "r" (ptr), "r" (value) : "memory");
     return res;
   }

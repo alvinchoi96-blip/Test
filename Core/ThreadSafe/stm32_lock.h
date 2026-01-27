@@ -136,8 +136,8 @@ void Error_Handler(void);
 /* Private typedef ---------------------------------------------------------*/
 typedef struct
 {
-  uint8_t flag; /**< Backup of PRIMASK.PM at nesting level 0 */
-  uint8_t counter; /**< Nesting level */
+  uint8 flag; /**< Backup of PRIMASK.PM at nesting level 0 */
+  uint8 counter; /**< Nesting level */
 } LockingData_t;
 
 /* Private functions -------------------------------------------------------*/
@@ -159,7 +159,7 @@ static inline void stm32_lock_init(LockingData_t *lock)
   */
 static inline void stm32_lock_acquire(LockingData_t *lock)
 {
-  uint8_t flag = (uint8_t)(__get_PRIMASK() & 0x1); /* PRIMASK.PM */
+  uint8 flag = (uint8)(__get_PRIMASK() & 0x1); /* PRIMASK.PM */
   __disable_irq();
   __DSB();
   __ISB();
@@ -203,7 +203,7 @@ static inline void stm32_lock_release(LockingData_t *lock)
 #define LOCKING_DATA_INIT 0
 
 /* Private typedef ---------------------------------------------------------*/
-typedef uint8_t LockingData_t;  /**< Unused */
+typedef uint8 LockingData_t;  /**< Unused */
 
 /* Private functions -------------------------------------------------------*/
 
@@ -255,8 +255,8 @@ static inline void stm32_lock_release(LockingData_t *lock)
 #define STM32_LOCK_MAX_NESTED_LEVELS 2 /**< Max nesting level of interrupts */
 typedef struct
 {
-  uint32_t basepri[STM32_LOCK_MAX_NESTED_LEVELS];
-  uint8_t nesting_level;
+  uint32 basepri[STM32_LOCK_MAX_NESTED_LEVELS];
+  uint8 nesting_level;
 } LockingData_t;
 
 /* Private macros ----------------------------------------------------------*/
@@ -329,7 +329,7 @@ static inline void stm32_lock_release(LockingData_t *lock)
 #define LOCKING_DATA_INIT 0
 
 /* Private typedef ---------------------------------------------------------*/
-typedef uint8_t LockingData_t;  /**< Unused */
+typedef uint8 LockingData_t;  /**< Unused */
 
 /* Private functions -------------------------------------------------------*/
 

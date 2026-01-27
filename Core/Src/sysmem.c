@@ -26,7 +26,7 @@
 #include <stdio.h>
 
 /* Variables */
-extern int errno;
+extern sint32 errno;
 register char * stack_ptr asm("sp");
 
 /* Functions */
@@ -35,7 +35,7 @@ register char * stack_ptr asm("sp");
  _sbrk
  Increase program data space. Malloc and related functions depend on this
 **/
-caddr_t _sbrk(int incr)
+caddr_t _sbrk(sint32 incr)
 {
 	extern char end asm("end");
 	static char *heap_end;

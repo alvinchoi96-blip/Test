@@ -103,7 +103,7 @@
 /** @defgroup DMA_Private_Functions DMA Private Functions
   * @{
   */
-static void DMA_SetConfig(DMA_HandleTypeDef *hdma, uint32_t SrcAddress, uint32_t DstAddress, uint32_t DataLength);
+static void DMA_SetConfig(DMA_HandleTypeDef *hdma, uint32 SrcAddress, uint32 DstAddress, uint32 DataLength);
 /**
   * @}
   */
@@ -142,7 +142,7 @@ static void DMA_SetConfig(DMA_HandleTypeDef *hdma, uint32_t SrcAddress, uint32_t
   */
 HAL_StatusTypeDef HAL_DMA_Init(DMA_HandleTypeDef *hdma)
 {
-  uint32_t tmp = 0U;
+  uint32 tmp = 0U;
 
   /* Check the DMA handle allocation */
   if(hdma == NULL)
@@ -162,21 +162,21 @@ HAL_StatusTypeDef HAL_DMA_Init(DMA_HandleTypeDef *hdma)
 
 #if defined (DMA2)
   /* calculation of the channel index */
-  if ((uint32_t)(hdma->Instance) < (uint32_t)(DMA2_Channel1))
+  if ((uint32)(hdma->Instance) < (uint32)(DMA2_Channel1))
   {
     /* DMA1 */
-    hdma->ChannelIndex = (((uint32_t)hdma->Instance - (uint32_t)DMA1_Channel1) / ((uint32_t)DMA1_Channel2 - (uint32_t)DMA1_Channel1)) << 2;
+    hdma->ChannelIndex = (((uint32)hdma->Instance - (uint32)DMA1_Channel1) / ((uint32)DMA1_Channel2 - (uint32)DMA1_Channel1)) << 2;
     hdma->DmaBaseAddress = DMA1;
   }
   else 
   {
     /* DMA2 */
-    hdma->ChannelIndex = (((uint32_t)hdma->Instance - (uint32_t)DMA2_Channel1) / ((uint32_t)DMA2_Channel2 - (uint32_t)DMA2_Channel1)) << 2;
+    hdma->ChannelIndex = (((uint32)hdma->Instance - (uint32)DMA2_Channel1) / ((uint32)DMA2_Channel2 - (uint32)DMA2_Channel1)) << 2;
     hdma->DmaBaseAddress = DMA2;
   }
 #else
   /* DMA1 */
-  hdma->ChannelIndex = (((uint32_t)hdma->Instance - (uint32_t)DMA1_Channel1) / ((uint32_t)DMA1_Channel2 - (uint32_t)DMA1_Channel1)) << 2;
+  hdma->ChannelIndex = (((uint32)hdma->Instance - (uint32)DMA1_Channel1) / ((uint32)DMA1_Channel2 - (uint32)DMA1_Channel1)) << 2;
   hdma->DmaBaseAddress = DMA1;
 #endif /* DMA2 */
 
@@ -187,7 +187,7 @@ HAL_StatusTypeDef HAL_DMA_Init(DMA_HandleTypeDef *hdma)
   tmp = hdma->Instance->CCR;
 
   /* Clear PL, MSIZE, PSIZE, MINC, PINC, CIRC and DIR bits */
-  tmp &= ((uint32_t)~(DMA_CCR_PL    | DMA_CCR_MSIZE  | DMA_CCR_PSIZE  | \
+  tmp &= ((uint32)~(DMA_CCR_PL    | DMA_CCR_MSIZE  | DMA_CCR_PSIZE  | \
                       DMA_CCR_MINC  | DMA_CCR_PINC   | DMA_CCR_CIRC   | \
                       DMA_CCR_DIR));
 
@@ -245,21 +245,21 @@ HAL_StatusTypeDef HAL_DMA_DeInit(DMA_HandleTypeDef *hdma)
 
 #if defined (DMA2)
   /* calculation of the channel index */
-  if ((uint32_t)(hdma->Instance) < (uint32_t)(DMA2_Channel1))
+  if ((uint32)(hdma->Instance) < (uint32)(DMA2_Channel1))
   {
     /* DMA1 */
-    hdma->ChannelIndex = (((uint32_t)hdma->Instance - (uint32_t)DMA1_Channel1) / ((uint32_t)DMA1_Channel2 - (uint32_t)DMA1_Channel1)) << 2;
+    hdma->ChannelIndex = (((uint32)hdma->Instance - (uint32)DMA1_Channel1) / ((uint32)DMA1_Channel2 - (uint32)DMA1_Channel1)) << 2;
     hdma->DmaBaseAddress = DMA1;
   }
   else
   {
     /* DMA2 */
-    hdma->ChannelIndex = (((uint32_t)hdma->Instance - (uint32_t)DMA2_Channel1) / ((uint32_t)DMA2_Channel2 - (uint32_t)DMA2_Channel1)) << 2;
+    hdma->ChannelIndex = (((uint32)hdma->Instance - (uint32)DMA2_Channel1) / ((uint32)DMA2_Channel2 - (uint32)DMA2_Channel1)) << 2;
     hdma->DmaBaseAddress = DMA2;
   }
 #else
   /* DMA1 */
-  hdma->ChannelIndex = (((uint32_t)hdma->Instance - (uint32_t)DMA1_Channel1) / ((uint32_t)DMA1_Channel2 - (uint32_t)DMA1_Channel1)) << 2;
+  hdma->ChannelIndex = (((uint32)hdma->Instance - (uint32)DMA1_Channel1) / ((uint32)DMA1_Channel2 - (uint32)DMA1_Channel1)) << 2;
   hdma->DmaBaseAddress = DMA1;
 #endif /* DMA2 */
 
@@ -316,7 +316,7 @@ HAL_StatusTypeDef HAL_DMA_DeInit(DMA_HandleTypeDef *hdma)
   * @param  DataLength: The length of data to be transferred from source to destination
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_DMA_Start(DMA_HandleTypeDef *hdma, uint32_t SrcAddress, uint32_t DstAddress, uint32_t DataLength)
+HAL_StatusTypeDef HAL_DMA_Start(DMA_HandleTypeDef *hdma, uint32 SrcAddress, uint32 DstAddress, uint32 DataLength)
 {
   HAL_StatusTypeDef status = HAL_OK;
 
@@ -359,7 +359,7 @@ HAL_StatusTypeDef HAL_DMA_Start(DMA_HandleTypeDef *hdma, uint32_t SrcAddress, ui
   * @param  DataLength: The length of data to be transferred from source to destination
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_DMA_Start_IT(DMA_HandleTypeDef *hdma, uint32_t SrcAddress, uint32_t DstAddress, uint32_t DataLength)
+HAL_StatusTypeDef HAL_DMA_Start_IT(DMA_HandleTypeDef *hdma, uint32 SrcAddress, uint32 DstAddress, uint32 DataLength)
 {
   HAL_StatusTypeDef status = HAL_OK;
 
@@ -499,10 +499,10 @@ HAL_StatusTypeDef HAL_DMA_Abort_IT(DMA_HandleTypeDef *hdma)
   * @param  Timeout:       Timeout duration.
   * @retval HAL status
   */
-HAL_StatusTypeDef HAL_DMA_PollForTransfer(DMA_HandleTypeDef *hdma, uint32_t CompleteLevel, uint32_t Timeout)
+HAL_StatusTypeDef HAL_DMA_PollForTransfer(DMA_HandleTypeDef *hdma, uint32 CompleteLevel, uint32 Timeout)
 {
-  uint32_t temp;
-  uint32_t tickstart = 0U;
+  uint32 temp;
+  uint32 tickstart = 0U;
 
   if(HAL_DMA_STATE_BUSY != hdma->State)
   {
@@ -602,8 +602,8 @@ HAL_StatusTypeDef HAL_DMA_PollForTransfer(DMA_HandleTypeDef *hdma, uint32_t Comp
   */
 void HAL_DMA_IRQHandler(DMA_HandleTypeDef *hdma)
 {
-  uint32_t flag_it = hdma->DmaBaseAddress->ISR;
-  uint32_t source_it = hdma->Instance->CCR;
+  uint32 flag_it = hdma->DmaBaseAddress->ISR;
+  uint32 source_it = hdma->Instance->CCR;
   
   /* Half Transfer Complete Interrupt management ******************************/
   if (((flag_it & (DMA_FLAG_HT1 << hdma->ChannelIndex)) != RESET) && ((source_it & DMA_IT_HT) != RESET))
@@ -829,7 +829,7 @@ HAL_DMA_StateTypeDef HAL_DMA_GetState(DMA_HandleTypeDef *hdma)
   *              the configuration information for the specified DMA Channel.
   * @retval DMA Error Code
   */
-uint32_t HAL_DMA_GetError(DMA_HandleTypeDef *hdma)
+uint32 HAL_DMA_GetError(DMA_HandleTypeDef *hdma)
 {
   return hdma->ErrorCode;
 }
@@ -855,7 +855,7 @@ uint32_t HAL_DMA_GetError(DMA_HandleTypeDef *hdma)
   * @param  DataLength: The length of data to be transferred from source to destination
   * @retval HAL status
   */
-static void DMA_SetConfig(DMA_HandleTypeDef *hdma, uint32_t SrcAddress, uint32_t DstAddress, uint32_t DataLength)
+static void DMA_SetConfig(DMA_HandleTypeDef *hdma, uint32 SrcAddress, uint32 DstAddress, uint32 DataLength)
 {
   /* Clear all flags */
   hdma->DmaBaseAddress->IFCR = (DMA_ISR_GIF1 << hdma->ChannelIndex);

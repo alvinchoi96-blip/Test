@@ -127,9 +127,9 @@ FLASH_ProcessTypeDef pFlash;
 /** @defgroup FLASH_Private_Functions FLASH Private Functions
   * @{
   */
-static  void   FLASH_Program_HalfWord(uint32_t Address, uint16_t Data);
+static  void   FLASH_Program_HalfWord(uint32 Address, uint16 Data);
 static  void   FLASH_SetErrorCode(void);
-extern void    FLASH_PageErase(uint32_t PageAddress);
+extern void    FLASH_PageErase(uint32 PageAddress);
 /**
   * @}
   */
@@ -165,11 +165,11 @@ extern void    FLASH_PageErase(uint32_t PageAddress);
   * 
   * @retval HAL_StatusTypeDef HAL Status
   */
-HAL_StatusTypeDef HAL_FLASH_Program(uint32_t TypeProgram, uint32_t Address, uint64_t Data)
+HAL_StatusTypeDef HAL_FLASH_Program(uint32 TypeProgram, uint32 Address, uint64 Data)
 {
   HAL_StatusTypeDef status = HAL_ERROR;
-  uint8_t index = 0;
-  uint8_t nbiterations = 0;
+  uint8 index = 0;
+  uint8 nbiterations = 0;
   
   /* Process Locked */
   __HAL_LOCK(&pFlash);
@@ -213,7 +213,7 @@ HAL_StatusTypeDef HAL_FLASH_Program(uint32_t TypeProgram, uint32_t Address, uint
 
     for (index = 0U; index < nbiterations; index++)
     {
-      FLASH_Program_HalfWord((Address + (2U*index)), (uint16_t)(Data >> (16U*index)));
+      FLASH_Program_HalfWord((Address + (2U*index)), (uint16)(Data >> (16U*index)));
 
 #if defined(FLASH_BANK2_END)
       if(Address <= FLASH_BANK1_END)
@@ -264,7 +264,7 @@ HAL_StatusTypeDef HAL_FLASH_Program(uint32_t TypeProgram, uint32_t Address, uint
   * 
   * @retval HAL_StatusTypeDef HAL Status
   */
-HAL_StatusTypeDef HAL_FLASH_Program_IT(uint32_t TypeProgram, uint32_t Address, uint64_t Data)
+HAL_StatusTypeDef HAL_FLASH_Program_IT(uint32 TypeProgram, uint32 Address, uint64 Data)
 {
   HAL_StatusTypeDef status = HAL_OK;
   
@@ -320,7 +320,7 @@ HAL_StatusTypeDef HAL_FLASH_Program_IT(uint32_t TypeProgram, uint32_t Address, u
   }
 
   /* Program halfword (16-bit) at a specified address. */
-  FLASH_Program_HalfWord(Address, (uint16_t)Data);
+  FLASH_Program_HalfWord(Address, (uint16)Data);
 
   return status;
 }
@@ -331,7 +331,7 @@ HAL_StatusTypeDef HAL_FLASH_Program_IT(uint32_t TypeProgram, uint32_t Address, u
   */
 void HAL_FLASH_IRQHandler(void)
 {
-  uint32_t addresstmp = 0U;
+  uint32 addresstmp = 0U;
   
   /* Check FLASH operation error flags */
 #if defined(FLASH_BANK2_END)
@@ -442,7 +442,7 @@ void HAL_FLASH_IRQHandler(void)
           CLEAR_BIT(FLASH->CR, FLASH_CR_PG);
 
           /*Program halfword (16-bit) at a specified address.*/
-          FLASH_Program_HalfWord(addresstmp, (uint16_t)pFlash.Data);
+          FLASH_Program_HalfWord(addresstmp, (uint16)pFlash.Data);
         }
         else
         {
@@ -544,7 +544,7 @@ void HAL_FLASH_IRQHandler(void)
           CLEAR_BIT(FLASH->CR2, FLASH_CR2_PG);
 
           /*Program halfword (16-bit) at a specified address.*/
-          FLASH_Program_HalfWord(addresstmp, (uint16_t)pFlash.Data);
+          FLASH_Program_HalfWord(addresstmp, (uint16)pFlash.Data);
         }
         else
         {
@@ -603,7 +603,7 @@ void HAL_FLASH_IRQHandler(void)
   *                 - Program: Address which was selected for data program
   * @retval none
   */
-__weak void HAL_FLASH_EndOfOperationCallback(uint32_t ReturnValue)
+__weak void HAL_FLASH_EndOfOperationCallback(uint32 ReturnValue)
 {
   /* Prevent unused argument(s) compilation warning */
   UNUSED(ReturnValue);
@@ -621,7 +621,7 @@ __weak void HAL_FLASH_EndOfOperationCallback(uint32_t ReturnValue)
   *                 - Program: Address which was selected for data program
   * @retval none
   */
-__weak void HAL_FLASH_OperationErrorCallback(uint32_t ReturnValue)
+__weak void HAL_FLASH_OperationErrorCallback(uint32 ReturnValue)
 {
   /* Prevent unused argument(s) compilation warning */
   UNUSED(ReturnValue);
@@ -771,7 +771,7 @@ void HAL_FLASH_OB_Launch(void)
   * @retval FLASH_ErrorCode The returned value can be:
   *            @ref FLASH_Error_Codes
   */
-uint32_t HAL_FLASH_GetError(void)
+uint32 HAL_FLASH_GetError(void)
 {
    return pFlash.ErrorCode;
 }
@@ -794,7 +794,7 @@ uint32_t HAL_FLASH_GetError(void)
   * @param  Data    specify the data to be programmed.
   * @retval None
   */
-static void FLASH_Program_HalfWord(uint32_t Address, uint16_t Data)
+static void FLASH_Program_HalfWord(uint32 Address, uint16 Data)
 {
   /* Clean the error context */
   pFlash.ErrorCode = HAL_FLASH_ERROR_NONE;
@@ -815,7 +815,7 @@ static void FLASH_Program_HalfWord(uint32_t Address, uint16_t Data)
 #endif /* FLASH_BANK2_END */
 
   /* Write data in the address */
-  *(__IO uint16_t*)Address = Data;
+  *(__IO uint16*)Address = Data;
 }
 
 /**
@@ -823,13 +823,13 @@ static void FLASH_Program_HalfWord(uint32_t Address, uint16_t Data)
   * @param  Timeout  maximum flash operation timeout
   * @retval HAL Status
   */
-HAL_StatusTypeDef FLASH_WaitForLastOperation(uint32_t Timeout)
+HAL_StatusTypeDef FLASH_WaitForLastOperation(uint32 Timeout)
 {
   /* Wait for the FLASH operation to complete by polling on BUSY flag to be reset.
      Even if the FLASH operation fails, the BUSY flag will be reset and an error
      flag will be set */
      
-  uint32_t tickstart = HAL_GetTick();
+  uint32 tickstart = HAL_GetTick();
      
   while(__HAL_FLASH_GET_FLAG(FLASH_FLAG_BSY)) 
   { 
@@ -868,13 +868,13 @@ HAL_StatusTypeDef FLASH_WaitForLastOperation(uint32_t Timeout)
   * @param  Timeout maximum flash operation timeout
   * @retval HAL_StatusTypeDef HAL Status
   */
-HAL_StatusTypeDef FLASH_WaitForLastOperationBank2(uint32_t Timeout)
+HAL_StatusTypeDef FLASH_WaitForLastOperationBank2(uint32 Timeout)
 { 
   /* Wait for the FLASH BANK2 operation to complete by polling on BUSY flag to be reset.
      Even if the FLASH BANK2 operation fails, the BUSY flag will be reset and an error
      flag will be set */
      
-  uint32_t tickstart = HAL_GetTick();
+  uint32 tickstart = HAL_GetTick();
      
   while(__HAL_FLASH_GET_FLAG(FLASH_FLAG_BSY_BANK2)) 
   { 
@@ -913,7 +913,7 @@ HAL_StatusTypeDef FLASH_WaitForLastOperationBank2(uint32_t Timeout)
   */
 static void FLASH_SetErrorCode(void)
 {
-  uint32_t flags = 0U;
+  uint32 flags = 0U;
   
 #if defined(FLASH_BANK2_END)
   if(__HAL_FLASH_GET_FLAG(FLASH_FLAG_WRPERR) || __HAL_FLASH_GET_FLAG(FLASH_FLAG_WRPERR_BANK2))

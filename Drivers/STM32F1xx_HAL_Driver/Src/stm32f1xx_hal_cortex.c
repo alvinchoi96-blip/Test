@@ -140,7 +140,7 @@
   *         The pending IRQ priority will be managed only by the subpriority. 
   * @retval None
   */
-void HAL_NVIC_SetPriorityGrouping(uint32_t PriorityGroup)
+void HAL_NVIC_SetPriorityGrouping(uint32 PriorityGroup)
 {
   /* Check the parameters */
   assert_param(IS_NVIC_PRIORITY_GROUP(PriorityGroup));
@@ -162,9 +162,9 @@ void HAL_NVIC_SetPriorityGrouping(uint32_t PriorityGroup)
   *         A lower priority value indicates a higher priority.          
   * @retval None
   */
-void HAL_NVIC_SetPriority(IRQn_Type IRQn, uint32_t PreemptPriority, uint32_t SubPriority)
+void HAL_NVIC_SetPriority(IRQn_Type IRQn, uint32 PreemptPriority, uint32 SubPriority)
 { 
-  uint32_t prioritygroup = 0x00U;
+  uint32 prioritygroup = 0x00U;
   
   /* Check the parameters */
   assert_param(IS_NVIC_SUB_PRIORITY(SubPriority));
@@ -226,7 +226,7 @@ void HAL_NVIC_SystemReset(void)
   * @retval status:  - 0  Function succeeded.
   *                  - 1  Function failed.
   */
-uint32_t HAL_SYSTICK_Config(uint32_t TicksNumb)
+uint32 HAL_SYSTICK_Config(uint32 TicksNumb)
 {
    return SysTick_Config(TicksNumb);
 }
@@ -278,7 +278,7 @@ void HAL_MPU_Disable(void)
   *            @arg MPU_HFNMI_PRIVDEF
   * @retval None
   */
-void HAL_MPU_Enable(uint32_t MPU_Control)
+void HAL_MPU_Enable(uint32 MPU_Control)
 {
   /* Enable the MPU */
   MPU->CTRL = MPU_Control | MPU_CTRL_ENABLE_Msk;
@@ -319,15 +319,15 @@ void HAL_MPU_ConfigRegion(MPU_Region_InitTypeDef *MPU_Init)
     assert_param(IS_MPU_REGION_SIZE(MPU_Init->Size));
     
     MPU->RBAR = MPU_Init->BaseAddress;
-    MPU->RASR = ((uint32_t)MPU_Init->DisableExec             << MPU_RASR_XN_Pos)   |
-                ((uint32_t)MPU_Init->AccessPermission        << MPU_RASR_AP_Pos)   |
-                ((uint32_t)MPU_Init->TypeExtField            << MPU_RASR_TEX_Pos)  |
-                ((uint32_t)MPU_Init->IsShareable             << MPU_RASR_S_Pos)    |
-                ((uint32_t)MPU_Init->IsCacheable             << MPU_RASR_C_Pos)    |
-                ((uint32_t)MPU_Init->IsBufferable            << MPU_RASR_B_Pos)    |
-                ((uint32_t)MPU_Init->SubRegionDisable        << MPU_RASR_SRD_Pos)  |
-                ((uint32_t)MPU_Init->Size                    << MPU_RASR_SIZE_Pos) |
-                ((uint32_t)MPU_Init->Enable                  << MPU_RASR_ENABLE_Pos);
+    MPU->RASR = ((uint32)MPU_Init->DisableExec             << MPU_RASR_XN_Pos)   |
+                ((uint32)MPU_Init->AccessPermission        << MPU_RASR_AP_Pos)   |
+                ((uint32)MPU_Init->TypeExtField            << MPU_RASR_TEX_Pos)  |
+                ((uint32)MPU_Init->IsShareable             << MPU_RASR_S_Pos)    |
+                ((uint32)MPU_Init->IsCacheable             << MPU_RASR_C_Pos)    |
+                ((uint32)MPU_Init->IsBufferable            << MPU_RASR_B_Pos)    |
+                ((uint32)MPU_Init->SubRegionDisable        << MPU_RASR_SRD_Pos)  |
+                ((uint32)MPU_Init->Size                    << MPU_RASR_SIZE_Pos) |
+                ((uint32)MPU_Init->Enable                  << MPU_RASR_ENABLE_Pos);
   }
   else
   {
@@ -341,7 +341,7 @@ void HAL_MPU_ConfigRegion(MPU_Region_InitTypeDef *MPU_Init)
   * @brief  Gets the priority grouping field from the NVIC Interrupt Controller.
   * @retval Priority grouping field (SCB->AIRCR [10:8] PRIGROUP field)
   */
-uint32_t HAL_NVIC_GetPriorityGrouping(void)
+uint32 HAL_NVIC_GetPriorityGrouping(void)
 {
   /* Get the PRIGROUP[10:8] field value */
   return NVIC_GetPriorityGrouping();
@@ -368,7 +368,7 @@ uint32_t HAL_NVIC_GetPriorityGrouping(void)
   * @param  pSubPriority: Pointer on the Subpriority value (starting from 0).
   * @retval None
   */
-void HAL_NVIC_GetPriority(IRQn_Type IRQn, uint32_t PriorityGroup, uint32_t *pPreemptPriority, uint32_t *pSubPriority)
+void HAL_NVIC_GetPriority(IRQn_Type IRQn, uint32 PriorityGroup, uint32 *pPreemptPriority, uint32 *pSubPriority)
 {
   /* Check the parameters */
   assert_param(IS_NVIC_PRIORITY_GROUP(PriorityGroup));
@@ -401,7 +401,7 @@ void HAL_NVIC_SetPendingIRQ(IRQn_Type IRQn)
   * @retval status: - 0  Interrupt status is not pending.
   *                 - 1  Interrupt status is pending.
   */
-uint32_t HAL_NVIC_GetPendingIRQ(IRQn_Type IRQn)
+uint32 HAL_NVIC_GetPendingIRQ(IRQn_Type IRQn)
 {
   /* Check the parameters */
   assert_param(IS_NVIC_DEVICE_IRQ(IRQn));
@@ -434,7 +434,7 @@ void HAL_NVIC_ClearPendingIRQ(IRQn_Type IRQn)
   * @retval status: - 0  Interrupt status is not pending.
   *                 - 1  Interrupt status is pending.
   */
-uint32_t HAL_NVIC_GetActive(IRQn_Type IRQn)
+uint32 HAL_NVIC_GetActive(IRQn_Type IRQn)
 {
   /* Check the parameters */
   assert_param(IS_NVIC_DEVICE_IRQ(IRQn));
@@ -451,7 +451,7 @@ uint32_t HAL_NVIC_GetActive(IRQn_Type IRQn)
   *             @arg SYSTICK_CLKSOURCE_HCLK: AHB clock selected as SysTick clock source.
   * @retval None
   */
-void HAL_SYSTICK_CLKSourceConfig(uint32_t CLKSource)
+void HAL_SYSTICK_CLKSourceConfig(uint32 CLKSource)
 {
   /* Check the parameters */
   assert_param(IS_SYSTICK_CLK_SOURCE(CLKSource));

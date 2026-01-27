@@ -34,9 +34,9 @@
 
 /* Variables */
 //#undef errno
-extern int errno;
-extern int __io_putchar(int ch) __attribute__((weak));
-extern int __io_getchar(void) __attribute__((weak));
+extern sint32 errno;
+extern sint32 __io_putchar(sint32 ch) __attribute__((weak));
+extern sint32 __io_getchar(void) __attribute__((weak));
 
 register char * stack_ptr asm("sp");
 
@@ -49,26 +49,26 @@ void initialise_monitor_handles()
 {
 }
 
-int _getpid(void)
+sint32 _getpid(void)
 {
 	return 1;
 }
 
-int _kill(int pid, int sig)
+sint32 _kill(sint32 pid, sint32 sig)
 {
 	errno = EINVAL;
 	return -1;
 }
 
-void _exit (int status)
+void _exit (sint32 status)
 {
 	_kill(status, -1);
 	while (1) {}		/* Make sure we hang here */
 }
 
-__attribute__((weak)) int _read(int file, char *ptr, int len)
+__attribute__((weak)) sint32 _read(sint32 file, char *ptr, sint32 len)
 {
-	int DataIdx;
+	sint32 DataIdx;
 
 	for (DataIdx = 0; DataIdx < len; DataIdx++)
 	{
@@ -78,9 +78,9 @@ __attribute__((weak)) int _read(int file, char *ptr, int len)
 return len;
 }
 
-__attribute__((weak)) int _write(int file, char *ptr, int len)
+__attribute__((weak)) sint32 _write(sint32 file, char *ptr, sint32 len)
 {
-	int DataIdx;
+	sint32 DataIdx;
 
 	for (DataIdx = 0; DataIdx < len; DataIdx++)
 	{
@@ -89,70 +89,70 @@ __attribute__((weak)) int _write(int file, char *ptr, int len)
 	return len;
 }
 
-int _close(int file)
+sint32 _close(sint32 file)
 {
 	return -1;
 }
 
 
-int _fstat(int file, struct stat *st)
+sint32 _fstat(sint32 file, struct stat *st)
 {
 	st->st_mode = S_IFCHR;
 	return 0;
 }
 
-int _isatty(int file)
+sint32 _isatty(sint32 file)
 {
 	return 1;
 }
 
-int _lseek(int file, int ptr, int dir)
+sint32 _lseek(sint32 file, sint32 ptr, sint32 dir)
 {
 	return 0;
 }
 
-int _open(char *path, int flags, ...)
+sint32 _open(char *path, sint32 flags, ...)
 {
 	/* Pretend like we always fail */
 	return -1;
 }
 
-int _wait(int *status)
+sint32 _wait(sint32 *status)
 {
 	errno = ECHILD;
 	return -1;
 }
 
-int _unlink(char *name)
+sint32 _unlink(char *name)
 {
 	errno = ENOENT;
 	return -1;
 }
 
-int _times(struct tms *buf)
+sint32 _times(struct tms *buf)
 {
 	return -1;
 }
 
-int _stat(char *file, struct stat *st)
+sint32 _stat(char *file, struct stat *st)
 {
 	st->st_mode = S_IFCHR;
 	return 0;
 }
 
-int _link(char *old, char *new)
+sint32 _link(char *old, char *new)
 {
 	errno = EMLINK;
 	return -1;
 }
 
-int _fork(void)
+sint32 _fork(void)
 {
 	errno = EAGAIN;
 	return -1;
 }
 
-int _execve(char *name, char **argv, char **env)
+sint32 _execve(char *name, char **argv, char **env)
 {
 	errno = ENOMEM;
 	return -1;

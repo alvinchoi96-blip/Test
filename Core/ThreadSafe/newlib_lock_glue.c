@@ -181,7 +181,7 @@ void __retarget_lock_acquire_recursive(_LOCK_T lock)
   * @param lock The lock
   * @return 0 always
   */
-int __retarget_lock_try_acquire(_LOCK_T lock)
+sint32 __retarget_lock_try_acquire(_LOCK_T lock)
 {
   __retarget_lock_acquire(lock);
   return 0;
@@ -192,7 +192,7 @@ int __retarget_lock_try_acquire(_LOCK_T lock)
   * @param lock The lock
   * @return 0 always
   */
-int __retarget_lock_try_acquire_recursive(_LOCK_T lock)
+sint32 __retarget_lock_try_acquire_recursive(_LOCK_T lock)
 {
   __retarget_lock_acquire_recursive(lock);
   return 0;
@@ -333,8 +333,8 @@ void __tz_unlock()
 typedef struct
 {
   atomic_uchar initialized; /**< Indicate if object is initialized */
-  uint8_t acquired; /**< Ensure non-recursive lock */
-  uint16_t unused; /**< Padding */
+  uint8 acquired; /**< Ensure non-recursive lock */
+  uint16 unused; /**< Padding */
 } __attribute__((packed)) CxaGuardObject_t;
 
 /* Private variables ---------------------------------------------------------*/
@@ -348,7 +348,7 @@ static LockingData_t __cxa_guard_mutex = LOCKING_DATA_INIT;
   * @param guard_object Guard object
   * @return 0 if object is initialized, else initialization of object required
   */
-int __cxa_guard_acquire(CxaGuardObject_t *guard_object)
+sint32 __cxa_guard_acquire(CxaGuardObject_t *guard_object)
 {
   STM32_LOCK_BLOCK_IF_NULL_ARGUMENT(guard_object);
 

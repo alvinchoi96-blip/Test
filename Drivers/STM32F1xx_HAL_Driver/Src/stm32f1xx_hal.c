@@ -76,8 +76,8 @@
 /** @defgroup HAL_Private_Variables HAL Private Variables
   * @{
   */
-__IO uint32_t uwTick;
-uint32_t uwTickPrio   = (1UL << __NVIC_PRIO_BITS); /* Invalid PRIO */
+__IO uint32 uwTick;
+uint32 uwTickPrio   = (1UL << __NVIC_PRIO_BITS); /* Invalid PRIO */
 HAL_TickFreqTypeDef uwTickFreq = HAL_TICK_FREQ_DEFAULT;  /* 1KHz */
 /**
   * @}
@@ -231,7 +231,7 @@ __weak void HAL_MspDeInit(void)
   * @param TickPriority Tick interrupt priority.
   * @retval HAL status
   */
-__weak HAL_StatusTypeDef HAL_InitTick(uint32_t TickPriority)
+__weak HAL_StatusTypeDef HAL_InitTick(uint32 TickPriority)
 {
   /* Configure the SysTick to have interrupt in 1ms time basis*/
   if (HAL_SYSTICK_Config(SystemCoreClock / (1000U / uwTickFreq)) > 0U)
@@ -301,7 +301,7 @@ __weak void HAL_IncTick(void)
   *       implementations in user file.
   * @retval tick value
   */
-__weak uint32_t HAL_GetTick(void)
+__weak uint32 HAL_GetTick(void)
 {
   return uwTick;
 }
@@ -310,7 +310,7 @@ __weak uint32_t HAL_GetTick(void)
   * @brief This function returns a tick priority.
   * @retval tick priority
   */
-uint32_t HAL_GetTickPrio(void)
+uint32 HAL_GetTickPrio(void)
 {
   return uwTickPrio;
 }
@@ -367,15 +367,15 @@ HAL_TickFreqTypeDef HAL_GetTickFreq(void)
   * @param Delay specifies the delay time length, in milliseconds.
   * @retval None
   */
-__weak void HAL_Delay(uint32_t Delay)
+__weak void HAL_Delay(uint32 Delay)
 {
-  uint32_t tickstart = HAL_GetTick();
-  uint32_t wait = Delay;
+  uint32 tickstart = HAL_GetTick();
+  uint32 wait = Delay;
 
   /* Add a freq to guarantee minimum wait */
   if (wait < HAL_MAX_DELAY)
   {
-    wait += (uint32_t)(uwTickFreq);
+    wait += (uint32)(uwTickFreq);
   }
 
   while ((HAL_GetTick() - tickstart) < wait)
@@ -419,7 +419,7 @@ __weak void HAL_ResumeTick(void)
   * @brief  Returns the HAL revision
   * @retval version 0xXYZR (8bits for each decimal, R for RC)
   */
-uint32_t HAL_GetHalVersion(void)
+uint32 HAL_GetHalVersion(void)
 {
   return __STM32F1xx_HAL_VERSION;
 }
@@ -435,7 +435,7 @@ uint32_t HAL_GetHalVersion(void)
   *       Refer to errata sheet of these devices for more details.
   * @retval Device revision identifier
   */
-uint32_t HAL_GetREVID(void)
+uint32 HAL_GetREVID(void)
 {
   return ((DBGMCU->IDCODE) >> DBGMCU_IDCODE_REV_ID_Pos);
 }
@@ -451,7 +451,7 @@ uint32_t HAL_GetREVID(void)
   *       Refer to errata sheet of these devices for more details.
   * @retval Device identifier
   */
-uint32_t HAL_GetDEVID(void)
+uint32 HAL_GetDEVID(void)
 {
   return ((DBGMCU->IDCODE) & IDCODE_DEVID_MASK);
 }
@@ -460,27 +460,27 @@ uint32_t HAL_GetDEVID(void)
   * @brief  Returns first word of the unique device identifier (UID based on 96 bits)
   * @retval Device identifier
   */
-uint32_t HAL_GetUIDw0(void)
+uint32 HAL_GetUIDw0(void)
 {
-   return(READ_REG(*((uint32_t *)UID_BASE)));
+   return(READ_REG(*((uint32 *)UID_BASE)));
 }
 
 /**
   * @brief  Returns second word of the unique device identifier (UID based on 96 bits)
   * @retval Device identifier
   */
-uint32_t HAL_GetUIDw1(void)
+uint32 HAL_GetUIDw1(void)
 {
-   return(READ_REG(*((uint32_t *)(UID_BASE + 4U))));
+   return(READ_REG(*((uint32 *)(UID_BASE + 4U))));
 }
 
 /**
   * @brief  Returns third word of the unique device identifier (UID based on 96 bits)
   * @retval Device identifier
   */
-uint32_t HAL_GetUIDw2(void)
+uint32 HAL_GetUIDw2(void)
 {
-   return(READ_REG(*((uint32_t *)(UID_BASE + 8U))));
+   return(READ_REG(*((uint32 *)(UID_BASE + 8U))));
 }
 
 /**

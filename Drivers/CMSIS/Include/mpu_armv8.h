@@ -105,14 +105,14 @@
 * Struct for a single MPU Region
 */
 typedef struct {
-  uint32_t RBAR;                   /*!< Region Base Address Register value */
-  uint32_t RLAR;                   /*!< Region Limit Address Register value */
+  uint32 RBAR;                   /*!< Region Base Address Register value */
+  uint32 RLAR;                   /*!< Region Limit Address Register value */
 } ARM_MPU_Region_t;
     
 /** Enable the MPU.
 * \param MPU_Control Default access permissions for unconfigured regions.
 */
-__STATIC_INLINE void ARM_MPU_Enable(uint32_t MPU_Control)
+__STATIC_INLINE void ARM_MPU_Enable(uint32 MPU_Control)
 {
   __DSB();
   __ISB();
@@ -138,7 +138,7 @@ __STATIC_INLINE void ARM_MPU_Disable(void)
 /** Enable the Non-secure MPU.
 * \param MPU_Control Default access permissions for unconfigured regions.
 */
-__STATIC_INLINE void ARM_MPU_Enable_NS(uint32_t MPU_Control)
+__STATIC_INLINE void ARM_MPU_Enable_NS(uint32 MPU_Control)
 {
   __DSB();
   __ISB();
@@ -166,11 +166,11 @@ __STATIC_INLINE void ARM_MPU_Disable_NS(void)
 * \param idx The attribute index to be set [0-7]
 * \param attr The attribute value to be set.
 */
-__STATIC_INLINE void ARM_MPU_SetMemAttrEx(MPU_Type* mpu, uint8_t idx, uint8_t attr)
+__STATIC_INLINE void ARM_MPU_SetMemAttrEx(MPU_Type* mpu, uint8 idx, uint8 attr)
 {
-  const uint8_t reg = idx / 4U;
-  const uint32_t pos = ((idx % 4U) * 8U);
-  const uint32_t mask = 0xFFU << pos;
+  const uint8 reg = idx / 4U;
+  const uint32 pos = ((idx % 4U) * 8U);
+  const uint32 mask = 0xFFU << pos;
   
   if (reg >= (sizeof(mpu->MAIR) / sizeof(mpu->MAIR[0]))) {
     return; // invalid index
@@ -183,7 +183,7 @@ __STATIC_INLINE void ARM_MPU_SetMemAttrEx(MPU_Type* mpu, uint8_t idx, uint8_t at
 * \param idx The attribute index to be set [0-7]
 * \param attr The attribute value to be set.
 */
-__STATIC_INLINE void ARM_MPU_SetMemAttr(uint8_t idx, uint8_t attr)
+__STATIC_INLINE void ARM_MPU_SetMemAttr(uint8 idx, uint8 attr)
 {
   ARM_MPU_SetMemAttrEx(MPU, idx, attr);
 }
@@ -193,7 +193,7 @@ __STATIC_INLINE void ARM_MPU_SetMemAttr(uint8_t idx, uint8_t attr)
 * \param idx The attribute index to be set [0-7]
 * \param attr The attribute value to be set.
 */
-__STATIC_INLINE void ARM_MPU_SetMemAttr_NS(uint8_t idx, uint8_t attr)
+__STATIC_INLINE void ARM_MPU_SetMemAttr_NS(uint8 idx, uint8 attr)
 {
   ARM_MPU_SetMemAttrEx(MPU_NS, idx, attr);
 }
@@ -203,7 +203,7 @@ __STATIC_INLINE void ARM_MPU_SetMemAttr_NS(uint8_t idx, uint8_t attr)
 * \param mpu Pointer to MPU to be used.
 * \param rnr Region number to be cleared.
 */
-__STATIC_INLINE void ARM_MPU_ClrRegionEx(MPU_Type* mpu, uint32_t rnr)
+__STATIC_INLINE void ARM_MPU_ClrRegionEx(MPU_Type* mpu, uint32 rnr)
 {
   mpu->RNR = rnr;
   mpu->RLAR = 0U;
@@ -212,7 +212,7 @@ __STATIC_INLINE void ARM_MPU_ClrRegionEx(MPU_Type* mpu, uint32_t rnr)
 /** Clear and disable the given MPU region.
 * \param rnr Region number to be cleared.
 */
-__STATIC_INLINE void ARM_MPU_ClrRegion(uint32_t rnr)
+__STATIC_INLINE void ARM_MPU_ClrRegion(uint32 rnr)
 {
   ARM_MPU_ClrRegionEx(MPU, rnr);
 }
@@ -221,7 +221,7 @@ __STATIC_INLINE void ARM_MPU_ClrRegion(uint32_t rnr)
 /** Clear and disable the given Non-secure MPU region.
 * \param rnr Region number to be cleared.
 */
-__STATIC_INLINE void ARM_MPU_ClrRegion_NS(uint32_t rnr)
+__STATIC_INLINE void ARM_MPU_ClrRegion_NS(uint32 rnr)
 {  
   ARM_MPU_ClrRegionEx(MPU_NS, rnr);
 }
@@ -233,7 +233,7 @@ __STATIC_INLINE void ARM_MPU_ClrRegion_NS(uint32_t rnr)
 * \param rbar Value for RBAR register.
 * \param rlar Value for RLAR register.
 */   
-__STATIC_INLINE void ARM_MPU_SetRegionEx(MPU_Type* mpu, uint32_t rnr, uint32_t rbar, uint32_t rlar)
+__STATIC_INLINE void ARM_MPU_SetRegionEx(MPU_Type* mpu, uint32 rnr, uint32 rbar, uint32 rlar)
 {
   mpu->RNR = rnr;
   mpu->RBAR = rbar;
@@ -245,7 +245,7 @@ __STATIC_INLINE void ARM_MPU_SetRegionEx(MPU_Type* mpu, uint32_t rnr, uint32_t r
 * \param rbar Value for RBAR register.
 * \param rlar Value for RLAR register.
 */   
-__STATIC_INLINE void ARM_MPU_SetRegion(uint32_t rnr, uint32_t rbar, uint32_t rlar)
+__STATIC_INLINE void ARM_MPU_SetRegion(uint32 rnr, uint32 rbar, uint32 rlar)
 {
   ARM_MPU_SetRegionEx(MPU, rnr, rbar, rlar);
 }
@@ -256,7 +256,7 @@ __STATIC_INLINE void ARM_MPU_SetRegion(uint32_t rnr, uint32_t rbar, uint32_t rla
 * \param rbar Value for RBAR register.
 * \param rlar Value for RLAR register.
 */   
-__STATIC_INLINE void ARM_MPU_SetRegion_NS(uint32_t rnr, uint32_t rbar, uint32_t rlar)
+__STATIC_INLINE void ARM_MPU_SetRegion_NS(uint32 rnr, uint32 rbar, uint32 rlar)
 {
   ARM_MPU_SetRegionEx(MPU_NS, rnr, rbar, rlar);  
 }
@@ -267,9 +267,9 @@ __STATIC_INLINE void ARM_MPU_SetRegion_NS(uint32_t rnr, uint32_t rbar, uint32_t 
 * \param src Source data is copied from.
 * \param len Amount of data words to be copied.
 */
-__STATIC_INLINE void orderedCpy(volatile uint32_t* dst, const uint32_t* __RESTRICT src, uint32_t len)
+__STATIC_INLINE void orderedCpy(volatile uint32* dst, const uint32* __RESTRICT src, uint32 len)
 {
-  uint32_t i;
+  uint32 i;
   for (i = 0U; i < len; ++i) 
   {
     dst[i] = src[i];
@@ -282,19 +282,19 @@ __STATIC_INLINE void orderedCpy(volatile uint32_t* dst, const uint32_t* __RESTRI
 * \param table Pointer to the MPU configuration table.
 * \param cnt Amount of regions to be configured.
 */
-__STATIC_INLINE void ARM_MPU_LoadEx(MPU_Type* mpu, uint32_t rnr, ARM_MPU_Region_t const* table, uint32_t cnt) 
+__STATIC_INLINE void ARM_MPU_LoadEx(MPU_Type* mpu, uint32 rnr, ARM_MPU_Region_t const* table, uint32 cnt) 
 {
-  const uint32_t rowWordSize = sizeof(ARM_MPU_Region_t)/4U;
+  const uint32 rowWordSize = sizeof(ARM_MPU_Region_t)/4U;
   if (cnt == 1U) {
     mpu->RNR = rnr;
     orderedCpy(&(mpu->RBAR), &(table->RBAR), rowWordSize);
   } else {
-    uint32_t rnrBase   = rnr & ~(MPU_TYPE_RALIASES-1U);
-    uint32_t rnrOffset = rnr % MPU_TYPE_RALIASES;
+    uint32 rnrBase   = rnr & ~(MPU_TYPE_RALIASES-1U);
+    uint32 rnrOffset = rnr % MPU_TYPE_RALIASES;
     
     mpu->RNR = rnrBase;
     while ((rnrOffset + cnt) > MPU_TYPE_RALIASES) {
-      uint32_t c = MPU_TYPE_RALIASES - rnrOffset;
+      uint32 c = MPU_TYPE_RALIASES - rnrOffset;
       orderedCpy(&(mpu->RBAR)+(rnrOffset*2U), &(table->RBAR), c*rowWordSize);
       table += c;
       cnt -= c;
@@ -312,7 +312,7 @@ __STATIC_INLINE void ARM_MPU_LoadEx(MPU_Type* mpu, uint32_t rnr, ARM_MPU_Region_
 * \param table Pointer to the MPU configuration table.
 * \param cnt Amount of regions to be configured.
 */
-__STATIC_INLINE void ARM_MPU_Load(uint32_t rnr, ARM_MPU_Region_t const* table, uint32_t cnt) 
+__STATIC_INLINE void ARM_MPU_Load(uint32 rnr, ARM_MPU_Region_t const* table, uint32 cnt) 
 {
   ARM_MPU_LoadEx(MPU, rnr, table, cnt);
 }
@@ -323,7 +323,7 @@ __STATIC_INLINE void ARM_MPU_Load(uint32_t rnr, ARM_MPU_Region_t const* table, u
 * \param table Pointer to the MPU configuration table.
 * \param cnt Amount of regions to be configured.
 */
-__STATIC_INLINE void ARM_MPU_Load_NS(uint32_t rnr, ARM_MPU_Region_t const* table, uint32_t cnt) 
+__STATIC_INLINE void ARM_MPU_Load_NS(uint32 rnr, ARM_MPU_Region_t const* table, uint32 cnt) 
 {
   ARM_MPU_LoadEx(MPU_NS, rnr, table, cnt);
 }

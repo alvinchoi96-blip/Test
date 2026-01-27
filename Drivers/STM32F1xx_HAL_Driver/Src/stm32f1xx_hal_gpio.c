@@ -177,13 +177,13 @@
   */
 void HAL_GPIO_Init(GPIO_TypeDef  *GPIOx, GPIO_InitTypeDef *GPIO_Init)
 {
-  uint32_t position = 0x00u;
-  uint32_t ioposition;
-  uint32_t iocurrent;
-  uint32_t temp;
-  uint32_t config = 0x00u;
-  __IO uint32_t *configregister; /* Store the address of CRL or CRH register based on pin number */
-  uint32_t registeroffset;       /* offset used during computation of CNF and MODE bits placement inside CRL or CRH register */
+  uint32 position = 0x00u;
+  uint32 ioposition;
+  uint32 iocurrent;
+  uint32 temp;
+  uint32 config = 0x00u;
+  __IO uint32 *configregister; /* Store the address of CRL or CRH register based on pin number */
+  uint32 registeroffset;       /* offset used during computation of CNF and MODE bits placement inside CRL or CRH register */
 
   /* Check the parameters */
   assert_param(IS_GPIO_ALL_INSTANCE(GPIOx));
@@ -197,7 +197,7 @@ void HAL_GPIO_Init(GPIO_TypeDef  *GPIOx, GPIO_InitTypeDef *GPIO_Init)
     ioposition = (0x01uL << position);
 
     /* Get the current IO position */
-    iocurrent = (uint32_t)(GPIO_Init->Pin) & ioposition;
+    iocurrent = (uint32)(GPIO_Init->Pin) & ioposition;
 
     if (iocurrent == ioposition)
     {
@@ -348,13 +348,13 @@ void HAL_GPIO_Init(GPIO_TypeDef  *GPIOx, GPIO_InitTypeDef *GPIO_Init)
   *         This parameter can be one of GPIO_PIN_x where x can be (0..15).
   * @retval None
   */
-void HAL_GPIO_DeInit(GPIO_TypeDef  *GPIOx, uint32_t GPIO_Pin)
+void HAL_GPIO_DeInit(GPIO_TypeDef  *GPIOx, uint32 GPIO_Pin)
 {
-  uint32_t position = 0x00u;
-  uint32_t iocurrent;
-  uint32_t tmp;
-  __IO uint32_t *configregister; /* Store the address of CRL or CRH register based on pin number */
-  uint32_t registeroffset;
+  uint32 position = 0x00u;
+  uint32 iocurrent;
+  uint32 tmp;
+  __IO uint32 *configregister; /* Store the address of CRL or CRH register based on pin number */
+  uint32 registeroffset;
 
   /* Check the parameters */
   assert_param(IS_GPIO_ALL_INSTANCE(GPIOx));
@@ -379,12 +379,12 @@ void HAL_GPIO_DeInit(GPIO_TypeDef  *GPIOx, uint32_t GPIO_Pin)
         CLEAR_BIT(AFIO->EXTICR[position >> 2u], tmp);
 
         /* Clear EXTI line configuration */
-        CLEAR_BIT(EXTI->IMR, (uint32_t)iocurrent);
-        CLEAR_BIT(EXTI->EMR, (uint32_t)iocurrent);
+        CLEAR_BIT(EXTI->IMR, (uint32)iocurrent);
+        CLEAR_BIT(EXTI->EMR, (uint32)iocurrent);
 
         /* Clear Rising Falling edge configuration */
-        CLEAR_BIT(EXTI->RTSR, (uint32_t)iocurrent);
-        CLEAR_BIT(EXTI->FTSR, (uint32_t)iocurrent);
+        CLEAR_BIT(EXTI->RTSR, (uint32)iocurrent);
+        CLEAR_BIT(EXTI->FTSR, (uint32)iocurrent);
       }
       /*------------------------- GPIO Mode Configuration --------------------*/
       /* Check if the current bit belongs to first half or last half of the pin count number
@@ -428,14 +428,14 @@ void HAL_GPIO_DeInit(GPIO_TypeDef  *GPIOx, uint32_t GPIO_Pin)
   *         This parameter can be GPIO_PIN_x where x can be (0..15).
   * @retval The input port pin value.
   */
-GPIO_PinState HAL_GPIO_ReadPin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin)
+GPIO_PinState HAL_GPIO_ReadPin(GPIO_TypeDef *GPIOx, uint16 GPIO_Pin)
 {
   GPIO_PinState bitstatus;
 
   /* Check the parameters */
   assert_param(IS_GPIO_PIN(GPIO_Pin));
 
-  if ((GPIOx->IDR & GPIO_Pin) != (uint32_t)GPIO_PIN_RESET)
+  if ((GPIOx->IDR & GPIO_Pin) != (uint32)GPIO_PIN_RESET)
   {
     bitstatus = GPIO_PIN_SET;
   }
@@ -462,7 +462,7 @@ GPIO_PinState HAL_GPIO_ReadPin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin)
   *            @arg GPIO_PIN_SET: to set the port pin
   * @retval None
   */
-void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState)
+void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16 GPIO_Pin, GPIO_PinState PinState)
 {
   /* Check the parameters */
   assert_param(IS_GPIO_PIN(GPIO_Pin));
@@ -474,7 +474,7 @@ void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState Pin
   }
   else
   {
-    GPIOx->BSRR = (uint32_t)GPIO_Pin << 16u;
+    GPIOx->BSRR = (uint32)GPIO_Pin << 16u;
   }
 }
 
@@ -484,9 +484,9 @@ void HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState Pin
   * @param  GPIO_Pin: Specifies the pins to be toggled.
   * @retval None
   */
-void HAL_GPIO_TogglePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin)
+void HAL_GPIO_TogglePin(GPIO_TypeDef *GPIOx, uint16 GPIO_Pin)
 {
-  uint32_t odr;
+  uint32 odr;
 
   /* Check the parameters */
   assert_param(IS_GPIO_PIN(GPIO_Pin));
@@ -508,9 +508,9 @@ void HAL_GPIO_TogglePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin)
 *         This parameter can be any combination of GPIO_Pin_x where x can be (0..15).
 * @retval None
 */
-HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin)
+HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef *GPIOx, uint16 GPIO_Pin)
 {
-  __IO uint32_t tmp = GPIO_LCKR_LCKK;
+  __IO uint32 tmp = GPIO_LCKR_LCKK;
 
   /* Check the parameters */
   assert_param(IS_GPIO_LOCK_INSTANCE(GPIOx));
@@ -528,7 +528,7 @@ HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin)
   tmp = GPIOx->LCKR;
 
   /* read again in order to confirm lock is active */
-  if ((uint32_t)(GPIOx->LCKR & GPIO_LCKR_LCKK))
+  if ((uint32)(GPIOx->LCKR & GPIO_LCKR_LCKK))
   {
     return HAL_OK;
   }
@@ -543,7 +543,7 @@ HAL_StatusTypeDef HAL_GPIO_LockPin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin)
   * @param  GPIO_Pin: Specifies the pins connected EXTI line
   * @retval None
   */
-void HAL_GPIO_EXTI_IRQHandler(uint16_t GPIO_Pin)
+void HAL_GPIO_EXTI_IRQHandler(uint16 GPIO_Pin)
 {
   /* EXTI line interrupt detected */
   if (__HAL_GPIO_EXTI_GET_IT(GPIO_Pin) != 0x00u)
@@ -558,7 +558,7 @@ void HAL_GPIO_EXTI_IRQHandler(uint16_t GPIO_Pin)
   * @param  GPIO_Pin: Specifies the pins connected EXTI line
   * @retval None
   */
-__weak void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
+__weak void HAL_GPIO_EXTI_Callback(uint16 GPIO_Pin)
 {
   /* Prevent unused argument(s) compilation warning */
   UNUSED(GPIO_Pin);

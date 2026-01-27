@@ -99,9 +99,9 @@
   */
 HAL_StatusTypeDef HAL_RCCEx_PeriphCLKConfig(RCC_PeriphCLKInitTypeDef  *PeriphClkInit)
 {
-  uint32_t tickstart = 0U, temp_reg = 0U;
+  uint32 tickstart = 0U, temp_reg = 0U;
 #if defined(STM32F105xC) || defined(STM32F107xC)
-  uint32_t  pllactive = 0U;
+  uint32  pllactive = 0U;
 #endif /* STM32F105xC || STM32F107xC */
 
   /* Check the parameters */
@@ -293,7 +293,7 @@ HAL_StatusTypeDef HAL_RCCEx_PeriphCLKConfig(RCC_PeriphCLKInitTypeDef  *PeriphClk
   */
 void HAL_RCCEx_GetPeriphCLKConfig(RCC_PeriphCLKInitTypeDef  *PeriphClkInit)
 {
-  uint32_t srcclk = 0U;
+  uint32 srcclk = 0U;
 
   /* Set all possible values for the extended clock type parameter------------*/
   PeriphClkInit->PeriphClockSelection = RCC_PERIPHCLK_RTC;
@@ -384,23 +384,23 @@ void HAL_RCCEx_GetPeriphCLKConfig(RCC_PeriphCLKInitTypeDef  *PeriphClkInit)
   @endif
   * @retval Frequency in Hz (0: means that no available frequency for the peripheral)
   */
-uint32_t HAL_RCCEx_GetPeriphCLKFreq(uint32_t PeriphClk)
+uint32 HAL_RCCEx_GetPeriphCLKFreq(uint32 PeriphClk)
 {
 #if defined(STM32F105xC) || defined(STM32F107xC)
-  const uint8_t aPLLMULFactorTable[14] = {0, 0, 4, 5, 6, 7, 8, 9, 0, 0, 0, 0, 0, 13};
-  const uint8_t aPredivFactorTable[16] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16};
+  const uint8 aPLLMULFactorTable[14] = {0, 0, 4, 5, 6, 7, 8, 9, 0, 0, 0, 0, 0, 13};
+  const uint8 aPredivFactorTable[16] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16};
 
-  uint32_t prediv1 = 0U, pllclk = 0U, pllmul = 0U;
-  uint32_t pll2mul = 0U, pll3mul = 0U, prediv2 = 0U;
+  uint32 prediv1 = 0U, pllclk = 0U, pllmul = 0U;
+  uint32 pll2mul = 0U, pll3mul = 0U, prediv2 = 0U;
 #endif /* STM32F105xC || STM32F107xC */
 #if defined(STM32F102x6) || defined(STM32F102xB) || defined(STM32F103x6) || \
     defined(STM32F103xB) || defined(STM32F103xE) || defined(STM32F103xG)
-  const uint8_t aPLLMULFactorTable[16] = {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 16};
-  const uint8_t aPredivFactorTable[2] = {1, 2};
+  const uint8 aPLLMULFactorTable[16] = {2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 16};
+  const uint8 aPredivFactorTable[2] = {1, 2};
 
-  uint32_t prediv1 = 0U, pllclk = 0U, pllmul = 0U;
+  uint32 prediv1 = 0U, pllclk = 0U, pllmul = 0U;
 #endif /* STM32F102x6 || STM32F102xB || STM32F103x6 || STM32F103xB || STM32F103xE || STM32F103xG */
-  uint32_t temp_reg = 0U, frequency = 0U;
+  uint32 temp_reg = 0U, frequency = 0U;
 
   /* Check the parameters */
   assert_param(IS_RCC_PERIPHCLOCK(PeriphClk));
@@ -418,14 +418,14 @@ uint32_t HAL_RCCEx_GetPeriphCLKFreq(uint32_t PeriphClk)
       /* Check if PLL is enabled */
       if (HAL_IS_BIT_SET(RCC->CR, RCC_CR_PLLON))
       {
-        pllmul = aPLLMULFactorTable[(uint32_t)(temp_reg & RCC_CFGR_PLLMULL) >> RCC_CFGR_PLLMULL_Pos];
+        pllmul = aPLLMULFactorTable[(uint32)(temp_reg & RCC_CFGR_PLLMULL) >> RCC_CFGR_PLLMULL_Pos];
         if ((temp_reg & RCC_CFGR_PLLSRC) != RCC_PLLSOURCE_HSI_DIV2)
         {
 #if defined(STM32F105xC) || defined(STM32F107xC) || defined(STM32F100xB)\
  || defined(STM32F100xE)
-          prediv1 = aPredivFactorTable[(uint32_t)(RCC->CFGR2 & RCC_CFGR2_PREDIV1) >> RCC_CFGR2_PREDIV1_Pos];
+          prediv1 = aPredivFactorTable[(uint32)(RCC->CFGR2 & RCC_CFGR2_PREDIV1) >> RCC_CFGR2_PREDIV1_Pos];
 #else
-          prediv1 = aPredivFactorTable[(uint32_t)(RCC->CFGR & RCC_CFGR_PLLXTPRE) >> RCC_CFGR_PLLXTPRE_Pos];
+          prediv1 = aPredivFactorTable[(uint32)(RCC->CFGR & RCC_CFGR_PLLXTPRE) >> RCC_CFGR_PLLXTPRE_Pos];
 #endif /* STM32F105xC || STM32F107xC || STM32F100xB || STM32F100xE */
 
 #if defined(STM32F105xC) || defined(STM32F107xC)
@@ -435,17 +435,17 @@ uint32_t HAL_RCCEx_GetPeriphCLKFreq(uint32_t PeriphClk)
             /* PLLCLK = PLL2CLK / PREDIV1 * PLLMUL with PLL2CLK = HSE/PREDIV2 * PLL2MUL */
             prediv2 = ((RCC->CFGR2 & RCC_CFGR2_PREDIV2) >> RCC_CFGR2_PREDIV2_Pos) + 1;
             pll2mul = ((RCC->CFGR2 & RCC_CFGR2_PLL2MUL) >> RCC_CFGR2_PLL2MUL_Pos) + 2;
-            pllclk = (uint32_t)((((HSE_VALUE / prediv2) * pll2mul) / prediv1) * pllmul);
+            pllclk = (uint32)((((HSE_VALUE / prediv2) * pll2mul) / prediv1) * pllmul);
           }
           else
           {
             /* HSE used as PLL clock source : PLLCLK = HSE/PREDIV1 * PLLMUL */
-            pllclk = (uint32_t)((HSE_VALUE / prediv1) * pllmul);
+            pllclk = (uint32)((HSE_VALUE / prediv1) * pllmul);
           }
 
           /* If PLLMUL was set to 13 means that it was to cover the case PLLMUL 6.5 (avoid using float) */
           /* In this case need to divide pllclk by 2 */
-          if (pllmul == aPLLMULFactorTable[(uint32_t)(RCC_CFGR_PLLMULL6_5) >> RCC_CFGR_PLLMULL_Pos])
+          if (pllmul == aPLLMULFactorTable[(uint32)(RCC_CFGR_PLLMULL6_5) >> RCC_CFGR_PLLMULL_Pos])
           {
             pllclk = pllclk / 2;
           }
@@ -453,14 +453,14 @@ uint32_t HAL_RCCEx_GetPeriphCLKFreq(uint32_t PeriphClk)
           if ((temp_reg & RCC_CFGR_PLLSRC) != RCC_PLLSOURCE_HSI_DIV2)
           {
             /* HSE used as PLL clock source : PLLCLK = HSE/PREDIV1 * PLLMUL */
-            pllclk = (uint32_t)((HSE_VALUE / prediv1) * pllmul);
+            pllclk = (uint32)((HSE_VALUE / prediv1) * pllmul);
           }
 #endif /* STM32F105xC || STM32F107xC */
         }
         else
         {
           /* HSI used as PLL clock source : PLLCLK = HSI/2 * PLLMUL */
-          pllclk = (uint32_t)((HSI_VALUE >> 1) * pllmul);
+          pllclk = (uint32)((HSI_VALUE >> 1) * pllmul);
         }
 
         /* Calcul of the USB frequency*/
@@ -513,7 +513,7 @@ uint32_t HAL_RCCEx_GetPeriphCLKFreq(uint32_t PeriphClk)
           /* PLLI2SVCO = 2 * PLLI2SCLK = 2 * (HSE/PREDIV2 * PLL3MUL) */
           prediv2 = ((RCC->CFGR2 & RCC_CFGR2_PREDIV2) >> RCC_CFGR2_PREDIV2_Pos) + 1;
           pll3mul = ((RCC->CFGR2 & RCC_CFGR2_PLL3MUL) >> RCC_CFGR2_PLL3MUL_Pos) + 2;
-          frequency = (uint32_t)(2 * ((HSE_VALUE / prediv2) * pll3mul));
+          frequency = (uint32)(2 * ((HSE_VALUE / prediv2) * pll3mul));
         }
       }
 #endif /* STM32F103xE || STM32F103xG */
@@ -538,7 +538,7 @@ uint32_t HAL_RCCEx_GetPeriphCLKFreq(uint32_t PeriphClk)
           /* PLLI2SVCO = 2 * PLLI2SCLK = 2 * (HSE/PREDIV2 * PLL3MUL) */
           prediv2 = ((RCC->CFGR2 & RCC_CFGR2_PREDIV2) >> RCC_CFGR2_PREDIV2_Pos) + 1;
           pll3mul = ((RCC->CFGR2 & RCC_CFGR2_PLL3MUL) >> RCC_CFGR2_PLL3MUL_Pos) + 2;
-          frequency = (uint32_t)(2 * ((HSE_VALUE / prediv2) * pll3mul));
+          frequency = (uint32)(2 * ((HSE_VALUE / prediv2) * pll3mul));
         }
       }
 #endif /* STM32F103xE || STM32F103xG */
@@ -612,7 +612,7 @@ uint32_t HAL_RCCEx_GetPeriphCLKFreq(uint32_t PeriphClk)
   */
 HAL_StatusTypeDef HAL_RCCEx_EnablePLLI2S(RCC_PLLI2SInitTypeDef  *PLLI2SInit)
 {
-  uint32_t tickstart = 0U;
+  uint32 tickstart = 0U;
 
   /* Check that PLL I2S has not been already enabled by I2S2 or I2S3*/
   if (HAL_IS_BIT_CLR(RCC->CFGR2, RCC_CFGR2_I2S2SRC) && HAL_IS_BIT_CLR(RCC->CFGR2, RCC_CFGR2_I2S3SRC))
@@ -682,7 +682,7 @@ HAL_StatusTypeDef HAL_RCCEx_EnablePLLI2S(RCC_PLLI2SInitTypeDef  *PLLI2SInit)
   */
 HAL_StatusTypeDef HAL_RCCEx_DisablePLLI2S(void)
 {
-  uint32_t tickstart = 0U;
+  uint32 tickstart = 0U;
 
   /* Disable PLL I2S as not requested by I2S2 or I2S3*/
   if (HAL_IS_BIT_CLR(RCC->CFGR2, RCC_CFGR2_I2S2SRC) && HAL_IS_BIT_CLR(RCC->CFGR2, RCC_CFGR2_I2S3SRC))
@@ -738,7 +738,7 @@ HAL_StatusTypeDef HAL_RCCEx_DisablePLLI2S(void)
   */
 HAL_StatusTypeDef HAL_RCCEx_EnablePLL2(RCC_PLL2InitTypeDef  *PLL2Init)
 {
-  uint32_t tickstart = 0U;
+  uint32 tickstart = 0U;
 
   /* This bit can not be cleared if the PLL2 clock is used indirectly as system
     clock (i.e. it is used as PLL clock entry that is used as system clock). */
@@ -809,7 +809,7 @@ HAL_StatusTypeDef HAL_RCCEx_EnablePLL2(RCC_PLL2InitTypeDef  *PLL2Init)
   */
 HAL_StatusTypeDef HAL_RCCEx_DisablePLL2(void)
 {
-  uint32_t tickstart = 0U;
+  uint32 tickstart = 0U;
 
   /* This bit can not be cleared if the PLL2 clock is used indirectly as system
     clock (i.e. it is used as PLL clock entry that is used as system clock). */

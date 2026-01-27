@@ -47,28 +47,28 @@
   */
 typedef struct
 {
-  uint32_t Direction;                 /*!< Specifies if the data will be transferred from memory to peripheral, 
+  uint32 Direction;                 /*!< Specifies if the data will be transferred from memory to peripheral, 
                                            from memory to memory or from peripheral to memory.
                                            This parameter can be a value of @ref DMA_Data_transfer_direction */
 
-  uint32_t PeriphInc;                 /*!< Specifies whether the Peripheral address register should be incremented or not.
+  uint32 PeriphInc;                 /*!< Specifies whether the Peripheral address register should be incremented or not.
                                            This parameter can be a value of @ref DMA_Peripheral_incremented_mode */
 
-  uint32_t MemInc;                    /*!< Specifies whether the memory address register should be incremented or not.
+  uint32 MemInc;                    /*!< Specifies whether the memory address register should be incremented or not.
                                            This parameter can be a value of @ref DMA_Memory_incremented_mode */
 
-  uint32_t PeriphDataAlignment;       /*!< Specifies the Peripheral data width.
+  uint32 PeriphDataAlignment;       /*!< Specifies the Peripheral data width.
                                            This parameter can be a value of @ref DMA_Peripheral_data_size */
 
-  uint32_t MemDataAlignment;          /*!< Specifies the Memory data width.
+  uint32 MemDataAlignment;          /*!< Specifies the Memory data width.
                                            This parameter can be a value of @ref DMA_Memory_data_size */
 
-  uint32_t Mode;                      /*!< Specifies the operation mode of the DMAy Channelx.
+  uint32 Mode;                      /*!< Specifies the operation mode of the DMAy Channelx.
                                            This parameter can be a value of @ref DMA_mode
                                            @note The circular buffer mode cannot be used if the memory-to-memory
                                                  data transfer is configured on the selected Channel */
 
-  uint32_t Priority;                  /*!< Specifies the software priority for the DMAy Channelx.
+  uint32 Priority;                  /*!< Specifies the software priority for the DMAy Channelx.
                                            This parameter can be a value of @ref DMA_Priority_level */
 } DMA_InitTypeDef;
 
@@ -128,11 +128,11 @@ typedef struct __DMA_HandleTypeDef
 
   void                  (* XferAbortCallback)( struct __DMA_HandleTypeDef * hdma);    /*!< DMA transfer abort callback            */  
   
-  __IO uint32_t         ErrorCode;                                                    /*!< DMA Error code                         */
+  __IO uint32         ErrorCode;                                                    /*!< DMA Error code                         */
 
   DMA_TypeDef            *DmaBaseAddress;                                             /*!< DMA Channel Base Address               */
   
-  uint32_t               ChannelIndex;                                                /*!< DMA Channel Index                      */  
+  uint32               ChannelIndex;                                                /*!< DMA Channel Index                      */  
 
 } DMA_HandleTypeDef;    
 /**
@@ -161,8 +161,8 @@ typedef struct __DMA_HandleTypeDef
   * @{
   */
 #define DMA_PERIPH_TO_MEMORY         0x00000000U                 /*!< Peripheral to memory direction */
-#define DMA_MEMORY_TO_PERIPH         ((uint32_t)DMA_CCR_DIR)     /*!< Memory to peripheral direction */
-#define DMA_MEMORY_TO_MEMORY         ((uint32_t)DMA_CCR_MEM2MEM) /*!< Memory to memory direction     */
+#define DMA_MEMORY_TO_PERIPH         ((uint32)DMA_CCR_DIR)     /*!< Memory to peripheral direction */
+#define DMA_MEMORY_TO_MEMORY         ((uint32)DMA_CCR_MEM2MEM) /*!< Memory to memory direction     */
 
 /**
   * @}
@@ -171,7 +171,7 @@ typedef struct __DMA_HandleTypeDef
 /** @defgroup DMA_Peripheral_incremented_mode DMA Peripheral incremented mode
   * @{
   */
-#define DMA_PINC_ENABLE        ((uint32_t)DMA_CCR_PINC)  /*!< Peripheral increment mode Enable */
+#define DMA_PINC_ENABLE        ((uint32)DMA_CCR_PINC)  /*!< Peripheral increment mode Enable */
 #define DMA_PINC_DISABLE       0x00000000U               /*!< Peripheral increment mode Disable */
 /**
   * @}
@@ -180,7 +180,7 @@ typedef struct __DMA_HandleTypeDef
 /** @defgroup DMA_Memory_incremented_mode DMA Memory incremented mode
   * @{
   */
-#define DMA_MINC_ENABLE         ((uint32_t)DMA_CCR_MINC)  /*!< Memory increment mode Enable  */
+#define DMA_MINC_ENABLE         ((uint32)DMA_CCR_MINC)  /*!< Memory increment mode Enable  */
 #define DMA_MINC_DISABLE        0x00000000U               /*!< Memory increment mode Disable */
 /**
   * @}
@@ -190,8 +190,8 @@ typedef struct __DMA_HandleTypeDef
   * @{
   */
 #define DMA_PDATAALIGN_BYTE          0x00000000U                  /*!< Peripheral data alignment: Byte     */
-#define DMA_PDATAALIGN_HALFWORD      ((uint32_t)DMA_CCR_PSIZE_0)  /*!< Peripheral data alignment: HalfWord */
-#define DMA_PDATAALIGN_WORD          ((uint32_t)DMA_CCR_PSIZE_1)  /*!< Peripheral data alignment: Word     */
+#define DMA_PDATAALIGN_HALFWORD      ((uint32)DMA_CCR_PSIZE_0)  /*!< Peripheral data alignment: HalfWord */
+#define DMA_PDATAALIGN_WORD          ((uint32)DMA_CCR_PSIZE_1)  /*!< Peripheral data alignment: Word     */
 /**
   * @}
   */
@@ -200,8 +200,8 @@ typedef struct __DMA_HandleTypeDef
   * @{
   */
 #define DMA_MDATAALIGN_BYTE          0x00000000U                  /*!< Memory data alignment: Byte     */
-#define DMA_MDATAALIGN_HALFWORD      ((uint32_t)DMA_CCR_MSIZE_0)  /*!< Memory data alignment: HalfWord */
-#define DMA_MDATAALIGN_WORD          ((uint32_t)DMA_CCR_MSIZE_1)  /*!< Memory data alignment: Word     */
+#define DMA_MDATAALIGN_HALFWORD      ((uint32)DMA_CCR_MSIZE_0)  /*!< Memory data alignment: HalfWord */
+#define DMA_MDATAALIGN_WORD          ((uint32)DMA_CCR_MSIZE_1)  /*!< Memory data alignment: Word     */
 /**
   * @}
   */
@@ -210,7 +210,7 @@ typedef struct __DMA_HandleTypeDef
   * @{
   */
 #define DMA_NORMAL         0x00000000U                  /*!< Normal mode                  */
-#define DMA_CIRCULAR       ((uint32_t)DMA_CCR_CIRC)     /*!< Circular mode                */
+#define DMA_CIRCULAR       ((uint32)DMA_CCR_CIRC)     /*!< Circular mode                */
 /**
   * @}
   */
@@ -219,9 +219,9 @@ typedef struct __DMA_HandleTypeDef
   * @{
   */
 #define DMA_PRIORITY_LOW             0x00000000U               /*!< Priority level : Low       */
-#define DMA_PRIORITY_MEDIUM          ((uint32_t)DMA_CCR_PL_0)  /*!< Priority level : Medium    */
-#define DMA_PRIORITY_HIGH            ((uint32_t)DMA_CCR_PL_1)  /*!< Priority level : High      */
-#define DMA_PRIORITY_VERY_HIGH       ((uint32_t)DMA_CCR_PL)    /*!< Priority level : Very_High */
+#define DMA_PRIORITY_MEDIUM          ((uint32)DMA_CCR_PL_0)  /*!< Priority level : Medium    */
+#define DMA_PRIORITY_HIGH            ((uint32)DMA_CCR_PL_1)  /*!< Priority level : High      */
+#define DMA_PRIORITY_VERY_HIGH       ((uint32)DMA_CCR_PL)    /*!< Priority level : Very_High */
 /**
   * @}
   */
@@ -230,9 +230,9 @@ typedef struct __DMA_HandleTypeDef
 /** @defgroup DMA_interrupt_enable_definitions DMA interrupt enable definitions
   * @{
   */
-#define DMA_IT_TC                         ((uint32_t)DMA_CCR_TCIE)
-#define DMA_IT_HT                         ((uint32_t)DMA_CCR_HTIE)
-#define DMA_IT_TE                         ((uint32_t)DMA_CCR_TEIE)
+#define DMA_IT_TC                         ((uint32)DMA_CCR_TCIE)
+#define DMA_IT_HT                         ((uint32)DMA_CCR_HTIE)
+#define DMA_IT_TE                         ((uint32)DMA_CCR_TEIE)
 /**
   * @}
   */
@@ -374,11 +374,11 @@ HAL_StatusTypeDef HAL_DMA_DeInit (DMA_HandleTypeDef *hdma);
   * @{
   */
 /* IO operation functions *****************************************************/
-HAL_StatusTypeDef HAL_DMA_Start (DMA_HandleTypeDef *hdma, uint32_t SrcAddress, uint32_t DstAddress, uint32_t DataLength);
-HAL_StatusTypeDef HAL_DMA_Start_IT(DMA_HandleTypeDef *hdma, uint32_t SrcAddress, uint32_t DstAddress, uint32_t DataLength);
+HAL_StatusTypeDef HAL_DMA_Start (DMA_HandleTypeDef *hdma, uint32 SrcAddress, uint32 DstAddress, uint32 DataLength);
+HAL_StatusTypeDef HAL_DMA_Start_IT(DMA_HandleTypeDef *hdma, uint32 SrcAddress, uint32 DstAddress, uint32 DataLength);
 HAL_StatusTypeDef HAL_DMA_Abort(DMA_HandleTypeDef *hdma);
 HAL_StatusTypeDef HAL_DMA_Abort_IT(DMA_HandleTypeDef *hdma);
-HAL_StatusTypeDef HAL_DMA_PollForTransfer(DMA_HandleTypeDef *hdma, uint32_t CompleteLevel, uint32_t Timeout);
+HAL_StatusTypeDef HAL_DMA_PollForTransfer(DMA_HandleTypeDef *hdma, uint32 CompleteLevel, uint32 Timeout);
 void HAL_DMA_IRQHandler(DMA_HandleTypeDef *hdma);
 HAL_StatusTypeDef HAL_DMA_RegisterCallback(DMA_HandleTypeDef *hdma, HAL_DMA_CallbackIDTypeDef CallbackID, void (* pCallback)( DMA_HandleTypeDef * _hdma));
 HAL_StatusTypeDef HAL_DMA_UnRegisterCallback(DMA_HandleTypeDef *hdma, HAL_DMA_CallbackIDTypeDef CallbackID);
@@ -392,7 +392,7 @@ HAL_StatusTypeDef HAL_DMA_UnRegisterCallback(DMA_HandleTypeDef *hdma, HAL_DMA_Ca
   */
 /* Peripheral State and Error functions ***************************************/
 HAL_DMA_StateTypeDef HAL_DMA_GetState(DMA_HandleTypeDef *hdma);
-uint32_t HAL_DMA_GetError(DMA_HandleTypeDef *hdma);
+uint32 HAL_DMA_GetError(DMA_HandleTypeDef *hdma);
 /**
   * @}
   */

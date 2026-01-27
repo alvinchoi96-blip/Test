@@ -86,7 +86,7 @@ void WriteToFlash(void)
 	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);				// CS = high
 	HAL_Delay(1);
 
-	for(uint32_t i = 1; i < 1600; i++)
+	for(uint32 i = 1; i < 1600; i++)
 	{
 		flash_cmd[1] = unRom.BY[i];									// next ROM data byte
 		HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);		// CS = low
@@ -119,12 +119,12 @@ void WriteToFlash(void)
 
 void ReadFromFlash(void)
 {
-	uint32_t i;
+	uint32 i;
 	for(i = 0; i < 1600; i++)
 		unRom.BY[i] = 0;
 
-	//	uint8_t flash_cmd[4] = {0x03, 0x00, 0x00, 0x00};
-	//uint8_t flash_cmd[4] = {0x03, 0x00, 0x02, 0x00};
+	//	uint8 flash_cmd[4] = {0x03, 0x00, 0x00, 0x00};
+	//uint8 flash_cmd[4] = {0x03, 0x00, 0x02, 0x00};
 	flash_cmd[0] = 0x03;
 	flash_cmd[3] = 0x02;
 	HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);			// CS = low
@@ -811,15 +811,15 @@ void ValueAssign(void)
 	HAL_RTC_SetTime(&hrtc, &sTime, RTC_FORMAT_BCD);
 
 }
-uint8_t BCDtoDEC(uint8_t BCD)
+uint8 BCDtoDEC(uint8 BCD)
 {
-	uint8_t DEC = 0;
+	uint8 DEC = 0;
 	DEC = ((BCD&0xFF)>>4)*10 + (BCD&0x0F)%10;
 	return DEC;
 }
-uint8_t DECtoBCD(uint8_t DEC)
+uint8 DECtoBCD(uint8 DEC)
 {
-	uint8_t BCD = 0;
+	uint8 BCD = 0;
 	BCD = ((DEC/10)<<4) | (DEC%10);
 	return BCD;
 }

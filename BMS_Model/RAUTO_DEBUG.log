@@ -1,4 +1,10 @@
 [Log]
-Num=2
-1=[2026-01-27 09:48:13.655] ¡Ú¡Ú¡Ú¡Ú¡Ú Generate Code ¡Ú¡Ú¡Ú¡Ú¡Ú
-2=[Elapsed Time : 0 hours, 0 minutes, 8.9766745 seconds] ¡Ù¡Ù Code generation has been completed. ¡Ù¡Ù
+Num=8
+1=[2026-01-28 08:39:25.126] ¡Ú¡Ú¡Ú¡Ú¡Ú Perform Comment Reverse Engineering ¡Ú¡Ú¡Ú¡Ú¡Ú
+2=[2026-01-28 08:39:25.152] 	¢º Reverse engineering source codes...
+3=[2026-01-28 08:39:25.606] 	¢º Compile Error/Warning/Note...
+4=[2026-01-28 08:39:25.631] 		¡æ [ BmsMainCntrl_TxSvc_PackMeasDataTx.c : 54 lines ] Error: use of undeclared identifier 'vSum'
+5=[2026-01-28 08:39:25.656] 		¡æ [ BmsMainCntrl_TxSvc_PackMeasDataTx.c : 55 lines ] Error: use of undeclared identifier 'iVal'
+6=[2026-01-28 08:39:25.672] 		¡æ [ BmsMainCntrl_TxSvc_PackMeasDataTx.c : 57 lines ] Error: use of undeclared identifier 'tAvg'
+7=[Elapsed Time : 0 hours, 0 minutes, 0.5667454 seconds] ¡Ù¡Ù Cannot proceed with the work due to a compilation error. ¡Ù¡Ù
+8=[Elapsed Time : 0 hours, 0 minutes, 0.5986792 seconds] ¡Ù¡Ù Reverse engineering has been completed. ¡Ù¡Ù

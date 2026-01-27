@@ -66,9 +66,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.27.2026::4:5:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.27.2026::4:5:14</_modifiedTime>
-			<weakCGTime type="a">1.27.2026::4:5:14</weakCGTime>
+			<_modifiedTimeWeak type="a">1.27.2026::5:21:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::5:21:50</_modifiedTime>
+			<weakCGTime type="a">1.27.2026::5:21:50</weakCGTime>
 			<strongCGTime type="a">1.15.2026::4:8:49</strongCGTime>
 			<_defaultComposite type="s">GUID 9797814f-4951-4c75-bb97-60d184826122</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -25024,9 +25024,9 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.27.2026::4:5:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.27.2026::4:5:14</_modifiedTime>
-			<weakCGTime type="a">1.27.2026::4:5:14</weakCGTime>
+			<_modifiedTimeWeak type="a">1.27.2026::5:21:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::5:21:50</_modifiedTime>
+			<weakCGTime type="a">1.27.2026::5:21:50</weakCGTime>
 			<strongCGTime type="a">1.19.2026::6:5:0</strongCGTime>
 			<_defaultComposite type="s">GUID c444799e-f50f-4464-8143-2596736889ba</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -25068,7 +25068,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.27.2026::4:6:0</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.27.2026::5:21:50</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -25079,9 +25079,9 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					<_hid type="a">GUID 6a358fbd-a212-4d93-a3b5-ae96e8c80a53</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">1.27.2026::4:6:0</_modifiedTime>
+			<_modifiedTime type="a">1.27.2026::5:21:50</_modifiedTime>
 			<_lastID type="a">39</_lastID>
-			<weakCGTime type="a">1.27.2026::4:6:0</weakCGTime>
+			<weakCGTime type="a">1.27.2026::5:21:50</weakCGTime>
 			<strongCGTime type="a">1.15.2026::4:8:51</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -25649,9 +25649,9 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.27.2026::4:5:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.27.2026::4:6:0</_modifiedTime>
-			<_lastModifiedTime type="a">1.27.2026::4:6:0</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::5:11:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::5:11:54</_modifiedTime>
+			<_lastModifiedTime type="a">1.27.2026::5:11:54</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -38772,9 +38772,9 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.27.2026::4:5:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.27.2026::4:6:0</_modifiedTime>
-			<_lastModifiedTime type="a">1.27.2026::4:6:0</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::5:21:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::5:23:13</_modifiedTime>
+			<_lastModifiedTime type="a">1.27.2026::5:23:13</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -38956,6 +38956,38 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 		</CGIClass>
 		<CGIClass type="e">
 			<_id type="a">GUID f96aef6d-c244-4ed2-972b-7910136bc688</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">FitBoxToItsTextuals</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
 			<m_type type="a">105</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -38982,7 +39014,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">4104</m_drawBehavior>
-			<m_transform type="a">0.614094 0 0 1.08996 22.1577 -264.838 </m_transform>
+			<m_transform type="a">0.837248 0 0 1.08996 20.4882 -270.838 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -39108,7 +39140,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.396724 0 0 0.343437 60.8295 196.048 </m_transform>
+			<m_transform type="a">0.290984 0 0 0.343437 45.416 196.048 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -41626,7 +41658,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.396724 0 0 0.127562 715.453 267.07 </m_transform>
+			<m_transform type="a">0.290984 0 0 0.127562 771.605 267.07 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -42395,7 +42427,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.341368 0 0 0.0883124 715.563 434.118 </m_transform>
+			<m_transform type="a">0.250382 0 0 0.0883124 781.241 445.128 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -42846,7 +42878,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.304463 0 0 0.0883124 715.637 544.214 </m_transform>
+			<m_transform type="a">0.223314 0 0 0.0883124 843.403 555.224 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -43297,7 +43329,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.304463 0 0 0.0883124 715.637 654.311 </m_transform>
+			<m_transform type="a">0.223314 0 0 0.0883124 750.241 665.321 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -43748,7 +43780,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.396724 0 0 0.0686874 715.453 770.863 </m_transform>
+			<m_transform type="a">0.290984 0 0 0.0686874 678.443 781.872 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -44040,7 +44072,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.304463 0 0 0.0686874 715.637 858.94 </m_transform>
+			<m_transform type="a">0.223314 0 0 0.0686874 719.187 868.115 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -44332,7 +44364,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.304463 0 0 0.0686874 715.637 947.017 </m_transform>
+			<m_transform type="a">0.223314 0 0 0.0686874 731.131 947.017 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -44624,7 +44656,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.341368 0 0 0.0686874 715.563 1035.09 </m_transform>
+			<m_transform type="a">0.250382 0 0 0.0686874 721.521 1035.09 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -44916,7 +44948,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.304463 0 0 0.0686874 715.637 1123.17 </m_transform>
+			<m_transform type="a">0.223314 0 0 0.0686874 750.241 1123.17 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -45208,7 +45240,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.35982 0 0 0.0686874 715.526 1211.25 </m_transform>
+			<m_transform type="a">0.263916 0 0 0.0686874 733.438 1210.33 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -45500,7 +45532,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.304463 0 0 0.0686874 715.637 1299.32 </m_transform>
+			<m_transform type="a">0.223314 0 0 0.0686874 750.241 1299.32 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -45777,12 +45809,12 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 390 168  390 201  </m_arrow>
+			<m_arrow type="a">2 389 162  389 201  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">34 36 </m_SourcePort>
-			<m_TargetPort type="a">34 36 </m_TargetPort>
+			<m_SourcePort type="a">34 31 </m_SourcePort>
+			<m_TargetPort type="a">28 31 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -45900,12 +45932,12 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 390 144  390 173  </m_arrow>
+			<m_arrow type="a">2 389 138  389 167  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">34 36 </m_SourcePort>
-			<m_TargetPort type="a">34 36 </m_TargetPort>
+			<m_SourcePort type="a">34 31 </m_SourcePort>
+			<m_TargetPort type="a">34 31 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -46023,12 +46055,12 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 390 383  390 945  </m_arrow>
+			<m_arrow type="a">2 401 377  401 937  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">34 36 </m_SourcePort>
-			<m_TargetPort type="a">34 36 </m_TargetPort>
+			<m_SourcePort type="a">34 31 </m_SourcePort>
+			<m_TargetPort type="a">36 31 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -46146,12 +46178,12 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 390 119  390 149  </m_arrow>
+			<m_arrow type="a">2 389 113  389 143  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">34 36 </m_SourcePort>
-			<m_TargetPort type="a">34 36 </m_TargetPort>
+			<m_SourcePort type="a">34 31 </m_SourcePort>
+			<m_TargetPort type="a">34 31 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -46269,12 +46301,12 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 390 196  390 129  </m_arrow>
+			<m_arrow type="a">2 451 190  451 123  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">34 36 </m_SourcePort>
-			<m_TargetPort type="a">34 36 </m_TargetPort>
+			<m_SourcePort type="a">34 31 </m_SourcePort>
+			<m_TargetPort type="a">34 31 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -46392,12 +46424,12 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 390 200  390 289  </m_arrow>
+			<m_arrow type="a">2 411 194  411 295  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">38 48 </m_SourcePort>
-			<m_TargetPort type="a">38 48 </m_TargetPort>
+			<m_SourcePort type="a">38 31 </m_SourcePort>
+			<m_TargetPort type="a">38 31 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -46515,12 +46547,12 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 390 185  390 428  </m_arrow>
+			<m_arrow type="a">2 495 179  495 425  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">23 43 </m_SourcePort>
-			<m_TargetPort type="a">23 43 </m_TargetPort>
+			<m_SourcePort type="a">23 42 </m_SourcePort>
+			<m_TargetPort type="a">32 31 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -46638,12 +46670,12 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 390 657  390 311  </m_arrow>
+			<m_arrow type="a">2 446 663  446 305  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">34 36 </m_SourcePort>
-			<m_TargetPort type="a">34 36 </m_TargetPort>
+			<m_SourcePort type="a">34 31 </m_SourcePort>
+			<m_TargetPort type="a">34 31 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -46761,12 +46793,12 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 390 749  390 340  </m_arrow>
+			<m_arrow type="a">2 436 752  436 334  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">34 36 </m_SourcePort>
-			<m_TargetPort type="a">34 36 </m_TargetPort>
+			<m_SourcePort type="a">35 31 </m_SourcePort>
+			<m_TargetPort type="a">34 31 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -46884,12 +46916,12 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 390 321  390 215  </m_arrow>
+			<m_arrow type="a">2 389 327  389 209  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">34 36 </m_SourcePort>
-			<m_TargetPort type="a">34 36 </m_TargetPort>
+			<m_SourcePort type="a">34 31 </m_SourcePort>
+			<m_TargetPort type="a">34 31 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -47007,12 +47039,12 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 390 845  390 364  </m_arrow>
+			<m_arrow type="a">2 419 840  419 358  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">34 36 </m_SourcePort>
-			<m_TargetPort type="a">34 36 </m_TargetPort>
+			<m_SourcePort type="a">33 31 </m_SourcePort>
+			<m_TargetPort type="a">34 31 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -47130,12 +47162,12 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 390 1037  390 412  </m_arrow>
+			<m_arrow type="a">2 377 1031  377 406  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">34 36 </m_SourcePort>
-			<m_TargetPort type="a">34 36 </m_TargetPort>
+			<m_SourcePort type="a">34 31 </m_SourcePort>
+			<m_TargetPort type="a">34 31 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -47253,12 +47285,12 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 390 1137  390 431  </m_arrow>
+			<m_arrow type="a">2 364 1130  364 425  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">34 36 </m_SourcePort>
-			<m_TargetPort type="a">34 36 </m_TargetPort>
+			<m_SourcePort type="a">34 31 </m_SourcePort>
+			<m_TargetPort type="a">34 31 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -47376,12 +47408,12 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 389 441  389 244  </m_arrow>
+			<m_arrow type="a">2 388 447  388 238  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">34 36 </m_SourcePort>
-			<m_TargetPort type="a">34 36 </m_TargetPort>
+			<m_SourcePort type="a">34 31 </m_SourcePort>
+			<m_TargetPort type="a">34 31 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -47499,12 +47531,12 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 390 533  390 268  </m_arrow>
+			<m_arrow type="a">2 389 539  389 262  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">34 36 </m_SourcePort>
-			<m_TargetPort type="a">34 36 </m_TargetPort>
+			<m_SourcePort type="a">34 31 </m_SourcePort>
+			<m_TargetPort type="a">34 31 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -47622,12 +47654,12 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 390 557  390 288  </m_arrow>
+			<m_arrow type="a">2 389 563  389 282  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">34 36 </m_SourcePort>
-			<m_TargetPort type="a">34 36 </m_TargetPort>
+			<m_SourcePort type="a">34 31 </m_SourcePort>
+			<m_TargetPort type="a">34 31 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>
@@ -47745,12 +47777,12 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 390 1229  390 460  </m_arrow>
+			<m_arrow type="a">2 342 1223  342 454  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">34 36 </m_SourcePort>
-			<m_TargetPort type="a">34 36 </m_TargetPort>
+			<m_SourcePort type="a">34 31 </m_SourcePort>
+			<m_TargetPort type="a">34 31 </m_TargetPort>
 			<m_bShowSourceMultiplicity type="a">0</m_bShowSourceMultiplicity>
 			<m_bShowSourceRole type="a">0</m_bShowSourceRole>
 			<m_bShowTargetMultiplicity type="a">0</m_bShowTargetMultiplicity>

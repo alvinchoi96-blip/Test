@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\BMS_Model",
+    "\\BMS_Model\\BMS_Model_SWUD",
+    "\\BMS_Model\\BMS_Model_SWUD\\Composition_BMS_SWUD",
+    "\\BMS_Model\\BMS_Model_SWUD\\Composition_BMS_SWUD\\SWC_BMS_MainCntrl_SWUD",
+    "\\BMS_Model\\BMS_Model_SWUD\\Composition_BMS_SWUD\\SWC_BMS_MainCntrl_SWUD\\RteFiles",
+    "\\BMS_Model\\BMS_Model_SWUD\\Composition_BMS_SWUD\\SWC_BMS_MainCntrl_SWUD\\SWC_BMS_MainCntrl_Src",
+    "\\Core",
+    "\\Core\\Inc",
+    "\\Core\\Src"
+  ],
+  "SelectedNode": "\\BMS_Model\\BMS_Model_SWUD\\Composition_BMS_SWUD\\SWC_BMS_MainCntrl_SWUD\\SWC_BMS_MainCntrl_Src\\Rte_SWC_BMS_MainCntrl.c",
+  "PreviewInSolutionExplorer": false
+}

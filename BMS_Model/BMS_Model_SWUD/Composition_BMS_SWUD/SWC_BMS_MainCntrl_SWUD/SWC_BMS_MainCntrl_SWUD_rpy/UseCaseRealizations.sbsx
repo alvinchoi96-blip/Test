@@ -25,10 +25,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::3:47:1</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::3:47:1</_modifiedTime>
-			<_lastID type="a">1</_lastID>
-			<weakCGTime type="a">1.21.2026::3:47:1</weakCGTime>
+			<_modifiedTimeWeak type="a">1.27.2026::0:3:18</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::0:3:18</_modifiedTime>
+			<weakCGTime type="a">1.27.2026::0:3:18</weakCGTime>
 			<strongCGTime type="a">11.30.2024::0:20:52</strongCGTime>
 			<_defaultComposite type="s">GUID f9a7c51b-aa2a-45eb-9ba5-18690438eaef</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -37,12 +36,12 @@
 				<value>GUID 03a71a60-ffa1-4b21-950d-f07e4f6b4427</value>
 				<value>GUID d32279bc-dae3-4eca-a63c-b7f8f0c7152f</value>
 				<value>GUID aace3da0-820d-4970-87c2-fbaffc2f280e</value>
-				<value>GUID 619fe814-0992-49a3-b8a2-9319eade5d57</value>
-				<value>GUID d21846bc-4e02-42e4-8adc-af693308826e</value>
-				<value>GUID 91638f2d-e542-4c60-82a5-6b67c3c62d1f</value>
-				<value>GUID 44d0afdb-accc-458c-9a17-643ccf2b1223</value>
-				<value>GUID b398929e-16db-48f0-8edb-baa674321cd9</value>
-				<value>GUID 47dc7366-3d1f-47ae-9fc5-1ee16bb0da83</value>
+				<value>GUID bec78e79-484c-426b-a757-931e07222754</value>
+				<value>GUID 8d3b1ec3-23b1-467a-a1c1-22e07a903d06</value>
+				<value>GUID 6191261d-f29a-4303-8858-e9e4b3c2e9f0</value>
+				<value>GUID dd90a273-8131-4d92-badf-1771b39b0650</value>
+				<value>GUID 6d363e47-c7fe-48d0-a917-f69e076df559</value>
+				<value>GUID 4b99513f-7eea-4864-b19d-58ad8dbf7f8b</value>
 				<value>GUID f9a7c51b-aa2a-45eb-9ba5-18690438eaef</value>
 			</AggregatesList>
 		</ISubsystem>
@@ -83,18 +82,18 @@
 \viewkind4\uc1\pard\lang1042\f0\fs18 AUTOSAR_Project_Name\par%0D
 }%0D
 </_displayName>
-			<_modifiedTimeWeak type="a">1.21.2026::3:46:58</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::3:46:58</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::0:2:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::0:2:57</_modifiedTime>
 			<_isOrdered type="a">0</_isOrdered>
 			<AggregatesList type="e">
-				<value>GUID 4b0412ea-1b78-4cb1-a67e-43479ddecfa5</value>
+				<value>GUID 8a12b1cf-3d40-4c14-ac89-551c49263a99</value>
 				<value>GUID 0b9a120d-e41d-44bd-9d82-4e3827b44979</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 4b0412ea-1b78-4cb1-a67e-43479ddecfa5</_id>
-			<_modifiedTimeWeak type="a">1.21.2026::3:46:58</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::3:46:58</_modifiedTime>
+			<_id type="a">GUID 8a12b1cf-3d40-4c14-ac89-551c49263a99</_id>
+			<_modifiedTimeWeak type="a">1.27.2026::0:2:57</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::0:2:57</_modifiedTime>
 			<_value type="a">BMS_Model_SWAD\Composition_BMS_SWAD\Composition_BMS_SWAD.rpyx</_value>
 		</ILiteralSpecification>
 		<IType type="e">
@@ -112,18 +111,18 @@
 \viewkind4\uc1\pard\lang1042\f0\fs18 AUTOSAR_Version\par%0D
 }%0D
 </_displayName>
-			<_modifiedTimeWeak type="a">1.21.2026::3:46:59</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::3:46:59</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.27.2026::0:3:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::0:3:0</_modifiedTime>
 			<_isOrdered type="a">0</_isOrdered>
 			<AggregatesList type="e">
-				<value>GUID 280705ab-19f4-442c-87e4-5139f960bf78</value>
+				<value>GUID 0f6572b0-d099-408c-b3d2-3146f61ecac7</value>
 				<value>GUID 42dcfe4f-bc50-4102-bc16-9c97b1ee0c33</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 280705ab-19f4-442c-87e4-5139f960bf78</_id>
-			<_modifiedTimeWeak type="a">1.21.2026::3:46:59</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::3:46:59</_modifiedTime>
+			<_id type="a">GUID 0f6572b0-d099-408c-b3d2-3146f61ecac7</_id>
+			<_modifiedTimeWeak type="a">1.27.2026::0:3:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::0:3:0</_modifiedTime>
 			<_value type="a">44</_value>
 		</ILiteralSpecification>
 		<IType type="e">
@@ -134,28 +133,28 @@
 			<_kind type="a">Language</_kind>
 		</IType>
 		<ISubsystem type="e">
-			<fileName type="a">package_0</fileName>
-			<_id type="a">GUID 619fe814-0992-49a3-b8a2-9319eade5d57</_id>
+			<fileName type="a">REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</fileName>
+			<_id type="a">GUID bec78e79-484c-426b-a757-931e07222754</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">REmsSWC_BMS_MainCntrl_R_VcuCmd_BmsModeSwitch_StandAlone</fileName>
-			<_id type="a">GUID d21846bc-4e02-42e4-8adc-af693308826e</_id>
+			<fileName type="a">REtSWC_BMS_MainCntrl_SoX_1000ms</fileName>
+			<_id type="a">GUID 8d3b1ec3-23b1-467a-a1c1-22e07a903d06</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">REmsSWC_BMS_MainCntrl_R_VcuCmd_BmsModeSwitch_Standby</fileName>
-			<_id type="a">GUID 91638f2d-e542-4c60-82a5-6b67c3c62d1f</_id>
+			<fileName type="a">REtSWC_BMS_MainCntrl_PerfomCellBalancing_1000ms</fileName>
+			<_id type="a">GUID 6191261d-f29a-4303-8858-e9e4b3c2e9f0</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">REmsSWC_BMS_MainCntrl_R_VcuCmd_BmsModeSwitch_Driving</fileName>
-			<_id type="a">GUID 44d0afdb-accc-458c-9a17-643ccf2b1223</_id>
+			<fileName type="a">REtSWC_BMS_MainCntrl_ChargeSequence_100ms</fileName>
+			<_id type="a">GUID dd90a273-8131-4d92-badf-1771b39b0650</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">REmsSWC_BMS_MainCntrl_R_VcuCmd_BmsModeSwitch_Charging</fileName>
-			<_id type="a">GUID b398929e-16db-48f0-8edb-baa674321cd9</_id>
+			<fileName type="a">REtSWC_BMS_MainCntrl_HMI_Output_100ms</fileName>
+			<_id type="a">GUID 6d363e47-c7fe-48d0-a917-f69e076df559</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
-			<fileName type="a">REmsSWC_BMS_MainCntrl_R_VcuCmd_BmsModeSwitch_Shut_Down</fileName>
-			<_id type="a">GUID 47dc7366-3d1f-47ae-9fc5-1ee16bb0da83</_id>
+			<fileName type="a">REtSWC_BMS_MainCntrl_ReportBattInfoData_10ms</fileName>
+			<_id type="a">GUID 4b99513f-7eea-4864-b19d-58ad8dbf7f8b</_id>
 		</ISubsystem>
 		<IClass type="e">
 			<_id type="a">GUID f9a7c51b-aa2a-45eb-9ba5-18690438eaef</_id>

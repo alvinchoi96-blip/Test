@@ -1,0 +1,6 @@
+[RunnableEntity]
+num=4
+1=REoiSWC_SOC_Algo_P_SocCalc_calculateSoc
+2=REoiSWC_SOC_Algo_P_SocCalc_calculateSoh
+3=REoiSWC_SOC_Algo_P_SocCalc_calculateCapacity
+4=REtSWC_SOC_Algo_ReadBattStatus_100ms

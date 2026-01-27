@@ -1,0 +1,4 @@
+[RunnableEntity]
+num=2
+1=REtSWC_SigInput_SendSignalInput_10ms
+2=REtSWC_SigInput_SendVcuCanCmd_10ms

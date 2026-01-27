@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>949</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 48b5909d-4c6e-4f9c-b02c-360a250bbf73</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">SWC_BalancingMngr_Src</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+							<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+							<_hname type="a">Directory</_hname>
+							<_hid type="a">GUID 1f87bd3d-36f6-43e5-ba1a-520b52732caa</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.27.2026::0:31:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::0:31:11</_modifiedTime>
+			<weakCGTime type="a">1.27.2026::0:31:12</weakCGTime>
+			<strongCGTime type="a">1.27.2026::0:31:11</strongCGTime>
+			<_defaultComposite type="s">GUID d50fcb56-9ef6-4ee3-ba13-e9a378afa42e</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">11.30.2024::0:6:16</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID d50fcb56-9ef6-4ee3-ba13-e9a378afa42e</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID d50fcb56-9ef6-4ee3-ba13-e9a378afa42e</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.27.2026::0:31:12</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::0:31:12</_modifiedTime>
+			<weakCGTime type="a">1.27.2026::0:31:12</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 93edab67-f92d-40be-bb2e-20dab7480dda</value>
+			</AggregatesList>
+		</IClass>
+		<IModule type="e">
+			<_id type="a">GUID 93edab67-f92d-40be-bb2e-20dab7480dda</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						<IPropertySubject type="e">
+							<_Name type="a">CG</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Class</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">4</size>
+												<IProperty type="e">
+													<_Name type="a">CreateImplicitDependencies</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">GenerateImplicitConstructors</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">GenerateImplicitDependencies</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ImplicitDependencyToPackage</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">Rte_SWC_BalancingMngr</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}{\f1\fswiss\fprq2\fcharset0 MS Sans Serif;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 Rte_\f1 CTS\par%0D
+}%0D
+</_displayName>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+							<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+							<_hname type="a">SourceFile</_hname>
+							<_hid type="a">GUID 498de8e7-8855-4011-83bd-e82e126638db</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.27.2026::0:31:12</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::0:31:12</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 7419ec96-5344-4572-8ceb-ee6543c47d0a</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID 7419ec96-5344-4572-8ceb-ee6543c47d0a</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">Rte_SWC_BalancingMngr</_name>
+				<_modifiedTimeWeak type="a">1.27.2026::0:31:12</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.27.2026::0:31:12</_modifiedTime>
+				<_lastID type="a">10</_lastID>
+				<weakCGTime type="a">1.27.2026::0:31:12</weakCGTime>
+				<strongCGTime type="a">1.27.2026::0:31:11</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID 8f3a5fb3-6d0a-4cd9-855c-d16023763b09</value>
+					<value>GUID 4a068b12-4e41-4fbc-a459-fad89af20eb6</value>
+					<value>GUID 8bf19d85-4f68-4547-a0bd-43b80dd55319</value>
+					<value>GUID 3734925a-96c2-4376-bc30-038fb0e94ed4</value>
+				</AggregatesList>
+			</IClass>
+			<IDependency type="e">
+				<_id type="a">GUID 8f3a5fb3-6d0a-4cd9-855c-d16023763b09</_id>
+				<_myState type="a">2048</_myState>
+				<_name type="a">Rte_SWC_BalancingMngr</_name>
+				<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fnil\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 Rte_CTS\par%0D
+}%0D
+</_displayName>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">use</_hname>
+								<_hid type="a">GUID a152726d-737c-49ac-9d3a-0f50506b3c07</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.27.2026::0:31:11</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.27.2026::0:31:11</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hfilename type="a">.\RteFiles.sbsx</_hfilename>
+						<_hsubsystem type="a">RteFiles</_hsubsystem>
+						<_hclass type="a">TopLevel</_hclass>
+						<_hname type="a">Rte_SWC_BalancingMngr</_hname>
+						<_hid type="a">GUID 1df1f9ad-20f5-494e-be3f-e49783aa7dcc</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_dependent type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 7419ec96-5344-4572-8ceb-ee6543c47d0a</_hid>
+					</INObjectHandle>
+				</_dependent>
+			</IDependency>
+			<IType type="e">
+				<_id type="a">GUID 4a068b12-4e41-4fbc-a459-fad89af20eb6</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">Rte_SWC_BalancingMngr</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Include</_hname>
+								<_hid type="a">GUID 3ed54781-4082-4b58-bf46-50ff5bc69e27</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.27.2026::0:31:11</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.27.2026::0:31:11</_modifiedTime>
+				<_declaration type="a">#include &quot;%25s.h&quot;</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IPrimitiveOperation type="e">
+				<_id type="a">GUID 8bf19d85-4f68-4547-a0bd-43b80dd55319</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">REoiSWC_BalancingMngr_P_CellBalanceReq_cellBalanceEnable</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">RunnableEntity</_hname>
+								<_hid type="a">GUID c914bdb2-dea4-4a79-9555-1dcfc8d9a59c</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.27.2026::0:31:12</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.27.2026::0:31:12</_modifiedTime>
+				<_virtual type="a">0</_virtual>
+				<_abstract type="a">0</_abstract>
+				<_final type="a">0</_final>
+				<_concurrency type="a">Sequential</_concurrency>
+				<_protection type="a">iPublic</_protection>
+				<_static type="a">0</_static>
+				<_constant type="a">0</_constant>
+				<AggregatesList type="e">
+					<value>GUID 669848e7-f861-4dcc-ad0e-550ae3f357f0</value>
+					<value>GUID 9dc84377-89db-4d87-9815-2318af0998c7</value>
+					<value>GUID 41cf0d05-e347-46c1-b013-472981aba9d6</value>
+				</AggregatesList>
+			</IPrimitiveOperation>
+			<IArgument type="e">
+				<_id type="a">GUID 669848e7-f861-4dcc-ad0e-550ae3f357f0</_id>
+				<_myState type="a">8192</_myState>
+				<_rmmServerID type="a">-1</_rmmServerID>
+				<_name type="a">cellVoltageIndividual</_name>
+				<_modifiedTimeWeak type="a">1.27.2026::0:31:12</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.27.2026::0:31:12</_modifiedTime>
+				<_isOrdered type="a">0</_isOrdered>
+				<_argumentDirection type="a">In</_argumentDirection>
+				<AggregatesList type="e">
+					<value>GUID 8b3ec329-8012-461b-9032-5cfc0e421ec9</value>
+				</AggregatesList>
+			</IArgument>
+			<IType type="e">
+				<_id type="a">GUID 8b3ec329-8012-461b-9032-5cfc0e421ec9</_id>
+				<_myState type="a">8192</_myState>
+				<_rmmServerID type="a">-1</_rmmServerID>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.27.2026::0:31:12</_modifiedTime>
+				<_declaration type="a">P2CONST(uint16, AUTOMATIC, RTE_APPL_CONST) %25s</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IArgument type="e">
+				<_id type="a">GUID 9dc84377-89db-4d87-9815-2318af0998c7</_id>
+				<_myState type="a">8192</_myState>
+				<_rmmServerID type="a">-1</_rmmServerID>
+				<_name type="a">targetIbpLevel</_name>
+				<_modifiedTimeWeak type="a">1.27.2026::0:31:12</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.27.2026::0:31:12</_modifiedTime>
+				<_isOrdered type="a">0</_isOrdered>
+				<_argumentDirection type="a">In</_argumentDirection>
+				<AggregatesList type="e">
+					<value>GUID 8cee5d43-7fb8-456a-aa0f-687231d74888</value>
+				</AggregatesList>
+			</IArgument>
+			<IType type="e">
+				<_id type="a">GUID 8cee5d43-7fb8-456a-aa0f-687231d74888</_id>
+				<_myState type="a">8192</_myState>
+				<_rmmServerID type="a">-1</_rmmServerID>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.27.2026::0:31:12</_modifiedTime>
+				<_declaration type="a">VAR(uint16, AUTOMATIC) %25s</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID 41cf0d05-e347-46c1-b013-472981aba9d6</_id>
+				<_myState type="a">8192</_myState>
+				<_rmmServerID type="a">-1</_rmmServerID>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.27.2026::0:31:12</_modifiedTime>
+				<_declaration type="a">FUNC(void, SWC_BalancingMngr_CODE)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IPrimitiveOperation type="e">
+				<_id type="a">GUID 3734925a-96c2-4376-bc30-038fb0e94ed4</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">REoiSWC_BalancingMngr_P_CellBalanceReq_cellBalanceDisable</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">RunnableEntity</_hname>
+								<_hid type="a">GUID c914bdb2-dea4-4a79-9555-1dcfc8d9a59c</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.27.2026::0:31:12</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.27.2026::0:31:12</_modifiedTime>
+				<_virtual type="a">0</_virtual>
+				<Args type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">0</size>
+					</IRPYRawContainer>
+				</Args>
+				<_abstract type="a">0</_abstract>
+				<_final type="a">0</_final>
+				<_concurrency type="a">Sequential</_concurrency>
+				<_protection type="a">iPublic</_protection>
+				<_static type="a">0</_static>
+				<_constant type="a">0</_constant>
+				<AggregatesList type="e">
+					<value>GUID 65fff6fa-830e-4d35-a66e-37bada93a94b</value>
+				</AggregatesList>
+			</IPrimitiveOperation>
+			<IType type="e">
+				<_id type="a">GUID 65fff6fa-830e-4d35-a66e-37bada93a94b</_id>
+				<_myState type="a">8192</_myState>
+				<_rmmServerID type="a">-1</_rmmServerID>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.27.2026::0:31:12</_modifiedTime>
+				<_declaration type="a">FUNC(void, SWC_BalancingMngr_CODE)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			</_implicitClass>
+		</IModule>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

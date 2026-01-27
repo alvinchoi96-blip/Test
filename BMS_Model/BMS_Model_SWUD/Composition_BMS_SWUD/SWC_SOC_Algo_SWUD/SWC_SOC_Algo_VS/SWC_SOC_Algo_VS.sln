@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2022
+Project("{c653239c-9a98-4e97-be9b-cdf40c9d2ee0}") = "SWC_SOC_Algo_VS", "SWC_SOC_Algo_VS\SWC_SOC_Algo_VS.vcxproj", "{f1d97bda-ffe8-4fea-b632-8d130140f8d6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{f1d97bda-ffe8-4fea-b632-8d130140f8d6}.Debug|x86.ActiveCfg = Debug|Win32
+		{f1d97bda-ffe8-4fea-b632-8d130140f8d6}.Debug|x86.Build.0 = Debug|Win32
+		{f1d97bda-ffe8-4fea-b632-8d130140f8d6}.Release|x86.ActiveCfg = Release|Win32
+		{f1d97bda-ffe8-4fea-b632-8d130140f8d6}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4576bc9f-4027-4904-9d80-9c29406c1e14}
+	EndGlobalSection
+EndGlobal

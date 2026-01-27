@@ -1,0 +1,5 @@
+[RunnableEntity]
+num=3
+1=REtSWC_BMS_Status_Tx_GetBatStFlg_20ms
+2=REtSWC_BMS_Status_Tx_GetPackCalData_50ms
+3=REtSWC_BMS_Status_Tx_GetData_10ms

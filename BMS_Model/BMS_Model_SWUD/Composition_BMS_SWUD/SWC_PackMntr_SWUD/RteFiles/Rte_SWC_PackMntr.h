@@ -1,0 +1,16 @@
+#ifndef RTE_SWC_PACKMNTR_H
+#define RTE_SWC_PACKMNTR_H
+
+#include "Rte_SWC_PackMntr_Type.h"
+
+#define Rte_Write_P_CurrMeasData_packCurrent Rte_Write_SWC_PackMntr_P_CurrMeasData_packCurrent
+#define Rte_Write_P_PackInsulationData_insulationResistanceValue Rte_Write_SWC_PackMntr_P_PackInsulationData_insulationResistanceValue
+
+extern CONSTP2CONST(Rte_CDS_SWC_PackMntr, RTE_CONST, RTE_CONST) Rte_Inst_SWC_PackMntr;
+
+extern FUNC(Std_ReturnType, RTE_CODE) Rte_Write_SWC_PackMntr_P_CurrMeasData_packCurrent(VAR(sint32, AUTOMATIC) packCurrent);
+extern FUNC(Std_ReturnType, RTE_CODE) Rte_Write_SWC_PackMntr_P_PackInsulationData_insulationResistanceValue(VAR(uint32, AUTOMATIC) insulationResistanceValue);
+FUNC(void, SWC_PackMntr_CODE) REtSWC_PackMntr_SendCurrMeasData_10ms();
+FUNC(void, SWC_PackMntr_CODE) REtSWC_PackMntr_SendPackInsulationData_10ms();
+
+#endif

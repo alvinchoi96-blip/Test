@@ -1,0 +1,21 @@
+#ifndef RTE_SWC_HMI_DRIVER_H
+#define RTE_SWC_HMI_DRIVER_H
+
+#include "Rte_SWC_HMI_Driver_Type.h"
+
+#define Rte_Read_R_HMI_SigOutput_battRalayEnableStatus Rte_Read_SWC_HMI_Driver_R_HMI_SigOutput_battRalayEnableStatus
+#define Rte_Read_R_HMI_SigOutput_bmsFaultLevel Rte_Read_SWC_HMI_Driver_R_HMI_SigOutput_bmsFaultLevel
+#define Rte_Read_R_HMI_SigOutput_buzzerOutputFlag Rte_Read_SWC_HMI_Driver_R_HMI_SigOutput_buzzerOutputFlag
+#define Rte_Read_R_HMI_SigOutput_chargingStatus Rte_Read_SWC_HMI_Driver_R_HMI_SigOutput_chargingStatus
+#define Rte_Read_R_HMI_SigOutput_socGauge Rte_Read_SWC_HMI_Driver_R_HMI_SigOutput_socGauge
+
+extern CONSTP2CONST(Rte_CDS_SWC_HMI_Driver, RTE_CONST, RTE_CONST) Rte_Inst_SWC_HMI_Driver;
+
+extern FUNC(Std_ReturnType, RTE_CODE) Rte_Read_SWC_HMI_Driver_R_HMI_SigOutput_battRalayEnableStatus(P2VAR(boolean, AUTOMATIC, RTE_APPL_DATA) battRalayEnableStatus);
+extern FUNC(Std_ReturnType, RTE_CODE) Rte_Read_SWC_HMI_Driver_R_HMI_SigOutput_bmsFaultLevel(P2VAR(e_FaultLevel, AUTOMATIC, RTE_APPL_DATA) bmsFaultLevel);
+extern FUNC(Std_ReturnType, RTE_CODE) Rte_Read_SWC_HMI_Driver_R_HMI_SigOutput_buzzerOutputFlag(P2VAR(boolean, AUTOMATIC, RTE_APPL_DATA) buzzerOutputFlag);
+extern FUNC(Std_ReturnType, RTE_CODE) Rte_Read_SWC_HMI_Driver_R_HMI_SigOutput_chargingStatus(P2VAR(e_ChgInfo, AUTOMATIC, RTE_APPL_DATA) chargingStatus);
+extern FUNC(Std_ReturnType, RTE_CODE) Rte_Read_SWC_HMI_Driver_R_HMI_SigOutput_socGauge(P2VAR(uint8, AUTOMATIC, RTE_APPL_DATA) socGauge);
+FUNC(void, SWC_HMI_Driver_CODE) REtSWC_HMI_Driver_GetSig_100ms();
+
+#endif

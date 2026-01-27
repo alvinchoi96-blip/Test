@@ -1,0 +1,4 @@
+[RunnableEntity]
+num=2
+1=REoiSWC_ChargeMngr_P_ChgData_chargeSequenceCtrl
+2=REtSWC_ChargeMngr_ReadBattStatus_100ms

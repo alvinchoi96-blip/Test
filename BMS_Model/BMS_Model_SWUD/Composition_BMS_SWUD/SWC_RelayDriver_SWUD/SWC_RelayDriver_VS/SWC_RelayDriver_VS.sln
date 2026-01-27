@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2022
+Project("{6d487684-4af2-4530-ae70-9e4b3b012c47}") = "SWC_RelayDriver_VS", "SWC_RelayDriver_VS\SWC_RelayDriver_VS.vcxproj", "{40f14c5d-e6ab-48ab-8f54-42d98f7ce891}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40f14c5d-e6ab-48ab-8f54-42d98f7ce891}.Debug|x86.ActiveCfg = Debug|Win32
+		{40f14c5d-e6ab-48ab-8f54-42d98f7ce891}.Debug|x86.Build.0 = Debug|Win32
+		{40f14c5d-e6ab-48ab-8f54-42d98f7ce891}.Release|x86.ActiveCfg = Release|Win32
+		{40f14c5d-e6ab-48ab-8f54-42d98f7ce891}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4bc5aba6-b8d6-402a-9226-8bf9f9e70a91}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2022
+Project("{269f97d0-8740-41a7-96ef-c461fa7b6430}") = "SWC_PackMntr_VS", "SWC_PackMntr_VS\SWC_PackMntr_VS.vcxproj", "{ae53c7d8-b4c5-4a7a-b451-3dd7acfe3eeb}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ae53c7d8-b4c5-4a7a-b451-3dd7acfe3eeb}.Debug|x86.ActiveCfg = Debug|Win32
+		{ae53c7d8-b4c5-4a7a-b451-3dd7acfe3eeb}.Debug|x86.Build.0 = Debug|Win32
+		{ae53c7d8-b4c5-4a7a-b451-3dd7acfe3eeb}.Release|x86.ActiveCfg = Release|Win32
+		{ae53c7d8-b4c5-4a7a-b451-3dd7acfe3eeb}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {dceaf97c-bea5-4a42-ab7d-cfbf503d60b8}
+	EndGlobalSection
+EndGlobal

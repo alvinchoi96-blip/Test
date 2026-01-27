@@ -1,0 +1,25 @@
+#ifndef RTE_SWC_CELLMNTR_H
+#define RTE_SWC_CELLMNTR_H
+
+#include "Rte_SWC_CellMntr_Type.h"
+
+#define Rte_Write_P_CellMeasData_cellSerialNum Rte_Write_SWC_CellMntr_P_CellMeasData_cellSerialNum
+#define Rte_Write_P_CellMeasData_cellVoltageAverage Rte_Write_SWC_CellMntr_P_CellMeasData_cellVoltageAverage
+#define Rte_Write_P_CellMeasData_cellVoltageIndividual Rte_Write_SWC_CellMntr_P_CellMeasData_cellVoltageIndividual
+#define Rte_Write_P_CellMeasData_cellVoltageMax Rte_Write_SWC_CellMntr_P_CellMeasData_cellVoltageMax
+#define Rte_Write_P_CellMeasData_cellVoltageMin Rte_Write_SWC_CellMntr_P_CellMeasData_cellVoltageMin
+#define Rte_Write_P_CellMeasData_ibpLevel Rte_Write_SWC_CellMntr_P_CellMeasData_ibpLevel
+#define Rte_Write_P_CellMeasData_packVoltageSum Rte_Write_SWC_CellMntr_P_CellMeasData_packVoltageSum
+
+extern CONSTP2CONST(Rte_CDS_SWC_CellMntr, RTE_CONST, RTE_CONST) Rte_Inst_SWC_CellMntr;
+
+extern FUNC(Std_ReturnType, RTE_CODE) Rte_Write_SWC_CellMntr_P_CellMeasData_cellSerialNum(VAR(uint8, AUTOMATIC) cellSerialNum);
+extern FUNC(Std_ReturnType, RTE_CODE) Rte_Write_SWC_CellMntr_P_CellMeasData_cellVoltageAverage(VAR(uint16, AUTOMATIC) cellVoltageAverage);
+extern FUNC(Std_ReturnType, RTE_CODE) Rte_Write_SWC_CellMntr_P_CellMeasData_cellVoltageIndividual(P2CONST(uint16, AUTOMATIC, RTE_APPL_CONST) cellVoltageIndividual);
+extern FUNC(Std_ReturnType, RTE_CODE) Rte_Write_SWC_CellMntr_P_CellMeasData_cellVoltageMax(VAR(uint16, AUTOMATIC) cellVoltageMax);
+extern FUNC(Std_ReturnType, RTE_CODE) Rte_Write_SWC_CellMntr_P_CellMeasData_cellVoltageMin(VAR(uint16, AUTOMATIC) cellVoltageMin);
+extern FUNC(Std_ReturnType, RTE_CODE) Rte_Write_SWC_CellMntr_P_CellMeasData_ibpLevel(VAR(uint16, AUTOMATIC) ibpLevel);
+extern FUNC(Std_ReturnType, RTE_CODE) Rte_Write_SWC_CellMntr_P_CellMeasData_packVoltageSum(VAR(uint32, AUTOMATIC) packVoltageSum);
+FUNC(void, SWC_CellMntr_CODE) REtSWC_CellMntr_SendCellMeasData_50ms();
+
+#endif

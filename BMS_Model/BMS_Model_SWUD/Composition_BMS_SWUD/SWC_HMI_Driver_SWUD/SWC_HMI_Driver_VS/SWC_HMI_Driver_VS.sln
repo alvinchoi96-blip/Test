@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2022
+Project("{cbdf38d5-0498-4645-92f4-46befe6bc449}") = "SWC_HMI_Driver_VS", "SWC_HMI_Driver_VS\SWC_HMI_Driver_VS.vcxproj", "{bd6a1b82-ba74-4ed9-be1c-69e3c519c709}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{bd6a1b82-ba74-4ed9-be1c-69e3c519c709}.Debug|x86.ActiveCfg = Debug|Win32
+		{bd6a1b82-ba74-4ed9-be1c-69e3c519c709}.Debug|x86.Build.0 = Debug|Win32
+		{bd6a1b82-ba74-4ed9-be1c-69e3c519c709}.Release|x86.ActiveCfg = Release|Win32
+		{bd6a1b82-ba74-4ed9-be1c-69e3c519c709}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3e235ee9-e95d-4885-9748-3232e8922a83}
+	EndGlobalSection
+EndGlobal

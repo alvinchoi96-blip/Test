@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>949</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID fc7b4b7c-f77e-4fd3-9c72-c263a6c5c615</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">UseCaseRealizations</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+							<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+							<_hname type="a">Use Case Realization</_hname>
+							<_hid type="a">GUID f590ffc8-1367-482f-9ceb-ad7b82e9569a</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.27.2026::0:4:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::0:4:4</_modifiedTime>
+			<weakCGTime type="a">1.27.2026::0:4:4</weakCGTime>
+			<strongCGTime type="a">11.30.2024::0:20:52</strongCGTime>
+			<_defaultComposite type="s">GUID f9a7c51b-aa2a-45eb-9ba5-18690438eaef</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">12.2.2024::22:32:44</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID 03a71a60-ffa1-4b21-950d-f07e4f6b4427</value>
+				<value>GUID d32279bc-dae3-4eca-a63c-b7f8f0c7152f</value>
+				<value>GUID aace3da0-820d-4970-87c2-fbaffc2f280e</value>
+				<value>GUID d6af51c8-6f8d-48c7-8126-c32208923622</value>
+				<value>GUID 3f87af3c-51c6-440d-b2fe-def24e195bf6</value>
+				<value>GUID f9a7c51b-aa2a-45eb-9ba5-18690438eaef</value>
+			</AggregatesList>
+		</ISubsystem>
+		<ITag type="e">
+			<_id type="a">GUID 03a71a60-ffa1-4b21-950d-f07e4f6b4427</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">author</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 author\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">11.30.2024::8:46:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.30.2024::8:46:4</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID dec5e031-aca0-400d-8b91-4f52ab3b6db9</value>
+				<value>GUID 51041d4d-07b7-4054-b32d-f057e5317bae</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID dec5e031-aca0-400d-8b91-4f52ab3b6db9</_id>
+			<_modifiedTimeWeak type="a">11.30.2024::8:46:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">11.30.2024::8:46:4</_modifiedTime>
+			<_value type="a">MDS</_value>
+		</ILiteralSpecification>
+		<IType type="e">
+			<_id type="a">GUID 51041d4d-07b7-4054-b32d-f057e5317bae</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<ITag type="e">
+			<_id type="a">GUID d32279bc-dae3-4eca-a63c-b7f8f0c7152f</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">AUTOSAR_Project_Name</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 AUTOSAR_Project_Name\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.27.2026::0:4:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::0:4:2</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID 09061282-16c5-4875-9529-bcf0dfe257ad</value>
+				<value>GUID 0b9a120d-e41d-44bd-9d82-4e3827b44979</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID 09061282-16c5-4875-9529-bcf0dfe257ad</_id>
+			<_modifiedTimeWeak type="a">1.27.2026::0:4:2</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::0:4:2</_modifiedTime>
+			<_value type="a">BMS_Model_SWAD\Composition_BMS_SWAD\Composition_BMS_SWAD.rpyx</_value>
+		</ILiteralSpecification>
+		<IType type="e">
+			<_id type="a">GUID 0b9a120d-e41d-44bd-9d82-4e3827b44979</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<ITag type="e">
+			<_id type="a">GUID aace3da0-820d-4970-87c2-fbaffc2f280e</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">AUTOSAR_Version</_name>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 AUTOSAR_Version\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.27.2026::0:4:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::0:4:3</_modifiedTime>
+			<_isOrdered type="a">0</_isOrdered>
+			<AggregatesList type="e">
+				<value>GUID d30bd76b-967f-48b1-860c-5e0eef2cab43</value>
+				<value>GUID 42dcfe4f-bc50-4102-bc16-9c97b1ee0c33</value>
+			</AggregatesList>
+		</ITag>
+		<ILiteralSpecification type="e">
+			<_id type="a">GUID d30bd76b-967f-48b1-860c-5e0eef2cab43</_id>
+			<_modifiedTimeWeak type="a">1.27.2026::0:4:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::0:4:3</_modifiedTime>
+			<_value type="a">44</_value>
+		</ILiteralSpecification>
+		<IType type="e">
+			<_id type="a">GUID 42dcfe4f-bc50-4102-bc16-9c97b1ee0c33</_id>
+			<_myState type="a">8192</_myState>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<_kind type="a">Language</_kind>
+		</IType>
+		<ISubsystem type="e">
+			<fileName type="a">REtSWC_PackMntr_SendCurrMeasData_10ms</fileName>
+			<_id type="a">GUID d6af51c8-6f8d-48c7-8126-c32208923622</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">REtSWC_PackMntr_SendPackInsulationData_10ms</fileName>
+			<_id type="a">GUID 3f87af3c-51c6-440d-b2fe-def24e195bf6</_id>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID f9a7c51b-aa2a-45eb-9ba5-18690438eaef</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
+			<weakCGTime type="a">1.2.1990::0:0:0</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+		</IClass>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

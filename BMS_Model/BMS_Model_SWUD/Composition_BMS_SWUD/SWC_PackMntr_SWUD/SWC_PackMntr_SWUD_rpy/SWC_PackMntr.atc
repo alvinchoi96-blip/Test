@@ -1,0 +1,4 @@
+[RunnableEntity]
+num=2
+1=REtSWC_PackMntr_SendCurrMeasData_10ms
+2=REtSWC_PackMntr_SendPackInsulationData_10ms

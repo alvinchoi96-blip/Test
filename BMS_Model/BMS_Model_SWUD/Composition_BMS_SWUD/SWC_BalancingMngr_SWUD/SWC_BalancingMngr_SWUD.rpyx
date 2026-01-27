@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>949</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<IProject type="e">
+			<_id type="a">GUID b0fb7be9-5138-4039-971d-8a6a5d33735f</_id>
+			<_myState type="a">8192</_myState>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">4</size>
+						<IPropertySubject type="e">
+							<_Name type="a">Browser</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Settings</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">3</size>
+												<IProperty type="e">
+													<_Name type="a">ShowAttributesCodeAsTooltip</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ShowOrder</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ShowSourceArtifacts</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">CG</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">2</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Class</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">4</size>
+												<IProperty type="e">
+													<_Name type="a">CreateImplicitDependencies</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">GenerateImplicitConstructors</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">GenerateImplicitDependencies</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ImplicitDependencyToPackage</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Package</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">2</size>
+												<IProperty type="e">
+													<_Name type="a">GenerateImplicitDependencies</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ImplicitDependencyToPackage</_Name>
+													<_Value type="a">True</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">C_CG</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">2</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">File</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">3</size>
+												<IProperty type="e">
+													<_Name type="a">ImplementationHeader</_Name>
+													<_Value type="a">/********************************************************************* %0D
+	Rhapsody in C    : $RhapsodyVersion %0D
+	Component       : $ComponentName %0D
+	Configuration    : $ConfigurationName %0D
+	Model Element   : $FullModelElementName %0D
+	File Path           : $FullCodeGeneratedFileName %0D
+*********************************************************************/  %0D
+</_Value>
+													<_Type type="a">MultiLine</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">SpecificationFooter</_Name>
+													<_Value type="a"> %0D
+#ifdef __cplusplus %0D
+} %0D
+#endif %0D
+ %0D
+/********************************************************************* %0D
+	File Path	: $FullCodeGeneratedFileName %0D
+*********************************************************************/</_Value>
+													<_Type type="a">MultiLine</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">SpecificationHeader</_Name>
+													<_Value type="a">/********************************************************************* %0D
+	Rhapsody in C    : $RhapsodyVersion %0D
+	Component       : $ComponentName %0D
+	Configuration    : $ConfigurationName %0D
+	Model Element   : $FullModelElementName %0D
+	File Path           : $FullCodeGeneratedFileName %0D
+*********************************************************************/  %0D
+#ifdef __cplusplus%0D
+extern &quot;C&quot; {%0D
+#endif%0D
+</_Value>
+													<_Type type="a">MultiLine</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Operation</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">OpeningBraceStyle</_Name>
+													<_Value type="a">NewLine</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">SameLine, NewLine</_ExtraTypeInfo>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Model</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">9</size>
+												<IProperty type="e">
+													<_Name type="a">ModelCodeAssociativityFineTune</_Name>
+													<_Value type="a">Never</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">Bidirectional,RoundTrip,CodeGeneration,Never</_ExtraTypeInfo>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ShowHoveringToolbar</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ShowModelTooltipInBrowser</_Name>
+													<_Value type="a">Simple</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">Enhanced,Simple</_ExtraTypeInfo>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ShowModelTooltipInDescription</_Name>
+													<_Value type="a">Simple</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">Enhanced,Simple</_ExtraTypeInfo>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ShowModelTooltipInGE</_Name>
+													<_Value type="a">Simple</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">Enhanced,Simple</_ExtraTypeInfo>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ShowModelTooltipInGETab</_Name>
+													<_Value type="a">Simple</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">Enhanced,Simple</_ExtraTypeInfo>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ShowModelTooltipInGrid</_Name>
+													<_Value type="a">Simple</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">Enhanced,Simple</_ExtraTypeInfo>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ShowModelTooltipInMenu</_Name>
+													<_Value type="a">Simple</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">Enhanced,Simple</_ExtraTypeInfo>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">ShowModelTooltipInSearchResult</_Name>
+													<_Value type="a">Simple</_Value>
+													<_Type type="a">Enum</_Type>
+													<_ExtraTypeInfo type="a">Enhanced,Simple</_ExtraTypeInfo>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<_name type="a">SWC_BalancingMngr_SWUD</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hsubsystem type="a">AutomotiveESW</_hsubsystem>
+							<_hname type="a">AUTOSAR_403</_hname>
+							<_hid type="a">GUID 28996034-536b-4416-846f-60d52b63c9c7</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.27.2026::0:31:11</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.27.2026::0:31:11</_modifiedTime>
+			<_lastID type="a">4</_lastID>
+			<_UserColors type="w">
+				<IRPYRawContainer type="e">
+					<size type="a">16</size>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+					<value>16777215</value>
+				</IRPYRawContainer>
+			</_UserColors>
+			<_defaultSubsystem type="r">
+				<ISubsystemHandle type="e">
+					<_hm2Class type="a">ISubsystem</_hm2Class>
+					<_hname type="a">UseCaseRealizations</_hname>
+					<_hid type="a">GUID fc7b4b7c-f77e-4fd3-9c72-c263a6c5c615</_hid>
+				</ISubsystemHandle>
+			</_defaultSubsystem>
+			<_component type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IComponent</_hm2Class>
+					<_hname type="a">SWUDComp</_hname>
+					<_hid type="a">GUID 8c6b78b3-31fd-4930-bf9d-c11c872b75ce</_hid>
+				</IHandle>
+			</_component>
+			<Multiplicities type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">4</size>
+					<IMultiplicityItem type="e">
+						<_name type="a">1</_name>
+						<_count type="a">0</_count>
+					</IMultiplicityItem>
+					
+					<IMultiplicityItem type="e">
+						<_name type="a">*</_name>
+						<_count type="a">-1</_count>
+					</IMultiplicityItem>
+					
+					<IMultiplicityItem type="e">
+						<_name type="a">0,1</_name>
+						<_count type="a">-1</_count>
+					</IMultiplicityItem>
+					
+					<IMultiplicityItem type="e">
+						<_name type="a">1..*</_name>
+						<_count type="a">-1</_count>
+					</IMultiplicityItem>
+					
+				</IRPYRawContainer>
+			</Multiplicities>
+			<_isImportedFromDM type="a">0</_isImportedFromDM>
+			<Diagrams type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Diagrams>
+			<mapOslcAddedCollections type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</mapOslcAddedCollections>
+			<mapAssociationsToRemove type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</mapAssociationsToRemove>
+			<AggregatesList type="e">
+				<value>GUID 7d25c9cb-203a-467e-a5e9-08e707471cd2</value>
+				<value>GUID fc7b4b7c-f77e-4fd3-9c72-c263a6c5c615</value>
+				<value>GUID 48b5909d-4c6e-4f9c-b02c-360a250bbf73</value>
+				<value>GUID 53b46a79-b3ce-4637-a843-3cac95da6844</value>
+				<value>GUID b9b848be-ff33-4dbb-b3be-174e9a4f5b05</value>
+				<value>GUID 8c6b78b3-31fd-4930-bf9d-c11c872b75ce</value>
+			</AggregatesList>
+		</IProject>
+		<IProfile type="e">
+			<fileName type="a">AutomotiveESW</fileName>
+			<_id type="a">GUID 7d25c9cb-203a-467e-a5e9-08e707471cd2</_id>
+		</IProfile>
+		<ISubsystem type="e">
+			<fileName type="a">UseCaseRealizations</fileName>
+			<_id type="a">GUID fc7b4b7c-f77e-4fd3-9c72-c263a6c5c615</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">SWC_BalancingMngr_Src</fileName>
+			<_id type="a">GUID 48b5909d-4c6e-4f9c-b02c-360a250bbf73</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">RteFiles</fileName>
+			<_id type="a">GUID 53b46a79-b3ce-4637-a843-3cac95da6844</_id>
+		</ISubsystem>
+		<ISubsystem type="e">
+			<fileName type="a">StubFiles</fileName>
+			<_id type="a">GUID b9b848be-ff33-4dbb-b3be-174e9a4f5b05</_id>
+		</ISubsystem>
+		<IComponent type="e">
+			<fileName type="a">SWUDComp</fileName>
+			<_id type="a">GUID 8c6b78b3-31fd-4930-bf9d-c11c872b75ce</_id>
+		</IComponent>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

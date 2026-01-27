@@ -1,0 +1,25 @@
+
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2022
+Project("{7ce37970-ea7f-42d9-8162-c2e357f79f0a}") = "SWC_FaultDTC_VS", "SWC_FaultDTC_VS\SWC_FaultDTC_VS.vcxproj", "{b0a186a4-6e6a-4870-9575-ae376cc43ce5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{b0a186a4-6e6a-4870-9575-ae376cc43ce5}.Debug|x86.ActiveCfg = Debug|Win32
+		{b0a186a4-6e6a-4870-9575-ae376cc43ce5}.Debug|x86.Build.0 = Debug|Win32
+		{b0a186a4-6e6a-4870-9575-ae376cc43ce5}.Release|x86.ActiveCfg = Release|Win32
+		{b0a186a4-6e6a-4870-9575-ae376cc43ce5}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {c02ea417-29c9-443c-9cf9-33119fdcc593}
+	EndGlobalSection
+EndGlobal

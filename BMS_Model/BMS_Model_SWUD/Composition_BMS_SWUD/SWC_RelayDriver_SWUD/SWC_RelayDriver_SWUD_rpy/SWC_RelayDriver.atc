@@ -1,0 +1,4 @@
+[RunnableEntity]
+num=2
+1=REoiSWC_RelayDriver_P_RelayControlReq_relayEnableReq
+2=REoiSWC_RelayDriver_P_RelayControlReq_relayDisableReq

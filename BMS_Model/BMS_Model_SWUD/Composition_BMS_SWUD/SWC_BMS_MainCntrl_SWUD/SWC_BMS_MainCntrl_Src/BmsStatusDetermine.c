@@ -1,104 +1,97 @@
-#include "Rte_SWC_BMS_MainCntrl.h"
+/**
+ * @file BmsStatusDetermine.c
+ * @brief BMS Detailed Logic Implementation
+ */
+
 #include "BmsStatusDetermine.h"
-
-
+#include "Rte_SWC_BMS_MainCntrl.h" /* RTE API 사용을 위해 포함 */
 
 /*******************************************************************************
- * Sub-Function: BMS_Read_Inputs
- * Description: Reads all necessary data from RTE ports
+ * Function: BMS_Logic_ReadInputs
+ * Description: RTE 포트를 통해 외부 신호 수신
  *******************************************************************************/
-void BMS_Read_Inputs(BmsInputData *pData)
+void BMS_Logic_ReadInputs(e_IgnStat* ign, boolean* chgConn, e_VcuCanCmd* vcuCmd, boolean* isFault)
 {
-    /* Read Ignition Status from SWC_SigInput */
-    Rte_Read_rp_SigInput_ignSignal(&pData->ignStatus);
-
-    /* Read Charger Connection Status */
-    Rte_Read_rp_SigInput_chargerConnectedFlag(&pData->isChargerConnected);
-
-    /* Read VCU Command (if any) */
-    Rte_Read_rp_VcuCanCmd_bmsActionCmd(&pData->vcuCmd);
-
-    /* Read Fault Flags from SWC_FaultDTC (Aggregated Flag or Individual) */
-    /* Assuming a summary fault flag interface exists or aggregating here */
-    boolean overCharge, overDischarge, isolationFault;
-    Rte_Read_rp_FaultFlag_errOverCharge(&overCharge);
-    Rte_Read_rp_FaultFlag_errOverDischarge(&overDischarge);
-    Rte_Read_rp_FaultFlag_errIsolation(&isolationFault);
-
-    /* Simple fault aggregation logic */
-    if (overCharge || overDischarge || isolationFault)
-    {
-        pData->isFaultActive = TRUE;
+    /* 1. Ignition Status 읽기 */
+    if (Rte_Read_rp_SigInput_ignStatus(ign) != RTE_E_OK) {
+        *ign = IGN_OFF; /* Read Fail 시 안전값(OFF) 설정 */
     }
-    else
-    {
-        pData->isFaultActive = FALSE;
+
+    /* 2. 충전기 연결 상태 읽기 */
+    if (Rte_Read_rp_SigInput_chargerConnectedFlag(chgConn) != RTE_E_OK) {
+        *chgConn = FALSE;
+    }
+
+    /* 3. VCU 상위 제어기 명령 읽기 */
+    if (Rte_Read_rp_VcuCanCmd_bmsActionCmd(vcuCmd) != RTE_E_OK) {
+        *vcuCmd = VCU_CMD_NONE;
+    }
+
+    /* 4. 고장 상태 읽기 (FaultDTC 컴포넌트로부터) */
+    if (Rte_Read_rp_FaultInfo_isFaultActive(isFault) != RTE_E_OK) {
+        *isFault = TRUE; /* 통신 실패 시 안전을 위해 Fault로 간주 */
     }
 }
 
 /*******************************************************************************
- * Sub-Function: BMS_Determine_State
- * Description: Implements the core logic from legacy 'Main_Loop'
+ * Function: BMS_Logic_DetermineState
+ * Description: 입력값 우선순위에 따라 BMS 운전 모드 결정
  *******************************************************************************/
-void BMS_Determine_State(const BmsInputData *pData, BMS_OperationModeType *pMode, boolean *pRelayEnable)
+void BMS_Logic_DetermineState(e_IgnStat ign, boolean chgConn, e_VcuCanCmd vcuCmd, boolean isFault, BMS_OperationModeType* currentMode)
 {
-    /* Priority 1: Fault Condition */
-    if (pData->isFaultActive == TRUE)
+    /* Priority 1: Critical Fault (최우선: 고장 발생 시) */
+    if (isFault == TRUE)
     {
-        *pMode = BMS_MODE_FAULT;
-        *pRelayEnable = FALSE; // Cut-off Relays
+        *currentMode = BMS_MODE_FAULT;
     }
-    /* Priority 2: VCU Command Override */
-    else if (pData->vcuCmd == VCU_CMD_RELAY_ON)
+    /* Priority 2: VCU Force Relay ON (상위 제어기 강제 구동 명령) */
+    else if (vcuCmd == VCU_CMD_RELAY_ON)
     {
-        *pMode = BMS_MODE_DRIVE; // Assume Drive mode if VCU forces Relay ON
-        *pRelayEnable = TRUE;
+        *currentMode = BMS_MODE_DRIVE;
     }
-    /* Priority 3: Charger Connected */
-    else if (pData->isChargerConnected == TRUE)
+    /* Priority 3: Charger Connected (충전기 연결 시) */
+    else if (chgConn == TRUE)
     {
-        *pMode = BMS_MODE_CHARGE;
-        *pRelayEnable = TRUE; // Relay must be ON to charge
+        *currentMode = BMS_MODE_CHARGE;
     }
-    /* Priority 4: Ignition ON */
-    else if (pData->ignStatus == IGN_ON || pData->ignStatus == IGN_START)
+    /* Priority 4: Ignition Active (시동 키 ON 또는 START) */
+    else if ((ign == IGN_ON) || (ign == IGN_START))
     {
-        *pMode = BMS_MODE_DRIVE;
-        *pRelayEnable = TRUE;
+        *currentMode = BMS_MODE_DRIVE;
     }
-    /* Default: Standby / Sleep */
+    /* Default: Standby (그 외 대기 상태) */
     else
     {
-        *pMode = BMS_MODE_STANDBY;
-        *pRelayEnable = FALSE;
+        *currentMode = BMS_MODE_STANDBY;
     }
 }
 
 /*******************************************************************************
- * Sub-Function: BMS_Control_Relays
- * Description: Executes Relay Control via Client-Server Interface
+ * Function: BMS_Logic_ControlRelays
+ * Description: 결정된 모드에 따라 RelayDriver 컴포넌트에 명령(C/S Call) 전송
  *******************************************************************************/
-void BMS_Control_Relays(boolean enable)
+void BMS_Logic_ControlRelays(BMS_OperationModeType currentMode)
 {
-    if (enable == TRUE)
+    /* Drive 또는 Charge 모드일 때만 릴레이 연결 */
+    if ((currentMode == BMS_MODE_DRIVE) || (currentMode == BMS_MODE_CHARGE))
     {
-        /* Request Soft Start Relay Enable */
-        /* Argument 1: Speed (1=Soft Start, 0=Immediate) */
-        Rte_Call_cp_RelayControlReq_relayEnableReq(1);
+        /* Relay Enable 요청 (Soft Start 적용) */
+        /* 정의된 상수 RELAY_SOFT(1) 사용 */
+        (void)Rte_Call_cp_RelayControlReq_relayEnableReq(RELAY_SOFT);
     }
     else
     {
-        /* Request Relay Disable */
-        Rte_Call_cp_RelayControlReq_relayDisableReq();
+        /* Relay Disable 요청 (즉시 차단) */
+        (void)Rte_Call_cp_RelayControlReq_relayDisableReq();
     }
 }
 
 /*******************************************************************************
- * Sub-Function: BMS_Update_Status_Output
- * Description: Sends current BMS mode to other components
+ * Function: BMS_Logic_WriteOutputs
+ * Description: 현재 BMS 상태를 외부로 출력
  *******************************************************************************/
-void BMS_Update_Status_Output(BMS_OperationModeType mode)
+void BMS_Logic_WriteOutputs(BMS_OperationModeType currentMode)
 {
-    /* Send BMS Mode Info */
-    Rte_Write_pp_BmsModeInfo_bmsModeInfo(mode);
+    /* BMS 현재 모드를 P-Port로 송신 */
+    (void)Rte_Write_pp_BmsModeInfo_bmsMode(currentMode);
 }

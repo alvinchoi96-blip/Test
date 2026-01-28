@@ -25,9 +25,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.27.2026::8:52:44</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.27.2026::8:52:44</_modifiedTime>
-			<weakCGTime type="a">1.27.2026::8:52:44</weakCGTime>
+			<_modifiedTimeWeak type="a">1.28.2026::6:12:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.28.2026::6:12:41</_modifiedTime>
+			<weakCGTime type="a">1.28.2026::6:12:41</weakCGTime>
 			<strongCGTime type="a">1.27.2026::0:3:18</strongCGTime>
 			<_defaultComposite type="s">GUID 1cf78ee2-0da6-438b-811b-4362e0f81f73</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -218,8 +218,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.27.2026::8:52:45</_modifiedTime>
-			<_lastModifiedTime type="a">1.27.2026::8:52:45</_lastModifiedTime>
+			<_modifiedTime type="a">1.28.2026::6:12:55</_modifiedTime>
+			<_lastModifiedTime type="a">1.28.2026::6:12:55</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -2212,6 +2212,7 @@
 				<_name type="a">REtSWC_BMS_MainCntrl_ReportBattInfoData_10ms</_name>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 				<_modifiedTime type="a">1.27.2026::8:52:14</_modifiedTime>
+				<m_szSequence type="a">1.</m_szSequence>
 				<m_pCommunicationConnection type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -2253,6 +2254,7 @@
 				<_name type="a">BmsMainCntrl_TxSvc_Send_PackMeasData_Tx</_name>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 				<_modifiedTime type="a">1.27.2026::8:52:15</_modifiedTime>
+				<m_szSequence type="a">2.</m_szSequence>
 				<m_szActualArgs type="a">packVoltageSum, packCurrent, bmsModeInfo, cellTempAverage</m_szActualArgs>
 				<m_pCommunicationConnection type="r">
 					<IHandle type="e">
@@ -2295,6 +2297,7 @@
 				<_name type="a">clamp_u32</_name>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 				<_modifiedTime type="a">1.27.2026::8:52:16</_modifiedTime>
+				<m_szSequence type="a">3.</m_szSequence>
 				<m_szActualArgs type="a">v, minV, maxV</m_szActualArgs>
 				<m_pCommunicationConnection type="r">
 					<IHandle type="e">
@@ -2337,6 +2340,7 @@
 				<_name type="a">clamp_s32</_name>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 				<_modifiedTime type="a">1.27.2026::8:52:16</_modifiedTime>
+				<m_szSequence type="a">4.</m_szSequence>
 				<m_szActualArgs type="a">v, minV, maxV</m_szActualArgs>
 				<m_pCommunicationConnection type="r">
 					<IHandle type="e">
@@ -2379,6 +2383,7 @@
 				<_name type="a">clamp_s16</_name>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 				<_modifiedTime type="a">1.27.2026::8:52:17</_modifiedTime>
+				<m_szSequence type="a">5.</m_szSequence>
 				<m_szActualArgs type="a">v, minV, maxV</m_szActualArgs>
 				<m_pCommunicationConnection type="r">
 					<IHandle type="e">

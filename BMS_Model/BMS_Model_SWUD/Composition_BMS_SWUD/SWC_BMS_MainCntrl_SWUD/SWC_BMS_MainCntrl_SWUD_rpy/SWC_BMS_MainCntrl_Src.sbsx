@@ -13,7 +13,7 @@
 			<_name type="a">SWC_BMS_MainCntrl_Src</_name>
 			<Stereotypes type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">1</size>
+					<size type="a">2</size>
 					
 						<IHandle type="e">
 							<_hm2Class type="a">IStereotype</_hm2Class>
@@ -23,12 +23,21 @@
 							<_hid type="a">GUID 1f87bd3d-36f6-43e5-ba1a-520b52732caa</_hid>
 						</IHandle>
 					
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+							<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+							<_hname type="a">DEL</_hname>
+							<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+						</IHandle>
+					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.27.2026::8:58:49</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.27.2026::8:58:49</_modifiedTime>
-			<weakCGTime type="a">1.27.2026::8:58:54</weakCGTime>
-			<strongCGTime type="a">1.27.2026::8:50:8</strongCGTime>
+			<_modifiedTimeWeak type="a">1.28.2026::6:12:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.28.2026::6:12:54</_modifiedTime>
+			<weakCGTime type="a">1.28.2026::6:12:55</weakCGTime>
+			<strongCGTime type="a">1.28.2026::6:12:54</strongCGTime>
 			<_defaultComposite type="s">GUID 608a0c4e-5c78-42fe-a6df-e26e68cc95c6</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">1.27.2026::8:49:52</_configurationRelatedTime>
@@ -40,9 +49,9 @@
 			<_id type="a">GUID 608a0c4e-5c78-42fe-a6df-e26e68cc95c6</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">1.27.2026::8:58:54</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.27.2026::8:58:54</_modifiedTime>
-			<weakCGTime type="a">1.27.2026::8:58:54</weakCGTime>
+			<_modifiedTimeWeak type="a">1.28.2026::6:12:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.28.2026::6:12:55</_modifiedTime>
+			<weakCGTime type="a">1.28.2026::6:12:55</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -73,8 +82,8 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.27.2026::8:50:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.27.2026::8:50:22</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.28.2026::6:12:54</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.28.2026::6:12:54</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -90,10 +99,24 @@
 				<_id type="a">GUID 1b089306-9e6b-4896-bfe8-d91be75a7755</_id>
 				<_myState type="a">10240</_myState>
 				<_name type="a">BmsMainCntrl_TxSvc</_name>
-				<_modifiedTimeWeak type="a">1.27.2026::8:50:22</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:50:22</_modifiedTime>
-				<weakCGTime type="a">1.27.2026::8:50:22</weakCGTime>
-				<strongCGTime type="a">1.27.2026::8:49:52</strongCGTime>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:54</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:54</_modifiedTime>
+				<weakCGTime type="a">1.28.2026::6:12:54</weakCGTime>
+				<strongCGTime type="a">1.28.2026::6:12:54</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -211,7 +234,7 @@
 				<_id type="a">GUID 39e7b79d-091f-4b05-b547-412eb95dab12</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
@@ -220,7 +243,7 @@
 				<_name type="a">Rte_SWC_BMS_MainCntrl</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
+						<size type="a">2</size>
 						
 							<IHandle type="e">
 								<_hm2Class type="a">IStereotype</_hm2Class>
@@ -230,10 +253,19 @@
 								<_hid type="a">GUID 3ed54781-4082-4b58-bf46-50ff5bc69e27</_hid>
 							</IHandle>
 						
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.27.2026::8:49:52</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:49:52</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:54</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:54</_modifiedTime>
 				<_declaration type="a">#include &quot;%25s.h&quot;</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -243,7 +275,7 @@
 				<_name type="a">Std_Types</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
+						<size type="a">2</size>
 						
 							<IHandle type="e">
 								<_hm2Class type="a">IStereotype</_hm2Class>
@@ -253,10 +285,19 @@
 								<_hid type="a">GUID 3ed54781-4082-4b58-bf46-50ff5bc69e27</_hid>
 							</IHandle>
 						
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.27.2026::8:49:52</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:49:52</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:54</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:54</_modifiedTime>
 				<_declaration type="a">#include &quot;%25s.h&quot;</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -266,7 +307,7 @@
 				<_name type="a">BMS_TX_PACK_VOLT_SUM_MIN</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
+						<size type="a">2</size>
 						
 							<IHandle type="e">
 								<_hm2Class type="a">IStereotype</_hm2Class>
@@ -276,10 +317,19 @@
 								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
 							</IHandle>
 						
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.27.2026::8:49:52</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:49:52</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:54</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:54</_modifiedTime>
 				<_declaration type="a">#define %25s   (0UL)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -289,7 +339,7 @@
 				<_name type="a">BMS_TX_PACK_VOLT_SUM_MAX</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
+						<size type="a">2</size>
 						
 							<IHandle type="e">
 								<_hm2Class type="a">IStereotype</_hm2Class>
@@ -299,10 +349,19 @@
 								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
 							</IHandle>
 						
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.27.2026::8:49:53</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:49:53</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:54</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:54</_modifiedTime>
 				<_declaration type="a">#define %25s   (500000UL)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -312,7 +371,7 @@
 				<_name type="a">BMS_TX_PACK_CURR_MIN</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
+						<size type="a">2</size>
 						
 							<IHandle type="e">
 								<_hm2Class type="a">IStereotype</_hm2Class>
@@ -322,10 +381,19 @@
 								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
 							</IHandle>
 						
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.27.2026::8:49:55</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:49:55</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:54</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:54</_modifiedTime>
 				<_declaration type="a">#define %25s       ((sint32)-100000L)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -335,7 +403,7 @@
 				<_name type="a">BMS_TX_PACK_CURR_MAX</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
+						<size type="a">2</size>
 						
 							<IHandle type="e">
 								<_hm2Class type="a">IStereotype</_hm2Class>
@@ -345,10 +413,19 @@
 								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
 							</IHandle>
 						
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.27.2026::8:49:58</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:49:58</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:54</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:54</_modifiedTime>
 				<_declaration type="a">#define %25s       ((sint32) 100000L)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -358,7 +435,7 @@
 				<_name type="a">BMS_TX_CELL_TEMP_MIN</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
+						<size type="a">2</size>
 						
 							<IHandle type="e">
 								<_hm2Class type="a">IStereotype</_hm2Class>
@@ -368,10 +445,19 @@
 								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
 							</IHandle>
 						
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.27.2026::8:50:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:50:0</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:54</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:54</_modifiedTime>
 				<_declaration type="a">#define %25s       ((sint16)-400)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -381,7 +467,7 @@
 				<_name type="a">BMS_TX_CELL_TEMP_MAX</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
+						<size type="a">2</size>
 						
 							<IHandle type="e">
 								<_hm2Class type="a">IStereotype</_hm2Class>
@@ -391,10 +477,19 @@
 								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
 							</IHandle>
 						
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.27.2026::8:50:2</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:50:2</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:54</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:54</_modifiedTime>
 				<_declaration type="a">#define %25s       ((sint16) 1250)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -402,8 +497,22 @@
 				<_id type="a">GUID 9cb89b29-3122-4516-a417-cb420819f776</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BmsMainCntrl_TxSvc_Send_PackMeasData_Tx</_name>
-				<_modifiedTimeWeak type="a">1.27.2026::8:50:3</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:50:3</_modifiedTime>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:54</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:54</_modifiedTime>
 				<_virtual type="a">0</_virtual>
 				<_abstract type="a">0</_abstract>
 				<_final type="a">0</_final>
@@ -435,7 +544,7 @@
 				<_id type="a">GUID 26c6f051-efd6-4f2b-aca1-65471f4cf113</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">uint32      %25s</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -455,7 +564,7 @@
 				<_id type="a">GUID 2888ff14-133a-4653-9166-6b33796c4323</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">sint32      %25s</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -475,7 +584,7 @@
 				<_id type="a">GUID b6600580-db05-4b5f-bf4d-ccc3f0c55bc9</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">e_VcuCanCmd %25s</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -495,7 +604,7 @@
 				<_id type="a">GUID 3cd3e8e0-8fa4-42f2-b8ed-9f2abd0427bb</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">sint16      %25s</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -503,7 +612,7 @@
 				<_id type="a">GUID f617477f-9c27-47c3-867e-7e69cc154f38</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">Std_ReturnType </_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -511,8 +620,22 @@
 				<_id type="a">GUID dbc4991f-f48d-472a-ac35-d58adcebf737</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BmsMainCntrl_TxSvc_GetLastPackMeasTxResult</_name>
-				<_modifiedTimeWeak type="a">1.27.2026::8:50:4</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:50:4</_modifiedTime>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:54</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:54</_modifiedTime>
 				<_virtual type="a">0</_virtual>
 				<Args type="c">
 					<IRPYRawContainer type="e">
@@ -533,12 +656,11 @@
 				<_id type="a">GUID 2f129798-855f-4483-b7cf-dc4eb18c25a1</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">Std_ReturnType </_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			</_implicitClass>
-			<_partKind type="a">Block</_partKind>
 		</IModule>
 		<IModule type="e">
 			<_id type="a">GUID 8d8b7155-53c6-456d-9555-d0436f51c057</_id>
@@ -558,8 +680,8 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.27.2026::8:58:51</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.27.2026::8:58:51</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.28.2026::6:12:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.28.2026::6:12:55</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -575,10 +697,24 @@
 				<_id type="a">GUID f74651ed-a6b9-485e-bffd-8f3f128701ab</_id>
 				<_myState type="a">10240</_myState>
 				<_name type="a">BmsMainCntrl_TxSvc_PackMeasDataTx</_name>
-				<_modifiedTimeWeak type="a">1.27.2026::8:58:51</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:58:51</_modifiedTime>
-				<weakCGTime type="a">1.27.2026::8:58:51</weakCGTime>
-				<strongCGTime type="a">1.27.2026::8:50:5</strongCGTime>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:55</_modifiedTime>
+				<weakCGTime type="a">1.28.2026::6:12:55</weakCGTime>
+				<strongCGTime type="a">1.28.2026::6:12:54</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -651,7 +787,7 @@
 				<_id type="a">GUID 85147967-7be5-4d87-8342-9abfb583225a</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
@@ -660,7 +796,7 @@
 				<_name type="a">BmsMainCntrl_TxSvc</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
+						<size type="a">2</size>
 						
 							<IHandle type="e">
 								<_hm2Class type="a">IStereotype</_hm2Class>
@@ -670,10 +806,19 @@
 								<_hid type="a">GUID 3ed54781-4082-4b58-bf46-50ff5bc69e27</_hid>
 							</IHandle>
 						
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.27.2026::8:50:8</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:50:8</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:54</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:54</_modifiedTime>
 				<_declaration type="a">#include &quot;%25s.h&quot;</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -681,8 +826,22 @@
 				<_id type="a">GUID 840f9402-0c9c-43f8-a8df-750e0e5756c7</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">clamp_u32</_name>
-				<_modifiedTimeWeak type="a">1.27.2026::8:58:49</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:58:49</_modifiedTime>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:55</_modifiedTime>
 				<_lastID type="a">1</_lastID>
 				<_virtual type="a">0</_virtual>
 				<_abstract type="a">0</_abstract>
@@ -707,7 +866,7 @@
 					<_classModifier type="a">Unspecified</_classModifier>
 					<_defNumber type="a">4</_defNumber>
 					<_version type="a">1.27.2026::17:57:16</_version>
-					<_baseVersion type="a">1.1.1970::9:0:0</_baseVersion>
+					<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 					<_diagram type="s">GUID aa6c0bd5-b06b-4f92-b1cd-11d57f05cc55</_diagram>
 					<_AnalysisMode type="a">1</_AnalysisMode>
 					<AggregatesList type="e">
@@ -763,7 +922,7 @@
 				<IGuard type="e">
 					<_id type="a">GUID 2f657c6f-26cc-426a-aaba-3cc9ce95fbe8</_id>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+					<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 					<_body type="a">v &lt; minV</_body>
 				</IGuard>
 				<ITransition type="e">
@@ -803,7 +962,7 @@
 				<IGuard type="e">
 					<_id type="a">GUID 05129df0-d3ae-4d35-9c04-6da0727dd55b</_id>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+					<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 					<_body type="a">else</_body>
 				</IGuard>
 				<ITransition type="e">
@@ -843,7 +1002,7 @@
 				<IGuard type="e">
 					<_id type="a">GUID f4c42964-7977-4ed7-9617-3ec57c738bc0</_id>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+					<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 					<_body type="a">v &gt; maxV</_body>
 				</IGuard>
 				<ITransition type="e">
@@ -883,7 +1042,7 @@
 				<IGuard type="e">
 					<_id type="a">GUID fcd0c41f-0eaf-4282-8251-74d7b810b1bd</_id>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+					<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 					<_body type="a">else</_body>
 				</IGuard>
 				<ITransition type="e">
@@ -1006,7 +1165,7 @@
 				</IState>
 				<IState type="e">
 					<_id type="a">GUID ac461dfb-e910-4a7a-87cf-1fc526c94859</_id>
-					<_myState type="a">18432</_myState>
+					<_myState type="a">2048</_myState>
 					<_name type="a">state_0</_name>
 					<_modifiedTimeWeak type="a">1.27.2026::8:57:8</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.27.2026::8:57:8</_modifiedTime>
@@ -1017,14 +1176,14 @@
 						<_id type="a">GUID fa07816e-98e1-419b-b60f-e7e95749dc00</_id>
 						<_myState type="a">4096</_myState>
 						<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-						<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+						<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 						<_body type="a">return minV;</_body>
 					</IAction>
 					</_entryAction>
 				</IState>
 				<IState type="e">
 					<_id type="a">GUID 095fe1e4-b80a-4e82-8ace-de178350baea</_id>
-					<_myState type="a">18432</_myState>
+					<_myState type="a">2048</_myState>
 					<_name type="a">state_1</_name>
 					<_modifiedTimeWeak type="a">1.27.2026::8:57:12</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.27.2026::8:57:12</_modifiedTime>
@@ -1035,14 +1194,14 @@
 						<_id type="a">GUID 7e5a3dd8-8a60-4278-8a8c-7f056b2a4a71</_id>
 						<_myState type="a">4096</_myState>
 						<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-						<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+						<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 						<_body type="a">return maxV;</_body>
 					</IAction>
 					</_entryAction>
 				</IState>
 				<IState type="e">
 					<_id type="a">GUID 14abfcb0-51e1-461b-b348-d6e916736ebb</_id>
-					<_myState type="a">18432</_myState>
+					<_myState type="a">2048</_myState>
 					<_name type="a">state_2</_name>
 					<_modifiedTimeWeak type="a">1.27.2026::8:57:15</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.27.2026::8:57:15</_modifiedTime>
@@ -1053,7 +1212,7 @@
 						<_id type="a">GUID 7e6ff3be-6dd8-4443-8490-39f4a738825c</_id>
 						<_myState type="a">4096</_myState>
 						<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-						<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+						<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 						<_body type="a">return v;</_body>
 					</IAction>
 					</_entryAction>
@@ -3096,7 +3255,7 @@
 				<_id type="a">GUID 94b31ba9-0893-404c-a42a-a63e5986ee15</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IArgument type="e">
@@ -3115,7 +3274,7 @@
 				<_id type="a">GUID 6cf625dc-f364-4c84-b5d2-ad164be700be</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">uint32 %25s</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -3135,7 +3294,7 @@
 				<_id type="a">GUID a1e436af-f34f-4d92-b6d0-8da671870c8a</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">uint32 %25s</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -3155,7 +3314,7 @@
 				<_id type="a">GUID b11507e3-8ec8-4b83-b23c-0bedd3d88fcc</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">uint32 %25s</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -3163,7 +3322,7 @@
 				<_id type="a">GUID b41fe63b-eed6-4214-b503-94df851c5aca</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">static uint32 </_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -3171,8 +3330,22 @@
 				<_id type="a">GUID b554a71c-5762-4091-8e86-1eb218e61441</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">clamp_s32</_name>
-				<_modifiedTimeWeak type="a">1.27.2026::8:58:49</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:58:49</_modifiedTime>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:55</_modifiedTime>
 				<_lastID type="a">1</_lastID>
 				<_virtual type="a">0</_virtual>
 				<_abstract type="a">0</_abstract>
@@ -3197,7 +3370,7 @@
 					<_classModifier type="a">Unspecified</_classModifier>
 					<_defNumber type="a">4</_defNumber>
 					<_version type="a">1.27.2026::17:57:28</_version>
-					<_baseVersion type="a">1.1.1970::9:0:0</_baseVersion>
+					<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 					<_diagram type="s">GUID 611ff7ce-a1e6-49d7-9169-6be4e7f2b265</_diagram>
 					<_AnalysisMode type="a">1</_AnalysisMode>
 					<AggregatesList type="e">
@@ -3253,7 +3426,7 @@
 				<IGuard type="e">
 					<_id type="a">GUID e90030e1-e65c-4a2a-b7e5-027bce24ce37</_id>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+					<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 					<_body type="a">v &lt; minV</_body>
 				</IGuard>
 				<ITransition type="e">
@@ -3293,7 +3466,7 @@
 				<IGuard type="e">
 					<_id type="a">GUID ed9037cb-cefd-46c0-a18f-d4cf6ebb3da0</_id>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+					<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 					<_body type="a">else</_body>
 				</IGuard>
 				<ITransition type="e">
@@ -3333,7 +3506,7 @@
 				<IGuard type="e">
 					<_id type="a">GUID d267984a-d4e7-4251-9158-d066814cdd6c</_id>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+					<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 					<_body type="a">v &gt; maxV</_body>
 				</IGuard>
 				<ITransition type="e">
@@ -3373,7 +3546,7 @@
 				<IGuard type="e">
 					<_id type="a">GUID 275f2993-5194-4bf3-8b49-9a74e393c818</_id>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+					<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 					<_body type="a">else</_body>
 				</IGuard>
 				<ITransition type="e">
@@ -3496,7 +3669,7 @@
 				</IState>
 				<IState type="e">
 					<_id type="a">GUID 9f3b54b6-e8da-4b2f-bafb-53dd0abbe01d</_id>
-					<_myState type="a">18432</_myState>
+					<_myState type="a">2048</_myState>
 					<_name type="a">state_0</_name>
 					<_modifiedTimeWeak type="a">1.27.2026::8:57:17</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.27.2026::8:57:17</_modifiedTime>
@@ -3507,14 +3680,14 @@
 						<_id type="a">GUID 796f77fe-bbc2-4645-9091-dbf9da8ec9a7</_id>
 						<_myState type="a">4096</_myState>
 						<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-						<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+						<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 						<_body type="a">return minV;</_body>
 					</IAction>
 					</_entryAction>
 				</IState>
 				<IState type="e">
 					<_id type="a">GUID 1ee85e65-ff4d-4fc4-a187-5ec53cc40d36</_id>
-					<_myState type="a">18432</_myState>
+					<_myState type="a">2048</_myState>
 					<_name type="a">state_1</_name>
 					<_modifiedTimeWeak type="a">1.27.2026::8:57:22</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.27.2026::8:57:22</_modifiedTime>
@@ -3525,14 +3698,14 @@
 						<_id type="a">GUID 44f1437b-1557-4070-aa7b-d91238ad2864</_id>
 						<_myState type="a">4096</_myState>
 						<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-						<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+						<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 						<_body type="a">return maxV;</_body>
 					</IAction>
 					</_entryAction>
 				</IState>
 				<IState type="e">
 					<_id type="a">GUID bcc507b3-c5fc-4de1-9e56-d8e76c86d716</_id>
-					<_myState type="a">18432</_myState>
+					<_myState type="a">2048</_myState>
 					<_name type="a">state_2</_name>
 					<_modifiedTimeWeak type="a">1.27.2026::8:57:27</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.27.2026::8:57:27</_modifiedTime>
@@ -3543,7 +3716,7 @@
 						<_id type="a">GUID 72caea36-5c4f-4747-8ae7-b1dab31d20cd</_id>
 						<_myState type="a">4096</_myState>
 						<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-						<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+						<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 						<_body type="a">return v;</_body>
 					</IAction>
 					</_entryAction>
@@ -5586,7 +5759,7 @@
 				<_id type="a">GUID 51018e95-427a-43d0-a3cc-35c394aabede</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IArgument type="e">
@@ -5605,7 +5778,7 @@
 				<_id type="a">GUID 80a3826e-f158-43b8-a279-772ab2266e45</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">sint32 %25s</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -5625,7 +5798,7 @@
 				<_id type="a">GUID 43241b3e-ae15-4d2b-acc6-1ed318a2d30e</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">sint32 %25s</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -5645,7 +5818,7 @@
 				<_id type="a">GUID 8db05a66-b9a9-4d0f-8e53-e3262d558596</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">sint32 %25s</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -5653,7 +5826,7 @@
 				<_id type="a">GUID 887e04d6-652d-412c-a71a-a27cdf63a6a3</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">static sint32 </_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -5661,8 +5834,22 @@
 				<_id type="a">GUID 3fd8b3b5-e0ef-46d3-870c-cac141236139</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">clamp_s16</_name>
-				<_modifiedTimeWeak type="a">1.27.2026::8:58:49</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:58:49</_modifiedTime>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:55</_modifiedTime>
 				<_lastID type="a">1</_lastID>
 				<_virtual type="a">0</_virtual>
 				<_abstract type="a">0</_abstract>
@@ -5687,7 +5874,7 @@
 					<_classModifier type="a">Unspecified</_classModifier>
 					<_defNumber type="a">4</_defNumber>
 					<_version type="a">1.27.2026::17:57:43</_version>
-					<_baseVersion type="a">1.1.1970::9:0:0</_baseVersion>
+					<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 					<_diagram type="s">GUID af9e7b56-7c84-412a-b9e9-a6301935fe1c</_diagram>
 					<_AnalysisMode type="a">1</_AnalysisMode>
 					<AggregatesList type="e">
@@ -5743,7 +5930,7 @@
 				<IGuard type="e">
 					<_id type="a">GUID 8dd37d57-0ff4-41d1-8f5f-a15c3efe1bd4</_id>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+					<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 					<_body type="a">v &lt; minV</_body>
 				</IGuard>
 				<ITransition type="e">
@@ -5783,7 +5970,7 @@
 				<IGuard type="e">
 					<_id type="a">GUID c3ed9e38-9989-4473-8894-0406ac20dc10</_id>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+					<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 					<_body type="a">else</_body>
 				</IGuard>
 				<ITransition type="e">
@@ -5823,7 +6010,7 @@
 				<IGuard type="e">
 					<_id type="a">GUID fd97d770-0076-415d-a1e5-e1e2698d7550</_id>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+					<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 					<_body type="a">v &gt; maxV</_body>
 				</IGuard>
 				<ITransition type="e">
@@ -5863,7 +6050,7 @@
 				<IGuard type="e">
 					<_id type="a">GUID ab2406f7-b12e-4af5-94f7-0cad4ebf00f0</_id>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+					<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 					<_body type="a">else</_body>
 				</IGuard>
 				<ITransition type="e">
@@ -5986,7 +6173,7 @@
 				</IState>
 				<IState type="e">
 					<_id type="a">GUID dc38b512-60e8-4417-9a90-e6f7c4256d5d</_id>
-					<_myState type="a">18432</_myState>
+					<_myState type="a">2048</_myState>
 					<_name type="a">state_0</_name>
 					<_modifiedTimeWeak type="a">1.27.2026::8:57:33</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.27.2026::8:57:33</_modifiedTime>
@@ -5997,14 +6184,14 @@
 						<_id type="a">GUID 5d0b9349-80c0-4df9-99be-3c35cdaa0cef</_id>
 						<_myState type="a">4096</_myState>
 						<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-						<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+						<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 						<_body type="a">return minV;</_body>
 					</IAction>
 					</_entryAction>
 				</IState>
 				<IState type="e">
 					<_id type="a">GUID bc10e8c5-f84b-411b-9730-68aa3d176db7</_id>
-					<_myState type="a">18432</_myState>
+					<_myState type="a">2048</_myState>
 					<_name type="a">state_1</_name>
 					<_modifiedTimeWeak type="a">1.27.2026::8:57:37</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.27.2026::8:57:37</_modifiedTime>
@@ -6015,14 +6202,14 @@
 						<_id type="a">GUID 59f7c292-b70d-46b7-8bbd-e661edad28a9</_id>
 						<_myState type="a">4096</_myState>
 						<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-						<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+						<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 						<_body type="a">return maxV;</_body>
 					</IAction>
 					</_entryAction>
 				</IState>
 				<IState type="e">
 					<_id type="a">GUID 28e5b50d-a061-40ea-9070-e372d3b91a22</_id>
-					<_myState type="a">18432</_myState>
+					<_myState type="a">2048</_myState>
 					<_name type="a">state_2</_name>
 					<_modifiedTimeWeak type="a">1.27.2026::8:57:41</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.27.2026::8:57:41</_modifiedTime>
@@ -6033,7 +6220,7 @@
 						<_id type="a">GUID 4384f0cd-aba5-4b75-a780-29c3674e8015</_id>
 						<_myState type="a">4096</_myState>
 						<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-						<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+						<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 						<_body type="a">return v;</_body>
 					</IAction>
 					</_entryAction>
@@ -8076,7 +8263,7 @@
 				<_id type="a">GUID 2de5cf64-296a-4737-b026-1843820c9d60</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IArgument type="e">
@@ -8095,7 +8282,7 @@
 				<_id type="a">GUID eb94358f-ffa9-4564-9ae7-8196c5b41677</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">sint16 %25s</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -8115,7 +8302,7 @@
 				<_id type="a">GUID f451623f-4032-4be7-8909-f71af2d938d4</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">sint16 %25s</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -8135,7 +8322,7 @@
 				<_id type="a">GUID 0f93cac1-6671-4672-937a-b5744d617a2b</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">sint16 %25s</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -8143,7 +8330,7 @@
 				<_id type="a">GUID 74a48f0c-992f-4d38-a4db-248bfd30caf9</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">static sint16 </_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -8151,8 +8338,22 @@
 				<_id type="a">GUID ddd24d7a-ff90-4781-866e-0f3804a25a46</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BmsMainCntrl_TxSvc_GetLastPackMeasTxResult</_name>
-				<_modifiedTimeWeak type="a">1.27.2026::8:58:50</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:58:50</_modifiedTime>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:55</_modifiedTime>
 				<_lastID type="a">1</_lastID>
 				<_virtual type="a">0</_virtual>
 				<Args type="c">
@@ -8182,7 +8383,7 @@
 					<_classModifier type="a">Unspecified</_classModifier>
 					<_defNumber type="a">2</_defNumber>
 					<_version type="a">1.27.2026::17:57:47</_version>
-					<_baseVersion type="a">1.1.1970::9:0:0</_baseVersion>
+					<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 					<_diagram type="s">GUID 694bb0b6-5b8a-43f1-b7c6-2f0c97f6e1b4</_diagram>
 					<_AnalysisMode type="a">1</_AnalysisMode>
 					<AggregatesList type="e">
@@ -8227,7 +8428,7 @@
 				</IState>
 				<IState type="e">
 					<_id type="a">GUID cc505f50-569e-417d-9e16-f0ecbd181093</_id>
-					<_myState type="a">18432</_myState>
+					<_myState type="a">2048</_myState>
 					<_name type="a">state_0</_name>
 					<_modifiedTimeWeak type="a">1.27.2026::8:57:46</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.27.2026::8:57:46</_modifiedTime>
@@ -8238,7 +8439,7 @@
 						<_id type="a">GUID 956608b8-ff3a-4833-8165-577438ad1b62</_id>
 						<_myState type="a">4096</_myState>
 						<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-						<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+						<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 						<_body type="a">return s_lastTxResult;</_body>
 					</IAction>
 					</_entryAction>
@@ -8874,14 +9075,14 @@
 				<_id type="a">GUID be3a7302-2300-4ac2-b920-e508f05d6465</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
 				<_id type="a">GUID b43fe713-afec-4263-bc35-309eb8b7993b</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">Std_ReturnType </_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -8889,8 +9090,22 @@
 				<_id type="a">GUID fa699805-97da-4a7e-a7f3-173ada018767</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BmsMainCntrl_TxSvc_Send_PackMeasData_Tx</_name>
-				<_modifiedTimeWeak type="a">1.27.2026::8:58:51</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:58:51</_modifiedTime>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:55</_modifiedTime>
 				<_lastID type="a">1</_lastID>
 				<_virtual type="a">0</_virtual>
 				<_abstract type="a">0</_abstract>
@@ -8915,7 +9130,7 @@
 					<_classModifier type="a">Unspecified</_classModifier>
 					<_defNumber type="a">7</_defNumber>
 					<_version type="a">1.27.2026::17:58:11</_version>
-					<_baseVersion type="a">1.1.1970::9:0:0</_baseVersion>
+					<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 					<_diagram type="s">GUID 9a5fdc93-1df8-4519-a252-867ed3d8c162</_diagram>
 					<_AnalysisMode type="a">1</_AnalysisMode>
 					<AggregatesList type="e">
@@ -8991,7 +9206,7 @@
 				<IGuard type="e">
 					<_id type="a">GUID 96977c1e-d64d-4689-9538-228e70b7b4c9</_id>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+					<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 					<_body type="a">Rte_Write_P_PackMeasData_Tx_packVoltageSum(vSum) != E_OK</_body>
 				</IGuard>
 				<ITransition type="e">
@@ -9031,7 +9246,7 @@
 				<IGuard type="e">
 					<_id type="a">GUID 2507fb55-6eef-4c66-9848-438eb9f54162</_id>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+					<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 					<_body type="a">else</_body>
 				</IGuard>
 				<ITransition type="e">
@@ -9071,7 +9286,7 @@
 				<IGuard type="e">
 					<_id type="a">GUID 505227b7-d686-4688-ab12-9a383b6b9f2a</_id>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+					<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 					<_body type="a">Rte_Write_P_PackMeasData_Tx_packCurrent(iVal) != E_OK</_body>
 				</IGuard>
 				<ITransition type="e">
@@ -9111,7 +9326,7 @@
 				<IGuard type="e">
 					<_id type="a">GUID c44d19a1-d6bf-40b1-ad3d-2a28fc347fb6</_id>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+					<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 					<_body type="a">else</_body>
 				</IGuard>
 				<ITransition type="e">
@@ -9151,7 +9366,7 @@
 				<IGuard type="e">
 					<_id type="a">GUID c351d2d9-2d3e-4598-adeb-426ce276e851</_id>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+					<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 					<_body type="a">Rte_Write_P_PackMeasData_Tx_bmsModeInfo(bmsModeInfo) != E_OK</_body>
 				</IGuard>
 				<ITransition type="e">
@@ -9191,7 +9406,7 @@
 				<IGuard type="e">
 					<_id type="a">GUID 9d1e425b-96c1-47fd-8248-a0ce48aad7bb</_id>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+					<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 					<_body type="a">else</_body>
 				</IGuard>
 				<ITransition type="e">
@@ -9231,7 +9446,7 @@
 				<IGuard type="e">
 					<_id type="a">GUID e13564bf-34c9-42c0-bfa4-4ec075c444e8</_id>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+					<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 					<_body type="a">Rte_Write_P_PackMeasData_Tx_cellTempAverage(tAvg) != E_OK</_body>
 				</IGuard>
 				<ITransition type="e">
@@ -9271,7 +9486,7 @@
 				<IGuard type="e">
 					<_id type="a">GUID 7e9896a5-2de4-4b02-90cf-744b5c64585c</_id>
 					<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-					<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+					<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 					<_body type="a">else</_body>
 				</IGuard>
 				<ITransition type="e">
@@ -9481,7 +9696,7 @@
 				</IState>
 				<IState type="e">
 					<_id type="a">GUID 9bdf0bc1-3a90-4b98-a7dd-1befc4b5854c</_id>
-					<_myState type="a">18432</_myState>
+					<_myState type="a">2048</_myState>
 					<_name type="a">state_0</_name>
 					<_modifiedTimeWeak type="a">1.27.2026::8:58:9</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.27.2026::8:58:9</_modifiedTime>
@@ -9492,7 +9707,7 @@
 						<_id type="a">GUID a60f6a5b-a946-4bc3-88f8-3f642bd5dc15</_id>
 						<_myState type="a">4096</_myState>
 						<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-						<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+						<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 						<_body type="a">Std_ReturnType ret = E_OK;%0D
 const uint32 vSum = clamp_u32(packVoltageSum, BMS_TX_PACK_VOLT_SUM_MIN, BMS_TX_PACK_VOLT_SUM_MAX);%0D
 const sint32 iVal = clamp_s32(packCurrent, BMS_TX_PACK_CURR_MIN, BMS_TX_PACK_CURR_MAX);%0D
@@ -9502,7 +9717,7 @@ const sint16 tAvg = clamp_s16(cellTempAverage, BMS_TX_CELL_TEMP_MIN, BMS_TX_CELL
 				</IState>
 				<IState type="e">
 					<_id type="a">GUID 23ef967d-6bdb-47fe-a645-756a5ed4ec4e</_id>
-					<_myState type="a">18432</_myState>
+					<_myState type="a">2048</_myState>
 					<_name type="a">state_1</_name>
 					<_modifiedTimeWeak type="a">1.27.2026::8:57:52</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.27.2026::8:57:52</_modifiedTime>
@@ -9513,14 +9728,14 @@ const sint16 tAvg = clamp_s16(cellTempAverage, BMS_TX_CELL_TEMP_MIN, BMS_TX_CELL
 						<_id type="a">GUID 06d46d68-b5f6-4161-951a-7d86a312e3bd</_id>
 						<_myState type="a">4096</_myState>
 						<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-						<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+						<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 						<_body type="a">ret = E_NOT_OK;</_body>
 					</IAction>
 					</_entryAction>
 				</IState>
 				<IState type="e">
 					<_id type="a">GUID 64375ca6-0964-4973-9a4a-66086fa1b60d</_id>
-					<_myState type="a">18432</_myState>
+					<_myState type="a">2048</_myState>
 					<_name type="a">state_2</_name>
 					<_modifiedTimeWeak type="a">1.27.2026::8:57:56</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.27.2026::8:57:56</_modifiedTime>
@@ -9531,14 +9746,14 @@ const sint16 tAvg = clamp_s16(cellTempAverage, BMS_TX_CELL_TEMP_MIN, BMS_TX_CELL
 						<_id type="a">GUID 2432dbd8-cfbc-496f-90b6-990d17f41f30</_id>
 						<_myState type="a">4096</_myState>
 						<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-						<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+						<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 						<_body type="a">ret = E_NOT_OK;</_body>
 					</IAction>
 					</_entryAction>
 				</IState>
 				<IState type="e">
 					<_id type="a">GUID a5058910-3fab-4f39-972c-f971e7a8d549</_id>
-					<_myState type="a">18432</_myState>
+					<_myState type="a">2048</_myState>
 					<_name type="a">state_3</_name>
 					<_modifiedTimeWeak type="a">1.27.2026::8:58:0</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.27.2026::8:58:0</_modifiedTime>
@@ -9549,14 +9764,14 @@ const sint16 tAvg = clamp_s16(cellTempAverage, BMS_TX_CELL_TEMP_MIN, BMS_TX_CELL
 						<_id type="a">GUID 0a0c67dd-2c84-42f3-ab09-a24074910c87</_id>
 						<_myState type="a">4096</_myState>
 						<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-						<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+						<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 						<_body type="a">ret = E_NOT_OK;</_body>
 					</IAction>
 					</_entryAction>
 				</IState>
 				<IState type="e">
 					<_id type="a">GUID ae6626a2-ba3a-4900-82f2-aa43f72ddb6d</_id>
-					<_myState type="a">18432</_myState>
+					<_myState type="a">2048</_myState>
 					<_name type="a">state_4</_name>
 					<_modifiedTimeWeak type="a">1.27.2026::8:58:3</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.27.2026::8:58:3</_modifiedTime>
@@ -9567,14 +9782,14 @@ const sint16 tAvg = clamp_s16(cellTempAverage, BMS_TX_CELL_TEMP_MIN, BMS_TX_CELL
 						<_id type="a">GUID 2c8344ea-d6c5-4be7-a508-f765274d153c</_id>
 						<_myState type="a">4096</_myState>
 						<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-						<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+						<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 						<_body type="a">ret = E_NOT_OK;</_body>
 					</IAction>
 					</_entryAction>
 				</IState>
 				<IState type="e">
 					<_id type="a">GUID 838ba053-6ccb-430d-a11f-26de79c77e3c</_id>
-					<_myState type="a">18432</_myState>
+					<_myState type="a">2048</_myState>
 					<_name type="a">state_5</_name>
 					<_modifiedTimeWeak type="a">1.27.2026::8:58:10</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.27.2026::8:58:10</_modifiedTime>
@@ -9585,7 +9800,7 @@ const sint16 tAvg = clamp_s16(cellTempAverage, BMS_TX_CELL_TEMP_MIN, BMS_TX_CELL
 						<_id type="a">GUID a2ecbcbc-30f3-4eaf-968a-f64a594ad747</_id>
 						<_myState type="a">4096</_myState>
 						<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-						<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+						<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 						<_body type="a">s_lastTxResult = ret;%0D
 return ret;</_body>
 					</IAction>
@@ -13202,7 +13417,7 @@ clamp_u32</_value>
 				<_id type="a">GUID 041d70d4-2f66-40fc-a6e7-28e58aace21e</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IArgument type="e">
@@ -13221,7 +13436,7 @@ clamp_u32</_value>
 				<_id type="a">GUID 8a37714c-4add-4d86-8066-51072775bfe8</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">uint32      %25s</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -13241,7 +13456,7 @@ clamp_u32</_value>
 				<_id type="a">GUID 18fa10f4-da2b-44b5-b513-1779a53654dd</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">sint32      %25s</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -13261,7 +13476,7 @@ clamp_u32</_value>
 				<_id type="a">GUID e65462a5-6422-4521-866d-ba03cc5ccc78</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">e_VcuCanCmd %25s</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -13281,7 +13496,7 @@ clamp_u32</_value>
 				<_id type="a">GUID 50361427-f312-4bb7-8811-fe5712464c2e</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">sint16      %25s</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -13289,7 +13504,7 @@ clamp_u32</_value>
 				<_id type="a">GUID 4eb9885d-6ff3-42d2-b978-6796b0142342</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">Std_ReturnType </_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -13297,8 +13512,22 @@ clamp_u32</_value>
 				<_id type="a">GUID 913e1c60-2773-48fa-87c6-5420f9a553ad</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">s_lastTxResult</_name>
-				<_modifiedTimeWeak type="a">1.27.2026::8:50:8</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:50:8</_modifiedTime>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:55</_modifiedTime>
 				<_isOrdered type="a">0</_isOrdered>
 				<_protection type="a">iPrivate</_protection>
 				<_static type="a">0</_static>
@@ -13319,12 +13548,11 @@ clamp_u32</_value>
 				<_id type="a">GUID f73dd95a-8ef0-4a35-8cd9-0d22c22971a8</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">static Std_ReturnType %25s </_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			</_implicitClass>
-			<_partKind type="a">Block</_partKind>
 		</IModule>
 		<IModule type="e">
 			<_id type="a">GUID 2a341b99-2569-405c-95dc-0aac73081923</_id>
@@ -13344,8 +13572,8 @@ clamp_u32</_value>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.27.2026::8:58:54</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.27.2026::8:58:54</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.28.2026::6:12:55</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.28.2026::6:12:55</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
@@ -13361,10 +13589,24 @@ clamp_u32</_value>
 				<_id type="a">GUID e6411824-b089-48e5-b47d-3d1e9d9b93c2</_id>
 				<_myState type="a">10240</_myState>
 				<_name type="a">Rte_SWC_BMS_MainCntrl</_name>
-				<_modifiedTimeWeak type="a">1.27.2026::8:58:54</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:58:54</_modifiedTime>
-				<weakCGTime type="a">1.27.2026::8:58:54</weakCGTime>
-				<strongCGTime type="a">1.27.2026::8:50:8</strongCGTime>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:55</_modifiedTime>
+				<weakCGTime type="a">1.28.2026::6:12:55</weakCGTime>
+				<strongCGTime type="a">1.28.2026::6:12:55</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -13481,7 +13723,7 @@ clamp_u32</_value>
 				<_id type="a">GUID 30696a13-9922-43af-bc74-09974bfc312c</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
@@ -13490,7 +13732,7 @@ clamp_u32</_value>
 				<_name type="a">Rte_SWC_BMS_MainCntrl</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
+						<size type="a">2</size>
 						
 							<IHandle type="e">
 								<_hm2Class type="a">IStereotype</_hm2Class>
@@ -13500,10 +13742,19 @@ clamp_u32</_value>
 								<_hid type="a">GUID 3ed54781-4082-4b58-bf46-50ff5bc69e27</_hid>
 							</IHandle>
 						
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.27.2026::8:50:9</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:50:9</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:55</_modifiedTime>
 				<_declaration type="a">#include &quot;%25s.h&quot;</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -13513,7 +13764,7 @@ clamp_u32</_value>
 				<_name type="a">BmsMainCntrl_TxSvc</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
+						<size type="a">2</size>
 						
 							<IHandle type="e">
 								<_hm2Class type="a">IStereotype</_hm2Class>
@@ -13523,10 +13774,19 @@ clamp_u32</_value>
 								<_hid type="a">GUID 3ed54781-4082-4b58-bf46-50ff5bc69e27</_hid>
 							</IHandle>
 						
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.27.2026::8:50:9</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:50:9</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:55</_modifiedTime>
 				<_declaration type="a">#include &quot;%25s.h&quot;</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -13534,8 +13794,22 @@ clamp_u32</_value>
 				<_id type="a">GUID a2709905-6a24-43b0-9e21-372d5f34da03</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">MainCntrl_UpdateTx_PackMeasData</_name>
-				<_modifiedTimeWeak type="a">1.27.2026::8:58:51</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:58:51</_modifiedTime>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:55</_modifiedTime>
 				<_lastID type="a">1</_lastID>
 				<_virtual type="a">0</_virtual>
 				<_abstract type="a">0</_abstract>
@@ -13560,7 +13834,7 @@ clamp_u32</_value>
 					<_classModifier type="a">Unspecified</_classModifier>
 					<_defNumber type="a">2</_defNumber>
 					<_version type="a">1.27.2026::17:58:13</_version>
-					<_baseVersion type="a">1.1.1970::9:0:0</_baseVersion>
+					<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 					<_diagram type="s">GUID 7cc46bed-9fc4-42a7-a29a-66f187c301d6</_diagram>
 					<_AnalysisMode type="a">1</_AnalysisMode>
 					<AggregatesList type="e">
@@ -13605,7 +13879,7 @@ clamp_u32</_value>
 				</IState>
 				<IState type="e">
 					<_id type="a">GUID f8a1cbbf-942d-425e-accb-00ed98a1458b</_id>
-					<_myState type="a">18432</_myState>
+					<_myState type="a">2048</_myState>
 					<_name type="a">state_0</_name>
 					<_modifiedTimeWeak type="a">1.27.2026::8:58:12</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.27.2026::8:58:12</_modifiedTime>
@@ -13616,7 +13890,7 @@ clamp_u32</_value>
 						<_id type="a">GUID 5b0f1963-82ee-4b26-ab5f-084ab5d279f1</_id>
 						<_myState type="a">4096</_myState>
 						<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-						<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+						<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 						<_body type="a">s_tx_packVoltageSum = packVoltageSum;%0D
 s_tx_packCurrent = packCurrent;%0D
 s_tx_bmsModeInfo = bmsModeInfo;%0D
@@ -14259,7 +14533,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 				<_id type="a">GUID e010ed24-6e03-40e9-8bbe-7a1063f4e885</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IArgument type="e">
@@ -14278,7 +14552,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 				<_id type="a">GUID 979db1e5-f958-4e95-b54e-a46097ad3db1</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">uint32 %25s</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -14298,7 +14572,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 				<_id type="a">GUID 1c26acf9-42c0-41fd-9b96-4268721bd154</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">sint32 %25s</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -14318,7 +14592,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 				<_id type="a">GUID 82da676b-bbdc-4e09-8c26-d8fdcc808deb</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">e_VcuCanCmd %25s</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -14338,7 +14612,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 				<_id type="a">GUID a9569a0c-9b44-4c72-94f7-cb4df730f81d</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">sint16 %25s</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -14346,7 +14620,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 				<_id type="a">GUID d314f8b1-3923-4dcd-aafb-3666eeb47926</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">static void </_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -14356,7 +14630,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 				<_name type="a">REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
+						<size type="a">2</size>
 						
 							<IHandle type="e">
 								<_hm2Class type="a">IStereotype</_hm2Class>
@@ -14366,10 +14640,19 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 								<_hid type="a">GUID c914bdb2-dea4-4a79-9555-1dcfc8d9a59c</_hid>
 							</IHandle>
 						
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.27.2026::8:58:52</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:58:52</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:55</_modifiedTime>
 				<_lastID type="a">1</_lastID>
 				<_virtual type="a">0</_virtual>
 				<Args type="c">
@@ -14399,7 +14682,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 					<_classModifier type="a">Unspecified</_classModifier>
 					<_defNumber type="a">2</_defNumber>
 					<_version type="a">1.27.2026::17:58:19</_version>
-					<_baseVersion type="a">1.1.1970::9:0:0</_baseVersion>
+					<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 					<_diagram type="s">GUID f9f8a98e-e519-4c78-ac3d-ddb94ba389da</_diagram>
 					<_AnalysisMode type="a">1</_AnalysisMode>
 					<AggregatesList type="e">
@@ -14444,7 +14727,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 				</IState>
 				<IState type="e">
 					<_id type="a">GUID a369e9d5-25cf-403e-9401-78d459599622</_id>
-					<_myState type="a">18432</_myState>
+					<_myState type="a">2048</_myState>
 					<_name type="a">state_0</_name>
 					<_modifiedTimeWeak type="a">1.27.2026::8:58:18</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.27.2026::8:58:18</_modifiedTime>
@@ -14455,7 +14738,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 						<_id type="a">GUID 8fb41589-8fd7-4242-ac3e-d79157546bac</_id>
 						<_myState type="a">4096</_myState>
 						<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-						<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+						<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 						<_body type="a">/* empty */</_body>
 					</IAction>
 					</_entryAction>
@@ -15091,14 +15374,14 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 				<_id type="a">GUID 9e279a92-2fdc-4452-8a40-7b5d284b907b</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
 				<_id type="a">GUID 6eb438f5-4be5-4dce-9f17-247b94be1803</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">FUNC(void, SWC_BMS_MainCntrl_CODE) </_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -15108,7 +15391,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 				<_name type="a">REtSWC_BMS_MainCntrl_SoX_1000ms</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
+						<size type="a">2</size>
 						
 							<IHandle type="e">
 								<_hm2Class type="a">IStereotype</_hm2Class>
@@ -15118,10 +15401,19 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 								<_hid type="a">GUID c914bdb2-dea4-4a79-9555-1dcfc8d9a59c</_hid>
 							</IHandle>
 						
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.27.2026::8:58:52</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:58:52</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:55</_modifiedTime>
 				<_lastID type="a">1</_lastID>
 				<_virtual type="a">0</_virtual>
 				<Args type="c">
@@ -15151,7 +15443,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 					<_classModifier type="a">Unspecified</_classModifier>
 					<_defNumber type="a">2</_defNumber>
 					<_version type="a">1.27.2026::17:58:22</_version>
-					<_baseVersion type="a">1.1.1970::9:0:0</_baseVersion>
+					<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 					<_diagram type="s">GUID 49c119cb-fa1c-471a-b50d-47ff59162d60</_diagram>
 					<_AnalysisMode type="a">1</_AnalysisMode>
 					<AggregatesList type="e">
@@ -15196,7 +15488,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 				</IState>
 				<IState type="e">
 					<_id type="a">GUID 464e6e0a-6f6e-4882-a9bc-f4e50ba787fa</_id>
-					<_myState type="a">18432</_myState>
+					<_myState type="a">2048</_myState>
 					<_name type="a">state_0</_name>
 					<_modifiedTimeWeak type="a">1.27.2026::8:58:21</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.27.2026::8:58:21</_modifiedTime>
@@ -15207,7 +15499,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 						<_id type="a">GUID a0fb101e-2753-4a38-9bf6-45b287fb72ef</_id>
 						<_myState type="a">4096</_myState>
 						<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-						<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+						<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 						<_body type="a">/* empty */</_body>
 					</IAction>
 					</_entryAction>
@@ -15843,14 +16135,14 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 				<_id type="a">GUID 17ab1dc3-2993-46ab-beed-1153a9d2431d</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
 				<_id type="a">GUID 41d1f694-5985-4834-acea-d9db23bc8377</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">FUNC(void, SWC_BMS_MainCntrl_CODE) </_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -15860,7 +16152,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 				<_name type="a">REtSWC_BMS_MainCntrl_PerfomCellBalancing_1000ms</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
+						<size type="a">2</size>
 						
 							<IHandle type="e">
 								<_hm2Class type="a">IStereotype</_hm2Class>
@@ -15870,10 +16162,19 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 								<_hid type="a">GUID c914bdb2-dea4-4a79-9555-1dcfc8d9a59c</_hid>
 							</IHandle>
 						
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.27.2026::8:58:52</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:58:52</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:55</_modifiedTime>
 				<_lastID type="a">1</_lastID>
 				<_virtual type="a">0</_virtual>
 				<Args type="c">
@@ -15903,7 +16204,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 					<_classModifier type="a">Unspecified</_classModifier>
 					<_defNumber type="a">2</_defNumber>
 					<_version type="a">1.27.2026::17:58:27</_version>
-					<_baseVersion type="a">1.1.1970::9:0:0</_baseVersion>
+					<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 					<_diagram type="s">GUID a5582b1d-a4a7-47ae-86e0-ae1fb948b31d</_diagram>
 					<_AnalysisMode type="a">1</_AnalysisMode>
 					<AggregatesList type="e">
@@ -15948,7 +16249,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 				</IState>
 				<IState type="e">
 					<_id type="a">GUID d675e32a-e8ff-4641-878f-56323e8a76f5</_id>
-					<_myState type="a">18432</_myState>
+					<_myState type="a">2048</_myState>
 					<_name type="a">state_0</_name>
 					<_modifiedTimeWeak type="a">1.27.2026::8:58:25</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.27.2026::8:58:25</_modifiedTime>
@@ -15959,7 +16260,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 						<_id type="a">GUID 3adeb12f-f63f-442b-96c4-531d91faf746</_id>
 						<_myState type="a">4096</_myState>
 						<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-						<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+						<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 						<_body type="a">/* empty */</_body>
 					</IAction>
 					</_entryAction>
@@ -16595,14 +16896,14 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 				<_id type="a">GUID c68fac39-056a-4cfc-b7ef-4b459b636046</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
 				<_id type="a">GUID b0fc19c7-edf7-434c-b99b-6fa40047c145</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">FUNC(void, SWC_BMS_MainCntrl_CODE) </_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -16612,7 +16913,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 				<_name type="a">REtSWC_BMS_MainCntrl_ChargeSequence_100ms</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
+						<size type="a">2</size>
 						
 							<IHandle type="e">
 								<_hm2Class type="a">IStereotype</_hm2Class>
@@ -16622,10 +16923,19 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 								<_hid type="a">GUID c914bdb2-dea4-4a79-9555-1dcfc8d9a59c</_hid>
 							</IHandle>
 						
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.27.2026::8:58:53</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:58:53</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:55</_modifiedTime>
 				<_lastID type="a">1</_lastID>
 				<_virtual type="a">0</_virtual>
 				<Args type="c">
@@ -16655,7 +16965,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 					<_classModifier type="a">Unspecified</_classModifier>
 					<_defNumber type="a">2</_defNumber>
 					<_version type="a">1.27.2026::17:58:29</_version>
-					<_baseVersion type="a">1.1.1970::9:0:0</_baseVersion>
+					<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 					<_diagram type="s">GUID bf2bd60b-bbaf-46bb-ac89-2ec38cd364db</_diagram>
 					<_AnalysisMode type="a">1</_AnalysisMode>
 					<AggregatesList type="e">
@@ -16700,7 +17010,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 				</IState>
 				<IState type="e">
 					<_id type="a">GUID 8e427309-8ad9-40bc-8389-f5c55cdd625a</_id>
-					<_myState type="a">18432</_myState>
+					<_myState type="a">2048</_myState>
 					<_name type="a">state_0</_name>
 					<_modifiedTimeWeak type="a">1.27.2026::8:58:28</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.27.2026::8:58:28</_modifiedTime>
@@ -16711,7 +17021,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 						<_id type="a">GUID b84e6d94-eb4b-4f8d-acbf-73b8745f8336</_id>
 						<_myState type="a">4096</_myState>
 						<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-						<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+						<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 						<_body type="a">/* empty */</_body>
 					</IAction>
 					</_entryAction>
@@ -17347,14 +17657,14 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 				<_id type="a">GUID a57527ce-32b4-4c2f-a958-5db71a29bcd8</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
 				<_id type="a">GUID 9f25e952-5fc7-4d4e-81cb-596e2b904fdc</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">FUNC(void, SWC_BMS_MainCntrl_CODE) </_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -17364,7 +17674,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 				<_name type="a">REtSWC_BMS_MainCntrl_HMI_Output_100ms</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
+						<size type="a">2</size>
 						
 							<IHandle type="e">
 								<_hm2Class type="a">IStereotype</_hm2Class>
@@ -17374,10 +17684,19 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 								<_hid type="a">GUID c914bdb2-dea4-4a79-9555-1dcfc8d9a59c</_hid>
 							</IHandle>
 						
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.27.2026::8:58:54</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:58:54</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:55</_modifiedTime>
 				<_lastID type="a">1</_lastID>
 				<_virtual type="a">0</_virtual>
 				<Args type="c">
@@ -17407,7 +17726,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 					<_classModifier type="a">Unspecified</_classModifier>
 					<_defNumber type="a">2</_defNumber>
 					<_version type="a">1.27.2026::17:58:30</_version>
-					<_baseVersion type="a">1.1.1970::9:0:0</_baseVersion>
+					<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 					<_diagram type="s">GUID c6a2a977-f615-4ee5-afb2-f1db10fb78e9</_diagram>
 					<_AnalysisMode type="a">1</_AnalysisMode>
 					<AggregatesList type="e">
@@ -17452,7 +17771,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 				</IState>
 				<IState type="e">
 					<_id type="a">GUID 94aa2036-60f8-4ef9-8ca6-ba96992e569a</_id>
-					<_myState type="a">18432</_myState>
+					<_myState type="a">2048</_myState>
 					<_name type="a">state_0</_name>
 					<_modifiedTimeWeak type="a">1.27.2026::8:58:30</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.27.2026::8:58:30</_modifiedTime>
@@ -17463,7 +17782,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 						<_id type="a">GUID 28b4a91e-03db-4f42-9a47-5f13b6948b6f</_id>
 						<_myState type="a">4096</_myState>
 						<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-						<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+						<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 						<_body type="a">/* empty */</_body>
 					</IAction>
 					</_entryAction>
@@ -18099,14 +18418,14 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 				<_id type="a">GUID ad089430-b1f0-491e-9a44-eb309d64a094</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
 				<_id type="a">GUID 69f2fa6c-bdc1-46d3-bb37-005976fe0e54</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">FUNC(void, SWC_BMS_MainCntrl_CODE) </_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -18116,7 +18435,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 				<_name type="a">REtSWC_BMS_MainCntrl_ReportBattInfoData_10ms</_name>
 				<Stereotypes type="c">
 					<IRPYRawContainer type="e">
-						<size type="a">1</size>
+						<size type="a">2</size>
 						
 							<IHandle type="e">
 								<_hm2Class type="a">IStereotype</_hm2Class>
@@ -18126,10 +18445,19 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 								<_hid type="a">GUID c914bdb2-dea4-4a79-9555-1dcfc8d9a59c</_hid>
 							</IHandle>
 						
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.27.2026::8:58:54</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:58:54</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:55</_modifiedTime>
 				<_lastID type="a">1</_lastID>
 				<_virtual type="a">0</_virtual>
 				<Args type="c">
@@ -18159,7 +18487,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 					<_classModifier type="a">Unspecified</_classModifier>
 					<_defNumber type="a">2</_defNumber>
 					<_version type="a">1.27.2026::17:58:36</_version>
-					<_baseVersion type="a">1.1.1970::9:0:0</_baseVersion>
+					<_baseVersion type="a">1.2.1990::0:0:0</_baseVersion>
 					<_diagram type="s">GUID bf3b9a0c-88d8-422a-999c-ce3d58edd269</_diagram>
 					<_AnalysisMode type="a">1</_AnalysisMode>
 					<AggregatesList type="e">
@@ -18204,7 +18532,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 				</IState>
 				<IState type="e">
 					<_id type="a">GUID 4a023080-f136-4c0f-a3bd-3f6cd2d8c189</_id>
-					<_myState type="a">18432</_myState>
+					<_myState type="a">2048</_myState>
 					<_name type="a">state_0</_name>
 					<_modifiedTimeWeak type="a">1.27.2026::8:58:34</_modifiedTimeWeak>
 					<_modifiedTime type="a">1.27.2026::8:58:34</_modifiedTime>
@@ -18215,7 +18543,7 @@ s_tx_cellTempAverage = cellTempAverage;</_body>
 						<_id type="a">GUID 9489f924-d119-4844-b3dc-06aa4be70c2c</_id>
 						<_myState type="a">4096</_myState>
 						<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-						<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+						<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 						<_body type="a">const uint32      vSum = s_tx_packVoltageSum;%0D
 const sint32      cur = s_tx_packCurrent;%0D
 const e_VcuCanCmd mode = s_tx_bmsModeInfo;%0D
@@ -18862,14 +19190,14 @@ BmsMainCntrl_TxSvc_Send_PackMeasData_Tx(vSum, cur, mode, tAvg);</_body>
 				<_id type="a">GUID aa1d4de1-8989-4d9b-b5fe-c11cad284e79</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
 				<_id type="a">GUID 3b5e3252-893a-48bf-90e4-15377c722fb7</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">FUNC(void, SWC_BMS_MainCntrl_CODE) </_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -18877,8 +19205,22 @@ BmsMainCntrl_TxSvc_Send_PackMeasData_Tx(vSum, cur, mode, tAvg);</_body>
 				<_id type="a">GUID 2e7cb901-07ec-41a4-aa18-0bae983967f9</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">s_tx_packVoltageSum</_name>
-				<_modifiedTimeWeak type="a">1.27.2026::8:50:9</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:50:9</_modifiedTime>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:55</_modifiedTime>
 				<_isOrdered type="a">0</_isOrdered>
 				<_protection type="a">iPrivate</_protection>
 				<_static type="a">0</_static>
@@ -18899,7 +19241,7 @@ BmsMainCntrl_TxSvc_Send_PackMeasData_Tx(vSum, cur, mode, tAvg);</_body>
 				<_id type="a">GUID a890ce89-0f96-43e5-a7e3-889ed70ae767</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">static uint32      %25s </_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -18907,8 +19249,22 @@ BmsMainCntrl_TxSvc_Send_PackMeasData_Tx(vSum, cur, mode, tAvg);</_body>
 				<_id type="a">GUID bfc4fc39-42d0-4154-ac1a-3dcd2145838d</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">s_tx_packCurrent</_name>
-				<_modifiedTimeWeak type="a">1.27.2026::8:50:9</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:50:9</_modifiedTime>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:55</_modifiedTime>
 				<_isOrdered type="a">0</_isOrdered>
 				<_protection type="a">iPrivate</_protection>
 				<_static type="a">0</_static>
@@ -18929,7 +19285,7 @@ BmsMainCntrl_TxSvc_Send_PackMeasData_Tx(vSum, cur, mode, tAvg);</_body>
 				<_id type="a">GUID 84884b7b-a828-49aa-b37c-60b2e4e1e971</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">static sint32      %25s </_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -18937,8 +19293,22 @@ BmsMainCntrl_TxSvc_Send_PackMeasData_Tx(vSum, cur, mode, tAvg);</_body>
 				<_id type="a">GUID a161197d-f846-4147-82c1-1105ccc7fc8f</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">s_tx_bmsModeInfo</_name>
-				<_modifiedTimeWeak type="a">1.27.2026::8:50:9</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:50:9</_modifiedTime>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:55</_modifiedTime>
 				<_isOrdered type="a">0</_isOrdered>
 				<_protection type="a">iPrivate</_protection>
 				<_static type="a">0</_static>
@@ -18959,7 +19329,7 @@ BmsMainCntrl_TxSvc_Send_PackMeasData_Tx(vSum, cur, mode, tAvg);</_body>
 				<_id type="a">GUID 3e5e3a9a-cdc7-4209-ad67-8783c675f2b3</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">static e_VcuCanCmd %25s </_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
@@ -18967,8 +19337,22 @@ BmsMainCntrl_TxSvc_Send_PackMeasData_Tx(vSum, cur, mode, tAvg);</_body>
 				<_id type="a">GUID 9540b476-d893-40b5-b6e2-a616884fc334</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">s_tx_cellTempAverage</_name>
-				<_modifiedTimeWeak type="a">1.27.2026::8:50:9</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.27.2026::8:50:9</_modifiedTime>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">DEL</_hname>
+								<_hid type="a">GUID 850ac8f6-bf4d-4a03-a7d3-e9e5ddc49740</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.28.2026::6:12:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.28.2026::6:12:55</_modifiedTime>
 				<_isOrdered type="a">0</_isOrdered>
 				<_protection type="a">iPrivate</_protection>
 				<_static type="a">0</_static>
@@ -18989,12 +19373,11 @@ BmsMainCntrl_TxSvc_Send_PackMeasData_Tx(vSum, cur, mode, tAvg);</_body>
 				<_id type="a">GUID 3a9631cf-a766-413c-bf20-4768fbde0238</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_modifiedTime type="a">1.2.1990::0:0:0</_modifiedTime>
 				<_declaration type="a">static sint16      %25s </_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			</_implicitClass>
-			<_partKind type="a">Block</_partKind>
 		</IModule>
 		
 	</RHAPSODY-MODEL>

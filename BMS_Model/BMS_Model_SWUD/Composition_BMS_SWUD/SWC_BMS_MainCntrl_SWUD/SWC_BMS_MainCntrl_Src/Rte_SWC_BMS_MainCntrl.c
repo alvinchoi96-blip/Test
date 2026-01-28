@@ -1,9 +1,9 @@
 #include "Rte_SWC_BMS_MainCntrl.h"
-#include "P_PackMeasData_TX_To_SWC_BMS_Status.h"
-#include "P_PackMeasData_TX_To_SWC_ChargeMngr.h"
-#include "P_PackMeasData_TX_To_SWC_SOC_Algo.h"
-#include "P_PackCalculatedData_Tx_To_SWC_BMS_Status.h"
-#include "P_BattStatusFlag_Tx_To_SWC_BMS_Status.h" 
+//#include "P_PackMeasData_TX_To_SWC_BMS_Status.h"
+//#include "P_PackMeasData_TX_To_SWC_ChargeMngr.h"
+//#include "P_PackMeasData_TX_To_SWC_SOC_Algo.h"
+//#include "P_PackCalculatedData_Tx_To_SWC_BMS_Status.h"
+//#include "P_BattStatusFlag_Tx_To_SWC_BMS_Status.h" 
 
 FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_BattStatusProcess_10ms(void)
 {
@@ -47,26 +47,23 @@ FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_ReportBattInfoData_10ms(
     uint16 ibpLevel;
 
     /* P_BattStatusFlag_Tx_To_SWC_BMS_Status DataElements 변수 선언 */
-    f_Voltage voltageFaultFlags;
-    f_Temp tempFaultFlags;
-    f_Current  currentFaultFlags;
-    f_Ibp ibpFaultFlags;
-    f_IsolResist packIsolationFaultFlag;
-    boolean cellBalancingFlag;
+    f_Voltage voltageFaultFlags; //Struct
+    f_Temp tempFaultFlags; // Struct
+    f_Current  currentFaultFlags; //Struct
+    f_Ibp ibpFaultFlags; //Struct
+    f_IsolResist packIsolationFaultFlag; //Struct
+    
 
-    /* P_PackMeasData_TX_To_SWC_BMS_Status 함수 선언*/
-    P_PackMeasData_TX_To_SWC_BMS_Status_Write(packVoltageSum, packCurrent, bmsModeInfo, cellTempAverage);
+    Rte_Write_SWC_BMS_MainCntrl_P_PackMeasData_Tx_packVoltageSum(packVoltageSum);
+    Rte_Write_SWC_BMS_MainCntrl_P_PackMeasData_Tx_packCurrent(packCurrent);
+    Rte_Write_SWC_BMS_MainCntrl_P_PackMeasData_Tx_bmsModeInfo(bmsModeInfo);
+    Rte_Write_SWC_BMS_MainCntrl_P_PackMeasData_Tx_cellTempAverage(cellTempAverage);
 
-    /* P_PackMeasData_TX_To_SWC_BMS_ChargeMngr 함수 선언*/
-    P_PackMeasData_TX_To_SWC_BMS_ChargeMngr_Write(packVoltageSum, packCurrent, bmsModeInfo, cellTempAverage);
+    Rte_Write_SWC_BMS_MainCntrl_P_PackCalculatedData_Tx_ibpLevel(ibpLevel);
 
-    /* P_PackMeasData_TX_To_SWC_BMS_SOC_Algo 함수 선언*/
-    P_PackMeasData_TX_To_SWC_BMS_SOC_Algo_Write(packVoltageSum, packCurrent, bmsModeInfo, cellTempAverage);
-
-    /* P_PackCalculatedData_Tx_To_SWC_BMS_Status 함수 선언*/
-    P_PackCalculatedData_Tx_To_SWC_BMS_Status_Write(ibpLevel);
-
-    /* P_BattStatusFlag_Tx_To_SWC_BMS_Status 함수 선언*/
-    P_BattStatusFlag_Tx_To_SWC_BMS_Status_Write(voltageFaultFlags, tempFaultFlags, currentFaultFlags, ibpFaultFlags, packIsolationFaultFlag, cellBalancingFlag);
-
+    Rte_Write_SWC_BMS_MainCntrl_P_BattStatusFlags_Tx_voltageFaultFlags(&voltageFaultFlags);
+    Rte_Write_SWC_BMS_MainCntrl_P_BattStatusFlags_Tx_tempFaultFlags(&tempFaultFlags);
+    Rte_Write_SWC_BMS_MainCntrl_P_BattStatusFlags_Tx_currentFaultFlags(&currentFaultFlags);
+    Rte_Write_SWC_BMS_MainCntrl_P_BattStatusFlags_Tx_ibpFaultFlags(&ibpFaultFlags);
+    Rte_Write_SWC_BMS_MainCntrl_P_BattStatusFlags_Tx_packIsolationFaultFlag(&packIsolationFaultFlag);
 }

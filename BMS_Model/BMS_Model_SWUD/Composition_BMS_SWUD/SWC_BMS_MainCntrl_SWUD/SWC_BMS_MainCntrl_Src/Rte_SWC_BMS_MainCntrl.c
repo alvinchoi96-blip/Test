@@ -1,4 +1,5 @@
 #include "Rte_SWC_BMS_MainCntrl.h"
+<<<<<<< HEAD
 #include "BmsMainCntrl_TxSvc.h"
 #include "BmsStatusDetermine.h"
 
@@ -15,6 +16,7 @@ static void MainCntrl_UpdateTx_PackMeasData(uint32 packVoltageSum, sint32 packCu
     s_tx_bmsModeInfo = bmsModeInfo;
     s_tx_cellTempAverage = cellTempAverage;
 }
+#include "P_PackMeasData_TX_To_SWC_ChargeMngr.h"
 
 FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_BattStatusProcess_10ms(void)
 {
@@ -34,6 +36,13 @@ FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_BattStatusProcess_10ms(v
     /* 4. Update BMS Status Output */
     BMS_Update_Status_Output(currentBmsMode);
 }
+=======
+#include "P_PackMeasData_TX_To_SWC_BMS_Status.h"
+#include "P_PackMeasData_TX_To_SWC_ChargeMngr.h"
+#include "P_PackMeasData_TX_To_SWC_SOC_Algo.h"
+#include "P_PackCalculatedData_Tx_To_SWC_BMS_Status.h"
+#include "P_BattStatusFlag_Tx_To_SWC_BMS_Status.h" 
+>>>>>>> origin/master
 
 FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_SoX_1000ms(void)
 {
@@ -56,8 +65,8 @@ FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_ReportBattInfoData_10ms(
 {
     const uint32      vSum = s_tx_packVoltageSum;
     const sint32      cur = s_tx_packCurrent;
-    const e_VcuCanCmd mode = s_tx_bmsModeInfo;
     const sint16      tAvg = s_tx_cellTempAverage;
+    f_Voltage voltageFaultFlags;
 
     BmsMainCntrl_TxSvc_Send_PackMeasData_Tx(vSum, cur, mode, tAvg);
 }

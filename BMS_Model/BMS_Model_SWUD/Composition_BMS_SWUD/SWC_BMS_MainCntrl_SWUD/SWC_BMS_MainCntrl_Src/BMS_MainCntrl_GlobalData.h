@@ -50,6 +50,10 @@ typedef struct
 /* [Interface: FaultFlag] 고장 및 경고 플래그 (Full List from RTE) */
 typedef struct
 {
+    /* --- Summary Flags (Logic Optimization) --- */
+    boolean isAnyError;   /* 하나라도 Error가 있으면 TRUE */
+    boolean isAnyWarning; /* 하나라도 Warning이 있으면 TRUE */
+
     /* --- Errors (Faults) --- */
     boolean errOverCharge;
     boolean errOverDischarge;

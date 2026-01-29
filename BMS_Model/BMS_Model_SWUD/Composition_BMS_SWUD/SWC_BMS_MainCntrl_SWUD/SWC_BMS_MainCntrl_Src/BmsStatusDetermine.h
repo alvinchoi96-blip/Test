@@ -1,53 +1,102 @@
 #ifndef BMS_STATUS_DETERMINE_H
 #define BMS_STATUS_DETERMINE_H
 
-#include "Rte_Type.h" /* RTE 기본 타입(Standard Types) 참조 */
+#include "Rte_Type.h" /* RTE 기본 타입 참조 */
 
-/* =========================================================================
- * Application Data Type Definitions
- * (RTE에 정의되지 않은 타입들을 어플리케이션 레벨에서 정의하여 빌드 에러 해결)
- * ========================================================================= */
+/* ==================================================================================
+ * 1. Interface-based Data Structures (전역 데이터 타입 정의)
+ * ================================================================================== */
 
-/* 1. Ignition Status (e_IgnStat) */
-#ifndef IGN_OFF
-    typedef uint8 e_IgnStat;
-    #define IGN_OFF   0U
-    #define IGN_ACC   1U
-    #define IGN_ON    2U
-    #define IGN_START 3U
-#endif
-
-/* 2. VCU Command (e_VcuCanCmd) */
-#ifndef VCU_CMD_NONE
-    typedef uint8 e_VcuCanCmd;
-    #define VCU_CMD_NONE      0U
-    #define VCU_CMD_RELAY_ON  1U
-    #define VCU_CMD_RELAY_OFF 2U
-#endif
-
-/* 3. Relay Control Speed (e_relayEnableSpeed) */
-#ifndef RELAY_IMMEDIATE
-    typedef uint8 e_relayEnableSpeed;
-    #define RELAY_IMMEDIATE 0U /* 즉시 연결 */
-    #define RELAY_SOFT      1U /* 프리차지(Soft Start) 적용 */
-#endif
-
-/* 4. BMS Operation Mode (Internally managed state) */
-typedef enum
+/* [Interface: SignalInput] 시그널 입력 */
+typedef struct
 {
-    BMS_MODE_STANDBY = 0,
-    BMS_MODE_DRIVE,
-    BMS_MODE_CHARGE,
-    BMS_MODE_FAULT
-} BMS_OperationModeType;
+    e_IgnStat ignSignal;
+    boolean chargeConnectedFlag;
+} Input_Signal_Type;
+
+/* [Interface: VcuCanCmd] VCU 명령 */
+typedef struct
+{
+    e_VcuCanCmd bmsActionCmd;
+} Input_VcuCmd_Type;
+
+/* [Interface: CellMeasData] 셀 전압 측정 데이터 */
+typedef struct
+{
+    uint8  cellSerialNum;
+    uint16 cellVoltageAverage;
+    uint16 cellVoltageMax;
+    uint16 cellVoltageMin;
+    uint16 ibpLevel;
+    uint32 packVoltageSum;
+    CellVoltageData cellVoltageIndividual; /* Array Type */
+} Input_CellMeas_Type;
+
+/* [Interface: CurrMeasData] 전류 측정 데이터 */
+typedef struct
+{
+    sint32 packCurrent;
+} Input_CurrMeas_Type;
+
+/* [Interface: TempMeasData] 온도 측정 데이터 */
+typedef struct
+{
+    sint16 cellTempAverage;
+    sint16 cellTempMax;
+    sint16 cellTempMin;
+} Input_TempMeas_Type;
+
+/* [Interface: FaultFlag] 고장 및 경고 플래그 (Full List from RTE) */
+typedef struct
+{
+    /* --- Errors (Faults) --- */
+    boolean errOverCharge;
+    boolean errOverDischarge;
+    boolean errOverChargeCurrent;
+    boolean errOverDischargeCurrent;
+    boolean errOverCellVmax;
+    boolean errUnderCellVmin;
+    boolean errOverIbp;
+    boolean errIsolation;
+    
+    boolean errChargeOverTemp;
+    boolean errChargeUnderTemp;
+    boolean errDischargeOverTemp;
+    boolean errDischargeUnderTemp;
+
+    /* --- Warnings (Alerts) --- */
+    boolean warnOverCharge;
+    boolean warnOverDisCharge; /* Note: Typo in RTE API Name preserved (DisCharge) */
+    boolean warnOverChargeCurrent;
+    boolean warnOverDischargeCurrent;
+    boolean warnOverCellVmax;
+    boolean warnUnderCellVmin;
+    boolean warnOverIbp;
+    
+    boolean warnChargeOverTemp;
+    boolean warnChargeUnderTemp;
+    boolean warnDischargeOverTemp;
+    boolean warnDischargeUnderTemp;
+} Input_FaultFlag_Type;
 
 
-/* =========================================================================
- * Sub-Function Prototypes
- * ========================================================================= */
-void BMS_Logic_ReadInputs(e_IgnStat* ign, boolean* chgConn, e_VcuCanCmd* vcuCmd, boolean* isFault);
-void BMS_Logic_DetermineState(e_IgnStat ign, boolean chgConn, e_VcuCanCmd vcuCmd, boolean isFault, BMS_OperationModeType* currentMode);
-void BMS_Logic_ControlRelays(BMS_OperationModeType currentMode);
-void BMS_Logic_WriteOutputs(BMS_OperationModeType currentMode);
+/* ==================================================================================
+ * 2. Global Variables Declaration (외부 참조 선언)
+ * ================================================================================== */
+extern Input_Signal_Type    g_Input_Signal;
+extern Input_VcuCmd_Type    g_Input_VcuCmd;
+extern Input_CellMeas_Type  g_Input_CellMeas;
+extern Input_CurrMeas_Type  g_Input_CurrMeas;
+extern Input_TempMeas_Type  g_Input_TempMeas;
+extern Input_FaultFlag_Type g_Input_FaultFlag;
+
+
+/* ==================================================================================
+ * 3. Function Prototypes
+ * ================================================================================== */
+/* 전역 변수를 참조하므로 인자를 최소화했습니다 */
+void BMS_Logic_DetermineState(e_VcuCanCmd* currentMode);
+void BMS_Logic_ControlRelays(e_VcuCanCmd currentMode);
+void BMS_Logic_WriteOutputs(e_VcuCanCmd currentMode);
 
 #endif /* BMS_STATUS_DETERMINE_H */

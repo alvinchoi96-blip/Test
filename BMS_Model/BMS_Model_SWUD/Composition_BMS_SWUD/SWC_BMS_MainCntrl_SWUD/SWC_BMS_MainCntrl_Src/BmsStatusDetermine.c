@@ -1,97 +1,105 @@
 /**
  * @file BmsStatusDetermine.c
- * @brief BMS Detailed Logic Implementation
+ * @brief BMS Logic Implementation using Global Variables
  */
 
 #include "BmsStatusDetermine.h"
-#include "Rte_SWC_BMS_MainCntrl.h" /* RTE API 사용을 위해 포함 */
-
-/*******************************************************************************
- * Function: BMS_Logic_ReadInputs
- * Description: RTE 포트를 통해 외부 신호 수신
- *******************************************************************************/
-void BMS_Logic_ReadInputs(e_IgnStat* ign, boolean* chgConn, e_VcuCanCmd* vcuCmd, boolean* isFault)
-{
-    /* 1. Ignition Status 읽기 */
-    if (Rte_Read_rp_SigInput_ignStatus(ign) != RTE_E_OK) {
-        *ign = IGN_OFF; /* Read Fail 시 안전값(OFF) 설정 */
-    }
-
-    /* 2. 충전기 연결 상태 읽기 */
-    if (Rte_Read_rp_SigInput_chargerConnectedFlag(chgConn) != RTE_E_OK) {
-        *chgConn = FALSE;
-    }
-
-    /* 3. VCU 상위 제어기 명령 읽기 */
-    if (Rte_Read_rp_VcuCanCmd_bmsActionCmd(vcuCmd) != RTE_E_OK) {
-        *vcuCmd = VCU_CMD_NONE;
-    }
-
-    /* 4. 고장 상태 읽기 (FaultDTC 컴포넌트로부터) */
-    if (Rte_Read_rp_FaultInfo_isFaultActive(isFault) != RTE_E_OK) {
-        *isFault = TRUE; /* 통신 실패 시 안전을 위해 Fault로 간주 */
-    }
-}
+#include "Rte_SWC_BMS_MainCntrl.h" 
 
 /*******************************************************************************
  * Function: BMS_Logic_DetermineState
- * Description: 입력값 우선순위에 따라 BMS 운전 모드 결정
+ * Description: 전역 입력 변수들을 확인하여 BMS 운전 모드를 결정
  *******************************************************************************/
-void BMS_Logic_DetermineState(e_IgnStat ign, boolean chgConn, e_VcuCanCmd vcuCmd, boolean isFault, BMS_OperationModeType* currentMode)
+void BMS_Logic_DetermineState(e_VcuCanCmd* currentMode)
 {
-    /* Priority 1: Critical Fault (최우선: 고장 발생 시) */
-    if (isFault == TRUE)
+    /* 1. 고장 진단 (Fault Aggregation) - Critical Faults Check */
+    boolean isCriticalFault = FALSE;
+
+    if (g_Input_FaultFlag.errOverCharge || g_Input_FaultFlag.errOverDischarge || 
+        g_Input_FaultFlag.errOverCellVmax || g_Input_FaultFlag.errIsolation ||
+        g_Input_FaultFlag.errDischargeOverTemp || g_Input_FaultFlag.errOverChargeCurrent)
     {
-        *currentMode = BMS_MODE_FAULT;
+        isCriticalFault = TRUE;
     }
-    /* Priority 2: VCU Force Relay ON (상위 제어기 강제 구동 명령) */
-    else if (vcuCmd == VCU_CMD_RELAY_ON)
+
+    /* 2. 상태 결정 우선순위 로직 */
+    /* Priority 1: Critical Fault -> Emergency */
+    if (isCriticalFault == TRUE)
     {
-        *currentMode = BMS_MODE_DRIVE;
+        *currentMode = Emergency; /* 5U */
     }
-    /* Priority 3: Charger Connected (충전기 연결 시) */
-    else if (chgConn == TRUE)
+    /* Priority 2: VCU Force Command -> Driving (Override) */
+    else if (g_Input_VcuCmd.bmsActionCmd == Driving)
     {
-        *currentMode = BMS_MODE_CHARGE;
+        *currentMode = Driving; /* 2U */
     }
-    /* Priority 4: Ignition Active (시동 키 ON 또는 START) */
-    else if ((ign == IGN_ON) || (ign == IGN_START))
+    /* Priority 3: Charger Connected -> Charging Logic */
+    /* Rte_Type 정의상 Driving=2, Charging=2(ENUM_ChgInfo)이므로,
+       BmsMode는 Driving으로 설정하되, 출력 시 ChargingStatus를 별도로 송신 */
+    else if (g_Input_Signal.chargeConnectedFlag == TRUE)
     {
-        *currentMode = BMS_MODE_DRIVE;
+        *currentMode = Driving; /* Relay ON을 위해 Driving 모드 진입 */
     }
-    /* Default: Standby (그 외 대기 상태) */
+    /* Priority 4: Ignition ON/START -> Driving */
+    else if ((g_Input_Signal.ignSignal == ON) || (g_Input_Signal.ignSignal == START))
+    {
+        *currentMode = Driving; /* 2U */
+    }
+    /* Default: Standby */
     else
     {
-        *currentMode = BMS_MODE_STANDBY;
+        *currentMode = Standby; /* 1U */
     }
 }
 
 /*******************************************************************************
  * Function: BMS_Logic_ControlRelays
- * Description: 결정된 모드에 따라 RelayDriver 컴포넌트에 명령(C/S Call) 전송
+ * Description: 결정된 모드에 따라 Relay 제어 (Soft Start 포함)
  *******************************************************************************/
-void BMS_Logic_ControlRelays(BMS_OperationModeType currentMode)
+void BMS_Logic_ControlRelays(e_VcuCanCmd currentMode)
 {
-    /* Drive 또는 Charge 모드일 때만 릴레이 연결 */
-    if ((currentMode == BMS_MODE_DRIVE) || (currentMode == BMS_MODE_CHARGE))
+    /* Driving 모드이거나 충전기가 연결되어 있을 때 Relay ON */
+    if (currentMode == Driving) 
     {
-        /* Relay Enable 요청 (Soft Start 적용) */
-        /* 정의된 상수 RELAY_SOFT(1) 사용 */
-        (void)Rte_Call_cp_RelayControlReq_relayEnableReq(RELAY_SOFT);
+        /* Relay Enable 요청 (Soft Start = 1U) */
+        (void)Rte_Call_R_RelayControlReq_relayEnableReq(1U); 
     }
-    else
+    else if (currentMode == Emergency || currentMode == Shut_Down)
     {
         /* Relay Disable 요청 (즉시 차단) */
-        (void)Rte_Call_cp_RelayControlReq_relayDisableReq();
+        (void)Rte_Call_R_RelayControlReq_relayDisableReq();
+    }
+    else /* Standby */
+    {
+        (void)Rte_Call_R_RelayControlReq_relayDisableReq();
     }
 }
 
 /*******************************************************************************
  * Function: BMS_Logic_WriteOutputs
- * Description: 현재 BMS 상태를 외부로 출력
+ * Description: BMS 상태 및 전역 변수에 저장된 측정값 출력
  *******************************************************************************/
-void BMS_Logic_WriteOutputs(BMS_OperationModeType currentMode)
+void BMS_Logic_WriteOutputs(e_VcuCanCmd currentMode)
 {
-    /* BMS 현재 모드를 P-Port로 송신 */
-    (void)Rte_Write_pp_BmsModeInfo_bmsMode(currentMode);
+    /* 1. BMS Mode Info 송신 */
+    (void)Rte_Write_P_PackMeasData_Tx_bmsModeInfo(currentMode);
+
+    /* 2. Charging Status 송신 */
+    /* 모드는 Driving이지만, 실제로 충전기가 연결되어 있다면 'Charging' 상태 출력 */
+    if ((currentMode == Driving) && (g_Input_Signal.chargeConnectedFlag == TRUE))
+    {
+        (void)Rte_Write_P_ChgData_Tx_chargingStatus(Charging); /* 2U */
+    }
+    else if (g_Input_Signal.chargeConnectedFlag == TRUE)
+    {
+        (void)Rte_Write_P_ChgData_Tx_chargingStatus(ChargerConnected); /* 1U */
+    }
+    else
+    {
+        (void)Rte_Write_P_ChgData_Tx_chargingStatus(NotCharging); /* 0U */
+    }
+
+    /* 3. (Optional) 측정값 재전송 (Pass-through) */
+    /* 다른 컴포넌트나 HMI 등에서 값을 쓰기 위해 필요한 경우 전송 */
+    // Rte_Write_P_PackMeasData_Tx_packCurrent(g_Input_CurrMeas.packCurrent);
 }

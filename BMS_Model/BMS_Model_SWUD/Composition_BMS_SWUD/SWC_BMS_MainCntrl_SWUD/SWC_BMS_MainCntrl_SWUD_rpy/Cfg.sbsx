@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RhapsodyArchive>
+	<MagicNumber></MagicNumber>
+	<CODE-PAGE>949</CODE-PAGE>
+	<version>100.840.0</version>
+	<lang>C</lang>
+	<BuildNo>9841247</BuildNo>
+	
+	<RHAPSODY-MODEL>
+	<ISubsystem type="e">
+			<_id type="a">GUID 1579510f-dc92-4891-9a5b-e72eb8c11f9a</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Cfg</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+							<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+							<_hname type="a">Directory</_hname>
+							<_hid type="a">GUID 1f87bd3d-36f6-43e5-ba1a-520b52732caa</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.29.2026::12:31:22</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:31:22</_modifiedTime>
+			<weakCGTime type="a">1.29.2026::12:31:50</weakCGTime>
+			<strongCGTime type="a">1.29.2026::12:31:26</strongCGTime>
+			<_defaultComposite type="s">GUID d7dfa57c-43c3-4f80-aea0-2dadd8a1c2fe</_defaultComposite>
+			<_eventsBaseID type="a">-1</_eventsBaseID>
+			<_configurationRelatedTime type="a">1.29.2026::12:31:22</_configurationRelatedTime>
+			<AggregatesList type="e">
+				<value>GUID d7dfa57c-43c3-4f80-aea0-2dadd8a1c2fe</value>
+			</AggregatesList>
+		</ISubsystem>
+		<IClass type="e">
+			<_id type="a">GUID d7dfa57c-43c3-4f80-aea0-2dadd8a1c2fe</_id>
+			<_myState type="a">40960</_myState>
+			<_name type="a">TopLevel</_name>
+			<_modifiedTimeWeak type="a">1.29.2026::12:31:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:31:50</_modifiedTime>
+			<weakCGTime type="a">1.29.2026::12:31:50</weakCGTime>
+			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
+			<_itsStateChart type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_itsStateChart>
+			<_classModifier type="a">Unspecified</_classModifier>
+			<AggregatesList type="e">
+				<value>GUID 7c50e02d-8d45-49af-a609-72e81599d64d</value>
+				<value>GUID d1a67f15-ba1a-4bb6-b3ea-2f505599fbc4</value>
+			</AggregatesList>
+		</IClass>
+		<IModule type="e">
+			<_id type="a">GUID 7c50e02d-8d45-49af-a609-72e81599d64d</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Soc_Cfg</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+							<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+							<_hname type="a">HeaderFile</_hname>
+							<_hid type="a">GUID 4775df9b-d675-47d2-85a4-dcaa0c2d66ef</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.29.2026::12:31:49</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:31:49</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID 9cf8323f-5748-49b0-b69f-dfe99eef2457</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID 9cf8323f-5748-49b0-b69f-dfe99eef2457</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">Soc_Cfg</_name>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:49</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:49</_modifiedTime>
+				<weakCGTime type="a">1.29.2026::12:31:49</weakCGTime>
+				<strongCGTime type="a">1.29.2026::12:31:22</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID f8fcaab3-cb5d-4d54-b541-f02e6c117a36</value>
+					<value>GUID 91489a4a-29bd-4076-a3d9-f036a7e4d353</value>
+					<value>GUID 42fd0c95-9eef-4a44-b35f-f5528d57dc47</value>
+					<value>GUID 0fe395f6-0c18-4201-84dd-17f9e0ce74f4</value>
+					<value>GUID fb8996db-c8a6-4577-affe-14eae149eacb</value>
+					<value>GUID dda47bbb-839f-40fe-aa41-521eb198135e</value>
+					<value>GUID 820ed38a-3e9c-4ef4-82f4-66a09568ec21</value>
+					<value>GUID bc967f8a-c872-4a43-81ee-ae57b467b750</value>
+					<value>GUID 2707a084-fdc2-4fde-bc9c-245f14fa99c1</value>
+					<value>GUID 47654a85-cdfb-415e-9598-247fc68a7b34</value>
+					<value>GUID 164842e9-3bba-4262-a8a6-bbc374bc9c06</value>
+					<value>GUID d521a2f4-eca0-4dd6-b960-3caac41d4fb0</value>
+					<value>GUID 9aca3f74-673d-4bd2-94fc-bd98e3ca9e4a</value>
+					<value>GUID 20226d83-a193-4a17-bce1-9ae4475764b6</value>
+					<value>GUID 9dca9517-3947-4c1b-8021-c6942b3ee57e</value>
+					<value>GUID c62075c3-1a4c-4cab-a4e0-e340d3f58f88</value>
+					<value>GUID bb2a019f-6ba3-4fd1-a9c6-308f127ac9ca</value>
+					<value>GUID 9038d9a9-9290-420b-891f-f8390db3eade</value>
+					<value>GUID 11e9be8b-6a07-4c0e-86f0-aac52fe05a32</value>
+					<value>GUID 270cb350-5c4d-4458-85d8-a1d4e8cdc4c1</value>
+					<value>GUID 353451f3-9f68-4ba4-864f-2bdc96ad5411</value>
+					<value>GUID 3a9d58a7-900c-42b3-bd49-4719ec483550</value>
+					<value>GUID 1d1175b9-c281-4444-87d7-2bb4574669d7</value>
+					<value>GUID 708997e0-4044-4c14-8dfc-8c9cdaebc98e</value>
+					<value>GUID 2f069655-1fe7-4f0e-82c3-ce73f43b27f7</value>
+					<value>GUID 0a33bf6e-1540-4d28-99d3-bb80b80d674c</value>
+					<value>GUID 940f005c-9f50-44d9-bcad-b7b671b81c43</value>
+					<value>GUID ed3d4e97-2d64-4c83-bcd7-86ba5ea113f1</value>
+					<value>GUID df51127b-2c62-4ae1-918c-1ae5fe4250ab</value>
+					<value>GUID d12cd28f-7c64-4e38-a137-35ab78193042</value>
+					<value>GUID c3dd3ec7-cf3a-4f35-a875-91cf565460ff</value>
+					<value>GUID 10a09c04-6c33-4a22-98ff-4114b02a80d6</value>
+					<value>GUID 91ca31f0-93e1-41f3-b733-873da2d1a362</value>
+					<value>GUID 81dd73a8-f84a-4dc5-b1d8-06ce9fd460b2</value>
+					<value>GUID 7f63c922-d055-44ba-9951-d337d75769a8</value>
+					<value>GUID 16180fe2-5543-4eb3-90ef-2b12f16dd9da</value>
+					<value>GUID 9875184a-a339-4a5d-8109-de36dcbd03e3</value>
+				</AggregatesList>
+			</IClass>
+			<IDependency type="e">
+				<_id type="a">GUID f8fcaab3-cb5d-4d54-b541-f02e6c117a36</_id>
+				<_myState type="a">2048</_myState>
+				<_name type="a">Platform_Types</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">use</_hname>
+								<_hid type="a">GUID a152726d-737c-49ac-9d3a-0f50506b3c07</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:49</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:49</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hfilename type="a">.\RteFiles.sbsx</_hfilename>
+						<_hsubsystem type="a">RteFiles</_hsubsystem>
+						<_hclass type="a">TopLevel</_hclass>
+						<_hname type="a">Platform_Types</_hname>
+						<_hid type="a">GUID 03386152-ec49-474e-8796-8b8e4bf0eb78</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_dependent type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 9cf8323f-5748-49b0-b69f-dfe99eef2457</_hid>
+					</INObjectHandle>
+				</_dependent>
+			</IDependency>
+			<ITag type="e">
+				<_id type="a">GUID 91489a4a-29bd-4076-a3d9-f036a7e4d353</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">kind</_name>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:22</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:22</_modifiedTime>
+				<_isOrdered type="a">0</_isOrdered>
+				<AggregatesList type="e">
+					<value>GUID 20f3b706-344e-4ff2-852e-c756ef03913e</value>
+					<value>GUID 47c2fe30-d70b-43d5-ac95-c7013a4374ac</value>
+				</AggregatesList>
+			</ITag>
+			<ILiteralSpecification type="e">
+				<_id type="a">GUID 20f3b706-344e-4ff2-852e-c756ef03913e</_id>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:22</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:22</_modifiedTime>
+				<_value type="a">HeaderFile</_value>
+			</ILiteralSpecification>
+			<IType type="e">
+				<_id type="a">GUID 47c2fe30-d70b-43d5-ac95-c7013a4374ac</_id>
+				<_myState type="a">8192</_myState>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID 42fd0c95-9eef-4a44-b35f-f5528d57dc47</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">Platform_Types</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Include</_hname>
+								<_hid type="a">GUID 3ed54781-4082-4b58-bf46-50ff5bc69e27</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:22</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:22</_modifiedTime>
+				<_declaration type="a">#include &quot;%25s.h&quot;</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID 0fe395f6-0c18-4201-84dd-17f9e0ce74f4</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_SCALE_X10</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:22</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:22</_modifiedTime>
+				<_declaration type="a">#define %25s                  (10u)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID fb8996db-c8a6-4577-affe-14eae149eacb</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_UNIT_VOLTAGE_MV</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:22</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:22</_modifiedTime>
+				<_declaration type="a">#define %25s                (1u)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID dda47bbb-839f-40fe-aa41-521eb198135e</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_UNIT_CURRENT_MA</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:22</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:22</_modifiedTime>
+				<_declaration type="a">#define %25s                (1u)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID 820ed38a-3e9c-4ef4-82f4-66a09568ec21</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_UNIT_TEMP_DC</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:23</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:23</_modifiedTime>
+				<_declaration type="a">#define %25s                   (1u)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID bc967f8a-c872-4a43-81ee-ae57b467b750</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_NOM_CAPACITY_AH_X10</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:23</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:23</_modifiedTime>
+				<_declaration type="a">#define %25s        (500u)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID 2707a084-fdc2-4fde-bc9c-245f14fa99c1</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_NOM_ENERGY_WH_X10</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:23</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:23</_modifiedTime>
+				<_declaration type="a">#define %25s          (180000u)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID 47654a85-cdfb-415e-9598-247fc68a7b34</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_EFF_CHG_X1000</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:23</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:23</_modifiedTime>
+				<_declaration type="a">#define %25s              (995u)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID 164842e9-3bba-4262-a8a6-bbc374bc9c06</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_EFF_DISCHG_X1000</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:23</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:23</_modifiedTime>
+				<_declaration type="a">#define %25s           (990u)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID d521a2f4-eca0-4dd6-b960-3caac41d4fb0</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_CC_DT_MS</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:23</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:23</_modifiedTime>
+				<_declaration type="a">#define %25s                   (1000u)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID 9aca3f74-673d-4bd2-94fc-bd98e3ca9e4a</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_CC_I_OFFSET_MA</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:23</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:23</_modifiedTime>
+				<_declaration type="a">#define %25s             (0)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID 20226d83-a193-4a17-bce1-9ae4475764b6</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_CC_I_DEADBAND_MA</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:24</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:24</_modifiedTime>
+				<_declaration type="a">#define %25s           (300)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID 9dca9517-3947-4c1b-8021-c6942b3ee57e</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_CC_SLEW_LIMIT_X10_PER_S</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:24</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:24</_modifiedTime>
+				<_declaration type="a">#define %25s    (20u)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID c62075c3-1a4c-4cab-a4e0-e340d3f58f88</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_OCV_POINTS</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:24</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:24</_modifiedTime>
+				<_declaration type="a">#define %25s                 (11u)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID bb2a019f-6ba3-4fd1-a9c6-308f127ac9ca</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_REST_I_THR_MA</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:24</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:24</_modifiedTime>
+				<_declaration type="a">#define %25s              (500)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID 9038d9a9-9290-420b-891f-f8390db3eade</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_REST_V_DV_THR_MV</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:24</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:24</_modifiedTime>
+				<_declaration type="a">#define %25s           (5)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID 11e9be8b-6a07-4c0e-86f0-aac52fe05a32</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_REST_TIME_MS</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:24</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:24</_modifiedTime>
+				<_declaration type="a">#define %25s               (300000u)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID 270cb350-5c4d-4458-85d8-a1d4e8cdc4c1</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_OCV_CORR_GAIN_X1000</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:24</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:24</_modifiedTime>
+				<_declaration type="a">#define %25s        (200u)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID 353451f3-9f68-4ba4-864f-2bdc96ad5411</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_OCV_CORR_MAX_STEP_X10</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:24</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:24</_modifiedTime>
+				<_declaration type="a">#define %25s      (30u)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID 3a9d58a7-900c-42b3-bd49-4719ec483550</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_MIN_X10</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:25</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:25</_modifiedTime>
+				<_declaration type="a">#define %25s                    (0u)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID 1d1175b9-c281-4444-87d7-2bb4574669d7</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_MAX_X10</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:25</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:25</_modifiedTime>
+				<_declaration type="a">#define %25s                    (1000u)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID 708997e0-4044-4c14-8dfc-8c9cdaebc98e</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_INVALID_HOLD_MS</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:25</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:25</_modifiedTime>
+				<_declaration type="a">#define %25s            (10000u)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID 2f069655-1fe7-4f0e-82c3-ce73f43b27f7</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_INVALID_DEFAULT_X10</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:25</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:25</_modifiedTime>
+				<_declaration type="a">#define %25s        (500u)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID 0a33bf6e-1540-4d28-99d3-bb80b80d674c</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_FLAG_VALID</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:25</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:25</_modifiedTime>
+				<_declaration type="a">#define %25s                 (0x01u)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID 940f005c-9f50-44d9-bcad-b7b671b81c43</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_FLAG_OCV_USED</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:25</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:25</_modifiedTime>
+				<_declaration type="a">#define %25s              (0x02u)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID ed3d4e97-2d64-4c83-bcd7-86ba5ea113f1</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_FLAG_CC_USED</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:25</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:25</_modifiedTime>
+				<_declaration type="a">#define %25s               (0x04u)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID df51127b-2c62-4ae1-918c-1ae5fe4250ab</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_FLAG_SATURATED</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:25</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:25</_modifiedTime>
+				<_declaration type="a">#define %25s             (0x08u)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID d12cd28f-7c64-4e38-a137-35ab78193042</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_V_MIN_MV_SANITY</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:25</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:25</_modifiedTime>
+				<_declaration type="a">#define %25s            (100u)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID c3dd3ec7-cf3a-4f35-a875-91cf565460ff</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_V_MAX_MV_SANITY</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:25</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:25</_modifiedTime>
+				<_declaration type="a">#define %25s            (200000u)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID 10a09c04-6c33-4a22-98ff-4114b02a80d6</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_I_MIN_MA_SANITY</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:26</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:26</_modifiedTime>
+				<_declaration type="a">#define %25s            ((sint16)-500000)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID 91ca31f0-93e1-41f3-b733-873da2d1a362</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_I_MAX_MA_SANITY</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:26</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:26</_modifiedTime>
+				<_declaration type="a">#define %25s            ((sint16) 500000)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID 81dd73a8-f84a-4dc5-b1d8-06ce9fd460b2</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_T_MIN_DC_SANITY</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:26</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:26</_modifiedTime>
+				<_declaration type="a">#define %25s            ((sint16)-500)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID 7f63c922-d055-44ba-9951-d337d75769a8</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BMS_SOC_T_MAX_DC_SANITY</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Define</_hname>
+								<_hid type="a">GUID 81620936-701c-425f-b02a-c45f398dbc88</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:26</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:26</_modifiedTime>
+				<_declaration type="a">#define %25s            ((sint16) 1250)</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IAttribute type="e">
+				<_id type="a">GUID 16180fe2-5543-4eb3-90ef-2b12f16dd9da</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BmsSoc_OcvSocBp_X10</_name>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:26</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:26</_modifiedTime>
+				<_isOrdered type="a">0</_isOrdered>
+				<_protection type="a">iPublic</_protection>
+				<_static type="a">0</_static>
+				<_isReferenceAttr type="a">0</_isReferenceAttr>
+				<_isConstant type="a">0</_isConstant>
+				<AggregatesList type="e">
+					<value>GUID 009ff14b-d9a4-410e-8f2f-49998ba570d8</value>
+				</AggregatesList>
+			</IAttribute>
+			<IType type="e">
+				<_id type="a">GUID 009ff14b-d9a4-410e-8f2f-49998ba570d8</_id>
+				<_myState type="a">8192</_myState>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_declaration type="a">extern const uint16 %25s[BMS_SOC_OCV_POINTS]</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IAttribute type="e">
+				<_id type="a">GUID 9875184a-a339-4a5d-8109-de36dcbd03e3</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BmsSoc_OcvTable_mV</_name>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:26</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:26</_modifiedTime>
+				<_isOrdered type="a">0</_isOrdered>
+				<_protection type="a">iPublic</_protection>
+				<_static type="a">0</_static>
+				<_isReferenceAttr type="a">0</_isReferenceAttr>
+				<_isConstant type="a">0</_isConstant>
+				<AggregatesList type="e">
+					<value>GUID ac667078-4d95-4e34-9b12-ef80399678c3</value>
+				</AggregatesList>
+			</IAttribute>
+			<IType type="e">
+				<_id type="a">GUID ac667078-4d95-4e34-9b12-ef80399678c3</_id>
+				<_myState type="a">8192</_myState>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_declaration type="a">extern const uint16 %25s[BMS_SOC_OCV_POINTS]</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			</_implicitClass>
+			<_partKind type="a">Block</_partKind>
+		</IModule>
+		<IModule type="e">
+			<_id type="a">GUID d1a67f15-ba1a-4bb6-b3ea-2f505599fbc4</_id>
+			<_myState type="a">8192</_myState>
+			<_name type="a">Soc_Cfg</_name>
+			<Stereotypes type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">1</size>
+					
+						<IHandle type="e">
+							<_hm2Class type="a">IStereotype</_hm2Class>
+							<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+							<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+							<_hname type="a">SourceFile</_hname>
+							<_hid type="a">GUID 498de8e7-8855-4011-83bd-e82e126638db</_hid>
+						</IHandle>
+					
+				</IRPYRawContainer>
+			</Stereotypes>
+			<_modifiedTimeWeak type="a">1.29.2026::12:31:50</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:31:50</_modifiedTime>
+			<_multiplicity type="a">1</_multiplicity>
+			<_otherClass type="r">
+				<IClassifierHandle type="e">
+					<_hm2Class type="a">IClass</_hm2Class>
+					<_hid type="a">GUID d5dee1bc-691f-4e99-ad29-4fe7918cda56</_hid>
+				</IClassifierHandle>
+			</_otherClass>
+			<_inverse type="r">
+				<IHandle type="e">
+				</IHandle>
+			</_inverse>
+			<_implicitClass type="p"><IClass type="e">
+				<_id type="a">GUID d5dee1bc-691f-4e99-ad29-4fe7918cda56</_id>
+				<_myState type="a">10240</_myState>
+				<_name type="a">Soc_Cfg</_name>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:50</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:50</_modifiedTime>
+				<weakCGTime type="a">1.29.2026::12:31:50</weakCGTime>
+				<strongCGTime type="a">1.29.2026::12:31:26</strongCGTime>
+				<_itsStateChart type="r">
+					<IHandle type="e">
+					</IHandle>
+				</_itsStateChart>
+				<_classModifier type="a">Unspecified</_classModifier>
+				<AggregatesList type="e">
+					<value>GUID 03440daf-8f5d-4498-bdec-f2ec0ab2d5b6</value>
+					<value>GUID 1b577295-72f1-4de5-ae4e-1e28ad2091a3</value>
+					<value>GUID 13ece30c-9c31-4052-941b-ed5872d1f00a</value>
+					<value>GUID b25034e8-2842-44e1-b300-8eebb3c179da</value>
+					<value>GUID 81e33aee-9b31-4b21-af5d-fbf2eaf9671a</value>
+				</AggregatesList>
+			</IClass>
+			<IDependency type="e">
+				<_id type="a">GUID 03440daf-8f5d-4498-bdec-f2ec0ab2d5b6</_id>
+				<_myState type="a">2048</_myState>
+				<_name type="a">Soc_Cfg</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">use</_hname>
+								<_hid type="a">GUID a152726d-737c-49ac-9d3a-0f50506b3c07</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:50</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:50</_modifiedTime>
+				<_dependsOn type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID 9cf8323f-5748-49b0-b69f-dfe99eef2457</_hid>
+					</INObjectHandle>
+				</_dependsOn>
+				<_dependent type="r">
+					<INObjectHandle type="e">
+						<_hm2Class type="a">IClass</_hm2Class>
+						<_hid type="a">GUID d5dee1bc-691f-4e99-ad29-4fe7918cda56</_hid>
+					</INObjectHandle>
+				</_dependent>
+			</IDependency>
+			<ITag type="e">
+				<_id type="a">GUID 1b577295-72f1-4de5-ae4e-1e28ad2091a3</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">kind</_name>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:26</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:26</_modifiedTime>
+				<_isOrdered type="a">0</_isOrdered>
+				<AggregatesList type="e">
+					<value>GUID 378ed69f-e91f-4eda-9adb-b010036d8dc8</value>
+					<value>GUID 11fb9237-21a4-4faf-8f68-0455d910aba3</value>
+				</AggregatesList>
+			</ITag>
+			<ILiteralSpecification type="e">
+				<_id type="a">GUID 378ed69f-e91f-4eda-9adb-b010036d8dc8</_id>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:26</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:26</_modifiedTime>
+				<_value type="a">SourceFile</_value>
+			</ILiteralSpecification>
+			<IType type="e">
+				<_id type="a">GUID 11fb9237-21a4-4faf-8f68-0455d910aba3</_id>
+				<_myState type="a">8192</_myState>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IType type="e">
+				<_id type="a">GUID 13ece30c-9c31-4052-941b-ed5872d1f00a</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">Soc_Cfg</_name>
+				<Stereotypes type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">1</size>
+						
+							<IHandle type="e">
+								<_hm2Class type="a">IStereotype</_hm2Class>
+								<_hfilename type="a">.\AutomotiveESW.sbsx</_hfilename>
+								<_hsubsystem type="a">AutomotiveESW::ESW_MechanisitcDesignModel</_hsubsystem>
+								<_hname type="a">Include</_hname>
+								<_hid type="a">GUID 3ed54781-4082-4b58-bf46-50ff5bc69e27</_hid>
+							</IHandle>
+						
+					</IRPYRawContainer>
+				</Stereotypes>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:27</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:27</_modifiedTime>
+				<_declaration type="a">#include &quot;%25s.h&quot;</_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IAttribute type="e">
+				<_id type="a">GUID b25034e8-2842-44e1-b300-8eebb3c179da</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BmsSoc_OcvSocBp_X10</_name>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:27</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:27</_modifiedTime>
+				<_isOrdered type="a">0</_isOrdered>
+				<_protection type="a">iPublic</_protection>
+				<_static type="a">0</_static>
+				<_isReferenceAttr type="a">0</_isReferenceAttr>
+				<_isConstant type="a">0</_isConstant>
+				<AggregatesList type="e">
+					<value>GUID 957efa45-e29d-45e7-a79a-cf98586b0c8d</value>
+					<value>GUID c9b29f12-1384-4c4e-9a02-b2289251e332</value>
+				</AggregatesList>
+			</IAttribute>
+			<ILiteralSpecification type="e">
+				<_id type="a">GUID 957efa45-e29d-45e7-a79a-cf98586b0c8d</_id>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:27</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:27</_modifiedTime>
+				<_value type="a">{%0D
+      0, 100, 200, 300, 400,%0D
+    500, 600, 700, 800, 900, 1000%0D
+}</_value>
+			</ILiteralSpecification>
+			<IType type="e">
+				<_id type="a">GUID c9b29f12-1384-4c4e-9a02-b2289251e332</_id>
+				<_myState type="a">8192</_myState>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_declaration type="a">const uint16 %25s[BMS_SOC_OCV_POINTS] </_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			<IAttribute type="e">
+				<_id type="a">GUID 81e33aee-9b31-4b21-af5d-fbf2eaf9671a</_id>
+				<_myState type="a">8192</_myState>
+				<_name type="a">BmsSoc_OcvTable_mV</_name>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:27</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:27</_modifiedTime>
+				<_isOrdered type="a">0</_isOrdered>
+				<_protection type="a">iPublic</_protection>
+				<_static type="a">0</_static>
+				<_isReferenceAttr type="a">0</_isReferenceAttr>
+				<_isConstant type="a">0</_isConstant>
+				<AggregatesList type="e">
+					<value>GUID 7555db84-261e-425d-9f85-8c41202f9cd0</value>
+					<value>GUID 224de713-8ccd-4d3c-b094-1da9c7838c3c</value>
+				</AggregatesList>
+			</IAttribute>
+			<ILiteralSpecification type="e">
+				<_id type="a">GUID 7555db84-261e-425d-9f85-8c41202f9cd0</_id>
+				<_modifiedTimeWeak type="a">1.29.2026::12:31:27</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.29.2026::12:31:27</_modifiedTime>
+				<_value type="a">{%0D
+    3000, 3400, 3600, 3700, 3750,%0D
+    3800, 3850, 3900, 4000, 4100, 4200%0D
+}</_value>
+			</ILiteralSpecification>
+			<IType type="e">
+				<_id type="a">GUID 224de713-8ccd-4d3c-b094-1da9c7838c3c</_id>
+				<_myState type="a">8192</_myState>
+				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
+				<_declaration type="a">const uint16 %25s[BMS_SOC_OCV_POINTS] </_declaration>
+				<_kind type="a">Language</_kind>
+			</IType>
+			</_implicitClass>
+			<_partKind type="a">Block</_partKind>
+		</IModule>
+		
+	</RHAPSODY-MODEL>
+	<OslcLinks type="c">
+		<IRPYRawContainer type="e">
+			<size type="a">0</size>
+		</IRPYRawContainer>
+	</OslcLinks>
+
+<INCLUDES-RHAPSODY-INDEX>false</INCLUDES-RHAPSODY-INDEX>
+</RhapsodyArchive>
+

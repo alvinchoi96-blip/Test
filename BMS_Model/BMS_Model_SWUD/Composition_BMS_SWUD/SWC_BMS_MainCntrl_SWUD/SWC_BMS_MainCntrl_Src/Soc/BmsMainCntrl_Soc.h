@@ -49,6 +49,6 @@ void BmsMainCntrl_Soc_Process_1000ms(const BmsSoc_Input_t* in,
  * - 현재는 빈 body
  * - 추후 SOH 알고리즘 연결 예정
  */
-void BmsMainCntrl_Soh_Process(void);
+void BmsMainCntrl_Soh_Process_1000ms(void);
 
 #endif /* BMSMAINCNTRL_SOC_H */

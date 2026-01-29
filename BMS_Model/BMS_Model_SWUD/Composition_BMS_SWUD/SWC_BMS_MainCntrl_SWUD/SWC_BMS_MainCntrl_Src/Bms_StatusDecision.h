@@ -3,6 +3,7 @@
 
 #include "Rte_Type.h"
 
+
 /* 입력 데이터를 읽고, 유효성 검증(Validation)까지 수행하는 메인 함수 */
 void BMS_Input_ProcessAll(void);
 
@@ -11,7 +12,7 @@ boolean BMS_Input_ValidateSignals(void);
 
 
 /* 전체 로직 시퀀스 실행 */
-void BMS_Logic_MainSequence(e_VcuCanCmd* currentMode);
+void BMS_Logic_MainSequence(void);
 
 /* 세부 로직 함수들 */
 e_FaultLevel BMS_Logic_CheckFaults(void);

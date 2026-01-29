@@ -23,7 +23,7 @@ void Bms_Tx_PackMeasData_Write(const Bms_PackMeasData_TxType* txData)
     else
     {
         /* 현재 구현 기준: Emergency 모드이면 제한 송신 분기로 진입 */
-        if (txData->bmsModeInfo == Emergency)
+        if (txData->bmsModeInfo == BmsMd_Emergency)
         {
             policy = TX_POLICY_LIMITED;
         }

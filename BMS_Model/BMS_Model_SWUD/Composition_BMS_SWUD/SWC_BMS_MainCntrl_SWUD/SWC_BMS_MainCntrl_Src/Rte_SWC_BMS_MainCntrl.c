@@ -1,5 +1,4 @@
 #include "Rte_SWC_BMS_MainCntrl.h"
-#include "BmsMainCntrl_TxSvc.h"
 #include "BmsStatusDetermine.h"
 
 /* ==================================================================================
@@ -82,22 +81,11 @@ static void Bms_Read_All_Inputs(void)
 }
 
 
-/* ==================================================================================
- * Main Runnable: 10ms Cycle
- * ================================================================================== */
+
 FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_BattStatusProcess_10ms()
 {
-    /* [Step 1] 모든 입력 데이터 전역 변수에 최신화 (다른 Runnable도 이 값을 공유) */
-    Bms_Read_All_Inputs();
-
-    /* [Step 2] 상태 판단 로직 수행 (전역 변수 사용) */
-    BMS_Logic_DetermineState(&g_BmsCurrentMode);
-
-    /* [Step 3] 릴레이 제어 수행 */
-    BMS_Logic_ControlRelays(g_BmsCurrentMode);
-
-    /* [Step 4] 출력 업데이트 */
-    BMS_Logic_WriteOutputs(g_BmsCurrentMode);
+    BMS_Input_ProcessAll();
+    BMS_Logic_MainSequence(&g_BmsCurrentMode);
 }
 
 FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_SoX_1000ms(void)

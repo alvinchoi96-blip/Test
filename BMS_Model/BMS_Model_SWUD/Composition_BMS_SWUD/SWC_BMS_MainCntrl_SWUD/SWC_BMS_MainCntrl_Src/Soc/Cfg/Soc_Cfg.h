@@ -80,4 +80,24 @@ extern const uint16 BmsSoc_OcvTable_mV[BMS_SOC_OCV_POINTS];
 #define BMS_SOC_FLAG_CC_USED               (0x04u)
 #define BMS_SOC_FLAG_SATURATED             (0x08u)
 
+/* =========================================================
+ *  Input sanity range (Estimator pre-check)
+ *  목적:
+ *   - 센서 미연결/오동작/쓰레기 값 입력 시 SoC 계산 보호
+ *   - 실제 프로젝트에서는 Pack 구성/센서 스펙에 맞춰 조정
+ * ========================================================= */
+
+/* Pack Voltage sanity (mV) */
+#define BMS_SOC_V_MIN_MV_SANITY            (100u)       /* 0mV/1mV 같은 비정상 값 방지 */
+#define BMS_SOC_V_MAX_MV_SANITY            (200000u)    /* 샘플용 넓은 상한 (예: 200V) */
+
+/* Pack Current sanity (mA) */
+#define BMS_SOC_I_MIN_MA_SANITY            ((sint16)-500000) /* -500A */
+#define BMS_SOC_I_MAX_MA_SANITY            ((sint16) 500000) /* +500A */
+
+/* Pack Temperature sanity (0.1°C) */
+#define BMS_SOC_T_MIN_DC_SANITY            ((sint16)-500)    /* -50.0°C */
+#define BMS_SOC_T_MAX_DC_SANITY            ((sint16) 1250)   /* 125.0°C */
+
+
 #endif /* SOC_CFG_H */

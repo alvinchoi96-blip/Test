@@ -22,9 +22,14 @@ typedef struct {
 
 static BmsModeContext_Type g_BmsModeContext = {Standby, FALSE};
 
-FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_BattStatusProcess_10ms()
+FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_InputDataRead_10ms(void)
 {
     BMS_Input_ProcessAll();
+}
+
+FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_BattStatusProcess_10ms(void)
+{
+    
     BMS_Logic_MainSequence(&g_BmsCurrentMode);
 }
 

@@ -147,6 +147,7 @@ FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_ReportBattInfoData_10ms(
     f_Current  currentFaultFlags; //Struct
     f_Ibp ibpFaultFlags; //Struct
     f_IsolResist packIsolationFaultFlag; //Struct
+    boolean cellBalancingFlag; // boolean
     
 
     Rte_Write_SWC_BMS_MainCntrl_P_PackMeasData_Tx_packVoltageSum(packVoltageSum);
@@ -161,4 +162,5 @@ FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_ReportBattInfoData_10ms(
     Rte_Write_SWC_BMS_MainCntrl_P_BattStatusFlags_Tx_currentFaultFlags(&currentFaultFlags);
     Rte_Write_SWC_BMS_MainCntrl_P_BattStatusFlags_Tx_ibpFaultFlags(&ibpFaultFlags);
     Rte_Write_SWC_BMS_MainCntrl_P_BattStatusFlags_Tx_packIsolationFaultFlag(&packIsolationFaultFlag);
+    Rte_Write_SWC_BMS_MainCntrl_P_BattStatusFlags_Tx_cellBalancingFlag(cellBalancingFlag);
 }

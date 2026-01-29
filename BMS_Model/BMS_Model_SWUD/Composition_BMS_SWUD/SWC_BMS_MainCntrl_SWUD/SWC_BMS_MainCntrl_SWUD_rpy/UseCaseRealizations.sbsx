@@ -25,9 +25,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.29.2026::7:30:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.29.2026::7:30:9</_modifiedTime>
-			<weakCGTime type="a">1.29.2026::7:30:9</weakCGTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:4:30</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:4:30</_modifiedTime>
+			<weakCGTime type="a">1.29.2026::12:4:30</weakCGTime>
 			<strongCGTime type="a">11.30.2024::0:20:52</strongCGTime>
 			<_defaultComposite type="s">GUID f9a7c51b-aa2a-45eb-9ba5-18690438eaef</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -36,13 +36,13 @@
 				<value>GUID 03a71a60-ffa1-4b21-950d-f07e4f6b4427</value>
 				<value>GUID d32279bc-dae3-4eca-a63c-b7f8f0c7152f</value>
 				<value>GUID aace3da0-820d-4970-87c2-fbaffc2f280e</value>
-				<value>GUID 4648fc5c-75ed-42fe-a612-7473c10f8cd2</value>
-				<value>GUID 595eea92-1f3a-4bf9-b18c-b96e9fcaf6e4</value>
-				<value>GUID 3520428c-6257-4cda-9900-a9243ab7844c</value>
-				<value>GUID 4357c111-0ed5-4796-85cd-5320ddf1cb8c</value>
-				<value>GUID 1eb9fe67-fa9c-4102-9dc2-6af95f81f5db</value>
-				<value>GUID bdf82486-884a-4abb-ab01-69e2eddd6d86</value>
-				<value>GUID 0e69d20f-f863-4e93-817e-17b50b3602d8</value>
+				<value>GUID f50e3f6c-52ce-4fd4-b976-63e22734c324</value>
+				<value>GUID c1803cad-8c99-4c5f-9e4c-4316f46f0a4c</value>
+				<value>GUID 63399a8f-74eb-4fb4-95ac-2df5eb64f1f7</value>
+				<value>GUID 17d04967-edb1-4871-939b-a70da1ddb3c1</value>
+				<value>GUID 73f5262c-9f0a-4be6-9c4d-07e625dd98cf</value>
+				<value>GUID 38f94635-234a-4864-af2d-948a9a277543</value>
+				<value>GUID f628a040-b217-4bbd-adbf-5c3070203bc3</value>
 				<value>GUID f9a7c51b-aa2a-45eb-9ba5-18690438eaef</value>
 			</AggregatesList>
 		</ISubsystem>
@@ -83,18 +83,18 @@
 \viewkind4\uc1\pard\lang1042\f0\fs18 AUTOSAR_Project_Name\par%0D
 }%0D
 </_displayName>
-			<_modifiedTimeWeak type="a">1.29.2026::7:29:57</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.29.2026::7:29:57</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:4:9</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:4:9</_modifiedTime>
 			<_isOrdered type="a">0</_isOrdered>
 			<AggregatesList type="e">
-				<value>GUID 75808671-1cbc-44fc-852d-100f1ae3e452</value>
+				<value>GUID 6a0f4234-6dbf-48da-8f1e-958afd31212e</value>
 				<value>GUID 0b9a120d-e41d-44bd-9d82-4e3827b44979</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 75808671-1cbc-44fc-852d-100f1ae3e452</_id>
-			<_modifiedTimeWeak type="a">1.29.2026::7:29:57</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.29.2026::7:29:57</_modifiedTime>
+			<_id type="a">GUID 6a0f4234-6dbf-48da-8f1e-958afd31212e</_id>
+			<_modifiedTimeWeak type="a">1.29.2026::12:4:9</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:4:9</_modifiedTime>
 			<_value type="a">BMS_Model_SWAD\Composition_BMS_SWAD\Composition_BMS_SWAD.rpyx</_value>
 		</ILiteralSpecification>
 		<IType type="e">
@@ -112,18 +112,18 @@
 \viewkind4\uc1\pard\lang1042\f0\fs18 AUTOSAR_Version\par%0D
 }%0D
 </_displayName>
-			<_modifiedTimeWeak type="a">1.29.2026::7:29:59</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.29.2026::7:29:59</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:4:10</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:4:10</_modifiedTime>
 			<_isOrdered type="a">0</_isOrdered>
 			<AggregatesList type="e">
-				<value>GUID 941f5b82-befc-4d44-885e-4edc2c17e42e</value>
+				<value>GUID 8df317b4-f6a4-4de7-899f-6d96979c12d8</value>
 				<value>GUID 42dcfe4f-bc50-4102-bc16-9c97b1ee0c33</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 941f5b82-befc-4d44-885e-4edc2c17e42e</_id>
-			<_modifiedTimeWeak type="a">1.29.2026::7:29:59</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.29.2026::7:29:59</_modifiedTime>
+			<_id type="a">GUID 8df317b4-f6a4-4de7-899f-6d96979c12d8</_id>
+			<_modifiedTimeWeak type="a">1.29.2026::12:4:10</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:4:10</_modifiedTime>
 			<_value type="a">44</_value>
 		</ILiteralSpecification>
 		<IType type="e">
@@ -135,31 +135,31 @@
 		</IType>
 		<ISubsystem type="e">
 			<fileName type="a">REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</fileName>
-			<_id type="a">GUID 4648fc5c-75ed-42fe-a612-7473c10f8cd2</_id>
+			<_id type="a">GUID f50e3f6c-52ce-4fd4-b976-63e22734c324</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
 			<fileName type="a">REtSWC_BMS_MainCntrl_SoX_1000ms</fileName>
-			<_id type="a">GUID 595eea92-1f3a-4bf9-b18c-b96e9fcaf6e4</_id>
+			<_id type="a">GUID c1803cad-8c99-4c5f-9e4c-4316f46f0a4c</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
 			<fileName type="a">REtSWC_BMS_MainCntrl_PerfomCellBalancing_1000ms</fileName>
-			<_id type="a">GUID 3520428c-6257-4cda-9900-a9243ab7844c</_id>
+			<_id type="a">GUID 63399a8f-74eb-4fb4-95ac-2df5eb64f1f7</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
 			<fileName type="a">REtSWC_BMS_MainCntrl_ChargeSequence_100ms</fileName>
-			<_id type="a">GUID 4357c111-0ed5-4796-85cd-5320ddf1cb8c</_id>
+			<_id type="a">GUID 17d04967-edb1-4871-939b-a70da1ddb3c1</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
 			<fileName type="a">REtSWC_BMS_MainCntrl_HMI_Output_100ms</fileName>
-			<_id type="a">GUID 1eb9fe67-fa9c-4102-9dc2-6af95f81f5db</_id>
+			<_id type="a">GUID 73f5262c-9f0a-4be6-9c4d-07e625dd98cf</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
 			<fileName type="a">REtSWC_BMS_MainCntrl_ReportBattInfoData_10ms</fileName>
-			<_id type="a">GUID bdf82486-884a-4abb-ab01-69e2eddd6d86</_id>
+			<_id type="a">GUID 38f94635-234a-4864-af2d-948a9a277543</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
 			<fileName type="a">REtSWC_BMS_MainCntrl_InputDataRead_10ms</fileName>
-			<_id type="a">GUID 0e69d20f-f863-4e93-817e-17b50b3602d8</_id>
+			<_id type="a">GUID f628a040-b217-4bbd-adbf-5c3070203bc3</_id>
 		</ISubsystem>
 		<IClass type="e">
 			<_id type="a">GUID f9a7c51b-aa2a-45eb-9ba5-18690438eaef</_id>

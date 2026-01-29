@@ -8,7 +8,7 @@
 	
 	<RHAPSODY-MODEL>
 	<ISubsystem type="e">
-			<_id type="a">GUID 4648fc5c-75ed-42fe-a612-7473c10f8cd2</_id>
+			<_id type="a">GUID f50e3f6c-52ce-4fd4-b976-63e22734c324</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_name>
 			<Stereotypes type="c">
@@ -25,21 +25,21 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.29.2026::7:30:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.29.2026::7:30:9</_modifiedTime>
-			<weakCGTime type="a">1.29.2026::7:30:9</weakCGTime>
-			<strongCGTime type="a">1.29.2026::7:30:9</strongCGTime>
-			<_defaultComposite type="s">GUID cc9d380f-d285-4f6c-80a7-677757813919</_defaultComposite>
+			<_modifiedTimeWeak type="a">1.29.2026::12:4:29</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:4:29</_modifiedTime>
+			<weakCGTime type="a">1.29.2026::12:4:29</weakCGTime>
+			<strongCGTime type="a">1.29.2026::12:4:29</strongCGTime>
+			<_defaultComposite type="s">GUID 379a9058-124a-4c7c-9bd8-537859567e21</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">1.1.1970::9:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
-				<value>GUID 241678e0-f058-450b-ad53-74ec297e5cd0</value>
-				<value>GUID bb698e5c-54db-4aa6-b532-3de66c741b70</value>
-				<value>GUID cc9d380f-d285-4f6c-80a7-677757813919</value>
+				<value>GUID f78b91dc-3a15-492d-9c31-4f73010aa2b6</value>
+				<value>GUID 5c34e680-fef2-43ee-9251-493276a521a2</value>
+				<value>GUID 379a9058-124a-4c7c-9bd8-537859567e21</value>
 			</AggregatesList>
 		</ISubsystem>
 		<IDiagram type="e">
-			<_id type="a">GUID 241678e0-f058-450b-ad53-74ec297e5cd0</_id>
+			<_id type="a">GUID f78b91dc-3a15-492d-9c31-4f73010aa2b6</_id>
 			<_myState type="a">8192</_myState>
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
@@ -97,8 +97,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.29.2026::7:30:9</_modifiedTime>
-			<_lastModifiedTime type="a">1.29.2026::7:30:9</_lastModifiedTime>
+			<_modifiedTime type="a">1.29.2026::12:4:29</_modifiedTime>
+			<_lastModifiedTime type="a">1.29.2026::12:4:29</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -106,20 +106,20 @@
 			<_defaultSubsystem type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">ISubsystem</_hm2Class>
-					<_hid type="a">GUID 4648fc5c-75ed-42fe-a612-7473c10f8cd2</_hid>
+					<_hid type="a">GUID f50e3f6c-52ce-4fd4-b976-63e22734c324</_hid>
 				</IHandle>
 			</_defaultSubsystem>
 			<AggregatesList type="e">
-				<value>GUID 9047c284-3aef-4cb0-9af2-47e0c9e2f707</value>
+				<value>GUID d9c3759c-0463-4389-a2c5-3a217fb09cc4</value>
 			</AggregatesList>
 		</IDiagram>
 		<CGIClassChart type="e">
-			<_id type="a">GUID 9047c284-3aef-4cb0-9af2-47e0c9e2f707</_id>
+			<_id type="a">GUID d9c3759c-0463-4389-a2c5-3a217fb09cc4</_id>
 			<m_type type="a">0</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
-					<_hid type="a">GUID 241678e0-f058-450b-ad53-74ec297e5cd0</_hid>
+					<_hid type="a">GUID f78b91dc-3a15-492d-9c31-4f73010aa2b6</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
@@ -149,21 +149,21 @@
 			<m_nCreateDate type="a">0</m_nCreateDate>
 			<m_bScaleWithZoom type="a">1</m_bScaleWithZoom>
 			<m_arrowStyle type="a">'S'</m_arrowStyle>
-			<m_pRoot type="s">GUID a39c6405-21ef-4e69-bf04-a46cb4b61020</m_pRoot>
+			<m_pRoot type="s">GUID af34a51c-9718-4d8e-b38e-dbcae296363c</m_pRoot>
 			<m_currentLeftTop type="a">0 0 </m_currentLeftTop>
 			<m_currentRightBottom type="a">0 0 </m_currentRightBottom>
 			<m_bFreezeCompartmentContent type="a">0</m_bFreezeCompartmentContent>
 			<AggregatesList type="e">
-				<value>GUID a39c6405-21ef-4e69-bf04-a46cb4b61020</value>
+				<value>GUID af34a51c-9718-4d8e-b38e-dbcae296363c</value>
 			</AggregatesList>
 		</CGIClassChart>
 		<CGIClass type="e">
-			<_id type="a">GUID a39c6405-21ef-4e69-bf04-a46cb4b61020</_id>
+			<_id type="a">GUID af34a51c-9718-4d8e-b38e-dbcae296363c</_id>
 			<m_type type="a">78</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID cc9d380f-d285-4f6c-80a7-677757813919</_hid>
+					<_hid type="a">GUID 379a9058-124a-4c7c-9bd8-537859567e21</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
@@ -217,12 +217,12 @@
 			</Operations>
 		</CGIClass>
 		<IMSC type="e">
-			<_id type="a">GUID bb698e5c-54db-4aa6-b532-3de66c741b70</_id>
+			<_id type="a">GUID 5c34e680-fef2-43ee-9251-493276a521a2</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">SWUD_Workflow_REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.29.2026::7:30:9</_modifiedTime>
-			<_lastModifiedTime type="a">1.29.2026::7:30:9</_lastModifiedTime>
+			<_modifiedTime type="a">1.29.2026::12:4:29</_modifiedTime>
+			<_lastModifiedTime type="a">1.29.2026::12:4:29</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -230,28 +230,28 @@
 			<_defaultSubsystem type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">ISubsystem</_hm2Class>
-					<_hid type="a">GUID 4648fc5c-75ed-42fe-a612-7473c10f8cd2</_hid>
+					<_hid type="a">GUID f50e3f6c-52ce-4fd4-b976-63e22734c324</_hid>
 				</IHandle>
 			</_defaultSubsystem>
 			<m_pICollaboration type="p"><ICollaboration type="e">
-				<_id type="a">GUID 5fb0c9d7-ea68-49e9-9e7c-c18d2b8afc88</_id>
+				<_id type="a">GUID 79e58cda-e6fb-4735-9c02-7b00c5c12eb0</_id>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
 			</ICollaboration>
 			</m_pICollaboration>
 			<AggregatesList type="e">
-				<value>GUID bc576261-0477-415e-8d78-9099d8f7381d</value>
+				<value>GUID 3ac04cd7-78f2-4fa6-8ddf-43f434f6137d</value>
 			</AggregatesList>
 		</IMSC>
 		<CGIMscChart type="e">
 			<vLadderMargin type="a">20</vLadderMargin>
 			<m_usingActivationBar type="a">0</m_usingActivationBar>
-			<_id type="a">GUID bc576261-0477-415e-8d78-9099d8f7381d</_id>
+			<_id type="a">GUID 3ac04cd7-78f2-4fa6-8ddf-43f434f6137d</_id>
 			<m_type type="a">0</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IMSC</_hm2Class>
-					<_hid type="a">GUID bb698e5c-54db-4aa6-b532-3de66c741b70</_hid>
+					<_hid type="a">GUID 5c34e680-fef2-43ee-9251-493276a521a2</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
@@ -281,21 +281,21 @@
 			<m_nCreateDate type="a">0</m_nCreateDate>
 			<m_bScaleWithZoom type="a">1</m_bScaleWithZoom>
 			<m_arrowStyle type="a">'S'</m_arrowStyle>
-			<m_pRoot type="s">GUID 05e7d925-30d7-4cad-8a1a-af5a15e053cd</m_pRoot>
+			<m_pRoot type="s">GUID 89c4b47a-20d7-43b5-8b2c-763d0e960604</m_pRoot>
 			<m_currentLeftTop type="a">0 0 </m_currentLeftTop>
 			<m_currentRightBottom type="a">0 0 </m_currentRightBottom>
 			<m_bFreezeCompartmentContent type="a">0</m_bFreezeCompartmentContent>
 			<AggregatesList type="e">
-				<value>GUID 05e7d925-30d7-4cad-8a1a-af5a15e053cd</value>
+				<value>GUID 89c4b47a-20d7-43b5-8b2c-763d0e960604</value>
 			</AggregatesList>
 		</CGIMscChart>
 		<CGIBox type="e">
-			<_id type="a">GUID 05e7d925-30d7-4cad-8a1a-af5a15e053cd</_id>
+			<_id type="a">GUID 89c4b47a-20d7-43b5-8b2c-763d0e960604</_id>
 			<m_type type="a">108</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">ICollaboration</_hm2Class>
-					<_hid type="a">GUID 5fb0c9d7-ea68-49e9-9e7c-c18d2b8afc88</_hid>
+					<_hid type="a">GUID 79e58cda-e6fb-4735-9c02-7b00c5c12eb0</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
@@ -322,7 +322,7 @@
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 		</CGIBox>
 		<IClass type="e">
-			<_id type="a">GUID cc9d380f-d285-4f6c-80a7-677757813919</_id>
+			<_id type="a">GUID 379a9058-124a-4c7c-9bd8-537859567e21</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>

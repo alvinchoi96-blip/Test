@@ -24,7 +24,7 @@ void BMS_Input_ProcessAll(void)
 
     /* --- 1. Signal Inputs --- */
     if (Rte_Read_R_SignalInput_ignSignal(&g_Input_Signal.ignSignal) != RTE_E_OK) {
-        g_Input_Signal.ignSignal = LOCK; /* Read Fail 시 Safe Value */
+        g_Input_Signal.ignSignal = IGN_LOCK; /* Read Fail 시 Safe Value */
     }
     if (Rte_Read_R_SignalInput_chargeConnectedFlag(&g_Input_Signal.chargeConnectedFlag) != RTE_E_OK) {
         g_Input_Signal.chargeConnectedFlag = FALSE;
@@ -32,7 +32,7 @@ void BMS_Input_ProcessAll(void)
 
     /* --- 2. VCU Command --- */
     if (Rte_Read_R_VcuCanCmd_bmsActionCmd(&g_Input_VcuCmd.bmsActionCmd) != RTE_E_OK) {
-        g_Input_VcuCmd.bmsActionCmd = StandAlone;
+        g_Input_VcuCmd.bmsActionCmd = BmsMd_StandAlone;
     }
 
     /* --- 3. Cell Measurements --- */
@@ -117,8 +117,8 @@ void BMS_Input_ProcessAll(void)
     if (BMS_Input_ValidateSignals() == FALSE)
     {
         /* 데이터 정합성이 깨진 경우, 안전을 위해 명령을 무시하거나 초기화 */
-        g_Input_VcuCmd.bmsActionCmd = Shut_Down;
-        g_Input_Signal.ignSignal = LOCK;
+        g_Input_VcuCmd.bmsActionCmd = BmsMd_ShutDown;
+        g_Input_Signal.ignSignal = IGN_LOCK;
     }
 }
 
@@ -138,7 +138,7 @@ boolean BMS_Input_ValidateSignals(void)
     
     /* Check 2: Ignition vs VCU Command */
     /* 시동(Ignition)이 꺼져있는데 주행(Driving) 명령이 들어오는 경우 */
-    if ((g_Input_Signal.ignSignal == LOCK) && (g_Input_VcuCmd.bmsActionCmd == Driving))
+    if ((g_Input_Signal.ignSignal == IGN_LOCK) && (g_Input_VcuCmd.bmsActionCmd == BmsMd_Driving))
     {
         return FALSE; /* Invalid Command Sequence */
     }

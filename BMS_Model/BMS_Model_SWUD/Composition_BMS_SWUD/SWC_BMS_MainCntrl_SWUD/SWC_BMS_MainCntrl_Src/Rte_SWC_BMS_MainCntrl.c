@@ -31,14 +31,7 @@ boolean chgConnectedFlag;
 BmsSoc_Input_t in;
 BmsSoc_Output_t out;
 
-static e_VcuCanCmd g_BmsCurrentMode = Standby;
-/* 내부 상태 관리 변수 */
-typedef struct {
-    boolean isModeChanged;
-    e_VcuCanCmd previousMode;
-} BmsModeContext_Type;
-
-static BmsModeContext_Type g_BmsModeContext = {Standby, FALSE};
+static BmsModeContext_Type g_BmsModeContext = {BmsMd_StandAlone, BmsMd_StandAlone, FALSE};
 
 FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_InputDataRead_10ms(void)
 {
@@ -48,7 +41,7 @@ FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_InputDataRead_10ms(void)
 FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_BattStatusProcess_10ms(void)
 {
     
-    BMS_Logic_MainSequence(&g_BmsCurrentMode);
+    BMS_Logic_MainSequence();
 }
 
 FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_SoX_1000ms(void)
@@ -145,7 +138,7 @@ FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_ReportBattInfoData_10ms(
     Bms_BattStatusFlags_TxType    txFlag = {0};
 
     /* 다른 Runnable에서 결정한 상태를 그대로 사용 */
-    BMS_TxMap_ReportBattInfo(g_BmsCurrentMode, &txMeas, &txCalc, &txFlag);
+    BMS_TxMap_ReportBattInfo(g_BmsModeContext.determinedMode, &txMeas, &txCalc, &txFlag);
 
     Bms_Tx_PackMeasData_Write(&txMeas);
     Bms_Tx_PackCalculatedData_Write(&txCalc);

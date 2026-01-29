@@ -14,10 +14,10 @@
 void BMS_Logic_ExecuteControl(e_VcuCanCmd targetMode)
 {
     /* Driving 모드일 경우 릴레이 연결 시퀀스 수행 */
-    if (targetMode == Driving)
+    if ((targetMode == BmsMd_Driving) || (targetMode == BmsMd_Charging))
     {
         /* Soft Start (Pre-charge) 요청: Argument 1U */
-        (void)Rte_Call_R_RelayControlReq_relayEnableReq(TRUE); 
+        (void)Rte_Call_R_RelayControlReq_relayEnableReq(Soft); 
     }
     else
     {
@@ -33,17 +33,17 @@ void BMS_Logic_UpdateOutputs(e_VcuCanCmd currentMode)
     
     /* 2. Charging Status 상세 정보 출력 */
     /* (모드는 Driving이지만, 물리적으로 충전기가 연결된 경우 Charging 상태 송신) */
-    if ((currentMode == Driving) && (g_Input_Signal.chargeConnectedFlag == TRUE))
+    if ((currentMode == BmsMd_Driving) && (g_Input_Signal.chargeConnectedFlag == TRUE))
     {
-        (void)Rte_Write_P_ChgData_Tx_chargingStatus(Charging);
+        (void)Rte_Write_P_ChgData_Tx_chargingStatus(ChgSt_Charging);
     }
     else if (g_Input_Signal.chargeConnectedFlag == TRUE)
     {
         /* 릴레이가 붙지 않았지만 충전기는 연결됨 */
-        (void)Rte_Write_P_ChgData_Tx_chargingStatus(ChargerConnected);
+        (void)Rte_Write_P_ChgData_Tx_chargingStatus(ChgSt_ChargerConnected);
     }
     else
     {
-        (void)Rte_Write_P_ChgData_Tx_chargingStatus(NotCharging);
+        (void)Rte_Write_P_ChgData_Tx_chargingStatus(ChgSt_NotCharging);
     }
 }

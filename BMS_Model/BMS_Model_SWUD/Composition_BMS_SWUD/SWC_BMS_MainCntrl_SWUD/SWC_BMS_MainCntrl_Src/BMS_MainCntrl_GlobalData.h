@@ -4,6 +4,9 @@
 
 #include "Rte_Type.h" /* RTE 기본 타입 참조 */
 
+#define OFF 0U
+#define ON  1U
+
 /* ==================================================================================
  * 1. Interface-based Data Structures (전역 데이터 타입 정의)
  * ================================================================================== */
@@ -128,5 +131,13 @@ typedef struct
     f_IsolResist isol;
 } Bms_BattStatusFlags_TxType;
 
+/* 모드 변경 여부 판단용 구조체 */
+typedef struct {
+    boolean isModeChanged;
+    e_VcuCanCmd previousMode;
+    e_VcuCanCmd determinedMode;
+} BmsModeContext_Type;
+
+extern BmsModeContext_Type g_BmsModeContext;
 
 #endif /* BMS_MAINCNTRL_GLOBALDATA_H */

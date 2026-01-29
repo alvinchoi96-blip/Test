@@ -66,9 +66,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.27.2026::5:21:50</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.27.2026::5:21:50</_modifiedTime>
-			<weakCGTime type="a">1.27.2026::5:21:50</weakCGTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:41</_modifiedTime>
+			<weakCGTime type="a">1.29.2026::12:2:41</weakCGTime>
 			<strongCGTime type="a">1.15.2026::4:8:49</strongCGTime>
 			<_defaultComposite type="s">GUID 9797814f-4951-4c75-bb97-60d184826122</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -127,9 +127,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:23</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:23</_modifiedTime>
-			<weakCGTime type="a">1.26.2026::5:26:23</weakCGTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:3:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:3:16</_modifiedTime>
+			<weakCGTime type="a">1.29.2026::12:3:16</weakCGTime>
 			<strongCGTime type="a">1.15.2026::4:8:50</strongCGTime>
 			<_defaultComposite type="s">GUID a0265fee-c29f-40eb-ad1c-0afeed5ca6bb</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -161,17 +161,17 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:39</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.29.2026::11:45:35</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">kind=Enumeration%0D
 num=4%0D
-1=LOCK%0D
-2=ACC%0D
-3=ON%0D
-4=START</_text>
+1=IGN_LOCK%0D
+2=IGN_ACC%0D
+3=IGN_ON%0D
+4=IGN_START</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">1.21.2026::23:23:39</_modifiedTime>
+			<_modifiedTime type="a">1.29.2026::11:45:35</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 3777f90b-34fd-46d2-b370-4dd05df5530f</value>
 				<value>GUID 0802e200-2db4-4451-b059-60e9362f4363</value>
@@ -196,8 +196,8 @@ num=4%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:39</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:45:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:45:35</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID a2d7ff9e-0517-4ead-bbb9-d27c6528feee</value>
 				<value>GUID 300264fb-e2ed-49c2-ab04-6e4dea91e661</value>
@@ -223,8 +223,8 @@ num=4%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:33</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:33</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:44:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:44:47</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 87084f06-557c-43a2-be46-915d17245062</value>
 				<value>GUID 0e4c0cd4-cb53-4160-871c-95233af4a8ee</value>
@@ -251,8 +251,8 @@ num=4%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:33</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:33</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:44:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:44:47</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 922d0433-a375-474b-b159-d82cec024d89</value>
 			</AggregatesList>
@@ -275,8 +275,8 @@ num=4%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:33</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:33</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:44:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:44:47</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 141f85b0-74fa-4dda-bedc-0c5ea3c1ac01</value>
 			</AggregatesList>
@@ -299,8 +299,8 @@ num=4%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:33</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:33</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:44:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:44:47</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 53cddea0-731d-4b7e-bd6b-bb080b14cd9a</value>
 			</AggregatesList>
@@ -323,8 +323,8 @@ num=4%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:33</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:33</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:44:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:44:47</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID a5cbe487-db09-456c-abab-1637e6752eeb</value>
 			</AggregatesList>
@@ -333,8 +333,12 @@ num=4%0D
 			<_id type="a">GUID a5cbe487-db09-456c-abab-1637e6752eeb</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">value</_name>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:33</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:33</_modifiedTime>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 value\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.29.2026::11:44:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:44:47</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -355,14 +359,14 @@ num=4%0D
 				</IHandle>
 			</_base>
 			<AggregatesList type="e">
-				<value>GUID 4a750192-53c8-433a-9caf-22a98903098c</value>
+				<value>GUID 9738f7a0-fdd8-44cb-8ee5-d5426e32e07c</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 4a750192-53c8-433a-9caf-22a98903098c</_id>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:33</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:33</_modifiedTime>
-			<_value type="a">LOCK</_value>
+			<_id type="a">GUID 9738f7a0-fdd8-44cb-8ee5-d5426e32e07c</_id>
+			<_modifiedTimeWeak type="a">1.29.2026::11:44:47</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:44:47</_modifiedTime>
+			<_value type="a">IGN_LOCK</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID 0e4c0cd4-cb53-4160-871c-95233af4a8ee</_id>
@@ -524,8 +528,8 @@ num=4%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:39</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:45:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:45:24</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 6a4460a3-f112-46bf-8ec9-682c41a596b9</value>
 				<value>GUID 523a65f4-9fda-42df-a37d-d3eed74ba10f</value>
@@ -552,8 +556,8 @@ num=4%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:39</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:45:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:45:24</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID aa378bac-0d43-4e3f-850c-0a3393752696</value>
 			</AggregatesList>
@@ -576,8 +580,8 @@ num=4%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:39</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:45:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:45:24</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID e104295d-a056-4e47-8aee-2da8692019aa</value>
 			</AggregatesList>
@@ -600,8 +604,8 @@ num=4%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:39</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:45:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:45:24</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 35f51a54-af3c-4918-b5cd-7b8cf4433281</value>
 			</AggregatesList>
@@ -624,8 +628,8 @@ num=4%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:39</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:45:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:45:24</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID cf3a86d3-9a5d-4e70-a147-1a61dda83e04</value>
 			</AggregatesList>
@@ -634,8 +638,12 @@ num=4%0D
 			<_id type="a">GUID cf3a86d3-9a5d-4e70-a147-1a61dda83e04</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">value</_name>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:39</_modifiedTime>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 value\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.29.2026::11:45:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:45:24</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -656,14 +664,14 @@ num=4%0D
 				</IHandle>
 			</_base>
 			<AggregatesList type="e">
-				<value>GUID 7a79c129-db81-4ddd-b4b9-a7f4b06b7edc</value>
+				<value>GUID 4ddbc9ae-2394-455a-bd43-ef8ed1b9e2ca</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 7a79c129-db81-4ddd-b4b9-a7f4b06b7edc</_id>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:39</_modifiedTime>
-			<_value type="a">ACC</_value>
+			<_id type="a">GUID 4ddbc9ae-2394-455a-bd43-ef8ed1b9e2ca</_id>
+			<_modifiedTimeWeak type="a">1.29.2026::11:45:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:45:24</_modifiedTime>
+			<_value type="a">IGN_ACC</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID 523a65f4-9fda-42df-a37d-d3eed74ba10f</_id>
@@ -825,8 +833,8 @@ num=4%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:39</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:45:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:45:35</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 0011e50e-791f-4f57-b83c-03ddf0637b23</value>
 				<value>GUID beaf7685-e8ec-4ed3-b38f-b227cc0841af</value>
@@ -853,8 +861,8 @@ num=4%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:39</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:45:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:45:35</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 22927741-a0e0-4653-9ddf-8e8c8c790ab4</value>
 			</AggregatesList>
@@ -877,8 +885,8 @@ num=4%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:39</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:45:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:45:35</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 5280004b-0a45-4c0e-9dd0-b1f5b67a9cc0</value>
 			</AggregatesList>
@@ -901,8 +909,8 @@ num=4%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:39</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:45:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:45:35</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 194fad7f-9758-4e1c-85b9-dc1bd3c15779</value>
 			</AggregatesList>
@@ -925,8 +933,8 @@ num=4%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:39</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:45:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:45:35</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID bfea7991-63fa-49cf-8a35-fb1f85a3f10d</value>
 			</AggregatesList>
@@ -935,8 +943,12 @@ num=4%0D
 			<_id type="a">GUID bfea7991-63fa-49cf-8a35-fb1f85a3f10d</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">value</_name>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:39</_modifiedTime>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 value\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.29.2026::11:45:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:45:35</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -957,14 +969,14 @@ num=4%0D
 				</IHandle>
 			</_base>
 			<AggregatesList type="e">
-				<value>GUID 98e032f3-008c-479d-93a3-a53e5573f6d3</value>
+				<value>GUID a02524d0-4b68-4524-8f0d-8e10f41ecaae</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 98e032f3-008c-479d-93a3-a53e5573f6d3</_id>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:39</_modifiedTime>
-			<_value type="a">ON</_value>
+			<_id type="a">GUID a02524d0-4b68-4524-8f0d-8e10f41ecaae</_id>
+			<_modifiedTimeWeak type="a">1.29.2026::11:45:35</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:45:35</_modifiedTime>
+			<_value type="a">IGN_ON</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID beaf7685-e8ec-4ed3-b38f-b227cc0841af</_id>
@@ -1126,8 +1138,8 @@ num=4%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:39</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:45:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:45:3</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 11784060-a769-4661-82e5-7154123a502e</value>
 				<value>GUID 026e6a34-c4a0-4259-8792-ff24b8cb5c77</value>
@@ -1154,8 +1166,8 @@ num=4%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:39</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:45:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:45:3</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 183b872f-29e5-4181-b3f7-7b429b017807</value>
 			</AggregatesList>
@@ -1178,8 +1190,8 @@ num=4%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:39</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:45:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:45:3</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 6701c811-8dac-45c1-b9d4-701a8c1f29cc</value>
 			</AggregatesList>
@@ -1202,8 +1214,8 @@ num=4%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:39</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:45:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:45:3</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID cda316d8-e2b5-43e7-a515-fe1c0564710a</value>
 			</AggregatesList>
@@ -1226,8 +1238,8 @@ num=4%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:39</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:45:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:45:3</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID f8f05b61-8bdc-42b5-a042-fa60cd351d56</value>
 			</AggregatesList>
@@ -1236,8 +1248,12 @@ num=4%0D
 			<_id type="a">GUID f8f05b61-8bdc-42b5-a042-fa60cd351d56</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">value</_name>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:39</_modifiedTime>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 value\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.29.2026::11:45:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:45:3</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -1258,14 +1274,14 @@ num=4%0D
 				</IHandle>
 			</_base>
 			<AggregatesList type="e">
-				<value>GUID b22e3787-5d9c-4564-ba8b-f1bb777dc709</value>
+				<value>GUID eeaecd02-6d2a-4330-bc8b-f530a783e957</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID b22e3787-5d9c-4564-ba8b-f1bb777dc709</_id>
-			<_modifiedTimeWeak type="a">1.21.2026::23:23:39</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:23:39</_modifiedTime>
-			<_value type="a">START</_value>
+			<_id type="a">GUID eeaecd02-6d2a-4330-bc8b-f530a783e957</_id>
+			<_modifiedTimeWeak type="a">1.29.2026::11:45:3</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:45:3</_modifiedTime>
+			<_value type="a">IGN_START</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID 026e6a34-c4a0-4259-8792-ff24b8cb5c77</_id>
@@ -1481,19 +1497,19 @@ num=4%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:23</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.29.2026::12:3:16</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">kind=Enumeration%0D
 num=6%0D
-1=StandAlone(0)%0D
-2=Standby(1)%0D
-3=Driving(2)%0D
-4=Charging(3)%0D
-5=Shut_Down(4)%0D
-6=Emergency(5)</_text>
+1=BmsMd_StandAlone(0)%0D
+2=BmsMd_Standby(1)%0D
+3=BmsMd_Driving(2)%0D
+4=BmsMd_Charging(3)%0D
+5=BmsMd_ShutDown(4)%0D
+6=BmsMd_Emergency(5)</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">1.26.2026::5:26:23</_modifiedTime>
+			<_modifiedTime type="a">1.29.2026::12:3:16</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 073ab185-960e-4b23-95f9-f07f2d34a2a3</value>
 				<value>GUID fef89594-add2-47f2-bff1-8c6ad0c4fe78</value>
@@ -1518,8 +1534,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:23</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:23</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:3:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:3:16</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID a60dc751-b0a3-4ac3-89b3-71c7aa435085</value>
 				<value>GUID 887cbd46-54e6-4955-a5c3-9785e240cdf3</value>
@@ -1547,8 +1563,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:19</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID cbc6846b-9f6a-45fe-ab75-c2acf059fa26</value>
 				<value>GUID db0f39d5-73f6-4844-aa8d-0cc25459399e</value>
@@ -1575,8 +1591,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:19</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 47e61f2e-1909-4003-beea-d715da563553</value>
 			</AggregatesList>
@@ -1599,8 +1615,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:19</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID fb980a4d-f534-49fa-826e-1a194a6b3767</value>
 			</AggregatesList>
@@ -1623,8 +1639,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:19</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID e710df54-6ea1-44dc-9ff4-b9370943e4e9</value>
 			</AggregatesList>
@@ -1647,8 +1663,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:19</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 1adab63a-b5b4-4ce9-9612-d64a87796eab</value>
 			</AggregatesList>
@@ -1657,8 +1673,12 @@ num=6%0D
 			<_id type="a">GUID 1adab63a-b5b4-4ce9-9612-d64a87796eab</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">value</_name>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:2</_modifiedTime>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 value\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:19</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -1679,14 +1699,14 @@ num=6%0D
 				</IHandle>
 			</_base>
 			<AggregatesList type="e">
-				<value>GUID be8c4f8c-56af-4f26-8247-0defd798696b</value>
+				<value>GUID b39f32a1-bc30-4ba6-b29d-83bd1ddc411c</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID be8c4f8c-56af-4f26-8247-0defd798696b</_id>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:2</_modifiedTime>
-			<_value type="a">StandAlone</_value>
+			<_id type="a">GUID b39f32a1-bc30-4ba6-b29d-83bd1ddc411c</_id>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:19</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:19</_modifiedTime>
+			<_value type="a">BmsMd_StandAlone</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID db0f39d5-73f6-4844-aa8d-0cc25459399e</_id>
@@ -1848,8 +1868,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:6</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:6</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:28</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID a5ee3b7b-2351-4482-ab94-61b07003f167</value>
 				<value>GUID 5fb3704b-2f29-43a5-93c5-24756cb33209</value>
@@ -1876,8 +1896,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:6</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:6</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:28</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID b41727a4-f4e3-46ff-aa8d-f667eecb2eed</value>
 			</AggregatesList>
@@ -1900,8 +1920,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:6</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:6</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:28</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 6da324a3-b3d8-4e70-9cb2-c89194ae310d</value>
 			</AggregatesList>
@@ -1924,8 +1944,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:6</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:6</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:28</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 9fb1df32-cc61-4b92-a6d6-3ea1a6b5365b</value>
 			</AggregatesList>
@@ -1948,8 +1968,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:6</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:6</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:28</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID fd1ff22c-4fe9-4f3d-b80d-c9fad164687c</value>
 			</AggregatesList>
@@ -1958,8 +1978,12 @@ num=6%0D
 			<_id type="a">GUID fd1ff22c-4fe9-4f3d-b80d-c9fad164687c</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">value</_name>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:6</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:6</_modifiedTime>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 value\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:28</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -1980,14 +2004,14 @@ num=6%0D
 				</IHandle>
 			</_base>
 			<AggregatesList type="e">
-				<value>GUID 62b9b320-a742-4581-b7c2-2d83c70d5fef</value>
+				<value>GUID 3950bdcc-d4cb-46ad-844c-cea93a393532</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 62b9b320-a742-4581-b7c2-2d83c70d5fef</_id>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:6</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:6</_modifiedTime>
-			<_value type="a">Standby</_value>
+			<_id type="a">GUID 3950bdcc-d4cb-46ad-844c-cea93a393532</_id>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:28</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:28</_modifiedTime>
+			<_value type="a">BmsMd_Standby</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID 5fb3704b-2f29-43a5-93c5-24756cb33209</_id>
@@ -2149,8 +2173,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:9</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:41</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 68e66245-9b90-4a04-b19c-de9acb8b2908</value>
 				<value>GUID 476c6229-ebc4-4128-b463-92ceb646d4e6</value>
@@ -2177,8 +2201,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:9</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:41</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 864b01a2-e41b-4849-8e7d-ad0a540ab79a</value>
 			</AggregatesList>
@@ -2201,8 +2225,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:9</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:41</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID a34d888c-3e02-447e-8242-35dd4f6b37a9</value>
 			</AggregatesList>
@@ -2225,8 +2249,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:9</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:41</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 3284d0f7-1c3f-4db1-a1a7-ca6696176012</value>
 			</AggregatesList>
@@ -2249,8 +2273,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:9</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:41</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 8b2400a2-9364-4d04-b245-43e496779a29</value>
 			</AggregatesList>
@@ -2259,8 +2283,12 @@ num=6%0D
 			<_id type="a">GUID 8b2400a2-9364-4d04-b245-43e496779a29</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">value</_name>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:9</_modifiedTime>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 value\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:41</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -2281,14 +2309,14 @@ num=6%0D
 				</IHandle>
 			</_base>
 			<AggregatesList type="e">
-				<value>GUID 3827aeef-e2be-4a03-a82c-631b8f8c68ad</value>
+				<value>GUID ae730ad9-eaf9-4d7a-8432-835767700985</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 3827aeef-e2be-4a03-a82c-631b8f8c68ad</_id>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:9</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:9</_modifiedTime>
-			<_value type="a">Driving</_value>
+			<_id type="a">GUID ae730ad9-eaf9-4d7a-8432-835767700985</_id>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:41</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:41</_modifiedTime>
+			<_value type="a">BmsMd_Driving</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID 476c6229-ebc4-4128-b463-92ceb646d4e6</_id>
@@ -2450,8 +2478,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:14</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:59</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 87f0d8f7-87e9-4bd1-8ac9-ed068308c98e</value>
 				<value>GUID 9385fac6-6bf4-440f-a5c1-3baca4ecf240</value>
@@ -2478,8 +2506,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:14</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:59</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID a7b30f3e-0892-458f-a2d0-be468a9ef8b8</value>
 			</AggregatesList>
@@ -2502,8 +2530,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:14</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:59</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 310ee840-3013-4c8c-8fa4-918e91ce61be</value>
 			</AggregatesList>
@@ -2526,8 +2554,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:14</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:59</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 0ce42333-2460-4c2d-8740-11a7e258c614</value>
 			</AggregatesList>
@@ -2550,8 +2578,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:14</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:59</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 591985cb-b91f-46a8-8ecd-f132dfea928a</value>
 			</AggregatesList>
@@ -2560,8 +2588,12 @@ num=6%0D
 			<_id type="a">GUID 591985cb-b91f-46a8-8ecd-f132dfea928a</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">value</_name>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:14</_modifiedTime>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 value\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:59</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -2582,14 +2614,14 @@ num=6%0D
 				</IHandle>
 			</_base>
 			<AggregatesList type="e">
-				<value>GUID d4fd0125-dc88-4ebc-977c-ce94ec118485</value>
+				<value>GUID b6508031-8633-468e-9a3f-ea1546fe18f2</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID d4fd0125-dc88-4ebc-977c-ce94ec118485</_id>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:14</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:14</_modifiedTime>
-			<_value type="a">Charging</_value>
+			<_id type="a">GUID b6508031-8633-468e-9a3f-ea1546fe18f2</_id>
+			<_modifiedTimeWeak type="a">1.29.2026::12:2:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:2:59</_modifiedTime>
+			<_value type="a">BmsMd_Charging</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID 9385fac6-6bf4-440f-a5c1-3baca4ecf240</_id>
@@ -2751,8 +2783,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:19</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:19</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:3:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:3:7</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 80e0893a-fa52-4e12-981b-4b8f5196ad85</value>
 				<value>GUID 543fe020-bdff-45fe-8be9-d2dfbdf604ff</value>
@@ -2779,8 +2811,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:19</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:19</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:3:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:3:7</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 1b604976-2931-4b7e-8e9d-52c8b3fdb18a</value>
 			</AggregatesList>
@@ -2803,8 +2835,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:19</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:19</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:3:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:3:7</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 309d3e7b-bcff-4abd-9d75-9ace85ab4dcf</value>
 			</AggregatesList>
@@ -2827,8 +2859,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:19</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:19</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:3:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:3:7</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 9bc1d180-c118-4e92-b5b2-a299c3cc6b36</value>
 			</AggregatesList>
@@ -2851,8 +2883,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:19</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:19</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:3:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:3:7</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 4fbe9f7d-6f9c-4161-980d-8903c7fc1010</value>
 			</AggregatesList>
@@ -2861,8 +2893,12 @@ num=6%0D
 			<_id type="a">GUID 4fbe9f7d-6f9c-4161-980d-8903c7fc1010</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">value</_name>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:19</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:19</_modifiedTime>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 value\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.29.2026::12:3:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:3:7</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -2883,14 +2919,14 @@ num=6%0D
 				</IHandle>
 			</_base>
 			<AggregatesList type="e">
-				<value>GUID bd437598-8729-4ff6-abbe-8197ef1d0754</value>
+				<value>GUID dd7c57fa-d602-4d10-805e-eb49a68b4f92</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID bd437598-8729-4ff6-abbe-8197ef1d0754</_id>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:19</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:19</_modifiedTime>
-			<_value type="a">Shut_Down</_value>
+			<_id type="a">GUID dd7c57fa-d602-4d10-805e-eb49a68b4f92</_id>
+			<_modifiedTimeWeak type="a">1.29.2026::12:3:7</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:3:7</_modifiedTime>
+			<_value type="a">BmsMd_ShutDown</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID 543fe020-bdff-45fe-8be9-d2dfbdf604ff</_id>
@@ -3052,8 +3088,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:23</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:23</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:3:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:3:16</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 397d6a5e-53ee-4e15-96d4-e31b1f54f634</value>
 				<value>GUID 3cae86ec-8ec6-434f-93a7-61fc0904b88b</value>
@@ -3080,8 +3116,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:23</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:23</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:3:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:3:16</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 152c8b25-4b89-4c59-bd69-cf2a9c5bd22b</value>
 			</AggregatesList>
@@ -3104,8 +3140,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:23</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:23</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:3:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:3:16</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID a82dd732-f0f7-48ce-9792-f48003ea24df</value>
 			</AggregatesList>
@@ -3128,8 +3164,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:23</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:23</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:3:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:3:16</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 1eee233f-12c9-4052-a80f-62e9d32d7cf5</value>
 			</AggregatesList>
@@ -3152,8 +3188,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:23</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:23</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:3:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:3:16</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 622d3d59-5f47-4031-999f-7b5ce7db2880</value>
 			</AggregatesList>
@@ -3162,8 +3198,12 @@ num=6%0D
 			<_id type="a">GUID 622d3d59-5f47-4031-999f-7b5ce7db2880</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">value</_name>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:23</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:23</_modifiedTime>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 value\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.29.2026::12:3:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:3:16</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -3184,14 +3224,14 @@ num=6%0D
 				</IHandle>
 			</_base>
 			<AggregatesList type="e">
-				<value>GUID 438b804b-7c14-4979-b78b-b8d44b8a2964</value>
+				<value>GUID 7a57f1a2-9652-4299-8eed-412dcd9e1fa2</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 438b804b-7c14-4979-b78b-b8d44b8a2964</_id>
-			<_modifiedTimeWeak type="a">1.26.2026::5:26:23</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::5:26:23</_modifiedTime>
-			<_value type="a">Emergency</_value>
+			<_id type="a">GUID 7a57f1a2-9652-4299-8eed-412dcd9e1fa2</_id>
+			<_modifiedTimeWeak type="a">1.29.2026::12:3:16</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:3:16</_modifiedTime>
+			<_value type="a">BmsMd_Emergency</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID 3cae86ec-8ec6-434f-93a7-61fc0904b88b</_id>
@@ -3407,15 +3447,15 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:2</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.29.2026::11:50:6</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">num=3%0D
-1=Normal%0D
-2=Warning%0D
-3=Error</_text>
+1=FltLv_Normal%0D
+2=FltLv_Warning%0D
+3=FltLv_Error</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">1.21.2026::23:24:2</_modifiedTime>
+			<_modifiedTime type="a">1.29.2026::11:50:6</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 1f3753a0-10bc-4ecc-bf03-7754160640e9</value>
 				<value>GUID 625149a1-b2b0-4679-acbc-4f25891f90cb</value>
@@ -3440,8 +3480,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:50:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:50:6</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 271a2b54-e372-4933-a8f6-f8d9b924e55f</value>
 				<value>GUID 1934d580-4fe2-4b9f-9d63-1598053ba237</value>
@@ -3466,8 +3506,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:49:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:49:44</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 50a5ef7d-9013-404d-aa56-8613e8729f0e</value>
 				<value>GUID e6f6d7cb-9687-4155-b4e9-294c74756941</value>
@@ -3494,8 +3534,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:49:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:49:44</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID fa8b42d6-bf21-4cb4-828b-ef053617eed3</value>
 			</AggregatesList>
@@ -3518,8 +3558,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:49:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:49:44</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 5c79a169-1753-4f17-89c7-d433e3606de1</value>
 			</AggregatesList>
@@ -3542,8 +3582,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:49:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:49:44</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 74e5616f-d719-4787-8312-adb3e61afd1d</value>
 			</AggregatesList>
@@ -3566,8 +3606,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:49:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:49:44</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID c902269c-76cb-42fe-8bc1-b82a5df211a1</value>
 			</AggregatesList>
@@ -3576,8 +3616,12 @@ num=6%0D
 			<_id type="a">GUID c902269c-76cb-42fe-8bc1-b82a5df211a1</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">value</_name>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:2</_modifiedTime>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 value\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.29.2026::11:49:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:49:44</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -3598,14 +3642,14 @@ num=6%0D
 				</IHandle>
 			</_base>
 			<AggregatesList type="e">
-				<value>GUID 2743161d-ef4c-45a5-a106-cea3bd53348f</value>
+				<value>GUID 9a705c93-91c2-4f91-85e8-34596218139b</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 2743161d-ef4c-45a5-a106-cea3bd53348f</_id>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:2</_modifiedTime>
-			<_value type="a">Normal</_value>
+			<_id type="a">GUID 9a705c93-91c2-4f91-85e8-34596218139b</_id>
+			<_modifiedTimeWeak type="a">1.29.2026::11:49:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:49:44</_modifiedTime>
+			<_value type="a">FltLv_Normal</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID e6f6d7cb-9687-4155-b4e9-294c74756941</_id>
@@ -3767,8 +3811,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:49:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:49:56</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 43ee6a43-727b-410e-ac70-a8cde6c6cbcd</value>
 				<value>GUID 55c3eaf9-96b0-4df2-837c-0efe5100781c</value>
@@ -3795,8 +3839,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:49:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:49:56</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID d15e277f-5514-4bc2-a25a-7698d8452410</value>
 			</AggregatesList>
@@ -3819,8 +3863,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:49:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:49:56</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 2f547d89-6c11-4b6d-bee2-ce4e43e5efff</value>
 			</AggregatesList>
@@ -3843,8 +3887,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:49:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:49:56</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 8a053adc-4835-461a-84f0-1b229ea6a6d8</value>
 			</AggregatesList>
@@ -3867,8 +3911,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:49:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:49:56</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 2d2c8bd8-a01b-457d-a1f3-537529707205</value>
 			</AggregatesList>
@@ -3877,8 +3921,12 @@ num=6%0D
 			<_id type="a">GUID 2d2c8bd8-a01b-457d-a1f3-537529707205</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">value</_name>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:2</_modifiedTime>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 value\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.29.2026::11:49:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:49:56</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -3899,14 +3947,14 @@ num=6%0D
 				</IHandle>
 			</_base>
 			<AggregatesList type="e">
-				<value>GUID 26885835-938b-4f60-b748-c033bd38b4b3</value>
+				<value>GUID 727dd13e-8e8c-4944-87cc-4bdf572b50e8</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 26885835-938b-4f60-b748-c033bd38b4b3</_id>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:2</_modifiedTime>
-			<_value type="a">Warning</_value>
+			<_id type="a">GUID 727dd13e-8e8c-4944-87cc-4bdf572b50e8</_id>
+			<_modifiedTimeWeak type="a">1.29.2026::11:49:56</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:49:56</_modifiedTime>
+			<_value type="a">FltLv_Warning</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID 55c3eaf9-96b0-4df2-837c-0efe5100781c</_id>
@@ -4068,8 +4116,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:50:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:50:6</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 9852b3e9-268d-4f27-8a70-8fd29adadd8b</value>
 				<value>GUID 574e5f26-b9ca-429a-956f-029e4479ab31</value>
@@ -4096,8 +4144,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:50:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:50:6</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID ee60d119-7fef-4c42-a463-0f317abf7086</value>
 			</AggregatesList>
@@ -4120,8 +4168,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:50:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:50:6</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID dba5be4c-e35e-4d1e-a136-be56e6242e52</value>
 			</AggregatesList>
@@ -4144,8 +4192,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:50:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:50:6</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 6b2ffad2-e2b1-4fb1-b1f2-bf4f6d26d889</value>
 			</AggregatesList>
@@ -4168,8 +4216,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:2</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:50:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:50:6</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID ae01f142-488a-4b45-8007-82d961e96be0</value>
 			</AggregatesList>
@@ -4178,8 +4226,12 @@ num=6%0D
 			<_id type="a">GUID ae01f142-488a-4b45-8007-82d961e96be0</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">value</_name>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:2</_modifiedTime>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 value\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.29.2026::11:50:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:50:6</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -4200,14 +4252,14 @@ num=6%0D
 				</IHandle>
 			</_base>
 			<AggregatesList type="e">
-				<value>GUID 36bcc533-4fbb-4674-ba06-98285cf06225</value>
+				<value>GUID 32444257-185a-4a8c-b865-4255e70dbd3e</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 36bcc533-4fbb-4674-ba06-98285cf06225</_id>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:2</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:2</_modifiedTime>
-			<_value type="a">Error</_value>
+			<_id type="a">GUID 32444257-185a-4a8c-b865-4255e70dbd3e</_id>
+			<_modifiedTimeWeak type="a">1.29.2026::11:50:6</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:50:6</_modifiedTime>
+			<_value type="a">FltLv_Error</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID 574e5f26-b9ca-429a-956f-029e4479ab31</_id>
@@ -4423,17 +4475,17 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:11</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:38</_modifiedTimeWeak>
 			<_description type="p"><IDescription type="e">
 				<_text type="a">num=5%0D
-1=NotCharging(0)%0D
-2=ChargerConnected(1)%0D
-3=Charging(2)%0D
-4=FullCharged(5)%0D
-5=ChargeMalfunction(10)</_text>
+1=ChgSt_NotCharging(0)%0D
+2=ChgSt_ChargerConnected(1)%0D
+3=ChgSt_Charging(2)%0D
+4=ChgSt_FullCharged(5)%0D
+5=ChgSt_ChargeMalfunction(10)</_text>
 			</IDescription>
 			</_description>
-			<_modifiedTime type="a">1.21.2026::23:24:11</_modifiedTime>
+			<_modifiedTime type="a">1.29.2026::11:52:38</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 019b52eb-f9e3-4210-80e6-b509ca5c9869</value>
 				<value>GUID 4df99533-c346-441c-86f1-fc41d53821a0</value>
@@ -4458,8 +4510,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:11</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:11</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:23</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 110d6743-abdb-4bc9-ad8f-e2e9f88eb9e6</value>
 				<value>GUID 3252d157-9d01-4639-891c-da9a5695e2cf</value>
@@ -4486,8 +4538,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:15</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID c2351a0e-fde8-41ff-a4a5-2d4f7445be03</value>
 				<value>GUID df672692-bbc4-4a4e-a42b-2cf424534f4d</value>
@@ -4514,8 +4566,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:15</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 7a72aab3-06ec-4982-909e-dff48b6a1fe9</value>
 			</AggregatesList>
@@ -4538,8 +4590,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:15</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID f7c1648b-cf85-4870-984f-61772b27c4b8</value>
 			</AggregatesList>
@@ -4562,8 +4614,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:15</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID cf54ca40-2d06-4614-94eb-81bd8274230e</value>
 			</AggregatesList>
@@ -4586,8 +4638,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:15</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID d7b5ecbf-c613-4f87-ad2d-58309a433810</value>
 			</AggregatesList>
@@ -4596,8 +4648,12 @@ num=6%0D
 			<_id type="a">GUID d7b5ecbf-c613-4f87-ad2d-58309a433810</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">value</_name>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 value\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:15</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -4618,14 +4674,14 @@ num=6%0D
 				</IHandle>
 			</_base>
 			<AggregatesList type="e">
-				<value>GUID 294bb32e-245e-4ab2-a0e8-cb5b117e05bc</value>
+				<value>GUID 6cad834e-2ea7-4e88-ab56-ecbded0e42d8</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 294bb32e-245e-4ab2-a0e8-cb5b117e05bc</_id>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
-			<_value type="a">NotCharging</_value>
+			<_id type="a">GUID 6cad834e-2ea7-4e88-ab56-ecbded0e42d8</_id>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:15</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:15</_modifiedTime>
+			<_value type="a">ChgSt_NotCharging</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID df672692-bbc4-4a4e-a42b-2cf424534f4d</_id>
@@ -4787,8 +4843,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:8</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID ce4fea11-23ec-4ac9-9ec4-681bf0f5ac8b</value>
 				<value>GUID 7b4b75c5-6f00-4be3-853c-89b55b13c6e2</value>
@@ -4815,8 +4871,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:8</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID a8bf720e-af5c-4508-8bb5-7b569b837995</value>
 			</AggregatesList>
@@ -4839,8 +4895,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:8</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 7888a2ce-0d3a-4197-a0e9-3aab72dadeac</value>
 			</AggregatesList>
@@ -4863,8 +4919,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:8</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID b8b3d788-5487-4226-8d99-b236e87d6369</value>
 			</AggregatesList>
@@ -4887,8 +4943,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:8</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 67c131cb-61a5-4442-ba1f-41c3827283df</value>
 			</AggregatesList>
@@ -4897,8 +4953,12 @@ num=6%0D
 			<_id type="a">GUID 67c131cb-61a5-4442-ba1f-41c3827283df</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">value</_name>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 value\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:8</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -4919,14 +4979,14 @@ num=6%0D
 				</IHandle>
 			</_base>
 			<AggregatesList type="e">
-				<value>GUID 7d52ca1e-eee2-4dd7-a13a-25426d4543af</value>
+				<value>GUID 903ee2e0-48eb-494c-a07e-d93b32034f61</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 7d52ca1e-eee2-4dd7-a13a-25426d4543af</_id>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
-			<_value type="a">ChargerConnected</_value>
+			<_id type="a">GUID 903ee2e0-48eb-494c-a07e-d93b32034f61</_id>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:8</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:8</_modifiedTime>
+			<_value type="a">ChgSt_ChargerConnected</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID 7b4b75c5-6f00-4be3-853c-89b55b13c6e2</_id>
@@ -5088,8 +5148,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:4</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID ea444034-222d-45d3-a990-522e32703af1</value>
 				<value>GUID ad6dfba1-0953-443e-8bed-ea78d348fd29</value>
@@ -5116,8 +5176,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:4</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 80eb5943-f689-4822-a5a1-1e48beac6397</value>
 			</AggregatesList>
@@ -5140,8 +5200,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:4</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID fdca7007-7481-43bc-9eea-482cf25a9fab</value>
 			</AggregatesList>
@@ -5164,8 +5224,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:4</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID eb56ee5e-b273-4f5d-bd4e-92c7a7dbf420</value>
 			</AggregatesList>
@@ -5188,8 +5248,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:4</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID fe367b81-ffb9-4a31-be7b-dcc19100056d</value>
 			</AggregatesList>
@@ -5198,8 +5258,12 @@ num=6%0D
 			<_id type="a">GUID fe367b81-ffb9-4a31-be7b-dcc19100056d</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">value</_name>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 value\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:4</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -5220,14 +5284,14 @@ num=6%0D
 				</IHandle>
 			</_base>
 			<AggregatesList type="e">
-				<value>GUID cf584f5c-0283-42ae-94af-3919c4259433</value>
+				<value>GUID ae3c5123-c738-44c3-bcea-8cd918eaa387</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID cf584f5c-0283-42ae-94af-3919c4259433</_id>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
-			<_value type="a">Charging</_value>
+			<_id type="a">GUID ae3c5123-c738-44c3-bcea-8cd918eaa387</_id>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:4</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:4</_modifiedTime>
+			<_value type="a">ChgSt_Charging</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID ad6dfba1-0953-443e-8bed-ea78d348fd29</_id>
@@ -5389,8 +5453,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:0</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID f2cd7e56-db94-4b87-bb36-7155a8b4e277</value>
 				<value>GUID fd183f1c-2308-4ae0-a981-6c7daa3af8bc</value>
@@ -5417,8 +5481,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:0</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 8c70b180-4992-4afc-b3c8-e761c25aab65</value>
 			</AggregatesList>
@@ -5441,8 +5505,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:0</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 3c8b2734-c2f4-4e49-8359-6269b4c9c617</value>
 			</AggregatesList>
@@ -5465,8 +5529,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:0</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID ab55f33a-3d49-4d9e-9b5e-b4e9707685fc</value>
 			</AggregatesList>
@@ -5489,8 +5553,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:0</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID f5752391-6689-4625-8ffd-972a0316a125</value>
 			</AggregatesList>
@@ -5499,8 +5563,12 @@ num=6%0D
 			<_id type="a">GUID f5752391-6689-4625-8ffd-972a0316a125</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">value</_name>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 value\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:0</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:0</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -5521,14 +5589,14 @@ num=6%0D
 				</IHandle>
 			</_base>
 			<AggregatesList type="e">
-				<value>GUID 9109d118-e963-4170-bfef-a4ca6cec8b8d</value>
+				<value>GUID fed736b5-fc7f-463e-96ed-7c0339e43e8f</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID 9109d118-e963-4170-bfef-a4ca6cec8b8d</_id>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:5</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:5</_modifiedTime>
-			<_value type="a">FullCharged</_value>
+			<_id type="a">GUID fed736b5-fc7f-463e-96ed-7c0339e43e8f</_id>
+			<_modifiedTimeWeak type="a">1.29.2026::11:51:59</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:51:59</_modifiedTime>
+			<_value type="a">ChgSt_FullCharged</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID fd183f1c-2308-4ae0-a981-6c7daa3af8bc</_id>
@@ -5690,8 +5758,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:11</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:11</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:23</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 9cf56f2f-4d1b-413f-92bb-04f6305a0f9b</value>
 				<value>GUID f64909aa-ff84-4573-977a-6bc6d19b94ec</value>
@@ -5718,8 +5786,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:11</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:11</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:23</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 7863f27d-ffd8-4a36-b9a4-1c30fd8f9ca9</value>
 			</AggregatesList>
@@ -5742,8 +5810,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:11</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:11</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:23</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 1173bba9-a262-4072-9191-5e9c919cbcad</value>
 			</AggregatesList>
@@ -5766,8 +5834,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:11</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:11</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:23</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 74baad5b-ad80-4bab-9502-63ca66350821</value>
 			</AggregatesList>
@@ -5790,8 +5858,8 @@ num=6%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:11</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:11</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:23</_modifiedTime>
 			<AggregatesList type="e">
 				<value>GUID 6aca05ea-98ba-4720-8cbb-1a911f373f06</value>
 			</AggregatesList>
@@ -5800,8 +5868,12 @@ num=6%0D
 			<_id type="a">GUID 6aca05ea-98ba-4720-8cbb-1a911f373f06</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">value</_name>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:11</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:11</_modifiedTime>
+			<_displayName type="a">{\rtf1\ansi\ansicpg949\deff0\deflang1033\deflangfe1042{\fonttbl{\f0\fmodern\fprq2\fcharset129 \'b8\'bc\'c0\'ba \'b0\'ed\'b5\'f1;}}%0D
+\viewkind4\uc1\pard\lang1042\f0\fs18 value\par%0D
+}%0D
+</_displayName>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:23</_modifiedTime>
 			<_typeOf type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IType</_hm2Class>
@@ -5822,14 +5894,14 @@ num=6%0D
 				</IHandle>
 			</_base>
 			<AggregatesList type="e">
-				<value>GUID b0f9dd93-fe67-46ba-816a-c59e5a844932</value>
+				<value>GUID a8b07bab-5035-4fbf-9d8c-367dfab4837d</value>
 			</AggregatesList>
 		</ITag>
 		<ILiteralSpecification type="e">
-			<_id type="a">GUID b0f9dd93-fe67-46ba-816a-c59e5a844932</_id>
-			<_modifiedTimeWeak type="a">1.21.2026::23:24:11</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.21.2026::23:24:11</_modifiedTime>
-			<_value type="a">ChargeMalfunction</_value>
+			<_id type="a">GUID a8b07bab-5035-4fbf-9d8c-367dfab4837d</_id>
+			<_modifiedTimeWeak type="a">1.29.2026::11:52:23</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::11:52:23</_modifiedTime>
+			<_value type="a">ChgSt_ChargeMalfunction</_value>
 		</ILiteralSpecification>
 		<ITag type="e">
 			<_id type="a">GUID f64909aa-ff84-4573-977a-6bc6d19b94ec</_id>
@@ -25024,9 +25096,9 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.27.2026::5:21:50</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.27.2026::5:21:50</_modifiedTime>
-			<weakCGTime type="a">1.27.2026::5:21:50</weakCGTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:0:37</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:0:37</_modifiedTime>
+			<weakCGTime type="a">1.29.2026::12:0:37</weakCGTime>
 			<strongCGTime type="a">1.19.2026::6:5:0</strongCGTime>
 			<_defaultComposite type="s">GUID c444799e-f50f-4464-8143-2596736889ba</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -25068,7 +25140,7 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.27.2026::5:21:50</_modifiedTimeWeak>
+			<_modifiedTimeWeak type="a">1.29.2026::12:0:37</_modifiedTimeWeak>
 			<_theMainDiagram type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
@@ -25079,9 +25151,9 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					<_hid type="a">GUID 6a358fbd-a212-4d93-a3b5-ae96e8c80a53</_hid>
 				</IHandle>
 			</_theMainDiagram>
-			<_modifiedTime type="a">1.27.2026::5:21:50</_modifiedTime>
+			<_modifiedTime type="a">1.29.2026::12:0:37</_modifiedTime>
 			<_lastID type="a">39</_lastID>
-			<weakCGTime type="a">1.27.2026::5:21:50</weakCGTime>
+			<weakCGTime type="a">1.29.2026::12:0:37</weakCGTime>
 			<strongCGTime type="a">1.15.2026::4:8:51</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -25649,9 +25721,9 @@ enum=ENUM_VcuCmd_BmsMode</_text>
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.27.2026::5:11:54</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.27.2026::5:11:54</_modifiedTime>
-			<_lastModifiedTime type="a">1.27.2026::5:11:54</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::12:0:37</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::12:0:37</_modifiedTime>
+			<_lastModifiedTime type="a">1.29.2026::12:0:37</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>

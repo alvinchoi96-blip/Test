@@ -95,5 +95,38 @@ extern Input_CurrMeas_Type  g_Input_CurrMeas;
 extern Input_TempMeas_Type  g_Input_TempMeas;
 extern Input_FaultFlag_Type g_Input_FaultFlag;
 
+/* ==================================================================================
+ * 3. Tx Interface-based Data Structures (출력/Tx 데이터 타입 정의)
+ * ================================================================================== */
+
+ /* [Interface: PackMeasData_Tx] 측정값 Tx */
+typedef struct
+{
+    uint32     packVoltageSum;
+    sint32     packCurrent;
+    sint16     cellTempAverage;
+    e_VcuCanCmd bmsModeInfo;   /* 종합 상태(결정 결과)를 Tx로 송신 */
+} Bms_PackMeasData_TxType;
+
+/* [Interface: PackCalculatedData_Tx] 계산값 Tx */
+typedef struct
+{
+    uint16 ibpLevel;
+    uint16 socLevel;
+    uint32 sohLevel;
+    uint16 capacityLevel;
+} Bms_PackCalculatedData_TxType;
+
+/* [Interface: BattStatusFlags_Tx] 상태 플래그 Tx */
+typedef struct
+{
+    boolean      cellBalancingFlag;
+    f_Voltage    voltage;
+    f_Temp       temp;
+    f_Current    current;
+    f_Ibp        ibp;
+    f_IsolResist isol;
+} Bms_BattStatusFlags_TxType;
+
 
 #endif /* BMS_MAINCNTRL_GLOBALDATA_H */

@@ -4,6 +4,12 @@
 #include "Bms_StatusDecision.h"
 
 
+
+#include "Bms_Tx_PackMeasData.h"
+#include "Bms_Tx_PackCalculatedData.h"
+#include "Bms_Tx_BattStatusFlags.h"
+#include "Bms_TxMapper_ReportBattInfo.h"
+
 /* ==================================================================================
  * Global Variables Definition (실제 메모리 할당)
  * ================================================================================== */
@@ -103,40 +109,45 @@ FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_HMI_Output_100ms(void)
 
 }
 
-
+/*******************************************************************************
+ * Runnable: REtSWC_BMS_MainCntrl_ReportBattInfoData_10ms
+ * Purpose : 배터리 종합 상태를 Tx 데이터(Port DataElement)로 송신한다.
+ *
+ * Sequence:
+ *  1) Tx 매핑 수행
+ *     - BMS_TxMap_ReportBattInfo()
+ *     - 전역 입력 데이터(g_Input_*)와 현재 모드(g_BmsCurrentMode)를 참조하여
+ *       다음 Tx 구조체를 구성한다.
+ *         a) Bms_PackMeasData_TxType
+ *         b) Bms_PackCalculatedData_TxType
+ *         c) Bms_BattStatusFlags_TxType
+ *
+ *  2) PackMeasData 송신
+ *     - Bms_Tx_PackMeasData_Write()
+ *     - P_PackMeasData_Tx 포트의 DataElement를 Rte_Write로 송신한다.
+ *
+ *  3) PackCalculatedData 송신
+ *     - Bms_Tx_PackCalculatedData_Write()
+ *     - P_PackCalculatedData_Tx 포트의 DataElement를 Rte_Write로 송신한다.
+ *
+ *  4) BattStatusFlags 송신
+ *     - Bms_Tx_BattStatusFlags_Write()
+ *     - P_BattStatusFlags_Tx 포트의 DataElement를 Rte_Write로 송신한다.
+ *
+ * Notes:
+ *  - 입력 Read 및 상태 판단(모드 결정)은 다른 Runnable에서 수행되며,
+ *    본 Runnable은 매핑 및 송신(Report)만 수행한다.
+ ******************************************************************************/
 FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_ReportBattInfoData_10ms(void)
 {
-    /*  
-        P_PackMeasData_TX_To_SWC_BMS_Status DataElement 변수 선언
-        P_PackMeasData_TX_To_SWC_BMS_ChargeMngr DataElement 변수 선언
-        P_PackMeasData_TX_To_SWC_BMS_SOC_Algo DataElement 변수 선언
-    */
-    uint32 packVoltageSum;
-    sint32 packCurrent; 
-    e_VcuCanCmd bmsModeInfo;
-    sint16 cellTempAverage;
+    Bms_PackMeasData_TxType       txMeas = {0};
+    Bms_PackCalculatedData_TxType txCalc = {0};
+    Bms_BattStatusFlags_TxType    txFlag = {0};
 
-    /* P_PackCalculatedData_Tx_To_SWC_BMS_Status DataElements 변수 선언 */
-    uint16 ibpLevel;
+    /* 다른 Runnable에서 결정한 상태를 그대로 사용 */
+    BMS_TxMap_ReportBattInfo(g_BmsCurrentMode, &txMeas, &txCalc, &txFlag);
 
-    /* P_BattStatusFlag_Tx_To_SWC_BMS_Status DataElements 변수 선언 */
-    f_Voltage voltageFaultFlags; //Struct
-    f_Temp tempFaultFlags; // Struct
-    f_Current  currentFaultFlags; //Struct
-    f_Ibp ibpFaultFlags; //Struct
-    f_IsolResist packIsolationFaultFlag; //Struct
-    
-
-    Rte_Write_SWC_BMS_MainCntrl_P_PackMeasData_Tx_packVoltageSum(packVoltageSum);
-    Rte_Write_SWC_BMS_MainCntrl_P_PackMeasData_Tx_packCurrent(packCurrent);
-    Rte_Write_SWC_BMS_MainCntrl_P_PackMeasData_Tx_bmsModeInfo(bmsModeInfo);
-    Rte_Write_SWC_BMS_MainCntrl_P_PackMeasData_Tx_cellTempAverage(cellTempAverage);
-
-    Rte_Write_SWC_BMS_MainCntrl_P_PackCalculatedData_Tx_ibpLevel(ibpLevel);
-
-    Rte_Write_SWC_BMS_MainCntrl_P_BattStatusFlags_Tx_voltageFaultFlags(&voltageFaultFlags);
-    Rte_Write_SWC_BMS_MainCntrl_P_BattStatusFlags_Tx_tempFaultFlags(&tempFaultFlags);
-    Rte_Write_SWC_BMS_MainCntrl_P_BattStatusFlags_Tx_currentFaultFlags(&currentFaultFlags);
-    Rte_Write_SWC_BMS_MainCntrl_P_BattStatusFlags_Tx_ibpFaultFlags(&ibpFaultFlags);
-    Rte_Write_SWC_BMS_MainCntrl_P_BattStatusFlags_Tx_packIsolationFaultFlag(&packIsolationFaultFlag);
+    Bms_Tx_PackMeasData_Write(&txMeas);
+    Bms_Tx_PackCalculatedData_Write(&txCalc);
+    Bms_Tx_BattStatusFlags_Write(&txFlag);
 }

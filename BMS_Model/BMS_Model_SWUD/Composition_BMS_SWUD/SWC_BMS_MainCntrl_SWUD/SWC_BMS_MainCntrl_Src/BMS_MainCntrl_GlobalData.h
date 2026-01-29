@@ -1,5 +1,6 @@
-#ifndef BMS_STATUS_DETERMINE_H
-#define BMS_STATUS_DETERMINE_H
+#ifndef BMS_MAINCNTRL_GLOBALDATA_H
+#define BMS_MAINCNTRL_GLOBALDATA_H
+
 
 #include "Rte_Type.h" /* RTE 기본 타입 참조 */
 
@@ -91,12 +92,4 @@ extern Input_TempMeas_Type  g_Input_TempMeas;
 extern Input_FaultFlag_Type g_Input_FaultFlag;
 
 
-/* ==================================================================================
- * 3. Function Prototypes
- * ================================================================================== */
-/* 전역 변수를 참조하므로 인자를 최소화했습니다 */
-void BMS_Logic_DetermineState(e_VcuCanCmd* currentMode);
-void BMS_Logic_ControlRelays(e_VcuCanCmd currentMode);
-void BMS_Logic_WriteOutputs(e_VcuCanCmd currentMode);
-
-#endif /* BMS_STATUS_DETERMINE_H */
+#endif /* BMS_MAINCNTRL_GLOBALDATA_H */

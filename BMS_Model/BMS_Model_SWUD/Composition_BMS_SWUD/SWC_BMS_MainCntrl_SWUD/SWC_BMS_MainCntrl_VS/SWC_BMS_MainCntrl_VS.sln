@@ -1,7 +1,7 @@
 
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2022
-Project("{2d96c646-d447-443b-9baf-8c078acd39ef}") = "SWC_BMS_MainCntrl_VS", "SWC_BMS_MainCntrl_VS\SWC_BMS_MainCntrl_VS.vcxproj", "{0ac013a7-d356-411a-81a0-929c93b594ba}"
+Project("{dbb72221-aed7-4115-bc22-99ea2357f0cd}") = "SWC_BMS_MainCntrl_VS", "SWC_BMS_MainCntrl_VS\SWC_BMS_MainCntrl_VS.vcxproj", "{aa087155-f8f8-4187-b13a-8fe7dc1f51a6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0ac013a7-d356-411a-81a0-929c93b594ba}.Debug|x86.ActiveCfg = Debug|Win32
-		{0ac013a7-d356-411a-81a0-929c93b594ba}.Debug|x86.Build.0 = Debug|Win32
-		{0ac013a7-d356-411a-81a0-929c93b594ba}.Release|x86.ActiveCfg = Release|Win32
-		{0ac013a7-d356-411a-81a0-929c93b594ba}.Release|x86.Build.0 = Release|Win32
+		{aa087155-f8f8-4187-b13a-8fe7dc1f51a6}.Debug|x86.ActiveCfg = Debug|Win32
+		{aa087155-f8f8-4187-b13a-8fe7dc1f51a6}.Debug|x86.Build.0 = Debug|Win32
+		{aa087155-f8f8-4187-b13a-8fe7dc1f51a6}.Release|x86.ActiveCfg = Release|Win32
+		{aa087155-f8f8-4187-b13a-8fe7dc1f51a6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5d6d142b-6469-4601-a1ac-a6b5010dd2d1}
+		SolutionGuid = {aa88068c-0523-49ab-a6a4-898edb6d2c7e}
 	EndGlobalSection
 EndGlobal

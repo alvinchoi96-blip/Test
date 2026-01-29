@@ -4,7 +4,7 @@
  */
 
 #include "BMS_MainCntrl_GlobalData.h"      /* 전역 변수 접근 */
-#include "Bms_StatusDetermine.h"
+#include "Bms_StatusDecision.h"
 #include "Rte_SWC_BMS_MainCntrl.h"
 
 /* =========================================================================
@@ -90,6 +90,26 @@ void BMS_Input_ProcessAll(void)
     Rte_Read_R_FaultFlag_warnDischargeOverTemp(&g_Input_FaultFlag.warnDischargeOverTemp);
     Rte_Read_R_FaultFlag_warnDischargeUnderTemp(&g_Input_FaultFlag.warnDischargeUnderTemp);
 
+    /* ======================================================================
+     * 1.1. Update Summary Flags (Logic Optimization)
+     * ====================================================================== */
+         /* 하나라도 Error가 있으면 isAnyError = TRUE */
+    g_Input_FaultFlag.isAnyError = (boolean)(
+        g_Input_FaultFlag.errOverCharge || g_Input_FaultFlag.errOverDischarge ||
+        g_Input_FaultFlag.errOverChargeCurrent || g_Input_FaultFlag.errOverDischargeCurrent ||
+        g_Input_FaultFlag.errOverCellVmax || g_Input_FaultFlag.errUnderCellVmin ||
+        g_Input_FaultFlag.errOverIbp || g_Input_FaultFlag.errIsolation ||
+        g_Input_FaultFlag.errChargeOverTemp || g_Input_FaultFlag.errChargeUnderTemp ||
+        g_Input_FaultFlag.errDischargeOverTemp || g_Input_FaultFlag.errDischargeUnderTemp);
+
+        /* 하나라도 Warning이 있으면 isAnyWarning = TRUE */
+    g_Input_FaultFlag.isAnyWarning = (boolean)( 
+        g_Input_FaultFlag.warnOverCharge || g_Input_FaultFlag.warnOverDisCharge ||
+        g_Input_FaultFlag.warnOverChargeCurrent || g_Input_FaultFlag.warnOverDischargeCurrent ||
+        g_Input_FaultFlag.warnOverCellVmax || g_Input_FaultFlag.warnUnderCellVmin ||
+        g_Input_FaultFlag.warnOverIbp ||
+        g_Input_FaultFlag.warnChargeOverTemp || g_Input_FaultFlag.warnChargeUnderTemp ||
+        g_Input_FaultFlag.warnDischargeOverTemp || g_Input_FaultFlag.warnDischargeUnderTemp);
 
     /* ======================================================================
      * 2. Validate Inputs (Global Validation)
@@ -97,8 +117,7 @@ void BMS_Input_ProcessAll(void)
     if (BMS_Input_ValidateSignals() == FALSE)
     {
         /* 데이터 정합성이 깨진 경우, 안전을 위해 명령을 무시하거나 초기화 */
-        /* 시퀀스 다이어그램에서 Validation Fail 경로를 보여주기 좋음 */
-        g_Input_VcuCmd.bmsActionCmd = StandAlone;
+        g_Input_VcuCmd.bmsActionCmd = Shut_Down;
         g_Input_Signal.ignSignal = LOCK;
     }
 }

@@ -1,7 +1,8 @@
 #include "Rte_SWC_BMS_MainCntrl.h"
 #include "BMS_MainCntrl_GlobalData.h"
-#include "Bms_StatusDetermine.h"
 #include "BmsMainCntrl_Soc.h"
+#include "Bms_StatusDecision.h"
+
 
 /* ==================================================================================
  * Global Variables Definition (실제 메모리 할당)
@@ -24,12 +25,23 @@ boolean chgConnectedFlag;
 BmsSoc_Input_t in;
 BmsSoc_Output_t out;
 
-/* 내부 상태 관리 변수 */
 static e_VcuCanCmd g_BmsCurrentMode = Standby;
+/* 내부 상태 관리 변수 */
+typedef struct {
+    boolean isModeChanged;
+    e_VcuCanCmd previousMode;
+} BmsModeContext_Type;
 
-FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_BattStatusProcess_10ms()
+static BmsModeContext_Type g_BmsModeContext = {Standby, FALSE};
+
+FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_InputDataRead_10ms(void)
 {
     BMS_Input_ProcessAll();
+}
+
+FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_BattStatusProcess_10ms(void)
+{
+    
     BMS_Logic_MainSequence(&g_BmsCurrentMode);
 }
 

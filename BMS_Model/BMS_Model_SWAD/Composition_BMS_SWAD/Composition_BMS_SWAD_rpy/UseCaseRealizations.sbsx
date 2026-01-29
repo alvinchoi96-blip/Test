@@ -25,9 +25,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.27.2026::6:4:11</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.27.2026::6:52:58</_modifiedTime>
-			<weakCGTime type="a">1.27.2026::6:4:11</weakCGTime>
+			<_modifiedTimeWeak type="a">1.29.2026::7:18:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::7:18:24</_modifiedTime>
+			<weakCGTime type="a">1.29.2026::7:18:24</weakCGTime>
 			<strongCGTime type="a">1.15.2026::4:8:52</strongCGTime>
 			<_defaultComposite type="s">GUID 4ec213d3-61f0-454f-9a3a-78a3879b70ab</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -30038,9 +30038,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::23:59:31</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::23:59:31</_modifiedTime>
-			<weakCGTime type="a">1.26.2026::23:59:31</weakCGTime>
+			<_modifiedTimeWeak type="a">1.29.2026::7:18:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::7:18:24</_modifiedTime>
+			<weakCGTime type="a">1.29.2026::7:18:24</weakCGTime>
 			<strongCGTime type="a">1.26.2026::23:53:32</strongCGTime>
 			<_defaultComposite type="s">GUID b4050230-eb62-49d6-821e-9f4c75fb940a</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
@@ -41268,9 +41268,9 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.26.2026::23:58:52</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.26.2026::23:58:52</_modifiedTime>
-			<_lastModifiedTime type="a">1.26.2026::23:58:52</_lastModifiedTime>
+			<_modifiedTimeWeak type="a">1.29.2026::7:18:24</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.29.2026::7:18:25</_modifiedTime>
+			<_lastModifiedTime type="a">1.29.2026::7:18:25</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -43485,12 +43485,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_SignalInput_ignSignal</_hname>
 					<_hid type="a">GUID 3ba97643-d3dc-4ae2-9de9-8d8d9457f748</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_SignalInput_ignSignal</m_str>
@@ -43509,8 +43509,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 341.685 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 181.444 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -43628,12 +43629,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_SignalInput_chargeConnectedFlag</_hname>
 					<_hid type="a">GUID d6811bca-17a3-4476-a638-b22862b8689d</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_SignalInput_chargeConnectedFlag</m_str>
@@ -43652,8 +43653,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 370.141 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 265.442 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -43771,12 +43773,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_VcuCanCmd_bmsActionCmd</_hname>
 					<_hid type="a">GUID 4e4a7bed-9aa5-4192-b810-779df7af8544</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_VcuCanCmd_bmsActionCmd</m_str>
@@ -43795,8 +43797,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 398.598 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 349.443 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -43914,12 +43917,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_FaultFlag_warnOverCharge</_hname>
 					<_hid type="a">GUID d94ff7d1-df60-4950-bd65-65cd5e7624a3</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_FaultFlag_warnOverCharge</m_str>
@@ -43938,8 +43941,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 427.054 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 433.442 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -44057,12 +44061,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_FaultFlag_warnOverDisCharge</_hname>
 					<_hid type="a">GUID 5dabef5d-2928-4073-bc18-e65e09cb2c8b</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_FaultFlag_warnOverDisCharge</m_str>
@@ -44081,8 +44085,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 455.511 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 517.443 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -44200,12 +44205,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_FaultFlag_warnOverCellVmax</_hname>
 					<_hid type="a">GUID b8a3d0b2-9816-4e04-8067-f75f07f49d4c</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_FaultFlag_warnOverCellVmax</m_str>
@@ -44224,8 +44229,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 483.967 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 601.441 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -44343,12 +44349,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_FaultFlag_warnUnderCellVmin</_hname>
 					<_hid type="a">GUID 75cbcc03-d2ad-473f-bc66-8f687ae0fa42</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_FaultFlag_warnUnderCellVmin</m_str>
@@ -44367,8 +44373,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 512.424 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 685.443 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -44486,12 +44493,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_FaultFlag_errOverCharge</_hname>
 					<_hid type="a">GUID 75dc5ebe-de5a-457f-897d-77eff67b8270</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_FaultFlag_errOverCharge</m_str>
@@ -44510,8 +44517,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 540.88 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 769.441 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -44629,12 +44637,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_FaultFlag_errOverDischarge</_hname>
 					<_hid type="a">GUID 45d48d4a-7d9f-414c-a08f-8dca5abce789</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_FaultFlag_errOverDischarge</m_str>
@@ -44653,8 +44661,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 569.337 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 853.442 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -44772,12 +44781,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_FaultFlag_errOverCellVmax</_hname>
 					<_hid type="a">GUID 1af1ced6-22f0-42fc-83d5-52148e67617d</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_FaultFlag_errOverCellVmax</m_str>
@@ -44796,8 +44805,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 597.794 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 937.444 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -44915,12 +44925,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_FaultFlag_errUnderCellVmin</_hname>
 					<_hid type="a">GUID f37fbe39-0dd8-4d5c-88b1-a961595d75c6</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_FaultFlag_errUnderCellVmin</m_str>
@@ -44939,8 +44949,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 626.25 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 1021.44 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -45058,12 +45069,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_FaultFlag_warnChargeOverTemp</_hname>
 					<_hid type="a">GUID 8805b44e-081b-4896-bca0-e7f78fa633c6</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_FaultFlag_warnChargeOverTemp</m_str>
@@ -45082,8 +45093,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 654.707 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 1105.44 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -45201,12 +45213,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_FaultFlag_warnChargeUnderTemp</_hname>
 					<_hid type="a">GUID 6ee81053-2672-4b5b-bb55-8095cfb4afaf</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_FaultFlag_warnChargeUnderTemp</m_str>
@@ -45225,8 +45237,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 683.163 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 1189.44 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -45344,12 +45357,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_FaultFlag_warnDischargeOverTemp</_hname>
 					<_hid type="a">GUID 66dee27a-aa0d-42d1-9fa6-44d33cdb49ab</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_FaultFlag_warnDischargeOverTemp</m_str>
@@ -45368,8 +45381,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 711.62 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 1273.44 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -45487,12 +45501,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_FaultFlag_warnDischargeUnderTemp</_hname>
 					<_hid type="a">GUID 8d2c771c-d1af-4744-a33b-1fcde16cfce9</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_FaultFlag_warnDischargeUnderTemp</m_str>
@@ -45511,8 +45525,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 740.076 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 1357.44 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -45630,12 +45645,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_FaultFlag_errChargeOverTemp</_hname>
 					<_hid type="a">GUID 44553e93-982e-4826-a439-6fecfde83a76</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_FaultFlag_errChargeOverTemp</m_str>
@@ -45654,8 +45669,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 768.533 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 1441.44 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -45773,12 +45789,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_FaultFlag_errChargeUnderTemp</_hname>
 					<_hid type="a">GUID cc7d664b-3d8c-4c3e-92df-e57370bb4776</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_FaultFlag_errChargeUnderTemp</m_str>
@@ -45797,8 +45813,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 796.989 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 1525.44 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -45916,12 +45933,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_FaultFlag_errDischargeOverTemp</_hname>
 					<_hid type="a">GUID 7d1ee654-7414-4ec6-907a-16f9c89f16a3</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_FaultFlag_errDischargeOverTemp</m_str>
@@ -45940,8 +45957,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 825.446 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 1609.44 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -46059,12 +46077,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_FaultFlag_errDischargeUnderTemp</_hname>
 					<_hid type="a">GUID 9003d91d-e96b-4746-be50-29e556f355a7</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_FaultFlag_errDischargeUnderTemp</m_str>
@@ -46083,8 +46101,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 853.902 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 1693.44 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -46202,12 +46221,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_FaultFlag_warnOverChargeCurrent</_hname>
 					<_hid type="a">GUID 8702be8b-eab4-4faa-bb88-fd00228d75d6</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_FaultFlag_warnOverChargeCurrent</m_str>
@@ -46226,8 +46245,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 882.359 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 1777.44 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -46345,12 +46365,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_FaultFlag_warnOverDischargeCurrent</_hname>
 					<_hid type="a">GUID 33bb3201-9c9d-4ba8-be0c-3b51e9467ac3</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_FaultFlag_warnOverDischargeCurrent</m_str>
@@ -46369,8 +46389,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 910.815 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 1861.44 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -46488,12 +46509,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_FaultFlag_errOverChargeCurrent</_hname>
 					<_hid type="a">GUID cf77513c-0f0f-42ab-80ae-32f6180c150e</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_FaultFlag_errOverChargeCurrent</m_str>
@@ -46512,8 +46533,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 939.272 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 1945.44 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -46631,12 +46653,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_FaultFlag_errOverDischargeCurrent</_hname>
 					<_hid type="a">GUID f3a3462d-48d7-49d5-8cfa-d46f931ff64b</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_FaultFlag_errOverDischargeCurrent</m_str>
@@ -46655,8 +46677,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 967.728 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 2029.44 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -46774,12 +46797,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_FaultFlag_warnOverIbp</_hname>
 					<_hid type="a">GUID 67043617-f050-4155-a3ec-46fbabf2391a</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_FaultFlag_warnOverIbp</m_str>
@@ -46798,8 +46821,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 996.185 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 2113.44 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -46917,12 +46941,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_FaultFlag_errOverIbp</_hname>
 					<_hid type="a">GUID e2c5f461-faad-4de8-8465-474fa8f3593e</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_FaultFlag_errOverIbp</m_str>
@@ -46941,8 +46965,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 1024.64 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 2197.44 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -47060,12 +47085,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_FaultFlag_errIsolation</_hname>
 					<_hid type="a">GUID 3dac361a-799e-43c1-9305-53c91347312c</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_FaultFlag_errIsolation</m_str>
@@ -47084,8 +47109,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 1053.1 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 2281.45 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -47520,12 +47546,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_CurrMeasData_packCurrent</_hname>
 					<_hid type="a">GUID 618acfd9-3d5c-44fb-903b-25f48eed1c42</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_CurrMeasData_packCurrent</m_str>
@@ -47544,8 +47570,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 1138.47 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 2533.45 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -47663,12 +47690,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_CellMeasData_packVoltageSum</_hname>
 					<_hid type="a">GUID e31a96e7-f6b4-4e95-975e-c4f03fda2b29</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_CellMeasData_packVoltageSum</m_str>
@@ -47687,8 +47714,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 1166.92 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 2617.43 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -47806,12 +47834,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_CellMeasData_cellSerialNum</_hname>
 					<_hid type="a">GUID 878f3838-2624-402e-9c62-53353010ef74</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_CellMeasData_cellSerialNum</m_str>
@@ -47830,8 +47858,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 1195.38 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 2701.44 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -47949,12 +47978,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_CellMeasData_cellVoltageIndividual</_hname>
 					<_hid type="a">GUID 9903f449-b9e1-4e59-ba33-699422cf4ea3</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_CellMeasData_cellVoltageIndividual</m_str>
@@ -47973,8 +48002,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 1223.84 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 2785.45 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -48092,12 +48122,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_CellMeasData_cellVoltageAverage</_hname>
 					<_hid type="a">GUID 9915c6b1-a076-417b-b4d4-4b845abd6a18</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_CellMeasData_cellVoltageAverage</m_str>
@@ -48116,8 +48146,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 1252.29 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 2869.43 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -48235,12 +48266,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_CellMeasData_cellVoltageMax</_hname>
 					<_hid type="a">GUID 4fd0f93a-564f-4fbc-88e8-6937fbd21f57</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_CellMeasData_cellVoltageMax</m_str>
@@ -48259,8 +48290,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 1280.75 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 2953.44 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -48378,12 +48410,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_CellMeasData_cellVoltageMin</_hname>
 					<_hid type="a">GUID b30935a4-8824-48ac-a40f-b6437cf7c0de</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_CellMeasData_cellVoltageMin</m_str>
@@ -48402,8 +48434,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 1309.21 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 3037.45 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -48521,12 +48554,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_CellMeasData_ibpLevel</_hname>
 					<_hid type="a">GUID 49a0f5db-208e-47b9-88c3-00876549375f</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_CellMeasData_ibpLevel</m_str>
@@ -48545,8 +48578,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 1337.66 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 3121.43 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -48664,12 +48698,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_TempMeasData_cellTempAverage</_hname>
 					<_hid type="a">GUID 3843cfa9-ec56-4096-81bb-319a8f1f7041</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_TempMeasData_cellTempAverage</m_str>
@@ -48688,8 +48722,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 1366.12 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 3205.44 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -48807,12 +48842,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_TempMeasData_cellTempMax</_hname>
 					<_hid type="a">GUID 8aa7af6e-d24d-4c81-8e03-c20b80bbf8b8</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_TempMeasData_cellTempMax</m_str>
@@ -48831,8 +48866,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 1394.58 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 3289.45 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
@@ -48950,12 +48986,12 @@
 					<_hm2Class type="a">IPart</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl::SwComponentTypes</_hsubsystem>
-					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_BattStatusProcess_10ms</_hclass>
+					<_hclass type="a">SWC_BMS_MainCntrl.IB_SWC_BMS_MainCntrl.REtSWC_BMS_MainCntrl_InputDataRead_10ms</_hclass>
 					<_hname type="a">DRPBA_R_TempMeasData_cellTempMin</_hname>
 					<_hid type="a">GUID 4f073ca3-84ca-4083-9265-202ba52840f5</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 520abfcb-52e9-40c6-8d8b-17cee604eec9</m_pParent>
+			<m_pParent type="s">GUID d7c62a07-7c76-460f-8e24-ea967591c5d6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">DRPBA_R_TempMeasData_cellTempMin</m_str>
@@ -48974,8 +49010,9 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">529160</m_drawBehavior>
-			<m_transform type="a">0.109091 0 0 0.0108696 473.518 1423.03 </m_transform>
+			<m_transform type="a">0.0339944 0 0 0.0320856 716.933 3373.43 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_bIsMisplaced type="a">1</m_bIsMisplaced>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>

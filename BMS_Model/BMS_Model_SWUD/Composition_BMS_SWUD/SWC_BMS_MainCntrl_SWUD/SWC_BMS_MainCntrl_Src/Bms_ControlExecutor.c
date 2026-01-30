@@ -1,15 +1,11 @@
 /**
  * @file Bms_ControlExecutor.c
- * @brief Actuator Control Implementation
+ * @brief Actuator Control & Output Update Implementation
  */
-#include "BMS_MainCntrl_GlobalData.h"
-#include "Rte_SWC_BMS_MainCntrl.h"
 
-/* =========================================================================
- * Internal Functions
- * ========================================================================= */
-static void PerformRelayConnectSequence(void);
-static void PerformRelayCutoffSequence(void);
+#include "BMS_MainCntrl_GlobalData.h"      /* 전역 변수 접근 */
+#include "Bms_StatusDecision.h"
+#include "Rte_SWC_BMS_MainCntrl.h"
 
 /* =========================================================================
  * Function Implementation
@@ -17,22 +13,22 @@ static void PerformRelayCutoffSequence(void);
 
 void BMS_Logic_ExecuteControl(e_VcuCanCmd targetMode)
 {
-    /* 다이어그램에서 조건 분기 확인 가능 */
+    /* Driving 모드일 경우 릴레이 연결 시퀀스 수행 */
     if ((targetMode == BmsMd_Driving) || (targetMode == BmsMd_Charging))
     {
-        /* 연결 시퀀스 함수 호출 */
-        PerformRelayConnectSequence();
+        /* Soft Start (Pre-charge) 요청: Argument 1U */
+        (void)Rte_Call_R_RelayControlReq_relayEnableReq(Soft); 
     }
     else
     {
-        /* 차단 시퀀스 함수 호출 */
-        PerformRelayCutoffSequence();
+        /* 그 외 모드(Standby, Emergency 등)에서는 릴레이 차단 요청 */
+        (void)Rte_Call_R_RelayControlReq_relayDisableReq();
     }
 }
 
 void BMS_Logic_UpdateOutputs(e_VcuCanCmd currentMode)
 {
-    /* RTE Write API 호출 */
+    /* 1. BMS Main Mode 출력 */
     (void)Rte_Write_P_PackMeasData_Tx_bmsModeInfo(currentMode);
     
     /* 2. Charging Status 상세 정보 출력 */
@@ -50,19 +46,4 @@ void BMS_Logic_UpdateOutputs(e_VcuCanCmd currentMode)
     {
         (void)Rte_Write_P_ChgData_Tx_chargingStatus(ChgSt_NotCharging);
     }
-    /* 진단 정보 업데이트가 필요하다면 여기서 추가 호출 가능 */
-}
-
-/* --- Internal Action Functions --- */
-
-static void PerformRelayConnectSequence(void)
-{
-    /* Soft Start (Pre-charge) 요청 */
-    (void)Rte_Call_R_RelayControlReq_relayEnableReq(Soft); 
-}
-
-static void PerformRelayCutoffSequence(void)
-{
-    /* 즉시 차단 요청 */
-    (void)Rte_Call_R_RelayControlReq_relayDisableReq();
 }

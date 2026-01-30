@@ -1,5 +1,5 @@
-#include "Bms_Tx_PackCalculatedData.h"
 #include "Rte_SWC_BMS_MainCntrl.h"
+#include "Bms_TxMapper_ReportBattInfo.h"
 
 /* 송신 분기 제어를 위한 상태값 */
 typedef enum

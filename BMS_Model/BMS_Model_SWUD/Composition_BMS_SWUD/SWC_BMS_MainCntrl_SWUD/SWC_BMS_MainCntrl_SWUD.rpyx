@@ -287,8 +287,8 @@ extern &quot;C&quot; {%0D
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.30.2026::1:2:53</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.30.2026::1:2:53</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.30.2026::6:36:12</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.30.2026::6:36:12</_modifiedTime>
 			<_lastID type="a">4</_lastID>
 			<_UserColors type="w">
 				<IRPYRawContainer type="e">
@@ -370,8 +370,8 @@ extern &quot;C&quot; {%0D
 				<value>GUID 7d25c9cb-203a-467e-a5e9-08e707471cd2</value>
 				<value>GUID fc7b4b7c-f77e-4fd3-9c72-c263a6c5c615</value>
 				<value>GUID 53b46a79-b3ce-4637-a843-3cac95da6844</value>
-				<value>GUID 57768c2d-3ca4-44fe-a937-aae65c5a8c92</value>
-				<value>GUID d9f70cd1-1ac5-4ba6-9070-58814768c164</value>
+				<value>GUID 64a72b10-eff4-4936-8ff5-db2a055b9f1c</value>
+				<value>GUID 7be93b7f-08a2-4d01-b70d-42c247d2d8f2</value>
 				<value>GUID 8c6b78b3-31fd-4930-bf9d-c11c872b75ce</value>
 			</AggregatesList>
 		</IProject>
@@ -389,11 +389,11 @@ extern &quot;C&quot; {%0D
 		</ISubsystem>
 		<ISubsystem type="e">
 			<fileName type="a">StubFiles</fileName>
-			<_id type="a">GUID 57768c2d-3ca4-44fe-a937-aae65c5a8c92</_id>
+			<_id type="a">GUID 64a72b10-eff4-4936-8ff5-db2a055b9f1c</_id>
 		</ISubsystem>
 		<ISubsystem type="e">
 			<fileName type="a">SWC_BMS_MainCntrl_Src</fileName>
-			<_id type="a">GUID d9f70cd1-1ac5-4ba6-9070-58814768c164</_id>
+			<_id type="a">GUID 7be93b7f-08a2-4d01-b70d-42c247d2d8f2</_id>
 		</ISubsystem>
 		<IComponent type="e">
 			<fileName type="a">SWUDComp</fileName>

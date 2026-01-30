@@ -8,7 +8,7 @@ const uint16 BmsSoc_OcvSocBp_X10[BMS_SOC_OCV_POINTS] =
 };
 
 /* Typical Li-ion OCV curve (mV) */
-const uint16 BmsSoc_OcvTable_mV[BMS_SOC_OCV_POINTS] =
+const uint32 BmsSoc_OcvTable_mV[BMS_SOC_OCV_POINTS] =
 {
     3000, 3400, 3600, 3700, 3750,
     3800, 3850, 3900, 4000, 4100, 4200

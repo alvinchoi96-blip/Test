@@ -57,7 +57,7 @@ static sint16 BmsSoc_ClampS16(sint16 v, sint16 lo, sint16 hi)
  * - 출력: soc_x10 (0~1000)
  * - 테이블은 증가형(OCV가 SOC와 함께 증가) 가정
  */
-static uint16 BmsSoc_InterpSocFromOcv(uint16 packVoltage_mV)
+static uint16 BmsSoc_InterpSocFromOcv(uint32 packVoltage_mV)
 {
     uint16 i;
 
@@ -123,8 +123,8 @@ static uint16 BmsSoc_InterpSocFromOcv(uint16 packVoltage_mV)
  * - "값이 말이 되는가?"를 보는 1차 필터
  * - 실제 센서 진단(DTC/Status)은 Facade에서 추가 AND 권장
  */
-uint8 BmsSoc_Estimator_CheckInputValid(uint16 packVoltage_mV,
-                                       sint16 packCurrent_mA,
+uint8 BmsSoc_Estimator_CheckInputValid(uint32 packVoltage_mV,
+                                       sint32 packCurrent_mA,
                                        sint16 packTemp_dC)
 {
     if (packVoltage_mV < BMS_SOC_V_MIN_MV_SANITY) { return 0u; }
@@ -144,7 +144,7 @@ uint8 BmsSoc_Estimator_CheckInputValid(uint16 packVoltage_mV,
  *   packCurrent_mA > 0 => 방전 => SoC 감소 (delta 음수)
  *   packCurrent_mA < 0 => 충전 => SoC 증가 (delta 양수)
  */
-sint16 BmsSoc_Estimator_CalcDeltaSocCc_x10(sint16 packCurrent_mA)
+sint16 BmsSoc_Estimator_CalcDeltaSocCc_x10(sint32 packCurrent_mA)
 {
     sint32 i_mA;
     sint32 iEff_mA;
@@ -207,7 +207,7 @@ sint16 BmsSoc_Estimator_CalcDeltaSocCc_x10(sint16 packCurrent_mA)
 }
 
 /* OCV 테이블 기반 SoC 추정(x10) */
-uint16 BmsSoc_Estimator_EstimateSocFromOcv_x10(uint16 packVoltage_mV)
+uint16 BmsSoc_Estimator_EstimateSocFromOcv_x10(uint32 packVoltage_mV)
 {
     uint16 soc;
 

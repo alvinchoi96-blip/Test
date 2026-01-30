@@ -51,7 +51,7 @@
 extern const uint16 BmsSoc_OcvSocBp_X10[BMS_SOC_OCV_POINTS];
 
 /* OCV table values (mV) */
-extern const uint16 BmsSoc_OcvTable_mV[BMS_SOC_OCV_POINTS];
+extern const uint32 BmsSoc_OcvTable_mV[BMS_SOC_OCV_POINTS];
 
 /* Rest condition detection */
 #define BMS_SOC_REST_I_THR_MA              (500)     /* |I| < 0.5A */

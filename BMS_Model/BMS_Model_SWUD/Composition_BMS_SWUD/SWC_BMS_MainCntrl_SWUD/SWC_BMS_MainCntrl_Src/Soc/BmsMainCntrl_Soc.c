@@ -1,6 +1,6 @@
 #include "BmsMainCntrl_Soc.h"
 #include "Soc_Cfg.h"
-
+#include "Rte_SWC_BMS_MainCntrl.h"
 /* =========================================================
  *  extern declarations (State / Estimator)
  *  - 별도 헤더 없이 사용하기 위한 명시적 선언
@@ -46,8 +46,7 @@ void BmsMainCntrl_Soc_Init(void)
 /* =========================================================
  *  SoC main processing (1000ms)
  * ========================================================= */
-void BmsMainCntrl_Soc_Process_1000ms(const BmsSoc_Input_t* in,
-                                     BmsSoc_Output_t* out)
+void BmsMainCntrl_Soc_Process_1000ms(BmsSoc_Output_t* out)
 {
     uint8  inputValid;
     sint16 deltaSocCc_x10;
@@ -58,38 +57,31 @@ void BmsMainCntrl_Soc_Process_1000ms(const BmsSoc_Input_t* in,
         BmsMainCntrl_Soc_Init();
     }
 
+    /* 값 Mapping, Global Data Type 내용 활용 */
+    const uint32 packVoltageSum = g_Input_CellMeas.packVoltageSum;
+    const sint32 packCurrent    = g_Input_CurrMeas.packCurrent;
+    const sint16 packTemp       = g_Input_TempMeas.cellTempAverage;
+    /* ignSignal은 e_IgnStat(enum)임 → SoC 로직이 0/1 기대면 추후 정식 매핑 필요 */
+    const uint8 ignOn           = (g_Input_Signal.ignSignal != 0u) ? 1u : 0u;
+    const uint8 chgConnected    = (g_Input_Signal.chargeConnectedFlag != 0u) ? 1u : 0u;
+
     /* 1. 입력 유효성 판단 */
-    inputValid = BmsSoc_Estimator_CheckInputValid(
-                    in->packVoltage_mV,
-                    in->packCurrent_mA,
-                    in->packTemp_dC);
+    inputValid = BmsSoc_Estimator_CheckInputValid((uint16)packVoltageSum, (sint16)packCurrent, packTemp);
 
     /* 2. State에 입력 전달 */
-    BmsSoc_State_OnInputs(in->packVoltage_mV,
-                          in->packCurrent_mA,
-                          in->packTemp_dC,
-                          in->ignOn,
-                          in->chgConnected,
-                          inputValid);
+    BmsSoc_State_OnInputs((uint16)packVoltageSum, (sint16)packCurrent, packTemp, ignOn, chgConnected, inputValid);
 
     /* 3. Coulomb Counting */
-    deltaSocCc_x10 =
-        BmsSoc_Estimator_CalcDeltaSocCc_x10(in->packCurrent_mA);
+    deltaSocCc_x10 = BmsSoc_Estimator_CalcDeltaSocCc_x10((sint16)packCurrent);
 
     BmsSoc_State_ApplyCcDelta(deltaSocCc_x10);
 
     /* 4. OCV 보정 */
     if (BmsSoc_State_IsRestReady() != 0u)
     {
-        socFromOcv_x10 =
-            BmsSoc_Estimator_EstimateSocFromOcv_x10(
-                in->packVoltage_mV);
-
+        socFromOcv_x10 = BmsSoc_Estimator_EstimateSocFromOcv_x10((uint16)packVoltageSum);
         BmsSoc_State_ApplyOcvSoc(socFromOcv_x10);
     }
-
-    /* 5. SOH 처리 (stub) */
-    BmsMainCntrl_Soh_Process_1000ms();
 
     /* 6. 출력 구성 */
     out->soc_x10  = BmsSoc_State_GetSoc();
@@ -100,7 +92,15 @@ void BmsMainCntrl_Soc_Process_1000ms(const BmsSoc_Input_t* in,
 /* =========================================================
  *  SOH Stub
  * ========================================================= */
-void BmsMainCntrl_Soh_Process_1000ms(void)
+void BmsMainCntrl_Soh_Process_1000ms(BmsModeContext_Type g_BmsModeContext, uint32 * calculateSohValue)
 {
-    /* intentionally empty */
+    if(g_BmsModeContext.isModeChanged && g_BmsModeContext.previousMode == BmsMd_Driving)
+    {
+        /* Driving -> Driving 상태 천이이나, 오류로 인해 들어온 경우 방어*/
+        if(g_BmsModeContext.previousMode == BmsMd_Driving)
+            return;
+
+        /* SOH 실행 확인 */
+        Rte_Call_R_SocCalc_calculateSoh(&calculateSohValue);
+    }
 }

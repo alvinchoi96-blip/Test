@@ -1,7 +1,8 @@
 #ifndef BMSMAINCNTRL_SOC_H
 #define BMSMAINCNTRL_SOC_H
 
-#include "Platform_Types.h"
+#include "Rte_SWC_BMS_MainCntrl_Type.h"
+#include "BMS_MainCntrl_GlobalData.h"
 
 /* =========================================================
  *  SoC Facade Interface (for BMS Main Control)
@@ -13,17 +14,6 @@
  */
 
 /* 입력 구조체 */
-typedef struct
-{
-    uint32 packVoltage_mV;
-    sint32 packCurrent_mA;
-    sint16 packTemp_dC;
-
-    uint8  ignOn;
-    uint8  chgConnected;
-
-} BmsSoc_Input_t;
-
 /* 출력 구조체 */
 typedef struct
 {
@@ -42,13 +32,12 @@ typedef struct
 void BmsMainCntrl_Soc_Init(void);
 
 /* SoC 처리 진입점 (1000ms 주기) */
-void BmsMainCntrl_Soc_Process_1000ms(const BmsSoc_Input_t* in,
-                                     BmsSoc_Output_t* out);
+void BmsMainCntrl_Soc_Process_1000ms(BmsSoc_Output_t* out);
 
 /* SOH 처리 진입점 (stub)
  * - 현재는 빈 body
  * - 추후 SOH 알고리즘 연결 예정
  */
-void BmsMainCntrl_Soh_Process_1000ms(void);
+void BmsMainCntrl_Soh_Process_1000ms(BmsModeContext_Type g_BmsModeContext, uint32 * calculateSohValue);
 
 #endif /* BMSMAINCNTRL_SOC_H */

@@ -7,8 +7,8 @@
 typedef struct
 {
     /* Last known inputs (for rest detection / debug) */
-    uint16 lastPackVoltage_mV;
-    sint16 lastPackCurrent_mA;
+    uint32 lastPackVoltage_mV;
+    sint32 lastPackCurrent_mA;
     sint16 lastPackTemp_dC;
 
     /* Rest detection */

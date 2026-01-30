@@ -10,8 +10,7 @@
 	<CGEMdiWorkspace type="e">
 			<stubList type="c">
 				<IRPYRawContainer type="e">
-					<size type="a">1</size>
-					<value>GUID 0d7c31da-7afa-4eca-b608-47dcf53db5ec</value>
+					<size type="a">0</size>
 				</IRPYRawContainer>
 			</stubList>
 			<isLoadOnDemand type="a">0</isLoadOnDemand>

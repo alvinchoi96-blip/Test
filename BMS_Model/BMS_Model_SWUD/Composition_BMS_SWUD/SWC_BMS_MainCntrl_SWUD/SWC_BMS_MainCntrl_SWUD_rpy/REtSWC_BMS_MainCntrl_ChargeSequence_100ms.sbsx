@@ -8,7 +8,7 @@
 	
 	<RHAPSODY-MODEL>
 	<ISubsystem type="e">
-			<_id type="a">GUID 17d04967-edb1-4871-939b-a70da1ddb3c1</_id>
+			<_id type="a">GUID 28092a2d-e8f6-4e96-bc68-ba436983b95d</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">REtSWC_BMS_MainCntrl_ChargeSequence_100ms</_name>
 			<Stereotypes type="c">
@@ -25,33 +25,21 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<_modifiedTimeWeak type="a">1.29.2026::23:3:31</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.29.2026::23:3:31</_modifiedTime>
-			<weakCGTime type="a">1.29.2026::23:3:31</weakCGTime>
-=======
-			<_modifiedTimeWeak type="a">1.30.2026::1:31:13</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.30.2026::1:31:13</_modifiedTime>
-			<weakCGTime type="a">1.30.2026::1:31:13</weakCGTime>
->>>>>>> Stashed changes
-=======
-			<_modifiedTimeWeak type="a">1.30.2026::1:31:13</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.30.2026::1:31:13</_modifiedTime>
-			<weakCGTime type="a">1.30.2026::1:31:13</weakCGTime>
->>>>>>> Stashed changes
-			<strongCGTime type="a">1.29.2026::12:4:29</strongCGTime>
-			<_defaultComposite type="s">GUID 27956668-af3f-4dd1-9351-50c9c049f365</_defaultComposite>
+			<_modifiedTimeWeak type="a">1.30.2026::6:42:1</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.30.2026::6:42:1</_modifiedTime>
+			<weakCGTime type="a">1.30.2026::6:42:1</weakCGTime>
+			<strongCGTime type="a">1.30.2026::5:58:28</strongCGTime>
+			<_defaultComposite type="s">GUID e4b35ab9-9d63-4fa7-a58d-cb7eb498e6a6</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">1.1.1970::9:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
-				<value>GUID f3647217-6ebc-412d-9191-be05d560efa0</value>
-				<value>GUID 1d42d9b5-5a8a-442f-9c54-d96524130bd7</value>
-				<value>GUID 27956668-af3f-4dd1-9351-50c9c049f365</value>
+				<value>GUID a8c5438d-ee23-4720-b752-92fc4a914cbf</value>
+				<value>GUID ef35dd14-ed41-45a8-9cdb-7526644fca7e</value>
+				<value>GUID e4b35ab9-9d63-4fa7-a58d-cb7eb498e6a6</value>
 			</AggregatesList>
 		</ISubsystem>
 		<IDiagram type="e">
-			<_id type="a">GUID f3647217-6ebc-412d-9191-be05d560efa0</_id>
+			<_id type="a">GUID a8c5438d-ee23-4720-b752-92fc4a914cbf</_id>
 			<_myState type="a">8192</_myState>
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
@@ -230,18 +218,8 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<_modifiedTime type="a">1.29.2026::23:3:34</_modifiedTime>
-			<_lastModifiedTime type="a">1.29.2026::23:3:34</_lastModifiedTime>
-=======
-			<_modifiedTime type="a">1.30.2026::1:31:25</_modifiedTime>
-			<_lastModifiedTime type="a">1.30.2026::1:31:25</_lastModifiedTime>
->>>>>>> Stashed changes
-=======
-			<_modifiedTime type="a">1.30.2026::1:31:25</_modifiedTime>
-			<_lastModifiedTime type="a">1.30.2026::1:31:25</_lastModifiedTime>
->>>>>>> Stashed changes
+			<_modifiedTime type="a">1.30.2026::6:42:12</_modifiedTime>
+			<_lastModifiedTime type="a">1.30.2026::6:42:12</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -249,20 +227,20 @@
 			<_defaultSubsystem type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">ISubsystem</_hm2Class>
-					<_hid type="a">GUID 17d04967-edb1-4871-939b-a70da1ddb3c1</_hid>
+					<_hid type="a">GUID 28092a2d-e8f6-4e96-bc68-ba436983b95d</_hid>
 				</IHandle>
 			</_defaultSubsystem>
 			<AggregatesList type="e">
-				<value>GUID fc6f2a74-41bb-4f0d-b595-82af2818a8d8</value>
+				<value>GUID 914a7f1e-5187-430c-8907-b4592cb0e48f</value>
 			</AggregatesList>
 		</IDiagram>
 		<CGIClassChart type="e">
-			<_id type="a">GUID fc6f2a74-41bb-4f0d-b595-82af2818a8d8</_id>
+			<_id type="a">GUID 914a7f1e-5187-430c-8907-b4592cb0e48f</_id>
 			<m_type type="a">0</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDiagram</_hm2Class>
-					<_hid type="a">GUID f3647217-6ebc-412d-9191-be05d560efa0</_hid>
+					<_hid type="a">GUID a8c5438d-ee23-4720-b752-92fc4a914cbf</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
@@ -284,7 +262,7 @@
 			</m_name>
 			<m_drawBehavior type="a">0</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<elementList type="a">28</elementList>
+			<elementList type="a">29</elementList>
 			
 			<m_access type="a">'Z'</m_access>
 			<m_modified type="a">'N'</m_modified>
@@ -292,84 +270,49 @@
 			<m_nCreateDate type="a">0</m_nCreateDate>
 			<m_bScaleWithZoom type="a">1</m_bScaleWithZoom>
 			<m_arrowStyle type="a">'S'</m_arrowStyle>
-			<m_pRoot type="s">GUID 2d3d4ce3-d518-41f4-8d95-6c9688c0982b</m_pRoot>
+			<m_pRoot type="s">GUID f90b08c9-8682-48c5-a976-4f746a75c8dd</m_pRoot>
 			<m_currentLeftTop type="a">0 0 </m_currentLeftTop>
 			<m_currentRightBottom type="a">0 0 </m_currentRightBottom>
 			<m_bFreezeCompartmentContent type="a">0</m_bFreezeCompartmentContent>
 			<AggregatesList type="e">
-				<value>GUID 2d3d4ce3-d518-41f4-8d95-6c9688c0982b</value>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-				<value>GUID ecdad738-08a0-41f5-a247-3ee09cbb4482</value>
-				<value>GUID cf2e6483-7902-4965-9c67-ef891042d003</value>
-				<value>GUID 55634acd-47b5-4d80-a72b-23d62d94c502</value>
-				<value>GUID 6bf7c255-bc9f-4376-b761-6b05ea68ec3a</value>
-				<value>GUID 8a22fa33-5db8-4375-93e5-405d182fa8fe</value>
-				<value>GUID 6a03b323-94b0-4705-b110-ef67e89639de</value>
-				<value>GUID d1189e2b-43f4-4dfa-950b-7c42a85e8968</value>
-				<value>GUID ffbbc5af-fd73-4717-a932-fa9dcdb3b0dc</value>
-				<value>GUID 7b4bc0bd-fa0f-4602-be14-d3f4ee9ee24e</value>
-				<value>GUID be4a5384-97ff-4fa8-85fb-f91a3bbd0681</value>
-				<value>GUID ef7a6c03-8d6d-40cf-9b08-e8c774419069</value>
-				<value>GUID 7980d946-7d7e-4c77-840c-259a52233609</value>
-				<value>GUID 8ccef358-dfc2-4ebb-b55d-52cec3bcb153</value>
-				<value>GUID 22104ba5-0edb-400b-af8b-0de57d2c58a1</value>
-				<value>GUID 054d2206-528b-47e2-8488-d4aeb28cadfc</value>
-				<value>GUID 614c9672-134d-4303-934d-a43adc5d1c20</value>
-				<value>GUID 73e0e0ac-0ebe-48a5-bba7-bc489dcabd2a</value>
-				<value>GUID 0c0b5aa8-7ea5-47d5-b5fd-5b111e9613a6</value>
-				<value>GUID 7ecc3f71-f769-47bc-a2de-1964c2cab427</value>
-				<value>GUID e9461d1d-ce4a-4a97-a7a8-6bb75c008ce9</value>
-				<value>GUID 28f8fad1-1822-46cb-850d-42c96fd01b80</value>
-				<value>GUID c1d877b8-948b-4659-9b15-4ff895fbb360</value>
-				<value>GUID 089d57a8-c6a4-4ef0-9173-69951174d102</value>
-				<value>GUID 0eaa8fed-e777-43ee-8cb0-123c2b4a7903</value>
-				<value>GUID 65d27eae-686d-4833-8422-ffb9a90b300c</value>
-				<value>GUID 42ff7b23-30c2-480a-830b-e056ed9ec8c8</value>
-				<value>GUID 77849d42-6324-4408-aef1-f7b76350cb34</value>
-=======
-=======
->>>>>>> Stashed changes
-				<value>GUID 28b9540a-b200-4c87-9dd4-4adadc4702f2</value>
-				<value>GUID 7d3932fb-c45a-415a-bab7-556b6630c13d</value>
-				<value>GUID 15e855b6-41dc-4846-89ab-af09352f56dd</value>
-				<value>GUID 51036dc1-573f-435f-9d36-40095b42fcca</value>
-				<value>GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</value>
-				<value>GUID b066c786-889c-4333-9223-89959168f936</value>
-				<value>GUID df6654ac-e1bc-4271-9cfa-dd19b0eb8e01</value>
-				<value>GUID 653be0c9-69cf-47b8-af43-5c3f2fa55d31</value>
-				<value>GUID 77e98316-7862-49a0-a756-7a6d75b3aa01</value>
-				<value>GUID b6bec4e3-6930-4514-92c1-8fc16eb9b24d</value>
-				<value>GUID 523416cd-5296-43a3-aad8-1173cffc0435</value>
-				<value>GUID 78cc5fc8-22f8-481e-9768-695dcf9c2056</value>
-				<value>GUID 6568fc2e-950d-4da4-87a3-b0d1514ab476</value>
-				<value>GUID 6ab9bd50-a5be-494f-9935-29434ed2e4af</value>
-				<value>GUID 655e2355-7351-4d0c-970f-aabfba0bce98</value>
-				<value>GUID 55af5da0-73a7-407e-b8c8-a37a3ad4ea01</value>
-				<value>GUID f2e56533-73e7-4dc7-b88e-80f236c9c470</value>
-				<value>GUID 5d09aefd-f8c4-4e06-9d96-c4c24e999692</value>
-				<value>GUID c8a79097-aa35-4b61-98f6-f31c7c8d4f1f</value>
-				<value>GUID 14b5e497-f9bf-4988-94b0-ff010fa12608</value>
-				<value>GUID 6162d325-98a5-441e-8eaa-fb0b0eaaaba8</value>
-				<value>GUID d4c2afd3-eee6-4d3c-b02b-ed7f3769e073</value>
-				<value>GUID b976cc6d-457a-419b-b42a-807b10f40f65</value>
-				<value>GUID e33411bf-859b-4b00-956c-1d96e47e24ad</value>
-				<value>GUID 84c67f9f-e185-4bda-a3f2-6f9b18725d45</value>
-				<value>GUID bec3c2b4-4271-4c44-9001-4230b703fc25</value>
-				<value>GUID 6877ba59-10b7-4891-8147-a3068d66fd4e</value>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+				<value>GUID f90b08c9-8682-48c5-a976-4f746a75c8dd</value>
+				<value>GUID 372f079f-2912-46db-a74a-c00baf5b438b</value>
+				<value>GUID d3e7ca5d-9252-49bf-bcc9-8418daea2281</value>
+				<value>GUID 2e84dfb3-cb1c-4826-8b6d-61882d6a8940</value>
+				<value>GUID 0b907c63-6a41-4e03-9130-78a9c4580adc</value>
+				<value>GUID 03840264-9621-40df-8ebe-7e59abb8cb0a</value>
+				<value>GUID d87e200c-6e39-4bbc-94f1-fe9abc1c8ad5</value>
+				<value>GUID b66dfba6-9c95-476d-9a74-773c1320eb93</value>
+				<value>GUID 9f8a6615-6557-4cb4-901d-ae0a3fb2b86b</value>
+				<value>GUID 2be61a76-d287-4c6c-98a6-f51efc366b68</value>
+				<value>GUID 4d80cc84-0dbf-4410-9f1a-401e51b455fc</value>
+				<value>GUID 4a00b806-c46d-48f4-807a-d13b2215b664</value>
+				<value>GUID 52d7a7a4-09e7-4c70-9983-719b22176b97</value>
+				<value>GUID 18c8fda9-afa1-461b-b49e-c747a1be1456</value>
+				<value>GUID 43bd76ea-a9a9-450c-91e2-92d30e0192d7</value>
+				<value>GUID 08a186b8-665d-4662-ba0d-ae083dac3d71</value>
+				<value>GUID a3277bb9-ca21-429f-9801-e050af316e19</value>
+				<value>GUID cfb6f4cf-ee13-4235-9fe7-f30372f19e2e</value>
+				<value>GUID bed601ae-7e1a-47f0-8801-5351e549ae60</value>
+				<value>GUID 7b47dd9c-2989-4c25-80fd-d3a5b9ac4570</value>
+				<value>GUID d9b2aa24-ac00-46b4-8077-a85e6663c1f1</value>
+				<value>GUID d5af7726-599f-4897-b329-5ed3de08ffcc</value>
+				<value>GUID b9524579-576b-4c71-9b47-a9eae7f18212</value>
+				<value>GUID 845a02f7-5852-469e-b06d-4d1be3a8f188</value>
+				<value>GUID 1a066bb6-351d-4090-85a5-edafc519acda</value>
+				<value>GUID 346e163a-c8ee-4dda-8e19-a6dc103ae22c</value>
+				<value>GUID ae995483-57cb-4e2b-8b1a-6cee299e62a1</value>
+				<value>GUID 204f4622-0096-4f12-ac1e-fc7606ab2a56</value>
+				<value>GUID 511e67c5-d9f7-4c48-860a-f69e5fb280b6</value>
 			</AggregatesList>
 		</CGIClassChart>
 		<CGIClass type="e">
-			<_id type="a">GUID 2d3d4ce3-d518-41f4-8d95-6c9688c0982b</_id>
+			<_id type="a">GUID f90b08c9-8682-48c5-a976-4f746a75c8dd</_id>
 			<m_type type="a">78</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 27956668-af3f-4dd1-9351-50c9c049f365</_hid>
+					<_hid type="a">GUID e4b35ab9-9d63-4fa7-a58d-cb7eb498e6a6</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
@@ -423,362 +366,7 @@
 			</Operations>
 		</CGIClass>
 		<CGIObjectInstance type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<_id type="a">GUID ecdad738-08a0-41f5-a247-3ee09cbb4482</_id>
-=======
-			<_id type="a">GUID 28b9540a-b200-4c87-9dd4-4adadc4702f2</_id>
->>>>>>> Stashed changes
-=======
-			<_id type="a">GUID 28b9540a-b200-4c87-9dd4-4adadc4702f2</_id>
->>>>>>> Stashed changes
-			<_properties type="p"><IPropertyContainer type="e">
-				<Subjects type="c">
-					<IRPYRawContainer type="e">
-						<size type="a">2</size>
-						<IPropertySubject type="e">
-							<_Name type="a">Format</_Name>
-							<Metaclasses type="c">
-								<IRPYRawContainer type="e">
-									<size type="a">1</size>
-									<IPropertyMetaclass type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-										<_Name type="a">SourceFile</_Name>
-										<Properties type="c">
-											<IRPYRawContainer type="e">
-												<size type="a">3</size>
-=======
-=======
->>>>>>> Stashed changes
-										<_Name type="a">HeaderFile</_Name>
-										<Properties type="c">
-											<IRPYRawContainer type="e">
-												<size type="a">2</size>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-												<IProperty type="e">
-													<_Name type="a">Font.Font</_Name>
-													<_Value type="a">Consolas</_Value>
-													<_Type type="a">String</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">Font.Size</_Name>
-													<_Value type="a">8</_Value>
-													<_Type type="a">Int</_Type>
-												</IProperty>
-												
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-												<IProperty type="e">
-													<_Name type="a">Line.LineColor</_Name>
-													<_Value type="a">255,0,0</_Value>
-													<_Type type="a">Color</_Type>
-												</IProperty>
-												
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-											</IRPYRawContainer>
-										</Properties>
-									</IPropertyMetaclass>
-									
-								</IRPYRawContainer>
-							</Metaclasses>
-						</IPropertySubject>
-						
-						<IPropertySubject type="e">
-							<_Name type="a">General</_Name>
-							<Metaclasses type="c">
-								<IRPYRawContainer type="e">
-									<size type="a">1</size>
-									<IPropertyMetaclass type="e">
-										<_Name type="a">Graphics</_Name>
-										<Properties type="c">
-											<IRPYRawContainer type="e">
-												<size type="a">1</size>
-												<IProperty type="e">
-													<_Name type="a">FitBoxToItsTextuals</_Name>
-													<_Value type="a">False</_Value>
-													<_Type type="a">Bool</_Type>
-												</IProperty>
-												
-											</IRPYRawContainer>
-										</Properties>
-									</IPropertyMetaclass>
-									
-								</IRPYRawContainer>
-							</Metaclasses>
-						</IPropertySubject>
-						
-					</IRPYRawContainer>
-				</Subjects>
-			</IPropertyContainer>
-			</_properties>
-			<m_type type="a">106</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IModule</_hm2Class>
-					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
-					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
-					<_hclass type="a">TopLevel</_hclass>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-					<_hname type="a">Rte_SWC_BMS_MainCntrl</_hname>
-					<_hid type="a">GUID 30ca493e-31f0-46e9-8600-48faf3f01550</_hid>
-=======
-					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
-					<_hid type="a">GUID 033807c4-3e61-4297-a253-a961a2e15270</_hid>
->>>>>>> Stashed changes
-=======
-					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
-					<_hid type="a">GUID 033807c4-3e61-4297-a253-a961a2e15270</_hid>
->>>>>>> Stashed changes
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s">GUID 2d3d4ce3-d518-41f4-8d95-6c9688c0982b</m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-					<m_str type="a">Rte_SWC_BMS_MainCntrl</m_str>
-=======
-					<m_str type="a">BMS_MainCntrl_GlobalData</m_str>
->>>>>>> Stashed changes
-=======
-					<m_str type="a">BMS_MainCntrl_GlobalData</m_str>
->>>>>>> Stashed changes
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">528398</m_drawBehavior>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_transform type="a">0.160529 0 0 0.0427807 59.679 45.9251 </m_transform>
-=======
-			<m_transform type="a">0.169972 0 0 0.0427807 359.66 465.925 </m_transform>
->>>>>>> Stashed changes
-=======
-			<m_transform type="a">0.169972 0 0 0.0427807 359.66 465.925 </m_transform>
->>>>>>> Stashed changes
-			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<m_AdditionalLabel type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_AdditionalLabel>
-			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
-			<m_nNameFormat type="a">0</m_nNameFormat>
-			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<Attrs type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Attrs>
-			<Operations type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Operations>
-			<m_multiplicity type="p">
-				<CGIText type="e">
-					<m_str type="a">1</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_multiplicity>
-		</CGIObjectInstance>
-		<CGIObjectInstance type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<_id type="a">GUID cf2e6483-7902-4965-9c67-ef891042d003</_id>
-=======
-=======
->>>>>>> Stashed changes
-			<_id type="a">GUID 7d3932fb-c45a-415a-bab7-556b6630c13d</_id>
-			<_properties type="p"><IPropertyContainer type="e">
-				<Subjects type="c">
-					<IRPYRawContainer type="e">
-						<size type="a">2</size>
-						<IPropertySubject type="e">
-							<_Name type="a">Format</_Name>
-							<Metaclasses type="c">
-								<IRPYRawContainer type="e">
-									<size type="a">1</size>
-									<IPropertyMetaclass type="e">
-										<_Name type="a">HeaderFile</_Name>
-										<Properties type="c">
-											<IRPYRawContainer type="e">
-												<size type="a">2</size>
-												<IProperty type="e">
-													<_Name type="a">Font.Font</_Name>
-													<_Value type="a">Consolas</_Value>
-													<_Type type="a">String</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">Font.Size</_Name>
-													<_Value type="a">8</_Value>
-													<_Type type="a">Int</_Type>
-												</IProperty>
-												
-											</IRPYRawContainer>
-										</Properties>
-									</IPropertyMetaclass>
-									
-								</IRPYRawContainer>
-							</Metaclasses>
-						</IPropertySubject>
-						
-						<IPropertySubject type="e">
-							<_Name type="a">General</_Name>
-							<Metaclasses type="c">
-								<IRPYRawContainer type="e">
-									<size type="a">1</size>
-									<IPropertyMetaclass type="e">
-										<_Name type="a">Graphics</_Name>
-										<Properties type="c">
-											<IRPYRawContainer type="e">
-												<size type="a">1</size>
-												<IProperty type="e">
-													<_Name type="a">FitBoxToItsTextuals</_Name>
-													<_Value type="a">False</_Value>
-													<_Type type="a">Bool</_Type>
-												</IProperty>
-												
-											</IRPYRawContainer>
-										</Properties>
-									</IPropertyMetaclass>
-									
-								</IRPYRawContainer>
-							</Metaclasses>
-						</IPropertySubject>
-						
-					</IRPYRawContainer>
-				</Subjects>
-			</IPropertyContainer>
-			</_properties>
-			<m_type type="a">106</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IModule</_hm2Class>
-					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
-					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
-					<_hclass type="a">TopLevel</_hclass>
-					<_hname type="a">Bms_Tx_BattStatusFlags</_hname>
-					<_hid type="a">GUID a1ebcb04-fcff-4c83-8e77-a538ae491098</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s">GUID 2d3d4ce3-d518-41f4-8d95-6c9688c0982b</m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_str type="a">Bms_Tx_BattStatusFlags</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">528398</m_drawBehavior>
-			<m_transform type="a">0.154863 0 0 0.0427807 359.69 381.925 </m_transform>
-			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<m_AdditionalLabel type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_AdditionalLabel>
-			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
-			<m_nNameFormat type="a">0</m_nNameFormat>
-			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<Attrs type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Attrs>
-			<Operations type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Operations>
-			<m_multiplicity type="p">
-				<CGIText type="e">
-					<m_str type="a">1</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_multiplicity>
-		</CGIObjectInstance>
-		<CGIObjectInstance type="e">
-			<_id type="a">GUID 15e855b6-41dc-4846-89ab-af09352f56dd</_id>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+			<_id type="a">GUID 372f079f-2912-46db-a74a-c00baf5b438b</_id>
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
@@ -852,7 +440,7 @@
 					<_hid type="a">GUID 85cc885d-df62-41ff-a1df-c88bf9bfb9cb</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 2d3d4ce3-d518-41f4-8d95-6c9688c0982b</m_pParent>
+			<m_pParent type="s">GUID f90b08c9-8682-48c5-a976-4f746a75c8dd</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">Rte_SWC_BMS_MainCntrl</m_str>
@@ -871,15 +459,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">528398</m_drawBehavior>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_transform type="a">0.160529 0 0 0.0427807 359.679 633.925 </m_transform>
-=======
 			<m_transform type="a">0.160529 0 0 0.0427807 359.679 213.925 </m_transform>
->>>>>>> Stashed changes
-=======
-			<m_transform type="a">0.160529 0 0 0.0427807 359.679 213.925 </m_transform>
->>>>>>> Stashed changes
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -929,15 +509,7 @@
 			</m_multiplicity>
 		</CGIObjectInstance>
 		<CGIObjectInstance type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<_id type="a">GUID 55634acd-47b5-4d80-a72b-23d62d94c502</_id>
-=======
-			<_id type="a">GUID 51036dc1-573f-435f-9d36-40095b42fcca</_id>
->>>>>>> Stashed changes
-=======
-			<_id type="a">GUID 51036dc1-573f-435f-9d36-40095b42fcca</_id>
->>>>>>> Stashed changes
+			<_id type="a">GUID d3e7ca5d-9252-49bf-bcc9-8418daea2281</_id>
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
@@ -1007,32 +579,14 @@
 					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
 					<_hclass type="a">TopLevel</_hclass>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
-					<_hid type="a">GUID 71f4925c-7e81-4acf-aac8-3b317727e7c3</_hid>
-=======
-					<_hname type="a">Bms_StatusDecision</_hname>
-					<_hid type="a">GUID 8ce4b97f-f54d-43c5-998f-036579bb66d3</_hid>
->>>>>>> Stashed changes
-=======
-					<_hname type="a">Bms_StatusDecision</_hname>
-					<_hid type="a">GUID 8ce4b97f-f54d-43c5-998f-036579bb66d3</_hid>
->>>>>>> Stashed changes
+					<_hname type="a">Bms_TxMapper_ReportBattInfo</_hname>
+					<_hid type="a">GUID 06069262-0a0e-4c5b-a61e-3c92ef724035</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 2d3d4ce3-d518-41f4-8d95-6c9688c0982b</m_pParent>
+			<m_pParent type="s">GUID f90b08c9-8682-48c5-a976-4f746a75c8dd</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-					<m_str type="a">BMS_MainCntrl_GlobalData</m_str>
-=======
-					<m_str type="a">Bms_StatusDecision</m_str>
->>>>>>> Stashed changes
-=======
-					<m_str type="a">Bms_StatusDecision</m_str>
->>>>>>> Stashed changes
+					<m_str type="a">Bms_TxMapper_ReportBattInfo</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1048,15 +602,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">528398</m_drawBehavior>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_transform type="a">0.169972 0 0 0.0427807 359.66 213.925 </m_transform>
-=======
-			<m_transform type="a">0.126534 0 0 0.0427807 359.747 801.925 </m_transform>
->>>>>>> Stashed changes
-=======
-			<m_transform type="a">0.126534 0 0 0.0427807 359.747 801.925 </m_transform>
->>>>>>> Stashed changes
+			<m_transform type="a">0.196412 0 0 0.0427807 359.607 297.925 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1106,13 +652,150 @@
 			</m_multiplicity>
 		</CGIObjectInstance>
 		<CGIObjectInstance type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<_id type="a">GUID 6bf7c255-bc9f-4376-b761-6b05ea68ec3a</_id>
-=======
-=======
->>>>>>> Stashed changes
-			<_id type="a">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</_id>
+			<_id type="a">GUID 2e84dfb3-cb1c-4826-8b6d-61882d6a8940</_id>
+			<_properties type="p"><IPropertyContainer type="e">
+				<Subjects type="c">
+					<IRPYRawContainer type="e">
+						<size type="a">2</size>
+						<IPropertySubject type="e">
+							<_Name type="a">Format</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">HeaderFile</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">2</size>
+												<IProperty type="e">
+													<_Name type="a">Font.Font</_Name>
+													<_Value type="a">Consolas</_Value>
+													<_Type type="a">String</_Type>
+												</IProperty>
+												
+												<IProperty type="e">
+													<_Name type="a">Font.Size</_Name>
+													<_Value type="a">8</_Value>
+													<_Type type="a">Int</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+						<IPropertySubject type="e">
+							<_Name type="a">General</_Name>
+							<Metaclasses type="c">
+								<IRPYRawContainer type="e">
+									<size type="a">1</size>
+									<IPropertyMetaclass type="e">
+										<_Name type="a">Graphics</_Name>
+										<Properties type="c">
+											<IRPYRawContainer type="e">
+												<size type="a">1</size>
+												<IProperty type="e">
+													<_Name type="a">FitBoxToItsTextuals</_Name>
+													<_Value type="a">False</_Value>
+													<_Type type="a">Bool</_Type>
+												</IProperty>
+												
+											</IRPYRawContainer>
+										</Properties>
+									</IPropertyMetaclass>
+									
+								</IRPYRawContainer>
+							</Metaclasses>
+						</IPropertySubject>
+						
+					</IRPYRawContainer>
+				</Subjects>
+			</IPropertyContainer>
+			</_properties>
+			<m_type type="a">106</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IModule</_hm2Class>
+					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
+					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
+					<_hclass type="a">TopLevel</_hclass>
+					<_hname type="a">Bms_StatusDecision</_hname>
+					<_hid type="a">GUID 759475bb-ddcc-426a-816c-a5270091bffe</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s">GUID f90b08c9-8682-48c5-a976-4f746a75c8dd</m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_str type="a">Bms_StatusDecision</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">528398</m_drawBehavior>
+			<m_transform type="a">0.126534 0 0 0.0427807 359.747 801.925 </m_transform>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_AdditionalLabel type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_AdditionalLabel>
+			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
+			<m_nNameFormat type="a">0</m_nNameFormat>
+			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
+			<Attrs type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Attrs>
+			<Operations type="c">
+				<IRPYRawContainer type="e">
+					<size type="a">0</size>
+				</IRPYRawContainer>
+			</Operations>
+			<m_multiplicity type="p">
+				<CGIText type="e">
+					<m_str type="a">1</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_multiplicity>
+		</CGIObjectInstance>
+		<CGIObjectInstance type="e">
+			<_id type="a">GUID 0b907c63-6a41-4e03-9130-78a9c4580adc</_id>
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
@@ -1189,10 +872,10 @@
 					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
 					<_hclass type="a">TopLevel</_hclass>
 					<_hname type="a">Rte_SWC_BMS_MainCntrl</_hname>
-					<_hid type="a">GUID 2aa07044-ed64-48c5-9a12-848f4caec434</_hid>
+					<_hid type="a">GUID b20e95aa-83bf-414d-9ef6-252d9ed90b12</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 2d3d4ce3-d518-41f4-8d95-6c9688c0982b</m_pParent>
+			<m_pParent type="s">GUID f90b08c9-8682-48c5-a976-4f746a75c8dd</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">Rte_SWC_BMS_MainCntrl</m_str>
@@ -1261,11 +944,7 @@
 			</m_multiplicity>
 		</CGIObjectInstance>
 		<CGIObjectInstance type="e">
-			<_id type="a">GUID b066c786-889c-4333-9223-89959168f936</_id>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+			<_id type="a">GUID 03840264-9621-40df-8ebe-7e59abb8cb0a</_id>
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
@@ -1339,7 +1018,7 @@
 					<_hid type="a">GUID 88f979f8-4be2-48d7-a6d6-564eafbde87f</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 2d3d4ce3-d518-41f4-8d95-6c9688c0982b</m_pParent>
+			<m_pParent type="s">GUID f90b08c9-8682-48c5-a976-4f746a75c8dd</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">Rte_Internals</m_str>
@@ -1358,15 +1037,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">528398</m_drawBehavior>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_transform type="a">0.0906516 0 0 0.0427807 359.819 801.925 </m_transform>
-=======
 			<m_transform type="a">0.0906516 0 0 0.0427807 359.819 129.925 </m_transform>
->>>>>>> Stashed changes
-=======
-			<m_transform type="a">0.0906516 0 0 0.0427807 359.819 129.925 </m_transform>
->>>>>>> Stashed changes
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1416,13 +1087,7 @@
 			</m_multiplicity>
 		</CGIObjectInstance>
 		<CGIObjectInstance type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<_id type="a">GUID 8a22fa33-5db8-4375-93e5-405d182fa8fe</_id>
-=======
-=======
->>>>>>> Stashed changes
-			<_id type="a">GUID df6654ac-e1bc-4271-9cfa-dd19b0eb8e01</_id>
+			<_id type="a">GUID d87e200c-6e39-4bbc-94f1-fe9abc1c8ad5</_id>
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
@@ -1492,14 +1157,14 @@
 					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
 					<_hclass type="a">TopLevel</_hclass>
-					<_hname type="a">Bms_Tx_PackCalculatedData</_hname>
-					<_hid type="a">GUID ade633d4-6e8e-4920-9567-08a576e908ed</_hid>
+					<_hname type="a">Bms_Tx_BattStatusFlags</_hname>
+					<_hid type="a">GUID 66b7d019-3a55-4898-bb16-e89b574fa01c</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 2d3d4ce3-d518-41f4-8d95-6c9688c0982b</m_pParent>
+			<m_pParent type="s">GUID f90b08c9-8682-48c5-a976-4f746a75c8dd</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Bms_Tx_PackCalculatedData</m_str>
+					<m_str type="a">Bms_Tx_BattStatusFlags</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1515,7 +1180,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">528398</m_drawBehavior>
-			<m_transform type="a">0.179415 0 0 0.0427807 359.641 633.925 </m_transform>
+			<m_transform type="a">0.154863 0 0 0.0427807 359.69 549.925 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1565,11 +1230,7 @@
 			</m_multiplicity>
 		</CGIObjectInstance>
 		<CGIObjectInstance type="e">
-			<_id type="a">GUID 653be0c9-69cf-47b8-af43-5c3f2fa55d31</_id>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+			<_id type="a">GUID b66dfba6-9c95-476d-9a74-773c1320eb93</_id>
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
@@ -1649,7 +1310,7 @@
 					<_hid type="a">GUID cf6a2669-d826-4df4-b66f-5d9ab83f28a6</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 2d3d4ce3-d518-41f4-8d95-6c9688c0982b</m_pParent>
+			<m_pParent type="s">GUID f90b08c9-8682-48c5-a976-4f746a75c8dd</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">Rte</m_str>
@@ -1668,15 +1329,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">528398</m_drawBehavior>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_transform type="a">0.0793201 0 0 0.0427807 59.8413 129.925 </m_transform>
-=======
 			<m_transform type="a">0.0793201 0 0 0.0427807 59.8414 45.9251 </m_transform>
->>>>>>> Stashed changes
-=======
-			<m_transform type="a">0.0793201 0 0 0.0427807 59.8414 45.9251 </m_transform>
->>>>>>> Stashed changes
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1726,9 +1379,7 @@
 			</m_multiplicity>
 		</CGIObjectInstance>
 		<CGIObjectInstance type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<_id type="a">GUID 6a03b323-94b0-4705-b110-ef67e89639de</_id>
+			<_id type="a">GUID 9f8a6615-6557-4cb4-901d-ae0a3fb2b86b</_id>
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
@@ -1798,14 +1449,14 @@
 					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
 					<_hclass type="a">TopLevel</_hclass>
-					<_hname type="a">Bms_TxMapper_ReportBattInfo</_hname>
-					<_hid type="a">GUID bb6e54ba-963f-4126-bcbb-6b34b72319ee</_hid>
+					<_hname type="a">Bms_Tx_PackMeasData</_hname>
+					<_hid type="a">GUID b17a5abd-501f-4cd7-bfa5-0a46ef5071e1</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 2d3d4ce3-d518-41f4-8d95-6c9688c0982b</m_pParent>
+			<m_pParent type="s">GUID f90b08c9-8682-48c5-a976-4f746a75c8dd</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Bms_TxMapper_ReportBattInfo</m_str>
+					<m_str type="a">Bms_Tx_PackMeasData</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -1821,7 +1472,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">528398</m_drawBehavior>
-			<m_transform type="a">0.196412 0 0 0.0427807 359.607 45.9252 </m_transform>
+			<m_transform type="a">0.149197 0 0 0.0427807 359.702 717.925 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -1871,13 +1522,7 @@
 			</m_multiplicity>
 		</CGIObjectInstance>
 		<CGIObjectInstance type="e">
-			<_id type="a">GUID d1189e2b-43f4-4dfa-950b-7c42a85e8968</_id>
-=======
-			<_id type="a">GUID 77e98316-7862-49a0-a756-7a6d75b3aa01</_id>
->>>>>>> Stashed changes
-=======
-			<_id type="a">GUID 77e98316-7862-49a0-a756-7a6d75b3aa01</_id>
->>>>>>> Stashed changes
+			<_id type="a">GUID 2be61a76-d287-4c6c-98a6-f51efc366b68</_id>
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
@@ -1951,7 +1596,7 @@
 					<_hid type="a">GUID f4cb65b8-db7e-4f67-ae89-7940f0462c69</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 2d3d4ce3-d518-41f4-8d95-6c9688c0982b</m_pParent>
+			<m_pParent type="s">GUID f90b08c9-8682-48c5-a976-4f746a75c8dd</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">Std_Types</m_str>
@@ -1970,15 +1615,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">528398</m_drawBehavior>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_transform type="a">0.0793201 0 0 0.0427807 359.841 717.925 </m_transform>
-=======
 			<m_transform type="a">0.0793201 0 0 0.0427807 359.841 45.9252 </m_transform>
->>>>>>> Stashed changes
-=======
-			<m_transform type="a">0.0793201 0 0 0.0427807 359.841 45.9252 </m_transform>
->>>>>>> Stashed changes
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -2028,15 +1665,7 @@
 			</m_multiplicity>
 		</CGIObjectInstance>
 		<CGIObjectInstance type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<_id type="a">GUID ffbbc5af-fd73-4717-a932-fa9dcdb3b0dc</_id>
-=======
-			<_id type="a">GUID b6bec4e3-6930-4514-92c1-8fc16eb9b24d</_id>
->>>>>>> Stashed changes
-=======
-			<_id type="a">GUID b6bec4e3-6930-4514-92c1-8fc16eb9b24d</_id>
->>>>>>> Stashed changes
+			<_id type="a">GUID 4d80cc84-0dbf-4410-9f1a-401e51b455fc</_id>
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
@@ -2106,22 +1735,14 @@
 					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
 					<_hclass type="a">TopLevel</_hclass>
-					<_hname type="a">Bms_Tx_PackMeasData</_hname>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-					<_hid type="a">GUID 7aa07c55-bd68-4be7-a3bf-4418e2972c47</_hid>
-=======
-					<_hid type="a">GUID 542d8647-8843-4f82-8b60-72ae5eee2656</_hid>
->>>>>>> Stashed changes
-=======
-					<_hid type="a">GUID 542d8647-8843-4f82-8b60-72ae5eee2656</_hid>
->>>>>>> Stashed changes
+					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
+					<_hid type="a">GUID fb40a9b8-53f0-4739-a409-47e0d9a1e221</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 2d3d4ce3-d518-41f4-8d95-6c9688c0982b</m_pParent>
+			<m_pParent type="s">GUID f90b08c9-8682-48c5-a976-4f746a75c8dd</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-					<m_str type="a">Bms_Tx_PackMeasData</m_str>
+					<m_str type="a">BMS_MainCntrl_GlobalData</m_str>
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2137,15 +1758,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">528398</m_drawBehavior>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_transform type="a">0.149197 0 0 0.0427807 359.702 465.925 </m_transform>
-=======
-			<m_transform type="a">0.149197 0 0 0.0427807 359.702 717.925 </m_transform>
->>>>>>> Stashed changes
-=======
-			<m_transform type="a">0.149197 0 0 0.0427807 359.702 717.925 </m_transform>
->>>>>>> Stashed changes
+			<m_transform type="a">0.169972 0 0 0.0427807 359.66 381.925 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -2195,15 +1808,7 @@
 			</m_multiplicity>
 		</CGIObjectInstance>
 		<CGIObjectInstance type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<_id type="a">GUID 7b4bc0bd-fa0f-4602-be14-d3f4ee9ee24e</_id>
-=======
-			<_id type="a">GUID 523416cd-5296-43a3-aad8-1173cffc0435</_id>
->>>>>>> Stashed changes
-=======
-			<_id type="a">GUID 523416cd-5296-43a3-aad8-1173cffc0435</_id>
->>>>>>> Stashed changes
+			<_id type="a">GUID 4a00b806-c46d-48f4-807a-d13b2215b664</_id>
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
@@ -2273,32 +1878,14 @@
 					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
 					<_hclass type="a">TopLevel</_hclass>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 					<_hname type="a">Bms_Tx_PackCalculatedData</_hname>
-					<_hid type="a">GUID a5e91d28-8873-44d1-9cc4-1e6f9c6bd233</_hid>
-=======
-					<_hname type="a">Bms_TxMapper_ReportBattInfo</_hname>
-					<_hid type="a">GUID e8ccebb1-8755-4502-89bd-9fd590c9411d</_hid>
->>>>>>> Stashed changes
-=======
-					<_hname type="a">Bms_TxMapper_ReportBattInfo</_hname>
-					<_hid type="a">GUID e8ccebb1-8755-4502-89bd-9fd590c9411d</_hid>
->>>>>>> Stashed changes
+					<_hid type="a">GUID f2b9a39a-46a8-4b82-9b86-6c0089cf13ea</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 2d3d4ce3-d518-41f4-8d95-6c9688c0982b</m_pParent>
+			<m_pParent type="s">GUID f90b08c9-8682-48c5-a976-4f746a75c8dd</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 					<m_str type="a">Bms_Tx_PackCalculatedData</m_str>
-=======
-					<m_str type="a">Bms_TxMapper_ReportBattInfo</m_str>
->>>>>>> Stashed changes
-=======
-					<m_str type="a">Bms_TxMapper_ReportBattInfo</m_str>
->>>>>>> Stashed changes
 					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
 					<m_color type="p">
 						<IColor type="e">
@@ -2314,15 +1901,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">528398</m_drawBehavior>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_transform type="a">0.179415 0 0 0.0427807 359.641 381.925 </m_transform>
-=======
-			<m_transform type="a">0.196412 0 0 0.0427807 359.607 297.925 </m_transform>
->>>>>>> Stashed changes
-=======
-			<m_transform type="a">0.196412 0 0 0.0427807 359.607 297.925 </m_transform>
->>>>>>> Stashed changes
+			<m_transform type="a">0.179415 0 0 0.0427807 359.641 633.925 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -2372,301 +1951,7 @@
 			</m_multiplicity>
 		</CGIObjectInstance>
 		<CGIObjectInstance type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<_id type="a">GUID be4a5384-97ff-4fa8-85fb-f91a3bbd0681</_id>
-			<_properties type="p"><IPropertyContainer type="e">
-				<Subjects type="c">
-					<IRPYRawContainer type="e">
-						<size type="a">2</size>
-						<IPropertySubject type="e">
-							<_Name type="a">Format</_Name>
-							<Metaclasses type="c">
-								<IRPYRawContainer type="e">
-									<size type="a">1</size>
-									<IPropertyMetaclass type="e">
-										<_Name type="a">HeaderFile</_Name>
-										<Properties type="c">
-											<IRPYRawContainer type="e">
-												<size type="a">2</size>
-												<IProperty type="e">
-													<_Name type="a">Font.Font</_Name>
-													<_Value type="a">Consolas</_Value>
-													<_Type type="a">String</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">Font.Size</_Name>
-													<_Value type="a">8</_Value>
-													<_Type type="a">Int</_Type>
-												</IProperty>
-												
-											</IRPYRawContainer>
-										</Properties>
-									</IPropertyMetaclass>
-									
-								</IRPYRawContainer>
-							</Metaclasses>
-						</IPropertySubject>
-						
-						<IPropertySubject type="e">
-							<_Name type="a">General</_Name>
-							<Metaclasses type="c">
-								<IRPYRawContainer type="e">
-									<size type="a">1</size>
-									<IPropertyMetaclass type="e">
-										<_Name type="a">Graphics</_Name>
-										<Properties type="c">
-											<IRPYRawContainer type="e">
-												<size type="a">1</size>
-												<IProperty type="e">
-													<_Name type="a">FitBoxToItsTextuals</_Name>
-													<_Value type="a">False</_Value>
-													<_Type type="a">Bool</_Type>
-												</IProperty>
-												
-											</IRPYRawContainer>
-										</Properties>
-									</IPropertyMetaclass>
-									
-								</IRPYRawContainer>
-							</Metaclasses>
-						</IPropertySubject>
-						
-					</IRPYRawContainer>
-				</Subjects>
-			</IPropertyContainer>
-			</_properties>
-			<m_type type="a">106</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IModule</_hm2Class>
-					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
-					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
-					<_hclass type="a">TopLevel</_hclass>
-					<_hname type="a">Bms_Tx_BattStatusFlags</_hname>
-					<_hid type="a">GUID c49b0e31-58b3-4618-b391-a08951df676d</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s">GUID 2d3d4ce3-d518-41f4-8d95-6c9688c0982b</m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_str type="a">Bms_Tx_BattStatusFlags</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">528398</m_drawBehavior>
-			<m_transform type="a">0.154863 0 0 0.0427807 359.69 129.925 </m_transform>
-			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<m_AdditionalLabel type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_AdditionalLabel>
-			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
-			<m_nNameFormat type="a">0</m_nNameFormat>
-			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<Attrs type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Attrs>
-			<Operations type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Operations>
-			<m_multiplicity type="p">
-				<CGIText type="e">
-					<m_str type="a">1</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_multiplicity>
-		</CGIObjectInstance>
-		<CGIObjectInstance type="e">
-			<_id type="a">GUID ef7a6c03-8d6d-40cf-9b08-e8c774419069</_id>
-			<_properties type="p"><IPropertyContainer type="e">
-				<Subjects type="c">
-					<IRPYRawContainer type="e">
-						<size type="a">2</size>
-						<IPropertySubject type="e">
-							<_Name type="a">Format</_Name>
-							<Metaclasses type="c">
-								<IRPYRawContainer type="e">
-									<size type="a">1</size>
-									<IPropertyMetaclass type="e">
-										<_Name type="a">HeaderFile</_Name>
-										<Properties type="c">
-											<IRPYRawContainer type="e">
-												<size type="a">2</size>
-												<IProperty type="e">
-													<_Name type="a">Font.Font</_Name>
-													<_Value type="a">Consolas</_Value>
-													<_Type type="a">String</_Type>
-												</IProperty>
-												
-												<IProperty type="e">
-													<_Name type="a">Font.Size</_Name>
-													<_Value type="a">8</_Value>
-													<_Type type="a">Int</_Type>
-												</IProperty>
-												
-											</IRPYRawContainer>
-										</Properties>
-									</IPropertyMetaclass>
-									
-								</IRPYRawContainer>
-							</Metaclasses>
-						</IPropertySubject>
-						
-						<IPropertySubject type="e">
-							<_Name type="a">General</_Name>
-							<Metaclasses type="c">
-								<IRPYRawContainer type="e">
-									<size type="a">1</size>
-									<IPropertyMetaclass type="e">
-										<_Name type="a">Graphics</_Name>
-										<Properties type="c">
-											<IRPYRawContainer type="e">
-												<size type="a">1</size>
-												<IProperty type="e">
-													<_Name type="a">FitBoxToItsTextuals</_Name>
-													<_Value type="a">False</_Value>
-													<_Type type="a">Bool</_Type>
-												</IProperty>
-												
-											</IRPYRawContainer>
-										</Properties>
-									</IPropertyMetaclass>
-									
-								</IRPYRawContainer>
-							</Metaclasses>
-						</IPropertySubject>
-						
-					</IRPYRawContainer>
-				</Subjects>
-			</IPropertyContainer>
-			</_properties>
-			<m_type type="a">106</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IModule</_hm2Class>
-					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
-					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
-					<_hclass type="a">TopLevel</_hclass>
-					<_hname type="a">Bms_StatusDecision</_hname>
-					<_hid type="a">GUID df86b427-b872-4105-8f3f-6ebe290f6545</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s">GUID 2d3d4ce3-d518-41f4-8d95-6c9688c0982b</m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_str type="a">Bms_StatusDecision</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">5</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">528398</m_drawBehavior>
-			<m_transform type="a">0.126534 0 0 0.0427807 359.747 549.925 </m_transform>
-			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<m_AdditionalLabel type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">1</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_AdditionalLabel>
-			<m_polygon type="a">4 2 329  2 1451  1061 1451  1061 329  </m_polygon>
-			<m_nNameFormat type="a">0</m_nNameFormat>
-			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
-			<Attrs type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Attrs>
-			<Operations type="c">
-				<IRPYRawContainer type="e">
-					<size type="a">0</size>
-				</IRPYRawContainer>
-			</Operations>
-			<m_multiplicity type="p">
-				<CGIText type="e">
-					<m_str type="a">1</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_multiplicity>
-		</CGIObjectInstance>
-		<CGIObjectInstance type="e">
-			<_id type="a">GUID 7980d946-7d7e-4c77-840c-259a52233609</_id>
-=======
-			<_id type="a">GUID 78cc5fc8-22f8-481e-9768-695dcf9c2056</_id>
->>>>>>> Stashed changes
-=======
-			<_id type="a">GUID 78cc5fc8-22f8-481e-9768-695dcf9c2056</_id>
->>>>>>> Stashed changes
+			<_id type="a">GUID 52d7a7a4-09e7-4c70-9983-719b22176b97</_id>
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
@@ -2737,18 +2022,10 @@
 					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src::Soc</_hsubsystem>
 					<_hclass type="a">TopLevel</_hclass>
 					<_hname type="a">BmsMainCntrl_Soc</_hname>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-					<_hid type="a">GUID 92e47a4d-58c2-48d3-974e-ec532cd098c3</_hid>
-=======
-					<_hid type="a">GUID 339a3d5a-335b-4753-934b-b4e3add4d50e</_hid>
->>>>>>> Stashed changes
-=======
-					<_hid type="a">GUID 339a3d5a-335b-4753-934b-b4e3add4d50e</_hid>
->>>>>>> Stashed changes
+					<_hid type="a">GUID 56e3b56a-06bd-4dec-9542-f35e377644dd</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 2d3d4ce3-d518-41f4-8d95-6c9688c0982b</m_pParent>
+			<m_pParent type="s">GUID f90b08c9-8682-48c5-a976-4f746a75c8dd</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">BmsMainCntrl_Soc</m_str>
@@ -2767,15 +2044,7 @@
 				</CGIText>
 			</m_name>
 			<m_drawBehavior type="a">528398</m_drawBehavior>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_transform type="a">0.11898 0 0 0.0427807 359.762 297.925 </m_transform>
-=======
-			<m_transform type="a">0.11898 0 0 0.0427807 359.762 549.925 </m_transform>
->>>>>>> Stashed changes
-=======
-			<m_transform type="a">0.11898 0 0 0.0427807 359.762 549.925 </m_transform>
->>>>>>> Stashed changes
+			<m_transform type="a">0.11898 0 0 0.0427807 359.762 465.925 </m_transform>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 			<m_AdditionalLabel type="p">
 				<CGIText type="e">
@@ -2825,36 +2094,16 @@
 			</m_multiplicity>
 		</CGIObjectInstance>
 		<CGIInheritance type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<_id type="a">GUID 8ccef358-dfc2-4ebb-b55d-52cec3bcb153</_id>
-=======
-			<_id type="a">GUID 6568fc2e-950d-4da4-87a3-b0d1514ab476</_id>
->>>>>>> Stashed changes
-=======
-			<_id type="a">GUID 6568fc2e-950d-4da4-87a3-b0d1514ab476</_id>
->>>>>>> Stashed changes
+			<_id type="a">GUID 18c8fda9-afa1-461b-b49e-c747a1be1456</_id>
 			<m_type type="a">128</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
-					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-					<_hclass type="a">TopLevel.Rte_SWC_BMS_MainCntrl</_hclass>
+					<_hfilename type="a">.\RteFiles.sbsx</_hfilename>
+					<_hsubsystem type="a">RteFiles</_hsubsystem>
+					<_hclass type="a">TopLevel.Rte</_hclass>
 					<_hname type="a">Rte_SWC_BMS_MainCntrl</_hname>
-					<_hid type="a">GUID e496a66a-182a-4426-8347-2e6fe1c5346b</_hid>
-=======
-					<_hclass type="a">TopLevel.Bms_TxMapper_ReportBattInfo</_hclass>
-					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
-					<_hid type="a">GUID 2a01db90-dc04-4d55-9ac8-346aa327918f</_hid>
->>>>>>> Stashed changes
-=======
-					<_hclass type="a">TopLevel.Bms_TxMapper_ReportBattInfo</_hclass>
-					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
-					<_hid type="a">GUID 2a01db90-dc04-4d55-9ac8-346aa327918f</_hid>
->>>>>>> Stashed changes
+					<_hid type="a">GUID c53d2d5c-96df-4288-b3d4-955cae5e00fb</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
@@ -2876,21 +2125,9 @@
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_pSource type="s">GUID ecdad738-08a0-41f5-a247-3ee09cbb4482</m_pSource>
+			<m_pSource type="s">GUID b66dfba6-9c95-476d-9a74-773c1320eb93</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID cf2e6483-7902-4965-9c67-ef891042d003</m_pTarget>
-=======
-			<m_pSource type="s">GUID 523416cd-5296-43a3-aad8-1173cffc0435</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 28b9540a-b200-4c87-9dd4-4adadc4702f2</m_pTarget>
->>>>>>> Stashed changes
-=======
-			<m_pSource type="s">GUID 523416cd-5296-43a3-aad8-1173cffc0435</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 28b9540a-b200-4c87-9dd4-4adadc4702f2</m_pTarget>
->>>>>>> Stashed changes
+			<m_pTarget type="s">GUID 372f079f-2912-46db-a74a-c00baf5b438b</m_pTarget>
 			<m_targetType type="a">'T'</m_targetType>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
@@ -2910,46 +2147,26 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_arrow type="a">2 145 378  445 378  </m_arrow>
+			<m_arrow type="a">1 445 84  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
 			<m_SourcePort type="a">1061 609 </m_SourcePort>
-=======
-=======
->>>>>>> Stashed changes
-			<m_arrow type="a">2 464 420  450 420  </m_arrow>
-			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">531 890 </m_SourcePort>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
 			<m_TargetPort type="a">2 609 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">0</m_ShowStereotype>
 		</CGIInheritance>
 		<CGIInheritance type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<_id type="a">GUID 22104ba5-0edb-400b-af8b-0de57d2c58a1</_id>
-=======
-=======
->>>>>>> Stashed changes
-			<_id type="a">GUID 6ab9bd50-a5be-494f-9935-29434ed2e4af</_id>
+			<_id type="a">GUID 43bd76ea-a9a9-450c-91e2-92d30e0192d7</_id>
 			<m_type type="a">128</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
-					<_hclass type="a">TopLevel.Bms_Tx_BattStatusFlags</_hclass>
-					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
-					<_hid type="a">GUID 1ece4ae0-dc24-48ff-b394-4da151bb594c</_hid>
+					<_hclass type="a">TopLevel.Rte_SWC_BMS_MainCntrl</_hclass>
+					<_hname type="a">Rte_SWC_BMS_MainCntrl</_hname>
+					<_hid type="a">GUID f40b3167-f008-4ad5-850f-dfd723d803a5</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
@@ -2971,9 +2188,9 @@
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<m_pSource type="s">GUID 7d3932fb-c45a-415a-bab7-556b6630c13d</m_pSource>
+			<m_pSource type="s">GUID 0b907c63-6a41-4e03-9130-78a9c4580adc</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 28b9540a-b200-4c87-9dd4-4adadc4702f2</m_pTarget>
+			<m_pTarget type="s">GUID 372f079f-2912-46db-a74a-c00baf5b438b</m_pTarget>
 			<m_targetType type="a">'T'</m_targetType>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
@@ -2993,147 +2210,17 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-			<m_arrow type="a">2 442 462  450 462  </m_arrow>
+			<m_arrow type="a">2 295 168  295 252  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">531 890 </m_SourcePort>
+			<m_SourcePort type="a">1061 609 </m_SourcePort>
 			<m_TargetPort type="a">2 680 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">0</m_ShowStereotype>
 		</CGIInheritance>
 		<CGIInheritance type="e">
-			<_id type="a">GUID 655e2355-7351-4d0c-970f-aabfba0bce98</_id>
-			<m_type type="a">128</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
-					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
-					<_hclass type="a">TopLevel.Bms_Tx_PackCalculatedData</_hclass>
-					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
-					<_hid type="a">GUID 7b260fde-f08e-455a-93ea-ee976103a602</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s"></m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<m_pSource type="s">GUID df6654ac-e1bc-4271-9cfa-dd19b0eb8e01</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 28b9540a-b200-4c87-9dd4-4adadc4702f2</m_pTarget>
-			<m_targetType type="a">'T'</m_targetType>
-			<m_direction type="a">' '</m_direction>
-			<m_rpn type="p">
-				<CGIText type="e">
-					<m_str type="a">use</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_rpn>
-			<m_arrow type="a">2 455 588  450 588  </m_arrow>
-			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">531 890 </m_SourcePort>
-			<m_TargetPort type="a">2 750 </m_TargetPort>
-			<m_ShowName type="a">0</m_ShowName>
-			<m_ShowStereotype type="a">0</m_ShowStereotype>
-		</CGIInheritance>
-		<CGIInheritance type="e">
-			<_id type="a">GUID 55af5da0-73a7-407e-b8c8-a37a3ad4ea01</_id>
-			<m_type type="a">128</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
-					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
-					<_hclass type="a">TopLevel.Bms_Tx_PackMeasData</_hclass>
-					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
-					<_hid type="a">GUID b9088cf5-7923-4b6b-99d1-63a3601fe096</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s"></m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<m_pSource type="s">GUID b6bec4e3-6930-4514-92c1-8fc16eb9b24d</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 28b9540a-b200-4c87-9dd4-4adadc4702f2</m_pTarget>
-			<m_targetType type="a">'T'</m_targetType>
-			<m_direction type="a">' '</m_direction>
-			<m_rpn type="p">
-				<CGIText type="e">
-					<m_str type="a">use</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_rpn>
-			<m_arrow type="a">2 439 630  450 630  </m_arrow>
-			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">531 890 </m_SourcePort>
-			<m_TargetPort type="a">2 820 </m_TargetPort>
-			<m_ShowName type="a">0</m_ShowName>
-			<m_ShowStereotype type="a">0</m_ShowStereotype>
-		</CGIInheritance>
-		<CGIInheritance type="e">
-			<_id type="a">GUID f2e56533-73e7-4dc7-b88e-80f236c9c470</_id>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+			<_id type="a">GUID 08a186b8-665d-4662-ba0d-ae083dac3d71</_id>
 			<m_type type="a">128</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -3141,16 +2228,8 @@
 					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
 					<_hclass type="a">TopLevel.Rte_SWC_BMS_MainCntrl</_hclass>
-					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-					<_hid type="a">GUID bd8c81d1-c6a7-4e32-ab16-316dbf284c3d</_hid>
-=======
-					<_hid type="a">GUID 5c77ca05-650c-4689-ba80-06a26284d1ec</_hid>
->>>>>>> Stashed changes
-=======
-					<_hid type="a">GUID 5c77ca05-650c-4689-ba80-06a26284d1ec</_hid>
->>>>>>> Stashed changes
+					<_hname type="a">Bms_TxMapper_ReportBattInfo</_hname>
+					<_hid type="a">GUID fc5d8b44-6863-47f9-bb81-f3828119f7f6</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
@@ -3172,21 +2251,9 @@
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_pSource type="s">GUID ecdad738-08a0-41f5-a247-3ee09cbb4482</m_pSource>
+			<m_pSource type="s">GUID 0b907c63-6a41-4e03-9130-78a9c4580adc</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 55634acd-47b5-4d80-a72b-23d62d94c502</m_pTarget>
-=======
-			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 28b9540a-b200-4c87-9dd4-4adadc4702f2</m_pTarget>
->>>>>>> Stashed changes
-=======
-			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 28b9540a-b200-4c87-9dd4-4adadc4702f2</m_pTarget>
->>>>>>> Stashed changes
+			<m_pTarget type="s">GUID d3e7ca5d-9252-49bf-bcc9-8418daea2281</m_pTarget>
 			<m_targetType type="a">'T'</m_targetType>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
@@ -3206,80 +2273,7 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_arrow type="a">2 155 168  461 168  </m_arrow>
-=======
-=======
->>>>>>> Stashed changes
-			<m_arrow type="a">2 145 336  450 336  </m_arrow>
-			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">1061 609 </m_SourcePort>
-			<m_TargetPort type="a">2 890 </m_TargetPort>
-			<m_ShowName type="a">0</m_ShowName>
-			<m_ShowStereotype type="a">0</m_ShowStereotype>
-		</CGIInheritance>
-		<CGIInheritance type="e">
-			<_id type="a">GUID 5d09aefd-f8c4-4e06-9d96-c4c24e999692</_id>
-			<m_type type="a">128</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
-					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
-					<_hclass type="a">TopLevel.Rte_SWC_BMS_MainCntrl</_hclass>
-					<_hname type="a">Bms_Tx_BattStatusFlags</_hname>
-					<_hid type="a">GUID a3b5fa43-7adf-4d93-a166-a61ef1fc2757</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s"></m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 7d3932fb-c45a-415a-bab7-556b6630c13d</m_pTarget>
-			<m_targetType type="a">'T'</m_targetType>
-			<m_direction type="a">' '</m_direction>
-			<m_rpn type="p">
-				<CGIText type="e">
-					<m_str type="a">use</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_rpn>
-			<m_arrow type="a">2 155 294  452 294  </m_arrow>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+			<m_arrow type="a">2 155 252  477 252  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -3289,38 +2283,16 @@
 			<m_ShowStereotype type="a">0</m_ShowStereotype>
 		</CGIInheritance>
 		<CGIInheritance type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<_id type="a">GUID 054d2206-528b-47e2-8488-d4aeb28cadfc</_id>
-=======
-			<_id type="a">GUID c8a79097-aa35-4b61-98f6-f31c7c8d4f1f</_id>
->>>>>>> Stashed changes
-=======
-			<_id type="a">GUID c8a79097-aa35-4b61-98f6-f31c7c8d4f1f</_id>
->>>>>>> Stashed changes
+			<_id type="a">GUID a3277bb9-ca21-429f-9801-e050af316e19</_id>
 			<m_type type="a">128</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
 					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
-					<_hclass type="a">TopLevel.Rte_SWC_BMS_MainCntrl</_hclass>
-					<_hname type="a">BmsMainCntrl_Soc</_hname>
-					<_hid type="a">GUID 9caafc1c-82b8-4260-a33c-c1b5d6190a72</_hid>
-=======
-=======
->>>>>>> Stashed changes
-					<_hfilename type="a">.\RteFiles.sbsx</_hfilename>
-					<_hsubsystem type="a">RteFiles</_hsubsystem>
-					<_hclass type="a">TopLevel.Rte</_hclass>
-					<_hname type="a">Rte_SWC_BMS_MainCntrl</_hname>
-					<_hid type="a">GUID b0846720-1981-4cd4-8369-9bacd16de1c9</_hid>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+					<_hclass type="a">TopLevel.Bms_TxMapper_ReportBattInfo</_hclass>
+					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
+					<_hid type="a">GUID f08e5277-df6b-4427-910e-74195ff291b0</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
@@ -3342,21 +2314,9 @@
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_pSource type="s">GUID ecdad738-08a0-41f5-a247-3ee09cbb4482</m_pSource>
+			<m_pSource type="s">GUID d3e7ca5d-9252-49bf-bcc9-8418daea2281</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 7980d946-7d7e-4c77-840c-259a52233609</m_pTarget>
-=======
-			<m_pSource type="s">GUID 653be0c9-69cf-47b8-af43-5c3f2fa55d31</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 15e855b6-41dc-4846-89ab-af09352f56dd</m_pTarget>
->>>>>>> Stashed changes
-=======
-			<m_pSource type="s">GUID 653be0c9-69cf-47b8-af43-5c3f2fa55d31</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 15e855b6-41dc-4846-89ab-af09352f56dd</m_pTarget>
->>>>>>> Stashed changes
+			<m_pTarget type="s">GUID 4d80cc84-0dbf-4410-9f1a-401e51b455fc</m_pTarget>
 			<m_targetType type="a">'T'</m_targetType>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
@@ -3376,104 +2336,17 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_arrow type="a">2 117 210  403 210  </m_arrow>
+			<m_arrow type="a">2 464 378  450 378  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">1061 750 </m_SourcePort>
-=======
-=======
->>>>>>> Stashed changes
-			<m_arrow type="a">1 445 84  </m_arrow>
-			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">1061 609 </m_SourcePort>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+			<m_SourcePort type="a">531 890 </m_SourcePort>
 			<m_TargetPort type="a">2 609 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">0</m_ShowStereotype>
 		</CGIInheritance>
 		<CGIInheritance type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<_id type="a">GUID 614c9672-134d-4303-934d-a43adc5d1c20</_id>
-=======
-=======
->>>>>>> Stashed changes
-			<_id type="a">GUID 14b5e497-f9bf-4988-94b0-ff010fa12608</_id>
-			<m_type type="a">128</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
-					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
-					<_hclass type="a">TopLevel.Rte_SWC_BMS_MainCntrl</_hclass>
-					<_hname type="a">Rte_SWC_BMS_MainCntrl</_hname>
-					<_hid type="a">GUID c9a24feb-6ae2-4e7a-a518-0bcccf0f374d</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s"></m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 15e855b6-41dc-4846-89ab-af09352f56dd</m_pTarget>
-			<m_targetType type="a">'T'</m_targetType>
-			<m_direction type="a">' '</m_direction>
-			<m_rpn type="p">
-				<CGIText type="e">
-					<m_str type="a">use</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_rpn>
-			<m_arrow type="a">1 117 257  </m_arrow>
-			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">1061 750 </m_SourcePort>
-			<m_TargetPort type="a">2 680 </m_TargetPort>
-			<m_ShowName type="a">0</m_ShowName>
-			<m_ShowStereotype type="a">0</m_ShowStereotype>
-		</CGIInheritance>
-		<CGIInheritance type="e">
-			<_id type="a">GUID 6162d325-98a5-441e-8eaa-fb0b0eaaaba8</_id>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+			<_id type="a">GUID cfb6f4cf-ee13-4235-9fe7-f30372f19e2e</_id>
 			<m_type type="a">128</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -3482,15 +2355,7 @@
 					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
 					<_hclass type="a">TopLevel.Rte_SWC_BMS_MainCntrl</_hclass>
 					<_hname type="a">Bms_StatusDecision</_hname>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-					<_hid type="a">GUID 54d70f95-09e6-48cb-b9bf-d16b86cf41b5</_hid>
-=======
-					<_hid type="a">GUID 8dce4b73-fd14-4d7e-9100-9376533f8080</_hid>
->>>>>>> Stashed changes
-=======
-					<_hid type="a">GUID 8dce4b73-fd14-4d7e-9100-9376533f8080</_hid>
->>>>>>> Stashed changes
+					<_hid type="a">GUID f7125ea4-df97-4e4a-8237-485fc87aeab6</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
@@ -3512,21 +2377,9 @@
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_pSource type="s">GUID ecdad738-08a0-41f5-a247-3ee09cbb4482</m_pSource>
+			<m_pSource type="s">GUID 0b907c63-6a41-4e03-9130-78a9c4580adc</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID ef7a6c03-8d6d-40cf-9b08-e8c774419069</m_pTarget>
-=======
-			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 51036dc1-573f-435f-9d36-40095b42fcca</m_pTarget>
->>>>>>> Stashed changes
-=======
-			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 51036dc1-573f-435f-9d36-40095b42fcca</m_pTarget>
->>>>>>> Stashed changes
+			<m_pTarget type="s">GUID 2e84dfb3-cb1c-4826-8b6d-61882d6a8940</m_pTarget>
 			<m_targetType type="a">'T'</m_targetType>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
@@ -3546,33 +2399,17 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_arrow type="a">2 117 336  405 336  </m_arrow>
-=======
 			<m_arrow type="a">2 117 504  405 504  </m_arrow>
->>>>>>> Stashed changes
-=======
-			<m_arrow type="a">2 117 504  405 504  </m_arrow>
->>>>>>> Stashed changes
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">1061 820 </m_SourcePort>
+			<m_SourcePort type="a">1061 750 </m_SourcePort>
 			<m_TargetPort type="a">2 609 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">0</m_ShowStereotype>
 		</CGIInheritance>
 		<CGIInheritance type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<_id type="a">GUID 73e0e0ac-0ebe-48a5-bba7-bc489dcabd2a</_id>
-=======
-			<_id type="a">GUID d4c2afd3-eee6-4d3c-b02b-ed7f3769e073</_id>
->>>>>>> Stashed changes
-=======
-			<_id type="a">GUID d4c2afd3-eee6-4d3c-b02b-ed7f3769e073</_id>
->>>>>>> Stashed changes
+			<_id type="a">GUID bed601ae-7e1a-47f0-8801-5351e549ae60</_id>
 			<m_type type="a">128</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -3580,18 +2417,8 @@
 					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
 					<_hclass type="a">TopLevel.Rte_SWC_BMS_MainCntrl</_hclass>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-					<_hname type="a">Bms_Tx_PackMeasData</_hname>
-					<_hid type="a">GUID bd06d360-4add-4d1c-9b6d-49e2141982c6</_hid>
-=======
-					<_hname type="a">BmsMainCntrl_Soc</_hname>
-					<_hid type="a">GUID 2074d35d-559d-4a64-85d7-393cd4041386</_hid>
->>>>>>> Stashed changes
-=======
-					<_hname type="a">BmsMainCntrl_Soc</_hname>
-					<_hid type="a">GUID 2074d35d-559d-4a64-85d7-393cd4041386</_hid>
->>>>>>> Stashed changes
+					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
+					<_hid type="a">GUID b2dc88ac-7f96-4ef8-873f-ec5f16d801dc</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
@@ -3613,21 +2440,9 @@
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_pSource type="s">GUID ecdad738-08a0-41f5-a247-3ee09cbb4482</m_pSource>
+			<m_pSource type="s">GUID 0b907c63-6a41-4e03-9130-78a9c4580adc</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID ffbbc5af-fd73-4717-a932-fa9dcdb3b0dc</m_pTarget>
-=======
-			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 78cc5fc8-22f8-481e-9768-695dcf9c2056</m_pTarget>
->>>>>>> Stashed changes
-=======
-			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 78cc5fc8-22f8-481e-9768-695dcf9c2056</m_pTarget>
->>>>>>> Stashed changes
+			<m_pTarget type="s">GUID 4d80cc84-0dbf-4410-9f1a-401e51b455fc</m_pTarget>
 			<m_targetType type="a">'T'</m_targetType>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
@@ -3647,15 +2462,70 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_arrow type="a">2 155 294  449 294  </m_arrow>
-=======
-			<m_arrow type="a">2 155 378  431 378  </m_arrow>
->>>>>>> Stashed changes
-=======
-			<m_arrow type="a">2 155 378  431 378  </m_arrow>
->>>>>>> Stashed changes
+			<m_arrow type="a">2 117 294  421 294  </m_arrow>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">2</m_line_style>
+			<m_SourcePort type="a">1061 820 </m_SourcePort>
+			<m_TargetPort type="a">2 680 </m_TargetPort>
+			<m_ShowName type="a">0</m_ShowName>
+			<m_ShowStereotype type="a">0</m_ShowStereotype>
+		</CGIInheritance>
+		<CGIInheritance type="e">
+			<_id type="a">GUID 7b47dd9c-2989-4c25-80fd-d3a5b9ac4570</_id>
+			<m_type type="a">128</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDependency</_hm2Class>
+					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
+					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
+					<_hclass type="a">TopLevel.Rte_SWC_BMS_MainCntrl</_hclass>
+					<_hname type="a">BmsMainCntrl_Soc</_hname>
+					<_hid type="a">GUID 2fbe43a9-27db-4053-8d06-e6c5224cbe86</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID 0b907c63-6a41-4e03-9130-78a9c4580adc</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 52d7a7a4-09e7-4c70-9983-719b22176b97</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_str type="a">use</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_arrow type="a">2 155 336  431 336  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -3665,15 +2535,7 @@
 			<m_ShowStereotype type="a">0</m_ShowStereotype>
 		</CGIInheritance>
 		<CGIInheritance type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<_id type="a">GUID 0c0b5aa8-7ea5-47d5-b5fd-5b111e9613a6</_id>
-=======
-			<_id type="a">GUID b976cc6d-457a-419b-b42a-807b10f40f65</_id>
->>>>>>> Stashed changes
-=======
-			<_id type="a">GUID b976cc6d-457a-419b-b42a-807b10f40f65</_id>
->>>>>>> Stashed changes
+			<_id type="a">GUID d9b2aa24-ac00-46b4-8077-a85e6663c1f1</_id>
 			<m_type type="a">128</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -3681,18 +2543,8 @@
 					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
 					<_hclass type="a">TopLevel.Rte_SWC_BMS_MainCntrl</_hclass>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-					<_hname type="a">Bms_Tx_PackCalculatedData</_hname>
-					<_hid type="a">GUID 9c2fe29d-4f7c-42c5-98db-cf50c8b9fce2</_hid>
-=======
 					<_hname type="a">Bms_Tx_PackMeasData</_hname>
-					<_hid type="a">GUID 3f55537b-1f15-4105-95f9-4ac2a55402a3</_hid>
->>>>>>> Stashed changes
-=======
-					<_hname type="a">Bms_Tx_PackMeasData</_hname>
-					<_hid type="a">GUID 3f55537b-1f15-4105-95f9-4ac2a55402a3</_hid>
->>>>>>> Stashed changes
+					<_hid type="a">GUID 695569dd-617e-4cc2-ba8a-cb7a48a09132</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
@@ -3714,21 +2566,9 @@
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_pSource type="s">GUID ecdad738-08a0-41f5-a247-3ee09cbb4482</m_pSource>
+			<m_pSource type="s">GUID 0b907c63-6a41-4e03-9130-78a9c4580adc</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 7b4bc0bd-fa0f-4602-be14-d3f4ee9ee24e</m_pTarget>
-=======
-			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID b6bec4e3-6930-4514-92c1-8fc16eb9b24d</m_pTarget>
->>>>>>> Stashed changes
-=======
-			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID b6bec4e3-6930-4514-92c1-8fc16eb9b24d</m_pTarget>
->>>>>>> Stashed changes
+			<m_pTarget type="s">GUID 9f8a6615-6557-4cb4-901d-ae0a3fb2b86b</m_pTarget>
 			<m_targetType type="a">'T'</m_targetType>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
@@ -3748,15 +2588,7 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_arrow type="a">2 145 252  455 252  </m_arrow>
-=======
 			<m_arrow type="a">2 145 462  439 462  </m_arrow>
->>>>>>> Stashed changes
-=======
-			<m_arrow type="a">2 145 462  439 462  </m_arrow>
->>>>>>> Stashed changes
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -3766,15 +2598,7 @@
 			<m_ShowStereotype type="a">0</m_ShowStereotype>
 		</CGIInheritance>
 		<CGIInheritance type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<_id type="a">GUID 7ecc3f71-f769-47bc-a2de-1964c2cab427</_id>
-=======
-			<_id type="a">GUID e33411bf-859b-4b00-956c-1d96e47e24ad</_id>
->>>>>>> Stashed changes
-=======
-			<_id type="a">GUID e33411bf-859b-4b00-956c-1d96e47e24ad</_id>
->>>>>>> Stashed changes
+			<_id type="a">GUID d5af7726-599f-4897-b329-5ed3de08ffcc</_id>
 			<m_type type="a">128</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -3782,18 +2606,8 @@
 					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
 					<_hclass type="a">TopLevel.Rte_SWC_BMS_MainCntrl</_hclass>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-					<_hname type="a">Bms_Tx_BattStatusFlags</_hname>
-					<_hid type="a">GUID c072df36-5f33-4c2a-9720-3083d6202e5a</_hid>
-=======
 					<_hname type="a">Bms_Tx_PackCalculatedData</_hname>
-					<_hid type="a">GUID 86b4c583-8516-494f-be17-69b0f9d3dd1e</_hid>
->>>>>>> Stashed changes
-=======
-					<_hname type="a">Bms_Tx_PackCalculatedData</_hname>
-					<_hid type="a">GUID 86b4c583-8516-494f-be17-69b0f9d3dd1e</_hid>
->>>>>>> Stashed changes
+					<_hid type="a">GUID 00d15177-31ec-4407-b274-deca3525ec9b</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
@@ -3815,21 +2629,9 @@
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_pSource type="s">GUID ecdad738-08a0-41f5-a247-3ee09cbb4482</m_pSource>
+			<m_pSource type="s">GUID 0b907c63-6a41-4e03-9130-78a9c4580adc</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID be4a5384-97ff-4fa8-85fb-f91a3bbd0681</m_pTarget>
-=======
-			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID df6654ac-e1bc-4271-9cfa-dd19b0eb8e01</m_pTarget>
->>>>>>> Stashed changes
-=======
-			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID df6654ac-e1bc-4271-9cfa-dd19b0eb8e01</m_pTarget>
->>>>>>> Stashed changes
+			<m_pTarget type="s">GUID 4a00b806-c46d-48f4-807a-d13b2215b664</m_pTarget>
 			<m_targetType type="a">'T'</m_targetType>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
@@ -3849,15 +2651,7 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_arrow type="a">2 295 84  295 168  </m_arrow>
-=======
 			<m_arrow type="a">2 145 420  455 420  </m_arrow>
->>>>>>> Stashed changes
-=======
-			<m_arrow type="a">2 145 420  455 420  </m_arrow>
->>>>>>> Stashed changes
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -3867,15 +2661,7 @@
 			<m_ShowStereotype type="a">0</m_ShowStereotype>
 		</CGIInheritance>
 		<CGIInheritance type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<_id type="a">GUID e9461d1d-ce4a-4a97-a7a8-6bb75c008ce9</_id>
-=======
-			<_id type="a">GUID 84c67f9f-e185-4bda-a3f2-6f9b18725d45</_id>
->>>>>>> Stashed changes
-=======
-			<_id type="a">GUID 84c67f9f-e185-4bda-a3f2-6f9b18725d45</_id>
->>>>>>> Stashed changes
+			<_id type="a">GUID b9524579-576b-4c71-9b47-a9eae7f18212</_id>
 			<m_type type="a">128</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -3883,16 +2669,8 @@
 					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
 					<_hclass type="a">TopLevel.Rte_SWC_BMS_MainCntrl</_hclass>
-					<_hname type="a">Bms_TxMapper_ReportBattInfo</_hname>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-					<_hid type="a">GUID 785fdb07-eb2b-4b73-9408-286e23611532</_hid>
-=======
-					<_hid type="a">GUID e748595e-b0e3-47a5-81a6-e70b33e40f04</_hid>
->>>>>>> Stashed changes
-=======
-					<_hid type="a">GUID e748595e-b0e3-47a5-81a6-e70b33e40f04</_hid>
->>>>>>> Stashed changes
+					<_hname type="a">Bms_Tx_BattStatusFlags</_hname>
+					<_hid type="a">GUID 6b5fa542-c0a3-4b0d-ba75-dfbc8950c6d2</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
@@ -3914,21 +2692,9 @@
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_pSource type="s">GUID ecdad738-08a0-41f5-a247-3ee09cbb4482</m_pSource>
+			<m_pSource type="s">GUID 0b907c63-6a41-4e03-9130-78a9c4580adc</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 6a03b323-94b0-4705-b110-ef67e89639de</m_pTarget>
-=======
-			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 523416cd-5296-43a3-aad8-1173cffc0435</m_pTarget>
->>>>>>> Stashed changes
-=======
-			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 523416cd-5296-43a3-aad8-1173cffc0435</m_pTarget>
->>>>>>> Stashed changes
+			<m_pTarget type="s">GUID d87e200c-6e39-4bbc-94f1-fe9abc1c8ad5</m_pTarget>
 			<m_targetType type="a">'T'</m_targetType>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
@@ -3948,14 +2714,7 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-=======
-			<m_arrow type="a">2 145 252  464 252  </m_arrow>
->>>>>>> Stashed changes
-=======
-			<m_arrow type="a">2 145 252  464 252  </m_arrow>
->>>>>>> Stashed changes
+			<m_arrow type="a">2 145 378  442 378  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -3965,330 +2724,7 @@
 			<m_ShowStereotype type="a">0</m_ShowStereotype>
 		</CGIInheritance>
 		<CGIInheritance type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<_id type="a">GUID 28f8fad1-1822-46cb-850d-42c96fd01b80</_id>
-			<m_type type="a">128</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hfilename type="a">.\RteFiles.sbsx</_hfilename>
-					<_hsubsystem type="a">RteFiles</_hsubsystem>
-					<_hclass type="a">TopLevel.Rte</_hclass>
-					<_hname type="a">Rte_SWC_BMS_MainCntrl</_hname>
-					<_hid type="a">GUID b50663b0-c35e-464d-a5c3-8088330e4af0</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s"></m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<m_pSource type="s">GUID 8a22fa33-5db8-4375-93e5-405d182fa8fe</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID cf2e6483-7902-4965-9c67-ef891042d003</m_pTarget>
-			<m_targetType type="a">'T'</m_targetType>
-			<m_direction type="a">' '</m_direction>
-			<m_rpn type="p">
-				<CGIText type="e">
-					<m_str type="a">use</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_rpn>
-			<m_arrow type="a">2 102 420  445 420  </m_arrow>
-			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">1061 609 </m_SourcePort>
-			<m_TargetPort type="a">2 680 </m_TargetPort>
-			<m_ShowName type="a">0</m_ShowName>
-			<m_ShowStereotype type="a">0</m_ShowStereotype>
-		</CGIInheritance>
-		<CGIInheritance type="e">
-			<_id type="a">GUID c1d877b8-948b-4659-9b15-4ff895fbb360</_id>
-			<m_type type="a">128</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
-					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
-					<_hclass type="a">TopLevel.Bms_TxMapper_ReportBattInfo</_hclass>
-					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
-					<_hid type="a">GUID 7cdd3451-b411-4d52-82f6-101345008431</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s"></m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<m_pSource type="s">GUID 6a03b323-94b0-4705-b110-ef67e89639de</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 55634acd-47b5-4d80-a72b-23d62d94c502</m_pTarget>
-			<m_targetType type="a">'T'</m_targetType>
-			<m_direction type="a">' '</m_direction>
-			<m_rpn type="p">
-				<CGIText type="e">
-					<m_str type="a">use</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_rpn>
-			<m_arrow type="a">2 477 168  461 168  </m_arrow>
-			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">596 1091 </m_SourcePort>
-			<m_TargetPort type="a">2 680 </m_TargetPort>
-			<m_ShowName type="a">0</m_ShowName>
-			<m_ShowStereotype type="a">0</m_ShowStereotype>
-		</CGIInheritance>
-		<CGIInheritance type="e">
-			<_id type="a">GUID 089d57a8-c6a4-4ef0-9173-69951174d102</_id>
-			<m_type type="a">128</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
-					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
-					<_hclass type="a">TopLevel.Bms_Tx_BattStatusFlags</_hclass>
-					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
-					<_hid type="a">GUID c0afe9cc-7ced-48d3-b458-df91699331ea</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s"></m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<m_pSource type="s">GUID be4a5384-97ff-4fa8-85fb-f91a3bbd0681</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 55634acd-47b5-4d80-a72b-23d62d94c502</m_pTarget>
-			<m_targetType type="a">'T'</m_targetType>
-			<m_direction type="a">' '</m_direction>
-			<m_rpn type="p">
-				<CGIText type="e">
-					<m_str type="a">use</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_rpn>
-			<m_arrow type="a">2 452 210  461 210  </m_arrow>
-			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">596 1091 </m_SourcePort>
-			<m_TargetPort type="a">2 750 </m_TargetPort>
-			<m_ShowName type="a">0</m_ShowName>
-			<m_ShowStereotype type="a">0</m_ShowStereotype>
-		</CGIInheritance>
-		<CGIInheritance type="e">
-			<_id type="a">GUID 0eaa8fed-e777-43ee-8cb0-123c2b4a7903</_id>
-			<m_type type="a">128</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
-					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
-					<_hclass type="a">TopLevel.Bms_Tx_PackCalculatedData</_hclass>
-					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
-					<_hid type="a">GUID d0a364be-8bb0-4ca9-a7fc-b8ef2fdf3243</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s"></m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<m_pSource type="s">GUID 7b4bc0bd-fa0f-4602-be14-d3f4ee9ee24e</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 55634acd-47b5-4d80-a72b-23d62d94c502</m_pTarget>
-			<m_targetType type="a">'T'</m_targetType>
-			<m_direction type="a">' '</m_direction>
-			<m_rpn type="p">
-				<CGIText type="e">
-					<m_str type="a">use</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_rpn>
-			<m_arrow type="a">2 467 336  461 336  </m_arrow>
-			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">596 1091 </m_SourcePort>
-			<m_TargetPort type="a">2 820 </m_TargetPort>
-			<m_ShowName type="a">0</m_ShowName>
-			<m_ShowStereotype type="a">0</m_ShowStereotype>
-		</CGIInheritance>
-		<CGIInheritance type="e">
-			<_id type="a">GUID 65d27eae-686d-4833-8422-ffb9a90b300c</_id>
-			<m_type type="a">128</m_type>
-			<m_pModelObject type="r">
-				<IHandle type="e">
-					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
-					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
-					<_hclass type="a">TopLevel.Bms_Tx_PackMeasData</_hclass>
-					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
-					<_hid type="a">GUID 1b7628a3-98db-4bb0-bae9-2a276779b69d</_hid>
-				</IHandle>
-			</m_pModelObject>
-			<m_pParent type="s"></m_pParent>
-			<m_name type="p">
-				<CGIText type="e">
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_name>
-			<m_drawBehavior type="a">4096</m_drawBehavior>
-			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-			<m_pSource type="s">GUID ffbbc5af-fd73-4717-a932-fa9dcdb3b0dc</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 55634acd-47b5-4d80-a72b-23d62d94c502</m_pTarget>
-			<m_targetType type="a">'T'</m_targetType>
-			<m_direction type="a">' '</m_direction>
-			<m_rpn type="p">
-				<CGIText type="e">
-					<m_str type="a">use</m_str>
-					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
-					<m_color type="p">
-						<IColor type="e">
-							<m_fgColor type="a">0</m_fgColor>
-							<m_bgColor type="a">0</m_bgColor>
-							<m_bgFlag type="a">0</m_bgFlag>
-						</IColor>
-					</m_color>
-					<m_position type="a">1 0 0  </m_position>
-					<m_nIdent type="a">0</m_nIdent>
-					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
-					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
-				</CGIText>
-			</m_rpn>
-			<m_arrow type="a">2 439 378  450 378  </m_arrow>
-			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
-			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
-			<m_line_style type="a">2</m_line_style>
-			<m_SourcePort type="a">531 890 </m_SourcePort>
-			<m_TargetPort type="a">2 890 </m_TargetPort>
-			<m_ShowName type="a">0</m_ShowName>
-			<m_ShowStereotype type="a">0</m_ShowStereotype>
-		</CGIInheritance>
-		<CGIInheritance type="e">
-			<_id type="a">GUID 42ff7b23-30c2-480a-830b-e056ed9ec8c8</_id>
-=======
-			<_id type="a">GUID bec3c2b4-4271-4c44-9001-4230b703fc25</_id>
->>>>>>> Stashed changes
-=======
-			<_id type="a">GUID bec3c2b4-4271-4c44-9001-4230b703fc25</_id>
->>>>>>> Stashed changes
+			<_id type="a">GUID 845a02f7-5852-469e-b06d-4d1be3a8f188</_id>
 			<m_type type="a">128</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -4297,15 +2733,7 @@
 					<_hsubsystem type="a">RteFiles</_hsubsystem>
 					<_hclass type="a">TopLevel.Rte</_hclass>
 					<_hname type="a">Rte_Internals</_hname>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-					<_hid type="a">GUID 8384822f-aa4b-4194-98c2-e3aeacb23668</_hid>
-=======
-					<_hid type="a">GUID e0412e82-444e-472c-bf87-2c06056d3676</_hid>
->>>>>>> Stashed changes
-=======
-					<_hid type="a">GUID e0412e82-444e-472c-bf87-2c06056d3676</_hid>
->>>>>>> Stashed changes
+					<_hid type="a">GUID f9ef0d50-bfad-4448-84c1-3fe5cb5e623a</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
@@ -4327,21 +2755,9 @@
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_pSource type="s">GUID 8a22fa33-5db8-4375-93e5-405d182fa8fe</m_pSource>
+			<m_pSource type="s">GUID b66dfba6-9c95-476d-9a74-773c1320eb93</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 6bf7c255-bc9f-4376-b761-6b05ea68ec3a</m_pTarget>
-=======
-			<m_pSource type="s">GUID 653be0c9-69cf-47b8-af43-5c3f2fa55d31</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID b066c786-889c-4333-9223-89959168f936</m_pTarget>
->>>>>>> Stashed changes
-=======
-			<m_pSource type="s">GUID 653be0c9-69cf-47b8-af43-5c3f2fa55d31</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID b066c786-889c-4333-9223-89959168f936</m_pTarget>
->>>>>>> Stashed changes
+			<m_pTarget type="s">GUID 03840264-9621-40df-8ebe-7e59abb8cb0a</m_pTarget>
 			<m_targetType type="a">'T'</m_targetType>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
@@ -4361,15 +2777,7 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_arrow type="a">2 107 504  414 504  </m_arrow>
-=======
 			<m_arrow type="a">2 252 93  252 177  </m_arrow>
->>>>>>> Stashed changes
-=======
-			<m_arrow type="a">2 252 93  252 177  </m_arrow>
->>>>>>> Stashed changes
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -4379,32 +2787,16 @@
 			<m_ShowStereotype type="a">0</m_ShowStereotype>
 		</CGIInheritance>
 		<CGIInheritance type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<_id type="a">GUID 77849d42-6324-4408-aef1-f7b76350cb34</_id>
-=======
-			<_id type="a">GUID 6877ba59-10b7-4891-8147-a3068d66fd4e</_id>
->>>>>>> Stashed changes
-=======
-			<_id type="a">GUID 6877ba59-10b7-4891-8147-a3068d66fd4e</_id>
->>>>>>> Stashed changes
+			<_id type="a">GUID 1a066bb6-351d-4090-85a5-edafc519acda</_id>
 			<m_type type="a">128</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
-					<_hfilename type="a">.\RteFiles.sbsx</_hfilename>
-					<_hsubsystem type="a">RteFiles</_hsubsystem>
-					<_hclass type="a">TopLevel.Rte</_hclass>
-					<_hname type="a">Std_Types</_hname>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-					<_hid type="a">GUID 16f2d6d5-1128-4bad-b7ad-adae125e6dc0</_hid>
-=======
-					<_hid type="a">GUID 37d70740-a1ee-4fc5-8484-d69a47007278</_hid>
->>>>>>> Stashed changes
-=======
-					<_hid type="a">GUID 37d70740-a1ee-4fc5-8484-d69a47007278</_hid>
->>>>>>> Stashed changes
+					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
+					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
+					<_hclass type="a">TopLevel.Bms_Tx_BattStatusFlags</_hclass>
+					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
+					<_hid type="a">GUID 73c9fcdc-e7b8-4548-82e7-7d3d90684184</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
@@ -4426,21 +2818,9 @@
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_pSource type="s">GUID 8a22fa33-5db8-4375-93e5-405d182fa8fe</m_pSource>
+			<m_pSource type="s">GUID d87e200c-6e39-4bbc-94f1-fe9abc1c8ad5</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID d1189e2b-43f4-4dfa-950b-7c42a85e8968</m_pTarget>
-=======
-			<m_pSource type="s">GUID 653be0c9-69cf-47b8-af43-5c3f2fa55d31</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 77e98316-7862-49a0-a756-7a6d75b3aa01</m_pTarget>
->>>>>>> Stashed changes
-=======
-			<m_pSource type="s">GUID 653be0c9-69cf-47b8-af43-5c3f2fa55d31</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 77e98316-7862-49a0-a756-7a6d75b3aa01</m_pTarget>
->>>>>>> Stashed changes
+			<m_pTarget type="s">GUID 4d80cc84-0dbf-4410-9f1a-401e51b455fc</m_pTarget>
 			<m_targetType type="a">'T'</m_targetType>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
@@ -4460,13 +2840,69 @@
 					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
 				</CGIText>
 			</m_rpn>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_arrow type="a">2 88 462  388 462  </m_arrow>
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+			<m_arrow type="a">2 452 504  461 504  </m_arrow>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">2</m_line_style>
+			<m_SourcePort type="a">596 1091 </m_SourcePort>
+			<m_TargetPort type="a">2 750 </m_TargetPort>
+			<m_ShowName type="a">0</m_ShowName>
+			<m_ShowStereotype type="a">0</m_ShowStereotype>
+		</CGIInheritance>
+		<CGIInheritance type="e">
+			<_id type="a">GUID 346e163a-c8ee-4dda-8e19-a6dc103ae22c</_id>
+			<m_type type="a">128</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDependency</_hm2Class>
+					<_hfilename type="a">.\RteFiles.sbsx</_hfilename>
+					<_hsubsystem type="a">RteFiles</_hsubsystem>
+					<_hclass type="a">TopLevel.Rte</_hclass>
+					<_hname type="a">Std_Types</_hname>
+					<_hid type="a">GUID 8033ba9f-9891-464d-b4b0-edb41d82baa4</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID b66dfba6-9c95-476d-9a74-773c1320eb93</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 2be61a76-d287-4c6c-98a6-f51efc366b68</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_str type="a">use</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
@@ -4475,8 +2911,197 @@
 			<m_ShowName type="a">0</m_ShowName>
 			<m_ShowStereotype type="a">0</m_ShowStereotype>
 		</CGIInheritance>
+		<CGIInheritance type="e">
+			<_id type="a">GUID ae995483-57cb-4e2b-8b1a-6cee299e62a1</_id>
+			<m_type type="a">128</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDependency</_hm2Class>
+					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
+					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
+					<_hclass type="a">TopLevel.Bms_Tx_PackMeasData</_hclass>
+					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
+					<_hid type="a">GUID 0f5d03c1-2081-4fb0-a736-dad20a460f20</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID 9f8a6615-6557-4cb4-901d-ae0a3fb2b86b</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 4d80cc84-0dbf-4410-9f1a-401e51b455fc</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_str type="a">use</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_arrow type="a">2 449 588  461 588  </m_arrow>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">2</m_line_style>
+			<m_SourcePort type="a">596 1091 </m_SourcePort>
+			<m_TargetPort type="a">2 820 </m_TargetPort>
+			<m_ShowName type="a">0</m_ShowName>
+			<m_ShowStereotype type="a">0</m_ShowStereotype>
+		</CGIInheritance>
+		<CGIInheritance type="e">
+			<_id type="a">GUID 204f4622-0096-4f12-ac1e-fc7606ab2a56</_id>
+			<m_type type="a">128</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDependency</_hm2Class>
+					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
+					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
+					<_hclass type="a">TopLevel.Bms_Tx_PackCalculatedData</_hclass>
+					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
+					<_hid type="a">GUID b7f02903-2ed6-480b-a95d-c77ab5d28a16</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID 4a00b806-c46d-48f4-807a-d13b2215b664</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 4d80cc84-0dbf-4410-9f1a-401e51b455fc</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_str type="a">use</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_arrow type="a">2 467 546  461 546  </m_arrow>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">2</m_line_style>
+			<m_SourcePort type="a">596 1091 </m_SourcePort>
+			<m_TargetPort type="a">2 890 </m_TargetPort>
+			<m_ShowName type="a">0</m_ShowName>
+			<m_ShowStereotype type="a">0</m_ShowStereotype>
+		</CGIInheritance>
+		<CGIInheritance type="e">
+			<_id type="a">GUID 511e67c5-d9f7-4c48-860a-f69e5fb280b6</_id>
+			<m_type type="a">128</m_type>
+			<m_pModelObject type="r">
+				<IHandle type="e">
+					<_hm2Class type="a">IDependency</_hm2Class>
+					<_hfilename type="a">.\Soc.sbsx</_hfilename>
+					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src::Soc</_hsubsystem>
+					<_hclass type="a">TopLevel.BmsMainCntrl_Soc</_hclass>
+					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
+					<_hid type="a">GUID 728e326b-4b0e-44bb-b00f-386c070655e7</_hid>
+				</IHandle>
+			</m_pModelObject>
+			<m_pParent type="s"></m_pParent>
+			<m_name type="p">
+				<CGIText type="e">
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_name>
+			<m_drawBehavior type="a">4096</m_drawBehavior>
+			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
+			<m_pSource type="s">GUID 52d7a7a4-09e7-4c70-9983-719b22176b97</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 4d80cc84-0dbf-4410-9f1a-401e51b455fc</m_pTarget>
+			<m_targetType type="a">'T'</m_targetType>
+			<m_direction type="a">' '</m_direction>
+			<m_rpn type="p">
+				<CGIText type="e">
+					<m_str type="a">use</m_str>
+					<m_style type="a">Arial; 10 0 0 0 1 </m_style>
+					<m_color type="p">
+						<IColor type="e">
+							<m_fgColor type="a">0</m_fgColor>
+							<m_bgColor type="a">0</m_bgColor>
+							<m_bgFlag type="a">0</m_bgFlag>
+						</IColor>
+					</m_color>
+					<m_position type="a">1 0 0  </m_position>
+					<m_nIdent type="a">0</m_nIdent>
+					<m_bImplicitSetRectPoints type="a">0</m_bImplicitSetRectPoints>
+					<m_nOrientationCtrlPt type="a">8</m_nOrientationCtrlPt>
+				</CGIText>
+			</m_rpn>
+			<m_arrow type="a">2 423 462  450 462  </m_arrow>
+			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
+			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
+			<m_line_style type="a">2</m_line_style>
+			<m_SourcePort type="a">531 890 </m_SourcePort>
+			<m_TargetPort type="a">2 960 </m_TargetPort>
+			<m_ShowName type="a">0</m_ShowName>
+			<m_ShowStereotype type="a">0</m_ShowStereotype>
+		</CGIInheritance>
 		<IMSC type="e">
-			<_id type="a">GUID 1d42d9b5-5a8a-442f-9c54-d96524130bd7</_id>
+			<_id type="a">GUID ef35dd14-ed41-45a8-9cdb-7526644fca7e</_id>
 			<_myState type="a">8192</_myState>
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
@@ -4581,18 +3206,8 @@
 			</_properties>
 			<_name type="a">SWUD_Workflow_REtSWC_BMS_MainCntrl_ChargeSequence_100ms</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<_modifiedTime type="a">1.29.2026::23:3:16</_modifiedTime>
-			<_lastModifiedTime type="a">1.29.2026::23:3:16</_lastModifiedTime>
-=======
-			<_modifiedTime type="a">1.30.2026::1:31:6</_modifiedTime>
-			<_lastModifiedTime type="a">1.30.2026::1:31:6</_lastModifiedTime>
->>>>>>> Stashed changes
-=======
-			<_modifiedTime type="a">1.30.2026::1:31:6</_modifiedTime>
-			<_lastModifiedTime type="a">1.30.2026::1:31:6</_lastModifiedTime>
->>>>>>> Stashed changes
+			<_modifiedTime type="a">1.30.2026::6:41:57</_modifiedTime>
+			<_lastModifiedTime type="a">1.30.2026::6:41:57</_lastModifiedTime>
 			<m_hReferencedDiagram type="r">
 				<IHandle type="e">
 				</IHandle>
@@ -4600,53 +3215,24 @@
 			<_defaultSubsystem type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">ISubsystem</_hm2Class>
-					<_hid type="a">GUID 17d04967-edb1-4871-939b-a70da1ddb3c1</_hid>
+					<_hid type="a">GUID 28092a2d-e8f6-4e96-bc68-ba436983b95d</_hid>
 				</IHandle>
 			</_defaultSubsystem>
 			<m_pICollaboration type="p"><ICollaboration type="e">
-				<_id type="a">GUID 3738eb51-d2ed-4f36-bd1c-cff160c94792</_id>
+				<_id type="a">GUID bc15b7ab-874e-40ef-b170-755f41fc8352</_id>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-				<_modifiedTime type="a">1.29.2026::23:3:16</_modifiedTime>
+				<_modifiedTime type="a">1.30.2026::6:41:57</_modifiedTime>
 				<AggregatesList type="e">
-					<value>GUID 9d6dd65b-4135-4080-8f40-89f1e1b8afe4</value>
-					<value>GUID bd07f26b-58f9-4a10-b7bb-4bb64fb6ad92</value>
-					<value>GUID 3edad14e-9d30-465e-9449-ede9d1472f50</value>
+					<value>GUID 42465daf-69db-4e20-a62a-96a99c152017</value>
+					<value>GUID df007b05-6cbf-4d85-a3da-4b39f3dbf4d8</value>
+					<value>GUID 75626864-2378-4c59-ae87-ec71ae7addd0</value>
 				</AggregatesList>
 			</ICollaboration>
 			<IClassifierRole type="e">
-				<_id type="a">GUID 9d6dd65b-4135-4080-8f40-89f1e1b8afe4</_id>
+				<_id type="a">GUID 42465daf-69db-4e20-a62a-96a99c152017</_id>
 				<_name type="a">Rte</_name>
-				<_modifiedTimeWeak type="a">1.29.2026::23:3:16</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::23:3:16</_modifiedTime>
-=======
-				<_modifiedTime type="a">1.30.2026::1:31:6</_modifiedTime>
-				<AggregatesList type="e">
-					<value>GUID b2bc99b4-d5fe-4d8e-95f0-fe5c4210fcc9</value>
-					<value>GUID d9715e0e-0c6f-48c5-a5e3-1d5accba26ea</value>
-					<value>GUID 4bdb63ff-6b53-4ab0-9b82-2733cdf4bc4a</value>
-				</AggregatesList>
-			</ICollaboration>
-			<IClassifierRole type="e">
-=======
-				<_modifiedTime type="a">1.30.2026::1:31:6</_modifiedTime>
-				<AggregatesList type="e">
-					<value>GUID b2bc99b4-d5fe-4d8e-95f0-fe5c4210fcc9</value>
-					<value>GUID d9715e0e-0c6f-48c5-a5e3-1d5accba26ea</value>
-					<value>GUID 4bdb63ff-6b53-4ab0-9b82-2733cdf4bc4a</value>
-				</AggregatesList>
-			</ICollaboration>
-			<IClassifierRole type="e">
->>>>>>> Stashed changes
-				<_id type="a">GUID b2bc99b4-d5fe-4d8e-95f0-fe5c4210fcc9</_id>
-				<_name type="a">Rte</_name>
-				<_modifiedTimeWeak type="a">1.30.2026::1:31:6</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.30.2026::1:31:6</_modifiedTime>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+				<_modifiedTimeWeak type="a">1.30.2026::6:41:57</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::6:41:57</_modifiedTime>
 				<m_eRoleType type="a">CLASS</m_eRoleType>
 				<m_pBase type="r">
 					<IHandle type="e">
@@ -4670,23 +3256,10 @@
 				</m_instance>
 			</IClassifierRole>
 			<IClassifierRole type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-				<_id type="a">GUID bd07f26b-58f9-4a10-b7bb-4bb64fb6ad92</_id>
+				<_id type="a">GUID df007b05-6cbf-4d85-a3da-4b39f3dbf4d8</_id>
 				<_name type="a">Rte_SWC_BMS_MainCntrl</_name>
-				<_modifiedTimeWeak type="a">1.29.2026::23:3:16</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::23:3:16</_modifiedTime>
-=======
-=======
->>>>>>> Stashed changes
-				<_id type="a">GUID d9715e0e-0c6f-48c5-a5e3-1d5accba26ea</_id>
-				<_name type="a">Rte_SWC_BMS_MainCntrl</_name>
-				<_modifiedTimeWeak type="a">1.30.2026::1:31:6</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.30.2026::1:31:6</_modifiedTime>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+				<_modifiedTimeWeak type="a">1.30.2026::6:41:57</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::6:41:57</_modifiedTime>
 				<m_eRoleType type="a">CLASS</m_eRoleType>
 				<m_pBase type="r">
 					<IHandle type="e">
@@ -4695,15 +3268,7 @@
 						<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
 						<_hclass type="a">TopLevel</_hclass>
 						<_hname type="a">Rte_SWC_BMS_MainCntrl</_hname>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-						<_hid type="a">GUID 1269f914-9a32-4bf4-910f-2f483c04089b</_hid>
-=======
-						<_hid type="a">GUID 60923015-b251-4caa-9119-7ac533235bc7</_hid>
->>>>>>> Stashed changes
-=======
-						<_hid type="a">GUID 60923015-b251-4caa-9119-7ac533235bc7</_hid>
->>>>>>> Stashed changes
+						<_hid type="a">GUID 52014b72-5ac8-4b65-a408-6ac322f3e69c</_hid>
 					</IHandle>
 				</m_pBase>
 				<m_instance type="r">
@@ -4713,36 +3278,15 @@
 						<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
 						<_hclass type="a">TopLevel</_hclass>
 						<_hname type="a">Rte_SWC_BMS_MainCntrl</_hname>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-						<_hid type="a">GUID 30ca493e-31f0-46e9-8600-48faf3f01550</_hid>
-=======
-						<_hid type="a">GUID 2aa07044-ed64-48c5-9a12-848f4caec434</_hid>
->>>>>>> Stashed changes
-=======
-						<_hid type="a">GUID 2aa07044-ed64-48c5-9a12-848f4caec434</_hid>
->>>>>>> Stashed changes
+						<_hid type="a">GUID b20e95aa-83bf-414d-9ef6-252d9ed90b12</_hid>
 					</IHandle>
 				</m_instance>
 			</IClassifierRole>
 			<IMessage type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-				<_id type="a">GUID 3edad14e-9d30-465e-9449-ede9d1472f50</_id>
+				<_id type="a">GUID 75626864-2378-4c59-ae87-ec71ae7addd0</_id>
 				<_name type="a">REtSWC_BMS_MainCntrl_ChargeSequence_100ms</_name>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::23:3:16</_modifiedTime>
-=======
-=======
->>>>>>> Stashed changes
-				<_id type="a">GUID 4bdb63ff-6b53-4ab0-9b82-2733cdf4bc4a</_id>
-				<_name type="a">REtSWC_BMS_MainCntrl_ChargeSequence_100ms</_name>
-				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.30.2026::1:31:6</_modifiedTime>
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
+				<_modifiedTime type="a">1.30.2026::6:41:57</_modifiedTime>
 				<m_pCommunicationConnection type="r">
 					<IHandle type="e">
 					</IHandle>
@@ -4750,29 +3294,13 @@
 				<m_pReceiver type="r">
 					<IHandle type="e">
 						<_hm2Class type="a">IClassifierRole</_hm2Class>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-						<_hid type="a">GUID bd07f26b-58f9-4a10-b7bb-4bb64fb6ad92</_hid>
-=======
-						<_hid type="a">GUID d9715e0e-0c6f-48c5-a5e3-1d5accba26ea</_hid>
->>>>>>> Stashed changes
-=======
-						<_hid type="a">GUID d9715e0e-0c6f-48c5-a5e3-1d5accba26ea</_hid>
->>>>>>> Stashed changes
+						<_hid type="a">GUID df007b05-6cbf-4d85-a3da-4b39f3dbf4d8</_hid>
 					</IHandle>
 				</m_pReceiver>
 				<m_pSender type="r">
 					<IHandle type="e">
 						<_hm2Class type="a">IClassifierRole</_hm2Class>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-						<_hid type="a">GUID 9d6dd65b-4135-4080-8f40-89f1e1b8afe4</_hid>
-=======
-						<_hid type="a">GUID b2bc99b4-d5fe-4d8e-95f0-fe5c4210fcc9</_hid>
->>>>>>> Stashed changes
-=======
-						<_hid type="a">GUID b2bc99b4-d5fe-4d8e-95f0-fe5c4210fcc9</_hid>
->>>>>>> Stashed changes
+						<_hid type="a">GUID 42465daf-69db-4e20-a62a-96a99c152017</_hid>
 					</IHandle>
 				</m_pSender>
 				<m_pFormalMessage type="r">
@@ -4782,15 +3310,7 @@
 						<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
 						<_hclass type="a">TopLevel.Rte_SWC_BMS_MainCntrl</_hclass>
 						<_hname type="a">REtSWC_BMS_MainCntrl_ChargeSequence_100ms()</_hname>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-						<_hid type="a">GUID 4d85b3d2-09ff-4db5-8fd8-7029ec9b08f7</_hid>
-=======
-						<_hid type="a">GUID 364f67f8-2da2-4755-95db-be3870caeb52</_hid>
->>>>>>> Stashed changes
-=======
-						<_hid type="a">GUID 364f67f8-2da2-4755-95db-be3870caeb52</_hid>
->>>>>>> Stashed changes
+						<_hid type="a">GUID cf8d44d1-5418-4fd5-9d0a-fb4b62203bce</_hid>
 					</IHandle>
 				</m_pFormalMessage>
 				<m_eType type="a">PRIMITIVE</m_eType>
@@ -4805,18 +3325,18 @@
 			</IMessage>
 			</m_pICollaboration>
 			<AggregatesList type="e">
-				<value>GUID e1366729-8774-482b-945a-f77890008bc5</value>
+				<value>GUID 53bea336-6667-4c7b-b8ed-85d81c3634bb</value>
 			</AggregatesList>
 		</IMSC>
 		<CGIMscChart type="e">
 			<vLadderMargin type="a">20</vLadderMargin>
 			<m_usingActivationBar type="a">0</m_usingActivationBar>
-			<_id type="a">GUID e1366729-8774-482b-945a-f77890008bc5</_id>
+			<_id type="a">GUID 53bea336-6667-4c7b-b8ed-85d81c3634bb</_id>
 			<m_type type="a">0</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IMSC</_hm2Class>
-					<_hid type="a">GUID 1d42d9b5-5a8a-442f-9c54-d96524130bd7</_hid>
+					<_hid type="a">GUID ef35dd14-ed41-45a8-9cdb-7526644fca7e</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
@@ -4846,36 +3366,24 @@
 			<m_nCreateDate type="a">0</m_nCreateDate>
 			<m_bScaleWithZoom type="a">1</m_bScaleWithZoom>
 			<m_arrowStyle type="a">'S'</m_arrowStyle>
-			<m_pRoot type="s">GUID 6f96c8f3-3add-41a5-ae33-79cf663014ad</m_pRoot>
+			<m_pRoot type="s">GUID a2148060-ccd6-4506-903a-6a3b74c1bcd6</m_pRoot>
 			<m_currentLeftTop type="a">0 0 </m_currentLeftTop>
 			<m_currentRightBottom type="a">0 0 </m_currentRightBottom>
 			<m_bFreezeCompartmentContent type="a">0</m_bFreezeCompartmentContent>
 			<AggregatesList type="e">
-				<value>GUID 6f96c8f3-3add-41a5-ae33-79cf663014ad</value>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-				<value>GUID 3110aee4-de77-43a9-afa5-ff4a63b29f8d</value>
-				<value>GUID 91edec5f-00a5-4363-bceb-2027a98e0937</value>
-				<value>GUID 029950ad-a88a-4f65-aa46-31618302b746</value>
-=======
-				<value>GUID 4f165676-1c3e-4750-8b9e-a040f5a65755</value>
-				<value>GUID a6137883-5961-4a2f-b09d-38e4709de525</value>
-				<value>GUID 87603068-3e9e-49c2-a102-e50c9ca2cf45</value>
->>>>>>> Stashed changes
-=======
-				<value>GUID 4f165676-1c3e-4750-8b9e-a040f5a65755</value>
-				<value>GUID a6137883-5961-4a2f-b09d-38e4709de525</value>
-				<value>GUID 87603068-3e9e-49c2-a102-e50c9ca2cf45</value>
->>>>>>> Stashed changes
+				<value>GUID a2148060-ccd6-4506-903a-6a3b74c1bcd6</value>
+				<value>GUID 0fe565be-24b6-4592-9766-1a14bbe70727</value>
+				<value>GUID c8d98633-0c17-4462-864b-c6642d127113</value>
+				<value>GUID 394cb4c7-66bd-4947-b05f-d826713e02cc</value>
 			</AggregatesList>
 		</CGIMscChart>
 		<CGIBox type="e">
-			<_id type="a">GUID 6f96c8f3-3add-41a5-ae33-79cf663014ad</_id>
+			<_id type="a">GUID a2148060-ccd6-4506-903a-6a3b74c1bcd6</_id>
 			<m_type type="a">108</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">ICollaboration</_hm2Class>
-					<_hid type="a">GUID 3738eb51-d2ed-4f36-bd1c-cff160c94792</_hid>
+					<_hid type="a">GUID bc15b7ab-874e-40ef-b170-755f41fc8352</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
@@ -4902,31 +3410,15 @@
 			<m_nIsNameFormat type="a">0</m_nIsNameFormat>
 		</CGIBox>
 		<CGIMscColumnCR type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<_id type="a">GUID 3110aee4-de77-43a9-afa5-ff4a63b29f8d</_id>
-=======
-			<_id type="a">GUID 4f165676-1c3e-4750-8b9e-a040f5a65755</_id>
->>>>>>> Stashed changes
-=======
-			<_id type="a">GUID 4f165676-1c3e-4750-8b9e-a040f5a65755</_id>
->>>>>>> Stashed changes
+			<_id type="a">GUID 0fe565be-24b6-4592-9766-1a14bbe70727</_id>
 			<m_type type="a">109</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClassifierRole</_hm2Class>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-					<_hid type="a">GUID 9d6dd65b-4135-4080-8f40-89f1e1b8afe4</_hid>
-=======
-					<_hid type="a">GUID b2bc99b4-d5fe-4d8e-95f0-fe5c4210fcc9</_hid>
->>>>>>> Stashed changes
-=======
-					<_hid type="a">GUID b2bc99b4-d5fe-4d8e-95f0-fe5c4210fcc9</_hid>
->>>>>>> Stashed changes
+					<_hid type="a">GUID 42465daf-69db-4e20-a62a-96a99c152017</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 6f96c8f3-3add-41a5-ae33-79cf663014ad</m_pParent>
+			<m_pParent type="s">GUID a2148060-ccd6-4506-903a-6a3b74c1bcd6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">Rte</m_str>
@@ -4972,31 +3464,15 @@
 			<m_SubType type="a">0</m_SubType>
 		</CGIMscColumnCR>
 		<CGIMscColumnCR type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<_id type="a">GUID 91edec5f-00a5-4363-bceb-2027a98e0937</_id>
-=======
-			<_id type="a">GUID a6137883-5961-4a2f-b09d-38e4709de525</_id>
->>>>>>> Stashed changes
-=======
-			<_id type="a">GUID a6137883-5961-4a2f-b09d-38e4709de525</_id>
->>>>>>> Stashed changes
+			<_id type="a">GUID c8d98633-0c17-4462-864b-c6642d127113</_id>
 			<m_type type="a">109</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IClassifierRole</_hm2Class>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-					<_hid type="a">GUID bd07f26b-58f9-4a10-b7bb-4bb64fb6ad92</_hid>
-=======
-					<_hid type="a">GUID d9715e0e-0c6f-48c5-a5e3-1d5accba26ea</_hid>
->>>>>>> Stashed changes
-=======
-					<_hid type="a">GUID d9715e0e-0c6f-48c5-a5e3-1d5accba26ea</_hid>
->>>>>>> Stashed changes
+					<_hid type="a">GUID df007b05-6cbf-4d85-a3da-4b39f3dbf4d8</_hid>
 				</IHandle>
 			</m_pModelObject>
-			<m_pParent type="s">GUID 6f96c8f3-3add-41a5-ae33-79cf663014ad</m_pParent>
+			<m_pParent type="s">GUID a2148060-ccd6-4506-903a-6a3b74c1bcd6</m_pParent>
 			<m_name type="p">
 				<CGIText type="e">
 					<m_str type="a">Rte_SWC_BMS_MainCntrl</m_str>
@@ -5042,15 +3518,7 @@
 			<m_SubType type="a">0</m_SubType>
 		</CGIMscColumnCR>
 		<CGIMscMessage type="e">
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<_id type="a">GUID 029950ad-a88a-4f65-aa46-31618302b746</_id>
-=======
-			<_id type="a">GUID 87603068-3e9e-49c2-a102-e50c9ca2cf45</_id>
->>>>>>> Stashed changes
-=======
-			<_id type="a">GUID 87603068-3e9e-49c2-a102-e50c9ca2cf45</_id>
->>>>>>> Stashed changes
+			<_id type="a">GUID 394cb4c7-66bd-4947-b05f-d826713e02cc</_id>
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
@@ -5093,15 +3561,7 @@
 			<m_pModelObject type="r">
 				<IHandle type="e">
 					<_hm2Class type="a">IMessage</_hm2Class>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-					<_hid type="a">GUID 3edad14e-9d30-465e-9449-ede9d1472f50</_hid>
-=======
-					<_hid type="a">GUID 4bdb63ff-6b53-4ab0-9b82-2733cdf4bc4a</_hid>
->>>>>>> Stashed changes
-=======
-					<_hid type="a">GUID 4bdb63ff-6b53-4ab0-9b82-2733cdf4bc4a</_hid>
->>>>>>> Stashed changes
+					<_hid type="a">GUID 75626864-2378-4c59-ae87-ec71ae7addd0</_hid>
 				</IHandle>
 			</m_pModelObject>
 			<m_pParent type="s"></m_pParent>
@@ -5125,21 +3585,9 @@
 			</m_name>
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-			<m_pSource type="s">GUID 3110aee4-de77-43a9-afa5-ff4a63b29f8d</m_pSource>
+			<m_pSource type="s">GUID 0fe565be-24b6-4592-9766-1a14bbe70727</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID 91edec5f-00a5-4363-bceb-2027a98e0937</m_pTarget>
-=======
-			<m_pSource type="s">GUID 4f165676-1c3e-4750-8b9e-a040f5a65755</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID a6137883-5961-4a2f-b09d-38e4709de525</m_pTarget>
->>>>>>> Stashed changes
-=======
-			<m_pSource type="s">GUID 4f165676-1c3e-4750-8b9e-a040f5a65755</m_pSource>
-			<m_sourceType type="a">'F'</m_sourceType>
-			<m_pTarget type="s">GUID a6137883-5961-4a2f-b09d-38e4709de525</m_pTarget>
->>>>>>> Stashed changes
+			<m_pTarget type="s">GUID c8d98633-0c17-4462-864b-c6642d127113</m_pTarget>
 			<m_targetType type="a">'T'</m_targetType>
 			<m_direction type="a">' '</m_direction>
 			<m_rpn type="p">
@@ -5167,7 +3615,7 @@
 			<m_bLeft type="a">0</m_bLeft>
 		</CGIMscMessage>
 		<IClass type="e">
-			<_id type="a">GUID 27956668-af3f-4dd1-9351-50c9c049f365</_id>
+			<_id type="a">GUID e4b35ab9-9d63-4fa7-a58d-cb7eb498e6a6</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>

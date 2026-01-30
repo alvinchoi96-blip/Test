@@ -11,7 +11,7 @@
 #include "Bms_TxMapper_ReportBattInfo.h"
 
 /* ==================================================================================
- * Global Variables Definition (실제 메모리 할당)
+ * Global Variables Definition 
  * ================================================================================== */
 Input_Signal_Type    g_Input_Signal;
 Input_VcuCmd_Type    g_Input_VcuCmd;
@@ -34,14 +34,32 @@ BmsSoc_Output_t out;
 static BmsModeContext_Type g_BmsModeContext = {BmsMd_StandAlone, BmsMd_StandAlone, FALSE};
 
 FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_InputDataRead_10ms(void)
-{
+{   
+/*  입력 처리: 모든 센서 및 신호 읽기 */
     BMS_Input_ProcessAll();
 }
 
 FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_BattStatusProcess_10ms(void)
 {
-    
-    BMS_Logic_MainSequence();
+    e_FaultLevel currentFaultLevel;
+    /* 고장 진단: 현재 결함 상태 확인 */
+    currentFaultLevel = BMS_Logic_CheckFaults();
+
+    if (currentFaultLevel == FltLv_Error)
+    {
+        /* 오류 발생 시 긴급 모드 설정 함수 호출 */
+        BMS_Logic_SetEmergencyMode();
+    }
+    else
+    {
+        /* 정상 또는 경고 수준일 때 운전 모드 판단 함수 호출 */
+        BMS_Logic_DetermineNormalOperation();
+    }
+    /*  물리적 제어 실행: 결정된 모드에 맞춰 릴레이/컨택터 구동 */
+    BMS_Logic_ExecuteControl(g_BmsModeContext.determinedMode);
+
+    /*  출력 업데이트: 최종 데이터 및 상태 플래그 송신 */
+    BMS_Logic_UpdateOutputs(g_BmsModeContext.determinedMode);
 }
 
 FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_SoX_1000ms(void)

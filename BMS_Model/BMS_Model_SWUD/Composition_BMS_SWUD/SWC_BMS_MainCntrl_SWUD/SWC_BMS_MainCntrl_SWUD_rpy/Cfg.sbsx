@@ -8,7 +8,7 @@
 	
 	<RHAPSODY-MODEL>
 	<ISubsystem type="e">
-			<_id type="a">GUID 1579510f-dc92-4891-9a5b-e72eb8c11f9a</_id>
+			<_id type="a">GUID b6967392-a0aa-40a0-8a4e-9e2d84590f48</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Cfg</_name>
 			<Stereotypes type="c">
@@ -25,24 +25,24 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.29.2026::12:31:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.29.2026::12:31:22</_modifiedTime>
-			<weakCGTime type="a">1.29.2026::12:31:50</weakCGTime>
-			<strongCGTime type="a">1.29.2026::12:31:26</strongCGTime>
-			<_defaultComposite type="s">GUID d7dfa57c-43c3-4f80-aea0-2dadd8a1c2fe</_defaultComposite>
+			<_modifiedTimeWeak type="a">1.30.2026::1:2:53</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.30.2026::1:2:53</_modifiedTime>
+			<weakCGTime type="a">1.30.2026::1:3:44</weakCGTime>
+			<strongCGTime type="a">1.30.2026::1:3:2</strongCGTime>
+			<_defaultComposite type="s">GUID c35d6f04-9afc-490f-9c52-9d3011c85c9b</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
-			<_configurationRelatedTime type="a">1.29.2026::12:31:22</_configurationRelatedTime>
+			<_configurationRelatedTime type="a">1.30.2026::1:2:53</_configurationRelatedTime>
 			<AggregatesList type="e">
-				<value>GUID d7dfa57c-43c3-4f80-aea0-2dadd8a1c2fe</value>
+				<value>GUID c35d6f04-9afc-490f-9c52-9d3011c85c9b</value>
 			</AggregatesList>
 		</ISubsystem>
 		<IClass type="e">
-			<_id type="a">GUID d7dfa57c-43c3-4f80-aea0-2dadd8a1c2fe</_id>
+			<_id type="a">GUID c35d6f04-9afc-490f-9c52-9d3011c85c9b</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
-			<_modifiedTimeWeak type="a">1.29.2026::12:31:50</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.29.2026::12:31:50</_modifiedTime>
-			<weakCGTime type="a">1.29.2026::12:31:50</weakCGTime>
+			<_modifiedTimeWeak type="a">1.30.2026::1:3:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.30.2026::1:3:44</_modifiedTime>
+			<weakCGTime type="a">1.30.2026::1:3:44</weakCGTime>
 			<strongCGTime type="a">1.2.1990::0:0:0</strongCGTime>
 			<_itsStateChart type="r">
 				<IHandle type="e">
@@ -50,12 +50,12 @@
 			</_itsStateChart>
 			<_classModifier type="a">Unspecified</_classModifier>
 			<AggregatesList type="e">
-				<value>GUID 7c50e02d-8d45-49af-a609-72e81599d64d</value>
-				<value>GUID d1a67f15-ba1a-4bb6-b3ea-2f505599fbc4</value>
+				<value>GUID 3b297775-02e8-4f17-8556-024228d8f325</value>
+				<value>GUID ac7b2070-995c-4c5a-bda2-8e520bb5caad</value>
 			</AggregatesList>
 		</IClass>
 		<IModule type="e">
-			<_id type="a">GUID 7c50e02d-8d45-49af-a609-72e81599d64d</_id>
+			<_id type="a">GUID 3b297775-02e8-4f17-8556-024228d8f325</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Soc_Cfg</_name>
 			<Stereotypes type="c">
@@ -72,13 +72,13 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.29.2026::12:31:49</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.29.2026::12:31:49</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.30.2026::1:3:43</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.30.2026::1:3:43</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID 9cf8323f-5748-49b0-b69f-dfe99eef2457</_hid>
+					<_hid type="a">GUID ce15c6cb-d235-41d1-9f09-a1f7fc8a96ed</_hid>
 				</IClassifierHandle>
 			</_otherClass>
 			<_inverse type="r">
@@ -86,60 +86,60 @@
 				</IHandle>
 			</_inverse>
 			<_implicitClass type="p"><IClass type="e">
-				<_id type="a">GUID 9cf8323f-5748-49b0-b69f-dfe99eef2457</_id>
+				<_id type="a">GUID ce15c6cb-d235-41d1-9f09-a1f7fc8a96ed</_id>
 				<_myState type="a">10240</_myState>
 				<_name type="a">Soc_Cfg</_name>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:49</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:49</_modifiedTime>
-				<weakCGTime type="a">1.29.2026::12:31:49</weakCGTime>
-				<strongCGTime type="a">1.29.2026::12:31:22</strongCGTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:3:43</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:3:43</_modifiedTime>
+				<weakCGTime type="a">1.30.2026::1:3:43</weakCGTime>
+				<strongCGTime type="a">1.30.2026::1:2:53</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
 					</IHandle>
 				</_itsStateChart>
 				<_classModifier type="a">Unspecified</_classModifier>
 				<AggregatesList type="e">
-					<value>GUID f8fcaab3-cb5d-4d54-b541-f02e6c117a36</value>
-					<value>GUID 91489a4a-29bd-4076-a3d9-f036a7e4d353</value>
-					<value>GUID 42fd0c95-9eef-4a44-b35f-f5528d57dc47</value>
-					<value>GUID 0fe395f6-0c18-4201-84dd-17f9e0ce74f4</value>
-					<value>GUID fb8996db-c8a6-4577-affe-14eae149eacb</value>
-					<value>GUID dda47bbb-839f-40fe-aa41-521eb198135e</value>
-					<value>GUID 820ed38a-3e9c-4ef4-82f4-66a09568ec21</value>
-					<value>GUID bc967f8a-c872-4a43-81ee-ae57b467b750</value>
-					<value>GUID 2707a084-fdc2-4fde-bc9c-245f14fa99c1</value>
-					<value>GUID 47654a85-cdfb-415e-9598-247fc68a7b34</value>
-					<value>GUID 164842e9-3bba-4262-a8a6-bbc374bc9c06</value>
-					<value>GUID d521a2f4-eca0-4dd6-b960-3caac41d4fb0</value>
-					<value>GUID 9aca3f74-673d-4bd2-94fc-bd98e3ca9e4a</value>
-					<value>GUID 20226d83-a193-4a17-bce1-9ae4475764b6</value>
-					<value>GUID 9dca9517-3947-4c1b-8021-c6942b3ee57e</value>
-					<value>GUID c62075c3-1a4c-4cab-a4e0-e340d3f58f88</value>
-					<value>GUID bb2a019f-6ba3-4fd1-a9c6-308f127ac9ca</value>
-					<value>GUID 9038d9a9-9290-420b-891f-f8390db3eade</value>
-					<value>GUID 11e9be8b-6a07-4c0e-86f0-aac52fe05a32</value>
-					<value>GUID 270cb350-5c4d-4458-85d8-a1d4e8cdc4c1</value>
-					<value>GUID 353451f3-9f68-4ba4-864f-2bdc96ad5411</value>
-					<value>GUID 3a9d58a7-900c-42b3-bd49-4719ec483550</value>
-					<value>GUID 1d1175b9-c281-4444-87d7-2bb4574669d7</value>
-					<value>GUID 708997e0-4044-4c14-8dfc-8c9cdaebc98e</value>
-					<value>GUID 2f069655-1fe7-4f0e-82c3-ce73f43b27f7</value>
-					<value>GUID 0a33bf6e-1540-4d28-99d3-bb80b80d674c</value>
-					<value>GUID 940f005c-9f50-44d9-bcad-b7b671b81c43</value>
-					<value>GUID ed3d4e97-2d64-4c83-bcd7-86ba5ea113f1</value>
-					<value>GUID df51127b-2c62-4ae1-918c-1ae5fe4250ab</value>
-					<value>GUID d12cd28f-7c64-4e38-a137-35ab78193042</value>
-					<value>GUID c3dd3ec7-cf3a-4f35-a875-91cf565460ff</value>
-					<value>GUID 10a09c04-6c33-4a22-98ff-4114b02a80d6</value>
-					<value>GUID 91ca31f0-93e1-41f3-b733-873da2d1a362</value>
-					<value>GUID 81dd73a8-f84a-4dc5-b1d8-06ce9fd460b2</value>
-					<value>GUID 7f63c922-d055-44ba-9951-d337d75769a8</value>
-					<value>GUID 16180fe2-5543-4eb3-90ef-2b12f16dd9da</value>
-					<value>GUID 9875184a-a339-4a5d-8109-de36dcbd03e3</value>
+					<value>GUID 6c24b191-843b-46e8-af4e-6fa7561d6c30</value>
+					<value>GUID e5ff944c-0d09-4160-85a5-e5cb6c385557</value>
+					<value>GUID ea023d0c-201d-4102-b778-638655fa30d2</value>
+					<value>GUID a554fbb7-7110-4b46-8d4c-a9914ef5a7ec</value>
+					<value>GUID ac04c1fc-3018-494c-9924-e20f60a0a8e8</value>
+					<value>GUID 31c27851-3297-49b7-b281-af84dfcf9b91</value>
+					<value>GUID 60c20cb9-35e6-448b-870e-c99a63b26507</value>
+					<value>GUID 8d98075f-98df-4fce-a586-51e905f392ea</value>
+					<value>GUID 18aaf4e5-33ac-4b33-9aec-c084f57256ff</value>
+					<value>GUID 4fe58175-a0d0-46da-bc22-166c8240e06b</value>
+					<value>GUID 3c11efb7-433c-408f-ad88-825d0300adf4</value>
+					<value>GUID a7c1ca1f-4d10-4191-8f11-affd798bde49</value>
+					<value>GUID 62d333b1-71f4-4845-9d19-a80bf1adcafa</value>
+					<value>GUID faa1f1d8-18a0-409d-889e-06bb3a0487ac</value>
+					<value>GUID a5653297-ca58-4158-8ef5-4dd6f83611fd</value>
+					<value>GUID 9e09ff3d-df84-4638-b56e-35f2ccddb951</value>
+					<value>GUID c85f1827-595a-4603-a309-92dafea7c798</value>
+					<value>GUID 2703b820-e22e-45be-bd0a-ff715bd7ef58</value>
+					<value>GUID 88f8ea46-28e0-4bdc-9e25-ee3715b7e279</value>
+					<value>GUID 9fb0c22c-91a2-4672-b96f-2081184284dc</value>
+					<value>GUID 60d996e6-1bf1-49d7-ab86-ea5318204473</value>
+					<value>GUID 75380ae5-c83a-47d1-9a42-9d3315ecd703</value>
+					<value>GUID 44301803-e7c3-49cf-9e3e-923bea4c6f41</value>
+					<value>GUID 683096c0-59e9-49ec-ac46-1b49578c4aff</value>
+					<value>GUID 8e8336eb-2eaa-4fb5-9f8a-0dc07fd4df11</value>
+					<value>GUID 5d61d9d9-b7bc-4412-9f97-c3a8456b5249</value>
+					<value>GUID eee35fab-91c7-4de5-ba0a-e331dde64d29</value>
+					<value>GUID 78043b8a-c557-4613-a6f8-1ac0a06d8709</value>
+					<value>GUID a031e7a2-c374-468f-8a2b-749c10e3f94a</value>
+					<value>GUID f27795d2-385b-443d-b92e-1d1398353b7f</value>
+					<value>GUID 2e162b8c-a9c1-41c3-a049-9bc3fbd59081</value>
+					<value>GUID 33a5359e-2206-4a43-bab3-9b73512743d9</value>
+					<value>GUID efded185-3e1f-4e21-83a5-619a9ec3d9d8</value>
+					<value>GUID fdafe4ab-e709-4bc4-97de-8da335cee1c1</value>
+					<value>GUID 53a49ab3-fcd5-4a5a-9745-c9c2eaf68f0e</value>
+					<value>GUID 527066cb-c24c-4e83-ad7d-b2157fd557f5</value>
+					<value>GUID 00e32c97-7840-41b1-a8b0-babf091ee44e</value>
 				</AggregatesList>
 			</IClass>
 			<IDependency type="e">
-				<_id type="a">GUID f8fcaab3-cb5d-4d54-b541-f02e6c117a36</_id>
+				<_id type="a">GUID 6c24b191-843b-46e8-af4e-6fa7561d6c30</_id>
 				<_myState type="a">2048</_myState>
 				<_name type="a">Platform_Types</_name>
 				<Stereotypes type="c">
@@ -156,8 +156,8 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:49</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:49</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:3:43</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:3:43</_modifiedTime>
 				<_dependsOn type="r">
 					<INObjectHandle type="e">
 						<_hm2Class type="a">IClass</_hm2Class>
@@ -171,37 +171,37 @@
 				<_dependent type="r">
 					<INObjectHandle type="e">
 						<_hm2Class type="a">IClass</_hm2Class>
-						<_hid type="a">GUID 9cf8323f-5748-49b0-b69f-dfe99eef2457</_hid>
+						<_hid type="a">GUID ce15c6cb-d235-41d1-9f09-a1f7fc8a96ed</_hid>
 					</INObjectHandle>
 				</_dependent>
 			</IDependency>
 			<ITag type="e">
-				<_id type="a">GUID 91489a4a-29bd-4076-a3d9-f036a7e4d353</_id>
+				<_id type="a">GUID e5ff944c-0d09-4160-85a5-e5cb6c385557</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">kind</_name>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:22</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:22</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:53</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:53</_modifiedTime>
 				<_isOrdered type="a">0</_isOrdered>
 				<AggregatesList type="e">
-					<value>GUID 20f3b706-344e-4ff2-852e-c756ef03913e</value>
-					<value>GUID 47c2fe30-d70b-43d5-ac95-c7013a4374ac</value>
+					<value>GUID 787971f2-462a-49ac-bcbc-06d6689a3eaf</value>
+					<value>GUID c067a9ae-a331-4eff-8a1a-079dacf6c192</value>
 				</AggregatesList>
 			</ITag>
 			<ILiteralSpecification type="e">
-				<_id type="a">GUID 20f3b706-344e-4ff2-852e-c756ef03913e</_id>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:22</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:22</_modifiedTime>
+				<_id type="a">GUID 787971f2-462a-49ac-bcbc-06d6689a3eaf</_id>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:53</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:53</_modifiedTime>
 				<_value type="a">HeaderFile</_value>
 			</ILiteralSpecification>
 			<IType type="e">
-				<_id type="a">GUID 47c2fe30-d70b-43d5-ac95-c7013a4374ac</_id>
+				<_id type="a">GUID c067a9ae-a331-4eff-8a1a-079dacf6c192</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID 42fd0c95-9eef-4a44-b35f-f5528d57dc47</_id>
+				<_id type="a">GUID ea023d0c-201d-4102-b778-638655fa30d2</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">Platform_Types</_name>
 				<Stereotypes type="c">
@@ -218,13 +218,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:22</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:22</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:53</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:53</_modifiedTime>
 				<_declaration type="a">#include &quot;%25s.h&quot;</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID 0fe395f6-0c18-4201-84dd-17f9e0ce74f4</_id>
+				<_id type="a">GUID a554fbb7-7110-4b46-8d4c-a9914ef5a7ec</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_SCALE_X10</_name>
 				<Stereotypes type="c">
@@ -241,13 +241,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:22</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:22</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:54</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:54</_modifiedTime>
 				<_declaration type="a">#define %25s                  (10u)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID fb8996db-c8a6-4577-affe-14eae149eacb</_id>
+				<_id type="a">GUID ac04c1fc-3018-494c-9924-e20f60a0a8e8</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_UNIT_VOLTAGE_MV</_name>
 				<Stereotypes type="c">
@@ -264,13 +264,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:22</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:22</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:54</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:54</_modifiedTime>
 				<_declaration type="a">#define %25s                (1u)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID dda47bbb-839f-40fe-aa41-521eb198135e</_id>
+				<_id type="a">GUID 31c27851-3297-49b7-b281-af84dfcf9b91</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_UNIT_CURRENT_MA</_name>
 				<Stereotypes type="c">
@@ -287,13 +287,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:22</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:22</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:54</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:54</_modifiedTime>
 				<_declaration type="a">#define %25s                (1u)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID 820ed38a-3e9c-4ef4-82f4-66a09568ec21</_id>
+				<_id type="a">GUID 60c20cb9-35e6-448b-870e-c99a63b26507</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_UNIT_TEMP_DC</_name>
 				<Stereotypes type="c">
@@ -310,13 +310,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:23</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:23</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:54</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:54</_modifiedTime>
 				<_declaration type="a">#define %25s                   (1u)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID bc967f8a-c872-4a43-81ee-ae57b467b750</_id>
+				<_id type="a">GUID 8d98075f-98df-4fce-a586-51e905f392ea</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_NOM_CAPACITY_AH_X10</_name>
 				<Stereotypes type="c">
@@ -333,13 +333,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:23</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:23</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:55</_modifiedTime>
 				<_declaration type="a">#define %25s        (500u)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID 2707a084-fdc2-4fde-bc9c-245f14fa99c1</_id>
+				<_id type="a">GUID 18aaf4e5-33ac-4b33-9aec-c084f57256ff</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_NOM_ENERGY_WH_X10</_name>
 				<Stereotypes type="c">
@@ -356,13 +356,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:23</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:23</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:55</_modifiedTime>
 				<_declaration type="a">#define %25s          (180000u)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID 47654a85-cdfb-415e-9598-247fc68a7b34</_id>
+				<_id type="a">GUID 4fe58175-a0d0-46da-bc22-166c8240e06b</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_EFF_CHG_X1000</_name>
 				<Stereotypes type="c">
@@ -379,13 +379,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:23</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:23</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:55</_modifiedTime>
 				<_declaration type="a">#define %25s              (995u)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID 164842e9-3bba-4262-a8a6-bbc374bc9c06</_id>
+				<_id type="a">GUID 3c11efb7-433c-408f-ad88-825d0300adf4</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_EFF_DISCHG_X1000</_name>
 				<Stereotypes type="c">
@@ -402,13 +402,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:23</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:23</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:55</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:55</_modifiedTime>
 				<_declaration type="a">#define %25s           (990u)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID d521a2f4-eca0-4dd6-b960-3caac41d4fb0</_id>
+				<_id type="a">GUID a7c1ca1f-4d10-4191-8f11-affd798bde49</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_CC_DT_MS</_name>
 				<Stereotypes type="c">
@@ -425,13 +425,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:23</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:23</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:56</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:56</_modifiedTime>
 				<_declaration type="a">#define %25s                   (1000u)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID 9aca3f74-673d-4bd2-94fc-bd98e3ca9e4a</_id>
+				<_id type="a">GUID 62d333b1-71f4-4845-9d19-a80bf1adcafa</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_CC_I_OFFSET_MA</_name>
 				<Stereotypes type="c">
@@ -448,13 +448,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:23</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:23</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:56</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:56</_modifiedTime>
 				<_declaration type="a">#define %25s             (0)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID 20226d83-a193-4a17-bce1-9ae4475764b6</_id>
+				<_id type="a">GUID faa1f1d8-18a0-409d-889e-06bb3a0487ac</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_CC_I_DEADBAND_MA</_name>
 				<Stereotypes type="c">
@@ -471,13 +471,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:24</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:24</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:56</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:56</_modifiedTime>
 				<_declaration type="a">#define %25s           (300)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID 9dca9517-3947-4c1b-8021-c6942b3ee57e</_id>
+				<_id type="a">GUID a5653297-ca58-4158-8ef5-4dd6f83611fd</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_CC_SLEW_LIMIT_X10_PER_S</_name>
 				<Stereotypes type="c">
@@ -494,13 +494,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:24</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:24</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:56</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:56</_modifiedTime>
 				<_declaration type="a">#define %25s    (20u)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID c62075c3-1a4c-4cab-a4e0-e340d3f58f88</_id>
+				<_id type="a">GUID 9e09ff3d-df84-4638-b56e-35f2ccddb951</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_OCV_POINTS</_name>
 				<Stereotypes type="c">
@@ -517,13 +517,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:24</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:24</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:57</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:57</_modifiedTime>
 				<_declaration type="a">#define %25s                 (11u)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID bb2a019f-6ba3-4fd1-a9c6-308f127ac9ca</_id>
+				<_id type="a">GUID c85f1827-595a-4603-a309-92dafea7c798</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_REST_I_THR_MA</_name>
 				<Stereotypes type="c">
@@ -540,13 +540,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:24</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:24</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:57</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:57</_modifiedTime>
 				<_declaration type="a">#define %25s              (500)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID 9038d9a9-9290-420b-891f-f8390db3eade</_id>
+				<_id type="a">GUID 2703b820-e22e-45be-bd0a-ff715bd7ef58</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_REST_V_DV_THR_MV</_name>
 				<Stereotypes type="c">
@@ -563,13 +563,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:24</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:24</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:57</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:57</_modifiedTime>
 				<_declaration type="a">#define %25s           (5)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID 11e9be8b-6a07-4c0e-86f0-aac52fe05a32</_id>
+				<_id type="a">GUID 88f8ea46-28e0-4bdc-9e25-ee3715b7e279</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_REST_TIME_MS</_name>
 				<Stereotypes type="c">
@@ -586,13 +586,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:24</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:24</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:57</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:57</_modifiedTime>
 				<_declaration type="a">#define %25s               (300000u)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID 270cb350-5c4d-4458-85d8-a1d4e8cdc4c1</_id>
+				<_id type="a">GUID 9fb0c22c-91a2-4672-b96f-2081184284dc</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_OCV_CORR_GAIN_X1000</_name>
 				<Stereotypes type="c">
@@ -609,13 +609,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:24</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:24</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:57</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:57</_modifiedTime>
 				<_declaration type="a">#define %25s        (200u)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID 353451f3-9f68-4ba4-864f-2bdc96ad5411</_id>
+				<_id type="a">GUID 60d996e6-1bf1-49d7-ab86-ea5318204473</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_OCV_CORR_MAX_STEP_X10</_name>
 				<Stereotypes type="c">
@@ -632,13 +632,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:24</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:24</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:58</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:58</_modifiedTime>
 				<_declaration type="a">#define %25s      (30u)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID 3a9d58a7-900c-42b3-bd49-4719ec483550</_id>
+				<_id type="a">GUID 75380ae5-c83a-47d1-9a42-9d3315ecd703</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_MIN_X10</_name>
 				<Stereotypes type="c">
@@ -655,13 +655,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:25</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:25</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:58</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:58</_modifiedTime>
 				<_declaration type="a">#define %25s                    (0u)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID 1d1175b9-c281-4444-87d7-2bb4574669d7</_id>
+				<_id type="a">GUID 44301803-e7c3-49cf-9e3e-923bea4c6f41</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_MAX_X10</_name>
 				<Stereotypes type="c">
@@ -678,13 +678,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:25</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:25</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:58</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:58</_modifiedTime>
 				<_declaration type="a">#define %25s                    (1000u)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID 708997e0-4044-4c14-8dfc-8c9cdaebc98e</_id>
+				<_id type="a">GUID 683096c0-59e9-49ec-ac46-1b49578c4aff</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_INVALID_HOLD_MS</_name>
 				<Stereotypes type="c">
@@ -701,13 +701,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:25</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:25</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:58</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:58</_modifiedTime>
 				<_declaration type="a">#define %25s            (10000u)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID 2f069655-1fe7-4f0e-82c3-ce73f43b27f7</_id>
+				<_id type="a">GUID 8e8336eb-2eaa-4fb5-9f8a-0dc07fd4df11</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_INVALID_DEFAULT_X10</_name>
 				<Stereotypes type="c">
@@ -724,13 +724,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:25</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:25</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:59</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:59</_modifiedTime>
 				<_declaration type="a">#define %25s        (500u)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID 0a33bf6e-1540-4d28-99d3-bb80b80d674c</_id>
+				<_id type="a">GUID 5d61d9d9-b7bc-4412-9f97-c3a8456b5249</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_FLAG_VALID</_name>
 				<Stereotypes type="c">
@@ -747,13 +747,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:25</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:25</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:59</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:59</_modifiedTime>
 				<_declaration type="a">#define %25s                 (0x01u)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID 940f005c-9f50-44d9-bcad-b7b671b81c43</_id>
+				<_id type="a">GUID eee35fab-91c7-4de5-ba0a-e331dde64d29</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_FLAG_OCV_USED</_name>
 				<Stereotypes type="c">
@@ -770,13 +770,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:25</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:25</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:59</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:59</_modifiedTime>
 				<_declaration type="a">#define %25s              (0x02u)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID ed3d4e97-2d64-4c83-bcd7-86ba5ea113f1</_id>
+				<_id type="a">GUID 78043b8a-c557-4613-a6f8-1ac0a06d8709</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_FLAG_CC_USED</_name>
 				<Stereotypes type="c">
@@ -793,13 +793,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:25</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:25</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:2:59</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:2:59</_modifiedTime>
 				<_declaration type="a">#define %25s               (0x04u)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID df51127b-2c62-4ae1-918c-1ae5fe4250ab</_id>
+				<_id type="a">GUID a031e7a2-c374-468f-8a2b-749c10e3f94a</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_FLAG_SATURATED</_name>
 				<Stereotypes type="c">
@@ -816,13 +816,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:25</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:25</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:3:0</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:3:0</_modifiedTime>
 				<_declaration type="a">#define %25s             (0x08u)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID d12cd28f-7c64-4e38-a137-35ab78193042</_id>
+				<_id type="a">GUID f27795d2-385b-443d-b92e-1d1398353b7f</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_V_MIN_MV_SANITY</_name>
 				<Stereotypes type="c">
@@ -839,13 +839,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:25</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:25</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:3:1</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:3:1</_modifiedTime>
 				<_declaration type="a">#define %25s            (100u)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID c3dd3ec7-cf3a-4f35-a875-91cf565460ff</_id>
+				<_id type="a">GUID 2e162b8c-a9c1-41c3-a049-9bc3fbd59081</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_V_MAX_MV_SANITY</_name>
 				<Stereotypes type="c">
@@ -862,13 +862,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:25</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:25</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:3:1</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:3:1</_modifiedTime>
 				<_declaration type="a">#define %25s            (200000u)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID 10a09c04-6c33-4a22-98ff-4114b02a80d6</_id>
+				<_id type="a">GUID 33a5359e-2206-4a43-bab3-9b73512743d9</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_I_MIN_MA_SANITY</_name>
 				<Stereotypes type="c">
@@ -885,13 +885,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:26</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:26</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:3:1</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:3:1</_modifiedTime>
 				<_declaration type="a">#define %25s            ((sint16)-500000)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID 91ca31f0-93e1-41f3-b733-873da2d1a362</_id>
+				<_id type="a">GUID efded185-3e1f-4e21-83a5-619a9ec3d9d8</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_I_MAX_MA_SANITY</_name>
 				<Stereotypes type="c">
@@ -908,13 +908,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:26</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:26</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:3:2</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:3:2</_modifiedTime>
 				<_declaration type="a">#define %25s            ((sint16) 500000)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID 81dd73a8-f84a-4dc5-b1d8-06ce9fd460b2</_id>
+				<_id type="a">GUID fdafe4ab-e709-4bc4-97de-8da335cee1c1</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_T_MIN_DC_SANITY</_name>
 				<Stereotypes type="c">
@@ -931,13 +931,13 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:26</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:26</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:3:2</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:3:2</_modifiedTime>
 				<_declaration type="a">#define %25s            ((sint16)-500)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID 7f63c922-d055-44ba-9951-d337d75769a8</_id>
+				<_id type="a">GUID 53a49ab3-fcd5-4a5a-9745-c9c2eaf68f0e</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BMS_SOC_T_MAX_DC_SANITY</_name>
 				<Stereotypes type="c">
@@ -954,28 +954,28 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:26</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:26</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:3:2</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:3:2</_modifiedTime>
 				<_declaration type="a">#define %25s            ((sint16) 1250)</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IAttribute type="e">
-				<_id type="a">GUID 16180fe2-5543-4eb3-90ef-2b12f16dd9da</_id>
+				<_id type="a">GUID 527066cb-c24c-4e83-ad7d-b2157fd557f5</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BmsSoc_OcvSocBp_X10</_name>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:26</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:26</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:3:2</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:3:2</_modifiedTime>
 				<_isOrdered type="a">0</_isOrdered>
 				<_protection type="a">iPublic</_protection>
 				<_static type="a">0</_static>
 				<_isReferenceAttr type="a">0</_isReferenceAttr>
 				<_isConstant type="a">0</_isConstant>
 				<AggregatesList type="e">
-					<value>GUID 009ff14b-d9a4-410e-8f2f-49998ba570d8</value>
+					<value>GUID 9c714368-631b-4473-aff0-4b4a4ed4e119</value>
 				</AggregatesList>
 			</IAttribute>
 			<IType type="e">
-				<_id type="a">GUID 009ff14b-d9a4-410e-8f2f-49998ba570d8</_id>
+				<_id type="a">GUID 9c714368-631b-4473-aff0-4b4a4ed4e119</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
@@ -983,22 +983,22 @@
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IAttribute type="e">
-				<_id type="a">GUID 9875184a-a339-4a5d-8109-de36dcbd03e3</_id>
+				<_id type="a">GUID 00e32c97-7840-41b1-a8b0-babf091ee44e</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BmsSoc_OcvTable_mV</_name>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:26</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:26</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:3:2</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:3:2</_modifiedTime>
 				<_isOrdered type="a">0</_isOrdered>
 				<_protection type="a">iPublic</_protection>
 				<_static type="a">0</_static>
 				<_isReferenceAttr type="a">0</_isReferenceAttr>
 				<_isConstant type="a">0</_isConstant>
 				<AggregatesList type="e">
-					<value>GUID ac667078-4d95-4e34-9b12-ef80399678c3</value>
+					<value>GUID 74c1126c-5e91-4abd-a375-b9fff8c7de4b</value>
 				</AggregatesList>
 			</IAttribute>
 			<IType type="e">
-				<_id type="a">GUID ac667078-4d95-4e34-9b12-ef80399678c3</_id>
+				<_id type="a">GUID 74c1126c-5e91-4abd-a375-b9fff8c7de4b</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
@@ -1009,7 +1009,7 @@
 			<_partKind type="a">Block</_partKind>
 		</IModule>
 		<IModule type="e">
-			<_id type="a">GUID d1a67f15-ba1a-4bb6-b3ea-2f505599fbc4</_id>
+			<_id type="a">GUID ac7b2070-995c-4c5a-bda2-8e520bb5caad</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">Soc_Cfg</_name>
 			<Stereotypes type="c">
@@ -1026,13 +1026,13 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.29.2026::12:31:50</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.29.2026::12:31:50</_modifiedTime>
+			<_modifiedTimeWeak type="a">1.30.2026::1:3:44</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.30.2026::1:3:44</_modifiedTime>
 			<_multiplicity type="a">1</_multiplicity>
 			<_otherClass type="r">
 				<IClassifierHandle type="e">
 					<_hm2Class type="a">IClass</_hm2Class>
-					<_hid type="a">GUID d5dee1bc-691f-4e99-ad29-4fe7918cda56</_hid>
+					<_hid type="a">GUID 31ad8a16-9263-44a8-8c83-bf60022aa752</_hid>
 				</IClassifierHandle>
 			</_otherClass>
 			<_inverse type="r">
@@ -1040,28 +1040,28 @@
 				</IHandle>
 			</_inverse>
 			<_implicitClass type="p"><IClass type="e">
-				<_id type="a">GUID d5dee1bc-691f-4e99-ad29-4fe7918cda56</_id>
+				<_id type="a">GUID 31ad8a16-9263-44a8-8c83-bf60022aa752</_id>
 				<_myState type="a">10240</_myState>
 				<_name type="a">Soc_Cfg</_name>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:50</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:50</_modifiedTime>
-				<weakCGTime type="a">1.29.2026::12:31:50</weakCGTime>
-				<strongCGTime type="a">1.29.2026::12:31:26</strongCGTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:3:44</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:3:44</_modifiedTime>
+				<weakCGTime type="a">1.30.2026::1:3:44</weakCGTime>
+				<strongCGTime type="a">1.30.2026::1:3:2</strongCGTime>
 				<_itsStateChart type="r">
 					<IHandle type="e">
 					</IHandle>
 				</_itsStateChart>
 				<_classModifier type="a">Unspecified</_classModifier>
 				<AggregatesList type="e">
-					<value>GUID 03440daf-8f5d-4498-bdec-f2ec0ab2d5b6</value>
-					<value>GUID 1b577295-72f1-4de5-ae4e-1e28ad2091a3</value>
-					<value>GUID 13ece30c-9c31-4052-941b-ed5872d1f00a</value>
-					<value>GUID b25034e8-2842-44e1-b300-8eebb3c179da</value>
-					<value>GUID 81e33aee-9b31-4b21-af5d-fbf2eaf9671a</value>
+					<value>GUID 6637b8cb-1fdc-4508-95e4-67df4d02a336</value>
+					<value>GUID d8a89fb4-f7a4-4167-816a-380a7a81d4aa</value>
+					<value>GUID 014b8248-3676-45a3-b0a4-4f1d452d4a6d</value>
+					<value>GUID 94471055-9da1-4ae7-98de-13ee049984e3</value>
+					<value>GUID 0b1a9711-9f9c-417c-ae1c-ce503816d21b</value>
 				</AggregatesList>
 			</IClass>
 			<IDependency type="e">
-				<_id type="a">GUID 03440daf-8f5d-4498-bdec-f2ec0ab2d5b6</_id>
+				<_id type="a">GUID 6637b8cb-1fdc-4508-95e4-67df4d02a336</_id>
 				<_myState type="a">2048</_myState>
 				<_name type="a">Soc_Cfg</_name>
 				<Stereotypes type="c">
@@ -1078,48 +1078,48 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:50</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:50</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:3:44</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:3:44</_modifiedTime>
 				<_dependsOn type="r">
 					<INObjectHandle type="e">
 						<_hm2Class type="a">IClass</_hm2Class>
-						<_hid type="a">GUID 9cf8323f-5748-49b0-b69f-dfe99eef2457</_hid>
+						<_hid type="a">GUID ce15c6cb-d235-41d1-9f09-a1f7fc8a96ed</_hid>
 					</INObjectHandle>
 				</_dependsOn>
 				<_dependent type="r">
 					<INObjectHandle type="e">
 						<_hm2Class type="a">IClass</_hm2Class>
-						<_hid type="a">GUID d5dee1bc-691f-4e99-ad29-4fe7918cda56</_hid>
+						<_hid type="a">GUID 31ad8a16-9263-44a8-8c83-bf60022aa752</_hid>
 					</INObjectHandle>
 				</_dependent>
 			</IDependency>
 			<ITag type="e">
-				<_id type="a">GUID 1b577295-72f1-4de5-ae4e-1e28ad2091a3</_id>
+				<_id type="a">GUID d8a89fb4-f7a4-4167-816a-380a7a81d4aa</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">kind</_name>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:26</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:26</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:3:2</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:3:2</_modifiedTime>
 				<_isOrdered type="a">0</_isOrdered>
 				<AggregatesList type="e">
-					<value>GUID 378ed69f-e91f-4eda-9adb-b010036d8dc8</value>
-					<value>GUID 11fb9237-21a4-4faf-8f68-0455d910aba3</value>
+					<value>GUID 1140f789-cf3b-4d7f-ab58-40f0fe220400</value>
+					<value>GUID e66b1366-6917-4d3d-94b4-055404c8016a</value>
 				</AggregatesList>
 			</ITag>
 			<ILiteralSpecification type="e">
-				<_id type="a">GUID 378ed69f-e91f-4eda-9adb-b010036d8dc8</_id>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:26</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:26</_modifiedTime>
+				<_id type="a">GUID 1140f789-cf3b-4d7f-ab58-40f0fe220400</_id>
+				<_modifiedTimeWeak type="a">1.30.2026::1:3:2</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:3:2</_modifiedTime>
 				<_value type="a">SourceFile</_value>
 			</ILiteralSpecification>
 			<IType type="e">
-				<_id type="a">GUID 11fb9237-21a4-4faf-8f68-0455d910aba3</_id>
+				<_id type="a">GUID e66b1366-6917-4d3d-94b4-055404c8016a</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IType type="e">
-				<_id type="a">GUID 13ece30c-9c31-4052-941b-ed5872d1f00a</_id>
+				<_id type="a">GUID 014b8248-3676-45a3-b0a4-4f1d452d4a6d</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">Soc_Cfg</_name>
 				<Stereotypes type="c">
@@ -1136,38 +1136,38 @@
 						
 					</IRPYRawContainer>
 				</Stereotypes>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:27</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:27</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:3:3</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:3:3</_modifiedTime>
 				<_declaration type="a">#include &quot;%25s.h&quot;</_declaration>
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IAttribute type="e">
-				<_id type="a">GUID b25034e8-2842-44e1-b300-8eebb3c179da</_id>
+				<_id type="a">GUID 94471055-9da1-4ae7-98de-13ee049984e3</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BmsSoc_OcvSocBp_X10</_name>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:27</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:27</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:3:3</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:3:3</_modifiedTime>
 				<_isOrdered type="a">0</_isOrdered>
 				<_protection type="a">iPublic</_protection>
 				<_static type="a">0</_static>
 				<_isReferenceAttr type="a">0</_isReferenceAttr>
 				<_isConstant type="a">0</_isConstant>
 				<AggregatesList type="e">
-					<value>GUID 957efa45-e29d-45e7-a79a-cf98586b0c8d</value>
-					<value>GUID c9b29f12-1384-4c4e-9a02-b2289251e332</value>
+					<value>GUID 95e8e516-4d05-4941-8d4c-ad31c57dab82</value>
+					<value>GUID 6dd5c3d8-08b9-4823-aee4-9ae45bd8e014</value>
 				</AggregatesList>
 			</IAttribute>
 			<ILiteralSpecification type="e">
-				<_id type="a">GUID 957efa45-e29d-45e7-a79a-cf98586b0c8d</_id>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:27</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:27</_modifiedTime>
+				<_id type="a">GUID 95e8e516-4d05-4941-8d4c-ad31c57dab82</_id>
+				<_modifiedTimeWeak type="a">1.30.2026::1:3:3</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:3:3</_modifiedTime>
 				<_value type="a">{%0D
       0, 100, 200, 300, 400,%0D
     500, 600, 700, 800, 900, 1000%0D
 }</_value>
 			</ILiteralSpecification>
 			<IType type="e">
-				<_id type="a">GUID c9b29f12-1384-4c4e-9a02-b2289251e332</_id>
+				<_id type="a">GUID 6dd5c3d8-08b9-4823-aee4-9ae45bd8e014</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>
@@ -1175,32 +1175,32 @@
 				<_kind type="a">Language</_kind>
 			</IType>
 			<IAttribute type="e">
-				<_id type="a">GUID 81e33aee-9b31-4b21-af5d-fbf2eaf9671a</_id>
+				<_id type="a">GUID 0b1a9711-9f9c-417c-ae1c-ce503816d21b</_id>
 				<_myState type="a">8192</_myState>
 				<_name type="a">BmsSoc_OcvTable_mV</_name>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:27</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:27</_modifiedTime>
+				<_modifiedTimeWeak type="a">1.30.2026::1:3:3</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:3:3</_modifiedTime>
 				<_isOrdered type="a">0</_isOrdered>
 				<_protection type="a">iPublic</_protection>
 				<_static type="a">0</_static>
 				<_isReferenceAttr type="a">0</_isReferenceAttr>
 				<_isConstant type="a">0</_isConstant>
 				<AggregatesList type="e">
-					<value>GUID 7555db84-261e-425d-9f85-8c41202f9cd0</value>
-					<value>GUID 224de713-8ccd-4d3c-b094-1da9c7838c3c</value>
+					<value>GUID 3ae59079-6b03-4758-bb20-102e86cf46c6</value>
+					<value>GUID 6e4d7b8f-6f1b-41ce-86bc-7ce9060be40d</value>
 				</AggregatesList>
 			</IAttribute>
 			<ILiteralSpecification type="e">
-				<_id type="a">GUID 7555db84-261e-425d-9f85-8c41202f9cd0</_id>
-				<_modifiedTimeWeak type="a">1.29.2026::12:31:27</_modifiedTimeWeak>
-				<_modifiedTime type="a">1.29.2026::12:31:27</_modifiedTime>
+				<_id type="a">GUID 3ae59079-6b03-4758-bb20-102e86cf46c6</_id>
+				<_modifiedTimeWeak type="a">1.30.2026::1:3:3</_modifiedTimeWeak>
+				<_modifiedTime type="a">1.30.2026::1:3:3</_modifiedTime>
 				<_value type="a">{%0D
     3000, 3400, 3600, 3700, 3750,%0D
     3800, 3850, 3900, 4000, 4100, 4200%0D
 }</_value>
 			</ILiteralSpecification>
 			<IType type="e">
-				<_id type="a">GUID 224de713-8ccd-4d3c-b094-1da9c7838c3c</_id>
+				<_id type="a">GUID 6e4d7b8f-6f1b-41ce-86bc-7ce9060be40d</_id>
 				<_myState type="a">8192</_myState>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 				<_modifiedTime type="a">1.1.1970::9:0:0</_modifiedTime>

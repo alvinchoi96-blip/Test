@@ -1,5 +1,5 @@
-#ifndef BMS_STATUS_DETERMINE_H
-#define BMS_STATUS_DETERMINE_H
+#ifndef BMS_STATUS_DECISION_H
+#define BMS_STATUS_DECISION_H
 
 #include "Rte_Type.h"
 
@@ -15,9 +15,16 @@ boolean BMS_Input_ValidateSignals(void);
 void BMS_Logic_MainSequence(void);
 
 /* 세부 로직 함수들 */
+/* 기존 함수 */
+void BMS_Input_ProcessAll(void);
 e_FaultLevel BMS_Logic_CheckFaults(void);
-e_VcuCanCmd BMS_Logic_DecideOperationMode(boolean isFault);
+
+/* [NEW] 다이어그램 표현을 위해 세분화된 함수들 */
+void BMS_Logic_SetEmergencyMode(void);
+void BMS_Logic_DetermineNormalOperation(void);
+
+/* 제어 및 출력 함수 (ControlExecutor 쪽이지만 편의상 여기서 참조하거나 별도 헤더 분리 권장) */
 void BMS_Logic_ExecuteControl(e_VcuCanCmd targetMode);
 void BMS_Logic_UpdateOutputs(e_VcuCanCmd currentMode);
 
-#endif /* BMS_STATUS_DETERMINE_H */
+#endif /* BMS_STATUS_DECISION_H */

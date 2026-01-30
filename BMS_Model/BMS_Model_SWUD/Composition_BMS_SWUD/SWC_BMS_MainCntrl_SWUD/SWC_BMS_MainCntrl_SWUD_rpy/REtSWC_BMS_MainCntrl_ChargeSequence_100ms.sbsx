@@ -26,9 +26,15 @@
 				</IRPYRawContainer>
 			</Stereotypes>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<_modifiedTimeWeak type="a">1.29.2026::23:3:31</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.29.2026::23:3:31</_modifiedTime>
 			<weakCGTime type="a">1.29.2026::23:3:31</weakCGTime>
+=======
+			<_modifiedTimeWeak type="a">1.30.2026::1:31:13</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.30.2026::1:31:13</_modifiedTime>
+			<weakCGTime type="a">1.30.2026::1:31:13</weakCGTime>
+>>>>>>> Stashed changes
 =======
 			<_modifiedTimeWeak type="a">1.30.2026::1:31:13</_modifiedTimeWeak>
 			<_modifiedTime type="a">1.30.2026::1:31:13</_modifiedTime>
@@ -225,8 +231,13 @@
 			</Stereotypes>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<_modifiedTime type="a">1.29.2026::23:3:34</_modifiedTime>
 			<_lastModifiedTime type="a">1.29.2026::23:3:34</_lastModifiedTime>
+=======
+			<_modifiedTime type="a">1.30.2026::1:31:25</_modifiedTime>
+			<_lastModifiedTime type="a">1.30.2026::1:31:25</_lastModifiedTime>
+>>>>>>> Stashed changes
 =======
 			<_modifiedTime type="a">1.30.2026::1:31:25</_modifiedTime>
 			<_lastModifiedTime type="a">1.30.2026::1:31:25</_lastModifiedTime>
@@ -288,6 +299,7 @@
 			<AggregatesList type="e">
 				<value>GUID 2d3d4ce3-d518-41f4-8d95-6c9688c0982b</value>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				<value>GUID ecdad738-08a0-41f5-a247-3ee09cbb4482</value>
 				<value>GUID cf2e6483-7902-4965-9c67-ef891042d003</value>
 				<value>GUID 55634acd-47b5-4d80-a72b-23d62d94c502</value>
@@ -316,6 +328,8 @@
 				<value>GUID 42ff7b23-30c2-480a-830b-e056ed9ec8c8</value>
 				<value>GUID 77849d42-6324-4408-aef1-f7b76350cb34</value>
 =======
+=======
+>>>>>>> Stashed changes
 				<value>GUID 28b9540a-b200-4c87-9dd4-4adadc4702f2</value>
 				<value>GUID 7d3932fb-c45a-415a-bab7-556b6630c13d</value>
 				<value>GUID 15e855b6-41dc-4846-89ab-af09352f56dd</value>
@@ -343,6 +357,9 @@
 				<value>GUID 84c67f9f-e185-4bda-a3f2-6f9b18725d45</value>
 				<value>GUID bec3c2b4-4271-4c44-9001-4230b703fc25</value>
 				<value>GUID 6877ba59-10b7-4891-8147-a3068d66fd4e</value>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			</AggregatesList>
 		</CGIClassChart>
@@ -407,7 +424,11 @@
 		</CGIClass>
 		<CGIObjectInstance type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<_id type="a">GUID ecdad738-08a0-41f5-a247-3ee09cbb4482</_id>
+=======
+			<_id type="a">GUID 28b9540a-b200-4c87-9dd4-4adadc4702f2</_id>
+>>>>>>> Stashed changes
 =======
 			<_id type="a">GUID 28b9540a-b200-4c87-9dd4-4adadc4702f2</_id>
 >>>>>>> Stashed changes
@@ -422,15 +443,21 @@
 									<size type="a">1</size>
 									<IPropertyMetaclass type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 										<_Name type="a">SourceFile</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
 												<size type="a">3</size>
 =======
+=======
+>>>>>>> Stashed changes
 										<_Name type="a">HeaderFile</_Name>
 										<Properties type="c">
 											<IRPYRawContainer type="e">
 												<size type="a">2</size>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 												<IProperty type="e">
 													<_Name type="a">Font.Font</_Name>
@@ -445,12 +472,15 @@
 												</IProperty>
 												
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 												<IProperty type="e">
 													<_Name type="a">Line.LineColor</_Name>
 													<_Value type="a">255,0,0</_Value>
 													<_Type type="a">Color</_Type>
 												</IProperty>
 												
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 											</IRPYRawContainer>
@@ -497,8 +527,13 @@
 					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
 					<_hclass type="a">TopLevel</_hclass>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<_hname type="a">Rte_SWC_BMS_MainCntrl</_hname>
 					<_hid type="a">GUID 30ca493e-31f0-46e9-8600-48faf3f01550</_hid>
+=======
+					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
+					<_hid type="a">GUID 033807c4-3e61-4297-a253-a961a2e15270</_hid>
+>>>>>>> Stashed changes
 =======
 					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
 					<_hid type="a">GUID 033807c4-3e61-4297-a253-a961a2e15270</_hid>
@@ -509,7 +544,11 @@
 			<m_name type="p">
 				<CGIText type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<m_str type="a">Rte_SWC_BMS_MainCntrl</m_str>
+=======
+					<m_str type="a">BMS_MainCntrl_GlobalData</m_str>
+>>>>>>> Stashed changes
 =======
 					<m_str type="a">BMS_MainCntrl_GlobalData</m_str>
 >>>>>>> Stashed changes
@@ -529,7 +568,11 @@
 			</m_name>
 			<m_drawBehavior type="a">528398</m_drawBehavior>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_transform type="a">0.160529 0 0 0.0427807 59.679 45.9251 </m_transform>
+=======
+			<m_transform type="a">0.169972 0 0 0.0427807 359.66 465.925 </m_transform>
+>>>>>>> Stashed changes
 =======
 			<m_transform type="a">0.169972 0 0 0.0427807 359.66 465.925 </m_transform>
 >>>>>>> Stashed changes
@@ -583,8 +626,11 @@
 		</CGIObjectInstance>
 		<CGIObjectInstance type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<_id type="a">GUID cf2e6483-7902-4965-9c67-ef891042d003</_id>
 =======
+=======
+>>>>>>> Stashed changes
 			<_id type="a">GUID 7d3932fb-c45a-415a-bab7-556b6630c13d</_id>
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
@@ -729,6 +775,9 @@
 		</CGIObjectInstance>
 		<CGIObjectInstance type="e">
 			<_id type="a">GUID 15e855b6-41dc-4846-89ab-af09352f56dd</_id>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
@@ -823,7 +872,11 @@
 			</m_name>
 			<m_drawBehavior type="a">528398</m_drawBehavior>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_transform type="a">0.160529 0 0 0.0427807 359.679 633.925 </m_transform>
+=======
+			<m_transform type="a">0.160529 0 0 0.0427807 359.679 213.925 </m_transform>
+>>>>>>> Stashed changes
 =======
 			<m_transform type="a">0.160529 0 0 0.0427807 359.679 213.925 </m_transform>
 >>>>>>> Stashed changes
@@ -877,7 +930,11 @@
 		</CGIObjectInstance>
 		<CGIObjectInstance type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<_id type="a">GUID 55634acd-47b5-4d80-a72b-23d62d94c502</_id>
+=======
+			<_id type="a">GUID 51036dc1-573f-435f-9d36-40095b42fcca</_id>
+>>>>>>> Stashed changes
 =======
 			<_id type="a">GUID 51036dc1-573f-435f-9d36-40095b42fcca</_id>
 >>>>>>> Stashed changes
@@ -951,8 +1008,13 @@
 					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
 					<_hclass type="a">TopLevel</_hclass>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
 					<_hid type="a">GUID 71f4925c-7e81-4acf-aac8-3b317727e7c3</_hid>
+=======
+					<_hname type="a">Bms_StatusDecision</_hname>
+					<_hid type="a">GUID 8ce4b97f-f54d-43c5-998f-036579bb66d3</_hid>
+>>>>>>> Stashed changes
 =======
 					<_hname type="a">Bms_StatusDecision</_hname>
 					<_hid type="a">GUID 8ce4b97f-f54d-43c5-998f-036579bb66d3</_hid>
@@ -963,7 +1025,11 @@
 			<m_name type="p">
 				<CGIText type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<m_str type="a">BMS_MainCntrl_GlobalData</m_str>
+=======
+					<m_str type="a">Bms_StatusDecision</m_str>
+>>>>>>> Stashed changes
 =======
 					<m_str type="a">Bms_StatusDecision</m_str>
 >>>>>>> Stashed changes
@@ -983,7 +1049,11 @@
 			</m_name>
 			<m_drawBehavior type="a">528398</m_drawBehavior>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_transform type="a">0.169972 0 0 0.0427807 359.66 213.925 </m_transform>
+=======
+			<m_transform type="a">0.126534 0 0 0.0427807 359.747 801.925 </m_transform>
+>>>>>>> Stashed changes
 =======
 			<m_transform type="a">0.126534 0 0 0.0427807 359.747 801.925 </m_transform>
 >>>>>>> Stashed changes
@@ -1037,8 +1107,11 @@
 		</CGIObjectInstance>
 		<CGIObjectInstance type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<_id type="a">GUID 6bf7c255-bc9f-4376-b761-6b05ea68ec3a</_id>
 =======
+=======
+>>>>>>> Stashed changes
 			<_id type="a">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</_id>
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
@@ -1189,6 +1262,9 @@
 		</CGIObjectInstance>
 		<CGIObjectInstance type="e">
 			<_id type="a">GUID b066c786-889c-4333-9223-89959168f936</_id>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
@@ -1283,7 +1359,11 @@
 			</m_name>
 			<m_drawBehavior type="a">528398</m_drawBehavior>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_transform type="a">0.0906516 0 0 0.0427807 359.819 801.925 </m_transform>
+=======
+			<m_transform type="a">0.0906516 0 0 0.0427807 359.819 129.925 </m_transform>
+>>>>>>> Stashed changes
 =======
 			<m_transform type="a">0.0906516 0 0 0.0427807 359.819 129.925 </m_transform>
 >>>>>>> Stashed changes
@@ -1337,8 +1417,11 @@
 		</CGIObjectInstance>
 		<CGIObjectInstance type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<_id type="a">GUID 8a22fa33-5db8-4375-93e5-405d182fa8fe</_id>
 =======
+=======
+>>>>>>> Stashed changes
 			<_id type="a">GUID df6654ac-e1bc-4271-9cfa-dd19b0eb8e01</_id>
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
@@ -1483,6 +1566,9 @@
 		</CGIObjectInstance>
 		<CGIObjectInstance type="e">
 			<_id type="a">GUID 653be0c9-69cf-47b8-af43-5c3f2fa55d31</_id>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
@@ -1583,7 +1669,11 @@
 			</m_name>
 			<m_drawBehavior type="a">528398</m_drawBehavior>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_transform type="a">0.0793201 0 0 0.0427807 59.8413 129.925 </m_transform>
+=======
+			<m_transform type="a">0.0793201 0 0 0.0427807 59.8414 45.9251 </m_transform>
+>>>>>>> Stashed changes
 =======
 			<m_transform type="a">0.0793201 0 0 0.0427807 59.8414 45.9251 </m_transform>
 >>>>>>> Stashed changes
@@ -1636,6 +1726,7 @@
 			</m_multiplicity>
 		</CGIObjectInstance>
 		<CGIObjectInstance type="e">
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			<_id type="a">GUID 6a03b323-94b0-4705-b110-ef67e89639de</_id>
 			<_properties type="p"><IPropertyContainer type="e">
@@ -1784,6 +1875,9 @@
 =======
 			<_id type="a">GUID 77e98316-7862-49a0-a756-7a6d75b3aa01</_id>
 >>>>>>> Stashed changes
+=======
+			<_id type="a">GUID 77e98316-7862-49a0-a756-7a6d75b3aa01</_id>
+>>>>>>> Stashed changes
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
@@ -1877,7 +1971,11 @@
 			</m_name>
 			<m_drawBehavior type="a">528398</m_drawBehavior>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_transform type="a">0.0793201 0 0 0.0427807 359.841 717.925 </m_transform>
+=======
+			<m_transform type="a">0.0793201 0 0 0.0427807 359.841 45.9252 </m_transform>
+>>>>>>> Stashed changes
 =======
 			<m_transform type="a">0.0793201 0 0 0.0427807 359.841 45.9252 </m_transform>
 >>>>>>> Stashed changes
@@ -1931,7 +2029,11 @@
 		</CGIObjectInstance>
 		<CGIObjectInstance type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<_id type="a">GUID ffbbc5af-fd73-4717-a932-fa9dcdb3b0dc</_id>
+=======
+			<_id type="a">GUID b6bec4e3-6930-4514-92c1-8fc16eb9b24d</_id>
+>>>>>>> Stashed changes
 =======
 			<_id type="a">GUID b6bec4e3-6930-4514-92c1-8fc16eb9b24d</_id>
 >>>>>>> Stashed changes
@@ -2006,7 +2108,11 @@
 					<_hclass type="a">TopLevel</_hclass>
 					<_hname type="a">Bms_Tx_PackMeasData</_hname>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<_hid type="a">GUID 7aa07c55-bd68-4be7-a3bf-4418e2972c47</_hid>
+=======
+					<_hid type="a">GUID 542d8647-8843-4f82-8b60-72ae5eee2656</_hid>
+>>>>>>> Stashed changes
 =======
 					<_hid type="a">GUID 542d8647-8843-4f82-8b60-72ae5eee2656</_hid>
 >>>>>>> Stashed changes
@@ -2032,7 +2138,11 @@
 			</m_name>
 			<m_drawBehavior type="a">528398</m_drawBehavior>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_transform type="a">0.149197 0 0 0.0427807 359.702 465.925 </m_transform>
+=======
+			<m_transform type="a">0.149197 0 0 0.0427807 359.702 717.925 </m_transform>
+>>>>>>> Stashed changes
 =======
 			<m_transform type="a">0.149197 0 0 0.0427807 359.702 717.925 </m_transform>
 >>>>>>> Stashed changes
@@ -2086,7 +2196,11 @@
 		</CGIObjectInstance>
 		<CGIObjectInstance type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<_id type="a">GUID 7b4bc0bd-fa0f-4602-be14-d3f4ee9ee24e</_id>
+=======
+			<_id type="a">GUID 523416cd-5296-43a3-aad8-1173cffc0435</_id>
+>>>>>>> Stashed changes
 =======
 			<_id type="a">GUID 523416cd-5296-43a3-aad8-1173cffc0435</_id>
 >>>>>>> Stashed changes
@@ -2160,8 +2274,13 @@
 					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
 					<_hclass type="a">TopLevel</_hclass>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<_hname type="a">Bms_Tx_PackCalculatedData</_hname>
 					<_hid type="a">GUID a5e91d28-8873-44d1-9cc4-1e6f9c6bd233</_hid>
+=======
+					<_hname type="a">Bms_TxMapper_ReportBattInfo</_hname>
+					<_hid type="a">GUID e8ccebb1-8755-4502-89bd-9fd590c9411d</_hid>
+>>>>>>> Stashed changes
 =======
 					<_hname type="a">Bms_TxMapper_ReportBattInfo</_hname>
 					<_hid type="a">GUID e8ccebb1-8755-4502-89bd-9fd590c9411d</_hid>
@@ -2172,7 +2291,11 @@
 			<m_name type="p">
 				<CGIText type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<m_str type="a">Bms_Tx_PackCalculatedData</m_str>
+=======
+					<m_str type="a">Bms_TxMapper_ReportBattInfo</m_str>
+>>>>>>> Stashed changes
 =======
 					<m_str type="a">Bms_TxMapper_ReportBattInfo</m_str>
 >>>>>>> Stashed changes
@@ -2192,7 +2315,11 @@
 			</m_name>
 			<m_drawBehavior type="a">528398</m_drawBehavior>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_transform type="a">0.179415 0 0 0.0427807 359.641 381.925 </m_transform>
+=======
+			<m_transform type="a">0.196412 0 0 0.0427807 359.607 297.925 </m_transform>
+>>>>>>> Stashed changes
 =======
 			<m_transform type="a">0.196412 0 0 0.0427807 359.607 297.925 </m_transform>
 >>>>>>> Stashed changes
@@ -2245,6 +2372,7 @@
 			</m_multiplicity>
 		</CGIObjectInstance>
 		<CGIObjectInstance type="e">
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			<_id type="a">GUID be4a5384-97ff-4fa8-85fb-f91a3bbd0681</_id>
 			<_properties type="p"><IPropertyContainer type="e">
@@ -2536,6 +2664,9 @@
 =======
 			<_id type="a">GUID 78cc5fc8-22f8-481e-9768-695dcf9c2056</_id>
 >>>>>>> Stashed changes
+=======
+			<_id type="a">GUID 78cc5fc8-22f8-481e-9768-695dcf9c2056</_id>
+>>>>>>> Stashed changes
 			<_properties type="p"><IPropertyContainer type="e">
 				<Subjects type="c">
 					<IRPYRawContainer type="e">
@@ -2607,7 +2738,11 @@
 					<_hclass type="a">TopLevel</_hclass>
 					<_hname type="a">BmsMainCntrl_Soc</_hname>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<_hid type="a">GUID 92e47a4d-58c2-48d3-974e-ec532cd098c3</_hid>
+=======
+					<_hid type="a">GUID 339a3d5a-335b-4753-934b-b4e3add4d50e</_hid>
+>>>>>>> Stashed changes
 =======
 					<_hid type="a">GUID 339a3d5a-335b-4753-934b-b4e3add4d50e</_hid>
 >>>>>>> Stashed changes
@@ -2633,7 +2768,11 @@
 			</m_name>
 			<m_drawBehavior type="a">528398</m_drawBehavior>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_transform type="a">0.11898 0 0 0.0427807 359.762 297.925 </m_transform>
+=======
+			<m_transform type="a">0.11898 0 0 0.0427807 359.762 549.925 </m_transform>
+>>>>>>> Stashed changes
 =======
 			<m_transform type="a">0.11898 0 0 0.0427807 359.762 549.925 </m_transform>
 >>>>>>> Stashed changes
@@ -2687,7 +2826,11 @@
 		</CGIObjectInstance>
 		<CGIInheritance type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<_id type="a">GUID 8ccef358-dfc2-4ebb-b55d-52cec3bcb153</_id>
+=======
+			<_id type="a">GUID 6568fc2e-950d-4da4-87a3-b0d1514ab476</_id>
+>>>>>>> Stashed changes
 =======
 			<_id type="a">GUID 6568fc2e-950d-4da4-87a3-b0d1514ab476</_id>
 >>>>>>> Stashed changes
@@ -2698,9 +2841,15 @@
 					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<_hclass type="a">TopLevel.Rte_SWC_BMS_MainCntrl</_hclass>
 					<_hname type="a">Rte_SWC_BMS_MainCntrl</_hname>
 					<_hid type="a">GUID e496a66a-182a-4426-8347-2e6fe1c5346b</_hid>
+=======
+					<_hclass type="a">TopLevel.Bms_TxMapper_ReportBattInfo</_hclass>
+					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
+					<_hid type="a">GUID 2a01db90-dc04-4d55-9ac8-346aa327918f</_hid>
+>>>>>>> Stashed changes
 =======
 					<_hclass type="a">TopLevel.Bms_TxMapper_ReportBattInfo</_hclass>
 					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
@@ -2728,9 +2877,15 @@
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_pSource type="s">GUID ecdad738-08a0-41f5-a247-3ee09cbb4482</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
 			<m_pTarget type="s">GUID cf2e6483-7902-4965-9c67-ef891042d003</m_pTarget>
+=======
+			<m_pSource type="s">GUID 523416cd-5296-43a3-aad8-1173cffc0435</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 28b9540a-b200-4c87-9dd4-4adadc4702f2</m_pTarget>
+>>>>>>> Stashed changes
 =======
 			<m_pSource type="s">GUID 523416cd-5296-43a3-aad8-1173cffc0435</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
@@ -2756,17 +2911,23 @@
 				</CGIText>
 			</m_rpn>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_arrow type="a">2 145 378  445 378  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
 			<m_SourcePort type="a">1061 609 </m_SourcePort>
 =======
+=======
+>>>>>>> Stashed changes
 			<m_arrow type="a">2 464 420  450 420  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
 			<m_SourcePort type="a">531 890 </m_SourcePort>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			<m_TargetPort type="a">2 609 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
@@ -2774,8 +2935,11 @@
 		</CGIInheritance>
 		<CGIInheritance type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<_id type="a">GUID 22104ba5-0edb-400b-af8b-0de57d2c58a1</_id>
 =======
+=======
+>>>>>>> Stashed changes
 			<_id type="a">GUID 6ab9bd50-a5be-494f-9935-29434ed2e4af</_id>
 			<m_type type="a">128</m_type>
 			<m_pModelObject type="r">
@@ -2966,6 +3130,9 @@
 		</CGIInheritance>
 		<CGIInheritance type="e">
 			<_id type="a">GUID f2e56533-73e7-4dc7-b88e-80f236c9c470</_id>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			<m_type type="a">128</m_type>
 			<m_pModelObject type="r">
@@ -2976,7 +3143,11 @@
 					<_hclass type="a">TopLevel.Rte_SWC_BMS_MainCntrl</_hclass>
 					<_hname type="a">BMS_MainCntrl_GlobalData</_hname>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<_hid type="a">GUID bd8c81d1-c6a7-4e32-ab16-316dbf284c3d</_hid>
+=======
+					<_hid type="a">GUID 5c77ca05-650c-4689-ba80-06a26284d1ec</_hid>
+>>>>>>> Stashed changes
 =======
 					<_hid type="a">GUID 5c77ca05-650c-4689-ba80-06a26284d1ec</_hid>
 >>>>>>> Stashed changes
@@ -3002,9 +3173,15 @@
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_pSource type="s">GUID ecdad738-08a0-41f5-a247-3ee09cbb4482</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
 			<m_pTarget type="s">GUID 55634acd-47b5-4d80-a72b-23d62d94c502</m_pTarget>
+=======
+			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 28b9540a-b200-4c87-9dd4-4adadc4702f2</m_pTarget>
+>>>>>>> Stashed changes
 =======
 			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
@@ -3030,8 +3207,11 @@
 				</CGIText>
 			</m_rpn>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_arrow type="a">2 155 168  461 168  </m_arrow>
 =======
+=======
+>>>>>>> Stashed changes
 			<m_arrow type="a">2 145 336  450 336  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
@@ -3096,6 +3276,9 @@
 				</CGIText>
 			</m_rpn>
 			<m_arrow type="a">2 155 294  452 294  </m_arrow>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
@@ -3107,7 +3290,11 @@
 		</CGIInheritance>
 		<CGIInheritance type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<_id type="a">GUID 054d2206-528b-47e2-8488-d4aeb28cadfc</_id>
+=======
+			<_id type="a">GUID c8a79097-aa35-4b61-98f6-f31c7c8d4f1f</_id>
+>>>>>>> Stashed changes
 =======
 			<_id type="a">GUID c8a79097-aa35-4b61-98f6-f31c7c8d4f1f</_id>
 >>>>>>> Stashed changes
@@ -3116,17 +3303,23 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IDependency</_hm2Class>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<_hfilename type="a">.\SWC_BMS_MainCntrl_Src.sbsx</_hfilename>
 					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
 					<_hclass type="a">TopLevel.Rte_SWC_BMS_MainCntrl</_hclass>
 					<_hname type="a">BmsMainCntrl_Soc</_hname>
 					<_hid type="a">GUID 9caafc1c-82b8-4260-a33c-c1b5d6190a72</_hid>
 =======
+=======
+>>>>>>> Stashed changes
 					<_hfilename type="a">.\RteFiles.sbsx</_hfilename>
 					<_hsubsystem type="a">RteFiles</_hsubsystem>
 					<_hclass type="a">TopLevel.Rte</_hclass>
 					<_hname type="a">Rte_SWC_BMS_MainCntrl</_hname>
 					<_hid type="a">GUID b0846720-1981-4cd4-8369-9bacd16de1c9</_hid>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				</IHandle>
 			</m_pModelObject>
@@ -3150,9 +3343,15 @@
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_pSource type="s">GUID ecdad738-08a0-41f5-a247-3ee09cbb4482</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
 			<m_pTarget type="s">GUID 7980d946-7d7e-4c77-840c-259a52233609</m_pTarget>
+=======
+			<m_pSource type="s">GUID 653be0c9-69cf-47b8-af43-5c3f2fa55d31</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 15e855b6-41dc-4846-89ab-af09352f56dd</m_pTarget>
+>>>>>>> Stashed changes
 =======
 			<m_pSource type="s">GUID 653be0c9-69cf-47b8-af43-5c3f2fa55d31</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
@@ -3178,17 +3377,23 @@
 				</CGIText>
 			</m_rpn>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_arrow type="a">2 117 210  403 210  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
 			<m_SourcePort type="a">1061 750 </m_SourcePort>
 =======
+=======
+>>>>>>> Stashed changes
 			<m_arrow type="a">1 445 84  </m_arrow>
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
 			<m_anglePoint2 type="a">0 0 </m_anglePoint2>
 			<m_line_style type="a">2</m_line_style>
 			<m_SourcePort type="a">1061 609 </m_SourcePort>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			<m_TargetPort type="a">2 609 </m_TargetPort>
 			<m_ShowName type="a">0</m_ShowName>
@@ -3196,8 +3401,11 @@
 		</CGIInheritance>
 		<CGIInheritance type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<_id type="a">GUID 614c9672-134d-4303-934d-a43adc5d1c20</_id>
 =======
+=======
+>>>>>>> Stashed changes
 			<_id type="a">GUID 14b5e497-f9bf-4988-94b0-ff010fa12608</_id>
 			<m_type type="a">128</m_type>
 			<m_pModelObject type="r">
@@ -3262,6 +3470,9 @@
 		</CGIInheritance>
 		<CGIInheritance type="e">
 			<_id type="a">GUID 6162d325-98a5-441e-8eaa-fb0b0eaaaba8</_id>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 			<m_type type="a">128</m_type>
 			<m_pModelObject type="r">
@@ -3272,7 +3483,11 @@
 					<_hclass type="a">TopLevel.Rte_SWC_BMS_MainCntrl</_hclass>
 					<_hname type="a">Bms_StatusDecision</_hname>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<_hid type="a">GUID 54d70f95-09e6-48cb-b9bf-d16b86cf41b5</_hid>
+=======
+					<_hid type="a">GUID 8dce4b73-fd14-4d7e-9100-9376533f8080</_hid>
+>>>>>>> Stashed changes
 =======
 					<_hid type="a">GUID 8dce4b73-fd14-4d7e-9100-9376533f8080</_hid>
 >>>>>>> Stashed changes
@@ -3298,9 +3513,15 @@
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_pSource type="s">GUID ecdad738-08a0-41f5-a247-3ee09cbb4482</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
 			<m_pTarget type="s">GUID ef7a6c03-8d6d-40cf-9b08-e8c774419069</m_pTarget>
+=======
+			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 51036dc1-573f-435f-9d36-40095b42fcca</m_pTarget>
+>>>>>>> Stashed changes
 =======
 			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
@@ -3326,7 +3547,11 @@
 				</CGIText>
 			</m_rpn>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_arrow type="a">2 117 336  405 336  </m_arrow>
+=======
+			<m_arrow type="a">2 117 504  405 504  </m_arrow>
+>>>>>>> Stashed changes
 =======
 			<m_arrow type="a">2 117 504  405 504  </m_arrow>
 >>>>>>> Stashed changes
@@ -3340,7 +3565,11 @@
 		</CGIInheritance>
 		<CGIInheritance type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<_id type="a">GUID 73e0e0ac-0ebe-48a5-bba7-bc489dcabd2a</_id>
+=======
+			<_id type="a">GUID d4c2afd3-eee6-4d3c-b02b-ed7f3769e073</_id>
+>>>>>>> Stashed changes
 =======
 			<_id type="a">GUID d4c2afd3-eee6-4d3c-b02b-ed7f3769e073</_id>
 >>>>>>> Stashed changes
@@ -3352,8 +3581,13 @@
 					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
 					<_hclass type="a">TopLevel.Rte_SWC_BMS_MainCntrl</_hclass>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<_hname type="a">Bms_Tx_PackMeasData</_hname>
 					<_hid type="a">GUID bd06d360-4add-4d1c-9b6d-49e2141982c6</_hid>
+=======
+					<_hname type="a">BmsMainCntrl_Soc</_hname>
+					<_hid type="a">GUID 2074d35d-559d-4a64-85d7-393cd4041386</_hid>
+>>>>>>> Stashed changes
 =======
 					<_hname type="a">BmsMainCntrl_Soc</_hname>
 					<_hid type="a">GUID 2074d35d-559d-4a64-85d7-393cd4041386</_hid>
@@ -3380,9 +3614,15 @@
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_pSource type="s">GUID ecdad738-08a0-41f5-a247-3ee09cbb4482</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
 			<m_pTarget type="s">GUID ffbbc5af-fd73-4717-a932-fa9dcdb3b0dc</m_pTarget>
+=======
+			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 78cc5fc8-22f8-481e-9768-695dcf9c2056</m_pTarget>
+>>>>>>> Stashed changes
 =======
 			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
@@ -3408,7 +3648,11 @@
 				</CGIText>
 			</m_rpn>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_arrow type="a">2 155 294  449 294  </m_arrow>
+=======
+			<m_arrow type="a">2 155 378  431 378  </m_arrow>
+>>>>>>> Stashed changes
 =======
 			<m_arrow type="a">2 155 378  431 378  </m_arrow>
 >>>>>>> Stashed changes
@@ -3422,7 +3666,11 @@
 		</CGIInheritance>
 		<CGIInheritance type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<_id type="a">GUID 0c0b5aa8-7ea5-47d5-b5fd-5b111e9613a6</_id>
+=======
+			<_id type="a">GUID b976cc6d-457a-419b-b42a-807b10f40f65</_id>
+>>>>>>> Stashed changes
 =======
 			<_id type="a">GUID b976cc6d-457a-419b-b42a-807b10f40f65</_id>
 >>>>>>> Stashed changes
@@ -3434,8 +3682,13 @@
 					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
 					<_hclass type="a">TopLevel.Rte_SWC_BMS_MainCntrl</_hclass>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<_hname type="a">Bms_Tx_PackCalculatedData</_hname>
 					<_hid type="a">GUID 9c2fe29d-4f7c-42c5-98db-cf50c8b9fce2</_hid>
+=======
+					<_hname type="a">Bms_Tx_PackMeasData</_hname>
+					<_hid type="a">GUID 3f55537b-1f15-4105-95f9-4ac2a55402a3</_hid>
+>>>>>>> Stashed changes
 =======
 					<_hname type="a">Bms_Tx_PackMeasData</_hname>
 					<_hid type="a">GUID 3f55537b-1f15-4105-95f9-4ac2a55402a3</_hid>
@@ -3462,9 +3715,15 @@
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_pSource type="s">GUID ecdad738-08a0-41f5-a247-3ee09cbb4482</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
 			<m_pTarget type="s">GUID 7b4bc0bd-fa0f-4602-be14-d3f4ee9ee24e</m_pTarget>
+=======
+			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID b6bec4e3-6930-4514-92c1-8fc16eb9b24d</m_pTarget>
+>>>>>>> Stashed changes
 =======
 			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
@@ -3490,7 +3749,11 @@
 				</CGIText>
 			</m_rpn>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_arrow type="a">2 145 252  455 252  </m_arrow>
+=======
+			<m_arrow type="a">2 145 462  439 462  </m_arrow>
+>>>>>>> Stashed changes
 =======
 			<m_arrow type="a">2 145 462  439 462  </m_arrow>
 >>>>>>> Stashed changes
@@ -3504,7 +3767,11 @@
 		</CGIInheritance>
 		<CGIInheritance type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<_id type="a">GUID 7ecc3f71-f769-47bc-a2de-1964c2cab427</_id>
+=======
+			<_id type="a">GUID e33411bf-859b-4b00-956c-1d96e47e24ad</_id>
+>>>>>>> Stashed changes
 =======
 			<_id type="a">GUID e33411bf-859b-4b00-956c-1d96e47e24ad</_id>
 >>>>>>> Stashed changes
@@ -3516,8 +3783,13 @@
 					<_hsubsystem type="a">SWC_BMS_MainCntrl_Src</_hsubsystem>
 					<_hclass type="a">TopLevel.Rte_SWC_BMS_MainCntrl</_hclass>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<_hname type="a">Bms_Tx_BattStatusFlags</_hname>
 					<_hid type="a">GUID c072df36-5f33-4c2a-9720-3083d6202e5a</_hid>
+=======
+					<_hname type="a">Bms_Tx_PackCalculatedData</_hname>
+					<_hid type="a">GUID 86b4c583-8516-494f-be17-69b0f9d3dd1e</_hid>
+>>>>>>> Stashed changes
 =======
 					<_hname type="a">Bms_Tx_PackCalculatedData</_hname>
 					<_hid type="a">GUID 86b4c583-8516-494f-be17-69b0f9d3dd1e</_hid>
@@ -3544,9 +3816,15 @@
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_pSource type="s">GUID ecdad738-08a0-41f5-a247-3ee09cbb4482</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
 			<m_pTarget type="s">GUID be4a5384-97ff-4fa8-85fb-f91a3bbd0681</m_pTarget>
+=======
+			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID df6654ac-e1bc-4271-9cfa-dd19b0eb8e01</m_pTarget>
+>>>>>>> Stashed changes
 =======
 			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
@@ -3572,7 +3850,11 @@
 				</CGIText>
 			</m_rpn>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_arrow type="a">2 295 84  295 168  </m_arrow>
+=======
+			<m_arrow type="a">2 145 420  455 420  </m_arrow>
+>>>>>>> Stashed changes
 =======
 			<m_arrow type="a">2 145 420  455 420  </m_arrow>
 >>>>>>> Stashed changes
@@ -3586,7 +3868,11 @@
 		</CGIInheritance>
 		<CGIInheritance type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<_id type="a">GUID e9461d1d-ce4a-4a97-a7a8-6bb75c008ce9</_id>
+=======
+			<_id type="a">GUID 84c67f9f-e185-4bda-a3f2-6f9b18725d45</_id>
+>>>>>>> Stashed changes
 =======
 			<_id type="a">GUID 84c67f9f-e185-4bda-a3f2-6f9b18725d45</_id>
 >>>>>>> Stashed changes
@@ -3599,7 +3885,11 @@
 					<_hclass type="a">TopLevel.Rte_SWC_BMS_MainCntrl</_hclass>
 					<_hname type="a">Bms_TxMapper_ReportBattInfo</_hname>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<_hid type="a">GUID 785fdb07-eb2b-4b73-9408-286e23611532</_hid>
+=======
+					<_hid type="a">GUID e748595e-b0e3-47a5-81a6-e70b33e40f04</_hid>
+>>>>>>> Stashed changes
 =======
 					<_hid type="a">GUID e748595e-b0e3-47a5-81a6-e70b33e40f04</_hid>
 >>>>>>> Stashed changes
@@ -3625,9 +3915,15 @@
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_pSource type="s">GUID ecdad738-08a0-41f5-a247-3ee09cbb4482</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
 			<m_pTarget type="s">GUID 6a03b323-94b0-4705-b110-ef67e89639de</m_pTarget>
+=======
+			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 523416cd-5296-43a3-aad8-1173cffc0435</m_pTarget>
+>>>>>>> Stashed changes
 =======
 			<m_pSource type="s">GUID 1c52dd8b-7612-47a5-9044-d98232790bd8</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
@@ -3653,6 +3949,10 @@
 				</CGIText>
 			</m_rpn>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+			<m_arrow type="a">2 145 252  464 252  </m_arrow>
+>>>>>>> Stashed changes
 =======
 			<m_arrow type="a">2 145 252  464 252  </m_arrow>
 >>>>>>> Stashed changes
@@ -3665,6 +3965,7 @@
 			<m_ShowStereotype type="a">0</m_ShowStereotype>
 		</CGIInheritance>
 		<CGIInheritance type="e">
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 			<_id type="a">GUID 28f8fad1-1822-46cb-850d-42c96fd01b80</_id>
 			<m_type type="a">128</m_type>
@@ -3985,6 +4286,9 @@
 =======
 			<_id type="a">GUID bec3c2b4-4271-4c44-9001-4230b703fc25</_id>
 >>>>>>> Stashed changes
+=======
+			<_id type="a">GUID bec3c2b4-4271-4c44-9001-4230b703fc25</_id>
+>>>>>>> Stashed changes
 			<m_type type="a">128</m_type>
 			<m_pModelObject type="r">
 				<IHandle type="e">
@@ -3994,7 +4298,11 @@
 					<_hclass type="a">TopLevel.Rte</_hclass>
 					<_hname type="a">Rte_Internals</_hname>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<_hid type="a">GUID 8384822f-aa4b-4194-98c2-e3aeacb23668</_hid>
+=======
+					<_hid type="a">GUID e0412e82-444e-472c-bf87-2c06056d3676</_hid>
+>>>>>>> Stashed changes
 =======
 					<_hid type="a">GUID e0412e82-444e-472c-bf87-2c06056d3676</_hid>
 >>>>>>> Stashed changes
@@ -4020,9 +4328,15 @@
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_pSource type="s">GUID 8a22fa33-5db8-4375-93e5-405d182fa8fe</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
 			<m_pTarget type="s">GUID 6bf7c255-bc9f-4376-b761-6b05ea68ec3a</m_pTarget>
+=======
+			<m_pSource type="s">GUID 653be0c9-69cf-47b8-af43-5c3f2fa55d31</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID b066c786-889c-4333-9223-89959168f936</m_pTarget>
+>>>>>>> Stashed changes
 =======
 			<m_pSource type="s">GUID 653be0c9-69cf-47b8-af43-5c3f2fa55d31</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
@@ -4048,7 +4362,11 @@
 				</CGIText>
 			</m_rpn>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_arrow type="a">2 107 504  414 504  </m_arrow>
+=======
+			<m_arrow type="a">2 252 93  252 177  </m_arrow>
+>>>>>>> Stashed changes
 =======
 			<m_arrow type="a">2 252 93  252 177  </m_arrow>
 >>>>>>> Stashed changes
@@ -4062,7 +4380,11 @@
 		</CGIInheritance>
 		<CGIInheritance type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<_id type="a">GUID 77849d42-6324-4408-aef1-f7b76350cb34</_id>
+=======
+			<_id type="a">GUID 6877ba59-10b7-4891-8147-a3068d66fd4e</_id>
+>>>>>>> Stashed changes
 =======
 			<_id type="a">GUID 6877ba59-10b7-4891-8147-a3068d66fd4e</_id>
 >>>>>>> Stashed changes
@@ -4075,7 +4397,11 @@
 					<_hclass type="a">TopLevel.Rte</_hclass>
 					<_hname type="a">Std_Types</_hname>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<_hid type="a">GUID 16f2d6d5-1128-4bad-b7ad-adae125e6dc0</_hid>
+=======
+					<_hid type="a">GUID 37d70740-a1ee-4fc5-8484-d69a47007278</_hid>
+>>>>>>> Stashed changes
 =======
 					<_hid type="a">GUID 37d70740-a1ee-4fc5-8484-d69a47007278</_hid>
 >>>>>>> Stashed changes
@@ -4101,9 +4427,15 @@
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_pSource type="s">GUID 8a22fa33-5db8-4375-93e5-405d182fa8fe</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
 			<m_pTarget type="s">GUID d1189e2b-43f4-4dfa-950b-7c42a85e8968</m_pTarget>
+=======
+			<m_pSource type="s">GUID 653be0c9-69cf-47b8-af43-5c3f2fa55d31</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID 77e98316-7862-49a0-a756-7a6d75b3aa01</m_pTarget>
+>>>>>>> Stashed changes
 =======
 			<m_pSource type="s">GUID 653be0c9-69cf-47b8-af43-5c3f2fa55d31</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
@@ -4129,7 +4461,10 @@
 				</CGIText>
 			</m_rpn>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_arrow type="a">2 88 462  388 462  </m_arrow>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 			<m_anglePoint1 type="a">0 0 </m_anglePoint1>
@@ -4247,8 +4582,13 @@
 			<_name type="a">SWUD_Workflow_REtSWC_BMS_MainCntrl_ChargeSequence_100ms</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<_modifiedTime type="a">1.29.2026::23:3:16</_modifiedTime>
 			<_lastModifiedTime type="a">1.29.2026::23:3:16</_lastModifiedTime>
+=======
+			<_modifiedTime type="a">1.30.2026::1:31:6</_modifiedTime>
+			<_lastModifiedTime type="a">1.30.2026::1:31:6</_lastModifiedTime>
+>>>>>>> Stashed changes
 =======
 			<_modifiedTime type="a">1.30.2026::1:31:6</_modifiedTime>
 			<_lastModifiedTime type="a">1.30.2026::1:31:6</_lastModifiedTime>
@@ -4266,6 +4606,7 @@
 			<m_pICollaboration type="p"><ICollaboration type="e">
 				<_id type="a">GUID 3738eb51-d2ed-4f36-bd1c-cff160c94792</_id>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 				<_modifiedTime type="a">1.29.2026::23:3:16</_modifiedTime>
 				<AggregatesList type="e">
@@ -4288,10 +4629,23 @@
 				</AggregatesList>
 			</ICollaboration>
 			<IClassifierRole type="e">
+=======
+				<_modifiedTime type="a">1.30.2026::1:31:6</_modifiedTime>
+				<AggregatesList type="e">
+					<value>GUID b2bc99b4-d5fe-4d8e-95f0-fe5c4210fcc9</value>
+					<value>GUID d9715e0e-0c6f-48c5-a5e3-1d5accba26ea</value>
+					<value>GUID 4bdb63ff-6b53-4ab0-9b82-2733cdf4bc4a</value>
+				</AggregatesList>
+			</ICollaboration>
+			<IClassifierRole type="e">
+>>>>>>> Stashed changes
 				<_id type="a">GUID b2bc99b4-d5fe-4d8e-95f0-fe5c4210fcc9</_id>
 				<_name type="a">Rte</_name>
 				<_modifiedTimeWeak type="a">1.30.2026::1:31:6</_modifiedTimeWeak>
 				<_modifiedTime type="a">1.30.2026::1:31:6</_modifiedTime>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				<m_eRoleType type="a">CLASS</m_eRoleType>
 				<m_pBase type="r">
@@ -4317,15 +4671,21 @@
 			</IClassifierRole>
 			<IClassifierRole type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				<_id type="a">GUID bd07f26b-58f9-4a10-b7bb-4bb64fb6ad92</_id>
 				<_name type="a">Rte_SWC_BMS_MainCntrl</_name>
 				<_modifiedTimeWeak type="a">1.29.2026::23:3:16</_modifiedTimeWeak>
 				<_modifiedTime type="a">1.29.2026::23:3:16</_modifiedTime>
 =======
+=======
+>>>>>>> Stashed changes
 				<_id type="a">GUID d9715e0e-0c6f-48c5-a5e3-1d5accba26ea</_id>
 				<_name type="a">Rte_SWC_BMS_MainCntrl</_name>
 				<_modifiedTimeWeak type="a">1.30.2026::1:31:6</_modifiedTimeWeak>
 				<_modifiedTime type="a">1.30.2026::1:31:6</_modifiedTime>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				<m_eRoleType type="a">CLASS</m_eRoleType>
 				<m_pBase type="r">
@@ -4336,7 +4696,11 @@
 						<_hclass type="a">TopLevel</_hclass>
 						<_hname type="a">Rte_SWC_BMS_MainCntrl</_hname>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 						<_hid type="a">GUID 1269f914-9a32-4bf4-910f-2f483c04089b</_hid>
+=======
+						<_hid type="a">GUID 60923015-b251-4caa-9119-7ac533235bc7</_hid>
+>>>>>>> Stashed changes
 =======
 						<_hid type="a">GUID 60923015-b251-4caa-9119-7ac533235bc7</_hid>
 >>>>>>> Stashed changes
@@ -4350,7 +4714,11 @@
 						<_hclass type="a">TopLevel</_hclass>
 						<_hname type="a">Rte_SWC_BMS_MainCntrl</_hname>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 						<_hid type="a">GUID 30ca493e-31f0-46e9-8600-48faf3f01550</_hid>
+=======
+						<_hid type="a">GUID 2aa07044-ed64-48c5-9a12-848f4caec434</_hid>
+>>>>>>> Stashed changes
 =======
 						<_hid type="a">GUID 2aa07044-ed64-48c5-9a12-848f4caec434</_hid>
 >>>>>>> Stashed changes
@@ -4359,15 +4727,21 @@
 			</IClassifierRole>
 			<IMessage type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				<_id type="a">GUID 3edad14e-9d30-465e-9449-ede9d1472f50</_id>
 				<_name type="a">REtSWC_BMS_MainCntrl_ChargeSequence_100ms</_name>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 				<_modifiedTime type="a">1.29.2026::23:3:16</_modifiedTime>
 =======
+=======
+>>>>>>> Stashed changes
 				<_id type="a">GUID 4bdb63ff-6b53-4ab0-9b82-2733cdf4bc4a</_id>
 				<_name type="a">REtSWC_BMS_MainCntrl_ChargeSequence_100ms</_name>
 				<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>
 				<_modifiedTime type="a">1.30.2026::1:31:6</_modifiedTime>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 				<m_pCommunicationConnection type="r">
 					<IHandle type="e">
@@ -4377,7 +4751,11 @@
 					<IHandle type="e">
 						<_hm2Class type="a">IClassifierRole</_hm2Class>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 						<_hid type="a">GUID bd07f26b-58f9-4a10-b7bb-4bb64fb6ad92</_hid>
+=======
+						<_hid type="a">GUID d9715e0e-0c6f-48c5-a5e3-1d5accba26ea</_hid>
+>>>>>>> Stashed changes
 =======
 						<_hid type="a">GUID d9715e0e-0c6f-48c5-a5e3-1d5accba26ea</_hid>
 >>>>>>> Stashed changes
@@ -4387,7 +4765,11 @@
 					<IHandle type="e">
 						<_hm2Class type="a">IClassifierRole</_hm2Class>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 						<_hid type="a">GUID 9d6dd65b-4135-4080-8f40-89f1e1b8afe4</_hid>
+=======
+						<_hid type="a">GUID b2bc99b4-d5fe-4d8e-95f0-fe5c4210fcc9</_hid>
+>>>>>>> Stashed changes
 =======
 						<_hid type="a">GUID b2bc99b4-d5fe-4d8e-95f0-fe5c4210fcc9</_hid>
 >>>>>>> Stashed changes
@@ -4401,7 +4783,11 @@
 						<_hclass type="a">TopLevel.Rte_SWC_BMS_MainCntrl</_hclass>
 						<_hname type="a">REtSWC_BMS_MainCntrl_ChargeSequence_100ms()</_hname>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 						<_hid type="a">GUID 4d85b3d2-09ff-4db5-8fd8-7029ec9b08f7</_hid>
+=======
+						<_hid type="a">GUID 364f67f8-2da2-4755-95db-be3870caeb52</_hid>
+>>>>>>> Stashed changes
 =======
 						<_hid type="a">GUID 364f67f8-2da2-4755-95db-be3870caeb52</_hid>
 >>>>>>> Stashed changes
@@ -4467,9 +4853,15 @@
 			<AggregatesList type="e">
 				<value>GUID 6f96c8f3-3add-41a5-ae33-79cf663014ad</value>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 				<value>GUID 3110aee4-de77-43a9-afa5-ff4a63b29f8d</value>
 				<value>GUID 91edec5f-00a5-4363-bceb-2027a98e0937</value>
 				<value>GUID 029950ad-a88a-4f65-aa46-31618302b746</value>
+=======
+				<value>GUID 4f165676-1c3e-4750-8b9e-a040f5a65755</value>
+				<value>GUID a6137883-5961-4a2f-b09d-38e4709de525</value>
+				<value>GUID 87603068-3e9e-49c2-a102-e50c9ca2cf45</value>
+>>>>>>> Stashed changes
 =======
 				<value>GUID 4f165676-1c3e-4750-8b9e-a040f5a65755</value>
 				<value>GUID a6137883-5961-4a2f-b09d-38e4709de525</value>
@@ -4511,7 +4903,11 @@
 		</CGIBox>
 		<CGIMscColumnCR type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<_id type="a">GUID 3110aee4-de77-43a9-afa5-ff4a63b29f8d</_id>
+=======
+			<_id type="a">GUID 4f165676-1c3e-4750-8b9e-a040f5a65755</_id>
+>>>>>>> Stashed changes
 =======
 			<_id type="a">GUID 4f165676-1c3e-4750-8b9e-a040f5a65755</_id>
 >>>>>>> Stashed changes
@@ -4520,7 +4916,11 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IClassifierRole</_hm2Class>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<_hid type="a">GUID 9d6dd65b-4135-4080-8f40-89f1e1b8afe4</_hid>
+=======
+					<_hid type="a">GUID b2bc99b4-d5fe-4d8e-95f0-fe5c4210fcc9</_hid>
+>>>>>>> Stashed changes
 =======
 					<_hid type="a">GUID b2bc99b4-d5fe-4d8e-95f0-fe5c4210fcc9</_hid>
 >>>>>>> Stashed changes
@@ -4573,7 +4973,11 @@
 		</CGIMscColumnCR>
 		<CGIMscColumnCR type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<_id type="a">GUID 91edec5f-00a5-4363-bceb-2027a98e0937</_id>
+=======
+			<_id type="a">GUID a6137883-5961-4a2f-b09d-38e4709de525</_id>
+>>>>>>> Stashed changes
 =======
 			<_id type="a">GUID a6137883-5961-4a2f-b09d-38e4709de525</_id>
 >>>>>>> Stashed changes
@@ -4582,7 +4986,11 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IClassifierRole</_hm2Class>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<_hid type="a">GUID bd07f26b-58f9-4a10-b7bb-4bb64fb6ad92</_hid>
+=======
+					<_hid type="a">GUID d9715e0e-0c6f-48c5-a5e3-1d5accba26ea</_hid>
+>>>>>>> Stashed changes
 =======
 					<_hid type="a">GUID d9715e0e-0c6f-48c5-a5e3-1d5accba26ea</_hid>
 >>>>>>> Stashed changes
@@ -4635,7 +5043,11 @@
 		</CGIMscColumnCR>
 		<CGIMscMessage type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<_id type="a">GUID 029950ad-a88a-4f65-aa46-31618302b746</_id>
+=======
+			<_id type="a">GUID 87603068-3e9e-49c2-a102-e50c9ca2cf45</_id>
+>>>>>>> Stashed changes
 =======
 			<_id type="a">GUID 87603068-3e9e-49c2-a102-e50c9ca2cf45</_id>
 >>>>>>> Stashed changes
@@ -4682,7 +5094,11 @@
 				<IHandle type="e">
 					<_hm2Class type="a">IMessage</_hm2Class>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<_hid type="a">GUID 3edad14e-9d30-465e-9449-ede9d1472f50</_hid>
+=======
+					<_hid type="a">GUID 4bdb63ff-6b53-4ab0-9b82-2733cdf4bc4a</_hid>
+>>>>>>> Stashed changes
 =======
 					<_hid type="a">GUID 4bdb63ff-6b53-4ab0-9b82-2733cdf4bc4a</_hid>
 >>>>>>> Stashed changes
@@ -4710,9 +5126,15 @@
 			<m_drawBehavior type="a">4096</m_drawBehavior>
 			<m_bIsPreferencesInitialized type="a">0</m_bIsPreferencesInitialized>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 			<m_pSource type="s">GUID 3110aee4-de77-43a9-afa5-ff4a63b29f8d</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>
 			<m_pTarget type="s">GUID 91edec5f-00a5-4363-bceb-2027a98e0937</m_pTarget>
+=======
+			<m_pSource type="s">GUID 4f165676-1c3e-4750-8b9e-a040f5a65755</m_pSource>
+			<m_sourceType type="a">'F'</m_sourceType>
+			<m_pTarget type="s">GUID a6137883-5961-4a2f-b09d-38e4709de525</m_pTarget>
+>>>>>>> Stashed changes
 =======
 			<m_pSource type="s">GUID 4f165676-1c3e-4750-8b9e-a040f5a65755</m_pSource>
 			<m_sourceType type="a">'F'</m_sourceType>

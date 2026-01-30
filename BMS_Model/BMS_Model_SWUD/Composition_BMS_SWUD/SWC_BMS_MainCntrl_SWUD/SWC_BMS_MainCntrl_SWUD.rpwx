@@ -18,6 +18,7 @@
 			<myViewsWithID type="c">
 				<IRPYRawContainer type="e">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 					<size type="a">12</size>
 =======
 					<size type="a">10</size>
@@ -359,6 +360,9 @@
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
 					
+=======
+					<size type="a">10</size>
+>>>>>>> Stashed changes
 					<CGEMdiDiagramParams type="e">
 						<_placement type="p">
 							<CCommon_WINDOWPLACEMENT type="e">
@@ -367,8 +371,13 @@
 								<m_showCmd type="a">1</m_showCmd>
 								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+<<<<<<< Updated upstream
 								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
 								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
+=======
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+>>>>>>> Stashed changes
 								<m_nLeft type="a">0</m_nLeft>
 								<m_nTop type="a">0</m_nTop>
 								<m_nRight type="a">136</m_nRight>
@@ -383,11 +392,19 @@
 								<_hsubsystem type="a">SWC_BMS_MainCntrl_Src::Soc</_hsubsystem>
 								<_hclass type="a">TopLevel.BmsSoc_State</_hclass>
 								<_hname type="a">ActivityDiagram</_hname>
+<<<<<<< Updated upstream
 								<_hid type="a">GUID d1474566-b32a-4941-af0e-365b96ebbbff</_hid>
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
 						<_DownRight type="a">99 1 </_DownRight>
+=======
+								<_hid type="a">GUID 81fd8479-69e3-42ff-9d45-f334b703112c</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">103 17 </_DownRight>
+>>>>>>> Stashed changes
 						<m_nDiagramIndex type="a">9</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
@@ -400,8 +417,13 @@
 								<m_showCmd type="a">1</m_showCmd>
 								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+<<<<<<< Updated upstream
 								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
 								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
+=======
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+>>>>>>> Stashed changes
 								<m_nLeft type="a">0</m_nLeft>
 								<m_nTop type="a">0</m_nTop>
 								<m_nRight type="a">136</m_nRight>
@@ -416,11 +438,19 @@
 								<_hsubsystem type="a">SWC_BMS_MainCntrl_Src::Soc</_hsubsystem>
 								<_hclass type="a">TopLevel.BmsSoc_State</_hclass>
 								<_hname type="a">ActivityDiagram</_hname>
+<<<<<<< Updated upstream
 								<_hid type="a">GUID 049878f6-7c1a-422f-a8c6-b4ffa740955f</_hid>
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
 						<_DownRight type="a">99 1 </_DownRight>
+=======
+								<_hid type="a">GUID ee525438-f637-40b0-847d-7a166ba80483</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">103 17 </_DownRight>
+>>>>>>> Stashed changes
 						<m_nDiagramIndex type="a">8</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
@@ -433,8 +463,13 @@
 								<m_showCmd type="a">1</m_showCmd>
 								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+<<<<<<< Updated upstream
 								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
 								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
+=======
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+>>>>>>> Stashed changes
 								<m_nLeft type="a">0</m_nLeft>
 								<m_nTop type="a">0</m_nTop>
 								<m_nRight type="a">136</m_nRight>
@@ -449,11 +484,19 @@
 								<_hsubsystem type="a">SWC_BMS_MainCntrl_Src::Soc</_hsubsystem>
 								<_hclass type="a">TopLevel.BmsSoc_State</_hclass>
 								<_hname type="a">ActivityDiagram</_hname>
+<<<<<<< Updated upstream
 								<_hid type="a">GUID 76f7e1b0-857f-4ee4-95dd-4f33bbbff922</_hid>
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
 						<_DownRight type="a">99 1 </_DownRight>
+=======
+								<_hid type="a">GUID af0c3dee-8130-40dd-a0f0-ad526c5e637a</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">103 17 </_DownRight>
+>>>>>>> Stashed changes
 						<m_nDiagramIndex type="a">4</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
@@ -466,8 +509,13 @@
 								<m_showCmd type="a">1</m_showCmd>
 								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+<<<<<<< Updated upstream
 								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
 								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
+=======
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+>>>>>>> Stashed changes
 								<m_nLeft type="a">0</m_nLeft>
 								<m_nTop type="a">0</m_nTop>
 								<m_nRight type="a">136</m_nRight>
@@ -482,11 +530,19 @@
 								<_hsubsystem type="a">SWC_BMS_MainCntrl_Src::Soc</_hsubsystem>
 								<_hclass type="a">TopLevel.BmsSoc_State</_hclass>
 								<_hname type="a">ActivityDiagram</_hname>
+<<<<<<< Updated upstream
 								<_hid type="a">GUID aee34ccc-cead-4454-b8d5-fc5427dac024</_hid>
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
 						<_DownRight type="a">99 1 </_DownRight>
+=======
+								<_hid type="a">GUID 06a7f305-0eee-4b7c-8930-e0884b2d57bd</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">103 17 </_DownRight>
+>>>>>>> Stashed changes
 						<m_nDiagramIndex type="a">2</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
@@ -499,8 +555,13 @@
 								<m_showCmd type="a">1</m_showCmd>
 								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+<<<<<<< Updated upstream
 								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
 								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
+=======
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+>>>>>>> Stashed changes
 								<m_nLeft type="a">0</m_nLeft>
 								<m_nTop type="a">0</m_nTop>
 								<m_nRight type="a">136</m_nRight>
@@ -515,11 +576,19 @@
 								<_hsubsystem type="a">SWC_BMS_MainCntrl_Src::Soc</_hsubsystem>
 								<_hclass type="a">TopLevel.BmsSoc_State</_hclass>
 								<_hname type="a">ActivityDiagram</_hname>
+<<<<<<< Updated upstream
 								<_hid type="a">GUID 73466011-dac7-4429-978a-7c070c0714d6</_hid>
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
 						<_DownRight type="a">99 1 </_DownRight>
+=======
+								<_hid type="a">GUID 29ec703a-6822-4958-ae09-f6098239ffc1</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">103 17 </_DownRight>
+>>>>>>> Stashed changes
 						<m_nDiagramIndex type="a">3</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
@@ -532,8 +601,13 @@
 								<m_showCmd type="a">1</m_showCmd>
 								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+<<<<<<< Updated upstream
 								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
 								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
+=======
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+>>>>>>> Stashed changes
 								<m_nLeft type="a">0</m_nLeft>
 								<m_nTop type="a">0</m_nTop>
 								<m_nRight type="a">136</m_nRight>
@@ -548,6 +622,7 @@
 								<_hsubsystem type="a">SWC_BMS_MainCntrl_Src::Soc</_hsubsystem>
 								<_hclass type="a">TopLevel.BmsSoc_State</_hclass>
 								<_hname type="a">ActivityDiagram</_hname>
+<<<<<<< Updated upstream
 								<_hid type="a">GUID 87a4e957-4c79-4799-9c48-f0ef51d16c9c</_hid>
 							</IHandle>
 						</_theDiagram>
@@ -557,6 +632,14 @@
 =======
 						<_DownRight type="a">103 17 </_DownRight>
 						<m_nDiagramIndex type="a">7</m_nDiagramIndex>
+>>>>>>> Stashed changes
+=======
+								<_hid type="a">GUID 8097153b-ad44-4a3b-ab9b-d3465bc71166</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">103 17 </_DownRight>
+						<m_nDiagramIndex type="a">1</m_nDiagramIndex>
 >>>>>>> Stashed changes
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
@@ -569,8 +652,13 @@
 								<m_showCmd type="a">1</m_showCmd>
 								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+<<<<<<< Updated upstream
 								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
 								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
+=======
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+>>>>>>> Stashed changes
 								<m_nLeft type="a">0</m_nLeft>
 								<m_nTop type="a">0</m_nTop>
 								<m_nRight type="a">136</m_nRight>
@@ -585,11 +673,19 @@
 								<_hsubsystem type="a">SWC_BMS_MainCntrl_Src::Soc</_hsubsystem>
 								<_hclass type="a">TopLevel.BmsSoc_State</_hclass>
 								<_hname type="a">ActivityDiagram</_hname>
+<<<<<<< Updated upstream
 								<_hid type="a">GUID e7c3b608-6c06-4c59-9597-31d1afd40c07</_hid>
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
 						<_DownRight type="a">99 1 </_DownRight>
+=======
+								<_hid type="a">GUID 7b7b0f40-207d-4a4f-ad02-22bf156c3ae8</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">103 17 </_DownRight>
+>>>>>>> Stashed changes
 						<m_nDiagramIndex type="a">6</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
@@ -602,8 +698,13 @@
 								<m_showCmd type="a">1</m_showCmd>
 								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+<<<<<<< Updated upstream
 								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
 								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
+=======
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+>>>>>>> Stashed changes
 								<m_nLeft type="a">0</m_nLeft>
 								<m_nTop type="a">0</m_nTop>
 								<m_nRight type="a">136</m_nRight>
@@ -618,11 +719,19 @@
 								<_hsubsystem type="a">SWC_BMS_MainCntrl_Src::Soc</_hsubsystem>
 								<_hclass type="a">TopLevel.BmsSoc_State</_hclass>
 								<_hname type="a">ActivityDiagram</_hname>
+<<<<<<< Updated upstream
 								<_hid type="a">GUID 01594088-5d3d-462c-a456-a6b74571e536</_hid>
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
 						<_DownRight type="a">99 1 </_DownRight>
+=======
+								<_hid type="a">GUID 83a061c0-f29b-4383-8dc0-eb3b517f0d4b</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">103 17 </_DownRight>
+>>>>>>> Stashed changes
 						<m_nDiagramIndex type="a">5</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>
@@ -631,12 +740,21 @@
 						<_placement type="p">
 							<CCommon_WINDOWPLACEMENT type="e">
 								<m_nLength type="a">44</m_nLength>
+<<<<<<< Updated upstream
 								<m_nFlags type="a">0</m_nFlags>
 								<m_showCmd type="a">1</m_showCmd>
 								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
 								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
 								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
+=======
+								<m_nFlags type="a">2</m_nFlags>
+								<m_showCmd type="a">3</m_showCmd>
+								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
+								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+>>>>>>> Stashed changes
 								<m_nLeft type="a">0</m_nLeft>
 								<m_nTop type="a">0</m_nTop>
 								<m_nRight type="a">136</m_nRight>
@@ -651,11 +769,19 @@
 								<_hsubsystem type="a">SWC_BMS_MainCntrl_Src::Soc</_hsubsystem>
 								<_hclass type="a">TopLevel.BmsSoc_State</_hclass>
 								<_hname type="a">ActivityDiagram</_hname>
+<<<<<<< Updated upstream
 								<_hid type="a">GUID a70b4291-09f7-4192-9993-3c020346c071</_hid>
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
 						<_DownRight type="a">99 1 </_DownRight>
+=======
+								<_hid type="a">GUID f9ebe558-0f18-4a6b-ad29-7281bd6f93ec</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">103 17 </_DownRight>
+>>>>>>> Stashed changes
 						<m_nDiagramIndex type="a">0</m_nDiagramIndex>
 						<m_bIsActiveView type="a">1</m_bIsActiveView>
 					</CGEMdiDiagramParams>
@@ -668,8 +794,13 @@
 								<m_showCmd type="a">1</m_showCmd>
 								<m_ptMinPositionX type="a">-1</m_ptMinPositionX>
 								<m_ptMinPositionY type="a">-1</m_ptMinPositionY>
+<<<<<<< Updated upstream
 								<m_ptMaxPositionX type="a">-1</m_ptMaxPositionX>
 								<m_ptMaxPositionY type="a">-1</m_ptMaxPositionY>
+=======
+								<m_ptMaxPositionX type="a">-8</m_ptMaxPositionX>
+								<m_ptMaxPositionY type="a">-31</m_ptMaxPositionY>
+>>>>>>> Stashed changes
 								<m_nLeft type="a">0</m_nLeft>
 								<m_nTop type="a">0</m_nTop>
 								<m_nRight type="a">136</m_nRight>
@@ -684,11 +815,19 @@
 								<_hsubsystem type="a">SWC_BMS_MainCntrl_Src::Soc</_hsubsystem>
 								<_hclass type="a">TopLevel.BmsSoc_State</_hclass>
 								<_hname type="a">ActivityDiagram</_hname>
+<<<<<<< Updated upstream
 								<_hid type="a">GUID 0c65e158-0c2e-4ca3-b200-3a1bb5c3f006</_hid>
 							</IHandle>
 						</_theDiagram>
 						<_UpLeft type="a">0 0 </_UpLeft>
 						<_DownRight type="a">99 1 </_DownRight>
+=======
+								<_hid type="a">GUID 898ce433-c644-4469-8a74-a38b932fe21f</_hid>
+							</IHandle>
+						</_theDiagram>
+						<_UpLeft type="a">0 0 </_UpLeft>
+						<_DownRight type="a">103 17 </_DownRight>
+>>>>>>> Stashed changes
 						<m_nDiagramIndex type="a">7</m_nDiagramIndex>
 						<m_bIsActiveView type="a">0</m_bIsActiveView>
 					</CGEMdiDiagramParams>

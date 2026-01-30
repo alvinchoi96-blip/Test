@@ -8,7 +8,7 @@
 	
 	<RHAPSODY-MODEL>
 	<ISubsystem type="e">
-			<_id type="a">GUID 5f8269d8-74c8-4af3-bebc-09b350c7442f</_id>
+			<_id type="a">GUID 57768c2d-3ca4-44fe-a937-aae65c5a8c92</_id>
 			<_myState type="a">8192</_myState>
 			<_name type="a">StubFiles</_name>
 			<Stereotypes type="c">
@@ -25,19 +25,19 @@
 					
 				</IRPYRawContainer>
 			</Stereotypes>
-			<_modifiedTimeWeak type="a">1.29.2026::12:31:22</_modifiedTimeWeak>
-			<_modifiedTime type="a">1.29.2026::12:31:22</_modifiedTime>
-			<weakCGTime type="a">1.29.2026::12:31:22</weakCGTime>
-			<strongCGTime type="a">1.29.2026::12:31:22</strongCGTime>
-			<_defaultComposite type="s">GUID c750adbb-1286-46e5-8f72-f042e3fbb20d</_defaultComposite>
+			<_modifiedTimeWeak type="a">1.30.2026::1:2:52</_modifiedTimeWeak>
+			<_modifiedTime type="a">1.30.2026::1:2:52</_modifiedTime>
+			<weakCGTime type="a">1.30.2026::1:2:52</weakCGTime>
+			<strongCGTime type="a">1.30.2026::1:2:52</strongCGTime>
+			<_defaultComposite type="s">GUID 3a322d6a-3425-4e16-85dd-3cd0fa8af077</_defaultComposite>
 			<_eventsBaseID type="a">-1</_eventsBaseID>
 			<_configurationRelatedTime type="a">1.1.1970::9:0:0</_configurationRelatedTime>
 			<AggregatesList type="e">
-				<value>GUID c750adbb-1286-46e5-8f72-f042e3fbb20d</value>
+				<value>GUID 3a322d6a-3425-4e16-85dd-3cd0fa8af077</value>
 			</AggregatesList>
 		</ISubsystem>
 		<IClass type="e">
-			<_id type="a">GUID c750adbb-1286-46e5-8f72-f042e3fbb20d</_id>
+			<_id type="a">GUID 3a322d6a-3425-4e16-85dd-3cd0fa8af077</_id>
 			<_myState type="a">40960</_myState>
 			<_name type="a">TopLevel</_name>
 			<_modifiedTimeWeak type="a">1.2.1990::0:0:0</_modifiedTimeWeak>

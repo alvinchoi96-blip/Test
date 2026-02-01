@@ -2,12 +2,6 @@
 #include "BMS_MainCntrl_GlobalData.h"
 #include "BmsMainCntrl_Soc.h"
 #include "Bms_StatusDecision.h"
-
-
-
-#include "Bms_Tx_PackMeasData.h"
-#include "Bms_Tx_PackCalculatedData.h"
-#include "Bms_Tx_BattStatusFlags.h"
 #include "Bms_TxMapper_ReportBattInfo.h"
 
 /* ==================================================================================
@@ -19,6 +13,9 @@ Input_CellMeas_Type  g_Input_CellMeas;
 Input_CurrMeas_Type  g_Input_CurrMeas;
 Input_TempMeas_Type  g_Input_TempMeas;
 Input_FaultFlag_Type g_Input_FaultFlag;
+
+/* 충전 제어용 변수 할당 */
+Bms_ChargeControl_Type g_ChargeControl;
 
 /* SOC Output 용 변수 할당*/
 BmsSoc_Output_t soc_Out;
@@ -83,7 +80,13 @@ FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_PerfomCellBalancing_1000
 
 FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_ChargeSequence_100ms(void)
 {
-
+    if(g_BmsModeContext.determinedMode == BmsMd_Charging)
+    {
+        (void)Rte_Call_SWC_BMS_MainCntrl_R_ChgData_chargeSequenceCtrl(
+            &g_ChargeControl.chgTargetVoltage,
+            &g_ChargeControl.chgTargetCurrent,
+            &g_ChargeControl.chargingStatus);
+    }
 }
 
 FUNC(void, SWC_BMS_MainCntrl_CODE) REtSWC_BMS_MainCntrl_HMI_Output_100ms(void)

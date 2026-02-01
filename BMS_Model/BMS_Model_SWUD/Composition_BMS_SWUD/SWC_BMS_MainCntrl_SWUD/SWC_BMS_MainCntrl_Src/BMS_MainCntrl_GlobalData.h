@@ -131,6 +131,14 @@ typedef struct
     f_IsolResist isol;
 } Bms_BattStatusFlags_TxType;
 
+/* [Interface: ChargeControl] 충전 시퀀스 제어 데이터 */
+typedef struct
+{
+    uint32    chgTargetVoltage;
+    uint16    chgTargetCurrent;
+    e_ChgInfo chargingStatus;
+} Bms_ChargeControl_Type;
+
 /* 모드 변경 여부 판단용 구조체 */
 typedef struct {
     boolean isModeChanged;
@@ -139,5 +147,6 @@ typedef struct {
 } BmsModeContext_Type;
 
 extern BmsModeContext_Type g_BmsModeContext;
+extern Bms_ChargeControl_Type g_ChargeControl;
 
 #endif /* BMS_MAINCNTRL_GLOBALDATA_H */
